@@ -1,0 +1,33 @@
+{
+  "name": "rustls",
+  "version": "0.22.0-alpha.6",
+  "ecosystem": "cargo",
+  "description": "Rustls is a modern TLS library written in Rust.",
+  "license": "Apache-2.0 OR ISC OR MIT",
+  "checksum": "72d42991943cf48034955ba6d9a28f30e6b1e5fd73e46737ce52e8461bcc28e3",
+  "features": {
+    "aws_lc_rs": [
+      "dep:aws-lc-rs",
+      "webpki/aws_lc_rs"
+    ],
+    "default": [
+      "logging",
+      "ring",
+      "tls12"
+    ],
+    "logging": [
+      "log"
+    ],
+    "read_buf": [
+      "rustversion"
+    ],
+    "ring": [
+      "dep:ring",
+      "webpki/ring"
+    ],
+    "tls12": []
+  },
+  "downloads": 3685,
+  "captured_at": "2026-05-22T22:11:16.088Z",
+  "captured_by": "prechained.com"
+}
