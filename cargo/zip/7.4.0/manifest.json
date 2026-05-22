@@ -1,0 +1,101 @@
+{
+  "name": "zip",
+  "version": "7.4.0",
+  "ecosystem": "cargo",
+  "description": "Library to support the reading and writing of zip files.",
+  "license": "MIT",
+  "checksum": "cc12baa6db2b15a140161ce53d72209dacea594230798c24774139b54ecaa980",
+  "features": {
+    "_arbitrary": [
+      "dep:arbitrary"
+    ],
+    "_bzip2_any": [],
+    "_deflate-any": [],
+    "aes-crypto": [
+      "dep:aes",
+      "dep:constant_time_eq",
+      "getrandom/std",
+      "dep:hmac",
+      "dep:pbkdf2",
+      "dep:sha1",
+      "dep:zeroize"
+    ],
+    "bzip2": [
+      "dep:bzip2",
+      "bzip2/default",
+      "_bzip2_any"
+    ],
+    "bzip2-rs": [
+      "dep:bzip2",
+      "bzip2/bzip2-sys",
+      "_bzip2_any"
+    ],
+    "chrono": [
+      "dep:chrono"
+    ],
+    "default": [
+      "aes-crypto",
+      "bzip2",
+      "deflate64",
+      "deflate",
+      "lzma",
+      "ppmd",
+      "time",
+      "zstd",
+      "xz"
+    ],
+    "deflate": [
+      "deflate-zopfli",
+      "deflate-flate2-zlib-rs"
+    ],
+    "deflate-flate2": [
+      "_deflate-any",
+      "dep:flate2"
+    ],
+    "deflate-flate2-zlib": [
+      "deflate-flate2",
+      "flate2/zlib"
+    ],
+    "deflate-flate2-zlib-ng": [
+      "deflate-flate2",
+      "flate2/zlib-ng"
+    ],
+    "deflate-flate2-zlib-ng-compat": [
+      "deflate-flate2",
+      "flate2/zlib-ng-compat"
+    ],
+    "deflate-flate2-zlib-rs": [
+      "deflate-flate2",
+      "flate2/zlib-rs"
+    ],
+    "deflate-zopfli": [
+      "dep:zopfli",
+      "_deflate-any"
+    ],
+    "jiff-02": [
+      "dep:jiff"
+    ],
+    "legacy-zip": [
+      "bitstream-io"
+    ],
+    "lzma": [
+      "dep:lzma-rust2"
+    ],
+    "nt-time": [
+      "dep:nt-time"
+    ],
+    "ppmd": [
+      "dep:ppmd-rust"
+    ],
+    "time": [
+      "dep:time"
+    ],
+    "unreserved": [],
+    "xz": [
+      "dep:lzma-rust2"
+    ]
+  },
+  "downloads": 338727,
+  "captured_at": "2026-05-22T23:48:05.962Z",
+  "captured_by": "prechained.com"
+}
