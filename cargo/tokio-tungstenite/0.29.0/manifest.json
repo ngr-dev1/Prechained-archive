@@ -1,0 +1,57 @@
+{
+  "name": "tokio-tungstenite",
+  "version": "0.29.0",
+  "ecosystem": "cargo",
+  "description": "Tokio binding for Tungstenite, the Lightweight stream-based WebSocket implementation",
+  "license": "MIT",
+  "checksum": "8f72a05e828585856dacd553fba484c242c46e391fb0e58917c942ee9202915c",
+  "features": {
+    "__rustls-tls": [
+      "rustls",
+      "rustls-pki-types",
+      "tokio-rustls",
+      "stream",
+      "tungstenite/__rustls-tls",
+      "handshake"
+    ],
+    "connect": [
+      "stream",
+      "tokio/net",
+      "handshake"
+    ],
+    "default": [
+      "connect",
+      "handshake"
+    ],
+    "handshake": [
+      "tungstenite/handshake"
+    ],
+    "native-tls": [
+      "native-tls-crate",
+      "tokio-native-tls",
+      "stream",
+      "tungstenite/native-tls",
+      "handshake"
+    ],
+    "native-tls-vendored": [
+      "native-tls",
+      "native-tls-crate/vendored",
+      "tungstenite/native-tls-vendored"
+    ],
+    "rustls-tls-native-roots": [
+      "__rustls-tls",
+      "rustls-native-certs"
+    ],
+    "rustls-tls-webpki-roots": [
+      "__rustls-tls",
+      "webpki-roots"
+    ],
+    "stream": [],
+    "url": [
+      "tungstenite/url"
+    ]
+  },
+  "downloads": 3634505,
+  "captured_at": "2026-05-22T20:59:03.116Z",
+  "captured_by": "prechained.com"
+}
