@@ -1,0 +1,55 @@
+{
+  "name": "rdkafka",
+  "version": "0.22.1",
+  "ecosystem": "cargo",
+  "description": "Rust wrapper for librdkafka",
+  "license": "MIT",
+  "checksum": "583d689b966c9c929fab6ce612c0b5b01da94229f2ae67e55ac8d050b3a0f5dc",
+  "features": {
+    "cmake-build": [
+      "rdkafka-sys/cmake-build"
+    ],
+    "cmake_build": [
+      "rdkafka-sys/cmake_build"
+    ],
+    "default": [
+      "libz"
+    ],
+    "dynamic_linking": [
+      "rdkafka-sys/dynamic_linking"
+    ],
+    "external-lz4": [
+      "rdkafka-sys/external-lz4"
+    ],
+    "external_lz4": [
+      "rdkafka-sys/external_lz4"
+    ],
+    "gssapi": [
+      "rdkafka-sys/gssapi"
+    ],
+    "libz": [
+      "rdkafka-sys/libz"
+    ],
+    "libz-static": [
+      "rdkafka-sys/libz-static"
+    ],
+    "sasl": [
+      "rdkafka-sys/sasl"
+    ],
+    "ssl": [
+      "rdkafka-sys/ssl"
+    ],
+    "ssl-vendored": [
+      "rdkafka-sys/ssl-vendored"
+    ],
+    "zstd": [
+      "rdkafka-sys/zstd"
+    ],
+    "zstd-pkg-config": [
+      "rdkafka-sys/zstd-pkg-config"
+    ]
+  },
+  "downloads": 8326,
+  "captured_at": "2026-05-22T16:34:21.840Z",
+  "captured_by": "prechained.com"
+}
