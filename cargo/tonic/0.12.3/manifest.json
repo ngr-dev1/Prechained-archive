@@ -1,0 +1,93 @@
+{
+  "name": "tonic",
+  "version": "0.12.3",
+  "ecosystem": "cargo",
+  "description": "A gRPC over HTTP/2 implementation focused on high performance, interoperability, and flexibility.\n",
+  "license": "MIT",
+  "checksum": "877c5b330756d856ffcc4553ab34a5684481ade925ecc54bcd1bf02b1d0d4d52",
+  "features": {
+    "channel": [
+      "dep:hyper",
+      "hyper?/client",
+      "dep:hyper-util",
+      "hyper-util?/client-legacy",
+      "dep:tower",
+      "tower?/balance",
+      "tower?/buffer",
+      "tower?/discover",
+      "tower?/limit",
+      "tower?/util",
+      "dep:tokio",
+      "tokio?/time",
+      "dep:hyper-timeout"
+    ],
+    "codegen": [
+      "dep:async-trait"
+    ],
+    "default": [
+      "transport",
+      "codegen",
+      "prost"
+    ],
+    "gzip": [
+      "dep:flate2"
+    ],
+    "prost": [
+      "dep:prost"
+    ],
+    "router": [
+      "dep:axum",
+      "dep:tower",
+      "tower?/util"
+    ],
+    "server": [
+      "router",
+      "dep:async-stream",
+      "dep:h2",
+      "dep:hyper",
+      "hyper?/server",
+      "dep:hyper-util",
+      "hyper-util?/service",
+      "hyper-util?/server-auto",
+      "dep:socket2",
+      "dep:tokio",
+      "tokio?/macros",
+      "tokio?/net",
+      "tokio?/time",
+      "tokio-stream/net",
+      "dep:tower",
+      "tower?/util",
+      "tower?/limit"
+    ],
+    "tls": [
+      "dep:rustls-pemfile",
+      "dep:tokio-rustls",
+      "dep:tokio",
+      "tokio?/rt",
+      "tokio?/macros"
+    ],
+    "tls-native-roots": [
+      "tls",
+      "channel",
+      "dep:rustls-native-certs"
+    ],
+    "tls-roots": [
+      "tls-native-roots"
+    ],
+    "tls-webpki-roots": [
+      "tls",
+      "channel",
+      "dep:webpki-roots"
+    ],
+    "transport": [
+      "server",
+      "channel"
+    ],
+    "zstd": [
+      "dep:zstd"
+    ]
+  },
+  "downloads": 72944611,
+  "captured_at": "2026-05-22T22:47:31.060Z",
+  "captured_by": "prechained.com"
+}
