@@ -1,0 +1,40 @@
+{
+  "name": "RestSharp",
+  "version": "106.11.1",
+  "ecosystem": "nuget",
+  "description": "Simple REST and HTTP API Client",
+  "license": "Apache-2.0",
+  "authors": "John Sheehan, Andrew Young, Alexey Zimarev and RestSharp community",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.07.15.20.25.21/restsharp.106.11.1.json#dependencygroup/.netframework4.5.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.07.15.20.25.21/restsharp.106.11.1.json#dependencygroup/.netframework4.5.2/restsharp.serializers.simplejson",
+          "@type": "PackageDependency",
+          "id": "RestSharp.Serializers.SimpleJson",
+          "range": "[106.11.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/restsharp.serializers.simplejson/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.07.15.20.25.21/restsharp.106.11.1.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.07.15.20.25.21/restsharp.106.11.1.json#dependencygroup/.netstandard2.0/restsharp.serializers.simplejson",
+          "@type": "PackageDependency",
+          "id": "RestSharp.Serializers.SimpleJson",
+          "range": "[106.11.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/restsharp.serializers.simplejson/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "captured_at": "2026-05-22T20:59:02.430Z",
+  "captured_by": "prechained.com"
+}
