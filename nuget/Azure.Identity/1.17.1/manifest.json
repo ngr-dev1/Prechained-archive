@@ -1,0 +1,75 @@
+{
+  "name": "Azure.Identity",
+  "version": "1.17.1",
+  "ecosystem": "nuget",
+  "description": "Provides APIs for authenticating to Microsoft Entra ID",
+  "license": "MIT",
+  "authors": "Microsoft",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.19.19.55.44/azure.identity.1.17.1.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.19.19.55.44/azure.identity.1.17.1.json#dependencygroup/net8.0/azure.core",
+          "@type": "PackageDependency",
+          "id": "Azure.Core",
+          "range": "[1.50.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/azure.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.19.19.55.44/azure.identity.1.17.1.json#dependencygroup/net8.0/microsoft.identity.client",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client",
+          "range": "[4.78.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.19.19.55.44/azure.identity.1.17.1.json#dependencygroup/net8.0/microsoft.identity.client.extensions.msal",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client.Extensions.Msal",
+          "range": "[4.78.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client.extensions.msal/index.json"
+        }
+      ],
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.19.19.55.44/azure.identity.1.17.1.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.19.19.55.44/azure.identity.1.17.1.json#dependencygroup/.netstandard2.0/azure.core",
+          "@type": "PackageDependency",
+          "id": "Azure.Core",
+          "range": "[1.50.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/azure.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.19.19.55.44/azure.identity.1.17.1.json#dependencygroup/.netstandard2.0/microsoft.identity.client",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client",
+          "range": "[4.78.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.19.19.55.44/azure.identity.1.17.1.json#dependencygroup/.netstandard2.0/microsoft.identity.client.extensions.msal",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client.Extensions.Msal",
+          "range": "[4.78.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client.extensions.msal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.19.19.55.44/azure.identity.1.17.1.json#dependencygroup/.netstandard2.0/system.memory",
+          "@type": "PackageDependency",
+          "id": "System.Memory",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "captured_at": "2026-05-22T22:04:42.399Z",
+  "captured_by": "prechained.com"
+}
