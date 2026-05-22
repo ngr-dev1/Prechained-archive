@@ -1,0 +1,117 @@
+{
+  "name": "Serilog.Sinks.File",
+  "version": "5.0.0-dev-00920",
+  "ecosystem": "nuget",
+  "description": "Write Serilog events to text files in plain or JSON format.",
+  "license": "Apache-2.0",
+  "authors": "Serilog Contributors",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netframework4.5",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netframework4.5/serilog",
+          "@type": "PackageDependency",
+          "id": "Serilog",
+          "range": "[2.9.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netstandard1.3",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netstandard1.3/serilog",
+          "@type": "PackageDependency",
+          "id": "Serilog",
+          "range": "[2.9.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netstandard1.3/system.io",
+          "@type": "PackageDependency",
+          "id": "System.IO",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netstandard1.3/system.io.filesystem",
+          "@type": "PackageDependency",
+          "id": "System.IO.FileSystem",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io.filesystem/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netstandard1.3/system.io.filesystem.primitives",
+          "@type": "PackageDependency",
+          "id": "System.IO.FileSystem.Primitives",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io.filesystem.primitives/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netstandard1.3/system.runtime.interopservices",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.InteropServices",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.interopservices/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netstandard1.3/system.text.encoding.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encoding.Extensions",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encoding.extensions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netstandard1.3/system.threading",
+          "@type": "PackageDependency",
+          "id": "System.Threading",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netstandard1.3/system.threading.timer",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Timer",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.timer/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netcoreapp3.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netcoreapp3.0/serilog",
+          "@type": "PackageDependency",
+          "id": "Serilog",
+          "range": "[2.9.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog/index.json"
+        }
+      ],
+      "targetFramework": ".NETCoreApp3.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.06.15.06.20.33/serilog.sinks.file.5.0.0-dev-00920.json#dependencygroup/.netstandard2.0/serilog",
+          "@type": "PackageDependency",
+          "id": "Serilog",
+          "range": "[2.9.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "captured_at": "2026-05-22T22:19:18.926Z",
+  "captured_by": "prechained.com"
+}
