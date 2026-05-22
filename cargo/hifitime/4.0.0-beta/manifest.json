@@ -1,0 +1,34 @@
+{
+  "name": "hifitime",
+  "version": "4.0.0-beta",
+  "ecosystem": "cargo",
+  "description": "Ultra-precise date and time handling in Rust for scientific applications with leap second support",
+  "license": "Apache-2.0",
+  "checksum": "7cda647c38423a490c98e558cb5a9eb8ac07bb1caf6e01e9d311983e76420ab9",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "python": [
+      "std",
+      "pyo3",
+      "ut1"
+    ],
+    "std": [
+      "serde",
+      "serde_derive",
+      "web-time",
+      "snafu/std",
+      "snafu/backtrace"
+    ],
+    "ut1": [
+      "std",
+      "reqwest",
+      "tabled",
+      "openssl"
+    ]
+  },
+  "downloads": 2469,
+  "captured_at": "2026-05-22T23:28:06.925Z",
+  "captured_by": "prechained.com"
+}
