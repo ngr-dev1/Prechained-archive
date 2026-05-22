@@ -1,0 +1,72 @@
+{
+  "name": "lapin",
+  "version": "4.7.4",
+  "ecosystem": "cargo",
+  "description": "AMQP client library",
+  "license": "MIT",
+  "checksum": "f296d806dbacc044135c9686a0d3e78b5122907d4d6604c72a825316139e9f2d",
+  "features": {
+    "async-global-executor": [
+      "amq-protocol/async-global-executor",
+      "async-rs/async-global-executor",
+      "async-rs/async-io"
+    ],
+    "codegen": [
+      "codegen-internal",
+      "amq-protocol/codegen"
+    ],
+    "codegen-internal": [
+      "dep:amq-protocol-codegen",
+      "dep:serde_json"
+    ],
+    "default": [
+      "rustls",
+      "default-runtime"
+    ],
+    "default-runtime": [
+      "tokio"
+    ],
+    "hickory-dns": [
+      "amq-protocol/hickory-dns",
+      "async-rs/hickory-dns"
+    ],
+    "native-tls": [
+      "amq-protocol/native-tls"
+    ],
+    "openssl": [
+      "amq-protocol/openssl"
+    ],
+    "rustls": [
+      "amq-protocol/rustls"
+    ],
+    "rustls--aws_lc_rs": [
+      "amq-protocol/rustls--aws_lc_rs"
+    ],
+    "rustls--ring": [
+      "amq-protocol/rustls--ring"
+    ],
+    "rustls-native-certs": [
+      "amq-protocol/rustls-native-certs"
+    ],
+    "rustls-platform-verifier": [
+      "amq-protocol/rustls-platform-verifier"
+    ],
+    "rustls-webpki-roots-certs": [
+      "amq-protocol/rustls-webpki-roots-certs"
+    ],
+    "smol": [
+      "amq-protocol/smol",
+      "async-rs/smol"
+    ],
+    "tokio": [
+      "amq-protocol/tokio",
+      "async-rs/tokio"
+    ],
+    "vendored-openssl": [
+      "amq-protocol/vendored-openssl"
+    ]
+  },
+  "downloads": 15179,
+  "captured_at": "2026-05-22T21:47:08.036Z",
+  "captured_by": "prechained.com"
+}
