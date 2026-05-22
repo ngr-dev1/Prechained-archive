@@ -1,0 +1,201 @@
+{
+  "name": "BenchmarkDotNet",
+  "version": "0.13.10",
+  "ecosystem": "nuget",
+  "description": "Powerful .NET library for benchmarking",
+  "license": "MIT",
+  "authors": ".NET Foundation and contributors",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/net6.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/net6.0/benchmarkdotnet.annotations",
+          "@type": "PackageDependency",
+          "id": "BenchmarkDotNet.Annotations",
+          "range": "[0.13.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/benchmarkdotnet.annotations/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/net6.0/commandlineparser",
+          "@type": "PackageDependency",
+          "id": "CommandLineParser",
+          "range": "[2.9.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/commandlineparser/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/net6.0/gee.external.capstone",
+          "@type": "PackageDependency",
+          "id": "Gee.External.Capstone",
+          "range": "[2.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/gee.external.capstone/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/net6.0/iced",
+          "@type": "PackageDependency",
+          "id": "Iced",
+          "range": "[1.17.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/iced/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/net6.0/microsoft.codeanalysis.csharp",
+          "@type": "PackageDependency",
+          "id": "Microsoft.CodeAnalysis.CSharp",
+          "range": "[4.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.codeanalysis.csharp/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/net6.0/microsoft.diagnostics.runtime",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Diagnostics.Runtime",
+          "range": "[2.2.332302, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.diagnostics.runtime/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/net6.0/microsoft.diagnostics.tracing.traceevent",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Diagnostics.Tracing.TraceEvent",
+          "range": "[3.0.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.diagnostics.tracing.traceevent/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/net6.0/microsoft.dotnet.platformabstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.DotNet.PlatformAbstractions",
+          "range": "[3.1.6, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.dotnet.platformabstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/net6.0/perfolizer",
+          "@type": "PackageDependency",
+          "id": "Perfolizer",
+          "range": "[0.2.1, 0.2.1]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/perfolizer/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/net6.0/system.management",
+          "@type": "PackageDependency",
+          "id": "System.Management",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.management/index.json"
+        }
+      ],
+      "targetFramework": "net6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/benchmarkdotnet.annotations",
+          "@type": "PackageDependency",
+          "id": "BenchmarkDotNet.Annotations",
+          "range": "[0.13.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/benchmarkdotnet.annotations/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/commandlineparser",
+          "@type": "PackageDependency",
+          "id": "CommandLineParser",
+          "range": "[2.9.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/commandlineparser/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/gee.external.capstone",
+          "@type": "PackageDependency",
+          "id": "Gee.External.Capstone",
+          "range": "[2.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/gee.external.capstone/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/iced",
+          "@type": "PackageDependency",
+          "id": "Iced",
+          "range": "[1.17.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/iced/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/microsoft.codeanalysis.csharp",
+          "@type": "PackageDependency",
+          "id": "Microsoft.CodeAnalysis.CSharp",
+          "range": "[4.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.codeanalysis.csharp/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/microsoft.diagnostics.runtime",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Diagnostics.Runtime",
+          "range": "[2.2.332302, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.diagnostics.runtime/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/microsoft.diagnostics.tracing.traceevent",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Diagnostics.Tracing.TraceEvent",
+          "range": "[3.0.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.diagnostics.tracing.traceevent/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/microsoft.dotnet.platformabstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.DotNet.PlatformAbstractions",
+          "range": "[3.1.6, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.dotnet.platformabstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/microsoft.win32.registry",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Win32.Registry",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.win32.registry/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/perfolizer",
+          "@type": "PackageDependency",
+          "id": "Perfolizer",
+          "range": "[0.2.1, 0.2.1]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/perfolizer/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/system.management",
+          "@type": "PackageDependency",
+          "id": "System.Management",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.management/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/system.numerics.vectors",
+          "@type": "PackageDependency",
+          "id": "System.Numerics.Vectors",
+          "range": "[4.5.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.numerics.vectors/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/system.reflection.emit",
+          "@type": "PackageDependency",
+          "id": "System.Reflection.Emit",
+          "range": "[4.7.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.reflection.emit/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/system.reflection.emit.lightweight",
+          "@type": "PackageDependency",
+          "id": "System.Reflection.Emit.Lightweight",
+          "range": "[4.7.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.reflection.emit.lightweight/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.11.01.16.32.39/benchmarkdotnet.0.13.10.json#dependencygroup/.netstandard2.0/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.5.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "captured_at": "2026-05-22T22:04:30.464Z",
+  "captured_by": "prechained.com"
+}
