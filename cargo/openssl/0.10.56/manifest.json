@@ -1,0 +1,27 @@
+{
+  "name": "openssl",
+  "version": "0.10.56",
+  "ecosystem": "cargo",
+  "description": "OpenSSL bindings",
+  "license": "Apache-2.0",
+  "checksum": "729b745ad4a5575dd06a3e1af1414bd330ee561c01b3899eb584baeaa8def17e",
+  "features": {
+    "bindgen": [
+      "ffi/bindgen"
+    ],
+    "default": [],
+    "unstable_boringssl": [
+      "ffi/unstable_boringssl"
+    ],
+    "v101": [],
+    "v102": [],
+    "v110": [],
+    "v111": [],
+    "vendored": [
+      "ffi/vendored"
+    ]
+  },
+  "downloads": 1979646,
+  "captured_at": "2026-05-22T22:15:40.074Z",
+  "captured_by": "prechained.com"
+}
