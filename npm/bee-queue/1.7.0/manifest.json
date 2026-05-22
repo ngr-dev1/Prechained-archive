@@ -1,0 +1,46 @@
+{
+  "name": "bee-queue",
+  "version": "1.7.0",
+  "ecosystem": "npm",
+  "description": "A simple, fast, robust job/task queue, backed by Redis.",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^3.1.2",
+    "p-finally": "^2.0.0",
+    "promise-callbacks": "^3.8.1"
+  },
+  "devDependencies": {
+    "ava": "^5.1.0",
+    "nyc": "^15.0.1",
+    "sinon": "^17.0.0",
+    "eslint": "^8.28.0",
+    "semver": "^7.2.1",
+    "ava-spec": "^1.1.0",
+    "prettier": "^3.0.3",
+    "@commitlint/cli": "^18.0.0",
+    "sandboxed-module": "^2.0.3",
+    "semantic-release": "^22.0.5",
+    "@sinonjs/fake-timers": "^11.2.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^10.0.3",
+    "@semantic-release/exec": "^6.0.3",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "@semantic-release/github": "^9.0.2",
+    "@semantic-release/changelog": "^6.0.1",
+    "@commitlint/config-conventional": "^18.1.0",
+    "@semantic-release/commit-analyzer": "^11.0.0",
+    "@semantic-release/release-notes-generator": "^12.0.0",
+    "conventional-changelog-conventionalcommits": "^7.0.1"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">= 4"
+  },
+  "dist": {
+    "integrity": "sha512-ODt+1d3IChayx42oF6X4ea7YA345udUt3hqhkTONBalHwzkhTKxTCyidAE0qmJRl92y2ObdGiVW0GqLYsrIr6g==",
+    "shasum": "020ef1adb945105374b2110cd52fd2083280bc26"
+  },
+  "captured_at": "2026-05-22T20:38:47.113Z",
+  "captured_by": "prechained.com"
+}
