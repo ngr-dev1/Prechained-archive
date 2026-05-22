@@ -1,0 +1,33 @@
+{
+  "name": "x25519-dalek",
+  "version": "3.0.0-pre.6",
+  "ecosystem": "cargo",
+  "description": "X25519 elliptic curve Diffie-Hellman key exchange in pure-Rust, using curve25519-dalek.",
+  "license": "BSD-3-Clause",
+  "checksum": "b3d5d6ff67acd3945b933e592bfa7143db4fcbb2f871754b6b9fbd7847fc5aea",
+  "features": {
+    "default": [
+      "precomputed-tables",
+      "zeroize"
+    ],
+    "getrandom": [
+      "dep:getrandom"
+    ],
+    "precomputed-tables": [
+      "curve25519-dalek/precomputed-tables"
+    ],
+    "reusable_secrets": [],
+    "serde": [
+      "dep:serde",
+      "curve25519-dalek/serde"
+    ],
+    "static_secrets": [],
+    "zeroize": [
+      "dep:zeroize",
+      "curve25519-dalek/zeroize"
+    ]
+  },
+  "downloads": 108631,
+  "captured_at": "2026-05-22T16:34:28.168Z",
+  "captured_by": "prechained.com"
+}
