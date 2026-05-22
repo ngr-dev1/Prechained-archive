@@ -1,0 +1,44 @@
+{
+  "name": "reqwest",
+  "version": "0.10.0-alpha.2",
+  "ecosystem": "cargo",
+  "description": "higher level HTTP client library",
+  "license": "MIT/Apache-2.0",
+  "checksum": "e83b47defcad97ddbe592fd5fe49e16661f754b0ba5847cf41bcd870a2d338d7",
+  "features": {
+    "__internal_proxy_sys_no_cache": [],
+    "blocking": [
+      "futures-channel-preview",
+      "futures-util-preview/io",
+      "tokio/rt-full"
+    ],
+    "cookies": [
+      "cookie_crate",
+      "cookie_store"
+    ],
+    "default": [
+      "default-tls"
+    ],
+    "default-tls": [
+      "hyper-tls",
+      "native-tls",
+      "tls",
+      "tokio-tls"
+    ],
+    "default-tls-vendored": [
+      "default-tls",
+      "native-tls/vendored"
+    ],
+    "gzip": [
+      "async-compression"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "tls": [],
+    "unstable-stream": []
+  },
+  "downloads": 79865,
+  "captured_at": "2026-05-22T21:43:40.684Z",
+  "captured_by": "prechained.com"
+}
