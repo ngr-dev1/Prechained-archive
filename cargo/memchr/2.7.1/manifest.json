@@ -1,0 +1,31 @@
+{
+  "name": "memchr",
+  "version": "2.7.1",
+  "ecosystem": "cargo",
+  "description": "Provides extremely fast (uses SIMD on x86_64, aarch64 and wasm32) routines for\n1, 2 or 3 byte search and single substring search.\n",
+  "license": "Unlicense OR MIT",
+  "checksum": "523dc4f511e55ab87b694dc30d0f820d60906ef06413f93d4d7a1385599cc149",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "libc": [],
+    "logging": [
+      "dep:log"
+    ],
+    "rustc-dep-of-std": [
+      "core",
+      "compiler_builtins"
+    ],
+    "std": [
+      "alloc"
+    ],
+    "use_std": [
+      "std"
+    ]
+  },
+  "downloads": 42730355,
+  "captured_at": "2026-05-22T23:18:07.759Z",
+  "captured_by": "prechained.com"
+}
