@@ -1,0 +1,50 @@
+{
+  "name": "proptest",
+  "version": "1.1.0",
+  "ecosystem": "cargo",
+  "description": "Hypothesis-like property-based testing and shrinking.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "29f1b898011ce9595050a68e60f90bad083ff2987a695a42357134c8381fba70",
+  "features": {
+    "alloc": [],
+    "atomic64bit": [],
+    "break-dead-code": [],
+    "default": [
+      "std",
+      "fork",
+      "timeout",
+      "bit-set",
+      "break-dead-code"
+    ],
+    "default-code-coverage": [
+      "std",
+      "fork",
+      "timeout",
+      "bit-set"
+    ],
+    "fork": [
+      "std",
+      "rusty-fork",
+      "tempfile"
+    ],
+    "hardware-rng": [
+      "x86"
+    ],
+    "std": [
+      "rand/std",
+      "byteorder/std",
+      "lazy_static",
+      "quick-error",
+      "regex-syntax",
+      "num-traits/std"
+    ],
+    "timeout": [
+      "fork",
+      "rusty-fork/timeout"
+    ],
+    "unstable": []
+  },
+  "downloads": 6549654,
+  "captured_at": "2026-05-22T16:36:57.117Z",
+  "captured_by": "prechained.com"
+}
