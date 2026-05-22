@@ -1,0 +1,100 @@
+{
+  "name": "tonic",
+  "version": "0.14.3",
+  "ecosystem": "cargo",
+  "description": "A gRPC over HTTP/2 implementation focused on high performance, interoperability, and flexibility.\n",
+  "license": "MIT",
+  "checksum": "a286e33f82f8a1ee2df63f4fa35c0becf4a85a0cb03091a15fd7bf0b402dc94a",
+  "features": {
+    "_tls-any": [
+      "dep:tokio",
+      "tokio?/rt",
+      "tokio?/macros",
+      "tls-connect-info"
+    ],
+    "channel": [
+      "dep:hyper",
+      "hyper?/client",
+      "dep:hyper-util",
+      "hyper-util?/client-legacy",
+      "dep:tower",
+      "tower?/balance",
+      "tower?/buffer",
+      "tower?/discover",
+      "tower?/limit",
+      "tower?/load-shed",
+      "tower?/util",
+      "dep:tokio",
+      "tokio?/time",
+      "dep:hyper-timeout"
+    ],
+    "codegen": [
+      "dep:async-trait"
+    ],
+    "default": [
+      "router",
+      "transport",
+      "codegen"
+    ],
+    "deflate": [
+      "dep:flate2"
+    ],
+    "gzip": [
+      "dep:flate2"
+    ],
+    "router": [
+      "dep:axum",
+      "dep:tower",
+      "tower?/util"
+    ],
+    "server": [
+      "dep:h2",
+      "dep:hyper",
+      "hyper?/server",
+      "dep:hyper-util",
+      "hyper-util?/service",
+      "hyper-util?/server-auto",
+      "dep:socket2",
+      "dep:tokio",
+      "tokio?/macros",
+      "tokio?/net",
+      "tokio?/time",
+      "tokio-stream/net",
+      "dep:tower",
+      "tower?/util",
+      "tower?/limit",
+      "tower?/load-shed"
+    ],
+    "tls-aws-lc": [
+      "_tls-any",
+      "tokio-rustls/aws-lc-rs"
+    ],
+    "tls-connect-info": [
+      "dep:tokio-rustls"
+    ],
+    "tls-native-roots": [
+      "_tls-any",
+      "channel",
+      "dep:rustls-native-certs"
+    ],
+    "tls-ring": [
+      "_tls-any",
+      "tokio-rustls/ring"
+    ],
+    "tls-webpki-roots": [
+      "_tls-any",
+      "channel",
+      "dep:webpki-roots"
+    ],
+    "transport": [
+      "server",
+      "channel"
+    ],
+    "zstd": [
+      "dep:zstd"
+    ]
+  },
+  "downloads": 3557973,
+  "captured_at": "2026-05-22T21:43:15.653Z",
+  "captured_by": "prechained.com"
+}
