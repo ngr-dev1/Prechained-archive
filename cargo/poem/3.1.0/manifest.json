@@ -1,0 +1,144 @@
+{
+  "name": "poem",
+  "version": "3.1.0",
+  "ecosystem": "cargo",
+  "description": "Poem is a full-featured and easy-to-use web framework with the Rust programming language.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "e5419c612a492fce4961c521dca0c2249b5c48dc46eb5c8048063843f37a711d",
+  "features": {
+    "acme": [
+      "acme-native-roots"
+    ],
+    "acme-base": [
+      "server",
+      "reqwest",
+      "rustls",
+      "ring",
+      "base64",
+      "rcgen",
+      "x509-parser",
+      "chrono"
+    ],
+    "acme-native-roots": [
+      "acme-base",
+      "reqwest/rustls-tls-native-roots"
+    ],
+    "acme-webpki-roots": [
+      "acme-base",
+      "reqwest/rustls-tls-webpki-roots"
+    ],
+    "compression": [
+      "async-compression"
+    ],
+    "cookie": [
+      "libcookie",
+      "chrono",
+      "time"
+    ],
+    "csrf": [
+      "cookie",
+      "base64",
+      "libcsrf"
+    ],
+    "default": [
+      "server"
+    ],
+    "embed": [
+      "rust-embed",
+      "hex",
+      "mime_guess"
+    ],
+    "i18n": [
+      "fluent",
+      "fluent-langneg",
+      "fluent-syntax",
+      "unic-langid",
+      "intl-memoizer"
+    ],
+    "multipart": [
+      "multer"
+    ],
+    "native-tls": [
+      "server",
+      "tokio-native-tls"
+    ],
+    "openssl-tls": [
+      "server",
+      "tokio-openssl",
+      "openssl"
+    ],
+    "opentelemetry": [
+      "libopentelemetry",
+      "opentelemetry-http",
+      "opentelemetry-semantic-conventions"
+    ],
+    "prometheus": [
+      "libopentelemetry",
+      "opentelemetry-prometheus",
+      "libprometheus"
+    ],
+    "redis-session": [
+      "session",
+      "redis"
+    ],
+    "requestid": [
+      "dep:uuid"
+    ],
+    "rustls": [
+      "server",
+      "tokio-rustls",
+      "rustls-pemfile"
+    ],
+    "server": [
+      "tokio/rt",
+      "tokio/net",
+      "hyper/server"
+    ],
+    "session": [
+      "tokio/rt",
+      "cookie",
+      "rand",
+      "priority-queue",
+      "base64"
+    ],
+    "sonic-rs": [
+      "dep:sonic-rs"
+    ],
+    "sse": [
+      "tokio-stream"
+    ],
+    "static-files": [
+      "httpdate",
+      "mime_guess",
+      "tokio/io-util",
+      "tokio/fs"
+    ],
+    "tempfile": [
+      "libtempfile",
+      "tokio/fs"
+    ],
+    "test": [
+      "sse",
+      "sse-codec",
+      "tokio-util/compat"
+    ],
+    "tower-compat": [
+      "tokio/rt",
+      "tower"
+    ],
+    "websocket": [
+      "tokio/rt",
+      "tokio-tungstenite",
+      "base64"
+    ],
+    "xml": [
+      "quick-xml"
+    ],
+    "yaml": [
+      "serde_yaml"
+    ]
+  },
+  "downloads": 28935,
+  "captured_at": "2026-05-22T22:15:47.683Z",
+  "captured_by": "prechained.com"
+}
