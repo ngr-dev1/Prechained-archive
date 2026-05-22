@@ -1,0 +1,24 @@
+{
+  "name": "password-hash",
+  "version": "0.6.0",
+  "ecosystem": "cargo",
+  "description": "Traits which describe the functionality of password hashing algorithms, with optional support for a\n`no_std`/`no_alloc`-friendly implementation of the PHC string format, as well as generic support for other\nformats (e.g. Modular Crypt Format)\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "ccbd25f71dd5249dba9ed843d52500c8757a25511560d01a94f4abf56b52a1d5",
+  "features": {
+    "alloc": [
+      "phc?/alloc"
+    ],
+    "getrandom": [
+      "dep:getrandom",
+      "phc?/getrandom"
+    ],
+    "rand_core": [
+      "dep:rand_core",
+      "phc?/rand_core"
+    ]
+  },
+  "downloads": 47113,
+  "captured_at": "2026-05-22T22:01:01.652Z",
+  "captured_by": "prechained.com"
+}
