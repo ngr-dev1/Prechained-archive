@@ -1,0 +1,30 @@
+{
+  "name": "argon2",
+  "version": "0.3.1",
+  "ecosystem": "cargo",
+  "description": "Pure Rust implementation of the Argon2 password hashing function with support\nfor the Argon2d, Argon2i, and Argon2id algorithmic variants\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "34f8cda1a0ecf6f19d2bf64b9349d86900fa9bf98c979e655347a9e9dbe588c1",
+  "features": {
+    "alloc": [],
+    "default": [
+      "alloc",
+      "password-hash",
+      "rand"
+    ],
+    "parallel": [
+      "rayon",
+      "std"
+    ],
+    "rand": [
+      "password-hash/rand_core"
+    ],
+    "std": [
+      "alloc",
+      "password-hash/std"
+    ]
+  },
+  "downloads": 48917,
+  "captured_at": "2026-05-22T22:01:25.903Z",
+  "captured_by": "prechained.com"
+}
