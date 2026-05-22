@@ -1,0 +1,142 @@
+{
+  "name": "redis",
+  "version": "0.32.1",
+  "ecosystem": "cargo",
+  "description": "Redis driver for Rust.",
+  "license": "BSD-3-Clause",
+  "checksum": "c65f367b70919b9600eb6a77436dacd7131fc185cc3bda949a97ab27bfd6213e",
+  "features": {
+    "acl": [],
+    "aio": [
+      "bytes",
+      "dep:pin-project-lite",
+      "dep:futures-util",
+      "dep:tokio",
+      "tokio/io-util",
+      "dep:tokio-util",
+      "tokio-util/codec",
+      "combine/tokio",
+      "dep:cfg-if"
+    ],
+    "async-std-comp": [
+      "aio",
+      "dep:async-std"
+    ],
+    "async-std-native-tls-comp": [
+      "async-std-comp",
+      "dep:async-native-tls",
+      "tls-native-tls"
+    ],
+    "async-std-rustls-comp": [
+      "async-std-comp",
+      "dep:futures-rustls",
+      "tls-rustls"
+    ],
+    "async-std-tls-comp": [
+      "async-std-native-tls-comp"
+    ],
+    "bb8": [
+      "dep:bb8"
+    ],
+    "cache-aio": [
+      "aio",
+      "dep:lru"
+    ],
+    "cluster": [
+      "dep:crc16",
+      "dep:rand"
+    ],
+    "cluster-async": [
+      "aio",
+      "cluster",
+      "dep:futures-sink",
+      "dep:log"
+    ],
+    "connection-manager": [
+      "dep:arc-swap",
+      "dep:futures-channel",
+      "aio",
+      "dep:backon"
+    ],
+    "default": [
+      "acl",
+      "streams",
+      "geospatial",
+      "script",
+      "keep-alive",
+      "num-bigint"
+    ],
+    "disable-client-setinfo": [],
+    "geospatial": [],
+    "json": [
+      "dep:serde",
+      "serde/derive",
+      "dep:serde_json"
+    ],
+    "keep-alive": [],
+    "num-bigint": [],
+    "r2d2": [
+      "dep:r2d2"
+    ],
+    "safe_iterators": [],
+    "script": [
+      "dep:sha1_smol"
+    ],
+    "sentinel": [
+      "dep:rand"
+    ],
+    "smol-comp": [
+      "aio",
+      "dep:smol",
+      "dep:smol-timeout",
+      "dep:async-io"
+    ],
+    "smol-native-tls-comp": [
+      "smol-comp",
+      "dep:async-native-tls",
+      "tls-native-tls"
+    ],
+    "smol-rustls-comp": [
+      "smol-comp",
+      "dep:futures-rustls",
+      "tls-rustls"
+    ],
+    "streams": [],
+    "tcp_nodelay": [],
+    "tls": [
+      "tls-native-tls"
+    ],
+    "tls-native-tls": [
+      "dep:native-tls"
+    ],
+    "tls-rustls": [
+      "dep:rustls",
+      "rustls/std",
+      "dep:rustls-native-certs"
+    ],
+    "tls-rustls-insecure": [
+      "tls-rustls"
+    ],
+    "tls-rustls-webpki-roots": [
+      "tls-rustls",
+      "dep:webpki-roots"
+    ],
+    "tokio-comp": [
+      "aio",
+      "tokio/net"
+    ],
+    "tokio-native-tls-comp": [
+      "tokio-comp",
+      "tls-native-tls",
+      "dep:tokio-native-tls"
+    ],
+    "tokio-rustls-comp": [
+      "tokio-comp",
+      "tls-rustls",
+      "dep:tokio-rustls"
+    ]
+  },
+  "downloads": 10423,
+  "captured_at": "2026-05-22T22:08:12.771Z",
+  "captured_by": "prechained.com"
+}
