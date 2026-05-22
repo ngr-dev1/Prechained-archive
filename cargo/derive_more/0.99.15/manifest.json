@@ -1,0 +1,90 @@
+{
+  "name": "derive_more",
+  "version": "0.99.15",
+  "ecosystem": "cargo",
+  "description": "Adds #[derive(x)] macros for more traits",
+  "license": "MIT",
+  "checksum": "0d40feae4f4dbd23922268e08b55f56a279d672344daacdd4737ae0d4000fe10",
+  "features": {
+    "add": [],
+    "add_assign": [],
+    "as_mut": [],
+    "as_ref": [],
+    "constructor": [],
+    "default": [
+      "add_assign",
+      "add",
+      "as_mut",
+      "as_ref",
+      "constructor",
+      "deref",
+      "deref_mut",
+      "display",
+      "error",
+      "from",
+      "from_str",
+      "index",
+      "index_mut",
+      "into",
+      "into_iterator",
+      "iterator",
+      "mul_assign",
+      "mul",
+      "not",
+      "sum",
+      "try_into",
+      "is_variant",
+      "unwrap"
+    ],
+    "deref": [],
+    "deref_mut": [],
+    "display": [
+      "syn/extra-traits"
+    ],
+    "error": [
+      "syn/extra-traits"
+    ],
+    "from": [
+      "syn/extra-traits"
+    ],
+    "from_str": [],
+    "generate-parsing-rs": [
+      "peg"
+    ],
+    "index": [],
+    "index_mut": [],
+    "into": [
+      "syn/extra-traits"
+    ],
+    "into_iterator": [],
+    "is_variant": [
+      "convert_case"
+    ],
+    "iterator": [],
+    "mul": [
+      "syn/extra-traits"
+    ],
+    "mul_assign": [
+      "syn/extra-traits"
+    ],
+    "nightly": [],
+    "not": [
+      "syn/extra-traits"
+    ],
+    "sum": [],
+    "testing-helpers": [
+      "rustc_version"
+    ],
+    "track-caller": [],
+    "try_into": [
+      "syn/extra-traits"
+    ],
+    "unwrap": [
+      "convert_case",
+      "rustc_version"
+    ]
+  },
+  "downloads": 2977,
+  "captured_at": "2026-05-22T22:13:15.445Z",
+  "captured_by": "prechained.com"
+}
