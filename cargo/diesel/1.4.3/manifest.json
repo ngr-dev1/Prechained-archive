@@ -1,0 +1,79 @@
+{
+  "name": "diesel",
+  "version": "1.4.3",
+  "ecosystem": "cargo",
+  "description": "A safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "9d7cc03b910de9935007861dce440881f69102aaaedfd4bc5a6f40340ca5840c",
+  "features": {
+    "128-column-tables": [
+      "64-column-tables"
+    ],
+    "32-column-tables": [],
+    "64-column-tables": [
+      "32-column-tables"
+    ],
+    "default": [
+      "with-deprecated",
+      "32-column-tables"
+    ],
+    "deprecated-time": [
+      "time"
+    ],
+    "extras": [
+      "chrono",
+      "serde_json",
+      "uuid",
+      "deprecated-time",
+      "network-address",
+      "numeric",
+      "r2d2"
+    ],
+    "huge-tables": [
+      "64-column-tables"
+    ],
+    "large-tables": [
+      "32-column-tables"
+    ],
+    "mysql": [
+      "mysqlclient-sys",
+      "url",
+      "diesel_derives/mysql"
+    ],
+    "network-address": [
+      "ipnetwork",
+      "libc"
+    ],
+    "numeric": [
+      "num-bigint",
+      "bigdecimal",
+      "num-traits",
+      "num-integer"
+    ],
+    "postgres": [
+      "pq-sys",
+      "bitflags",
+      "diesel_derives/postgres"
+    ],
+    "sqlite": [
+      "libsqlite3-sys",
+      "diesel_derives/sqlite"
+    ],
+    "unstable": [
+      "diesel_derives/nightly"
+    ],
+    "with-deprecated": [],
+    "x128-column-tables": [
+      "128-column-tables"
+    ],
+    "x32-column-tables": [
+      "32-column-tables"
+    ],
+    "x64-column-tables": [
+      "64-column-tables"
+    ]
+  },
+  "downloads": 400435,
+  "captured_at": "2026-05-22T21:11:24.641Z",
+  "captured_by": "prechained.com"
+}
