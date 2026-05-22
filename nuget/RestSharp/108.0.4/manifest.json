@@ -1,0 +1,45 @@
+{
+  "name": "RestSharp",
+  "version": "108.0.4",
+  "ecosystem": "nuget",
+  "description": "Simple REST and HTTP API Client",
+  "license": "Apache-2.0",
+  "authors": ".NET Foundation and Contributors",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.08.29.19.31.29/restsharp.108.0.4.json#dependencygroup/net5.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.08.29.19.31.29/restsharp.108.0.4.json#dependencygroup/net5.0/system.text.json",
+          "@type": "PackageDependency",
+          "id": "System.Text.Json",
+          "range": "[5.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.json/index.json"
+        }
+      ],
+      "targetFramework": "net5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.08.29.19.31.29/restsharp.108.0.4.json#dependencygroup/net6.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "net6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.08.29.19.31.29/restsharp.108.0.4.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.08.29.19.31.29/restsharp.108.0.4.json#dependencygroup/.netstandard2.0/system.text.json",
+          "@type": "PackageDependency",
+          "id": "System.Text.Json",
+          "range": "[5.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.json/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "captured_at": "2026-05-22T22:07:32.923Z",
+  "captured_by": "prechained.com"
+}
