@@ -1,0 +1,39 @@
+{
+  "name": "reqwest",
+  "version": "0.9.23",
+  "ecosystem": "cargo",
+  "description": "higher level HTTP client library",
+  "license": "MIT/Apache-2.0",
+  "checksum": "c07cf4bc1e46a44a7d86d8339e646307d5722d1e6a29f5695c6c0600eefd1edd",
+  "features": {
+    "default": [
+      "default-tls"
+    ],
+    "default-tls": [
+      "hyper-tls",
+      "native-tls",
+      "tls"
+    ],
+    "default-tls-vendored": [
+      "default-tls",
+      "native-tls/vendored"
+    ],
+    "hyper-011": [
+      "hyper-old-types"
+    ],
+    "rustls-tls": [
+      "hyper-rustls",
+      "tokio-rustls",
+      "webpki-roots",
+      "rustls",
+      "tls"
+    ],
+    "tls": [],
+    "trust-dns": [
+      "trust-dns-resolver"
+    ]
+  },
+  "downloads": 2873,
+  "captured_at": "2026-05-22T21:43:39.663Z",
+  "captured_by": "prechained.com"
+}
