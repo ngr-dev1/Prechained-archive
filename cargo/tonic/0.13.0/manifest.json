@@ -1,0 +1,99 @@
+{
+  "name": "tonic",
+  "version": "0.13.0",
+  "ecosystem": "cargo",
+  "description": "A gRPC over HTTP/2 implementation focused on high performance, interoperability, and flexibility.\n",
+  "license": "MIT",
+  "checksum": "85839f0b32fd242bb3209262371d07feda6d780d16ee9d2bc88581b89da1549b",
+  "features": {
+    "_tls-any": [
+      "dep:tokio-rustls",
+      "dep:tokio",
+      "tokio?/rt",
+      "tokio?/macros"
+    ],
+    "channel": [
+      "dep:hyper",
+      "hyper?/client",
+      "dep:hyper-util",
+      "hyper-util?/client-legacy",
+      "dep:tower",
+      "tower?/balance",
+      "tower?/buffer",
+      "tower?/discover",
+      "tower?/limit",
+      "tower?/util",
+      "dep:tokio",
+      "tokio?/time",
+      "dep:hyper-timeout"
+    ],
+    "codegen": [
+      "dep:async-trait"
+    ],
+    "default": [
+      "router",
+      "transport",
+      "codegen",
+      "prost"
+    ],
+    "deflate": [
+      "dep:flate2"
+    ],
+    "gzip": [
+      "dep:flate2"
+    ],
+    "prost": [
+      "dep:prost"
+    ],
+    "router": [
+      "dep:axum",
+      "dep:tower",
+      "tower?/util"
+    ],
+    "server": [
+      "dep:h2",
+      "dep:hyper",
+      "hyper?/server",
+      "dep:hyper-util",
+      "hyper-util?/service",
+      "hyper-util?/server-auto",
+      "dep:socket2",
+      "dep:tokio",
+      "tokio?/macros",
+      "tokio?/net",
+      "tokio?/time",
+      "tokio-stream/net",
+      "dep:tower",
+      "tower?/util",
+      "tower?/limit"
+    ],
+    "tls-aws-lc": [
+      "_tls-any",
+      "tokio-rustls/aws-lc-rs"
+    ],
+    "tls-native-roots": [
+      "_tls-any",
+      "channel",
+      "dep:rustls-native-certs"
+    ],
+    "tls-ring": [
+      "_tls-any",
+      "tokio-rustls/ring"
+    ],
+    "tls-webpki-roots": [
+      "_tls-any",
+      "channel",
+      "dep:webpki-roots"
+    ],
+    "transport": [
+      "server",
+      "channel"
+    ],
+    "zstd": [
+      "dep:zstd"
+    ]
+  },
+  "downloads": 2877565,
+  "captured_at": "2026-05-22T22:47:30.006Z",
+  "captured_by": "prechained.com"
+}
