@@ -1,0 +1,69 @@
+{
+  "name": "futures",
+  "version": "0.3.20",
+  "ecosystem": "cargo",
+  "description": "An implementation of futures and streams featuring zero allocations,\ncomposability, and iterator-like interfaces.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "16500824ac3f95438a9ed2d2c3d07cb9ef450d522e67d8ea2133c9333c1b40ba",
+  "features": {
+    "alloc": [
+      "futures-core/alloc",
+      "futures-task/alloc",
+      "futures-sink/alloc",
+      "futures-channel/alloc",
+      "futures-util/alloc"
+    ],
+    "async-await": [
+      "futures-util/async-await",
+      "futures-util/async-await-macro"
+    ],
+    "bilock": [
+      "futures-util/bilock"
+    ],
+    "cfg-target-has-atomic": [],
+    "compat": [
+      "std",
+      "futures-util/compat"
+    ],
+    "default": [
+      "std",
+      "async-await",
+      "executor"
+    ],
+    "executor": [
+      "std",
+      "futures-executor/std"
+    ],
+    "io-compat": [
+      "compat",
+      "futures-util/io-compat"
+    ],
+    "std": [
+      "alloc",
+      "futures-core/std",
+      "futures-task/std",
+      "futures-io/std",
+      "futures-sink/std",
+      "futures-util/std",
+      "futures-util/io",
+      "futures-util/channel"
+    ],
+    "thread-pool": [
+      "executor",
+      "futures-executor/thread-pool"
+    ],
+    "unstable": [
+      "futures-core/unstable",
+      "futures-task/unstable",
+      "futures-channel/unstable",
+      "futures-io/unstable",
+      "futures-util/unstable"
+    ],
+    "write-all-vectored": [
+      "futures-util/write-all-vectored"
+    ]
+  },
+  "downloads": 2959,
+  "captured_at": "2026-05-22T16:35:47.238Z",
+  "captured_by": "prechained.com"
+}
