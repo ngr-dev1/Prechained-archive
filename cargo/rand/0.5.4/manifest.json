@@ -1,0 +1,36 @@
+{
+  "name": "rand",
+  "version": "0.5.4",
+  "ecosystem": "cargo",
+  "description": "Random number generators and other randomness functionality.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "12397506224b2f93e6664ffc4f664b29be8208e5157d3d90b44f09b5fae470ea",
+  "features": {
+    "alloc": [
+      "rand_core/alloc"
+    ],
+    "default": [
+      "std"
+    ],
+    "i128_support": [],
+    "nightly": [
+      "i128_support"
+    ],
+    "serde1": [
+      "serde",
+      "serde_derive",
+      "rand_core/serde1"
+    ],
+    "std": [
+      "rand_core/std",
+      "alloc",
+      "libc",
+      "winapi",
+      "cloudabi",
+      "fuchsia-zircon"
+    ]
+  },
+  "downloads": 355563,
+  "captured_at": "2026-05-22T21:14:50.826Z",
+  "captured_by": "prechained.com"
+}
