@@ -1,0 +1,61 @@
+{
+  "name": "SendGrid",
+  "version": "9.0.11",
+  "ecosystem": "nuget",
+  "description": "C# client library and examples for using SendGrid API's to send mail and access Web API v3 endpoints with .NET Standard 1.3 and .NET Core support. Github repo located at : https://github.com/sendgrid/sendgrid-csharp",
+  "license": "https://github.com/sendgrid/sendgrid-csharp/blob/master/MIT.LICENSE",
+  "authors": "Elmer Thomas,SendGrid DX Team",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.29.01/sendgrid.9.0.11.json#dependencygroup/.netframework4.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.29.01/sendgrid.9.0.11.json#dependencygroup/.netframework4.0/newtonsoft.json",
+          "@type": "PackageDependency",
+          "id": "Newtonsoft.Json",
+          "range": "[9.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/newtonsoft.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.29.01/sendgrid.9.0.11.json#dependencygroup/.netframework4.0/system.net.http",
+          "@type": "PackageDependency",
+          "id": "System.Net.Http",
+          "range": "[4.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.http/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.29.01/sendgrid.9.0.11.json#dependencygroup/.netstandard1.3",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.29.01/sendgrid.9.0.11.json#dependencygroup/.netstandard1.3/netstandard.library",
+          "@type": "PackageDependency",
+          "id": "NETStandard.Library",
+          "range": "[1.6.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/netstandard.library/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.29.01/sendgrid.9.0.11.json#dependencygroup/.netstandard1.3/newtonsoft.json",
+          "@type": "PackageDependency",
+          "id": "Newtonsoft.Json",
+          "range": "[9.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/newtonsoft.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.29.01/sendgrid.9.0.11.json#dependencygroup/.netstandard1.3/microsoft.aspnetcore.http.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.AspNetCore.Http.Abstractions",
+          "range": "[1.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.aspnetcore.http.abstractions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard1.3"
+    }
+  ],
+  "captured_at": "2026-05-22T20:44:12.088Z",
+  "captured_by": "prechained.com"
+}
