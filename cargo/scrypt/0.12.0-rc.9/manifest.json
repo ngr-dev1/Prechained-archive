@@ -1,0 +1,39 @@
+{
+  "name": "scrypt",
+  "version": "0.12.0-rc.9",
+  "ecosystem": "cargo",
+  "description": "Scrypt password-based key derivation function",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "1f847dca682a96ca7c9a3683e155cc91f3acd57b6ff8fc19dcf4f5190bf732b3",
+  "features": {
+    "alloc": [
+      "password-hash?/alloc"
+    ],
+    "getrandom": [
+      "password-hash",
+      "password-hash/getrandom"
+    ],
+    "kdf": [
+      "alloc",
+      "dep:kdf"
+    ],
+    "mcf": [
+      "alloc",
+      "phc",
+      "dep:mcf",
+      "dep:subtle"
+    ],
+    "parallel": [
+      "dep:rayon"
+    ],
+    "phc": [
+      "password-hash/phc"
+    ],
+    "rand_core": [
+      "password-hash/rand_core"
+    ]
+  },
+  "downloads": 1860,
+  "captured_at": "2026-05-22T22:04:06.132Z",
+  "captured_by": "prechained.com"
+}
