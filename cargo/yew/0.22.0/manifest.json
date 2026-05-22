@@ -1,0 +1,29 @@
+{
+  "name": "yew",
+  "version": "0.22.0",
+  "ecosystem": "cargo",
+  "description": "A framework for creating reliable and efficient web applications",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "3346273ed61b636f5d84e6c696d40f380045b5565b36c5c47f8fc634b8bf5be6",
+  "features": {
+    "csr": [],
+    "default": [],
+    "hydration": [
+      "csr",
+      "dep:bincode"
+    ],
+    "not_browser_env": [],
+    "serde": [
+      "implicit-clone/serde"
+    ],
+    "ssr": [
+      "dep:html-escape",
+      "dep:base64ct",
+      "dep:bincode"
+    ],
+    "test": []
+  },
+  "downloads": 54337,
+  "captured_at": "2026-05-22T20:30:22.978Z",
+  "captured_by": "prechained.com"
+}
