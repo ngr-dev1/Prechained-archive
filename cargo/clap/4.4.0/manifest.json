@@ -1,0 +1,78 @@
+{
+  "name": "clap",
+  "version": "4.4.0",
+  "ecosystem": "cargo",
+  "description": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "1d5f1946157a96594eb2d2c10eb7ad9a2b27518cb3000209dec700c35df9197d",
+  "features": {
+    "cargo": [
+      "clap_builder/cargo"
+    ],
+    "color": [
+      "clap_builder/color"
+    ],
+    "debug": [
+      "clap_builder/debug",
+      "clap_derive?/debug"
+    ],
+    "default": [
+      "std",
+      "color",
+      "help",
+      "usage",
+      "error-context",
+      "suggestions"
+    ],
+    "deprecated": [
+      "clap_builder/deprecated",
+      "clap_derive?/deprecated"
+    ],
+    "derive": [
+      "dep:clap_derive",
+      "dep:once_cell"
+    ],
+    "env": [
+      "clap_builder/env"
+    ],
+    "error-context": [
+      "clap_builder/error-context"
+    ],
+    "help": [
+      "clap_builder/help"
+    ],
+    "std": [
+      "clap_builder/std"
+    ],
+    "string": [
+      "clap_builder/string"
+    ],
+    "suggestions": [
+      "clap_builder/suggestions"
+    ],
+    "unicode": [
+      "clap_builder/unicode"
+    ],
+    "unstable-doc": [
+      "clap_builder/unstable-doc",
+      "derive"
+    ],
+    "unstable-styles": [
+      "clap_builder/unstable-styles"
+    ],
+    "unstable-v5": [
+      "clap_builder/unstable-v5",
+      "clap_derive?/unstable-v5",
+      "deprecated"
+    ],
+    "usage": [
+      "clap_builder/usage"
+    ],
+    "wrap_help": [
+      "clap_builder/wrap_help"
+    ]
+  },
+  "downloads": 1119926,
+  "captured_at": "2026-05-22T21:48:12.174Z",
+  "captured_by": "prechained.com"
+}
