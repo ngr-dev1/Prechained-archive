@@ -1,0 +1,53 @@
+{
+  "name": "image",
+  "version": "0.23.12",
+  "ecosystem": "cargo",
+  "description": "Imaging library. Provides basic image processing and encoders/decoders for common image formats.",
+  "license": "MIT",
+  "checksum": "7ce04077ead78e39ae8610ad26216aed811996b043d47beed5090db674f9e9b5",
+  "features": {
+    "avif": [
+      "ravif",
+      "rgb"
+    ],
+    "benchmarks": [],
+    "bmp": [],
+    "dds": [
+      "dxt"
+    ],
+    "default": [
+      "gif",
+      "jpeg",
+      "ico",
+      "png",
+      "pnm",
+      "tga",
+      "tiff",
+      "webp",
+      "bmp",
+      "hdr",
+      "dxt",
+      "dds",
+      "farbfeld",
+      "jpeg_rayon"
+    ],
+    "dxt": [],
+    "farbfeld": [],
+    "hdr": [
+      "scoped_threadpool"
+    ],
+    "ico": [
+      "bmp",
+      "png"
+    ],
+    "jpeg_rayon": [
+      "jpeg/rayon"
+    ],
+    "pnm": [],
+    "tga": [],
+    "webp": []
+  },
+  "downloads": 636987,
+  "captured_at": "2026-05-22T22:05:20.967Z",
+  "captured_by": "prechained.com"
+}
