@@ -1,0 +1,30 @@
+{
+  "name": "rdkafka",
+  "version": "0.16.0",
+  "ecosystem": "cargo",
+  "description": "Rust wrapper for librdkafka",
+  "license": "MIT",
+  "checksum": "aaa2501275d9cd748d3c7c4d401a670b15951599a950deb6fc160ca09e143376",
+  "features": {
+    "cmake_build": [
+      "rdkafka-sys/cmake_build"
+    ],
+    "default": [],
+    "dynamic_linking": [
+      "rdkafka-sys/dynamic_linking"
+    ],
+    "external_lz4": [
+      "rdkafka-sys/external_lz4"
+    ],
+    "sasl": [
+      "rdkafka-sys/sasl",
+      "ssl"
+    ],
+    "ssl": [
+      "rdkafka-sys/ssl"
+    ]
+  },
+  "downloads": 8164,
+  "captured_at": "2026-05-22T20:46:57.256Z",
+  "captured_by": "prechained.com"
+}
