@@ -1,0 +1,61 @@
+{
+  "repo": "gomods/athens",
+  "commit_sha": "80dc2cb112f8aa6a3f21152bb6b32872c09cc5f1",
+  "tree_sha": "5865d8c95ea7c0b257da26d51153bcb421ec1180",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "A Go module datastore and proxy",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 4759,
+  "watchers": 4759,
+  "forks": 536,
+  "open_issues": 158,
+  "language": "Go",
+  "topics": [
+    "athens",
+    "dependencies",
+    "dependency-manager",
+    "go",
+    "go-modules",
+    "golang",
+    "goproxy",
+    "package-control",
+    "package-manager",
+    "proxy",
+    "proxy-server"
+  ],
+  "commit_message": "stash/redis: add cluster-mode client support for singleflight (#2122)\n\n* stash/redis: add cluster-mode client support for singleflight\n\nAthens v0.17.0 singleflight uses redis.NewClient, which can't follow\nMOVED/ASK redirects. When the configured endpoint points at a Cluster\nMode Enabled Redis (e.g. AWS ElastiCache's `clustercfg.*` configuration\nendpoint), every Stash op that happens to land on a non-slot-owning\nnode returns MOVED, which the client surfaces as 500 to the caller —\neven when the cl",
+  "commit_author": {
+    "name": "JA3",
+    "email": "47262452+leerieo@users.noreply.github.com",
+    "date": "2026-05-15T20:51:07Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-15T20:51:07Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "5a7e1507f4c9001f2c74b835bca4c2962fdaab80"
+  ],
+  "github_author_login": "leerieo",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-15T20:51:08Z",
+  "created_at": "2018-02-25T20:19:41Z",
+  "homepage": "https://docs.gomods.io",
+  "size_kb": 85906,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-23T20:26:14.809Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
