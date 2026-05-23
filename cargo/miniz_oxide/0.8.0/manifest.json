@@ -1,0 +1,84 @@
+{
+  "name": "miniz_oxide",
+  "version": "0.8.0",
+  "ecosystem": "cargo",
+  "description": "DEFLATE compression and decompression library rewritten in Rust based on miniz",
+  "license": "MIT OR Zlib OR Apache-2.0",
+  "checksum": "e2d80299ef12ff69b16a84bb182e3b9df68b5a91574d3d4fa6e41b65deec4df1",
+  "features": {
+    "default": [
+      "with-alloc"
+    ],
+    "rustc-dep-of-std": [
+      "core",
+      "alloc",
+      "compiler_builtins",
+      "adler2/rustc-dep-of-std"
+    ],
+    "simd": [
+      "simd-adler32"
+    ],
+    "std": [],
+    "with-alloc": []
+  },
+  "downloads": 40891865,
+  "yanked": false,
+  "repository": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide",
+  "homepage": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide",
+  "keywords": [
+    "deflate",
+    "encoding",
+    "miniz",
+    "zlib"
+  ],
+  "categories": [
+    "Compression"
+  ],
+  "dependencies": [
+    {
+      "name": "adler2",
+      "requirement": "^2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "compiler_builtins",
+      "requirement": "^0.1.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-alloc",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-core",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "simd-adler32",
+      "requirement": "^0.3.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 4968,
+    "login": "oyvindln",
+    "name": null
+  },
+  "publishedAt": "2024-08-08T17:37:41.218626Z",
+  "captured_at": "2026-05-23T15:09:37.712Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
