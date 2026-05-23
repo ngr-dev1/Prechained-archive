@@ -1,0 +1,101 @@
+{
+  "name": "getrandom",
+  "version": "0.2.10",
+  "ecosystem": "cargo",
+  "description": "A small cross-platform library for retrieving random data from system source",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "be4136b2a15dd319360be1c07d9933517ccf0be8f16bf62a3bee4f0d618df427",
+  "features": {
+    "custom": [],
+    "js": [
+      "wasm-bindgen",
+      "js-sys"
+    ],
+    "rdrand": [],
+    "rustc-dep-of-std": [
+      "compiler_builtins",
+      "core",
+      "libc/rustc-dep-of-std",
+      "wasi/rustc-dep-of-std"
+    ],
+    "std": [],
+    "test-in-browser": []
+  },
+  "downloads": 56661886,
+  "yanked": false,
+  "repository": "https://github.com/rust-random/getrandom",
+  "homepage": null,
+  "keywords": [],
+  "categories": [
+    "No standard library",
+    "Operating systems"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.143",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "wasi",
+      "requirement": "^0.11",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "wasm-bindgen-test",
+      "requirement": "^0.3.18",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "compiler_builtins",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "js-sys",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-core",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen",
+      "requirement": "^0.2.62",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 5059,
+    "login": "newpavlov",
+    "name": "Artyom Pavlov"
+  },
+  "publishedAt": "2023-06-06T15:07:24.998113Z",
+  "captured_at": "2026-05-23T21:48:45.888Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
