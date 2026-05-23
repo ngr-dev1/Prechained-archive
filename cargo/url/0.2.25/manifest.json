@@ -1,0 +1,56 @@
+{
+  "name": "url",
+  "version": "0.2.25",
+  "ecosystem": "cargo",
+  "description": "URL library for Rust, based on the WHATWG URL Standard",
+  "license": "MIT/Apache-2.0",
+  "checksum": "ea8d751309c9bfe134539585081ff5c2253d9289d14c7273405918c80e02ed94",
+  "features": {
+    "query_encoding": [
+      "encoding"
+    ]
+  },
+  "downloads": 3972,
+  "yanked": false,
+  "repository": "https://github.com/servo/rust-url",
+  "homepage": null,
+  "keywords": [
+    "parser",
+    "url"
+  ],
+  "categories": [
+    "No standard library",
+    "Encoding",
+    "Parser implementations",
+    "Web programming"
+  ],
+  "dependencies": [
+    {
+      "name": "matches",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustc-serialize",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "encoding",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-03-16T14:47:40.759645Z",
+  "captured_at": "2026-05-23T13:57:10.585Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
