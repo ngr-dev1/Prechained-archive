@@ -1,0 +1,186 @@
+{
+  "name": "tokio-util",
+  "version": "0.7.4",
+  "ecosystem": "cargo",
+  "description": "Additional utilities for working with Tokio.\n",
+  "license": "MIT",
+  "checksum": "0bb2e075f03b3d66d8d8785356224ba688d2906a371015e225beeb65ca92c740",
+  "features": {
+    "__docs_rs": [
+      "futures-util"
+    ],
+    "codec": [
+      "tracing"
+    ],
+    "compat": [
+      "futures-io"
+    ],
+    "default": [],
+    "full": [
+      "codec",
+      "compat",
+      "io-util",
+      "time",
+      "net",
+      "rt"
+    ],
+    "io": [],
+    "io-util": [
+      "io",
+      "tokio/rt",
+      "tokio/io-util"
+    ],
+    "net": [
+      "tokio/net"
+    ],
+    "rt": [
+      "tokio/rt",
+      "tokio/sync",
+      "futures-util",
+      "hashbrown"
+    ],
+    "time": [
+      "tokio/time",
+      "slab"
+    ]
+  },
+  "downloads": 19559402,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/tokio",
+  "homepage": "https://tokio.rs",
+  "keywords": [],
+  "categories": [
+    "Asynchronous"
+  ],
+  "dependencies": [
+    {
+      "name": "async-stream",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-core",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-sink",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-test",
+      "requirement": "^0.3.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "parking_lot",
+      "requirement": "^0.12.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-project-lite",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.0.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.21.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-stream",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-test",
+      "requirement": "^0.4.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-io",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "hashbrown",
+      "requirement": "^0.12.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "slab",
+      "requirement": "^0.4.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1.25",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6741,
+    "login": "Darksonn",
+    "name": "Alice Ryhl"
+  },
+  "publishedAt": "2022-09-08T08:35:14.062411Z",
+  "captured_at": "2026-05-23T15:17:30.781Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
