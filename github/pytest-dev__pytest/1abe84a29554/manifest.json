@@ -1,0 +1,55 @@
+{
+  "repo": "pytest-dev/pytest",
+  "commit_sha": "1abe84a29554e72f57ac2160d8fbaaafade3bb8c",
+  "tree_sha": "cf22e7560958cebe658bbccee02adce51bdf1bba",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 13868,
+  "watchers": 13868,
+  "forks": 3141,
+  "open_issues": 966,
+  "language": "Python",
+  "topics": [
+    "hacktoberfest",
+    "python",
+    "test",
+    "testing",
+    "unit-testing"
+  ],
+  "commit_message": "Improve error message for module-level __getattr__ issues (#14170)\n\nWhen a module defines a custom __getattr__ that returns None instead\nof raising AttributeError, pytest now provides a helpful error message\nexplaining the likely cause and suggesting the fix.\n\nThe previous error was: \"got None instead of Mark\"\nThe new error includes: \"this is likely caused by a module-level\n__getattr__ that does not raise AttributeError for missing attributes\"\n\nFixes #8265",
+  "commit_author": {
+    "name": "Varun Chawla",
+    "email": "34209028+veeceey@users.noreply.github.com",
+    "date": "2026-05-23T13:59:34Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-23T13:59:34Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "47ed628df2b39ff114c069e70a5cc4ccbdc89b97"
+  ],
+  "github_author_login": "veeceey",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-23T15:20:40Z",
+  "created_at": "2015-06-15T20:28:27Z",
+  "homepage": "https://pytest.org",
+  "size_kb": 40007,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-23T18:23:51.293Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
