@@ -1,0 +1,64 @@
+{
+  "name": "flume",
+  "version": "0.1.0",
+  "ecosystem": "cargo",
+  "description": "A blazingly fast multi-producer channel",
+  "license": "Apache-2.0/MIT",
+  "checksum": "a1a946601211ca2bed461a46fabbc40860488f242f6889c0ad977e0b3c3a052a",
+  "features": {},
+  "downloads": 3097,
+  "yanked": false,
+  "repository": "https://github.com/zesterer/flume",
+  "homepage": null,
+  "keywords": [
+    "channel",
+    "fifo",
+    "mpmc",
+    "mpsc",
+    "thread"
+  ],
+  "categories": [
+    "Concurrency",
+    "Data structures"
+  ],
+  "dependencies": [
+    {
+      "name": "criterion",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "crossbeam-channel",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "deque",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "spin",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 21853,
+    "login": "zesterer",
+    "name": "Joshua Barretto"
+  },
+  "publishedAt": "2019-07-31T00:18:26.586068Z",
+  "captured_at": "2026-05-23T16:26:27.900Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "79fe194ded6da3f3154a1d28a4ec46a92dac7a5c3bce98cf014d2ddf5253070f3715fb86237f5cb1b77a5c4266749a94"
+}
