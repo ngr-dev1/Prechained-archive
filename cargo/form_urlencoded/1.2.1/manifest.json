@@ -1,0 +1,47 @@
+{
+  "name": "form_urlencoded",
+  "version": "1.2.1",
+  "ecosystem": "cargo",
+  "description": "Parser and serializer for the application/x-www-form-urlencoded syntax, as used by HTML forms.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "e13624c2627564efccf4934284bdd98cbaa14e79b0b5a141218e507b3a823456",
+  "features": {
+    "alloc": [
+      "percent-encoding/alloc"
+    ],
+    "default": [
+      "std"
+    ],
+    "std": [
+      "alloc",
+      "percent-encoding/std"
+    ]
+  },
+  "downloads": 244178158,
+  "yanked": false,
+  "repository": "https://github.com/servo/rust-url",
+  "homepage": null,
+  "keywords": [],
+  "categories": [
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "percent-encoding",
+      "requirement": "^2.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 72883,
+    "login": "valenting",
+    "name": "Valentin Gosu"
+  },
+  "publishedAt": "2023-11-22T19:09:03.881753Z",
+  "captured_at": "2026-05-23T21:36:19.347Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
