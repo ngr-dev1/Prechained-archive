@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "212315de1663a5d210c359866981368fc7e97ddb",
+  "tree_sha": "8b07798128ee65ccfb39522ae6abdfdd55432030",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35222,
+  "watchers": 35222,
+  "forks": 1457,
+  "open_issues": 2317,
+  "language": "TypeScript",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix: cap lockfile verification memory and add trustLockfile opt-out (#11878)\n\n* fix: cap lockfile verification memory and add trustLockfile opt-out\n\nVerifying a multi-thousand-entry lockfile against `minimumReleaseAge`\nor `trustPolicy: no-downgrade` retained every fetched packument in a\nper-install cache for the entire install. On large workspaces this\nOOM'd CI runners with a 2GB heap cap. Project both caches down to just\nthe fields each check reads (per-version trust evidence + the `time`\nmap f",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-05-23T18:33:03Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-23T18:33:03Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "a5b1ac783ff66bf9c5a2c5a5a41e9dbc7c076352"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-23T19:42:29Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 210045,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-23T19:45:19.739Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
