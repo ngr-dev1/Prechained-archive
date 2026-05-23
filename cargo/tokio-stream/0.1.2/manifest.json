@@ -1,0 +1,94 @@
+{
+  "name": "tokio-stream",
+  "version": "0.1.2",
+  "ecosystem": "cargo",
+  "description": "Utilities to work with `Stream` and `tokio`.\n",
+  "license": "MIT",
+  "checksum": "76066865172052eb8796c686f0b441a93df8b08d40a950b062ffb9a426f00edd",
+  "features": {
+    "default": [
+      "time"
+    ],
+    "fs": [
+      "tokio/fs"
+    ],
+    "io-util": [
+      "tokio/io-util"
+    ],
+    "net": [
+      "tokio/net"
+    ],
+    "time": [
+      "tokio/time"
+    ]
+  },
+  "downloads": 958621,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/tokio",
+  "homepage": "https://tokio.rs",
+  "keywords": [],
+  "categories": [
+    "Asynchronous"
+  ],
+  "dependencies": [
+    {
+      "name": "async-stream",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "futures-core",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-project-lite",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "proptest",
+      "requirement": "^0.10.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6741,
+    "login": "Darksonn",
+    "name": "Alice Ryhl"
+  },
+  "publishedAt": "2021-01-12T20:39:41.035751Z",
+  "captured_at": "2026-05-23T21:51:13.247Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
