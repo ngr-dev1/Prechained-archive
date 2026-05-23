@@ -1,0 +1,144 @@
+{
+  "name": "dioxus",
+  "version": "0.7.6",
+  "ecosystem": "cargo",
+  "description": "Build fullstack web, desktop, and mobile apps with a single codebase.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "14b5fd24c3d394e5a8cfc15b8319da5f853c9d27471a9f46ace0653761499740",
+  "features": {
+    "asset": [
+      "dep:manganis",
+      "dep:dioxus-asset-resolver"
+    ],
+    "cli-config": [
+      "dep:dioxus-cli-config"
+    ],
+    "default": [
+      "launch",
+      "devtools",
+      "logger",
+      "lib"
+    ],
+    "desktop": [
+      "dep:dioxus-desktop",
+      "dioxus-config-macro/desktop"
+    ],
+    "devtools": [
+      "dep:dioxus-devtools",
+      "dioxus-web?/devtools"
+    ],
+    "document": [
+      "dioxus-web?/document",
+      "dep:dioxus-document",
+      "dep:dioxus-history"
+    ],
+    "fullstack": [
+      "dep:dioxus-fullstack",
+      "dioxus-config-macro/fullstack",
+      "dep:serde",
+      "dioxus-web?/document",
+      "dioxus-web?/hydrate",
+      "dioxus-server?/document",
+      "dioxus-web?/devtools",
+      "dioxus-web?/mounted",
+      "dioxus-web?/document"
+    ],
+    "hooks": [
+      "dep:dioxus-hooks"
+    ],
+    "html": [
+      "dep:dioxus-html"
+    ],
+    "launch": [
+      "dep:dioxus-config-macro"
+    ],
+    "lib": [
+      "macro",
+      "html",
+      "signals",
+      "hooks",
+      "mounted",
+      "document",
+      "asset",
+      "warnings",
+      "cli-config"
+    ],
+    "liveview": [
+      "dep:dioxus-liveview",
+      "dioxus-config-macro/liveview"
+    ],
+    "logger": [
+      "dep:dioxus-logger"
+    ],
+    "macro": [
+      "dep:dioxus-core-macro"
+    ],
+    "minimal": [
+      "macro",
+      "html",
+      "signals",
+      "hooks",
+      "launch"
+    ],
+    "mobile": [
+      "dep:dioxus-desktop",
+      "dioxus-config-macro/mobile"
+    ],
+    "mounted": [
+      "dioxus-web?/mounted"
+    ],
+    "native": [
+      "dep:dioxus-native",
+      "dioxus-config-macro/native"
+    ],
+    "router": [
+      "dep:dioxus-router"
+    ],
+    "server": [
+      "dep:dioxus-server",
+      "dioxus-fullstack?/server",
+      "dep:dioxus-fullstack-macro",
+      "ssr",
+      "dioxus-liveview?/axum"
+    ],
+    "signals": [
+      "dep:dioxus-signals",
+      "dep:dioxus-stores"
+    ],
+    "ssr": [
+      "dep:dioxus-ssr",
+      "dioxus-config-macro/ssr"
+    ],
+    "third-party-renderer": [],
+    "warnings": [
+      "dep:warnings"
+    ],
+    "wasm-split": [
+      "dep:wasm-splitter",
+      "dioxus-config-macros/wasm-split"
+    ],
+    "web": [
+      "dep:dioxus-web",
+      "dioxus-fullstack?/web",
+      "dioxus-config-macro/web",
+      "dep:dioxus-cli-config",
+      "dioxus-cli-config?/web",
+      "dioxus-asset-resolver?/web"
+    ]
+  },
+  "downloads": 26866,
+  "yanked": false,
+  "repository": "https://github.com/DioxusLabs/dioxus/",
+  "homepage": "https://dioxuslabs.com",
+  "keywords": [
+    "desktop",
+    "gui",
+    "mobile",
+    "wasm",
+    "web"
+  ],
+  "categories": [],
+  "captured_at": "2026-05-23T02:20:07.858Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
