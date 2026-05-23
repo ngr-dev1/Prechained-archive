@@ -1,0 +1,77 @@
+{
+  "name": "miniz_oxide",
+  "version": "0.4.4",
+  "ecosystem": "cargo",
+  "description": "DEFLATE compression and decompression library rewritten in Rust based on miniz",
+  "license": "MIT OR Zlib OR Apache-2.0",
+  "checksum": "a92518e98c078586bc6c934028adcca4c92a53d6a958196de835170a01d84e4b",
+  "features": {
+    "no_extern_crate_alloc": [],
+    "rustc-dep-of-std": [
+      "core",
+      "alloc",
+      "compiler_builtins",
+      "adler/rustc-dep-of-std"
+    ]
+  },
+  "downloads": 37758194,
+  "yanked": false,
+  "repository": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide",
+  "homepage": "https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide",
+  "keywords": [
+    "deflate",
+    "encoding",
+    "miniz",
+    "zlib"
+  ],
+  "categories": [
+    "Compression"
+  ],
+  "dependencies": [
+    {
+      "name": "adler",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "autocfg",
+      "requirement": "^1.0",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "compiler_builtins",
+      "requirement": "^0.1.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-alloc",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-core",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 4968,
+    "login": "oyvindln",
+    "name": null
+  },
+  "publishedAt": "2021-02-25T15:14:05.070522Z",
+  "captured_at": "2026-05-23T19:35:18.600Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
