@@ -1,0 +1,77 @@
+{
+  "name": "mongodb",
+  "version": "2.3.0-beta",
+  "ecosystem": "cargo",
+  "description": "The official MongoDB driver for Rust",
+  "license": "Apache-2.0",
+  "checksum": "10a19f18a2ed2d7ae44a624080cc8bd7c432600cb979be6cb8d9e2cf86d8c0b5",
+  "features": {
+    "async-std-runtime": [
+      "async-std",
+      "async-std/attributes",
+      "async-std-resolver",
+      "tokio-util/compat"
+    ],
+    "aws-auth": [
+      "reqwest"
+    ],
+    "bson-chrono-0_4": [
+      "bson/chrono-0_4"
+    ],
+    "bson-serde_with": [
+      "bson/serde_with"
+    ],
+    "bson-uuid-0_8": [
+      "bson/uuid-0_8"
+    ],
+    "default": [
+      "tokio-runtime"
+    ],
+    "openssl-tls": [
+      "openssl",
+      "openssl-probe",
+      "tokio-openssl"
+    ],
+    "snappy-compression": [
+      "snap"
+    ],
+    "sync": [
+      "async-std-runtime"
+    ],
+    "tokio-runtime": [
+      "tokio/macros",
+      "tokio/net",
+      "tokio/rt",
+      "tokio/time",
+      "serde_bytes"
+    ],
+    "tokio-sync": [
+      "tokio-runtime"
+    ],
+    "zlib-compression": [
+      "flate2"
+    ],
+    "zstd-compression": [
+      "zstd"
+    ]
+  },
+  "downloads": 2958,
+  "yanked": false,
+  "repository": "https://github.com/mongodb/mongo-rust-driver",
+  "homepage": "https://www.mongodb.com/docs/drivers/rust/",
+  "keywords": [
+    "bson",
+    "database",
+    "mongo",
+    "mongodb",
+    "nosql"
+  ],
+  "categories": [
+    "Asynchronous",
+    "Database interfaces",
+    "Web programming"
+  ],
+  "captured_at": "2026-05-23T04:50:37.812Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
