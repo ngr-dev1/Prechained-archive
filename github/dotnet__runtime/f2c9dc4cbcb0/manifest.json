@@ -1,0 +1,25 @@
+{
+  "repo": "dotnet/runtime",
+  "commit_sha": "f2c9dc4cbcb05c580b08eed6b9eebe1998795a41",
+  "tree_sha": "afd23cf783cef112eacb256a053c23e8ee28062a",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.",
+  "license": "MIT",
+  "stars": 17899,
+  "forks": 5450,
+  "language": "C#",
+  "topics": [
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "Fix async stack walk crash for continuations with null DiagnosticIP (#128496)\n\nCordbAsyncStackWalk::PopulateFrame() crashes when encountering a\ncontinuation whose ResumeInfo.DiagnosticIP is NULL (e.g.",
+  "commit_author": "Tom McDonald",
+  "commit_date": "2026-05-23T00:54:53Z",
+  "archived": false,
+  "visibility": "public",
+  "captured_at": "2026-05-23T02:17:26.463Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
