@@ -1,0 +1,19 @@
+{
+  "name": "paranoia",
+  "version": "1.0.0",
+  "ecosystem": "rubygems",
+  "description": "    Paranoia is a re-implementation of acts_as_paranoid for Rails 5, 6, and 7,\n    using much, much, much less code. You would use either plugin / gem if you\n    wished that when you called destroy on an Active Record object that it\n    didn't actually destroy it, but just \"hid\" the record. Paranoia does this\n    by setting a deleted_at field to the current time when you destroy a record,\n    and hides it by scoping all queries on your model to only include records\n    which do not have a deleted_at field.\n",
+  "licenses": [],
+  "sha": "ea0ff3d1aa902183ac004013b3102877cb311b872ff7a35d644fc970d279aa6e",
+  "created_at": "2011-04-06T02:54:37.239Z",
+  "prerelease": false,
+  "platform": "ruby",
+  "dependencies": {},
+  "authors": "radarlistener@gmail.com",
+  "homepage_uri": "https://github.com/rubysherpas/paranoia",
+  "source_code_uri": null,
+  "downloads": 77828546,
+  "captured_at": "2026-05-23T12:47:08.814Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
