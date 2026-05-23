@@ -1,0 +1,82 @@
+{
+  "name": "jsonrpsee",
+  "version": "0.12.0",
+  "ecosystem": "cargo",
+  "description": "JSON-RPC client/server framework",
+  "license": "MIT",
+  "checksum": "ad6f9ff3481f3069c92474b697c104502f7e9191d29b34bfa38ae9a19415f1cd",
+  "features": {
+    "async-client": [
+      "jsonrpsee-core/async-client"
+    ],
+    "client": [
+      "http-client",
+      "ws-client",
+      "wasm-client"
+    ],
+    "client-ws-transport": [
+      "jsonrpsee-client-transport/ws",
+      "jsonrpsee-client-transport/tls"
+    ],
+    "client-ws-transport-no-tls": [
+      "jsonrpsee-client-transport/ws"
+    ],
+    "full": [
+      "client",
+      "server",
+      "macros",
+      "async-client",
+      "client-ws-transport"
+    ],
+    "http-client": [
+      "jsonrpsee-http-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ],
+    "http-server": [
+      "jsonrpsee-http-server",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ],
+    "macros": [
+      "jsonrpsee-proc-macros",
+      "jsonrpsee-types",
+      "jsonrpsee-core/client",
+      "tracing"
+    ],
+    "server": [
+      "http-server",
+      "ws-server"
+    ],
+    "wasm-client": [
+      "jsonrpsee-wasm-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ],
+    "ws-client": [
+      "jsonrpsee-ws-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ],
+    "ws-server": [
+      "jsonrpsee-ws-server",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ]
+  },
+  "downloads": 5232,
+  "yanked": false,
+  "repository": "https://github.com/paritytech/jsonrpsee",
+  "homepage": "https://www.parity.io/",
+  "keywords": [
+    "http",
+    "json",
+    "jsonrpc",
+    "wasm",
+    "websocket"
+  ],
+  "categories": [],
+  "captured_at": "2026-05-23T03:31:20.355Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
