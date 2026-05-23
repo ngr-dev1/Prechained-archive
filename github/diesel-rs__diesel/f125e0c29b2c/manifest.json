@@ -1,0 +1,28 @@
+{
+  "repo": "diesel-rs/diesel",
+  "commit_sha": "f125e0c29b2cfb86fb3161ef2622ebdea2469837",
+  "tree_sha": "3c04dc7ba35cb30549f8f79fe206353b0391fe0f",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "A safe, extensible ORM and Query Builder for Rust",
+  "license": "Apache-2.0",
+  "stars": 14081,
+  "forks": 1209,
+  "language": "Rust",
+  "topics": [
+    "mysql",
+    "orm",
+    "postgresql",
+    "query-builder",
+    "rust",
+    "sqlite"
+  ],
+  "commit_message": "Send bpchar OID for CHAR(N) bind parameters on PostgreSQL\n\n`Bpchar` was a hidden type alias for `Varchar`. When Diesel sent a bind\nparameter for a `CHAR(N)` / `bpchar` column, it used OID 25 (text),\nc",
+  "commit_author": "Alex Yarotsky",
+  "commit_date": "2026-05-19T02:57:08Z",
+  "archived": false,
+  "visibility": "public",
+  "captured_at": "2026-05-23T03:26:57.772Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
