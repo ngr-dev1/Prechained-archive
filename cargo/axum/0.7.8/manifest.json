@@ -1,0 +1,79 @@
+{
+  "name": "axum",
+  "version": "0.7.8",
+  "ecosystem": "cargo",
+  "description": "HTTP routing and request handling library that focuses on ergonomics and modularity",
+  "license": "MIT",
+  "checksum": "49c41b948da08fb481a94546cd874843adc1142278b0af4badf9b1b78599d68d",
+  "features": {
+    "__private_docs": [
+      "axum-core/__private_docs",
+      "tower/full",
+      "dep:tower-http"
+    ],
+    "default": [
+      "form",
+      "http1",
+      "json",
+      "matched-path",
+      "original-uri",
+      "query",
+      "tokio",
+      "tower-log",
+      "tracing"
+    ],
+    "form": [
+      "dep:serde_urlencoded"
+    ],
+    "http1": [
+      "dep:hyper",
+      "hyper?/http1",
+      "hyper-util?/http1"
+    ],
+    "http2": [
+      "dep:hyper",
+      "hyper?/http2",
+      "hyper-util?/http2"
+    ],
+    "json": [
+      "dep:serde_json",
+      "dep:serde_path_to_error"
+    ],
+    "macros": [
+      "dep:axum-macros"
+    ],
+    "matched-path": [],
+    "multipart": [
+      "dep:multer"
+    ],
+    "original-uri": [],
+    "query": [
+      "dep:serde_urlencoded"
+    ],
+    "tokio": [
+      "dep:hyper-util",
+      "dep:tokio",
+      "tokio/net",
+      "tokio/rt",
+      "tower/make",
+      "tokio/macros"
+    ],
+    "tower-log": [
+      "tower/log"
+    ],
+    "tracing": [
+      "dep:tracing",
+      "axum-core/tracing"
+    ],
+    "ws": [
+      "dep:hyper",
+      "tokio",
+      "dep:tokio-tungstenite",
+      "dep:sha1",
+      "dep:base64"
+    ]
+  },
+  "downloads": 37407,
+  "captured_at": "2026-05-23T00:26:45.743Z",
+  "captured_by": "prechained.com"
+}
