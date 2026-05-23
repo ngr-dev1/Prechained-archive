@@ -1,0 +1,42 @@
+{
+  "name": "zstd",
+  "version": "0.4.26+zstd.1.4.1",
+  "ecosystem": "cargo",
+  "description": "Binding for the zstd compression library.",
+  "license": "MIT",
+  "checksum": "42516c2858816f9eae263454add83c38ecc4caea265d83b43715f7cbd657ac38",
+  "features": {
+    "bindgen": [
+      "zstd-safe/bindgen"
+    ],
+    "default": [
+      "legacy"
+    ],
+    "legacy": [
+      "zstd-safe/legacy"
+    ],
+    "tokio": [
+      "tokio-io",
+      "futures"
+    ],
+    "wasm": [
+      "zstd-safe/std"
+    ]
+  },
+  "downloads": 5210,
+  "yanked": false,
+  "repository": "https://github.com/gyscos/zstd-rs",
+  "homepage": null,
+  "keywords": [
+    "compression",
+    "zstandard",
+    "zstd"
+  ],
+  "categories": [
+    "API bindings",
+    "Compression"
+  ],
+  "captured_at": "2026-05-23T06:36:22.346Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
