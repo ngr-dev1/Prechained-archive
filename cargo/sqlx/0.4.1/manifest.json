@@ -1,0 +1,144 @@
+{
+  "name": "sqlx",
+  "version": "0.4.1",
+  "ecosystem": "cargo",
+  "description": "🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "d1f8eb788e1733bdbf69a8f97087213ebdebd253d4782c686d3cfd586b0a9453",
+  "features": {
+    "_rt-actix": [],
+    "_rt-async-std": [],
+    "_rt-tokio": [],
+    "all": [
+      "tls",
+      "all-databases",
+      "all-types"
+    ],
+    "all-databases": [
+      "mysql",
+      "sqlite",
+      "postgres",
+      "mssql",
+      "any"
+    ],
+    "all-types": [
+      "bigdecimal",
+      "decimal",
+      "json",
+      "time",
+      "chrono",
+      "ipnetwork",
+      "uuid",
+      "bit-vec"
+    ],
+    "any": [
+      "sqlx-core/any"
+    ],
+    "bigdecimal": [
+      "sqlx-core/bigdecimal",
+      "sqlx-macros/bigdecimal"
+    ],
+    "bit-vec": [
+      "sqlx-core/bit-vec",
+      "sqlx-macros/bit-vec"
+    ],
+    "chrono": [
+      "sqlx-core/chrono",
+      "sqlx-macros/chrono"
+    ],
+    "decimal": [
+      "sqlx-core/decimal",
+      "sqlx-macros/decimal"
+    ],
+    "default": [
+      "macros",
+      "migrate"
+    ],
+    "ipnetwork": [
+      "sqlx-core/ipnetwork",
+      "sqlx-macros/ipnetwork"
+    ],
+    "json": [
+      "sqlx-core/json",
+      "sqlx-macros/json"
+    ],
+    "macros": [
+      "sqlx-macros"
+    ],
+    "migrate": [
+      "sqlx-macros/migrate",
+      "sqlx-core/migrate"
+    ],
+    "mssql": [
+      "sqlx-core/mssql",
+      "sqlx-macros/mssql"
+    ],
+    "mysql": [
+      "sqlx-core/mysql",
+      "sqlx-macros/mysql"
+    ],
+    "offline": [
+      "sqlx-macros/offline",
+      "sqlx-core/offline"
+    ],
+    "postgres": [
+      "sqlx-core/postgres",
+      "sqlx-macros/postgres"
+    ],
+    "runtime-actix": [],
+    "runtime-actix-native-tls": [
+      "sqlx-core/runtime-actix-native-tls",
+      "sqlx-macros/runtime-actix-native-tls",
+      "_rt-actix"
+    ],
+    "runtime-actix-rustls": [
+      "sqlx-core/runtime-actix-rustls",
+      "sqlx-macros/runtime-actix-rustls",
+      "_rt-actix"
+    ],
+    "runtime-async-std": [],
+    "runtime-async-std-native-tls": [
+      "sqlx-core/runtime-async-std-native-tls",
+      "sqlx-macros/runtime-async-std-native-tls",
+      "_rt-async-std"
+    ],
+    "runtime-async-std-rustls": [
+      "sqlx-core/runtime-async-std-rustls",
+      "sqlx-macros/runtime-async-std-rustls",
+      "_rt-async-std"
+    ],
+    "runtime-tokio": [],
+    "runtime-tokio-native-tls": [
+      "sqlx-core/runtime-tokio-native-tls",
+      "sqlx-macros/runtime-tokio-native-tls",
+      "_rt-tokio"
+    ],
+    "runtime-tokio-rustls": [
+      "sqlx-core/runtime-tokio-rustls",
+      "sqlx-macros/runtime-tokio-rustls",
+      "_rt-tokio"
+    ],
+    "sqlite": [
+      "sqlx-core/sqlite",
+      "sqlx-macros/sqlite"
+    ],
+    "time": [
+      "sqlx-core/time",
+      "sqlx-macros/time"
+    ],
+    "tls": [],
+    "uuid": [
+      "sqlx-core/uuid",
+      "sqlx-macros/uuid"
+    ]
+  },
+  "downloads": 97719,
+  "yanked": false,
+  "repository": "https://github.com/launchbadge/sqlx",
+  "homepage": null,
+  "keywords": [],
+  "categories": [],
+  "captured_at": "2026-05-23T01:44:33.957Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
