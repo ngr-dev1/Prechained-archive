@@ -1,0 +1,58 @@
+{
+  "name": "hyper",
+  "version": "0.14.9",
+  "ecosystem": "cargo",
+  "description": "A protective and efficient HTTP library for all.",
+  "license": "MIT",
+  "checksum": "07d6baa1b441335f3ce5098ac421fb6547c46dda735ca1bc6d0153c838f9dd83",
+  "features": {
+    "__internal_happy_eyeballs_tests": [],
+    "client": [],
+    "default": [],
+    "ffi": [
+      "libc"
+    ],
+    "full": [
+      "client",
+      "http1",
+      "http2",
+      "server",
+      "stream",
+      "runtime"
+    ],
+    "http1": [],
+    "http2": [
+      "h2"
+    ],
+    "nightly": [],
+    "runtime": [
+      "tcp",
+      "tokio/rt"
+    ],
+    "server": [],
+    "stream": [],
+    "tcp": [
+      "socket2",
+      "tokio/net",
+      "tokio/rt",
+      "tokio/time"
+    ]
+  },
+  "downloads": 1504715,
+  "yanked": false,
+  "repository": "https://github.com/hyperium/hyper",
+  "homepage": "https://hyper.rs",
+  "keywords": [
+    "http",
+    "hyper",
+    "hyperium"
+  ],
+  "categories": [
+    "Network programming",
+    "HTTP client",
+    "HTTP server"
+  ],
+  "captured_at": "2026-05-23T02:07:51.242Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
