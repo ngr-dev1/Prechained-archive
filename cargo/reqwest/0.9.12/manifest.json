@@ -1,0 +1,52 @@
+{
+  "name": "reqwest",
+  "version": "0.9.12",
+  "ecosystem": "cargo",
+  "description": "higher level HTTP client library",
+  "license": "MIT/Apache-2.0",
+  "checksum": "962fa64e670e70b9d3a81c3688832eb59293ef490e0af5ad169763f62016ac5e",
+  "features": {
+    "default": [
+      "default-tls"
+    ],
+    "default-tls": [
+      "hyper-tls",
+      "native-tls",
+      "tls"
+    ],
+    "default-tls-vendored": [
+      "default-tls",
+      "native-tls/vendored"
+    ],
+    "hyper-011": [
+      "hyper-old-types"
+    ],
+    "rustls-tls": [
+      "hyper-rustls",
+      "tokio-rustls",
+      "webpki-roots",
+      "rustls",
+      "tls"
+    ],
+    "tls": [],
+    "trust-dns": [
+      "trust-dns-resolver"
+    ]
+  },
+  "downloads": 68996,
+  "yanked": false,
+  "repository": "https://github.com/seanmonstar/reqwest",
+  "homepage": null,
+  "keywords": [
+    "client",
+    "http",
+    "request"
+  ],
+  "categories": [
+    "WebAssembly",
+    "HTTP client"
+  ],
+  "captured_at": "2026-05-23T01:51:02.308Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
