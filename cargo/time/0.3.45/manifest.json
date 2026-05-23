@@ -1,0 +1,92 @@
+{
+  "name": "time",
+  "version": "0.3.45",
+  "ecosystem": "cargo",
+  "description": "Date and time library. Fully interoperable with the standard library. Mostly compatible with #![no_std].",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "f9e442fc33d7fdb45aa9bfeb312c095964abdf596f7567261062b2a7107aaabd",
+  "features": {
+    "alloc": [
+      "serde_core?/alloc"
+    ],
+    "default": [
+      "std"
+    ],
+    "formatting": [
+      "dep:itoa",
+      "std",
+      "time-macros?/formatting"
+    ],
+    "large-dates": [
+      "time-macros?/large-dates"
+    ],
+    "local-offset": [
+      "std",
+      "dep:libc",
+      "dep:num_threads"
+    ],
+    "macros": [
+      "dep:time-macros"
+    ],
+    "parsing": [
+      "time-macros?/parsing"
+    ],
+    "quickcheck": [
+      "dep:quickcheck",
+      "alloc",
+      "deranged/quickcheck"
+    ],
+    "rand": [
+      "rand08",
+      "rand09"
+    ],
+    "rand08": [
+      "dep:rand08",
+      "deranged/rand08"
+    ],
+    "rand09": [
+      "dep:rand09",
+      "deranged/rand09"
+    ],
+    "serde": [
+      "dep:serde_core",
+      "time-macros?/serde",
+      "deranged/serde"
+    ],
+    "serde-human-readable": [
+      "serde",
+      "formatting",
+      "parsing"
+    ],
+    "serde-well-known": [
+      "serde",
+      "formatting",
+      "parsing"
+    ],
+    "std": [
+      "alloc"
+    ],
+    "wasm-bindgen": [
+      "dep:js-sys"
+    ]
+  },
+  "downloads": 7129452,
+  "yanked": false,
+  "repository": "https://github.com/time-rs/time",
+  "homepage": "https://time-rs.github.io",
+  "keywords": [
+    "calendar",
+    "date",
+    "duration",
+    "time"
+  ],
+  "categories": [
+    "Parser implementations",
+    "No standard library",
+    "Date and time",
+    "Value formatting"
+  ],
+  "captured_at": "2026-05-23T02:17:22.882Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
