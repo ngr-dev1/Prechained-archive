@@ -1,0 +1,54 @@
+{
+  "repo": "nodemailer/nodemailer",
+  "commit_sha": "850bb91bff7707ed498c1424df01c4e5b30ea14b",
+  "tree_sha": "7fa6fd5c35ba07899be727af9103baa994cc7899",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "✉️ Send e-mails with Node.JS – easy as cake!",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 17566,
+  "watchers": 17566,
+  "forks": 1426,
+  "open_issues": 1,
+  "language": "JavaScript",
+  "topics": [
+    "email",
+    "email-sender",
+    "nodemailer",
+    "rfc822"
+  ],
+  "commit_message": "fix: four listener/stream leaks in SMTP transport, connection, pool (#1817)\n\n* fix: clean up per-call OAuth2 listeners on all send/verify exit paths\n\nWhen mail.data.auth is set on send(), getAuth() builds a throwaway\nXOAuth2 instance with 'token' / 'error' listeners. Previously the\nlisteners were only removed inside the connection.login() callback,\nso if SMTPConnection emitted 'error' or 'end' during login() before\nthe login callback fired (server drops the socket mid-AUTH, for\nexample), the per",
+  "commit_author": {
+    "name": "Andris Reinman",
+    "email": "andris@reinman.eu",
+    "date": "2026-05-23T17:21:21Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-23T17:21:21Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "833d6e58c8b717962bbb1b23e16923cd267c3bc9"
+  ],
+  "github_author_login": "andris9",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-05-23T17:22:27Z",
+  "created_at": "2011-01-19T21:17:36Z",
+  "homepage": "http://nodemailer.com/",
+  "size_kb": 10714,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-23T18:35:06.262Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
