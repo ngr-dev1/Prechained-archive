@@ -1,0 +1,121 @@
+{
+  "name": "tokio-tungstenite",
+  "version": "0.10.0",
+  "ecosystem": "cargo",
+  "description": "Tokio binding for Tungstenite, the Lightweight stream-based WebSocket implementation",
+  "license": "MIT",
+  "checksum": "eb30920b901c301b44e289016d90e4d5e8a29a68063022f1e50063eadb9a458c",
+  "features": {
+    "connect": [
+      "stream",
+      "tokio/net"
+    ],
+    "default": [
+      "connect"
+    ],
+    "stream": [],
+    "tls": [
+      "native-tls",
+      "tokio-tls",
+      "stream",
+      "tungstenite/tls"
+    ]
+  },
+  "downloads": 3952,
+  "yanked": false,
+  "repository": "https://github.com/snapview/tokio-tungstenite",
+  "homepage": "https://github.com/snapview/tokio-tungstenite",
+  "keywords": [
+    "io",
+    "web",
+    "websocket"
+  ],
+  "categories": [
+    "Network programming",
+    "Concurrency",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "env_logger",
+      "requirement": "^0.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-project",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "tungstenite",
+      "requirement": "^0.10.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "url",
+      "requirement": "^2.0.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "native-tls",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-tls",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6191,
+    "login": "agalakhov",
+    "name": "Alexey Galakhov"
+  },
+  "publishedAt": "2020-01-31T02:33:34.940317Z",
+  "captured_at": "2026-05-23T16:23:55.484Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "79fe194ded6da3f3154a1d28a4ec46a92dac7a5c3bce98cf014d2ddf5253070f3715fb86237f5cb1b77a5c4266749a94"
+}
