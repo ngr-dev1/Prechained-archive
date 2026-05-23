@@ -1,0 +1,56 @@
+{
+  "name": "Microsoft.Bcl.AsyncInterfaces",
+  "version": "5.0.0",
+  "ecosystem": "nuget",
+  "description": "Provides the IAsyncEnumerable<T> and IAsyncDisposable interfaces and helper types for .NET Standard 2.0. This package is not required starting with .NET Standard 2.1 and .NET Core 3.0.\n\nCommonly Used Types:\nSystem.IAsyncDisposable\nSystem.Collections.Generic.IAsyncEnumerable\nSystem.Collections.Generic.IAsyncEnumerator\n \nWhen using NuGet 3.x this package requires at least version 3.4.",
+  "license": "MIT",
+  "authors": "Microsoft",
+  "tags": [
+    ""
+  ],
+  "projectUrl": "https://github.com/dotnet/runtime",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.05.05.20.25.55/microsoft.bcl.asyncinterfaces.5.0.0.json#dependencygroup/.netframework4.6.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.05.05.20.25.55/microsoft.bcl.asyncinterfaces.5.0.0.json#dependencygroup/.netframework4.6.1/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.5.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.05.05.20.25.55/microsoft.bcl.asyncinterfaces.5.0.0.json#dependencygroup/.netcoreapp2.1",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETCoreApp2.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.05.05.20.25.55/microsoft.bcl.asyncinterfaces.5.0.0.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.05.05.20.25.55/microsoft.bcl.asyncinterfaces.5.0.0.json#dependencygroup/.netstandard2.0/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.5.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.05.05.20.25.55/microsoft.bcl.asyncinterfaces.5.0.0.json#dependencygroup/.netstandard2.1",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "published": "2020-11-09T23:43:52.71+00:00",
+  "captured_at": "2026-05-23T03:41:34.918Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
