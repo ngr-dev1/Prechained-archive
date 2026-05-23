@@ -1,0 +1,229 @@
+{
+  "name": "tracing-opentelemetry",
+  "version": "0.22.0",
+  "ecosystem": "cargo",
+  "description": "OpenTelemetry integration for tracing",
+  "license": "MIT",
+  "checksum": "c67ac25c5407e7b961fafc6f7e9aa5958fd297aada2d20fa2ae1737357e55596",
+  "features": {
+    "default": [
+      "tracing-log",
+      "metrics"
+    ],
+    "metrics": [
+      "opentelemetry/metrics",
+      "opentelemetry_sdk/metrics",
+      "smallvec"
+    ]
+  },
+  "downloads": 8151027,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/tracing-opentelemetry",
+  "homepage": "https://github.com/tokio-rs/tracing-opentelemetry",
+  "keywords": [
+    "async",
+    "jaeger",
+    "opentelemetry",
+    "tracing",
+    "zipkin"
+  ],
+  "categories": [
+    "Profiling",
+    "Debugging",
+    "Asynchronous"
+  ],
+  "dependencies": [
+    {
+      "name": "async-trait",
+      "requirement": "^0.1.56",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.5.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "js-sys",
+      "requirement": "^0.3.64",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1.13.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "opentelemetry",
+      "requirement": "^0.21.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "opentelemetry",
+      "requirement": "^0.21.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "opentelemetry-jaeger",
+      "requirement": "^0.20.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "opentelemetry-otlp",
+      "requirement": "^0.14.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "opentelemetry-semantic-conventions",
+      "requirement": "^0.13.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "opentelemetry-stdout",
+      "requirement": "^0.2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "opentelemetry_sdk",
+      "requirement": "^0.21.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "opentelemetry_sdk",
+      "requirement": "^0.21.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "pprof",
+      "requirement": "^0.13.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-stream",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1.35",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1.35",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "tracing-core",
+      "requirement": "^0.1.28",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing-subscriber",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "tracing-subscriber",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "web-time",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "async-trait",
+      "requirement": "^0.1.56",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "smallvec",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "thiserror",
+      "requirement": "^1.0.31",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tracing-log",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 66511,
+    "login": "jtescher",
+    "name": "Julian Tescher"
+  },
+  "publishedAt": "2023-11-07T22:04:18.588743Z",
+  "captured_at": "2026-05-23T19:36:36.544Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
