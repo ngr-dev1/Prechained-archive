@@ -1,0 +1,32 @@
+{
+  "name": "rdkafka",
+  "version": "0.4.0",
+  "ecosystem": "cargo",
+  "description": "Rust wrapper for librdkafka",
+  "license": "MIT",
+  "checksum": "7ea2a8e85a698e20b6af6446836a7a2e87954813f7b0f793a5de9c0d5d12a27c",
+  "features": {
+    "default": [],
+    "sasl": [
+      "rdkafka-sys/sasl",
+      "ssl"
+    ],
+    "ssl": [
+      "rdkafka-sys/ssl"
+    ]
+  },
+  "downloads": 1615,
+  "yanked": false,
+  "repository": "https://github.com/fede1024/rust-rdkafka",
+  "homepage": null,
+  "keywords": [
+    "kafka",
+    "rdkafka"
+  ],
+  "categories": [
+    "API bindings"
+  ],
+  "captured_at": "2026-05-23T02:32:48.480Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
