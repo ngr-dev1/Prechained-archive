@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "fad74248e78716152917a729adb2b44ba2bab16e",
+  "tree_sha": "36752b961c03c4742de81ef1c3a2e02d226aa49a",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100128,
+  "watchers": 100128,
+  "forks": 27858,
+  "open_issues": 18524,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "Use .reshape() instead of .contiguous().view() in stride-agnostic paths (#184957)\n\n`.reshape` only copies when needed; `.contiguous().view` always copies. Applied where the downstream op (`linear`/`bmm`, `var_mean`, `native_batch_norm_backward`) is stride-agnostic. SDPA, autograd `View`, and quantized MHA left alone.\nPull Request resolved: https://github.com/pytorch/pytorch/pull/184957\nApproved by: https://github.com/Skylion007",
+  "commit_author": {
+    "name": "cyy",
+    "email": "cyyever@outlook.com",
+    "date": "2026-05-23T15:47:06Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-05-23T15:47:06Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "e2b323a94d657e5610b8cdf6ab0ff0e850d822ab"
+  ],
+  "github_author_login": "cyyever",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-23T16:07:58Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1356663,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-23T16:10:43.047Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
