@@ -1,0 +1,41 @@
+{
+  "name": "password-hash",
+  "version": "0.6.0-rc.2",
+  "ecosystem": "cargo",
+  "description": "Traits which describe the functionality of password hashing algorithms, with optional support for a\n`no_std`/`no_alloc`-friendly implementation of the PHC string format, as well as generic support for other\nformats (e.g. Modular Crypt Format)\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "a7d47a2d1aee5a339aa6c740d9128211a8a3d2bdf06a13e01b3f8a0b5c49b9db",
+  "features": {
+    "alloc": [
+      "base64ct/alloc"
+    ],
+    "default": [
+      "rand_core"
+    ],
+    "getrandom": [
+      "dep:getrandom"
+    ],
+    "rand_core": [
+      "dep:rand_core"
+    ]
+  },
+  "downloads": 46213,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/traits",
+  "homepage": null,
+  "keywords": [
+    "crypt",
+    "mcf",
+    "password",
+    "pbkdf",
+    "phc"
+  ],
+  "categories": [
+    "Authentication",
+    "No standard library",
+    "Cryptography"
+  ],
+  "captured_at": "2026-05-23T12:27:07.106Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
