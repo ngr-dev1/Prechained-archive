@@ -1,0 +1,290 @@
+{
+  "name": "tokio",
+  "version": "1.16.0",
+  "ecosystem": "cargo",
+  "description": "An event-driven, non-blocking I/O platform for writing asynchronous I/O\nbacked applications.\n",
+  "license": "MIT",
+  "checksum": "95e99d373042c30406d317cfc5bfad7b5d604bdd31dab72cf8739abebaa64aee",
+  "features": {
+    "default": [],
+    "fs": [],
+    "full": [
+      "fs",
+      "io-util",
+      "io-std",
+      "macros",
+      "net",
+      "parking_lot",
+      "process",
+      "rt",
+      "rt-multi-thread",
+      "signal",
+      "sync",
+      "time"
+    ],
+    "io-std": [],
+    "io-util": [
+      "memchr",
+      "bytes"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "libc",
+      "mio/os-poll",
+      "mio/os-util",
+      "mio/tcp",
+      "mio/udp",
+      "mio/uds",
+      "winapi/namedpipeapi"
+    ],
+    "process": [
+      "bytes",
+      "once_cell",
+      "libc",
+      "mio/os-poll",
+      "mio/os-util",
+      "mio/uds",
+      "signal-hook-registry",
+      "winapi/threadpoollegacyapiset"
+    ],
+    "rt": [],
+    "rt-multi-thread": [
+      "num_cpus",
+      "rt"
+    ],
+    "signal": [
+      "once_cell",
+      "libc",
+      "mio/os-poll",
+      "mio/uds",
+      "mio/os-util",
+      "signal-hook-registry",
+      "winapi/consoleapi"
+    ],
+    "stats": [],
+    "sync": [],
+    "test-util": [
+      "rt",
+      "sync",
+      "time"
+    ],
+    "time": []
+  },
+  "downloads": 112632,
+  "yanked": true,
+  "repository": "https://github.com/tokio-rs/tokio",
+  "homepage": "https://tokio.rs",
+  "keywords": [
+    "async",
+    "futures",
+    "io",
+    "non-blocking"
+  ],
+  "categories": [
+    "Asynchronous",
+    "Network programming"
+  ],
+  "dependencies": [
+    {
+      "name": "async-stream",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.42",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "loom",
+      "requirement": "^0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mio-aio",
+      "requirement": "^0.6.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mockall",
+      "requirement": "^0.10.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "nix",
+      "requirement": "^0.23",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ntapi",
+      "requirement": "^0.3.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-project-lite",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "proptest",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "socket2",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-stream",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-test",
+      "requirement": "^0.4.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-test",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.42",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "memchr",
+      "requirement": "^2.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "mio",
+      "requirement": "^0.7.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "num_cpus",
+      "requirement": "^1.8.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1.5.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "parking_lot",
+      "requirement": "^0.11.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "signal-hook-registry",
+      "requirement": "^1.1.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-macros",
+      "requirement": "^1.7.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1.25",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "winapi",
+      "requirement": "^0.3.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 10,
+    "login": "carllerche",
+    "name": "Carl Lerche"
+  },
+  "publishedAt": "2022-01-27T23:22:01.653482Z",
+  "captured_at": "2026-05-23T15:07:38.504Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
