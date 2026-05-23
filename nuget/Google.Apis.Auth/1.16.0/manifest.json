@@ -1,0 +1,192 @@
+{
+  "name": "Google.Apis.Auth",
+  "version": "1.16.0",
+  "ecosystem": "nuget",
+  "description": "The Google APIs Client Library is a runtime client for working with Google services.\n        This package includes auth components like user-credential, authorization code flow, etc. for making authenticated calls using the OAuth2 spec.\n\n        Supported Platforms:\n\n        - .NET Framework 4.5\n\n        - NetStandard1.3\n\n        - Windows Store apps\n\n        - Windows Phone 8 and 8.1\n\n        - Portable Class Libraries",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "authors": "Google Inc.",
+  "tags": [
+    "Google"
+  ],
+  "projectUrl": "https://developers.google.com/api-client-library/dotnet",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/google.apis.core",
+          "@type": "PackageDependency",
+          "id": "Google.Apis.Core",
+          "range": "[1.16.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/google.apis.core/index.json"
+        }
+      ]
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netframework4.5",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netframework4.5/bouncycastle",
+          "@type": "PackageDependency",
+          "id": "BouncyCastle",
+          "range": "[1.7.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/bouncycastle/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netframework4.5/google.apis",
+          "@type": "PackageDependency",
+          "id": "Google.Apis",
+          "range": "[1.16.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/google.apis/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netframework4.5/google.apis.core",
+          "@type": "PackageDependency",
+          "id": "Google.Apis.Core",
+          "range": "[1.16.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/google.apis.core/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/google.apis.core",
+          "@type": "PackageDependency",
+          "id": "Google.Apis.Core",
+          "range": "[1.16.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/google.apis.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/newtonsoft.json",
+          "@type": "PackageDependency",
+          "id": "Newtonsoft.Json",
+          "range": "[9.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/newtonsoft.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/portable.bouncycastle",
+          "@type": "PackageDependency",
+          "id": "Portable.BouncyCastle",
+          "range": "[1.8.1.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/portable.bouncycastle/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.collections",
+          "@type": "PackageDependency",
+          "id": "System.Collections",
+          "range": "[4.0.11, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.collections/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.console",
+          "@type": "PackageDependency",
+          "id": "System.Console",
+          "range": "[4.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.console/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.diagnostics.debug",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.Debug",
+          "range": "[4.0.11, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.debug/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.io",
+          "@type": "PackageDependency",
+          "id": "System.IO",
+          "range": "[4.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.io.filesystem",
+          "@type": "PackageDependency",
+          "id": "System.IO.FileSystem",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io.filesystem/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.io.filesystem.primitives",
+          "@type": "PackageDependency",
+          "id": "System.IO.FileSystem.Primitives",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io.filesystem.primitives/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.linq",
+          "@type": "PackageDependency",
+          "id": "System.Linq",
+          "range": "[4.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.linq/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.net.http",
+          "@type": "PackageDependency",
+          "id": "System.Net.Http",
+          "range": "[4.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.http/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.net.primitives",
+          "@type": "PackageDependency",
+          "id": "System.Net.Primitives",
+          "range": "[4.0.11, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.primitives/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.net.requests",
+          "@type": "PackageDependency",
+          "id": "System.Net.Requests",
+          "range": "[4.0.11, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.requests/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.runtime",
+          "@type": "PackageDependency",
+          "id": "System.Runtime",
+          "range": "[4.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.runtime.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.Extensions",
+          "range": "[4.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.extensions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.text.encoding",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encoding",
+          "range": "[4.0.11, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encoding/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.threading",
+          "@type": "PackageDependency",
+          "id": "System.Threading",
+          "range": "[4.0.11, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.11.23.45/google.apis.auth.1.16.0.json#dependencygroup/.netstandard1.3/system.threading.tasks",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks",
+          "range": "[4.0.11, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard1.3"
+    }
+  ],
+  "published": "2016-08-22T11:29:31.173+00:00",
+  "captured_at": "2026-05-23T09:00:12.999Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
