@@ -1,0 +1,110 @@
+{
+  "name": "hyper-tls",
+  "version": "0.6.0",
+  "ecosystem": "cargo",
+  "description": "Default TLS implementation for use with hyper",
+  "license": "MIT/Apache-2.0",
+  "checksum": "70206fc6890eaca9fde8a0bf71caa2ddfc9fe045ac9e5c70df101a7dbde866e0",
+  "features": {
+    "alpn": [
+      "native-tls/alpn"
+    ],
+    "vendored": [
+      "native-tls/vendored"
+    ]
+  },
+  "downloads": 116860123,
+  "yanked": false,
+  "repository": "https://github.com/hyperium/hyper-tls",
+  "homepage": "https://hyper.rs",
+  "keywords": [
+    "http",
+    "https",
+    "hyper",
+    "ssl",
+    "tls"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "bytes",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "http-body-util",
+      "requirement": "^0.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper-util",
+      "requirement": "^0.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper-util",
+      "requirement": "^0.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "native-tls",
+      "requirement": "^0.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.0.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-native-tls",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tower-service",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar",
+    "name": "Sean McArthur"
+  },
+  "publishedAt": "2023-11-27T19:18:29.702911Z",
+  "captured_at": "2026-05-23T15:44:26.272Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
