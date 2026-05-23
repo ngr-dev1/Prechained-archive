@@ -1,0 +1,59 @@
+{
+  "name": "tracing-subscriber",
+  "version": "0.2.19",
+  "ecosystem": "cargo",
+  "description": "Utilities for implementing and composing `tracing` subscribers.\n",
+  "license": "MIT",
+  "checksum": "ab69019741fca4d98be3c62d2b75254528b5432233fd8a4d2739fec20278de48",
+  "features": {
+    "ansi": [
+      "fmt",
+      "ansi_term"
+    ],
+    "default": [
+      "env-filter",
+      "smallvec",
+      "fmt",
+      "ansi",
+      "chrono",
+      "tracing-log",
+      "json"
+    ],
+    "env-filter": [
+      "matchers",
+      "regex",
+      "lazy_static",
+      "tracing"
+    ],
+    "fmt": [
+      "registry"
+    ],
+    "json": [
+      "tracing-serde",
+      "serde",
+      "serde_json"
+    ],
+    "registry": [
+      "sharded-slab",
+      "thread_local"
+    ]
+  },
+  "downloads": 1092199,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/tracing",
+  "homepage": "https://tokio.rs",
+  "keywords": [
+    "logging",
+    "metrics",
+    "subscriber",
+    "tracing"
+  ],
+  "categories": [
+    "Debugging",
+    "Profiling",
+    "Asynchronous"
+  ],
+  "captured_at": "2026-05-23T03:05:59.841Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
