@@ -1,0 +1,58 @@
+{
+  "name": "yew",
+  "version": "0.13.0",
+  "ecosystem": "cargo",
+  "description": "A framework for creating reliable and efficient web applications",
+  "license": "MIT/Apache-2.0",
+  "checksum": "019e0ef6afd022af51a1bec827db357b953ca12b64e158224c614288e3345266",
+  "features": {
+    "agent": [
+      "bincode"
+    ],
+    "cbor": [
+      "serde_cbor"
+    ],
+    "default": [
+      "services",
+      "agent"
+    ],
+    "doc_test": [],
+    "msgpack": [
+      "rmp-serde"
+    ],
+    "services": [],
+    "std_web": [
+      "stdweb"
+    ],
+    "wasm_test": [],
+    "web_sys": [
+      "console_error_panic_hook",
+      "futures",
+      "gloo",
+      "js-sys",
+      "web-sys",
+      "wasm-bindgen",
+      "wasm-bindgen-futures"
+    ],
+    "yaml": [
+      "serde_yaml"
+    ]
+  },
+  "downloads": 4611,
+  "yanked": false,
+  "repository": "https://github.com/yewstack/yew",
+  "homepage": "https://yew.rs",
+  "keywords": [
+    "javascript",
+    "web",
+    "webasm"
+  ],
+  "categories": [
+    "GUI",
+    "WebAssembly",
+    "Web programming"
+  ],
+  "captured_at": "2026-05-23T01:53:28.072Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
