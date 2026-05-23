@@ -1,0 +1,42 @@
+{
+  "name": "rodauth",
+  "version": "2.28.0",
+  "ecosystem": "rubygems",
+  "description": "Rodauth is Ruby's most advanced authentication framework, designed\nto work in all rack applications.  It's built using Roda and Sequel,\nbut it can be used as middleware in front of web applications that use\nother web frameworks and database libraries.\n\nRodauth aims to provide strong security for password storage by\nutilizing separate database accounts if possible on PostgreSQL,\nMySQL, and Microsoft SQL Server.  Configuration is done via\na DSL that makes it easy to override any part of the authentication\nprocess.\n\nRodauth supports typical authentication features: such as login and\nlogout, changing logins and passwords, and creating, verifying,\nunlocking, and resetting passwords for accounts.  Rodauth also\nsupports many advanced authentication features:\n\n* Secure password storage using security definer database functions\n* Multiple primary multifactor authentication methods (WebAuthn and\n  TOTP), as well as backup multifactor authentication methods (SMS\n  and recovery codes).\n* Passwordless authentication using email links and WebAuthn\n  authenticators.\n* Both standard HTML form and JSON API support for all features.\n",
+  "licenses": [
+    "MIT"
+  ],
+  "sha": "3dba5cdc6225ebf5c388862dbfdc72c9f8c1735dc46bafd2df75ef5a2dd2b8ba",
+  "gem_uri": "https://rubygems.org/gems/rodauth-2.28.0.gem",
+  "spec_sha": "7e5b52f24ee2e86a434b67484b5c0c283b8a32e8b1175f3ad9c9eb54f6584645",
+  "created_at": "2023-02-22T16:56:16.988Z",
+  "publishedAt": "2023-02-22T16:56:16.988Z",
+  "prerelease": false,
+  "platform": "ruby",
+  "yanked": false,
+  "dependencies": {
+    "runtime": [],
+    "development": []
+  },
+  "authors": "Jeremy Evans",
+  "owners": [
+    {
+      "id": 1196,
+      "handle": "jeremyevans",
+      "email": null,
+      "mfa_level": null
+    }
+  ],
+  "homepage_uri": "https://rodauth.jeremyevans.net",
+  "source_code_uri": "https://github.com/jeremyevans/rodauth",
+  "changelog_uri": "https://rodauth.jeremyevans.net/rdoc/files/CHANGELOG.html",
+  "funding_uri": null,
+  "bug_tracker_uri": "https://github.com/jeremyevans/rodauth/issues",
+  "mailing_list_uri": "https://github.com/jeremyevans/rodauth/discussions",
+  "documentation_uri": "https://rodauth.jeremyevans.net/documentation.html",
+  "downloads": 862866,
+  "version_downloads": 5180,
+  "captured_at": "2026-05-23T20:06:51.849Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
