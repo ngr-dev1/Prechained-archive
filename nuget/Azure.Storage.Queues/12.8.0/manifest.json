@@ -1,0 +1,84 @@
+{
+  "name": "Azure.Storage.Queues",
+  "version": "12.8.0",
+  "ecosystem": "nuget",
+  "description": "This client library enables working with the Microsoft Azure Storage Queue service for storing messages that may be accessed by a client.\n      For this release see notes - https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Queues/README.md and https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Queues/CHANGELOG.md\n      in addition to the breaking changes https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Queues/BreakingChanges.txt\n      Microsoft Azure Storage quickstarts and tutorials - https://docs.microsoft.com/en-us/azure/storage/\n      Microsoft Azure Storage REST API Reference - https://docs.microsoft.com/en-us/rest/api/storageservices/\n      REST API Reference for Queue Service - https://docs.microsoft.com/en-us/rest/api/storageservices/queue-service-rest-api",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    "Microsoft",
+    "Azure",
+    "Storage",
+    "Queues",
+    "Queue",
+    "StorageScalable",
+    "windowsazureofficial",
+    "azureofficial"
+  ],
+  "projectUrl": "https://github.com/Azure/azure-sdk-for-net/blob/Azure.Storage.Queues_12.8.0/sdk/storage/Azure.Storage.Queues/README.md",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Azure.Storage.Common",
+      "range": "[12.9.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Memory.Data",
+      "range": "[1.0.2, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Text.Json",
+      "range": "[4.6.0, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.08.09.20.35.57/azure.storage.queues.12.8.0.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.08.09.20.35.57/azure.storage.queues.12.8.0.json#dependencygroup/.netstandard2.0/azure.storage.common",
+          "@type": "PackageDependency",
+          "id": "Azure.Storage.Common",
+          "range": "[12.9.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/azure.storage.common/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.08.09.20.35.57/azure.storage.queues.12.8.0.json#dependencygroup/.netstandard2.0/system.memory.data",
+          "@type": "PackageDependency",
+          "id": "System.Memory.Data",
+          "range": "[1.0.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory.data/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.08.09.20.35.57/azure.storage.queues.12.8.0.json#dependencygroup/.netstandard2.0/system.text.json",
+          "@type": "PackageDependency",
+          "id": "System.Text.Json",
+          "range": "[4.6.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.json/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2021-09-09T00:05:20.32+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/azure.storage.queues/12.8.0/icon",
+  "readmeUrl": "https://www.nuget.org/packages/Azure.Storage.Queues/12.8.0#show-readme-container",
+  "captured_at": "2026-05-23T16:18:41.259Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
