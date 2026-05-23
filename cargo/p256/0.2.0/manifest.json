@@ -1,0 +1,76 @@
+{
+  "name": "p256",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "description": "Pure Rust implementation of the NIST P-256 (a.k.a. secp256r1, prime256v1)\nelliptic curve as defined in SP 800-186, with support for ECDH, ECDSA\nsigning/verification, and general purpose curve arithmetic\n",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "86640e33ca638ec215c74de317696bbca5daa7d52cf55b905bd20a6bd2cfd133",
+  "features": {
+    "arithmetic": [
+      "subtle"
+    ],
+    "default": [
+      "arithmetic",
+      "std"
+    ],
+    "std": [
+      "elliptic-curve/std"
+    ],
+    "test-vectors": []
+  },
+  "downloads": 14034,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/elliptic-curves",
+  "homepage": "https://github.com/RustCrypto/elliptic-curves/tree/master/p256",
+  "keywords": [
+    "crypto",
+    "ecc",
+    "nist",
+    "prime256v1",
+    "secp256r1"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "elliptic-curve",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "hex",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "proptest",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "subtle",
+      "requirement": "^2.2.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri",
+    "name": "Tony Arcieri"
+  },
+  "publishedAt": "2020-05-01T13:39:48.004306Z",
+  "captured_at": "2026-05-23T18:56:31.623Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
