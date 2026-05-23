@@ -1,0 +1,52 @@
+{
+  "name": "winnow",
+  "version": "0.6.23",
+  "ecosystem": "cargo",
+  "description": "A byte-oriented, zero-copy, parser combinators library",
+  "license": "MIT",
+  "checksum": "b129b5fb432e82eb9878736362d1f1710975adbdca1b9be5145470ae92a5d651",
+  "features": {
+    "alloc": [],
+    "debug": [
+      "std",
+      "dep:anstream",
+      "dep:anstyle",
+      "dep:is-terminal",
+      "dep:terminal_size"
+    ],
+    "default": [
+      "std"
+    ],
+    "simd": [
+      "dep:memchr"
+    ],
+    "std": [
+      "alloc",
+      "memchr?/std"
+    ],
+    "unstable-doc": [
+      "alloc",
+      "std",
+      "simd",
+      "unstable-recover"
+    ],
+    "unstable-recover": []
+  },
+  "downloads": 8602,
+  "yanked": false,
+  "repository": "https://github.com/winnow-rs/winnow",
+  "homepage": null,
+  "keywords": [
+    "bit",
+    "parser",
+    "parser-combinators",
+    "parsing",
+    "streaming"
+  ],
+  "categories": [
+    "Parsing tools"
+  ],
+  "captured_at": "2026-05-23T02:01:41.996Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
