@@ -1,0 +1,87 @@
+{
+  "name": "tokio",
+  "version": "1.20.5",
+  "ecosystem": "cargo",
+  "description": "An event-driven, non-blocking I/O platform for writing asynchronous I/O\nbacked applications.\n",
+  "license": "MIT",
+  "checksum": "911e05833b3ac1ae6117148d56d6e318dcb209581f3ef5bb4cd370c958ed0010",
+  "features": {
+    "default": [],
+    "fs": [],
+    "full": [
+      "fs",
+      "io-util",
+      "io-std",
+      "macros",
+      "net",
+      "parking_lot",
+      "process",
+      "rt",
+      "rt-multi-thread",
+      "signal",
+      "sync",
+      "time"
+    ],
+    "io-std": [],
+    "io-util": [
+      "memchr",
+      "bytes"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "socket2",
+      "winapi/fileapi",
+      "winapi/handleapi",
+      "winapi/namedpipeapi",
+      "winapi/winbase",
+      "winapi/winnt",
+      "winapi/minwindef"
+    ],
+    "process": [
+      "bytes",
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "signal-hook-registry",
+      "winapi/handleapi",
+      "winapi/processthreadsapi",
+      "winapi/threadpoollegacyapiset",
+      "winapi/winbase",
+      "winapi/winnt",
+      "winapi/minwindef"
+    ],
+    "rt": [],
+    "rt-multi-thread": [
+      "num_cpus",
+      "rt"
+    ],
+    "signal": [
+      "libc",
+      "mio/os-poll",
+      "mio/net",
+      "mio/os-ext",
+      "signal-hook-registry",
+      "winapi/consoleapi",
+      "winapi/wincon",
+      "winapi/minwindef"
+    ],
+    "stats": [],
+    "sync": [],
+    "test-util": [
+      "rt",
+      "sync",
+      "time"
+    ],
+    "time": []
+  },
+  "downloads": 12196,
+  "captured_at": "2026-05-23T00:33:42.326Z",
+  "captured_by": "prechained.com"
+}
