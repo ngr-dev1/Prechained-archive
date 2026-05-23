@@ -1,0 +1,65 @@
+{
+  "name": "config",
+  "version": "0.15.12",
+  "ecosystem": "cargo",
+  "description": "Layered configuration system for Rust applications.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "9baeea16b4f8fc242a701d2abacd87d3b024af0325fb0b59dd16bc14c214c2af",
+  "features": {
+    "async": [
+      "async-trait"
+    ],
+    "convert-case": [
+      "convert_case"
+    ],
+    "default": [
+      "toml",
+      "json",
+      "yaml",
+      "ini",
+      "ron",
+      "json5",
+      "convert-case",
+      "async"
+    ],
+    "ini": [
+      "rust-ini"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "json5": [
+      "json5_rs",
+      "serde/derive"
+    ],
+    "preserve_order": [
+      "indexmap",
+      "toml?/preserve_order",
+      "serde_json?/preserve_order",
+      "ron?/indexmap"
+    ],
+    "toml": [
+      "dep:toml"
+    ],
+    "yaml": [
+      "yaml-rust2"
+    ]
+  },
+  "downloads": 12349,
+  "yanked": false,
+  "repository": "https://github.com/rust-cli/config-rs",
+  "homepage": null,
+  "keywords": [
+    "config",
+    "configuration",
+    "env",
+    "environment",
+    "settings"
+  ],
+  "categories": [
+    "Configuration"
+  ],
+  "captured_at": "2026-05-23T09:26:59.991Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
