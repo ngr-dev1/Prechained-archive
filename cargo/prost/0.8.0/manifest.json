@@ -1,0 +1,88 @@
+{
+  "name": "prost",
+  "version": "0.8.0",
+  "ecosystem": "cargo",
+  "description": "A Protocol Buffers implementation for the Rust Language.",
+  "license": "Apache-2.0",
+  "checksum": "de5e2533f59d08fcf364fd374ebda0692a70bd6d7e66ef97f306f45c6c5d8020",
+  "features": {
+    "default": [
+      "prost-derive",
+      "std"
+    ],
+    "no-recursion-limit": [],
+    "std": []
+  },
+  "downloads": 12568057,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/prost",
+  "homepage": null,
+  "keywords": [
+    "protobuf",
+    "serialization"
+  ],
+  "categories": [
+    "Encoding"
+  ],
+  "dependencies": [
+    {
+      "name": "bytes",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "env_logger",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "proptest",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "prost-derive",
+      "requirement": "^0.8.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 3959,
+    "login": "LucioFranco",
+    "name": "Lucio Franco"
+  },
+  "publishedAt": "2021-07-08T14:33:37.673908Z",
+  "captured_at": "2026-05-23T15:44:53.067Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
