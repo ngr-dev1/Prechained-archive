@@ -1,0 +1,43 @@
+{
+  "name": "tokio-stream",
+  "version": "0.1.9",
+  "ecosystem": "cargo",
+  "description": "Utilities to work with `Stream` and `tokio`.\n",
+  "license": "MIT",
+  "checksum": "df54d54117d6fdc4e4fea40fe1e4e566b3505700e148a6827e59b34b0d2600d9",
+  "features": {
+    "default": [
+      "time"
+    ],
+    "fs": [
+      "tokio/fs"
+    ],
+    "io-util": [
+      "tokio/io-util"
+    ],
+    "net": [
+      "tokio/net"
+    ],
+    "signal": [
+      "tokio/signal"
+    ],
+    "sync": [
+      "tokio/sync",
+      "tokio-util"
+    ],
+    "time": [
+      "tokio/time"
+    ]
+  },
+  "downloads": 8819756,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/tokio",
+  "homepage": "https://tokio.rs",
+  "keywords": [],
+  "categories": [
+    "Asynchronous"
+  ],
+  "captured_at": "2026-05-23T01:44:00.474Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
