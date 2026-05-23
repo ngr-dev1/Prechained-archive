@@ -1,0 +1,70 @@
+{
+  "name": "d3",
+  "version": "3.5.15",
+  "ecosystem": "npm",
+  "description": "Data-Driven Documents",
+  "license": "BSD-3-Clause",
+  "dependencies": {},
+  "devDependencies": {
+    "vows": "0.8",
+    "jsdom": "3",
+    "smash": "0.0",
+    "uglify-js": "2.6.1",
+    "seedrandom": "2"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "npm test && rm -f component.json package.js src/start.js d3.js d3.min.js d3.zip && bin/start > src/start.js && bin/component > component.json && bin/meteor > package.js && smash src/d3.js | uglifyjs - -b indent-level=2 -o d3.js && bin/uglify d3.js > d3.min.js && chmod a-w d3.js d3.min.js component.json package.js && zip d3.zip LICENSE d3.js d3.min.js",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "mbostock",
+      "email": "mbostock@gmail.com"
+    },
+    {
+      "name": "jasondavies",
+      "email": "jason@jasondavies.com"
+    }
+  ],
+  "author": {
+    "url": "http://bost.ocks.org/mike",
+    "name": "Mike Bostock"
+  },
+  "publishedAt": "2016-02-11T20:02:56.332Z",
+  "dist": {
+    "integrity": "sha512-U2T7deD/0CpjFkrclD3lq0kMfNjOGeaihqXTe6J38tDJ5SjaJgxBRVsZKAc+URThl7vG6RPC2yp7NDVryLOxPA==",
+    "shasum": "88f6c77716c26ae1d7e233dad0eff284c93d8086",
+    "tarball": "https://registry.npmjs.org/d3/-/d3-3.5.15.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": {
+    "url": "git+https://github.com/mbostock/d3.git",
+    "type": "git"
+  },
+  "homepage": "http://d3js.org",
+  "bugs": {
+    "url": "https://github.com/mbostock/d3/issues"
+  },
+  "keywords": [
+    "dom",
+    "w3c",
+    "visualization",
+    "svg",
+    "animation",
+    "canvas"
+  ],
+  "_npmUser": {
+    "name": "mbostock",
+    "email": "mbostock@gmail.com"
+  },
+  "captured_at": "2026-05-23T19:16:35.506Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
