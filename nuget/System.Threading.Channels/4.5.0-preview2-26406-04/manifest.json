@@ -1,0 +1,113 @@
+{
+  "name": "System.Threading.Channels",
+  "version": "4.5.0-preview2-26406-04",
+  "ecosystem": "nuget",
+  "description": "Provides types for passing data between producers and consumers.\n\nCommonly Used Types:\nSystem.Threading.Channel\nSystem.Threading.Channel<T>\n \n7e3dbdb95b30650eabade0ac73a10b22d4dbe8b3 \nWhen using NuGet 3.x this package requires at least version 3.4.",
+  "license": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT",
+  "licenseExpression": null,
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "https://dot.net/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.5.0-preview2-26406-04, )",
+      "targetFramework": ".NETFramework4.6"
+    },
+    {
+      "id": "NETStandard.Library",
+      "range": "[1.6.1, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.5.0-preview2-26406-04, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.5.0-preview2-26406-04, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.09.15.48.36/system.threading.channels.4.5.0-preview2-26406-04.json#dependencygroup/.netframework4.6",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.09.15.48.36/system.threading.channels.4.5.0-preview2-26406-04.json#dependencygroup/.netframework4.6/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.5.0-preview2-26406-04, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.09.15.48.36/system.threading.channels.4.5.0-preview2-26406-04.json#dependencygroup/.netcoreapp2.1",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETCoreApp2.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.09.15.48.36/system.threading.channels.4.5.0-preview2-26406-04.json#dependencygroup/.netstandard1.3",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.09.15.48.36/system.threading.channels.4.5.0-preview2-26406-04.json#dependencygroup/.netstandard1.3/netstandard.library",
+          "@type": "PackageDependency",
+          "id": "NETStandard.Library",
+          "range": "[1.6.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/netstandard.library/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.09.15.48.36/system.threading.channels.4.5.0-preview2-26406-04.json#dependencygroup/.netstandard1.3/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.5.0-preview2-26406-04, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.09.15.48.36/system.threading.channels.4.5.0-preview2-26406-04.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.09.15.48.36/system.threading.channels.4.5.0-preview2-26406-04.json#dependencygroup/.netstandard2.0/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.5.0-preview2-26406-04, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.09.15.48.36/system.threading.channels.4.5.0-preview2-26406-04.json#dependencygroup/uap10.0.16300",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "UAP10.0.16300"
+    }
+  ],
+  "publishedAt": "2018-04-10T01:27:10.507+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": "2.12",
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/system.threading.channels/4.5.0-preview2-26406-04/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-23T16:23:24.633Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "0bee9f8201829e7aa0b101d72317fc0cde0afde1ee9a1bcd517ed40b1ee64edbc07fcf5ceab6b82be6257d4db0cc8416"
+}
