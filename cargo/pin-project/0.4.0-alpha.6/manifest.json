@@ -1,0 +1,56 @@
+{
+  "name": "pin-project",
+  "version": "0.4.0-alpha.6",
+  "ecosystem": "cargo",
+  "description": "A crate for safe and ergonomic pin-projection.\n",
+  "license": "Apache-2.0/MIT",
+  "checksum": "e1868d901c2030347258cbac0e6b09e8481fc6e9bb5769a18dc00ca3930a0f57",
+  "features": {
+    "project_attr": [
+      "pin-project-internal/project_attr"
+    ],
+    "renamed": [
+      "pin-project-internal/renamed"
+    ]
+  },
+  "downloads": 2896,
+  "yanked": false,
+  "repository": "https://github.com/taiki-e/pin-project",
+  "homepage": null,
+  "keywords": [
+    "attribute",
+    "macros",
+    "pin"
+  ],
+  "categories": [
+    "No dynamic allocation",
+    "No standard library",
+    "Rust patterns"
+  ],
+  "dependencies": [
+    {
+      "name": "compiletest_rs",
+      "requirement": "^0.3.21",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-project-internal",
+      "requirement": "= 0.4.0-alpha.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 33035,
+    "login": "taiki-e",
+    "name": "Taiki Endo"
+  },
+  "publishedAt": "2019-09-01T09:55:26.365465Z",
+  "captured_at": "2026-05-23T16:19:00.958Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
