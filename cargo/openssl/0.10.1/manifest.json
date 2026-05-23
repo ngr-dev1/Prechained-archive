@@ -1,0 +1,91 @@
+{
+  "name": "openssl",
+  "version": "0.10.1",
+  "ecosystem": "cargo",
+  "description": "OpenSSL bindings",
+  "license": "Apache-2.0",
+  "checksum": "5339a5147e5743228beeb03d91de85dc44dc6504b8623aec6cb0040fa6f4de52",
+  "features": {
+    "v101": [],
+    "v102": [],
+    "v110": []
+  },
+  "downloads": 3717,
+  "yanked": false,
+  "repository": "https://github.com/rust-openssl/rust-openssl",
+  "homepage": null,
+  "keywords": [
+    "crypto",
+    "dtls",
+    "ssl",
+    "tls"
+  ],
+  "categories": [
+    "API bindings",
+    "Cryptography"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "data-encoding",
+      "requirement": "^2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "foreign-types",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hex",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "openssl-sys",
+      "requirement": "^0.9.24",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempdir",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-01-11T06:30:26.972491Z",
+  "captured_at": "2026-05-23T15:07:23.665Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
