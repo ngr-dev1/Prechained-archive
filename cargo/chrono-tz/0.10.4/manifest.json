@@ -1,0 +1,44 @@
+{
+  "name": "chrono-tz",
+  "version": "0.10.4",
+  "ecosystem": "cargo",
+  "description": "TimeZone implementations for chrono from the IANA database",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "a6139a8597ed92cf816dfb33f5dd6cf0bb93a6adc938f11039f371bc5bcd26c3",
+  "features": {
+    "case-insensitive": [
+      "dep:uncased",
+      "chrono-tz-build",
+      "chrono-tz-build/case-insensitive",
+      "phf/uncased"
+    ],
+    "default": [
+      "std"
+    ],
+    "filter-by-regex": [
+      "chrono-tz-build",
+      "chrono-tz-build/filter-by-regex"
+    ],
+    "serde": [
+      "dep:serde"
+    ],
+    "std": []
+  },
+  "downloads": 29811428,
+  "yanked": false,
+  "repository": "https://github.com/chronotope/chrono-tz",
+  "homepage": null,
+  "keywords": [
+    "date",
+    "iana",
+    "time",
+    "timezone",
+    "zone"
+  ],
+  "categories": [
+    "Date and time"
+  ],
+  "captured_at": "2026-05-23T02:30:20.288Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
