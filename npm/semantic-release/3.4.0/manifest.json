@@ -1,0 +1,92 @@
+{
+  "name": "semantic-release",
+  "version": "3.4.0",
+  "ecosystem": "npm",
+  "description": "Automated semver compliant package publishing",
+  "license": "MIT",
+  "dependencies": {
+    "ini": "^1.3.2",
+    "async": "^1.0.0",
+    "abbrev": "^1.0.5",
+    "github": "0.2.4",
+    "semver": "^4.3.3",
+    "npmconf": "^2.1.2",
+    "request": "^2.53.0",
+    "git-head": "^1.2.1",
+    "minimist": "^1.1.0",
+    "error-first-handler": "^1.0.1",
+    "github-url-from-git": "^1.4.0",
+    "parse-github-repo-url": "^1.0.0",
+    "conventional-changelog": "0.0.17"
+  },
+  "devDependencies": {
+    "nixt": "^0.4.1",
+    "nock": "^2.2.0",
+    "tape": "^4.0.0",
+    "cracks": "^2.0.1",
+    "sinopia": "^1.0.0",
+    "nano-uid": "^0.2.0",
+    "standard": "^3.11.1",
+    "tap-spec": "^3.0.0",
+    "lodash.defaults": "^3.0.0",
+    "github-release-fake-server": "^1.3.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "npm": "^2",
+    "iojs": "^1",
+    "node": "^0.10"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "./bin/semantic-release.js pre",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "boennemann",
+      "email": "stephan@boennemann.me"
+    }
+  ],
+  "author": {
+    "name": "Stephan Bönnemann",
+    "email": "stephan@boennemann.me"
+  },
+  "publishedAt": "2015-06-11T18:01:11.597Z",
+  "dist": {
+    "integrity": "sha512-InWAY3uuMU94GMn7JXrtQzVBLVC+EgfQ35xW7SeogdYPWClsBjlqPAqQpGDS0zBaEca1axx3sqla5igvD/XzMw==",
+    "shasum": "7e36d967965f026124b9840fa51aa82134619f89",
+    "tarball": "https://registry.npmjs.org/semantic-release/-/semantic-release-3.4.0.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": {
+    "url": "git+https://github.com/boennemann/semantic-release.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/boennemann/semantic-release",
+  "bugs": {
+    "url": "https://github.com/boennemann/semantic-release/issues"
+  },
+  "keywords": [
+    "author",
+    "automation",
+    "release",
+    "publish",
+    "module",
+    "package",
+    "semver",
+    "version",
+    "changelog"
+  ],
+  "_npmUser": {
+    "name": "boennemann",
+    "email": "stephan@boennemann.me"
+  },
+  "captured_at": "2026-05-23T21:52:18.888Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
