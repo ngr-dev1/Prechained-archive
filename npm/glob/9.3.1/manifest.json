@@ -1,0 +1,74 @@
+{
+  "name": "glob",
+  "version": "9.3.1",
+  "ecosystem": "npm",
+  "description": "the most correct and second fastest glob implementation in JavaScript",
+  "license": "ISC",
+  "dependencies": {
+    "minipass": "^4.2.4",
+    "minimatch": "^7.4.1",
+    "fs.realpath": "^1.0.0",
+    "path-scurry": "^1.6.1"
+  },
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "tap": "^16.3.4",
+    "memfs": "^3.4.13",
+    "mkdirp": "^2.1.4",
+    "rimraf": "^4.1.3",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.23.24",
+    "prettier": "^2.8.3",
+    "@types/tap": "^15.0.7",
+    "typescript": "^4.9.4",
+    "@types/node": "^18.11.18",
+    "eslint-config-prettier": "^8.6.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=16 || 14 >=14.17"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tsc -p tsconfig.json && tsc -p tsconfig-esm.json",
+    "prepublish": "npm run benchclean",
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "url": "http://blog.izs.me/",
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me"
+  },
+  "publishedAt": "2023-03-21T00:02:59.156Z",
+  "dist": {
+    "integrity": "sha512-qERvJb7IGsnkx6YYmaaGvDpf77c951hICMdWaFXyH3PlVob8sbPJJyJX0kWkiCWyXUzoy9UOTNjGg0RbD8bYIw==",
+    "shasum": "4a15cf72479a440f77e97805b21e1b5b6e4fb18a",
+    "tarball": "https://registry.npmjs.org/glob/-/glob-9.3.1.tgz",
+    "fileCount": 65,
+    "unpackedSize": 302071
+  },
+  "repository": {
+    "url": "git://github.com/isaacs/node-glob.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/isaacs/node-glob#readme",
+  "bugs": {
+    "url": "https://github.com/isaacs/node-glob/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  },
+  "captured_at": "2026-05-23T15:57:33.114Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
