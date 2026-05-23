@@ -1,0 +1,52 @@
+{
+  "name": "actix-web",
+  "version": "4.0.0-beta.3",
+  "ecosystem": "cargo",
+  "description": "Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "bc9683dc8c3037ea524e0fec6032d34e1cb1ee72c4eb8689f428a60c2a544ea3",
+  "features": {
+    "compress": [
+      "actix-http/compress",
+      "awc/compress"
+    ],
+    "default": [
+      "compress"
+    ],
+    "openssl": [
+      "tls_openssl",
+      "actix-tls/accept",
+      "actix-tls/openssl",
+      "awc/openssl"
+    ],
+    "rustls": [
+      "tls_rustls",
+      "actix-tls/accept",
+      "actix-tls/rustls",
+      "awc/rustls"
+    ],
+    "secure-cookies": [
+      "actix-http/secure-cookies"
+    ]
+  },
+  "downloads": 47436,
+  "yanked": false,
+  "repository": "https://github.com/actix/actix-web",
+  "homepage": "https://actix.rs",
+  "keywords": [
+    "actix",
+    "async",
+    "framework",
+    "http",
+    "web"
+  ],
+  "categories": [
+    "Network programming",
+    "HTTP server",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "captured_at": "2026-05-23T01:50:54.107Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
