@@ -1,0 +1,181 @@
+{
+  "name": "ahash",
+  "version": "0.8.10",
+  "ecosystem": "cargo",
+  "description": "A non-cryptographic hash function using AES-NI for high performance",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "8b79b82693f705137f8fb9b37871d99e4f9a7df12b917eed79c3d3954830a60b",
+  "features": {
+    "atomic-polyfill": [
+      "dep:atomic-polyfill",
+      "once_cell/atomic-polyfill"
+    ],
+    "compile-time-rng": [
+      "const-random"
+    ],
+    "default": [
+      "std",
+      "runtime-rng"
+    ],
+    "nightly-arm-aes": [],
+    "no-rng": [],
+    "runtime-rng": [
+      "getrandom"
+    ],
+    "std": []
+  },
+  "downloads": 2357278,
+  "yanked": false,
+  "repository": "https://github.com/tkaitchuck/ahash",
+  "homepage": null,
+  "keywords": [
+    "aes",
+    "hash",
+    "hasher",
+    "hashmap",
+    "no-std"
+  ],
+  "categories": [
+    "Algorithms",
+    "No standard library",
+    "Data structures"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.3.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fnv",
+      "requirement": "^1.0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fxhash",
+      "requirement": "^0.2.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hashbrown",
+      "requirement": "^0.14.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hex",
+      "requirement": "^0.4.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "no-panic",
+      "requirement": "^0.1.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1.18.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "pcg-mwc",
+      "requirement": "^0.2.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "seahash",
+      "requirement": "^4.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.59",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "version_check",
+      "requirement": "^0.9.4",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "zerocopy",
+      "requirement": "^0.7.31",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "atomic-polyfill",
+      "requirement": "^1.0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "const-random",
+      "requirement": "^0.1.17",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.2.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.117",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 25353,
+    "login": "tkaitchuck",
+    "name": "Tom Kaitchuck"
+  },
+  "publishedAt": "2024-02-27T18:42:06.547904Z",
+  "captured_at": "2026-05-23T16:18:38.500Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
