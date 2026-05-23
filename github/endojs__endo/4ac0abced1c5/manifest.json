@@ -1,0 +1,61 @@
+{
+  "repo": "endojs/endo",
+  "commit_sha": "4ac0abced1c511af50c199b894505e6f0d0ac73a",
+  "tree_sha": "443b30887421162d81e4a34f35d51fb85f327879",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Endo is a distributed secure JavaScript sandbox, based on SES",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 1022,
+  "watchers": 1022,
+  "forks": 87,
+  "open_issues": 558,
+  "language": "JavaScript",
+  "topics": [
+    "capabilities",
+    "captp",
+    "hardened",
+    "javascript",
+    "multi-tenant",
+    "ocaps",
+    "powerbox",
+    "prototype-pollution",
+    "sandbox",
+    "security",
+    "supply-chain"
+  ],
+  "commit_message": "fix(bundle-source): point ./exported.js export at the file that exists\n\nThe `./exported.js` subpath has pointed at `./exported.js` (package root)\nsince 2022, but no such file has ever existed — not in the source tree,\nnot in any published tarball on npm (verified against 4.3.0). The\nprepack pipeline that was in place at the time didn't generate it\neither; it was a dangling reference from day one. Consumers importing\n`@endo/bundle-source/exported.js` would have hit ERR_MODULE_NOT_FOUND,\nwhich is ",
+  "commit_author": {
+    "name": "Turadg Aleahmad",
+    "email": "turadg@agoric.com",
+    "date": "2026-05-14T20:25:40Z"
+  },
+  "commit_committer": {
+    "name": "Turadg Aleahmad",
+    "email": "turadg@agoric.com",
+    "date": "2026-05-23T19:48:13Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "b2fd51ceaff2b4511143fe46f569cd25d5f27115"
+  ],
+  "github_author_login": "turadg",
+  "github_committer_login": "turadg",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-05-23T19:56:23Z",
+  "created_at": "2019-11-06T20:09:57Z",
+  "homepage": "https://endojs.org/",
+  "size_kb": 76397,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-23T21:51:40.550Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
