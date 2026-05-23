@@ -1,0 +1,53 @@
+{
+  "name": "sqlx",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "description": "🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "c15c9db3861e9f9c2f2ece22883d3a6be10bb89501d69114e64960c80a920ea2",
+  "features": {
+    "chrono": [
+      "sqlx-core/chrono",
+      "sqlx-macros/chrono"
+    ],
+    "default": [
+      "macros",
+      "runtime-async-std"
+    ],
+    "macros": [
+      "sqlx-macros"
+    ],
+    "mysql": [
+      "sqlx-core/mysql",
+      "sqlx-macros/mysql"
+    ],
+    "postgres": [
+      "sqlx-core/postgres",
+      "sqlx-macros/postgres"
+    ],
+    "runtime-async-std": [
+      "sqlx-core/runtime-async-std",
+      "sqlx-macros/runtime-async-std"
+    ],
+    "runtime-tokio": [
+      "sqlx-core/runtime-tokio",
+      "sqlx-macros/runtime-tokio"
+    ],
+    "tls": [
+      "sqlx-core/tls"
+    ],
+    "uuid": [
+      "sqlx-core/uuid",
+      "sqlx-macros/uuid"
+    ]
+  },
+  "downloads": 2010,
+  "yanked": false,
+  "repository": "https://github.com/launchbadge/sqlx",
+  "homepage": null,
+  "keywords": [],
+  "categories": [],
+  "captured_at": "2026-05-23T06:36:07.792Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
