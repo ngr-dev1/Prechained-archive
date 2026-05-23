@@ -1,0 +1,25 @@
+{
+  "name": "pest",
+  "version": "2.7.2",
+  "ecosystem": "cargo",
+  "description": "The Elegant Parser",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "1acb4a4365a13f749a93f1a094a7805e5cfa0955373a9de860d962eaa3a5fe5a",
+  "features": {
+    "const_prec_climber": [],
+    "default": [
+      "std"
+    ],
+    "pretty-print": [
+      "dep:serde",
+      "dep:serde_json"
+    ],
+    "std": [
+      "ucd-trie/std",
+      "dep:thiserror"
+    ]
+  },
+  "downloads": 6509769,
+  "captured_at": "2026-05-23T00:28:26.329Z",
+  "captured_by": "prechained.com"
+}
