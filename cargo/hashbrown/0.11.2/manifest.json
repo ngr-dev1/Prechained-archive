@@ -1,0 +1,45 @@
+{
+  "name": "hashbrown",
+  "version": "0.11.2",
+  "ecosystem": "cargo",
+  "description": "A Rust port of Google's SwissTable hash map",
+  "license": "Apache-2.0/MIT",
+  "checksum": "ab5ef0d4909ef3724cc8cce6ccc8572c5c817592e9285f5464f8e86f8bd3726e",
+  "features": {
+    "ahash-compile-time-rng": [
+      "ahash/compile-time-rng"
+    ],
+    "default": [
+      "ahash",
+      "inline-more"
+    ],
+    "inline-more": [],
+    "nightly": [],
+    "raw": [],
+    "rustc-dep-of-std": [
+      "nightly",
+      "core",
+      "compiler_builtins",
+      "alloc",
+      "rustc-internal-api"
+    ],
+    "rustc-internal-api": []
+  },
+  "downloads": 87742332,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/hashbrown",
+  "homepage": null,
+  "keywords": [
+    "hash",
+    "hashmap",
+    "no_std",
+    "swisstable"
+  ],
+  "categories": [
+    "Data structures",
+    "No standard library"
+  ],
+  "captured_at": "2026-05-23T05:55:17.173Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
