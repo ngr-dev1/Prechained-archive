@@ -1,0 +1,144 @@
+{
+  "name": "regex-automata",
+  "version": "0.4.10",
+  "ecosystem": "cargo",
+  "description": "Automata construction and matching using regular expressions.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "6b9458fa0bfeeac22b5ca447c63aaf45f28439a709ccd244698632f9aa6394d6",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std",
+      "syntax",
+      "perf",
+      "unicode",
+      "meta",
+      "nfa",
+      "dfa",
+      "hybrid"
+    ],
+    "dfa": [
+      "dfa-build",
+      "dfa-search",
+      "dfa-onepass"
+    ],
+    "dfa-build": [
+      "nfa-thompson",
+      "dfa-search"
+    ],
+    "dfa-onepass": [
+      "nfa-thompson"
+    ],
+    "dfa-search": [],
+    "hybrid": [
+      "alloc",
+      "nfa-thompson"
+    ],
+    "internal-instrument": [
+      "internal-instrument-pikevm"
+    ],
+    "internal-instrument-pikevm": [
+      "logging",
+      "std"
+    ],
+    "logging": [
+      "dep:log",
+      "aho-corasick?/logging",
+      "memchr?/logging"
+    ],
+    "meta": [
+      "syntax",
+      "nfa-pikevm"
+    ],
+    "nfa": [
+      "nfa-thompson",
+      "nfa-pikevm",
+      "nfa-backtrack"
+    ],
+    "nfa-backtrack": [
+      "nfa-thompson"
+    ],
+    "nfa-pikevm": [
+      "nfa-thompson"
+    ],
+    "nfa-thompson": [
+      "alloc"
+    ],
+    "perf": [
+      "perf-inline",
+      "perf-literal"
+    ],
+    "perf-inline": [],
+    "perf-literal": [
+      "perf-literal-substring",
+      "perf-literal-multisubstring"
+    ],
+    "perf-literal-multisubstring": [
+      "dep:aho-corasick"
+    ],
+    "perf-literal-substring": [
+      "aho-corasick?/perf-literal",
+      "dep:memchr"
+    ],
+    "std": [
+      "regex-syntax?/std",
+      "memchr?/std",
+      "aho-corasick?/std",
+      "alloc"
+    ],
+    "syntax": [
+      "dep:regex-syntax",
+      "alloc"
+    ],
+    "unicode": [
+      "unicode-age",
+      "unicode-bool",
+      "unicode-case",
+      "unicode-gencat",
+      "unicode-perl",
+      "unicode-script",
+      "unicode-segment",
+      "unicode-word-boundary",
+      "regex-syntax?/unicode"
+    ],
+    "unicode-age": [
+      "regex-syntax?/unicode-age"
+    ],
+    "unicode-bool": [
+      "regex-syntax?/unicode-bool"
+    ],
+    "unicode-case": [
+      "regex-syntax?/unicode-case"
+    ],
+    "unicode-gencat": [
+      "regex-syntax?/unicode-gencat"
+    ],
+    "unicode-perl": [
+      "regex-syntax?/unicode-perl"
+    ],
+    "unicode-script": [
+      "regex-syntax?/unicode-script"
+    ],
+    "unicode-segment": [
+      "regex-syntax?/unicode-segment"
+    ],
+    "unicode-word-boundary": []
+  },
+  "downloads": 32660484,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/regex",
+  "homepage": "https://github.com/rust-lang/regex/tree/master/regex-automata",
+  "keywords": [
+    "automata",
+    "automaton",
+    "dfa",
+    "nfa",
+    "regex"
+  ],
+  "categories": [
+    "Text processing"
+  ],
+  "captured_at": "2026-05-23T03:52:11.726Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
