@@ -1,0 +1,130 @@
+{
+  "name": "Microsoft.Extensions.Azure",
+  "version": "1.0.0",
+  "ecosystem": "nuget",
+  "description": "Azure Client SDK integration with Microsoft.Extensions libraries",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    "Microsoft",
+    "Azure",
+    "Client",
+    "Pipeline",
+    "AspNetCore",
+    "Extensions"
+  ],
+  "projectUrl": "https://github.com/Azure/azure-sdk-for-net/blob/64463f361c3dfeb8f96bb1d335710b383424bdb6/sdk/core/Microsoft.Extensions.Azure/README.md",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Azure.Core",
+      "range": "[1.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Azure.Identity",
+      "range": "[1.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Binder",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Options",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.20.15.11.23/microsoft.extensions.azure.1.0.0.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.20.15.11.23/microsoft.extensions.azure.1.0.0.json#dependencygroup/.netstandard2.0/azure.core",
+          "@type": "PackageDependency",
+          "id": "Azure.Core",
+          "range": "[1.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/azure.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.20.15.11.23/microsoft.extensions.azure.1.0.0.json#dependencygroup/.netstandard2.0/azure.identity",
+          "@type": "PackageDependency",
+          "id": "Azure.Identity",
+          "range": "[1.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/azure.identity/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.20.15.11.23/microsoft.extensions.azure.1.0.0.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.20.15.11.23/microsoft.extensions.azure.1.0.0.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.binder",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Binder",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.binder/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.20.15.11.23/microsoft.extensions.azure.1.0.0.json#dependencygroup/.netstandard2.0/microsoft.extensions.dependencyinjection.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.20.15.11.23/microsoft.extensions.azure.1.0.0.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.11.20.15.11.23/microsoft.extensions.azure.1.0.0.json#dependencygroup/.netstandard2.0/microsoft.extensions.options",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Options",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.options/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2019-11-04T18:01:07.603+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.extensions.azure/1.0.0/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-23T15:43:58.190Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
