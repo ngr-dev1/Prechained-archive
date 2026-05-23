@@ -1,0 +1,79 @@
+{
+  "name": "hyper-tls",
+  "version": "0.4.1",
+  "ecosystem": "cargo",
+  "description": "Default TLS implementation for use with hyper",
+  "license": "MIT/Apache-2.0",
+  "checksum": "3adcd308402b9553630734e9c36b77a7e48b3821251ca2493e8cd596763aafaa",
+  "features": {
+    "vendored": [
+      "native-tls/vendored"
+    ]
+  },
+  "downloads": 2060366,
+  "yanked": false,
+  "repository": "https://github.com/hyperium/hyper-tls",
+  "homepage": "https://hyper.rs",
+  "keywords": [
+    "http",
+    "https",
+    "hyper",
+    "ssl",
+    "tls"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "bytes",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^0.13",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "native-tls",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-tls",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar",
+    "name": "Sean McArthur"
+  },
+  "publishedAt": "2020-01-09T20:37:17.261316Z",
+  "captured_at": "2026-05-23T15:44:29.233Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
