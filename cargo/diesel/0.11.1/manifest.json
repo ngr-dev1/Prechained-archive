@@ -1,0 +1,57 @@
+{
+  "name": "diesel",
+  "version": "0.11.1",
+  "ecosystem": "cargo",
+  "description": "A safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "3b63b3a6a3f7d54759f4799421d0182730e619cc4991f9001090087426ed1e81",
+  "features": {
+    "default": [
+      "with-deprecated"
+    ],
+    "deprecated-time": [
+      "time"
+    ],
+    "extras": [
+      "chrono",
+      "serde_json",
+      "uuid",
+      "deprecated-time"
+    ],
+    "huge-tables": [
+      "large-tables"
+    ],
+    "large-tables": [],
+    "lint": [
+      "clippy"
+    ],
+    "mysql": [
+      "mysqlclient-sys",
+      "url"
+    ],
+    "postgres": [
+      "pq-sys"
+    ],
+    "sqlite": [
+      "libsqlite3-sys",
+      "libc"
+    ],
+    "unstable": [],
+    "with-deprecated": []
+  },
+  "downloads": 3704,
+  "yanked": false,
+  "repository": "https://github.com/diesel-rs/diesel",
+  "homepage": "https://diesel.rs",
+  "keywords": [
+    "database",
+    "orm",
+    "sql"
+  ],
+  "categories": [
+    "Database interfaces"
+  ],
+  "captured_at": "2026-05-23T03:47:57.594Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
