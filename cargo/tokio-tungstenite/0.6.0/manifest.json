@@ -1,0 +1,121 @@
+{
+  "name": "tokio-tungstenite",
+  "version": "0.6.0",
+  "ecosystem": "cargo",
+  "description": "Tokio binding for Tungstenite, the Lightweight stream-based WebSocket implementation",
+  "license": "MIT",
+  "checksum": "4e744ff297473d047436c108c99e478fd73c1dd27e2c08e352907dcd864c720f",
+  "features": {
+    "connect": [
+      "tokio-dns-unofficial",
+      "tokio-tcp",
+      "stream"
+    ],
+    "default": [
+      "connect",
+      "tls"
+    ],
+    "stream": [
+      "bytes"
+    ],
+    "tls": [
+      "tokio-tls",
+      "native-tls",
+      "stream",
+      "tungstenite/tls"
+    ]
+  },
+  "downloads": 56960,
+  "yanked": false,
+  "repository": "https://github.com/snapview/tokio-tungstenite",
+  "homepage": "https://github.com/snapview/tokio-tungstenite",
+  "keywords": [
+    "io",
+    "web",
+    "websocket"
+  ],
+  "categories": [
+    "Network programming",
+    "Concurrency",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "futures",
+      "requirement": "^0.1.23",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.1.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-io",
+      "requirement": "^0.1.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tungstenite",
+      "requirement": "^0.6.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "url",
+      "requirement": "^1.6.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^0.4.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "native-tls",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-dns-unofficial",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-tcp",
+      "requirement": "^0.1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-tls",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-08-22T11:37:04.435101Z",
+  "captured_at": "2026-05-23T16:23:57.917Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "79fe194ded6da3f3154a1d28a4ec46a92dac7a5c3bce98cf014d2ddf5253070f3715fb86237f5cb1b77a5c4266749a94"
+}
