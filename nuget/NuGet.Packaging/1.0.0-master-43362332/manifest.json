@@ -1,0 +1,54 @@
+{
+  "name": "NuGet.Packaging",
+  "version": "1.0.0-master-43362332",
+  "ecosystem": "nuget",
+  "description": "Tools for reading nupkg and nuspec files",
+  "license": null,
+  "licenseExpression": null,
+  "authors": [
+    "NuGet"
+  ],
+  "owners": [],
+  "tags": [
+    "nupkg",
+    "packaging",
+    "nuspec"
+  ],
+  "projectUrl": "https://github.com/NuGet/NuGet.Packaging/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "NuGet.Versioning",
+      "range": "[1.0.2, )",
+      "targetFramework": null
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.17.18.06.10/nuget.packaging.1.0.0-master-43362332.json#dependencygroup",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.17.18.06.10/nuget.packaging.1.0.0-master-43362332.json#dependencygroup/nuget.versioning",
+          "@type": "PackageDependency",
+          "id": "NuGet.Versioning",
+          "range": "[1.0.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/nuget.versioning/index.json"
+        }
+      ]
+    }
+  ],
+  "publishedAt": "1900-01-01T00:00:00+00:00",
+  "listed": false,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": null,
+  "readmeUrl": null,
+  "captured_at": "2026-05-23T16:23:56.082Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "79fe194ded6da3f3154a1d28a4ec46a92dac7a5c3bce98cf014d2ddf5253070f3715fb86237f5cb1b77a5c4266749a94"
+}
