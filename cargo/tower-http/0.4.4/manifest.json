@@ -1,0 +1,160 @@
+{
+  "name": "tower-http",
+  "version": "0.4.4",
+  "ecosystem": "cargo",
+  "description": "Tower middleware and utilities for HTTP clients and servers",
+  "license": "MIT",
+  "checksum": "61c5bb1d698276a2443e5ecfabc1008bf15a36c12e6a7176e7bf089ea9131140",
+  "features": {
+    "add-extension": [],
+    "auth": [
+      "base64",
+      "validate-request"
+    ],
+    "catch-panic": [
+      "tracing",
+      "futures-util/std"
+    ],
+    "compression-br": [
+      "async-compression/brotli",
+      "tokio-util",
+      "tokio"
+    ],
+    "compression-deflate": [
+      "async-compression/zlib",
+      "tokio-util",
+      "tokio"
+    ],
+    "compression-full": [
+      "compression-br",
+      "compression-deflate",
+      "compression-gzip",
+      "compression-zstd"
+    ],
+    "compression-gzip": [
+      "async-compression/gzip",
+      "tokio-util",
+      "tokio"
+    ],
+    "compression-zstd": [
+      "async-compression/zstd",
+      "tokio-util",
+      "tokio"
+    ],
+    "cors": [],
+    "decompression-br": [
+      "async-compression/brotli",
+      "tokio-util",
+      "tokio"
+    ],
+    "decompression-deflate": [
+      "async-compression/zlib",
+      "tokio-util",
+      "tokio"
+    ],
+    "decompression-full": [
+      "decompression-br",
+      "decompression-deflate",
+      "decompression-gzip",
+      "decompression-zstd"
+    ],
+    "decompression-gzip": [
+      "async-compression/gzip",
+      "tokio-util",
+      "tokio"
+    ],
+    "decompression-zstd": [
+      "async-compression/zstd",
+      "tokio-util",
+      "tokio"
+    ],
+    "default": [],
+    "follow-redirect": [
+      "iri-string",
+      "tower/util"
+    ],
+    "fs": [
+      "tokio/fs",
+      "tokio-util/io",
+      "tokio/io-util",
+      "mime_guess",
+      "mime",
+      "percent-encoding",
+      "httpdate",
+      "set-status",
+      "futures-util/alloc",
+      "tracing"
+    ],
+    "full": [
+      "add-extension",
+      "auth",
+      "catch-panic",
+      "compression-full",
+      "cors",
+      "decompression-full",
+      "follow-redirect",
+      "fs",
+      "limit",
+      "map-request-body",
+      "map-response-body",
+      "metrics",
+      "normalize-path",
+      "propagate-header",
+      "redirect",
+      "request-id",
+      "sensitive-headers",
+      "set-header",
+      "set-status",
+      "timeout",
+      "trace",
+      "util",
+      "validate-request"
+    ],
+    "limit": [],
+    "map-request-body": [],
+    "map-response-body": [],
+    "metrics": [
+      "tokio/time"
+    ],
+    "normalize-path": [],
+    "propagate-header": [],
+    "redirect": [],
+    "request-id": [
+      "uuid"
+    ],
+    "sensitive-headers": [],
+    "set-header": [],
+    "set-status": [],
+    "timeout": [
+      "tokio/time"
+    ],
+    "trace": [
+      "tracing"
+    ],
+    "util": [
+      "tower"
+    ],
+    "validate-request": [
+      "mime"
+    ]
+  },
+  "downloads": 25685327,
+  "yanked": false,
+  "repository": "https://github.com/tower-rs/tower-http",
+  "homepage": "https://github.com/tower-rs/tower-http",
+  "keywords": [
+    "async",
+    "futures",
+    "http",
+    "io",
+    "service"
+  ],
+  "categories": [
+    "Network programming",
+    "Asynchronous",
+    "Web programming"
+  ],
+  "captured_at": "2026-05-23T03:01:20.643Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
