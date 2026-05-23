@@ -1,0 +1,70 @@
+{
+  "name": "deadpool",
+  "version": "0.1.0",
+  "ecosystem": "cargo",
+  "description": "Dead simple async pool",
+  "license": "MIT/Apache-2.0",
+  "checksum": "427fb91ecd6dd17d1dfa772c79a1e197a6f59ea075693abdab17d5ea6ca34ce8",
+  "features": {
+    "postgres": [
+      "tokio-postgres"
+    ]
+  },
+  "downloads": 2926,
+  "yanked": false,
+  "repository": "https://github.com/deadpool-rs/deadpool",
+  "homepage": null,
+  "keywords": [
+    "async",
+    "database",
+    "pool"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "async-trait",
+      "requirement": "^0.1.17",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.2.0-alpha.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-postgres",
+      "requirement": "^0.5.0-alpha.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 7070,
+    "login": "bikeshedder",
+    "name": "Michael P. Jung"
+  },
+  "publishedAt": "2019-11-14T12:49:50.684130Z",
+  "captured_at": "2026-05-23T15:09:35.374Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
