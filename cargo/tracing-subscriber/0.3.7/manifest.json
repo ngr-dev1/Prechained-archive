@@ -1,0 +1,68 @@
+{
+  "name": "tracing-subscriber",
+  "version": "0.3.7",
+  "ecosystem": "cargo",
+  "description": "Utilities for implementing and composing `tracing` subscribers.\n",
+  "license": "MIT",
+  "checksum": "5312f325fe3588e277415f5a6cca1f4ccad0f248c4cd5a4bd33032d7286abc22",
+  "features": {
+    "alloc": [],
+    "ansi": [
+      "fmt",
+      "ansi_term"
+    ],
+    "default": [
+      "smallvec",
+      "fmt",
+      "ansi",
+      "tracing-log",
+      "std"
+    ],
+    "env-filter": [
+      "matchers",
+      "regex",
+      "lazy_static",
+      "tracing",
+      "std"
+    ],
+    "fmt": [
+      "registry",
+      "std"
+    ],
+    "json": [
+      "tracing-serde",
+      "serde",
+      "serde_json"
+    ],
+    "local-time": [
+      "time/local-offset"
+    ],
+    "registry": [
+      "sharded-slab",
+      "thread_local",
+      "std"
+    ],
+    "std": [
+      "alloc",
+      "tracing-core/std"
+    ]
+  },
+  "downloads": 2084981,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/tracing",
+  "homepage": "https://tokio.rs",
+  "keywords": [
+    "logging",
+    "metrics",
+    "subscriber",
+    "tracing"
+  ],
+  "categories": [
+    "Debugging",
+    "Profiling",
+    "Asynchronous"
+  ],
+  "captured_at": "2026-05-23T02:17:28.802Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
