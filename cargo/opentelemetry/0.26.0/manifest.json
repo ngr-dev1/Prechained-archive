@@ -1,0 +1,47 @@
+{
+  "name": "opentelemetry",
+  "version": "0.26.0",
+  "ecosystem": "cargo",
+  "description": "OpenTelemetry API for Rust",
+  "license": "Apache-2.0",
+  "checksum": "570074cc999d1a58184080966e5bd3bf3a9a4af650c3b05047c2621e7405cd17",
+  "features": {
+    "default": [
+      "trace",
+      "metrics",
+      "logs"
+    ],
+    "logs": [],
+    "logs_level_enabled": [
+      "logs"
+    ],
+    "metrics": [],
+    "otel_unstable": [],
+    "testing": [
+      "trace",
+      "metrics"
+    ],
+    "trace": [
+      "pin-project-lite"
+    ]
+  },
+  "downloads": 13696644,
+  "yanked": false,
+  "repository": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry",
+  "homepage": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry",
+  "keywords": [
+    "logging",
+    "metrics",
+    "opentelemetry",
+    "tracing"
+  ],
+  "categories": [
+    "Profiling",
+    "API bindings",
+    "Debugging",
+    "Asynchronous"
+  ],
+  "captured_at": "2026-05-23T02:19:54.840Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
