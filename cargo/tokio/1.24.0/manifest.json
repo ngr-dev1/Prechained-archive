@@ -1,0 +1,96 @@
+{
+  "name": "tokio",
+  "version": "1.24.0",
+  "ecosystem": "cargo",
+  "description": "An event-driven, non-blocking I/O platform for writing asynchronous I/O\nbacked applications.\n",
+  "license": "MIT",
+  "checksum": "7125661431c26622a80ca5051a2f936c9a678318e0351007b0cc313143024e5c",
+  "features": {
+    "default": [],
+    "fs": [],
+    "full": [
+      "fs",
+      "io-util",
+      "io-std",
+      "macros",
+      "net",
+      "parking_lot",
+      "process",
+      "rt",
+      "rt-multi-thread",
+      "signal",
+      "sync",
+      "time"
+    ],
+    "io-std": [],
+    "io-util": [
+      "memchr",
+      "bytes"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "socket2",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_Security",
+      "windows-sys/Win32_Storage_FileSystem",
+      "windows-sys/Win32_System_Pipes",
+      "windows-sys/Win32_System_SystemServices"
+    ],
+    "process": [
+      "bytes",
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "signal-hook-registry",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_System_Threading",
+      "windows-sys/Win32_System_WindowsProgramming"
+    ],
+    "rt": [],
+    "rt-multi-thread": [
+      "num_cpus",
+      "rt"
+    ],
+    "signal": [
+      "libc",
+      "mio/os-poll",
+      "mio/net",
+      "mio/os-ext",
+      "signal-hook-registry",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_System_Console"
+    ],
+    "stats": [],
+    "sync": [],
+    "test-util": [
+      "rt",
+      "sync",
+      "time"
+    ],
+    "time": []
+  },
+  "downloads": 112583,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/tokio",
+  "homepage": "https://tokio.rs",
+  "keywords": [
+    "async",
+    "futures",
+    "io",
+    "non-blocking"
+  ],
+  "categories": [
+    "Asynchronous",
+    "Network programming"
+  ],
+  "captured_at": "2026-05-23T03:35:15.943Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
