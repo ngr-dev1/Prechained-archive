@@ -1,0 +1,61 @@
+{
+  "name": "slab",
+  "version": "0.4.4",
+  "ecosystem": "cargo",
+  "description": "Pre-allocated storage for a uniform data type",
+  "license": "MIT",
+  "checksum": "c307a32c1c5c437f38c7fd45d753050587732ba8628319fbdf12a7e289ccc590",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": []
+  },
+  "downloads": 6187675,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/slab",
+  "homepage": null,
+  "keywords": [
+    "allocator",
+    "no_std",
+    "slab"
+  ],
+  "categories": [
+    "Data structures",
+    "No standard library",
+    "Memory management"
+  ],
+  "dependencies": [
+    {
+      "name": "serde",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_test",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.95",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 33035,
+    "login": "taiki-e",
+    "name": "Taiki Endo"
+  },
+  "publishedAt": "2021-08-06T14:17:44.140186Z",
+  "captured_at": "2026-05-23T19:45:19.194Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
