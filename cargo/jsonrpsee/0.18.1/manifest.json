@@ -1,0 +1,92 @@
+{
+  "name": "jsonrpsee",
+  "version": "0.18.1",
+  "ecosystem": "cargo",
+  "description": "JSON-RPC client/server framework",
+  "license": "MIT",
+  "checksum": "d5c42af39374bda4c9e0fd32e4caee0998ad662f29198ddaddd653ae8159e3b9",
+  "features": {
+    "async-client": [
+      "jsonrpsee-core/async-client"
+    ],
+    "async-wasm-client": [
+      "jsonrpsee-core/async-wasm-client"
+    ],
+    "client": [
+      "http-client",
+      "ws-client",
+      "wasm-client",
+      "client-ws-transport-native-tls",
+      "client-ws-transport-webpki-tls",
+      "client-web-transport",
+      "async-client",
+      "async-wasm-client",
+      "client-core"
+    ],
+    "client-core": [
+      "jsonrpsee-core/client"
+    ],
+    "client-web-transport": [
+      "jsonrpsee-client-transport/web"
+    ],
+    "client-ws-transport-native-tls": [
+      "jsonrpsee-client-transport/ws",
+      "jsonrpsee-client-transport/native-tls"
+    ],
+    "client-ws-transport-no-tls": [
+      "jsonrpsee-client-transport/ws"
+    ],
+    "client-ws-transport-webpki-tls": [
+      "jsonrpsee-client-transport/ws",
+      "jsonrpsee-client-transport/webpki-tls"
+    ],
+    "full": [
+      "client",
+      "server",
+      "macros"
+    ],
+    "http-client": [
+      "jsonrpsee-http-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core/client"
+    ],
+    "macros": [
+      "jsonrpsee-proc-macros",
+      "jsonrpsee-types",
+      "tracing"
+    ],
+    "server": [
+      "jsonrpsee-server",
+      "server-core",
+      "jsonrpsee-types"
+    ],
+    "server-core": [
+      "jsonrpsee-core/server"
+    ],
+    "wasm-client": [
+      "jsonrpsee-wasm-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core/client"
+    ],
+    "ws-client": [
+      "jsonrpsee-ws-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core/client"
+    ]
+  },
+  "downloads": 5744,
+  "yanked": false,
+  "repository": "https://github.com/paritytech/jsonrpsee",
+  "homepage": "https://www.parity.io/",
+  "keywords": [
+    "http",
+    "json",
+    "jsonrpc",
+    "wasm",
+    "websocket"
+  ],
+  "categories": [],
+  "captured_at": "2026-05-23T03:17:14.269Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
