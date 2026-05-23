@@ -1,0 +1,66 @@
+{
+  "name": "lock_api",
+  "version": "0.4.7",
+  "ecosystem": "cargo",
+  "description": "Wrappers to create fully-featured Mutex and RwLock types. Compatible with no_std.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "327fa5b6a6940e4699ec49a9beae1ea4845c6bab9314e4f84ac68742139d8c53",
+  "features": {
+    "arc_lock": [],
+    "nightly": []
+  },
+  "downloads": 22275194,
+  "yanked": false,
+  "repository": "https://github.com/Amanieu/parking_lot",
+  "homepage": null,
+  "keywords": [
+    "lock",
+    "mutex",
+    "no_std",
+    "rwlock"
+  ],
+  "categories": [
+    "Concurrency",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "autocfg",
+      "requirement": "^1.1.0",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "scopeguard",
+      "requirement": "^1.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "owning_ref",
+      "requirement": "^0.4.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.126",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 2915,
+    "login": "Amanieu",
+    "name": "Amanieu d'Antras"
+  },
+  "publishedAt": "2022-03-30T16:17:45.741352Z",
+  "captured_at": "2026-05-23T16:23:34.249Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "0bee9f8201829e7aa0b101d72317fc0cde0afde1ee9a1bcd517ed40b1ee64edbc07fcf5ceab6b82be6257d4db0cc8416"
+}
