@@ -1,0 +1,75 @@
+{
+  "name": "slab",
+  "version": "0.4.9",
+  "ecosystem": "cargo",
+  "description": "Pre-allocated storage for a uniform data type",
+  "license": "MIT",
+  "checksum": "8f92a496fb766b417c996b9c5e57daf2f7ad3b0bebe1ccfca4856390e3d3bb67",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": []
+  },
+  "downloads": 233825232,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/slab",
+  "homepage": null,
+  "keywords": [
+    "allocator",
+    "no_std",
+    "slab"
+  ],
+  "categories": [
+    "Data structures",
+    "No standard library",
+    "Memory management"
+  ],
+  "dependencies": [
+    {
+      "name": "autocfg",
+      "requirement": "^1",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustversion",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_test",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.95",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6741,
+    "login": "Darksonn",
+    "name": "Alice Ryhl"
+  },
+  "publishedAt": "2023-08-22T13:40:02.247474Z",
+  "captured_at": "2026-05-23T19:45:15.069Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
