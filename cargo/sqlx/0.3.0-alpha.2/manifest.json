@@ -1,0 +1,90 @@
+{
+  "name": "sqlx",
+  "version": "0.3.0-alpha.2",
+  "ecosystem": "cargo",
+  "description": "🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "8000bebb54ae0f2d6f5ff378a4f45cfece10c87c522897cb8d3d8dd9f6dd94a5",
+  "features": {
+    "all": [
+      "tls",
+      "all-database",
+      "all-type"
+    ],
+    "all-database": [
+      "mysql",
+      "sqlite",
+      "postgres"
+    ],
+    "all-type": [
+      "bigdecimal",
+      "json",
+      "time",
+      "chrono",
+      "ipnetwork",
+      "uuid"
+    ],
+    "bigdecimal": [
+      "sqlx-core/bigdecimal",
+      "sqlx-macros/bigdecimal"
+    ],
+    "chrono": [
+      "sqlx-core/chrono",
+      "sqlx-macros/chrono"
+    ],
+    "default": [
+      "macros",
+      "runtime-async-std"
+    ],
+    "ipnetwork": [
+      "sqlx-core/ipnetwork",
+      "sqlx-macros/ipnetwork"
+    ],
+    "json": [
+      "sqlx-core/json"
+    ],
+    "macros": [
+      "sqlx-macros"
+    ],
+    "mysql": [
+      "sqlx-core/mysql",
+      "sqlx-macros/mysql"
+    ],
+    "postgres": [
+      "sqlx-core/postgres",
+      "sqlx-macros/postgres"
+    ],
+    "runtime-async-std": [
+      "sqlx-core/runtime-async-std",
+      "sqlx-macros/runtime-async-std"
+    ],
+    "runtime-tokio": [
+      "sqlx-core/runtime-tokio",
+      "sqlx-macros/runtime-tokio"
+    ],
+    "sqlite": [
+      "sqlx-core/sqlite",
+      "sqlx-macros/sqlite"
+    ],
+    "time": [
+      "sqlx-core/time",
+      "sqlx-macros/time"
+    ],
+    "tls": [
+      "sqlx-core/tls"
+    ],
+    "uuid": [
+      "sqlx-core/uuid",
+      "sqlx-macros/uuid"
+    ]
+  },
+  "downloads": 2899,
+  "yanked": false,
+  "repository": "https://github.com/launchbadge/sqlx",
+  "homepage": null,
+  "keywords": [],
+  "categories": [],
+  "captured_at": "2026-05-23T03:26:56.438Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
