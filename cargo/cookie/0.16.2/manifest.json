@@ -1,0 +1,123 @@
+{
+  "name": "cookie",
+  "version": "0.16.2",
+  "ecosystem": "cargo",
+  "description": "HTTP cookie parsing and cookie jar management. Supports signed and private\n(encrypted, authenticated) jars.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "e859cd57d0710d9e06c381b550c06e76992472a8c6d527aecd2fc673dcc231fb",
+  "features": {
+    "key-expansion": [
+      "sha2",
+      "hkdf"
+    ],
+    "percent-encode": [
+      "percent-encoding"
+    ],
+    "private": [
+      "aes-gcm",
+      "base64",
+      "rand",
+      "subtle"
+    ],
+    "secure": [
+      "private",
+      "signed",
+      "key-expansion"
+    ],
+    "signed": [
+      "hmac",
+      "sha2",
+      "base64",
+      "rand",
+      "subtle"
+    ]
+  },
+  "downloads": 52795607,
+  "yanked": false,
+  "repository": "https://github.com/SergioBenitez/cookie-rs",
+  "homepage": null,
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "time",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "version_check",
+      "requirement": "^0.9.4",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "aes-gcm",
+      "requirement": "^0.10.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "base64",
+      "requirement": "^0.20",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "hkdf",
+      "requirement": "^0.12.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "hmac",
+      "requirement": "^0.12.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "percent-encoding",
+      "requirement": "^2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "sha2",
+      "requirement": "^0.10.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "subtle",
+      "requirement": "^2.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 3864,
+    "login": "SergioBenitez",
+    "name": "Sergio Benitez"
+  },
+  "publishedAt": "2022-12-16T17:16:58.592603Z",
+  "captured_at": "2026-05-23T15:44:00.814Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
