@@ -1,0 +1,114 @@
+{
+  "name": "sea-orm",
+  "version": "0.9.2",
+  "ecosystem": "cargo",
+  "description": "🐚 An async & dynamic ORM for Rust",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "089dcca5d2c8393f5f21c7f7b0d84062839c3264ba62dcc0043eb207862e13a1",
+  "features": {
+    "debug-print": [],
+    "default": [
+      "macros",
+      "with-json",
+      "with-chrono",
+      "with-rust_decimal",
+      "with-uuid",
+      "with-time"
+    ],
+    "macros": [
+      "sea-orm-macros"
+    ],
+    "mock": [],
+    "runtime-actix": [],
+    "runtime-actix-native-tls": [
+      "sqlx/runtime-actix-native-tls",
+      "runtime-actix"
+    ],
+    "runtime-actix-rustls": [
+      "sqlx/runtime-actix-rustls",
+      "runtime-actix"
+    ],
+    "runtime-async-std": [],
+    "runtime-async-std-native-tls": [
+      "sqlx/runtime-async-std-native-tls",
+      "runtime-async-std"
+    ],
+    "runtime-async-std-rustls": [
+      "sqlx/runtime-async-std-rustls",
+      "runtime-async-std"
+    ],
+    "runtime-tokio": [],
+    "runtime-tokio-native-tls": [
+      "sqlx/runtime-tokio-native-tls",
+      "runtime-tokio"
+    ],
+    "runtime-tokio-rustls": [
+      "sqlx/runtime-tokio-rustls",
+      "runtime-tokio"
+    ],
+    "sqlx-all": [
+      "sqlx-mysql",
+      "sqlx-postgres",
+      "sqlx-sqlite"
+    ],
+    "sqlx-dep": [],
+    "sqlx-mysql": [
+      "sqlx-dep",
+      "sea-query/sqlx-mysql",
+      "sqlx/mysql"
+    ],
+    "sqlx-postgres": [
+      "sqlx-dep",
+      "sea-query/sqlx-postgres",
+      "sqlx/postgres"
+    ],
+    "sqlx-sqlite": [
+      "sqlx-dep",
+      "sea-query/sqlx-sqlite",
+      "sqlx/sqlite"
+    ],
+    "with-chrono": [
+      "chrono",
+      "sea-query/with-chrono",
+      "sqlx?/chrono"
+    ],
+    "with-json": [
+      "serde_json",
+      "sea-query/with-json",
+      "chrono/serde",
+      "sqlx?/json"
+    ],
+    "with-rust_decimal": [
+      "rust_decimal",
+      "sea-query/with-rust_decimal",
+      "sqlx?/decimal"
+    ],
+    "with-time": [
+      "time",
+      "sea-query/with-time",
+      "sqlx?/time"
+    ],
+    "with-uuid": [
+      "uuid",
+      "sea-query/with-uuid",
+      "sqlx?/uuid"
+    ]
+  },
+  "downloads": 72825,
+  "yanked": false,
+  "repository": "https://github.com/SeaQL/sea-orm",
+  "homepage": "https://www.sea-ql.org/SeaORM",
+  "keywords": [
+    "async",
+    "mysql",
+    "orm",
+    "postgres",
+    "sqlite"
+  ],
+  "categories": [
+    "Database interfaces"
+  ],
+  "captured_at": "2026-05-23T03:40:06.659Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
