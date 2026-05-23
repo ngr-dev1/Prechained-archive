@@ -1,0 +1,36 @@
+{
+  "name": "rand_core",
+  "version": "0.9.0-beta.0",
+  "ecosystem": "cargo",
+  "description": "Core random number generation traits and tools for implementation.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "faff9cb0513c709c88c66ba1c44e7dfb0e6343494c57576614524400ee60d7cb",
+  "features": {
+    "alloc": [],
+    "os_rng": [
+      "dep:getrandom"
+    ],
+    "serde": [
+      "dep:serde"
+    ],
+    "std": [
+      "alloc",
+      "getrandom?/std"
+    ]
+  },
+  "downloads": 9575,
+  "yanked": false,
+  "repository": "https://github.com/rust-random/rand_core",
+  "homepage": "https://rust-random.github.io/book",
+  "keywords": [
+    "random",
+    "rng"
+  ],
+  "categories": [
+    "Algorithms",
+    "No standard library"
+  ],
+  "captured_at": "2026-05-23T06:50:38.205Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
