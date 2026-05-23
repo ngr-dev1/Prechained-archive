@@ -1,0 +1,175 @@
+{
+  "name": "generic-array",
+  "version": "1.4.0",
+  "ecosystem": "cargo",
+  "description": "Generic types implementing functionality of arrays",
+  "license": "MIT",
+  "checksum": "e38154b42567e31b925d3859382888aa6f86e446d1f018c89ef337fc1726bcf2",
+  "features": {
+    "alloc": [],
+    "as_slice": [
+      "dep:as-slice"
+    ],
+    "bitvec": [
+      "dep:bitvec",
+      "const-default"
+    ],
+    "compat-0_14": [
+      "dep:generic_array-0_14"
+    ],
+    "internals": [],
+    "serde": [
+      "dep:serde_core"
+    ]
+  },
+  "downloads": 14580,
+  "yanked": false,
+  "repository": "https://github.com/fizyk20/generic-array.git",
+  "homepage": null,
+  "keywords": [
+    "array",
+    "generic"
+  ],
+  "categories": [
+    "Data structures",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "aes",
+      "requirement": "^0.8.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "bincode",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustversion",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "typenum",
+      "requirement": "^1.19",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "arbitrary",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "as-slice",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "bitvec",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "bytemuck",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "const-default",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "faster-hex",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "generic-array",
+      "requirement": "^0.14",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "hybrid-array",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "serde_core",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "subtle",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "zeroize",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 5704,
+    "login": "novacrazy",
+    "name": "Nova"
+  },
+  "publishedAt": "2026-04-26T22:41:28.657133Z",
+  "captured_at": "2026-05-23T15:16:43.464Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
