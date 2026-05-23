@@ -1,0 +1,100 @@
+{
+  "name": "OpenTelemetry.Api",
+  "version": "1.0.1",
+  "ecosystem": "nuget",
+  "description": "OpenTelemetry .NET API",
+  "license": "Apache-2.0",
+  "licenseExpression": "Apache-2.0",
+  "authors": [
+    "OpenTelemetry Authors"
+  ],
+  "owners": [],
+  "tags": [
+    "Observability",
+    "OpenTelemetry",
+    "Monitoring",
+    "Telemetry",
+    "Tracing"
+  ],
+  "projectUrl": "https://opentelemetry.io/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "System.Diagnostics.DiagnosticSource",
+      "range": "[5.0.1, )",
+      "targetFramework": ".NETFramework4.5.2"
+    },
+    {
+      "id": "System.Reflection.Emit.Lightweight",
+      "range": "[4.7.0, )",
+      "targetFramework": ".NETFramework4.5.2"
+    },
+    {
+      "id": "System.Diagnostics.DiagnosticSource",
+      "range": "[5.0.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Reflection.Emit.Lightweight",
+      "range": "[4.7.0, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.04.23.21.44.06/opentelemetry.api.1.0.1.json#dependencygroup/.netframework4.5.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.04.23.21.44.06/opentelemetry.api.1.0.1.json#dependencygroup/.netframework4.5.2/system.diagnostics.diagnosticsource",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.DiagnosticSource",
+          "range": "[5.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.04.23.21.44.06/opentelemetry.api.1.0.1.json#dependencygroup/.netframework4.5.2/system.reflection.emit.lightweight",
+          "@type": "PackageDependency",
+          "id": "System.Reflection.Emit.Lightweight",
+          "range": "[4.7.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.reflection.emit.lightweight/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.5.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.04.23.21.44.06/opentelemetry.api.1.0.1.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.04.23.21.44.06/opentelemetry.api.1.0.1.json#dependencygroup/.netstandard2.0/system.diagnostics.diagnosticsource",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.DiagnosticSource",
+          "range": "[5.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.04.23.21.44.06/opentelemetry.api.1.0.1.json#dependencygroup/.netstandard2.0/system.reflection.emit.lightweight",
+          "@type": "PackageDependency",
+          "id": "System.Reflection.Emit.Lightweight",
+          "range": "[4.7.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.reflection.emit.lightweight/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2021-02-10T19:56:26.063+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/opentelemetry.api/1.0.1/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-23T23:47:43.575Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
