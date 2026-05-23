@@ -1,0 +1,266 @@
+{
+  "name": "Polly.Core",
+  "version": "8.5.0",
+  "ecosystem": "nuget",
+  "description": "Polly.Core is a .NET resilience and transient-fault-handling library that allows developers to express resilience strategies such as Retry, Circuit Breaker, Hedging, Timeout, Chaos and Fallback in a fluent and thread-safe manner.",
+  "license": "BSD-3-Clause",
+  "licenseExpression": "BSD-3-Clause",
+  "authors": [
+    "Michael Wolfenden",
+    "App vNext"
+  ],
+  "owners": [],
+  "tags": [
+    "Polly",
+    "Simmy",
+    "Exception",
+    "Handling",
+    "Resilience",
+    "Transient",
+    "Fault",
+    "Policy",
+    "Circuit",
+    "Breaker",
+    "CircuitBreaker",
+    "Chaos",
+    "ChaosEngineering",
+    "Retry",
+    "Wait",
+    "Fallback",
+    "Timeout",
+    "Parallelization",
+    "Hedging"
+  ],
+  "projectUrl": "https://github.com/App-vNext/Polly",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[6.0.0, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Bcl.TimeProvider",
+      "range": "[8.0.0, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.ComponentModel.Annotations",
+      "range": "[4.5.0, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.5.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.ValueTuple",
+      "range": "[4.5.0, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[6.0.0, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "Microsoft.Bcl.TimeProvider",
+      "range": "[8.0.0, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.ComponentModel.Annotations",
+      "range": "[4.5.0, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.5.4, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.ValueTuple",
+      "range": "[4.5.0, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "Microsoft.Bcl.TimeProvider",
+      "range": "[8.0.0, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[6.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Bcl.TimeProvider",
+      "range": "[8.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.ComponentModel.Annotations",
+      "range": "[4.5.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.5.4, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netframework4.6.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netframework4.6.2/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[6.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netframework4.6.2/microsoft.bcl.timeprovider",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.TimeProvider",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.timeprovider/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netframework4.6.2/system.componentmodel.annotations",
+          "@type": "PackageDependency",
+          "id": "System.ComponentModel.Annotations",
+          "range": "[4.5.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.componentmodel.annotations/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netframework4.6.2/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.5.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netframework4.6.2/system.valuetuple",
+          "@type": "PackageDependency",
+          "id": "System.ValueTuple",
+          "range": "[4.5.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.valuetuple/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netframework4.7.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netframework4.7.2/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[6.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netframework4.7.2/microsoft.bcl.timeprovider",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.TimeProvider",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.timeprovider/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netframework4.7.2/system.componentmodel.annotations",
+          "@type": "PackageDependency",
+          "id": "System.ComponentModel.Annotations",
+          "range": "[4.5.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.componentmodel.annotations/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netframework4.7.2/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.5.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netframework4.7.2/system.valuetuple",
+          "@type": "PackageDependency",
+          "id": "System.ValueTuple",
+          "range": "[4.5.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.valuetuple/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/net6.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/net6.0/microsoft.bcl.timeprovider",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.TimeProvider",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.timeprovider/index.json"
+        }
+      ],
+      "targetFramework": "net6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netstandard2.0/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[6.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netstandard2.0/microsoft.bcl.timeprovider",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.TimeProvider",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.timeprovider/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netstandard2.0/system.componentmodel.annotations",
+          "@type": "PackageDependency",
+          "id": "System.ComponentModel.Annotations",
+          "range": "[4.5.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.componentmodel.annotations/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.11.12.21.17.01/polly.core.8.5.0.json#dependencygroup/.netstandard2.0/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.5.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2024-11-12T21:13:57.94+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/polly.core/8.5.0/icon",
+  "readmeUrl": "https://www.nuget.org/packages/Polly.Core/8.5.0#show-readme-container",
+  "captured_at": "2026-05-23T15:55:17.485Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
