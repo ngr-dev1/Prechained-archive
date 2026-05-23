@@ -1,0 +1,93 @@
+{
+  "name": "jsonrpsee",
+  "version": "0.2.0-alpha.5",
+  "ecosystem": "cargo",
+  "description": "JSON-RPC client/server framework",
+  "license": "MIT",
+  "checksum": "86459f01c230ba39033993256630023dbf3d8c128d08a7aed2333b5a36e5937a",
+  "features": {
+    "client": [
+      "http-client",
+      "ws-client"
+    ],
+    "full": [
+      "client",
+      "server",
+      "macros"
+    ],
+    "macros": [
+      "proc-macros",
+      "types"
+    ],
+    "server": [
+      "http-server",
+      "ws-server"
+    ]
+  },
+  "downloads": 1214,
+  "yanked": false,
+  "repository": "https://github.com/paritytech/jsonrpsee",
+  "homepage": "https://www.parity.io/",
+  "keywords": [
+    "http",
+    "json",
+    "jsonrpc",
+    "wasm",
+    "websocket"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "jsonrpsee-http-client",
+      "requirement": "^0.2.0-alpha.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "jsonrpsee-http-server",
+      "requirement": "^0.2.0-alpha.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "jsonrpsee-proc-macros",
+      "requirement": "^0.2.0-alpha.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "jsonrpsee-types",
+      "requirement": "^0.2.0-alpha.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "jsonrpsee-ws-client",
+      "requirement": "^0.2.0-alpha.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "jsonrpsee-ws-server",
+      "requirement": "^0.2.0-alpha.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 18452,
+    "login": "niklasad1",
+    "name": "Niklas Adolfsson"
+  },
+  "publishedAt": "2021-04-20T15:16:07.514122Z",
+  "captured_at": "2026-05-23T13:52:41.114Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
