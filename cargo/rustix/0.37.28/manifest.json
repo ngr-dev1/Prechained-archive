@@ -1,0 +1,105 @@
+{
+  "name": "rustix",
+  "version": "0.37.28",
+  "ecosystem": "cargo",
+  "description": "Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "519165d378b97752ca44bbe15047d5d3409e875f39327546b42ac81d7e18c1b6",
+  "features": {
+    "all-apis": [
+      "fs",
+      "io_uring",
+      "mm",
+      "net",
+      "param",
+      "process",
+      "procfs",
+      "pty",
+      "rand",
+      "runtime",
+      "termios",
+      "thread",
+      "time"
+    ],
+    "all-impls": [
+      "os_pipe",
+      "fs-err"
+    ],
+    "default": [
+      "std",
+      "use-libc-auxv"
+    ],
+    "fs": [],
+    "fs-err": [
+      "io-lifetimes/fs-err"
+    ],
+    "io_uring": [
+      "fs",
+      "net"
+    ],
+    "linux_4_11": [],
+    "linux_latest": [
+      "linux_4_11"
+    ],
+    "mm": [],
+    "net": [],
+    "os_pipe": [
+      "io-lifetimes/os_pipe"
+    ],
+    "param": [
+      "fs"
+    ],
+    "process": [],
+    "procfs": [
+      "once_cell",
+      "itoa",
+      "fs"
+    ],
+    "pty": [
+      "itoa",
+      "fs"
+    ],
+    "rand": [],
+    "runtime": [],
+    "rustc-dep-of-std": [
+      "core",
+      "alloc",
+      "compiler_builtins",
+      "linux-raw-sys/rustc-dep-of-std",
+      "bitflags/rustc-dep-of-std"
+    ],
+    "std": [
+      "io-lifetimes"
+    ],
+    "termios": [],
+    "thread": [],
+    "time": [],
+    "use-libc": [
+      "libc_errno",
+      "libc"
+    ],
+    "use-libc-auxv": [
+      "libc"
+    ]
+  },
+  "downloads": 12408614,
+  "yanked": false,
+  "repository": "https://github.com/bytecodealliance/rustix",
+  "homepage": null,
+  "keywords": [
+    "api",
+    "file",
+    "network",
+    "safe",
+    "syscall"
+  ],
+  "categories": [
+    "Network programming",
+    "Unix APIs",
+    "Date and time",
+    "Filesystem"
+  ],
+  "captured_at": "2026-05-23T03:07:08.721Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
