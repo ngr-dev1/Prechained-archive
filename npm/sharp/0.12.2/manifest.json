@@ -1,0 +1,84 @@
+{
+  "name": "sharp",
+  "version": "0.12.2",
+  "ecosystem": "npm",
+  "description": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, GIF, AVIF and TIFF images",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "nan": "^2.2.0",
+    "tar": "^2.2.1",
+    "color": "^0.11.1",
+    "semver": "^5.1.0",
+    "request": "^2.67.0",
+    "bluebird": "^3.1.1"
+  },
+  "devDependencies": {
+    "icc": "^0.0.2",
+    "async": "^1.5.2",
+    "mocha": "^2.3.4",
+    "rimraf": "^2.5.0",
+    "istanbul": "^0.4.2",
+    "coveralls": "^2.11.6",
+    "bufferutil": "^1.2.1",
+    "exif-reader": "^1.0.0",
+    "mocha-jshint": "^2.2.6",
+    "node-cpplint": "^0.4.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "lovell",
+      "email": "npm@lovell.info"
+    }
+  ],
+  "author": {
+    "name": "Lovell Fuller",
+    "email": "npm@lovell.info"
+  },
+  "publishedAt": "2016-01-16T12:01:45.235Z",
+  "dist": {
+    "integrity": "sha512-aFi8d6DxVKcz5itbHdwJ+XrxStShFAS1VepR3bxmMgkK7Rgka+oFaouXpPZuq7qLmf7r06RGbF4yptdRJ+nmXQ==",
+    "shasum": "18768f9e2201d0854b244cfd88373261c223e36c",
+    "tarball": "https://registry.npmjs.org/sharp/-/sharp-0.12.2.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": {
+    "url": "git://github.com/lovell/sharp.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/lovell/sharp#readme",
+  "bugs": {
+    "url": "https://github.com/lovell/sharp/issues"
+  },
+  "keywords": [
+    "jpeg",
+    "png",
+    "webp",
+    "tiff",
+    "dzi",
+    "resize",
+    "thumbnail",
+    "crop",
+    "libvips",
+    "vips"
+  ],
+  "_npmUser": {
+    "name": "lovell",
+    "email": "npm@lovell.info"
+  },
+  "captured_at": "2026-05-23T15:44:00.218Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
