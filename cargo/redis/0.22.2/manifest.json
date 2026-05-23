@@ -1,0 +1,328 @@
+{
+  "name": "redis",
+  "version": "0.22.2",
+  "ecosystem": "cargo",
+  "description": "Redis driver for Rust.",
+  "license": "BSD-3-Clause",
+  "checksum": "5c1aada340fba5deba625c84d109d0a83cc3565452d38083417992a702c2428d",
+  "features": {
+    "acl": [],
+    "aio": [
+      "bytes",
+      "pin-project-lite",
+      "futures-util",
+      "futures-util/alloc",
+      "futures-util/sink",
+      "tokio/io-util",
+      "tokio-util",
+      "tokio-util/codec",
+      "tokio/sync",
+      "combine/tokio",
+      "async-trait"
+    ],
+    "async-std-comp": [
+      "aio",
+      "async-std"
+    ],
+    "async-std-tls-comp": [
+      "async-std-comp",
+      "async-native-tls",
+      "tls"
+    ],
+    "cluster": [
+      "crc16",
+      "rand"
+    ],
+    "connection-manager": [
+      "arc-swap",
+      "futures",
+      "aio"
+    ],
+    "default": [
+      "acl",
+      "streams",
+      "geospatial",
+      "script"
+    ],
+    "geospatial": [],
+    "json": [
+      "serde",
+      "serde_json"
+    ],
+    "script": [
+      "sha1_smol"
+    ],
+    "streams": [],
+    "tls": [
+      "native-tls"
+    ],
+    "tokio-comp": [
+      "aio",
+      "tokio",
+      "tokio/net"
+    ],
+    "tokio-native-tls-comp": [
+      "tls",
+      "tokio-native-tls"
+    ]
+  },
+  "downloads": 79466,
+  "yanked": true,
+  "repository": "https://github.com/redis-rs/redis-rs",
+  "homepage": "https://github.com/redis-rs/redis-rs",
+  "keywords": [
+    "database",
+    "redis"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "assert_approx_eq",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "combine",
+      "requirement": "^4.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fnv",
+      "requirement": "^1.0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "itoa",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "partial-io",
+      "requirement": "^0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "percent-encoding",
+      "requirement": "^2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^1.0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ryu",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "socket2",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ahash",
+      "requirement": "^0.7.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "arc-swap",
+      "requirement": "^1.1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "async-native-tls",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "async-std",
+      "requirement": "^1.8.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "async-trait",
+      "requirement": "^0.1.24",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "crc16",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3.15",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "native-tls",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "pin-project-lite",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "r2d2",
+      "requirement": "^0.8.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.82",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.82",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "sha1_smol",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-native-tls",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-util",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 173569,
+    "login": "jaymell",
+    "name": "James Lucas"
+  },
+  "publishedAt": "2023-01-07T22:51:08.257646Z",
+  "captured_at": "2026-05-23T14:55:39.518Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
