@@ -1,0 +1,86 @@
+{
+  "name": "opentelemetry",
+  "version": "0.1.4",
+  "ecosystem": "cargo",
+  "description": "OpenTelemetry API for Rust",
+  "license": "MIT",
+  "checksum": "73bedd133f1cf8fd2c8222f8356df07d1d2eb874495749db0d9d09cc06b51771",
+  "features": {},
+  "downloads": 2711,
+  "yanked": false,
+  "repository": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry",
+  "homepage": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry",
+  "keywords": [
+    "logging",
+    "metrics",
+    "opentelemetry",
+    "tracing"
+  ],
+  "categories": [
+    "Profiling",
+    "API bindings",
+    "Debugging",
+    "Asynchronous"
+  ],
+  "dependencies": [
+    {
+      "name": "crossbeam-channel",
+      "requirement": "^0.3.9",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^0.12.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1.4.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "prometheus",
+      "requirement": "^0.7.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.7.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustracing",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustracing_jaeger",
+      "requirement": "^0.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 66511,
+    "login": "jtescher",
+    "name": "Julian Tescher"
+  },
+  "publishedAt": "2019-11-21T00:38:42.238339Z",
+  "captured_at": "2026-05-23T18:55:25.137Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
