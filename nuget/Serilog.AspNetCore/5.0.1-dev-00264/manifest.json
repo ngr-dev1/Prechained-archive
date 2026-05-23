@@ -1,0 +1,320 @@
+{
+  "name": "Serilog.AspNetCore",
+  "version": "5.0.1-dev-00264",
+  "ecosystem": "nuget",
+  "description": "Serilog support for ASP.NET Core logging",
+  "license": "Apache-2.0",
+  "authors": "Microsoft,Serilog Contributors",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netcoreapp3.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netcoreapp3.1/microsoft.extensions.dependencyinjection",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection",
+          "range": "[3.1.8, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netcoreapp3.1/microsoft.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging",
+          "range": "[3.1.8, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netcoreapp3.1/serilog",
+          "@type": "PackageDependency",
+          "id": "Serilog",
+          "range": "[2.10.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netcoreapp3.1/serilog.extensions.hosting",
+          "@type": "PackageDependency",
+          "id": "Serilog.Extensions.Hosting",
+          "range": "[4.2.1-dev-00092, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.extensions.hosting/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netcoreapp3.1/serilog.formatting.compact",
+          "@type": "PackageDependency",
+          "id": "Serilog.Formatting.Compact",
+          "range": "[1.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.formatting.compact/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netcoreapp3.1/serilog.settings.configuration",
+          "@type": "PackageDependency",
+          "id": "Serilog.Settings.Configuration",
+          "range": "[3.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.settings.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netcoreapp3.1/serilog.sinks.console",
+          "@type": "PackageDependency",
+          "id": "Serilog.Sinks.Console",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.sinks.console/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netcoreapp3.1/serilog.sinks.debug",
+          "@type": "PackageDependency",
+          "id": "Serilog.Sinks.Debug",
+          "range": "[2.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.sinks.debug/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netcoreapp3.1/serilog.sinks.file",
+          "@type": "PackageDependency",
+          "id": "Serilog.Sinks.File",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.sinks.file/index.json"
+        }
+      ],
+      "targetFramework": ".NETCoreApp3.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/net5.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/net5.0/microsoft.extensions.dependencyinjection",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/net5.0/microsoft.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/net5.0/serilog",
+          "@type": "PackageDependency",
+          "id": "Serilog",
+          "range": "[2.10.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/net5.0/serilog.extensions.hosting",
+          "@type": "PackageDependency",
+          "id": "Serilog.Extensions.Hosting",
+          "range": "[4.2.1-dev-00092, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.extensions.hosting/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/net5.0/serilog.formatting.compact",
+          "@type": "PackageDependency",
+          "id": "Serilog.Formatting.Compact",
+          "range": "[1.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.formatting.compact/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/net5.0/serilog.settings.configuration",
+          "@type": "PackageDependency",
+          "id": "Serilog.Settings.Configuration",
+          "range": "[3.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.settings.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/net5.0/serilog.sinks.console",
+          "@type": "PackageDependency",
+          "id": "Serilog.Sinks.Console",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.sinks.console/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/net5.0/serilog.sinks.debug",
+          "@type": "PackageDependency",
+          "id": "Serilog.Sinks.Debug",
+          "range": "[2.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.sinks.debug/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/net5.0/serilog.sinks.file",
+          "@type": "PackageDependency",
+          "id": "Serilog.Sinks.File",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.sinks.file/index.json"
+        }
+      ],
+      "targetFramework": "net5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.0/microsoft.aspnetcore.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.AspNetCore.Hosting.Abstractions",
+          "range": "[2.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.aspnetcore.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.0/microsoft.aspnetcore.http.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.AspNetCore.Http.Abstractions",
+          "range": "[2.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.aspnetcore.http.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.0/microsoft.extensions.dependencyinjection",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection",
+          "range": "[2.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging",
+          "range": "[2.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.0/serilog",
+          "@type": "PackageDependency",
+          "id": "Serilog",
+          "range": "[2.10.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.0/serilog.extensions.hosting",
+          "@type": "PackageDependency",
+          "id": "Serilog.Extensions.Hosting",
+          "range": "[4.2.1-dev-00092, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.extensions.hosting/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.0/serilog.formatting.compact",
+          "@type": "PackageDependency",
+          "id": "Serilog.Formatting.Compact",
+          "range": "[1.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.formatting.compact/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.0/serilog.settings.configuration",
+          "@type": "PackageDependency",
+          "id": "Serilog.Settings.Configuration",
+          "range": "[3.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.settings.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.0/serilog.sinks.console",
+          "@type": "PackageDependency",
+          "id": "Serilog.Sinks.Console",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.sinks.console/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.0/serilog.sinks.debug",
+          "@type": "PackageDependency",
+          "id": "Serilog.Sinks.Debug",
+          "range": "[2.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.sinks.debug/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.0/serilog.sinks.file",
+          "@type": "PackageDependency",
+          "id": "Serilog.Sinks.File",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.sinks.file/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.1/microsoft.aspnetcore.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.AspNetCore.Hosting.Abstractions",
+          "range": "[2.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.aspnetcore.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.1/microsoft.aspnetcore.http.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.AspNetCore.Http.Abstractions",
+          "range": "[2.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.aspnetcore.http.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.1/microsoft.extensions.dependencyinjection",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection",
+          "range": "[2.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.1/microsoft.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging",
+          "range": "[2.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.1/serilog",
+          "@type": "PackageDependency",
+          "id": "Serilog",
+          "range": "[2.10.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.1/serilog.extensions.hosting",
+          "@type": "PackageDependency",
+          "id": "Serilog.Extensions.Hosting",
+          "range": "[4.2.1-dev-00092, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.extensions.hosting/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.1/serilog.formatting.compact",
+          "@type": "PackageDependency",
+          "id": "Serilog.Formatting.Compact",
+          "range": "[1.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.formatting.compact/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.1/serilog.settings.configuration",
+          "@type": "PackageDependency",
+          "id": "Serilog.Settings.Configuration",
+          "range": "[3.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.settings.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.1/serilog.sinks.console",
+          "@type": "PackageDependency",
+          "id": "Serilog.Sinks.Console",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.sinks.console/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.1/serilog.sinks.debug",
+          "@type": "PackageDependency",
+          "id": "Serilog.Sinks.Debug",
+          "range": "[2.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.sinks.debug/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.03.04.21.12.14/serilog.aspnetcore.5.0.1-dev-00264.json#dependencygroup/.netstandard2.1/serilog.sinks.file",
+          "@type": "PackageDependency",
+          "id": "Serilog.Sinks.File",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.sinks.file/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "captured_at": "2026-05-23T00:11:51.501Z",
+  "captured_by": "prechained.com"
+}
