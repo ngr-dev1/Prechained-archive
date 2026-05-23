@@ -1,0 +1,34 @@
+{
+  "name": "Grpc.Net.Common",
+  "version": "2.23.0",
+  "ecosystem": "nuget",
+  "description": "Infrastructure for common functionality in gRPC",
+  "license": "Apache-2.0",
+  "authors": "The gRPC Authors",
+  "tags": [
+    "gRPC",
+    "RPC",
+    "HTTP/2"
+  ],
+  "projectUrl": "https://github.com/grpc/grpc-dotnet",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2019.09.06.13.26.29/grpc.net.common.2.23.0.json#dependencygroup/.netstandard2.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.09.06.13.26.29/grpc.net.common.2.23.0.json#dependencygroup/.netstandard2.1/grpc.core.api",
+          "@type": "PackageDependency",
+          "id": "Grpc.Core.Api",
+          "range": "[2.23.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc.core.api/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "published": "1900-01-01T00:00:00+00:00",
+  "captured_at": "2026-05-23T12:07:07.225Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
