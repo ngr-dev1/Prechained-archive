@@ -1,0 +1,40 @@
+{
+  "name": "sha2",
+  "version": "0.9.1",
+  "ecosystem": "cargo",
+  "description": "Pure Rust implementation of the SHA-2 hash function family\nincluding SHA-224, SHA-256, SHA-384, and SHA-512.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "2933378ddfeda7ea26f48c555bdad8bb446bf8a3d17832dc83e380d444cfb8c1",
+  "features": {
+    "asm": [
+      "sha2-asm",
+      "libc"
+    ],
+    "asm-aarch64": [
+      "asm"
+    ],
+    "compress": [],
+    "default": [
+      "std"
+    ],
+    "std": [
+      "digest/std"
+    ]
+  },
+  "downloads": 2571917,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/hashes",
+  "homepage": null,
+  "keywords": [
+    "digest",
+    "hash",
+    "sha2"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "captured_at": "2026-05-23T06:35:13.182Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
