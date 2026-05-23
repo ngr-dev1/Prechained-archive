@@ -1,0 +1,86 @@
+{
+  "name": "tailwindcss",
+  "version": "1.4.3",
+  "ecosystem": "npm",
+  "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+  "license": "MIT",
+  "dependencies": {
+    "bytes": "^3.0.0",
+    "chalk": "^4.0.0",
+    "color": "^3.1.2",
+    "lodash": "^4.17.15",
+    "postcss": "^7.0.11",
+    "resolve": "^1.14.2",
+    "fs-extra": "^8.0.0",
+    "detective": "^5.2.0",
+    "node-emoji": "^1.8.1",
+    "postcss-js": "^2.0.0",
+    "autoprefixer": "^9.4.5",
+    "browserslist": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "pretty-hrtime": "^1.0.3",
+    "postcss-nested": "^4.1.1",
+    "reduce-css-calc": "^2.1.6",
+    "postcss-functions": "^3.0.0",
+    "postcss-selector-parser": "^6.0.0",
+    "@fullhuman/postcss-purgecss": "^2.1.2"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "eslint": "^6.0.1",
+    "rimraf": "^3.0.0",
+    "prettier": "^1.7.4",
+    "clean-css": "^4.1.9",
+    "@babel/cli": "^7.0.0",
+    "babel-jest": "^25.1.0",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "eslint-config-postcss": "^2.0.2",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.0.1"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "npm run babelify && babel-node scripts/build.js",
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "adamwathan",
+      "email": "adam@adamwathan.me"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2020-05-01T19:21:52.830Z",
+  "dist": {
+    "integrity": "sha512-csb/iT5T811KWnm9OiVAA8DSnAHwzU5OTa31sbHQtXKbDhlJj/HRWWT+lkhezEJY9AlwvYVN0zi9imYoscfSAA==",
+    "shasum": "3532ed44a6f28074721532dbdc16eb67ba120cc8",
+    "tarball": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-1.4.3.tgz",
+    "fileCount": 182,
+    "unpackedSize": 7387539
+  },
+  "repository": {
+    "url": "git+https://github.com/tailwindcss/tailwindcss.git",
+    "type": "git"
+  },
+  "homepage": "https://tailwindcss.com",
+  "bugs": {
+    "url": "https://github.com/tailwindcss/tailwindcss/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "adamwathan",
+    "email": "adam@adamwathan.me"
+  },
+  "captured_at": "2026-05-23T16:26:30.472Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "79fe194ded6da3f3154a1d28a4ec46a92dac7a5c3bce98cf014d2ddf5253070f3715fb86237f5cb1b77a5c4266749a94"
+}
