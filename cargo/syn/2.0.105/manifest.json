@@ -1,0 +1,50 @@
+{
+  "name": "syn",
+  "version": "2.0.105",
+  "ecosystem": "cargo",
+  "description": "Parser for Rust source code",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "7bc3fcb250e53458e712715cf74285c1f889686520d79294a9ef3bd7aa1fc619",
+  "features": {
+    "clone-impls": [],
+    "default": [
+      "derive",
+      "parsing",
+      "printing",
+      "clone-impls",
+      "proc-macro"
+    ],
+    "derive": [],
+    "extra-traits": [],
+    "fold": [],
+    "full": [],
+    "parsing": [],
+    "printing": [
+      "dep:quote"
+    ],
+    "proc-macro": [
+      "proc-macro2/proc-macro",
+      "quote?/proc-macro"
+    ],
+    "test": [
+      "syn-test-suite/all-features"
+    ],
+    "visit": [],
+    "visit-mut": []
+  },
+  "downloads": 1741812,
+  "yanked": false,
+  "repository": "https://github.com/dtolnay/syn",
+  "homepage": null,
+  "keywords": [
+    "macros",
+    "syn"
+  ],
+  "categories": [
+    "Procedural macro helpers",
+    "Parser implementations"
+  ],
+  "captured_at": "2026-05-23T11:37:06.478Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
