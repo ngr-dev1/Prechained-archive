@@ -1,0 +1,112 @@
+{
+  "name": "parking_lot_core",
+  "version": "0.6.1",
+  "ecosystem": "cargo",
+  "description": "An advanced API for creating custom synchronization primitives.",
+  "license": "Apache-2.0/MIT",
+  "checksum": "1a7bbaa05312363e0480e1efee133fff1a09ef4a6406b65e226b9a793c223a32",
+  "features": {
+    "deadlock_detection": [
+      "petgraph",
+      "thread-id",
+      "backtrace"
+    ],
+    "nightly": []
+  },
+  "downloads": 50599,
+  "yanked": false,
+  "repository": "https://github.com/Amanieu/parking_lot",
+  "homepage": null,
+  "keywords": [
+    "condvar",
+    "mutex",
+    "once",
+    "rwlock",
+    "thread"
+  ],
+  "categories": [
+    "Concurrency"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "cloudabi",
+      "requirement": "^0.0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.55",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "redox_syscall",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustc_version",
+      "requirement": "^0.2",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "smallvec",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "winapi",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "backtrace",
+      "requirement": "^0.3.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "petgraph",
+      "requirement": "^0.4.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "thread-id",
+      "requirement": "^3.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 2915,
+    "login": "Amanieu",
+    "name": "Amanieu d'Antras"
+  },
+  "publishedAt": "2019-07-17T08:43:23.772735Z",
+  "captured_at": "2026-05-23T21:36:20.703Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
