@@ -1,0 +1,30 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "7cb44220979602b9d4d20c84bc066b2db28db69d",
+  "tree_sha": "74858387a115cbcb6b22b00055699ac026429c83",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "stars": 100099,
+  "forks": 27858,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "[Torch] make AOTInductor's GPU memory deleter noexcept (#184818)\n\nSummary:\nThe CUDA paths of RAII_gpuMalloc previously installed deleters that called AOTI_TORCH_ERROR_CODE_CHECK / AOTI_RUNTIME_CUDA_CH",
+  "commit_author": "Joshua Su",
+  "commit_date": "2026-05-22T22:55:10Z",
+  "archived": false,
+  "visibility": "public",
+  "captured_at": "2026-05-23T01:43:52.976Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
