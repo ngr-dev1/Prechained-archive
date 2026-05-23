@@ -1,0 +1,56 @@
+{
+  "name": "aho-corasick",
+  "version": "0.7.8",
+  "ecosystem": "cargo",
+  "description": "Fast multiple substring searching.",
+  "license": "Unlicense/MIT",
+  "checksum": "743ad5a418686aad3b87fd14c43badd828cf26e214a00f92a384291cf22e1811",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": [
+      "memchr/use_std"
+    ]
+  },
+  "downloads": 904095,
+  "yanked": false,
+  "repository": "https://github.com/BurntSushi/aho-corasick",
+  "homepage": "https://github.com/BurntSushi/aho-corasick",
+  "keywords": [
+    "multi",
+    "pattern",
+    "search",
+    "string",
+    "text"
+  ],
+  "categories": [
+    "Text processing"
+  ],
+  "dependencies": [
+    {
+      "name": "doc-comment",
+      "requirement": "^0.3.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "memchr",
+      "requirement": "^2.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 189,
+    "login": "BurntSushi",
+    "name": "Andrew Gallant"
+  },
+  "publishedAt": "2020-02-04T14:02:23.049198Z",
+  "captured_at": "2026-05-23T21:54:34.175Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
