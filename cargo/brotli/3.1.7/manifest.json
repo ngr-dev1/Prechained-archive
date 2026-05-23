@@ -1,0 +1,53 @@
+{
+  "name": "brotli",
+  "version": "3.1.7",
+  "ecosystem": "cargo",
+  "description": "A brotli compressor and decompressor that with an interface avoiding the rust stdlib. This makes it suitable for embedded devices and kernels. It is designed with a pluggable allocator so that the standard lib's allocator may be employed. The default build also includes a stdlib allocator and stream interface. Disable this with --features=no-stdlib. All included code is safe.",
+  "license": "BSD-3-Clause/MIT",
+  "checksum": "88e694e9734a99b436e8f223251f392b737f9271bf1b139a9910dff2dd6f763c",
+  "features": {
+    "benchmark": [
+      "brotli-decompressor/benchmark"
+    ],
+    "default": [
+      "std"
+    ],
+    "disable-timer": [
+      "brotli-decompressor/disable-timer"
+    ],
+    "external-literal-probability": [],
+    "pass-through-ffi-panics": [],
+    "seccomp": [
+      "brotli-decompressor/seccomp"
+    ],
+    "simd": [
+      "packed_simd/into_bits"
+    ],
+    "std": [
+      "alloc-stdlib",
+      "brotli-decompressor/std"
+    ],
+    "validation": [
+      "sha2"
+    ],
+    "vector_scratch_space": []
+  },
+  "downloads": 7228,
+  "yanked": false,
+  "repository": "https://github.com/dropbox/rust-brotli",
+  "homepage": "https://github.com/dropbox/rust-brotli",
+  "keywords": [
+    "brotli",
+    "decompression",
+    "huffman",
+    "lz77",
+    "nostd"
+  ],
+  "categories": [
+    "Compression",
+    "No standard library"
+  ],
+  "captured_at": "2026-05-23T09:07:04.470Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
