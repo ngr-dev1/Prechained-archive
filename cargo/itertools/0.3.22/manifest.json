@@ -1,0 +1,60 @@
+{
+  "name": "itertools",
+  "version": "0.3.22",
+  "ecosystem": "cargo",
+  "description": "Extra iterator adaptors, iterator methods, free functions, and macros.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "62452d35ee1a43d90832a5bbb1ad80003ed3e962472381b86a1d21e6c5dd6f63",
+  "features": {
+    "qc": [
+      "quickcheck",
+      "quickcheck_macros"
+    ],
+    "unstable": []
+  },
+  "downloads": 4833,
+  "yanked": false,
+  "repository": "https://github.com/rust-itertools/itertools",
+  "homepage": null,
+  "keywords": [
+    "data-structure",
+    "iterator",
+    "product",
+    "zip"
+  ],
+  "categories": [
+    "Rust patterns",
+    "No standard library",
+    "Algorithms",
+    "No dynamic allocation"
+  ],
+  "dependencies": [
+    {
+      "name": "permutohedron",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck_macros",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-07-06T20:43:22.036698Z",
+  "captured_at": "2026-05-23T15:50:35.869Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
