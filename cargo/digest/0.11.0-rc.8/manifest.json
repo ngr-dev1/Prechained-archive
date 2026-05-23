@@ -1,0 +1,104 @@
+{
+  "name": "digest",
+  "version": "0.11.0-rc.8",
+  "ecosystem": "cargo",
+  "description": "Traits for cryptographic hash functions and message authentication codes",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "2fc1408b7a9f59a7b933faff3e9e7fc15a05a524effd3b3d1601156944c8077f",
+  "features": {
+    "alloc": [],
+    "block-api": [
+      "block-buffer"
+    ],
+    "default": [
+      "block-api"
+    ],
+    "dev": [
+      "blobby"
+    ],
+    "getrandom": [
+      "crypto-common/getrandom",
+      "rand_core"
+    ],
+    "mac": [
+      "subtle"
+    ],
+    "oid": [
+      "const-oid"
+    ],
+    "rand_core": [
+      "crypto-common/rand_core"
+    ],
+    "zeroize": [
+      "dep:zeroize",
+      "block-buffer?/zeroize"
+    ]
+  },
+  "downloads": 10184,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/traits",
+  "homepage": null,
+  "keywords": [
+    "crypto",
+    "digest",
+    "hash"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "crypto-common",
+      "requirement": "^0.2.0-rc.13",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "blobby",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "block-buffer",
+      "requirement": "^0.11",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "const-oid",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "subtle",
+      "requirement": "^2.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "zeroize",
+      "requirement": "^1.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri",
+    "name": "Tony Arcieri"
+  },
+  "publishedAt": "2026-01-24T15:58:15.934724Z",
+  "captured_at": "2026-05-23T14:55:55.158Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
