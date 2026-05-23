@@ -1,0 +1,39 @@
+{
+  "name": "rand_chacha",
+  "version": "0.9.0",
+  "ecosystem": "cargo",
+  "description": "ChaCha random number generator\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "d3022b5f1df60f26e1ffddd6c66e8aa15de382ae63b3a0c1bfc0e4d3e3f325cb",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "os_rng": [
+      "rand_core/os_rng"
+    ],
+    "serde": [
+      "dep:serde"
+    ],
+    "std": [
+      "ppv-lite86/std",
+      "rand_core/std"
+    ]
+  },
+  "downloads": 221706923,
+  "yanked": false,
+  "repository": "https://github.com/rust-random/rand",
+  "homepage": "https://rust-random.github.io/book",
+  "keywords": [
+    "chacha",
+    "random",
+    "rng"
+  ],
+  "categories": [
+    "Algorithms",
+    "No standard library"
+  ],
+  "captured_at": "2026-05-23T08:56:20.826Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
