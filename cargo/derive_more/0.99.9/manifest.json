@@ -1,0 +1,95 @@
+{
+  "name": "derive_more",
+  "version": "0.99.9",
+  "ecosystem": "cargo",
+  "description": "Adds #[derive(x)] macros for more traits",
+  "license": "MIT",
+  "checksum": "298998b1cf6b5b2c8a7b023dfd45821825ce3ba8a8af55c921a0e734e4653f76",
+  "features": {
+    "add": [],
+    "add_assign": [],
+    "as_mut": [],
+    "as_ref": [],
+    "constructor": [],
+    "default": [
+      "add_assign",
+      "add",
+      "as_mut",
+      "as_ref",
+      "constructor",
+      "deref",
+      "deref_mut",
+      "display",
+      "error",
+      "from",
+      "from_str",
+      "index",
+      "index_mut",
+      "into",
+      "into_iterator",
+      "iterator",
+      "mul_assign",
+      "mul",
+      "not",
+      "sum",
+      "try_into"
+    ],
+    "deref": [],
+    "deref_mut": [],
+    "display": [
+      "syn/extra-traits"
+    ],
+    "error": [
+      "syn/extra-traits"
+    ],
+    "from": [
+      "syn/extra-traits"
+    ],
+    "from_str": [],
+    "generate-parsing-rs": [
+      "peg"
+    ],
+    "index": [],
+    "index_mut": [],
+    "into": [],
+    "into_iterator": [],
+    "iterator": [],
+    "mul": [
+      "syn/extra-traits"
+    ],
+    "mul_assign": [
+      "syn/extra-traits"
+    ],
+    "nightly": [],
+    "not": [
+      "syn/extra-traits"
+    ],
+    "sum": [],
+    "testing-helpers": [
+      "rustc_version"
+    ],
+    "try_into": [
+      "syn/extra-traits"
+    ]
+  },
+  "downloads": 1366150,
+  "yanked": false,
+  "repository": "https://github.com/JelteF/derive_more",
+  "homepage": null,
+  "keywords": [
+    "add",
+    "derive",
+    "display",
+    "from",
+    "intoiterator"
+  ],
+  "categories": [
+    "Procedural macro helpers",
+    "Development tools",
+    "No standard library",
+    "Rust patterns"
+  ],
+  "captured_at": "2026-05-23T13:27:06.553Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
