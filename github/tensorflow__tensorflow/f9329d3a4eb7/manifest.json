@@ -1,0 +1,58 @@
+{
+  "repo": "tensorflow/tensorflow",
+  "commit_sha": "f9329d3a4eb759b52e73c5441a9d36444cc6d100",
+  "tree_sha": "58d9b68d5c9dd9b0b74660791ec8057591f7cc17",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "An Open Source Machine Learning Framework for Everyone",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 195257,
+  "watchers": 195257,
+  "forks": 75328,
+  "open_issues": 5555,
+  "language": "C++",
+  "topics": [
+    "deep-learning",
+    "deep-neural-networks",
+    "distributed",
+    "machine-learning",
+    "ml",
+    "neural-network",
+    "python",
+    "tensorflow"
+  ],
+  "commit_message": "[XLA:CPU] Robust submodule stitching in HloModuleStitcher.\n\nImprove HloModuleStitcher to be safer and more efficient:\n- Implement circular dependency detection to prevent stack overflow, returning an InternalError if a cycle is detected.\n- Implement redundant recursive call avoidance using a visited modules cache to optimize stitching in complex graphs (e.g., diamond dependencies).\n- Ensure pass reusability by resetting the visited cache on top-level entry before any checks.\n- Add comprehensive ",
+  "commit_author": {
+    "name": "Sean Talts",
+    "email": "talts@google.com",
+    "date": "2026-05-23T16:39:25Z"
+  },
+  "commit_committer": {
+    "name": "TensorFlower Gardener",
+    "email": "gardener@tensorflow.org",
+    "date": "2026-05-23T19:35:56Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "c6bf23edd5cc5b87dd101f35909f12a4761c3e7b"
+  ],
+  "github_author_login": "seantalts",
+  "github_committer_login": "tensorflower-gardener",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-05-23T19:36:04Z",
+  "created_at": "2015-11-07T01:19:20Z",
+  "homepage": "https://tensorflow.org",
+  "size_kb": 1329088,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-23T21:52:21.564Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
