@@ -1,0 +1,74 @@
+{
+  "name": "tonic",
+  "version": "0.8.1",
+  "ecosystem": "cargo",
+  "description": "A gRPC over HTTP/2 implementation focused on high performance, interoperability, and flexibility.\n",
+  "license": "MIT",
+  "checksum": "11cd56bdb54ef93935a6a79dbd1d91f1ebd4c64150fd61654031fd6b8b775c91",
+  "features": {
+    "channel": [
+      "h2",
+      "hyper",
+      "tokio",
+      "tower",
+      "tracing-futures",
+      "tokio/macros",
+      "tokio/time",
+      "hyper-timeout"
+    ],
+    "codegen": [
+      "async-trait"
+    ],
+    "default": [
+      "transport",
+      "codegen",
+      "prost"
+    ],
+    "gzip": [
+      "flate2"
+    ],
+    "prost": [
+      "prost1",
+      "prost-derive"
+    ],
+    "tls": [
+      "rustls-pemfile",
+      "transport",
+      "tokio-rustls"
+    ],
+    "tls-roots": [
+      "tls-roots-common",
+      "rustls-native-certs"
+    ],
+    "tls-roots-common": [
+      "tls"
+    ],
+    "tls-webpki-roots": [
+      "tls-roots-common",
+      "webpki-roots"
+    ],
+    "transport": [
+      "axum",
+      "channel"
+    ]
+  },
+  "downloads": 547769,
+  "yanked": false,
+  "repository": "https://github.com/hyperium/tonic",
+  "homepage": "https://github.com/hyperium/tonic",
+  "keywords": [
+    "async",
+    "futures",
+    "grpc",
+    "protobuf",
+    "rpc"
+  ],
+  "categories": [
+    "Network programming",
+    "Asynchronous",
+    "Web programming"
+  ],
+  "captured_at": "2026-05-23T01:34:32.549Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
