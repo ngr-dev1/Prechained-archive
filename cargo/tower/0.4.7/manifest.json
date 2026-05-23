@@ -1,0 +1,124 @@
+{
+  "name": "tower",
+  "version": "0.4.7",
+  "ecosystem": "cargo",
+  "description": "Tower is a library of modular and reusable components for building robust\nclients and servers.\n",
+  "license": "MIT",
+  "checksum": "bf0aa6dfc29148c3826708dabbfa83c121eeb84df4d1468220825e3a33651687",
+  "features": {
+    "balance": [
+      "discover",
+      "load",
+      "ready-cache",
+      "make",
+      "rand",
+      "slab",
+      "tokio-stream"
+    ],
+    "buffer": [
+      "tokio/sync",
+      "tokio/rt",
+      "tokio-util",
+      "tracing"
+    ],
+    "default": [
+      "log"
+    ],
+    "discover": [],
+    "filter": [
+      "futures-util"
+    ],
+    "full": [
+      "balance",
+      "buffer",
+      "discover",
+      "filter",
+      "hedge",
+      "limit",
+      "load",
+      "load-shed",
+      "make",
+      "ready-cache",
+      "reconnect",
+      "retry",
+      "spawn-ready",
+      "steer",
+      "timeout",
+      "util"
+    ],
+    "hedge": [
+      "util",
+      "filter",
+      "futures-util",
+      "hdrhistogram",
+      "tokio/time",
+      "tracing"
+    ],
+    "limit": [
+      "tokio/time",
+      "tokio/sync",
+      "tokio-util",
+      "tracing"
+    ],
+    "load": [
+      "tokio/time",
+      "tracing"
+    ],
+    "load-shed": [],
+    "log": [
+      "tracing/log"
+    ],
+    "make": [
+      "tokio/io-std",
+      "futures-util"
+    ],
+    "ready-cache": [
+      "futures-util",
+      "indexmap",
+      "tokio/sync",
+      "tracing"
+    ],
+    "reconnect": [
+      "make",
+      "tokio/io-std",
+      "tracing"
+    ],
+    "retry": [
+      "tokio/time"
+    ],
+    "spawn-ready": [
+      "futures-util",
+      "tokio/sync",
+      "tokio/rt",
+      "util",
+      "tracing"
+    ],
+    "steer": [
+      "futures-util"
+    ],
+    "timeout": [
+      "tokio/time"
+    ],
+    "util": [
+      "futures-util"
+    ]
+  },
+  "downloads": 344486,
+  "yanked": false,
+  "repository": "https://github.com/tower-rs/tower",
+  "homepage": "https://github.com/tower-rs/tower",
+  "keywords": [
+    "async",
+    "futures",
+    "io",
+    "non-blocking",
+    "service"
+  ],
+  "categories": [
+    "Asynchronous",
+    "Network programming"
+  ],
+  "captured_at": "2026-05-23T01:48:50.849Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
