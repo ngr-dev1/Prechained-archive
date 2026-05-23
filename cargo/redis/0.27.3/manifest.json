@@ -1,0 +1,136 @@
+{
+  "name": "redis",
+  "version": "0.27.3",
+  "ecosystem": "cargo",
+  "description": "Redis driver for Rust.",
+  "license": "BSD-3-Clause",
+  "checksum": "92f61607c4c4442b575fbc3f31a5dd4e5dd69cfea8f6afec5b83e24f61c126ab",
+  "features": {
+    "acl": [],
+    "aio": [
+      "bytes",
+      "pin-project-lite",
+      "futures-util",
+      "futures-util/alloc",
+      "futures-util/sink",
+      "tokio/io-util",
+      "tokio-util",
+      "tokio-util/codec",
+      "combine/tokio",
+      "async-trait"
+    ],
+    "async-std-comp": [
+      "aio",
+      "async-std"
+    ],
+    "async-std-native-tls-comp": [
+      "async-std-comp",
+      "async-native-tls",
+      "tls-native-tls"
+    ],
+    "async-std-rustls-comp": [
+      "async-std-comp",
+      "futures-rustls",
+      "tls-rustls"
+    ],
+    "async-std-tls-comp": [
+      "async-std-native-tls-comp"
+    ],
+    "bigdecimal": [
+      "dep:bigdecimal"
+    ],
+    "cluster": [
+      "crc16",
+      "rand"
+    ],
+    "cluster-async": [
+      "cluster",
+      "futures",
+      "futures-util",
+      "log"
+    ],
+    "connection-manager": [
+      "futures",
+      "aio",
+      "tokio-retry2"
+    ],
+    "default": [
+      "acl",
+      "streams",
+      "geospatial",
+      "script",
+      "keep-alive"
+    ],
+    "disable-client-setinfo": [],
+    "geospatial": [],
+    "json": [
+      "serde",
+      "serde/derive",
+      "serde_json"
+    ],
+    "keep-alive": [
+      "socket2"
+    ],
+    "num-bigint": [],
+    "rust_decimal": [
+      "dep:rust_decimal"
+    ],
+    "script": [
+      "sha1_smol"
+    ],
+    "sentinel": [
+      "rand"
+    ],
+    "streams": [],
+    "tcp_nodelay": [],
+    "tls": [
+      "tls-native-tls"
+    ],
+    "tls-native-tls": [
+      "native-tls"
+    ],
+    "tls-rustls": [
+      "rustls/std",
+      "rustls/ring",
+      "rustls-native-certs",
+      "rustls-pemfile",
+      "rustls-pki-types"
+    ],
+    "tls-rustls-insecure": [
+      "tls-rustls"
+    ],
+    "tls-rustls-webpki-roots": [
+      "tls-rustls",
+      "webpki-roots"
+    ],
+    "tokio-comp": [
+      "aio",
+      "tokio/net"
+    ],
+    "tokio-native-tls-comp": [
+      "tokio-comp",
+      "tls-native-tls",
+      "tokio-native-tls"
+    ],
+    "tokio-rustls-comp": [
+      "tokio-comp",
+      "tls-rustls",
+      "tokio-rustls"
+    ],
+    "uuid": [
+      "dep:uuid"
+    ]
+  },
+  "downloads": 37024,
+  "yanked": false,
+  "repository": "https://github.com/redis-rs/redis-rs",
+  "homepage": "https://github.com/redis-rs/redis-rs",
+  "keywords": [
+    "database",
+    "redis"
+  ],
+  "categories": [],
+  "captured_at": "2026-05-23T01:34:59.489Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
