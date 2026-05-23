@@ -1,0 +1,92 @@
+{
+  "name": "clap",
+  "version": "4.3.1",
+  "ecosystem": "cargo",
+  "description": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b4ed2379f8603fa2b7509891660e802b88c70a79a6427a70abb5968054de2c28",
+  "features": {
+    "cargo": [
+      "clap_builder/cargo"
+    ],
+    "color": [
+      "clap_builder/color"
+    ],
+    "debug": [
+      "clap_builder/debug",
+      "clap_derive?/debug"
+    ],
+    "default": [
+      "std",
+      "color",
+      "help",
+      "usage",
+      "error-context",
+      "suggestions"
+    ],
+    "deprecated": [
+      "clap_builder/deprecated",
+      "clap_derive?/deprecated"
+    ],
+    "derive": [
+      "dep:clap_derive",
+      "dep:once_cell"
+    ],
+    "env": [
+      "clap_builder/env"
+    ],
+    "error-context": [
+      "clap_builder/error-context"
+    ],
+    "help": [
+      "clap_builder/help"
+    ],
+    "std": [
+      "clap_builder/std"
+    ],
+    "string": [
+      "clap_builder/string"
+    ],
+    "suggestions": [
+      "clap_builder/suggestions"
+    ],
+    "unicode": [
+      "clap_builder/unicode"
+    ],
+    "unstable-doc": [
+      "clap_builder/unstable-doc",
+      "derive"
+    ],
+    "unstable-styles": [
+      "clap_builder/unstable-styles"
+    ],
+    "unstable-v5": [
+      "clap_builder/unstable-v5",
+      "clap_derive?/unstable-v5",
+      "deprecated"
+    ],
+    "usage": [
+      "clap_builder/usage"
+    ],
+    "wrap_help": [
+      "clap_builder/wrap_help"
+    ]
+  },
+  "downloads": 343374,
+  "yanked": false,
+  "repository": "https://github.com/clap-rs/clap",
+  "homepage": null,
+  "keywords": [
+    "arg",
+    "argument",
+    "cli",
+    "parse",
+    "parser"
+  ],
+  "categories": [
+    "Command-line interface"
+  ],
+  "captured_at": "2026-05-23T01:36:12.310Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
