@@ -1,0 +1,84 @@
+{
+  "name": "linux-raw-sys",
+  "version": "0.5.2",
+  "ecosystem": "cargo",
+  "description": "Generated bindings for Linux's userspace API",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "f3b3c6cc79cb41342aa4928d68d117666c2733c931b018e816f706009d0f5722",
+  "features": {
+    "default": [
+      "std",
+      "general",
+      "errno"
+    ],
+    "elf": [],
+    "errno": [],
+    "general": [],
+    "if_ether": [],
+    "io_uring": [],
+    "ioctl": [],
+    "net": [],
+    "netlink": [],
+    "no_std": [],
+    "prctl": [],
+    "rustc-dep-of-std": [
+      "core",
+      "compiler_builtins",
+      "no_std"
+    ],
+    "std": [],
+    "system": []
+  },
+  "downloads": 4229,
+  "yanked": false,
+  "repository": "https://github.com/sunfishcode/linux-raw-sys",
+  "homepage": null,
+  "keywords": [
+    "ffi",
+    "linux",
+    "uapi"
+  ],
+  "categories": [
+    "External FFI bindings"
+  ],
+  "dependencies": [
+    {
+      "name": "libc",
+      "requirement": "^0.2.100",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "static_assertions",
+      "requirement": "^1.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "compiler_builtins",
+      "requirement": "^0.1.49",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-core",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode",
+    "name": "Dan Gohman"
+  },
+  "publishedAt": "2023-09-10T00:11:41.289558Z",
+  "captured_at": "2026-05-23T15:44:46.629Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
