@@ -1,0 +1,78 @@
+{
+  "name": "Microsoft.Extensions.Http",
+  "version": "2.2.0",
+  "ecosystem": "nuget",
+  "description": "The HttpClient factory is a pattern for configuring and retrieving named HttpClients in a composable way. The HttpClient factory provides extensibility to plug in DelegatingHandlers that address cross-cutting concerns such as service location, load balancing, and reliability. The default HttpClient factory provides built-in diagnostics and logging and manages the lifetimes of connections in a performant way.\n      Commonly used types:\n      System.Net.Http.IHttpClientFactory\n    \n\nThis package was built from the source code at https://github.com/aspnet/HttpClientFactory/tree/6619149a5d84bd0b60abf3c3f2abc7b334426fa1",
+  "license": "https://raw.githubusercontent.com/aspnet/AspNetCore/2.0.0/LICENSE.txt",
+  "licenseExpression": null,
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    "aspnetcore",
+    "httpclient"
+  ],
+  "projectUrl": "https://asp.net/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "range": "[2.2.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging",
+      "range": "[2.2.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Options",
+      "range": "[2.2.0, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.05.04.03.51.07/microsoft.extensions.http.2.2.0.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.05.04.03.51.07/microsoft.extensions.http.2.2.0.json#dependencygroup/.netstandard2.0/microsoft.extensions.dependencyinjection.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "range": "[2.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.05.04.03.51.07/microsoft.extensions.http.2.2.0.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging",
+          "range": "[2.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.05.04.03.51.07/microsoft.extensions.http.2.2.0.json#dependencygroup/.netstandard2.0/microsoft.extensions.options",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Options",
+          "range": "[2.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.options/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2018-12-03T23:17:51.697+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.extensions.http/2.2.0/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-23T19:04:19.450Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
