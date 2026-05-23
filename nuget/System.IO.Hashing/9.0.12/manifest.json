@@ -1,0 +1,106 @@
+{
+  "name": "System.IO.Hashing",
+  "version": "9.0.12",
+  "ecosystem": "nuget",
+  "description": "Provides non-cryptographic hash algorithms, such as CRC-32.\n\nCommonly Used Types:\nSystem.IO.Hashing.Crc32\nSystem.IO.Hashing.XxHash32",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "https://dot.net/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "System.Buffers",
+      "range": "[4.5.1, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Memory",
+      "range": "[4.5.5, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Buffers",
+      "range": "[4.5.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Memory",
+      "range": "[4.5.5, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.01.13.18.14.21/system.io.hashing.9.0.12.json#dependencygroup/.netframework4.6.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.01.13.18.14.21/system.io.hashing.9.0.12.json#dependencygroup/.netframework4.6.2/system.buffers",
+          "@type": "PackageDependency",
+          "id": "System.Buffers",
+          "range": "[4.5.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.buffers/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.01.13.18.14.21/system.io.hashing.9.0.12.json#dependencygroup/.netframework4.6.2/system.memory",
+          "@type": "PackageDependency",
+          "id": "System.Memory",
+          "range": "[4.5.5, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.01.13.18.14.21/system.io.hashing.9.0.12.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.01.13.18.14.21/system.io.hashing.9.0.12.json#dependencygroup/net9.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "net9.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.01.13.18.14.21/system.io.hashing.9.0.12.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.01.13.18.14.21/system.io.hashing.9.0.12.json#dependencygroup/.netstandard2.0/system.buffers",
+          "@type": "PackageDependency",
+          "id": "System.Buffers",
+          "range": "[4.5.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.buffers/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.01.13.18.14.21/system.io.hashing.9.0.12.json#dependencygroup/.netstandard2.0/system.memory",
+          "@type": "PackageDependency",
+          "id": "System.Memory",
+          "range": "[4.5.5, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2026-01-13T18:01:43.93+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/system.io.hashing/9.0.12/icon",
+  "readmeUrl": "https://www.nuget.org/packages/System.IO.Hashing/9.0.12#show-readme-container",
+  "captured_at": "2026-05-23T15:48:01.514Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
