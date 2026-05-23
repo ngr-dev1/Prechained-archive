@@ -1,0 +1,139 @@
+{
+  "name": "NLog.Extensions.Logging",
+  "version": "1.0.0-rc1-final-2016-02-06",
+  "ecosystem": "nuget",
+  "description": "NLog provider for Microsoft.Extensions.Logging",
+  "license": "https://github.com/NLog/NLog.Extensions.Logging/blob/master/LICENSE",
+  "licenseExpression": null,
+  "authors": [
+    "Microsoft",
+    "Julian Verdurmen"
+  ],
+  "owners": [],
+  "tags": [
+    "NLog",
+    "Microsoft.Extensions.Logging",
+    "Microsoft.Framework.Logging",
+    "log",
+    "logfiles",
+    "aspnet5",
+    "dnx"
+  ],
+  "projectUrl": "https://github.com/NLog/NLog.Extensions.Logging",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[1.0.0-rc1-final, 1.0.0-rc1-final]",
+      "targetFramework": ".NETFramework4.5.1"
+    },
+    {
+      "id": "Microsoft.AspNet.Hosting",
+      "range": "[1.0.0-rc1-final, 1.0.0-rc1-final]",
+      "targetFramework": ".NETFramework4.5.1"
+    },
+    {
+      "id": "NLog",
+      "range": "[4.0.1, )",
+      "targetFramework": ".NETFramework4.5.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[1.0.0-rc1-final, 1.0.0-rc1-final]",
+      "targetFramework": "DNXCore5.0"
+    },
+    {
+      "id": "Microsoft.AspNet.Hosting",
+      "range": "[1.0.0-rc1-final, 1.0.0-rc1-final]",
+      "targetFramework": "DNXCore5.0"
+    },
+    {
+      "id": "NLog",
+      "range": "[4.4.0-alpha1, )",
+      "targetFramework": "DNXCore5.0"
+    },
+    {
+      "id": "System.Xml.XmlSerializer",
+      "range": "[4.0.11-beta-23516, )",
+      "targetFramework": "DNXCore5.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.08.28.18.08.57/nlog.extensions.logging.1.0.0-rc1-final-2016-02-06.json#dependencygroup/.netframework4.5.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.08.28.18.08.57/nlog.extensions.logging.1.0.0-rc1-final-2016-02-06.json#dependencygroup/.netframework4.5.1/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[1.0.0-rc1-final, 1.0.0-rc1-final]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.08.28.18.08.57/nlog.extensions.logging.1.0.0-rc1-final-2016-02-06.json#dependencygroup/.netframework4.5.1/microsoft.aspnet.hosting",
+          "@type": "PackageDependency",
+          "id": "Microsoft.AspNet.Hosting",
+          "range": "[1.0.0-rc1-final, 1.0.0-rc1-final]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.aspnet.hosting/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.08.28.18.08.57/nlog.extensions.logging.1.0.0-rc1-final-2016-02-06.json#dependencygroup/.netframework4.5.1/nlog",
+          "@type": "PackageDependency",
+          "id": "NLog",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/nlog/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.5.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.08.28.18.08.57/nlog.extensions.logging.1.0.0-rc1-final-2016-02-06.json#dependencygroup/dnxcore5.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.08.28.18.08.57/nlog.extensions.logging.1.0.0-rc1-final-2016-02-06.json#dependencygroup/dnxcore5.0/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[1.0.0-rc1-final, 1.0.0-rc1-final]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.08.28.18.08.57/nlog.extensions.logging.1.0.0-rc1-final-2016-02-06.json#dependencygroup/dnxcore5.0/microsoft.aspnet.hosting",
+          "@type": "PackageDependency",
+          "id": "Microsoft.AspNet.Hosting",
+          "range": "[1.0.0-rc1-final, 1.0.0-rc1-final]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.aspnet.hosting/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.08.28.18.08.57/nlog.extensions.logging.1.0.0-rc1-final-2016-02-06.json#dependencygroup/dnxcore5.0/nlog",
+          "@type": "PackageDependency",
+          "id": "NLog",
+          "range": "[4.4.0-alpha1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/nlog/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.08.28.18.08.57/nlog.extensions.logging.1.0.0-rc1-final-2016-02-06.json#dependencygroup/dnxcore5.0/system.xml.xmlserializer",
+          "@type": "PackageDependency",
+          "id": "System.Xml.XmlSerializer",
+          "range": "[4.0.11-beta-23516, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.xml.xmlserializer/index.json"
+        }
+      ],
+      "targetFramework": "DNXCore5.0"
+    }
+  ],
+  "publishedAt": "1900-01-01T00:00:00+00:00",
+  "listed": false,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/nlog.extensions.logging/1.0.0-rc1-final-2016-02-06/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-23T15:27:12.202Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
