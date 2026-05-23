@@ -1,0 +1,163 @@
+{
+  "name": "System.Diagnostics.EventLog",
+  "version": "4.5.0-preview1-26216-02",
+  "ecosystem": "nuget",
+  "description": "Provides the System.Diagnostics.EventLog class, which allows the applications to use the windows event log service.\n\nCommonly Used Types:\nSystem.Diagnostics.EventLog\n \n00490982c7952e96a1089818467caa6fd07541b2 \nWhen using NuGet 3.x this package requires at least version 3.4.",
+  "license": "https://github.com/dotnet/corefx/blob/master/LICENSE.TXT",
+  "authors": "Microsoft",
+  "tags": [
+    ""
+  ],
+  "projectUrl": "https://dot.net/",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/monoandroid1.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/monoandroid1.0/system.security.permissions",
+          "@type": "PackageDependency",
+          "id": "System.Security.Permissions",
+          "range": "[4.5.0-preview1-26216-02, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.permissions/index.json"
+        }
+      ],
+      "targetFramework": "MonoAndroid1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/monotouch1.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/monotouch1.0/system.security.permissions",
+          "@type": "PackageDependency",
+          "id": "System.Security.Permissions",
+          "range": "[4.5.0-preview1-26216-02, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.permissions/index.json"
+        }
+      ],
+      "targetFramework": "MonoTouch1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/.netframework4.6.1",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETFramework4.6.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/.netcoreapp2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/.netcoreapp2.0/microsoft.netcore.platforms",
+          "@type": "PackageDependency",
+          "id": "Microsoft.NETCore.Platforms",
+          "range": "[2.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.netcore.platforms/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/.netcoreapp2.0/microsoft.win32.registry",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Win32.Registry",
+          "range": "[4.5.0-preview1-26216-02, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.win32.registry/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/.netcoreapp2.0/system.security.permissions",
+          "@type": "PackageDependency",
+          "id": "System.Security.Permissions",
+          "range": "[4.5.0-preview1-26216-02, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.permissions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/.netcoreapp2.0/system.security.principal.windows",
+          "@type": "PackageDependency",
+          "id": "System.Security.Principal.Windows",
+          "range": "[4.5.0-preview1-26216-02, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.principal.windows/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/.netcoreapp2.0/system.threading.accesscontrol",
+          "@type": "PackageDependency",
+          "id": "System.Threading.AccessControl",
+          "range": "[4.5.0-preview1-26216-02, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.accesscontrol/index.json"
+        }
+      ],
+      "targetFramework": ".NETCoreApp2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/.netstandard2.0/system.security.permissions",
+          "@type": "PackageDependency",
+          "id": "System.Security.Permissions",
+          "range": "[4.5.0-preview1-26216-02, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.permissions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/xamarin.ios1.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/xamarin.ios1.0/system.security.permissions",
+          "@type": "PackageDependency",
+          "id": "System.Security.Permissions",
+          "range": "[4.5.0-preview1-26216-02, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.permissions/index.json"
+        }
+      ],
+      "targetFramework": "Xamarin.iOS1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/xamarin.mac2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/xamarin.mac2.0/system.security.permissions",
+          "@type": "PackageDependency",
+          "id": "System.Security.Permissions",
+          "range": "[4.5.0-preview1-26216-02, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.permissions/index.json"
+        }
+      ],
+      "targetFramework": "Xamarin.Mac2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/xamarin.tvos1.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/xamarin.tvos1.0/system.security.permissions",
+          "@type": "PackageDependency",
+          "id": "System.Security.Permissions",
+          "range": "[4.5.0-preview1-26216-02, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.permissions/index.json"
+        }
+      ],
+      "targetFramework": "Xamarin.TVOS1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/xamarin.watchos1.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.11.01.15.37/system.diagnostics.eventlog.4.5.0-preview1-26216-02.json#dependencygroup/xamarin.watchos1.0/system.security.permissions",
+          "@type": "PackageDependency",
+          "id": "System.Security.Permissions",
+          "range": "[4.5.0-preview1-26216-02, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.permissions/index.json"
+        }
+      ],
+      "targetFramework": "Xamarin.WatchOS1.0"
+    }
+  ],
+  "published": "2018-02-26T21:24:15.08+00:00",
+  "captured_at": "2026-05-23T13:27:05.989Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
