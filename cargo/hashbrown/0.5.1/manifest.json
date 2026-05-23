@@ -1,0 +1,140 @@
+{
+  "name": "hashbrown",
+  "version": "0.5.1",
+  "ecosystem": "cargo",
+  "description": "A Rust port of Google's SwissTable hash map",
+  "license": "Apache-2.0/MIT",
+  "checksum": "b072077810586b86f17e055b13721b7585266575d552146a0e9b74b7c6da0a5e",
+  "features": {
+    "default": [
+      "ahash"
+    ],
+    "nightly": [],
+    "raw": [],
+    "rustc-dep-of-std": [
+      "nightly",
+      "core",
+      "compiler_builtins",
+      "alloc",
+      "rustc-internal-api"
+    ],
+    "rustc-internal-api": []
+  },
+  "downloads": 4316,
+  "yanked": true,
+  "repository": "https://github.com/rust-lang/hashbrown",
+  "homepage": null,
+  "keywords": [
+    "hash",
+    "hashmap",
+    "no_std",
+    "swisstable"
+  ],
+  "categories": [
+    "Data structures",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "autocfg",
+      "requirement": "^0.1.4",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "doc-comment",
+      "requirement": "^0.3.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.5.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rayon",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustc-hash",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_test",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ahash",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "compiler_builtins",
+      "requirement": "^0.1.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rayon",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-alloc",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-core",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.25",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 2915,
+    "login": "Amanieu",
+    "name": "Amanieu d'Antras"
+  },
+  "publishedAt": "2019-08-04T18:59:23.909985Z",
+  "captured_at": "2026-05-23T21:29:11.564Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
