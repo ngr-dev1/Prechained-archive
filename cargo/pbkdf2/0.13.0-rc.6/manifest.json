@@ -1,0 +1,48 @@
+{
+  "name": "pbkdf2",
+  "version": "0.13.0-rc.6",
+  "ecosystem": "cargo",
+  "description": "Generic implementation of PBKDF2",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "9fb9b101849c3ddab38905781f5aa7ae14ea06e87befaf0e7b003e5d3186250d",
+  "features": {
+    "default": [
+      "hmac"
+    ],
+    "getrandom": [
+      "password-hash/getrandom"
+    ],
+    "mcf": [
+      "hmac",
+      "password-hash/alloc",
+      "dep:mcf",
+      "sha2"
+    ],
+    "phc": [
+      "hmac",
+      "password-hash/phc",
+      "sha2"
+    ],
+    "rand_core": [
+      "password-hash/rand_core"
+    ]
+  },
+  "downloads": 974,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/password-hashes",
+  "homepage": "https://github.com/RustCrypto/password-hashes/tree/master/pbkdf2",
+  "keywords": [
+    "crypto",
+    "hashing",
+    "password",
+    "phf"
+  ],
+  "categories": [
+    "Authentication",
+    "No standard library",
+    "Cryptography"
+  ],
+  "captured_at": "2026-05-23T01:44:41.787Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
