@@ -1,0 +1,91 @@
+{
+  "name": "mongodb",
+  "version": "2.4.0-beta",
+  "ecosystem": "cargo",
+  "description": "The official MongoDB driver for Rust",
+  "license": "Apache-2.0",
+  "checksum": "5318f97fbfefc95404403f79fcbc974dbc9111471b8ee9f26f6860f6e3c33c7f",
+  "features": {
+    "async-std-runtime": [
+      "async-std",
+      "async-std/attributes",
+      "async-std/unstable",
+      "async-std-resolver",
+      "tokio-util/compat"
+    ],
+    "aws-auth": [
+      "reqwest"
+    ],
+    "bson-chrono-0_4": [
+      "bson/chrono-0_4"
+    ],
+    "bson-serde_with": [
+      "bson/serde_with"
+    ],
+    "bson-uuid-0_8": [
+      "bson/uuid-0_8"
+    ],
+    "bson-uuid-1": [
+      "bson/uuid-1"
+    ],
+    "default": [
+      "tokio-runtime"
+    ],
+    "in-use-encryption-unstable": [
+      "mongocrypt",
+      "rayon",
+      "num_cpus"
+    ],
+    "openssl-tls": [
+      "openssl",
+      "openssl-probe",
+      "tokio-openssl"
+    ],
+    "snappy-compression": [
+      "snap"
+    ],
+    "sync": [
+      "async-std-runtime"
+    ],
+    "tokio-runtime": [
+      "tokio/macros",
+      "tokio/net",
+      "tokio/process",
+      "tokio/rt",
+      "tokio/time",
+      "serde_bytes"
+    ],
+    "tokio-sync": [
+      "tokio-runtime"
+    ],
+    "tracing-unstable": [
+      "tracing",
+      "log"
+    ],
+    "zlib-compression": [
+      "flate2"
+    ],
+    "zstd-compression": [
+      "zstd"
+    ]
+  },
+  "downloads": 2988,
+  "yanked": false,
+  "repository": "https://github.com/mongodb/mongo-rust-driver",
+  "homepage": "https://www.mongodb.com/docs/drivers/rust/",
+  "keywords": [
+    "bson",
+    "database",
+    "mongo",
+    "mongodb",
+    "nosql"
+  ],
+  "categories": [
+    "Asynchronous",
+    "Database interfaces",
+    "Web programming"
+  ],
+  "captured_at": "2026-05-23T04:50:35.825Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
