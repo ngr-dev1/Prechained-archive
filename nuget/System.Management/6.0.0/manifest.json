@@ -1,0 +1,67 @@
+{
+  "name": "System.Management",
+  "version": "6.0.0",
+  "ecosystem": "nuget",
+  "description": "Provides access to a rich set of management information and management events about the system, devices, and applications instrumented to the Windows Management Instrumentation (WMI) infrastructure.\n\nCommonly Used Types:\nSystem.Management.ManagementClass\nSystem.Management.ManagementObject\nSystem.Management.SelectQuery",
+  "license": "MIT",
+  "authors": "Microsoft",
+  "tags": [
+    ""
+  ],
+  "projectUrl": "https://dot.net/",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.11.08.06.33.20/system.management.6.0.0.json#dependencygroup/.netcoreapp3.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.11.08.06.33.20/system.management.6.0.0.json#dependencygroup/.netcoreapp3.1/system.codedom",
+          "@type": "PackageDependency",
+          "id": "System.CodeDom",
+          "range": "[6.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.codedom/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.11.08.06.33.20/system.management.6.0.0.json#dependencygroup/.netcoreapp3.1/microsoft.win32.registry",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Win32.Registry",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.win32.registry/index.json"
+        }
+      ],
+      "targetFramework": ".NETCoreApp3.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.11.08.06.33.20/system.management.6.0.0.json#dependencygroup/net6.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.11.08.06.33.20/system.management.6.0.0.json#dependencygroup/net6.0/system.codedom",
+          "@type": "PackageDependency",
+          "id": "System.CodeDom",
+          "range": "[6.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.codedom/index.json"
+        }
+      ],
+      "targetFramework": "net6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.11.08.06.33.20/system.management.6.0.0.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.11.08.06.33.20/system.management.6.0.0.json#dependencygroup/.netstandard2.0/system.codedom",
+          "@type": "PackageDependency",
+          "id": "System.CodeDom",
+          "range": "[6.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.codedom/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "published": "2021-11-08T06:30:58.347+00:00",
+  "captured_at": "2026-05-23T06:35:55.221Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
