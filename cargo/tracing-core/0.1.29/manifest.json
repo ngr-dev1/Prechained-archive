@@ -1,0 +1,57 @@
+{
+  "name": "tracing-core",
+  "version": "0.1.29",
+  "ecosystem": "cargo",
+  "description": "Core primitives for application-level tracing.\n",
+  "license": "MIT",
+  "checksum": "5aeea4303076558a00714b823f9ad67d58a3bbda1df83d8827d21193156e22f7",
+  "features": {
+    "default": [
+      "std",
+      "valuable/std"
+    ],
+    "std": [
+      "once_cell"
+    ]
+  },
+  "downloads": 8804523,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/tracing",
+  "homepage": "https://tokio.rs",
+  "keywords": [
+    "logging",
+    "profiling",
+    "tracing"
+  ],
+  "categories": [
+    "Asynchronous",
+    "Debugging",
+    "Profiling"
+  ],
+  "dependencies": [
+    {
+      "name": "once_cell",
+      "requirement": "^1.13.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "valuable",
+      "requirement": "^0.1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 1249,
+    "login": "hawkw",
+    "name": "Eliza Weisman"
+  },
+  "publishedAt": "2022-07-29T19:45:50.396529Z",
+  "captured_at": "2026-05-23T14:07:10.480Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
