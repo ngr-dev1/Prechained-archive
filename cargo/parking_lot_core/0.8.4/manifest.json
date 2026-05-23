@@ -1,0 +1,105 @@
+{
+  "name": "parking_lot_core",
+  "version": "0.8.4",
+  "ecosystem": "cargo",
+  "description": "An advanced API for creating custom synchronization primitives.",
+  "license": "Apache-2.0/MIT",
+  "checksum": "467fce6df07c66afb48b6284f13c724a1d5a13cbfcfdf5d5ce572c8313e0c722",
+  "features": {
+    "deadlock_detection": [
+      "petgraph",
+      "thread-id",
+      "backtrace"
+    ],
+    "nightly": []
+  },
+  "downloads": 30579,
+  "yanked": true,
+  "repository": "https://github.com/Amanieu/parking_lot",
+  "homepage": null,
+  "keywords": [
+    "condvar",
+    "mutex",
+    "once",
+    "rwlock",
+    "thread"
+  ],
+  "categories": [
+    "Concurrency"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "instant",
+      "requirement": "^0.1.9",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.95",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "redox_syscall",
+      "requirement": "^0.2.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "smallvec",
+      "requirement": "^1.6.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "winapi",
+      "requirement": "^0.3.9",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "backtrace",
+      "requirement": "^0.3.60",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "petgraph",
+      "requirement": "^0.5.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "thread-id",
+      "requirement": "^4.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 2915,
+    "login": "Amanieu",
+    "name": "Amanieu d'Antras"
+  },
+  "publishedAt": "2021-08-27T23:59:29.854066Z",
+  "captured_at": "2026-05-23T15:16:38.386Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
