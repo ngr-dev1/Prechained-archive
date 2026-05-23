@@ -1,0 +1,108 @@
+{
+  "name": "rusqlite",
+  "version": "0.9.1",
+  "ecosystem": "cargo",
+  "description": "Ergonomic wrapper for SQLite",
+  "license": "MIT",
+  "checksum": "de27803db78d3957e48a65a89dcd6b4dc3f6f5411c9fca7eef1ab31ecb26b7bd",
+  "features": {
+    "backup": [],
+    "blob": [],
+    "bundled": [
+      "libsqlite3-sys/bundled"
+    ],
+    "functions": [],
+    "load_extension": [],
+    "trace": []
+  },
+  "downloads": 3498,
+  "yanked": false,
+  "repository": "https://github.com/rusqlite/rusqlite",
+  "homepage": null,
+  "keywords": [
+    "database",
+    "ffi",
+    "sqlite"
+  ],
+  "categories": [
+    "Database interfaces"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "~0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "~0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libsqlite3-sys",
+      "requirement": "^0.6.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lru-cache",
+      "requirement": "^0.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "~0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempdir",
+      "requirement": "~0.3.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "~0.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "chrono",
+      "requirement": "~0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-01-20T20:26:48.932930Z",
+  "captured_at": "2026-05-23T15:54:51.316Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
