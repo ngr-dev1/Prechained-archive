@@ -1,0 +1,60 @@
+{
+  "repo": "microsoft/vcpkg",
+  "commit_sha": "aa40adda5352e87655b8583cfb2451d5e9e276fd",
+  "tree_sha": "4b53aafe2e4582988836f3232f9c9eae7e86c063",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "C++ Library Manager for Windows, Linux, and MacOS",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 27075,
+  "watchers": 27075,
+  "forks": 7524,
+  "open_issues": 1267,
+  "language": "CMake",
+  "topics": [
+    "c",
+    "cmake",
+    "cplusplus",
+    "cpp",
+    "libraries",
+    "package-manager",
+    "packages",
+    "vcpkg",
+    "visual-studio",
+    "windows"
+  ],
+  "commit_message": "Patch Tuesday for May 2026 (#51854)\n\n* Update to Visual Studio 2026 18.6.0 Build Tools / MSVC 19.51.\n    * Skipped opencv2 entirely. opencv2 depends on `std::tr1` parts which has been removed in that compiler release. opencv2 is long unmaintained by the opencv developers; the last version is from 2019. I have not deindexed it because @cenit seems like he cares about it, and we still have some places where it works.\n* Add tools that vcpkg usually needs to the build machine to avoid needing to fet",
+  "commit_author": {
+    "name": "Billy O'Neal",
+    "email": "bion@microsoft.com",
+    "date": "2026-05-23T16:08:04Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-23T16:08:04Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "38d91be5efb2f21fbef4a3c53295002823747431"
+  ],
+  "github_author_login": "BillyONeal",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-05-23T16:08:04Z",
+  "created_at": "2016-09-15T16:40:50Z",
+  "homepage": null,
+  "size_kb": 105696,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-23T18:33:29.595Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
