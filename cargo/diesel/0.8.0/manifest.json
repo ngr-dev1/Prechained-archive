@@ -1,0 +1,39 @@
+{
+  "name": "diesel",
+  "version": "0.8.0",
+  "ecosystem": "cargo",
+  "description": "A safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "75b880427c062e85b2921e4f42a59001f09ecd88cbd7039579935c0fa029abda",
+  "features": {
+    "default": [
+      "postgres"
+    ],
+    "huge-tables": [
+      "large-tables"
+    ],
+    "large-tables": [],
+    "postgres": [
+      "pq-sys"
+    ],
+    "sqlite": [
+      "libsqlite3-sys"
+    ],
+    "unstable": []
+  },
+  "downloads": 5250,
+  "yanked": false,
+  "repository": "https://github.com/diesel-rs/diesel",
+  "homepage": "https://diesel.rs",
+  "keywords": [
+    "database",
+    "orm",
+    "sql"
+  ],
+  "categories": [
+    "Database interfaces"
+  ],
+  "captured_at": "2026-05-23T11:07:07.163Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
