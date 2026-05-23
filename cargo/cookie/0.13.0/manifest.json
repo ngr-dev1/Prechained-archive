@@ -1,0 +1,63 @@
+{
+  "name": "cookie",
+  "version": "0.13.0",
+  "ecosystem": "cargo",
+  "description": "HTTP cookie parsing and cookie jar management. Supports signed and private\n(encrypted, authenticated) jars.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "406d62f868390efa4c87b014317e462d37485cb93f82e9524e414383486164b7",
+  "features": {
+    "percent-encode": [
+      "percent-encoding"
+    ],
+    "secure": [
+      "ring",
+      "base64"
+    ]
+  },
+  "downloads": 3979,
+  "yanked": false,
+  "repository": "https://github.com/SergioBenitez/cookie-rs",
+  "homepage": null,
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "time",
+      "requirement": "^0.2.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "base64",
+      "requirement": "^0.11.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "percent-encoding",
+      "requirement": "^2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "ring",
+      "requirement": "^0.16.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 3864,
+    "login": "SergioBenitez",
+    "name": "Sergio Benitez"
+  },
+  "publishedAt": "2020-01-21T19:19:27.033973Z",
+  "captured_at": "2026-05-23T20:15:13.666Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
