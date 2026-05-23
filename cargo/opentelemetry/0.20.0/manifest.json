@@ -1,0 +1,59 @@
+{
+  "name": "opentelemetry",
+  "version": "0.20.0",
+  "ecosystem": "cargo",
+  "description": "OpenTelemetry API for Rust",
+  "license": "Apache-2.0",
+  "checksum": "9591d937bc0e6d2feb6f71a559540ab300ea49955229c347a517a28d27784c54",
+  "features": {
+    "default": [
+      "trace"
+    ],
+    "logs": [
+      "opentelemetry_sdk/logs"
+    ],
+    "logs_level_enabled": [
+      "logs"
+    ],
+    "metrics": [
+      "opentelemetry_api/metrics",
+      "opentelemetry_sdk/metrics"
+    ],
+    "rt-async-std": [
+      "opentelemetry_sdk/rt-async-std"
+    ],
+    "rt-tokio": [
+      "opentelemetry_sdk/rt-tokio"
+    ],
+    "rt-tokio-current-thread": [
+      "opentelemetry_sdk/rt-tokio-current-thread"
+    ],
+    "testing": [
+      "opentelemetry_api/testing",
+      "opentelemetry_sdk/testing"
+    ],
+    "trace": [
+      "opentelemetry_api/trace",
+      "opentelemetry_sdk/trace"
+    ]
+  },
+  "downloads": 14959397,
+  "yanked": false,
+  "repository": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry",
+  "homepage": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry",
+  "keywords": [
+    "logging",
+    "metrics",
+    "opentelemetry",
+    "tracing"
+  ],
+  "categories": [
+    "Profiling",
+    "API bindings",
+    "Debugging",
+    "Asynchronous"
+  ],
+  "captured_at": "2026-05-23T02:20:00.428Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
