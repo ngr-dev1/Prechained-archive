@@ -1,0 +1,65 @@
+{
+  "name": "errno",
+  "version": "0.3.12",
+  "ecosystem": "cargo",
+  "description": "Cross-platform interface to the `errno` variable.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "cea14ef9355e3beab063703aa9dab15afd25f0667c341310c1e5274bb1d0da18",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": [
+      "libc/std"
+    ]
+  },
+  "downloads": 25264895,
+  "yanked": false,
+  "repository": "https://github.com/lambda-fairy/rust-errno",
+  "homepage": null,
+  "keywords": [],
+  "categories": [
+    "No standard library",
+    "Operating systems"
+  ],
+  "dependencies": [
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "windows-sys",
+      "requirement": ">=0.52, <=0.59",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode",
+    "name": "Dan Gohman"
+  },
+  "publishedAt": "2025-05-15T16:35:29.924764Z",
+  "captured_at": "2026-05-23T16:21:43.358Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
