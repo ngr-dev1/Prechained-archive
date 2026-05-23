@@ -1,0 +1,67 @@
+{
+  "name": "Azure.Messaging.ServiceBus",
+  "version": "7.9.0",
+  "ecosystem": "nuget",
+  "description": "Azure Service Bus is a fully managed enterprise integration message broker. Service Bus can decouple applications and services. Service Bus offers a reliable and secure platform for asynchronous transfer of data and state. This client library allows for both sending and receiving messages using Azure Service Bus. For more information about Service Bus, see https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview",
+  "license": "MIT",
+  "authors": "Microsoft",
+  "tags": [
+    "Azure",
+    "Service",
+    "Bus",
+    "ServiceBus",
+    ".NET",
+    "AMQP",
+    "windowsazureofficial",
+    "azureofficial"
+  ],
+  "projectUrl": "https://github.com/Azure/azure-sdk-for-net/blob/Azure.Messaging.ServiceBus_7.9.0/sdk/servicebus/Azure.Messaging.ServiceBus/README.md",
+  "dependencies": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.07.11.18.21.25/azure.messaging.servicebus.7.9.0.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.07.11.18.21.25/azure.messaging.servicebus.7.9.0.json#dependencygroup/.netstandard2.0/azure.core",
+          "@type": "PackageDependency",
+          "id": "Azure.Core",
+          "range": "[1.25.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/azure.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.07.11.18.21.25/azure.messaging.servicebus.7.9.0.json#dependencygroup/.netstandard2.0/azure.core.amqp",
+          "@type": "PackageDependency",
+          "id": "Azure.Core.Amqp",
+          "range": "[1.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/azure.core.amqp/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.07.11.18.21.25/azure.messaging.servicebus.7.9.0.json#dependencygroup/.netstandard2.0/microsoft.azure.amqp",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Azure.Amqp",
+          "range": "[2.5.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.azure.amqp/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.07.11.18.21.25/azure.messaging.servicebus.7.9.0.json#dependencygroup/.netstandard2.0/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[1.1.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.07.11.18.21.25/azure.messaging.servicebus.7.9.0.json#dependencygroup/.netstandard2.0/system.memory.data",
+          "@type": "PackageDependency",
+          "id": "System.Memory.Data",
+          "range": "[1.0.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory.data/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "published": "2022-07-11T18:18:22.173+00:00",
+  "captured_at": "2026-05-23T06:50:41.501Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
