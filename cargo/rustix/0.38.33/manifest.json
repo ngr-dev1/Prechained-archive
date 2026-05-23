@@ -1,0 +1,129 @@
+{
+  "name": "rustix",
+  "version": "0.38.33",
+  "ecosystem": "cargo",
+  "description": "Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "e3cc72858054fcff6d7dea32df2aeaee6a7c24227366d7ea429aada2f26b16ad",
+  "features": {
+    "all-apis": [
+      "event",
+      "fs",
+      "io_uring",
+      "mm",
+      "mount",
+      "net",
+      "param",
+      "pipe",
+      "process",
+      "procfs",
+      "pty",
+      "rand",
+      "runtime",
+      "shm",
+      "stdio",
+      "system",
+      "termios",
+      "thread",
+      "time"
+    ],
+    "alloc": [],
+    "cc": [],
+    "default": [
+      "std",
+      "use-libc-auxv"
+    ],
+    "event": [],
+    "fs": [],
+    "io_uring": [
+      "event",
+      "fs",
+      "net",
+      "linux-raw-sys/io_uring"
+    ],
+    "linux_4_11": [],
+    "linux_latest": [
+      "linux_4_11"
+    ],
+    "mm": [],
+    "mount": [],
+    "net": [
+      "linux-raw-sys/net",
+      "linux-raw-sys/netlink",
+      "linux-raw-sys/if_ether",
+      "linux-raw-sys/xdp"
+    ],
+    "param": [
+      "fs"
+    ],
+    "pipe": [],
+    "process": [
+      "linux-raw-sys/prctl"
+    ],
+    "procfs": [
+      "once_cell",
+      "itoa",
+      "fs"
+    ],
+    "pty": [
+      "itoa",
+      "fs"
+    ],
+    "rand": [],
+    "runtime": [
+      "linux-raw-sys/prctl"
+    ],
+    "rustc-dep-of-std": [
+      "dep:core",
+      "dep:alloc",
+      "dep:compiler_builtins",
+      "linux-raw-sys/rustc-dep-of-std",
+      "bitflags/rustc-dep-of-std",
+      "compiler_builtins?/rustc-dep-of-std"
+    ],
+    "shm": [
+      "fs"
+    ],
+    "std": [
+      "bitflags/std",
+      "alloc",
+      "libc?/std",
+      "libc_errno?/std"
+    ],
+    "stdio": [],
+    "system": [
+      "linux-raw-sys/system"
+    ],
+    "termios": [],
+    "thread": [
+      "linux-raw-sys/prctl"
+    ],
+    "time": [],
+    "use-explicitly-provided-auxv": [],
+    "use-libc": [
+      "libc_errno",
+      "libc"
+    ],
+    "use-libc-auxv": []
+  },
+  "downloads": 390193,
+  "yanked": true,
+  "repository": "https://github.com/bytecodealliance/rustix",
+  "homepage": null,
+  "keywords": [
+    "api",
+    "file",
+    "network",
+    "safe",
+    "syscall"
+  ],
+  "categories": [
+    "Network programming",
+    "Unix APIs",
+    "Date and time",
+    "Filesystem"
+  ],
+  "captured_at": "2026-05-23T04:52:25.490Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
