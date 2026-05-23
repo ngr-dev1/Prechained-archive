@@ -1,0 +1,91 @@
+{
+  "name": "Grpc.Net.Client",
+  "version": "2.27.0",
+  "ecosystem": "nuget",
+  "description": ".NET client for gRPC",
+  "license": "Apache-2.0",
+  "licenseExpression": "Apache-2.0",
+  "authors": [
+    "The gRPC Authors"
+  ],
+  "owners": [],
+  "tags": [
+    "gRPC",
+    "RPC",
+    "HTTP/2"
+  ],
+  "projectUrl": "https://github.com/grpc/grpc-dotnet",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Grpc.Net.Common",
+      "range": "[2.27.0, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Grpc.Core.Api",
+      "range": "[2.27.0, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[2.1.1, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "System.Diagnostics.DiagnosticSource",
+      "range": "[4.5.1, )",
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.07.13.20.45.47/grpc.net.client.2.27.0.json#dependencygroup/.netstandard2.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.07.13.20.45.47/grpc.net.client.2.27.0.json#dependencygroup/.netstandard2.1/grpc.net.common",
+          "@type": "PackageDependency",
+          "id": "Grpc.Net.Common",
+          "range": "[2.27.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc.net.common/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.07.13.20.45.47/grpc.net.client.2.27.0.json#dependencygroup/.netstandard2.1/grpc.core.api",
+          "@type": "PackageDependency",
+          "id": "Grpc.Core.Api",
+          "range": "[2.27.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc.core.api/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.07.13.20.45.47/grpc.net.client.2.27.0.json#dependencygroup/.netstandard2.1/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[2.1.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.07.13.20.45.47/grpc.net.client.2.27.0.json#dependencygroup/.netstandard2.1/system.diagnostics.diagnosticsource",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.DiagnosticSource",
+          "range": "[4.5.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "publishedAt": "2020-02-07T14:01:31.517+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/grpc.net.client/2.27.0/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-23T15:17:43.323Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
