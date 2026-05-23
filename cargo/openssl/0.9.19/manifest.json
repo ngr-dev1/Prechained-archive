@@ -1,0 +1,105 @@
+{
+  "name": "openssl",
+  "version": "0.9.19",
+  "ecosystem": "cargo",
+  "description": "OpenSSL bindings",
+  "license": "Apache-2.0",
+  "checksum": "816914b22eb15671d62c73442a51978f311e911d6a6f6cbdafa6abce1b5038fc",
+  "features": {
+    "v101": [],
+    "v102": [],
+    "v110": []
+  },
+  "downloads": 125294,
+  "yanked": false,
+  "repository": "https://github.com/rust-openssl/rust-openssl",
+  "homepage": null,
+  "keywords": [
+    "crypto",
+    "dtls",
+    "ssl",
+    "tls"
+  ],
+  "categories": [
+    "API bindings",
+    "Cryptography"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "data-encoding",
+      "requirement": "^1.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "foreign-types",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hex",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "openssl-sys",
+      "requirement": "^0.9.19",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempdir",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "winapi",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ws2_32-sys",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-09-20T20:51:44.153442Z",
+  "captured_at": "2026-05-23T15:07:27.921Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
