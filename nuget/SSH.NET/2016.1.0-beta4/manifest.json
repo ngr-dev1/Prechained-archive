@@ -1,0 +1,424 @@
+{
+  "name": "SSH.NET",
+  "version": "2016.1.0-beta4",
+  "ecosystem": "nuget",
+  "description": "SSH.NET is a Secure Shell (SSH) library for .NET, optimized for parallelism and with broad framework support.",
+  "license": "https://github.com/sshnet/SSH.NET/blob/master/LICENSE",
+  "licenseExpression": null,
+  "authors": [
+    "Renci"
+  ],
+  "owners": [],
+  "tags": [
+    "ssh",
+    "scp",
+    "sftp"
+  ],
+  "projectUrl": "https://github.com/sshnet/SSH.NET/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.CSharp",
+      "range": "[4.0.1, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "SshNet.Security.Cryptography",
+      "range": "[1.2.0, 1.2.0]",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Diagnostics.Debug",
+      "range": "[4.0.11, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Diagnostics.Tools",
+      "range": "[4.0.1, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Diagnostics.TraceSource",
+      "range": "[4.0.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Globalization",
+      "range": "[4.0.11, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.IO",
+      "range": "[4.1.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.IO.FileSystem",
+      "range": "[4.0.1, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.IO.FileSystem.Primitives",
+      "range": "[4.0.1, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Linq",
+      "range": "[4.1.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Net.NameResolution",
+      "range": "[4.0.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Net.Sockets",
+      "range": "[4.1.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Reflection.Extensions",
+      "range": "[4.0.1, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Runtime.Extensions",
+      "range": "[4.1.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Security.Cryptography.Algorithms",
+      "range": "[4.2.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Text.RegularExpressions",
+      "range": "[4.1.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Threading",
+      "range": "[4.0.11, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Threading.Thread",
+      "range": "[4.0.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Threading.ThreadPool",
+      "range": "[4.0.10, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Threading.Timer",
+      "range": "[4.0.1, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Xml.XmlDocument",
+      "range": "[4.0.1, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Xml.XPath.XmlDocument",
+      "range": "[4.0.1, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "SshNet.Security.Cryptography",
+      "range": "[1.2.0, 1.2.0]",
+      "targetFramework": "Silverlight4.0"
+    },
+    {
+      "id": "SshNet.Security.Cryptography",
+      "range": "[1.2.0, 1.2.0]",
+      "targetFramework": "Silverlight5.0"
+    },
+    {
+      "id": "SshNet.Security.Cryptography",
+      "range": "[1.2.0, 1.2.0]",
+      "targetFramework": "WindowsPhone7.1"
+    },
+    {
+      "id": "SshNet.Security.Cryptography",
+      "range": "[1.2.0, 1.2.0]",
+      "targetFramework": "WindowsPhone8.0"
+    },
+    {
+      "id": "SshNet.Security.Cryptography",
+      "range": "[1.2.0, 1.2.0]",
+      "targetFramework": "UAP10.0"
+    },
+    {
+      "id": "System.Xml.XPath.XmlDocument",
+      "range": "[4.0.1, )",
+      "targetFramework": "UAP10.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netframework3.5",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETFramework3.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netframework4.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETFramework4.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/microsoft.csharp",
+          "@type": "PackageDependency",
+          "id": "Microsoft.CSharp",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.csharp/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/sshnet.security.cryptography",
+          "@type": "PackageDependency",
+          "id": "SshNet.Security.Cryptography",
+          "range": "[1.2.0, 1.2.0]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sshnet.security.cryptography/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.diagnostics.debug",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.Debug",
+          "range": "[4.0.11, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.debug/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.diagnostics.tools",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.Tools",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.tools/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.diagnostics.tracesource",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.TraceSource",
+          "range": "[4.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.tracesource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.globalization",
+          "@type": "PackageDependency",
+          "id": "System.Globalization",
+          "range": "[4.0.11, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.globalization/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.io",
+          "@type": "PackageDependency",
+          "id": "System.IO",
+          "range": "[4.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.io.filesystem",
+          "@type": "PackageDependency",
+          "id": "System.IO.FileSystem",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io.filesystem/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.io.filesystem.primitives",
+          "@type": "PackageDependency",
+          "id": "System.IO.FileSystem.Primitives",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io.filesystem.primitives/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.linq",
+          "@type": "PackageDependency",
+          "id": "System.Linq",
+          "range": "[4.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.linq/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.net.nameresolution",
+          "@type": "PackageDependency",
+          "id": "System.Net.NameResolution",
+          "range": "[4.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.nameresolution/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.net.sockets",
+          "@type": "PackageDependency",
+          "id": "System.Net.Sockets",
+          "range": "[4.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.sockets/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.reflection.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Reflection.Extensions",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.reflection.extensions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.runtime.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.Extensions",
+          "range": "[4.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.extensions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.security.cryptography.algorithms",
+          "@type": "PackageDependency",
+          "id": "System.Security.Cryptography.Algorithms",
+          "range": "[4.2.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.cryptography.algorithms/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.text.regularexpressions",
+          "@type": "PackageDependency",
+          "id": "System.Text.RegularExpressions",
+          "range": "[4.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.regularexpressions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.threading",
+          "@type": "PackageDependency",
+          "id": "System.Threading",
+          "range": "[4.0.11, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.threading.thread",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Thread",
+          "range": "[4.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.thread/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.threading.threadpool",
+          "@type": "PackageDependency",
+          "id": "System.Threading.ThreadPool",
+          "range": "[4.0.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.threadpool/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.threading.timer",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Timer",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.timer/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.xml.xmldocument",
+          "@type": "PackageDependency",
+          "id": "System.Xml.XmlDocument",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.xml.xmldocument/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/.netstandard1.3/system.xml.xpath.xmldocument",
+          "@type": "PackageDependency",
+          "id": "System.Xml.XPath.XmlDocument",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.xml.xpath.xmldocument/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/silverlight4.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/silverlight4.0/sshnet.security.cryptography",
+          "@type": "PackageDependency",
+          "id": "SshNet.Security.Cryptography",
+          "range": "[1.2.0, 1.2.0]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sshnet.security.cryptography/index.json"
+        }
+      ],
+      "targetFramework": "Silverlight4.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/silverlight5.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/silverlight5.0/sshnet.security.cryptography",
+          "@type": "PackageDependency",
+          "id": "SshNet.Security.Cryptography",
+          "range": "[1.2.0, 1.2.0]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sshnet.security.cryptography/index.json"
+        }
+      ],
+      "targetFramework": "Silverlight5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/windowsphone7.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/windowsphone7.1/sshnet.security.cryptography",
+          "@type": "PackageDependency",
+          "id": "SshNet.Security.Cryptography",
+          "range": "[1.2.0, 1.2.0]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sshnet.security.cryptography/index.json"
+        }
+      ],
+      "targetFramework": "WindowsPhone7.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/windowsphone8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/windowsphone8.0/sshnet.security.cryptography",
+          "@type": "PackageDependency",
+          "id": "SshNet.Security.Cryptography",
+          "range": "[1.2.0, 1.2.0]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sshnet.security.cryptography/index.json"
+        }
+      ],
+      "targetFramework": "WindowsPhone8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/uap10.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/uap10.0/sshnet.security.cryptography",
+          "@type": "PackageDependency",
+          "id": "SshNet.Security.Cryptography",
+          "range": "[1.2.0, 1.2.0]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sshnet.security.cryptography/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.06.01.19.50.30/ssh.net.2016.1.0-beta4.json#dependencygroup/uap10.0/system.xml.xpath.xmldocument",
+          "@type": "PackageDependency",
+          "id": "System.Xml.XPath.XmlDocument",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.xml.xpath.xmldocument/index.json"
+        }
+      ],
+      "targetFramework": "UAP10.0"
+    }
+  ],
+  "publishedAt": "2017-10-07T13:57:14.237+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": null,
+  "readmeUrl": null,
+  "captured_at": "2026-05-23T20:55:15.599Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
