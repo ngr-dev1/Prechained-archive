@@ -1,0 +1,54 @@
+{
+  "name": "uuid",
+  "version": "0.6.4",
+  "ecosystem": "cargo",
+  "description": "A library to generate and parse UUIDs.",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "3f8abd2aaa3d03fbc210a1543664f0aa406f4d3b56660e401a7c69df8b893fab",
+  "features": {
+    "const_fn": [
+      "nightly"
+    ],
+    "default": [
+      "std"
+    ],
+    "nightly": [],
+    "std": [],
+    "u128": [
+      "byteorder"
+    ],
+    "use_std": [
+      "std"
+    ],
+    "v1": [],
+    "v3": [
+      "md5",
+      "rand"
+    ],
+    "v4": [
+      "rand"
+    ],
+    "v5": [
+      "sha1",
+      "rand"
+    ]
+  },
+  "downloads": 6137,
+  "yanked": false,
+  "repository": "https://github.com/uuid-rs/uuid",
+  "homepage": "https://github.com/uuid-rs/uuid",
+  "keywords": [
+    "guid",
+    "unique",
+    "uuid"
+  ],
+  "categories": [
+    "Data structures",
+    "Parser implementations",
+    "WebAssembly",
+    "No standard library"
+  ],
+  "captured_at": "2026-05-23T01:58:49.700Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
