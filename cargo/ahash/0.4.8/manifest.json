@@ -1,0 +1,103 @@
+{
+  "name": "ahash",
+  "version": "0.4.8",
+  "ecosystem": "cargo",
+  "description": "A non-cryptographic hash function using AES-NI for high performance",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "0453232ace82dee0dd0b4c87a59bd90f7b53b314f3e0f61fe2ee7c8a16482289",
+  "features": {
+    "compile-time-rng": [
+      "const-random"
+    ],
+    "default": [
+      "compile-time-rng",
+      "std"
+    ],
+    "specialize": [],
+    "std": []
+  },
+  "downloads": 1189601,
+  "yanked": false,
+  "repository": "https://github.com/tkaitchuck/ahash",
+  "homepage": null,
+  "keywords": [
+    "aes",
+    "hash",
+    "hasher",
+    "hashmap",
+    "no-std"
+  ],
+  "categories": [
+    "Algorithms",
+    "No standard library",
+    "Data structures"
+  ],
+  "dependencies": [
+    {
+      "name": "criterion",
+      "requirement": "^0.3.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fnv",
+      "requirement": "^1.0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fxhash",
+      "requirement": "^0.2.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hex",
+      "requirement": "^0.3.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "no-panic",
+      "requirement": "^0.1.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.6.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "seahash",
+      "requirement": "^3.0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "const-random",
+      "requirement": "^0.1.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 25353,
+    "login": "tkaitchuck",
+    "name": "Tom Kaitchuck"
+  },
+  "publishedAt": "2023-10-23T23:17:12.714447Z",
+  "captured_at": "2026-05-23T16:18:43.254Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
