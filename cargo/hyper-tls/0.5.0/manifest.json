@@ -1,0 +1,86 @@
+{
+  "name": "hyper-tls",
+  "version": "0.5.0",
+  "ecosystem": "cargo",
+  "description": "Default TLS implementation for use with hyper",
+  "license": "MIT/Apache-2.0",
+  "checksum": "d6183ddfa99b85da61a140bea0efc93fdf56ceaa041b37d553518030827f9905",
+  "features": {
+    "vendored": [
+      "native-tls/vendored"
+    ]
+  },
+  "downloads": 135278072,
+  "yanked": false,
+  "repository": "https://github.com/hyperium/hyper-tls",
+  "homepage": "https://hyper.rs",
+  "keywords": [
+    "http",
+    "https",
+    "hyper",
+    "ssl",
+    "tls"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "bytes",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^0.14.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "hyper",
+      "requirement": "^0.14.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "native-tls",
+      "requirement": "^0.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.0.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-native-tls",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar",
+    "name": "Sean McArthur"
+  },
+  "publishedAt": "2020-12-29T20:36:06.738971Z",
+  "captured_at": "2026-05-23T15:44:27.017Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
