@@ -1,0 +1,30 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "aa6f2bdb443b032b29d5fba2f092e390591cbfe7",
+  "tree_sha": "56f2f2b632d92a84d8d3982de502ba32f4ff530b",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "stars": 100101,
+  "forks": 27858,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "Make DTensor local tensor contiguous after uneven Shard->Replicate redistribute (#184443)\n\n## Agent Report\n### Summary\nWhen a DTensor is redistributed from `Shard(dim>0)` to `Replicate()` with uneven\n",
+  "commit_author": "Aditya Venkataraman",
+  "commit_date": "2026-05-23T02:33:29Z",
+  "archived": false,
+  "visibility": "public",
+  "captured_at": "2026-05-23T02:53:28.200Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
