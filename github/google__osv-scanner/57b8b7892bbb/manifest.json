@@ -1,0 +1,54 @@
+{
+  "repo": "google/osv-scanner",
+  "commit_sha": "57b8b7892bbb9c00af92a85d41cb686151a74e29",
+  "tree_sha": "8441a99ffc47716038c75f3662445a242e6e8085",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 10322,
+  "watchers": 10322,
+  "forks": 704,
+  "open_issues": 123,
+  "language": "Go",
+  "topics": [
+    "scanner",
+    "security-audit",
+    "security-tools",
+    "vulnerability-scanner"
+  ],
+  "commit_message": "feat: import chisel in scalibrplugin (#2772)\n\n## Description\n\nThis PR imports the `os/chisel` extractor from the\n[osv-scalibr](https://github.com/google/osv-scalibr) in the\n`scalibrplugin/presets.go` to enable the scanning of container images\nbuilt with [Chisel](https://github.com/canonical/chisel).\n\nThe description of `Ubuntu chiseled packages` is added to\n`docs/supported_languages_and_lockfiles.md`, which corresponds to the\nchanges of this PR.\n\nThis PR expects no breaking changes nor regressiv",
+  "commit_author": {
+    "name": "zhijie-yang",
+    "email": "zhijie.yang@canonical.com",
+    "date": "2026-05-20T05:14:44Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-20T05:14:44Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "1f0bd8372abae6428166ab4b19899f1e6b058c13"
+  ],
+  "github_author_login": "zhijie-yang",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-22T21:18:34Z",
+  "created_at": "2022-11-14T01:05:20Z",
+  "homepage": "https://google.github.io/osv-scanner/",
+  "size_kb": 41944,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-23T18:00:02.602Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
