@@ -1,0 +1,331 @@
+{
+  "name": "axum-extra",
+  "version": "0.9.1",
+  "ecosystem": "cargo",
+  "description": "Extra utilities for axum",
+  "license": "MIT",
+  "checksum": "881348a37b079994894b6e5e46edcc4b8a60e1c0333669a65b810abeed780598",
+  "features": {
+    "async-read-body": [
+      "dep:tokio-util",
+      "tokio-util?/io",
+      "dep:tokio"
+    ],
+    "cookie": [
+      "dep:cookie"
+    ],
+    "cookie-key-expansion": [
+      "cookie",
+      "cookie?/key-expansion"
+    ],
+    "cookie-private": [
+      "cookie",
+      "cookie?/private"
+    ],
+    "cookie-signed": [
+      "cookie",
+      "cookie?/signed"
+    ],
+    "default": [],
+    "erased-json": [
+      "dep:serde_json"
+    ],
+    "form": [
+      "dep:serde_html_form"
+    ],
+    "json-deserializer": [
+      "dep:serde_json",
+      "dep:serde_path_to_error"
+    ],
+    "json-lines": [
+      "dep:serde_json",
+      "dep:tokio-util",
+      "dep:tokio-stream",
+      "tokio-util?/io",
+      "tokio-stream?/io-util",
+      "dep:tokio"
+    ],
+    "multipart": [
+      "dep:multer"
+    ],
+    "protobuf": [
+      "dep:prost"
+    ],
+    "query": [
+      "dep:serde_html_form"
+    ],
+    "typed-header": [
+      "dep:headers"
+    ],
+    "typed-routing": [
+      "dep:axum-macros",
+      "dep:percent-encoding",
+      "dep:serde_html_form",
+      "dep:form_urlencoded"
+    ]
+  },
+  "downloads": 183505,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/axum",
+  "homepage": "https://github.com/tokio-rs/axum",
+  "keywords": [
+    "http",
+    "routing",
+    "web"
+  ],
+  "categories": [
+    "Network programming",
+    "Asynchronous",
+    "Web programming"
+  ],
+  "dependencies": [
+    {
+      "name": "axum",
+      "requirement": "^0.7.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "axum",
+      "requirement": "^0.7.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "axum-core",
+      "requirement": "^0.4.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^1.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "http",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "http-body",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "http-body-util",
+      "requirement": "^0.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^1.0.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mime",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-project-lite",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "reqwest",
+      "requirement": "^0.11",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.71",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.14",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tower",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "tower",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tower-http",
+      "requirement": "^0.5.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tower-layer",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tower-service",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "axum-macros",
+      "requirement": "^0.4.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "cookie",
+      "requirement": "^0.18.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "form_urlencoded",
+      "requirement": "^1.1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "headers",
+      "requirement": "^0.4.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "multer",
+      "requirement": "^3.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "percent-encoding",
+      "requirement": "^2.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "prost",
+      "requirement": "^0.12",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_html_form",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.71",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_path_to_error",
+      "requirement": "^0.1.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.19",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-stream",
+      "requirement": "^0.1.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-util",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn",
+    "name": "David Pedersen"
+  },
+  "publishedAt": "2023-12-29T16:49:22.407362Z",
+  "captured_at": "2026-05-23T15:16:54.262Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bbd37423406f87e592ec58eb4e45133202cfe60913fca0db7380b3980637347b19a1b390786f5e59ffd648fd0972aba1"
+}
