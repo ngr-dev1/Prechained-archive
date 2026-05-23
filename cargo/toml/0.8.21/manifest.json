@@ -1,0 +1,46 @@
+{
+  "name": "toml",
+  "version": "0.8.21",
+  "ecosystem": "cargo",
+  "description": "A native Rust encoder and decoder of TOML-formatted files and streams. Provides\nimplementations of the standard Serialize/Deserialize traits for TOML data to\nfacilitate deserializing and serializing Rust structures.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "900f6c86a685850b1bc9f6223b20125115ee3f31e01207d81655bbcc0aea9231",
+  "features": {
+    "default": [
+      "parse",
+      "display"
+    ],
+    "display": [
+      "dep:toml_edit",
+      "toml_edit?/display"
+    ],
+    "parse": [
+      "dep:toml_edit",
+      "toml_edit?/parse"
+    ],
+    "preserve_order": [
+      "indexmap"
+    ],
+    "unbounded": [
+      "toml_edit?/unbounded"
+    ]
+  },
+  "downloads": 1736573,
+  "yanked": false,
+  "repository": "https://github.com/toml-rs/toml",
+  "homepage": null,
+  "keywords": [
+    "encoding",
+    "no_std",
+    "toml"
+  ],
+  "categories": [
+    "Parser implementations",
+    "Parsing tools",
+    "Configuration",
+    "Encoding"
+  ],
+  "captured_at": "2026-05-23T02:05:33.378Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "bda6525187fc798f25a48bc0a893040a0ebcbcd661e025fd27e2bcc6cdb73fa5186f57fded1351f4290fae0a1d0b03ca"
+}
