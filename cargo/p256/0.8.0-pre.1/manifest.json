@@ -1,0 +1,77 @@
+{
+  "name": "p256",
+  "version": "0.8.0-pre.1",
+  "ecosystem": "cargo",
+  "description": "Pure Rust implementation of the NIST P-256 (a.k.a. secp256r1, prime256v1)\nelliptic curve as defined in SP 800-186, with support for ECDH, ECDSA\nsigning/verification, and general purpose curve arithmetic\n",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "f5069439fb6f06b811d7b2bbe35666d4e437e71cce2492b5c8569a308b01877c",
+  "features": {
+    "arithmetic": [
+      "elliptic-curve/arithmetic"
+    ],
+    "default": [
+      "arithmetic",
+      "pkcs8",
+      "std"
+    ],
+    "digest": [
+      "ecdsa-core/digest"
+    ],
+    "ecdh": [
+      "arithmetic",
+      "elliptic-curve/ecdh",
+      "zeroize"
+    ],
+    "ecdsa": [
+      "arithmetic",
+      "ecdsa-core/sign",
+      "ecdsa-core/verify",
+      "sha256",
+      "zeroize"
+    ],
+    "jwk": [
+      "elliptic-curve/jwk"
+    ],
+    "pem": [
+      "elliptic-curve/pem",
+      "pkcs8"
+    ],
+    "pkcs8": [
+      "elliptic-curve/pkcs8",
+      "zeroize"
+    ],
+    "sha256": [
+      "digest",
+      "ecdsa-core/hazmat",
+      "sha2"
+    ],
+    "std": [
+      "ecdsa-core/std",
+      "elliptic-curve/std"
+    ],
+    "test-vectors": [
+      "hex-literal"
+    ],
+    "zeroize": [
+      "elliptic-curve/zeroize"
+    ]
+  },
+  "downloads": 3170,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/elliptic-curves",
+  "homepage": "https://github.com/RustCrypto/elliptic-curves/tree/master/p256",
+  "keywords": [
+    "crypto",
+    "ecc",
+    "nist",
+    "prime256v1",
+    "secp256r1"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "captured_at": "2026-05-23T09:37:00.352Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "878bc59b5a6e250f53c98975a873bde669b974a2aabb5ec6cabd135869dacef4bfc2a2d50ec30801eef140d9103e10cd"
+}
