@@ -1,0 +1,54 @@
+{
+  "name": "arrayvec",
+  "version": "0.3.16",
+  "ecosystem": "cargo",
+  "description": "A vector with fixed capacity, backed by an array (it can be stored on the stack too). Implements fixed capacity ArrayVec and ArrayString.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "16e3bdb2f54b3ace0285975d59a97cf8ed3855294b2b6bc651fcf22a9c352975",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": [
+      "odds/std",
+      "nodrop/std"
+    ]
+  },
+  "downloads": 109941,
+  "yanked": false,
+  "repository": "https://github.com/bluss/arrayvec",
+  "homepage": null,
+  "keywords": [
+    "array",
+    "data-structure",
+    "no_std",
+    "stack",
+    "vector"
+  ],
+  "categories": [
+    "Data structures",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "nodrop",
+      "requirement": "^0.1.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "odds",
+      "requirement": "^0.2.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2016-02-29T23:07:36.304412Z",
+  "captured_at": "2026-05-24T23:58:10.221Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
