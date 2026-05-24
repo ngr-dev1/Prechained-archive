@@ -1,0 +1,95 @@
+{
+  "name": "zstd",
+  "version": "0.4.15+zstd.1.3.2",
+  "ecosystem": "cargo",
+  "description": "Binding for the zstd compression library.",
+  "license": "MIT",
+  "checksum": "b4c32ea016744afbc1beee84957c3d1ed0958973d90582f767b9fef2ba795ace",
+  "features": {
+    "bindgen": [
+      "zstd-safe/bindgen"
+    ],
+    "default": [
+      "legacy"
+    ],
+    "legacy": [
+      "zstd-safe/legacy"
+    ],
+    "tokio": [
+      "tokio-io",
+      "futures",
+      "partial-io/quickcheck",
+      "partial-io/tokio"
+    ]
+  },
+  "downloads": 3159,
+  "yanked": false,
+  "repository": "https://github.com/gyscos/zstd-rs",
+  "homepage": null,
+  "keywords": [
+    "compression",
+    "zstandard",
+    "zstd"
+  ],
+  "categories": [
+    "API bindings",
+    "Compression"
+  ],
+  "dependencies": [
+    {
+      "name": "clap",
+      "requirement": "^2.6.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "partial-io",
+      "requirement": "^0.2.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "zstd-safe",
+      "requirement": "^1.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-io",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-10-10T00:22:51.096547Z",
+  "captured_at": "2026-05-24T15:22:08.027Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
