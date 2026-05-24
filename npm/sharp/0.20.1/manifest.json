@@ -1,0 +1,94 @@
+{
+  "name": "sharp",
+  "version": "0.20.1",
+  "ecosystem": "npm",
+  "description": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, GIF, AVIF and TIFF images",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "nan": "^2.10.0",
+    "tar": "^4.4.0",
+    "color": "^3.0.0",
+    "npmlog": "^4.1.2",
+    "semver": "^5.5.0",
+    "simple-get": "^2.7.0",
+    "detect-libc": "^1.0.3",
+    "tunnel-agent": "^0.6.0",
+    "prebuild-install": "^2.5.1",
+    "fs-copy-file-sync": "^1.0.1"
+  },
+  "devDependencies": {
+    "cc": "^1.0.1",
+    "icc": "^1.0.0",
+    "nyc": "^11.6.0",
+    "async": "^2.6.0",
+    "mocha": "^5.0.4",
+    "unzip": "^0.1.11",
+    "rimraf": "^2.6.2",
+    "prebuild": "^7.4.0",
+    "exif-reader": "^1.0.2",
+    "prebuild-ci": "^2.2.3",
+    "semistandard": "^12.0.1",
+    "documentation": "^6.1.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=4.5.0"
+  },
+  "scripts": {
+    "install": "(node install/libvips && node install/dll-copy && prebuild-install) || (node-gyp rebuild && node install/dll-copy)",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "lovell",
+      "email": "npm@lovell.info"
+    }
+  ],
+  "author": {
+    "name": "Lovell Fuller",
+    "email": "npm@lovell.info"
+  },
+  "publishedAt": "2018-03-17T14:46:32.561Z",
+  "dist": {
+    "integrity": "sha512-Mj6zWnt3vG8TraXqkrjdql4BkKXhoLmHP8+yZglx7Nc1EH5YaClqur/JKRWpkPzPHbYayBt6rxXqfPd2tgYvvg==",
+    "shasum": "13adde896bc9ec0372b0907554e0329f35a7bce6",
+    "tarball": "https://registry.npmjs.org/sharp/-/sharp-0.20.1.tgz",
+    "fileCount": 52,
+    "unpackedSize": 1406343
+  },
+  "repository": {
+    "url": "git://github.com/lovell/sharp.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/lovell/sharp",
+  "bugs": {
+    "url": "https://github.com/lovell/sharp/issues"
+  },
+  "keywords": [
+    "jpeg",
+    "png",
+    "webp",
+    "tiff",
+    "gif",
+    "svg",
+    "dzi",
+    "image",
+    "resize",
+    "thumbnail",
+    "crop",
+    "embed",
+    "libvips",
+    "vips"
+  ],
+  "_npmUser": {
+    "name": "lovell",
+    "email": "npm@lovell.info"
+  },
+  "captured_at": "2026-05-24T23:42:08.628Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
