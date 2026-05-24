@@ -1,0 +1,295 @@
+{
+  "name": "zip",
+  "version": "2.1.5",
+  "ecosystem": "cargo",
+  "description": "Library to support the reading and writing of zip files.",
+  "license": "MIT",
+  "checksum": "b895748a3ebcb69b9d38dcfdf21760859a4b0d0b0015277640c2ef4c69640e6f",
+  "features": {
+    "_all-features": [],
+    "_deflate-any": [],
+    "aes-crypto": [
+      "aes",
+      "constant_time_eq",
+      "hmac",
+      "pbkdf2",
+      "sha1",
+      "rand",
+      "zeroize"
+    ],
+    "chrono": [
+      "chrono/default"
+    ],
+    "default": [
+      "aes-crypto",
+      "bzip2",
+      "deflate64",
+      "deflate",
+      "lzma",
+      "time",
+      "zstd",
+      "xz"
+    ],
+    "deflate": [
+      "flate2/rust_backend",
+      "deflate-zopfli",
+      "deflate-flate2"
+    ],
+    "deflate-flate2": [
+      "flate2/any_impl",
+      "_deflate-any"
+    ],
+    "deflate-miniz": [
+      "deflate",
+      "deflate-flate2"
+    ],
+    "deflate-zlib": [
+      "flate2/zlib",
+      "deflate-flate2"
+    ],
+    "deflate-zlib-ng": [
+      "flate2/zlib-ng",
+      "deflate-flate2"
+    ],
+    "deflate-zopfli": [
+      "zopfli",
+      "_deflate-any"
+    ],
+    "lzma": [
+      "lzma-rs/stream"
+    ],
+    "unreserved": [],
+    "xz": [
+      "lzma-rs/raw_decoder"
+    ]
+  },
+  "downloads": 284269,
+  "yanked": true,
+  "repository": "https://github.com/zip-rs/zip2",
+  "homepage": null,
+  "keywords": [
+    "archive",
+    "compression",
+    "zip"
+  ],
+  "categories": [
+    "Parser implementations",
+    "Compression",
+    "Filesystem"
+  ],
+  "dependencies": [
+    {
+      "name": "anyhow",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "arbitrary",
+      "requirement": "^1.3.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bencher",
+      "requirement": "^0.1.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "clap",
+      "requirement": "=4.4.18",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "crc32fast",
+      "requirement": "^1.4.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "crossbeam-utils",
+      "requirement": "^0.8.20",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "displaydoc",
+      "requirement": "^0.2.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.2.15",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "indexmap",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "memchr",
+      "requirement": "^2.7.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempdir",
+      "requirement": "^0.3.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "thiserror",
+      "requirement": "^1.0.61",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.3.36",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "walkdir",
+      "requirement": "^2.5.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "aes",
+      "requirement": "^0.8.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "bzip2",
+      "requirement": "^0.4.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "chrono",
+      "requirement": "^0.4.38",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "constant_time_eq",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "deflate64",
+      "requirement": "^0.1.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "flate2",
+      "requirement": "^1.0.30",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "hmac",
+      "requirement": "^0.12.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "lzma-rs",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "pbkdf2",
+      "requirement": "^0.12.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "sha1",
+      "requirement": "^0.10.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.3.36",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "zeroize",
+      "requirement": "^1.8.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "zopfli",
+      "requirement": "^0.8.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "zstd",
+      "requirement": "^0.13.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 209322,
+    "login": "Pr0methean",
+    "name": "Chris Hennick"
+  },
+  "publishedAt": "2024-07-20T21:16:13.742661Z",
+  "captured_at": "2026-05-24T15:02:11.688Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
