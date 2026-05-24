@@ -1,0 +1,46 @@
+{
+  "name": "cfg-if",
+  "version": "0.1.8",
+  "ecosystem": "cargo",
+  "description": "A macro to ergonomically define an item depending on a large number of #[cfg]\nparameters. Structured like an if-else chain, the first matching branch is the\nitem that gets emitted.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "89431bba4e6b7092fb5fcd00a6f6ca596c55cc26b2f1e6dcdd08a1f4933f66b2",
+  "features": {
+    "rustc-dep-of-std": [
+      "core",
+      "compiler_builtins"
+    ]
+  },
+  "downloads": 489182,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/cfg-if",
+  "homepage": null,
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "compiler_builtins",
+      "requirement": "^0.1.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-core",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 1,
+    "login": "alexcrichton",
+    "name": "Alex Crichton"
+  },
+  "publishedAt": "2019-05-15T00:43:20.286961Z",
+  "captured_at": "2026-05-24T12:42:10.672Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
