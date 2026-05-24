@@ -1,0 +1,95 @@
+{
+  "name": "redux",
+  "version": "5.0.0-alpha.4",
+  "ecosystem": "npm",
+  "description": "Predictable state container for JavaScript apps",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@types/node": "^18.7.16",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "cross-env": "^7.0.3",
+    "esbuild-extra": "^0.1.3",
+    "eslint": "^8.23.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "glob": "^8.0.3",
+    "netlify-plugin-cache": "^1.0.3",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.5.6",
+    "tsup": "^6.7.0",
+    "typescript": "^4.8.3",
+    "vitest": "^0.27.2"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "yarn clean && yarn check-types && yarn format:check && yarn lint && yarn test"
+  },
+  "maintainers": [
+    {
+      "name": "gaearon",
+      "email": "dan.abramov@gmail.com"
+    },
+    {
+      "name": "timdorr",
+      "email": "timdorr@timdorr.com"
+    },
+    {
+      "name": "acdlite",
+      "email": "npm@andrewclark.io"
+    },
+    {
+      "name": "acemarke",
+      "email": "mark.erikson@gmail.com"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2023-04-03T03:17:24.966Z",
+  "dist": {
+    "integrity": "sha512-iqGowIXvDHEUze3XLKjiAbKSNF0lkQr1WVEQDIH+6SAK88VfdMEWM/4bZhI6WGmjC6NKG8KCBZ0fqPD38v/0Xw==",
+    "shasum": "9c592ed2f3b46ea4ac2557c81e39b5b1d28c241a",
+    "tarball": "https://registry.npmjs.org/redux/-/redux-5.0.0-alpha.4.tgz",
+    "fileCount": 27,
+    "unpackedSize": 293084
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reduxjs/redux.git"
+  },
+  "homepage": "http://redux.js.org",
+  "bugs": {
+    "url": "https://github.com/reduxjs/redux/issues"
+  },
+  "keywords": [
+    "redux",
+    "reducer",
+    "state",
+    "predictable",
+    "functional",
+    "immutable",
+    "hot",
+    "live",
+    "replay",
+    "flux",
+    "elm"
+  ],
+  "_npmUser": {
+    "name": "acemarke",
+    "email": "mark.erikson@gmail.com"
+  },
+  "captured_at": "2026-05-24T15:54:46.398Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
