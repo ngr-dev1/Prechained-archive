@@ -1,0 +1,58 @@
+{
+  "name": "uuid",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "description": "A library to generate and parse UUIDs.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "a4f9d19a37dc0faed79299532458e112210a20a1f163b45a11d57cf57ba3f058",
+  "features": {
+    "use_std": [],
+    "v4": [
+      "rand"
+    ]
+  },
+  "downloads": 41792,
+  "yanked": false,
+  "repository": "https://github.com/uuid-rs/uuid",
+  "homepage": "https://github.com/uuid-rs/uuid",
+  "keywords": [
+    "guid",
+    "unique",
+    "uuid"
+  ],
+  "categories": [
+    "Data structures",
+    "Parser implementations",
+    "WebAssembly",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "rand",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-serialize",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^0.7.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2016-04-03T00:37:18.543116Z",
+  "captured_at": "2026-05-24T13:12:12.385Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
