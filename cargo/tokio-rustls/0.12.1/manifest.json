@@ -1,0 +1,100 @@
+{
+  "name": "tokio-rustls",
+  "version": "0.12.1",
+  "ecosystem": "cargo",
+  "description": "Asynchronous TLS/SSL streams for Tokio using Rustls.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "ea2ce8e6bc7ce619b4fc05761a550c8a750f6bf551f2e9b1efaec93124e13d51",
+  "features": {
+    "dangerous_configuration": [
+      "rustls/dangerous_configuration"
+    ],
+    "early-data": [],
+    "unstable": []
+  },
+  "downloads": 39152,
+  "yanked": false,
+  "repository": "https://github.com/rustls/tokio-rustls",
+  "homepage": "https://github.com/rustls/tokio-rustls",
+  "keywords": [],
+  "categories": [
+    "Asynchronous",
+    "Network programming",
+    "Cryptography"
+  ],
+  "dependencies": [
+    {
+      "name": "bytes",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-core",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustls",
+      "requirement": "^0.16",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "webpki",
+      "requirement": "^0.21",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "webpki-roots",
+      "requirement": "^0.18",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 4286,
+    "login": "quininer",
+    "name": "quininer"
+  },
+  "publishedAt": "2019-12-08T09:15:05.631685Z",
+  "captured_at": "2026-05-24T19:42:12.417Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
