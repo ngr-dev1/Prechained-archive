@@ -1,0 +1,138 @@
+{
+  "name": "flate2",
+  "version": "1.0.31",
+  "ecosystem": "cargo",
+  "description": "DEFLATE compression and decompression exposed as Read/BufRead/Write streams.\nSupports miniz_oxide and multiple zlib implementations. Supports zlib, gzip,\nand raw deflate streams.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "7f211bbe8e69bbd0cfdea405084f128ae8b4aaa6b0b522fc8f2b009084797920",
+  "features": {
+    "any_impl": [],
+    "any_zlib": [
+      "any_impl"
+    ],
+    "cloudflare_zlib": [
+      "any_zlib",
+      "cloudflare-zlib-sys"
+    ],
+    "default": [
+      "rust_backend"
+    ],
+    "miniz-sys": [
+      "rust_backend"
+    ],
+    "rust_backend": [
+      "miniz_oxide",
+      "any_impl"
+    ],
+    "zlib": [
+      "any_zlib",
+      "libz-sys"
+    ],
+    "zlib-default": [
+      "any_zlib",
+      "libz-sys/default"
+    ],
+    "zlib-ng": [
+      "any_zlib",
+      "libz-ng-sys"
+    ],
+    "zlib-ng-compat": [
+      "zlib",
+      "libz-sys/zlib-ng"
+    ],
+    "zlib-rs": [
+      "any_zlib",
+      "libz-rs-sys"
+    ]
+  },
+  "downloads": 6382147,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/flate2-rs",
+  "homepage": "https://github.com/rust-lang/flate2-rs",
+  "keywords": [
+    "deflate",
+    "encoding",
+    "gzip",
+    "zlib",
+    "zlib-ng"
+  ],
+  "categories": [
+    "API bindings",
+    "Compression"
+  ],
+  "dependencies": [
+    {
+      "name": "crc32fast",
+      "requirement": "^1.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "miniz_oxide",
+      "requirement": "^0.7.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "cloudflare-zlib-sys",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "libz-ng-sys",
+      "requirement": "^1.1.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "libz-rs-sys",
+      "requirement": "^0.2.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "libz-sys",
+      "requirement": "^1.1.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "miniz_oxide",
+      "requirement": "^0.7.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 980,
+    "login": "Byron",
+    "name": "Sebastian Thiel"
+  },
+  "publishedAt": "2024-08-03T12:48:32.459792Z",
+  "captured_at": "2026-05-24T21:22:10.579Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
