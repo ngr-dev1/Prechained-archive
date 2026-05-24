@@ -1,0 +1,59 @@
+{
+  "name": "cookie",
+  "version": "0.7.4",
+  "ecosystem": "cargo",
+  "description": "HTTP cookie parsing and cookie jar management. Supports signed and private\n(encrypted, authenticated) jars.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "f6a9458a2441ec2b1b9a856d133ba3fdf751a5a6658249c0434eebe15ec786d4",
+  "features": {
+    "percent-encode": [
+      "url"
+    ],
+    "secure": [
+      "ring",
+      "base64"
+    ]
+  },
+  "downloads": 4384,
+  "yanked": false,
+  "repository": "https://github.com/SergioBenitez/cookie-rs",
+  "homepage": null,
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "time",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "base64",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "ring",
+      "requirement": "^0.7.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-04-11T23:54:36.660224Z",
+  "captured_at": "2026-05-24T09:32:10.037Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
