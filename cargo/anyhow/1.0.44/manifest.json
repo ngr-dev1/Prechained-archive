@@ -1,0 +1,80 @@
+{
+  "name": "anyhow",
+  "version": "1.0.44",
+  "ecosystem": "cargo",
+  "description": "Flexible concrete Error type built on std::error::Error",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "61604a8f862e1d5c3229fdd78f8b02c68dcf73a4c4b05fd636d12240aaa242c1",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": []
+  },
+  "downloads": 4937142,
+  "yanked": false,
+  "repository": "https://github.com/dtolnay/anyhow",
+  "homepage": null,
+  "keywords": [
+    "error",
+    "error-handling"
+  ],
+  "categories": [
+    "No standard library",
+    "Rust patterns"
+  ],
+  "dependencies": [
+    {
+      "name": "futures",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rustversion",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "syn",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "thiserror",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "trybuild",
+      "requirement": "^1.0.19",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "backtrace",
+      "requirement": "^0.3.51",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 3618,
+    "login": "dtolnay",
+    "name": "David Tolnay"
+  },
+  "publishedAt": "2021-09-12T19:19:40.355693Z",
+  "captured_at": "2026-05-24T03:24:13.248Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
