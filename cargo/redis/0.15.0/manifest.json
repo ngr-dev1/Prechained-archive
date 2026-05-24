@@ -1,0 +1,203 @@
+{
+  "name": "redis",
+  "version": "0.15.0",
+  "ecosystem": "cargo",
+  "description": "Redis driver for Rust.",
+  "license": "BSD-3-Clause",
+  "checksum": "f79296ada6fd53a722d5581d30fbc3332c47fecb4f42478bd17e2a346d3ef401",
+  "features": {
+    "cluster": [
+      "crc16",
+      "rand"
+    ],
+    "default": [
+      "geospatial"
+    ],
+    "geospatial": [],
+    "tokio-rt-core": [
+      "tokio/rt-core"
+    ]
+  },
+  "downloads": 2846,
+  "yanked": false,
+  "repository": "https://github.com/redis-rs/redis-rs",
+  "homepage": "https://github.com/redis-rs/redis-rs",
+  "keywords": [
+    "database",
+    "redis"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "assert_approx_eq",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "combine",
+      "requirement": "^3.8.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "dtoa",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fnv",
+      "requirement": "^1.0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-executor",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "itoa",
+      "requirement": "^0.4.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "net2",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "partial-io",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "percent-encoding",
+      "requirement": "^2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-project-lite",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^0.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "sha1",
+      "requirement": ">= 0.2, < 0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-util",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "crc16",
+      "requirement": "^0.4.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.7.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 39,
+    "login": "mitsuhiko",
+    "name": "Armin Ronacher"
+  },
+  "publishedAt": "2020-01-15T11:24:51.216132Z",
+  "captured_at": "2026-05-24T12:32:06.430Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
