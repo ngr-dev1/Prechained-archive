@@ -1,0 +1,215 @@
+{
+  "name": "lapin",
+  "version": "4.8.0",
+  "ecosystem": "cargo",
+  "description": "AMQP client library",
+  "license": "MIT",
+  "checksum": "01db668de710f19cca0088b36a572afa1b41090edbaa4d34b68e7bc8468b8e2b",
+  "features": {
+    "async-global-executor": [
+      "amq-protocol/async-global-executor",
+      "async-rs/async-global-executor",
+      "async-rs/async-io"
+    ],
+    "codegen": [
+      "codegen-internal",
+      "amq-protocol/codegen"
+    ],
+    "codegen-internal": [
+      "dep:amq-protocol-codegen",
+      "dep:serde_json"
+    ],
+    "default": [
+      "rustls",
+      "default-runtime"
+    ],
+    "default-runtime": [
+      "tokio"
+    ],
+    "hickory-dns": [
+      "amq-protocol/hickory-dns",
+      "async-rs/hickory-dns"
+    ],
+    "native-tls": [
+      "amq-protocol/native-tls"
+    ],
+    "openssl": [
+      "amq-protocol/openssl"
+    ],
+    "rustls": [
+      "amq-protocol/rustls"
+    ],
+    "rustls--aws_lc_rs": [
+      "amq-protocol/rustls--aws_lc_rs"
+    ],
+    "rustls--ring": [
+      "amq-protocol/rustls--ring"
+    ],
+    "rustls-native-certs": [
+      "amq-protocol/rustls-native-certs"
+    ],
+    "rustls-platform-verifier": [
+      "amq-protocol/rustls-platform-verifier"
+    ],
+    "rustls-webpki-roots-certs": [
+      "amq-protocol/rustls-webpki-roots-certs"
+    ],
+    "smol": [
+      "amq-protocol/smol",
+      "async-rs/smol"
+    ],
+    "tokio": [
+      "amq-protocol/tokio",
+      "async-rs/tokio"
+    ],
+    "vendored-openssl": [
+      "amq-protocol/vendored-openssl"
+    ]
+  },
+  "downloads": 112,
+  "yanked": false,
+  "repository": "https://github.com/amqp-rs/lapin",
+  "homepage": null,
+  "keywords": [
+    "amqp",
+    "async",
+    "client",
+    "messaging",
+    "rabbitmq"
+  ],
+  "categories": [
+    "Asynchronous",
+    "Network programming"
+  ],
+  "dependencies": [
+    {
+      "name": "amq-protocol",
+      "requirement": "^10.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "async-rs",
+      "requirement": "^0.8.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "async-trait",
+      "requirement": "^0.1.42",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "atomic-waker",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "backon",
+      "requirement": "^1.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "cfg-if",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "flume",
+      "requirement": "^0.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "futures-core",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-io",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-lite",
+      "requirement": "^2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "smol",
+      "requirement": "^2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.17",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "tracing-subscriber",
+      "requirement": "^0.3.20",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "amq-protocol-codegen",
+      "requirement": "^10.4",
+      "kind": "build",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "build",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 1926,
+    "login": "Keruspe",
+    "name": "Marc-Antoine Perennou"
+  },
+  "publishedAt": "2026-05-23T16:25:41.196160Z",
+  "captured_at": "2026-05-24T07:31:49.759Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
