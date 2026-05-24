@@ -1,0 +1,74 @@
+{
+  "name": "figlet",
+  "version": "1.9.0-beta.6",
+  "ecosystem": "npm",
+  "description": "Creates ASCII Art from text. A full implementation of the FIGfont spec.",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.6",
+    "async": "~3.2.4",
+    "husky": "^9.1.7",
+    "vitest": "^3.2.4",
+    "@vitest/ui": "^3.2.4",
+    "typescript": "^5.9.2",
+    "@types/node": "^24.2.0",
+    "lint-staged": "^16.1.5",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">= 17.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "husky install",
+    "prepublish": null,
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "patorjk",
+      "email": "patorjk@gmail.com"
+    }
+  ],
+  "author": {
+    "url": "http://patorjk.com/",
+    "name": "Patrick Gillespie",
+    "email": "patorjk@gmail.com"
+  },
+  "publishedAt": "2025-08-26T02:54:43.116Z",
+  "dist": {
+    "integrity": "sha512-//llsePPv7ooDy8l9JPY0vMaFEXmbTaffNEz/Hc1w1PNpO9TR0ZHCXfyMePKK9om1YJuDsuRn/d/rxfXvalkoA==",
+    "shasum": "25d65264ce6cd37c813c1e4ab4d62494e09dc3b9",
+    "tarball": "https://registry.npmjs.org/figlet/-/figlet-1.9.0-beta.6.tgz",
+    "fileCount": 982,
+    "unpackedSize": 18456745
+  },
+  "repository": {
+    "url": "git+https://github.com/patorjk/figlet.js.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/patorjk/figlet.js#readme",
+  "bugs": {
+    "url": "https://github.com/patorjk/figlet.js/issues"
+  },
+  "keywords": [
+    "figlet",
+    "ascii",
+    "art",
+    "banner",
+    "ansi"
+  ],
+  "_npmUser": {
+    "name": "patorjk",
+    "email": "patorjk@gmail.com"
+  },
+  "captured_at": "2026-05-24T18:02:12.054Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
