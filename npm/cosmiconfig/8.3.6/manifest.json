@@ -1,0 +1,95 @@
+{
+  "name": "cosmiconfig",
+  "version": "8.3.6",
+  "ecosystem": "npm",
+  "description": "Find and load configuration from a package.json property, rc file, TypeScript module, and more!",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "path-type": "^4.0.0",
+    "parse-json": "^5.2.0",
+    "import-fresh": "^3.3.0"
+  },
+  "devDependencies": {
+    "del": "^7.1.0",
+    "husky": "^8.0.3",
+    "eslint": "^8.48.0",
+    "vitest": "^0.34.3",
+    "del-cli": "^5.1.0",
+    "make-dir": "^4.0.0",
+    "prettier": "^3.0.3",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.2.2",
+    "@types/node": "^14",
+    "lint-staged": "^14.0.1",
+    "parent-module": "^3.0.0",
+    "@types/js-yaml": "^4.0.5",
+    "@types/parse-json": "^4.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-vitest": "^0.2.8",
+    "eslint-config-prettier": "^9.0.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "@vitest/coverage-istanbul": "^0.34.3",
+    "remark-preset-davidtheclark": "^0.12.0",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "eslint-config-davidtheclark-node": "^0.2.2",
+    "eslint-import-resolver-typescript": "^3.6.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.9.5"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "husky install",
+    "prepublish": null,
+    "prepublishOnly": "npm run check:all && npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "davidtheclark",
+      "email": "david.dave.clark@gmail.com"
+    },
+    {
+      "name": "d-fischer",
+      "email": "daniel@d-fischer.dev"
+    }
+  ],
+  "author": {
+    "name": "Daniel Fischer",
+    "email": "daniel@d-fischer.dev"
+  },
+  "publishedAt": "2023-09-13T16:34:42.755Z",
+  "dist": {
+    "integrity": "sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA==",
+    "shasum": "060a2b871d66dba6c8538ea1118ba1ac16f5fae3",
+    "tarball": "https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-8.3.6.tgz",
+    "fileCount": 31,
+    "unpackedSize": 78453
+  },
+  "repository": {
+    "url": "git+https://github.com/cosmiconfig/cosmiconfig.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/cosmiconfig/cosmiconfig#readme",
+  "bugs": {
+    "url": "https://github.com/cosmiconfig/cosmiconfig/issues"
+  },
+  "keywords": [
+    "load",
+    "configuration",
+    "config"
+  ],
+  "_npmUser": {
+    "name": "d-fischer",
+    "email": "daniel@d-fischer.dev"
+  },
+  "captured_at": "2026-05-24T09:02:12.976Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
