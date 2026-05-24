@@ -1,0 +1,57 @@
+{
+  "repo": "PyCQA/pylint",
+  "commit_sha": "c8be7ea1d7a43925e789a342167c2e290e40e41d",
+  "tree_sha": "7cf154c47dde7a928bb6491abf19b2ef1a89bfa3",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "It's not just a linter that annoys you!",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 5684,
+  "watchers": 5684,
+  "forks": 1246,
+  "open_issues": 1066,
+  "language": "Python",
+  "topics": [
+    "closember",
+    "code-quality",
+    "hacktoberfest",
+    "linter",
+    "pep8",
+    "static-analysis",
+    "static-code-analysis"
+  ],
+  "commit_message": "Fix crash when ``NotImplemented`` is used as an ``if`` test (#11026)\n\n``_inferred_to_define_name_raise_or_return_for_if_node`` evaluated\n``not val`` on every inferred constant test value. On Python 3.14,\n``not NotImplemented`` raises a ``TypeError`` because ``NotImplemented``\nmust not be used in a boolean context. The adjacent ``only_search_if``\nline already guarded against ``NotImplemented``, so apply the same\nguard to ``only_search_else``.\n\nCloses #11025",
+  "commit_author": {
+    "name": "Pierre Sassoulas",
+    "email": "pierre.sassoulas@gmail.com",
+    "date": "2026-05-24T07:27:51Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-24T07:27:51Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "2ff604aa8d4150126677a1bc188d18c799c572f1"
+  ],
+  "github_author_login": "Pierre-Sassoulas",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-24T07:28:03Z",
+  "created_at": "2015-12-09T05:40:02Z",
+  "homepage": "https://pylint.readthedocs.io/en/latest/",
+  "size_kb": 40689,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-24T19:22:10.318Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
