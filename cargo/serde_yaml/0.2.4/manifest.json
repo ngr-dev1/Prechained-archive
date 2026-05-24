@@ -1,0 +1,55 @@
+{
+  "name": "serde_yaml",
+  "version": "0.2.4",
+  "ecosystem": "cargo",
+  "description": "YAML data format for Serde",
+  "license": "MIT/Apache-2.0",
+  "checksum": "2407c77505c5739d865f1bd1f22d4ff4c6ad693939ff8be8c4e706abf71a7276",
+  "features": {
+    "preserve_order": [
+      "yaml-rust/preserve_order"
+    ]
+  },
+  "downloads": 5044,
+  "yanked": false,
+  "repository": "https://github.com/dtolnay/serde-yaml",
+  "homepage": null,
+  "keywords": [
+    "yaml",
+    "serde",
+    "serialization"
+  ],
+  "categories": [
+    "Encoding",
+    "Parser implementations"
+  ],
+  "dependencies": [
+    {
+      "name": "serde",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "yaml-rust",
+      "requirement": "^0.3.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "clippy",
+      "requirement": "0.*",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2016-04-21T00:13:24.988439Z",
+  "captured_at": "2026-05-24T15:16:33.482Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
