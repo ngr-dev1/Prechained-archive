@@ -1,0 +1,165 @@
+{
+  "name": "image",
+  "version": "0.21.0",
+  "ecosystem": "cargo",
+  "description": "Imaging library. Provides basic image processing and encoders/decoders for common image formats.",
+  "license": "MIT",
+  "checksum": "52fb0666a1273dac46f9725aa4859bcd5595fc3554cf3495051b4de8db745e7d",
+  "features": {
+    "benchmarks": [],
+    "bmp": [],
+    "default": [
+      "gif_codec",
+      "jpeg",
+      "ico",
+      "png_codec",
+      "pnm",
+      "tga",
+      "tiff",
+      "webp",
+      "bmp",
+      "hdr",
+      "dxt",
+      "jpeg_rayon"
+    ],
+    "dxt": [],
+    "gif_codec": [
+      "gif"
+    ],
+    "hdr": [
+      "scoped_threadpool"
+    ],
+    "ico": [
+      "bmp",
+      "png_codec"
+    ],
+    "jpeg": [
+      "jpeg-decoder"
+    ],
+    "jpeg_rayon": [
+      "jpeg-decoder/rayon"
+    ],
+    "png_codec": [
+      "png"
+    ],
+    "pnm": [],
+    "tga": [],
+    "webp": []
+  },
+  "downloads": 216342,
+  "yanked": true,
+  "repository": "https://github.com/image-rs/image",
+  "homepage": "https://github.com/image-rs/image",
+  "keywords": [],
+  "categories": [
+    "Encoding",
+    "Images",
+    "Encoding"
+  ],
+  "dependencies": [
+    {
+      "name": "byteorder",
+      "requirement": "^1.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "glob",
+      "requirement": "^0.2.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lzw",
+      "requirement": "^0.10.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num-complex",
+      "requirement": "^0.2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num-iter",
+      "requirement": "^0.1.32",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num-rational",
+      "requirement": "^0.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "num-traits",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^0.6.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "safe-transmute",
+      "requirement": "^0.10.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "gif",
+      "requirement": "^0.10.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "jpeg-decoder",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "png",
+      "requirement": "^0.14",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "scoped_threadpool",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tiff",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2019-01-11T19:39:07.569356Z",
+  "captured_at": "2026-05-24T08:02:09.229Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
