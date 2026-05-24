@@ -1,0 +1,99 @@
+{
+  "name": "serde_with",
+  "version": "1.1.0",
+  "ecosystem": "cargo",
+  "description": "Custom de/serialization functions for Rust's serde",
+  "license": "MIT/Apache-2.0",
+  "checksum": "1089390dc8dbe52d3ccacb2edfcf1d538dca15b8303b12abd7c40802fbb2178e",
+  "features": {
+    "json": [
+      "serde_json"
+    ]
+  },
+  "downloads": 3276,
+  "yanked": false,
+  "repository": "https://github.com/jonasbb/serde_with/",
+  "homepage": null,
+  "keywords": [
+    "deserialization",
+    "serde",
+    "serialization",
+    "utilities"
+  ],
+  "categories": [
+    "No dynamic allocation",
+    "No standard library",
+    "Encoding"
+  ],
+  "dependencies": [
+    {
+      "name": "fnv",
+      "requirement": "^1.0.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pretty_assertions",
+      "requirement": "^0.5.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ron",
+      "requirement": ">= 0.3.0, < 0.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.75",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1.0.75",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "version-sync",
+      "requirement": "^0.7.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "chrono",
+      "requirement": "^0.4.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2019-02-17T23:23:18.280156Z",
+  "captured_at": "2026-05-24T15:51:45.695Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
