@@ -1,0 +1,113 @@
+{
+  "name": "tracing",
+  "version": "0.1.14",
+  "ecosystem": "cargo",
+  "description": "Application-level tracing for Rust.\n",
+  "license": "MIT",
+  "checksum": "a7c6b59d116d218cb2d990eb06b77b64043e0268ef7323aae63d8b30ae462923",
+  "features": {
+    "async-await": [],
+    "attributes": [
+      "tracing-attributes"
+    ],
+    "default": [
+      "std",
+      "attributes"
+    ],
+    "log-always": [
+      "log"
+    ],
+    "max_level_debug": [],
+    "max_level_error": [],
+    "max_level_info": [],
+    "max_level_off": [],
+    "max_level_trace": [],
+    "max_level_warn": [],
+    "release_max_level_debug": [],
+    "release_max_level_error": [],
+    "release_max_level_info": [],
+    "release_max_level_off": [],
+    "release_max_level_trace": [],
+    "release_max_level_warn": [],
+    "std": [
+      "tracing-core/std"
+    ]
+  },
+  "downloads": 193384,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/tracing",
+  "homepage": "https://tokio.rs",
+  "keywords": [
+    "async",
+    "logging",
+    "metrics",
+    "tracing"
+  ],
+  "categories": [
+    "Asynchronous",
+    "Debugging",
+    "Profiling",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^0.1.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing-core",
+      "requirement": "^0.1.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tracing-attributes",
+      "requirement": "^0.1.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 1249,
+    "login": "hawkw",
+    "name": "Eliza Weisman"
+  },
+  "publishedAt": "2020-05-14T23:53:24.320202Z",
+  "captured_at": "2026-05-24T17:02:11.440Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
