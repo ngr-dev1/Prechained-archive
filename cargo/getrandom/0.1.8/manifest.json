@@ -1,0 +1,67 @@
+{
+  "name": "getrandom",
+  "version": "0.1.8",
+  "ecosystem": "cargo",
+  "description": "A small cross-platform library for retrieving random data from system source",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "34f33de6f0ae7c9cb5e574502a562e2b512799e32abb801cd1e79ad952b62b49",
+  "features": {
+    "std": []
+  },
+  "downloads": 298157,
+  "yanked": false,
+  "repository": "https://github.com/rust-random/getrandom",
+  "homepage": null,
+  "keywords": [],
+  "categories": [
+    "No standard library",
+    "Operating systems"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.60",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "stdweb",
+      "requirement": "^0.4.18",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen",
+      "requirement": "^0.2.29",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 5059,
+    "login": "newpavlov",
+    "name": "Artyom Pavlov"
+  },
+  "publishedAt": "2019-08-05T09:03:13.313642Z",
+  "captured_at": "2026-05-24T07:21:54.280Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
