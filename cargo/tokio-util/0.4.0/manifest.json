@@ -1,0 +1,135 @@
+{
+  "name": "tokio-util",
+  "version": "0.4.0",
+  "ecosystem": "cargo",
+  "description": "Additional utilities for working with Tokio.\n",
+  "license": "MIT",
+  "checksum": "24793699f4665ba0416ed287dc794fe6b11a4aa5e4e95b58624f45f6c46b97d4",
+  "features": {
+    "codec": [
+      "tokio/stream"
+    ],
+    "compat": [
+      "futures-io"
+    ],
+    "default": [],
+    "full": [
+      "codec",
+      "compat",
+      "io",
+      "time"
+    ],
+    "io": [],
+    "rt": [
+      "tokio/rt"
+    ],
+    "time": [
+      "tokio/time",
+      "slab"
+    ]
+  },
+  "downloads": 652617,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/tokio",
+  "homepage": "https://tokio.rs",
+  "keywords": [],
+  "categories": [
+    "Asynchronous"
+  ],
+  "dependencies": [
+    {
+      "name": "bytes",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-core",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-sink",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-test",
+      "requirement": "^0.3.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-project-lite",
+      "requirement": "^0.1.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-test",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-io",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "slab",
+      "requirement": "^0.4.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 10,
+    "login": "carllerche",
+    "name": "Carl Lerche"
+  },
+  "publishedAt": "2020-10-15T16:26:25.252075Z",
+  "captured_at": "2026-05-24T22:02:07.312Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
