@@ -1,0 +1,104 @@
+{
+  "name": "digest",
+  "version": "0.11.0-pre.6",
+  "ecosystem": "cargo",
+  "description": "Traits for cryptographic hash functions and message authentication codes",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "8f5c2be52eb4dc1e4456d89eaa0df751889c31dd95a69efc57e92e6e3593a1fc",
+  "features": {
+    "alloc": [],
+    "core-api": [
+      "block-buffer"
+    ],
+    "default": [
+      "core-api"
+    ],
+    "dev": [
+      "blobby"
+    ],
+    "mac": [
+      "subtle"
+    ],
+    "oid": [
+      "const-oid"
+    ],
+    "rand_core": [
+      "crypto-common/rand_core"
+    ],
+    "std": [
+      "alloc",
+      "crypto-common/std"
+    ],
+    "zeroize": [
+      "dep:zeroize",
+      "block-buffer?/zeroize"
+    ]
+  },
+  "downloads": 3089,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/traits",
+  "homepage": null,
+  "keywords": [
+    "crypto",
+    "digest",
+    "hash"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "crypto-common",
+      "requirement": "=0.2.0-pre.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "blobby",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "block-buffer",
+      "requirement": "=0.11.0-pre.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "const-oid",
+      "requirement": "=0.10.0-pre.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "subtle",
+      "requirement": "^2.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "zeroize",
+      "requirement": "^1.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 5059,
+    "login": "newpavlov",
+    "name": "Artyom Pavlov"
+  },
+  "publishedAt": "2024-01-11T12:01:50.489874Z",
+  "captured_at": "2026-05-24T17:42:07.106Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
