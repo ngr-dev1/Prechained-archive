@@ -1,0 +1,107 @@
+{
+  "name": "notify",
+  "version": "2.4.1",
+  "ecosystem": "cargo",
+  "description": "Cross-platform filesystem notification library",
+  "license": "CC0-1.0",
+  "checksum": "2e7bc25b4dadd2b244e7b07176768129712e6e543c193a2404ce975dc3ab6767",
+  "features": {},
+  "downloads": 5179,
+  "yanked": false,
+  "repository": "https://github.com/notify-rs/notify.git",
+  "homepage": "https://github.com/notify-rs/notify",
+  "keywords": [
+    "events",
+    "filesystem",
+    "notify",
+    "watch"
+  ],
+  "categories": [
+    "Filesystem"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "filetime",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fsevent",
+      "requirement": "^0.2.11",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fsevent-sys",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "inotify",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempdir",
+      "requirement": "^0.3.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^1.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "walker",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-11-05T20:39:34.227690Z",
+  "captured_at": "2026-05-24T15:42:05.174Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
