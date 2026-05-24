@@ -1,0 +1,110 @@
+{
+  "name": "babel-loader",
+  "version": "8.2.0",
+  "ecosystem": "npm",
+  "description": "babel module loader for webpack",
+  "license": "MIT",
+  "dependencies": {
+    "pify": "^4.0.1",
+    "make-dir": "^2.1.0",
+    "@ava/babel": "^1.0.1",
+    "loader-utils": "^1.4.0",
+    "schema-utils": "^2.6.5",
+    "find-cache-dir": "^2.1.0"
+  },
+  "devDependencies": {
+    "ava": "^3.13.0",
+    "nyc": "^15.1.0",
+    "husky": "^4.3.0",
+    "react": "^17.0.1",
+    "eslint": "^7.13.0",
+    "rimraf": "^3.0.0",
+    "semver": "7.3.2",
+    "webpack": "^5.4.0",
+    "prettier": "^2.1.2",
+    "cross-env": "^7.0.2",
+    "@babel/cli": "^7.12.1",
+    "react-intl": "^5.9.4",
+    "@babel/core": "^7.12.3",
+    "lint-staged": "^10.5.1",
+    "babel-eslint": "^10.0.1",
+    "@babel/preset-env": "^7.12.1",
+    "pnp-webpack-plugin": "^1.6.4",
+    "eslint-config-babel": "^9.0.0",
+    "babel-plugin-istanbul": "^6.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "babel-plugin-react-intl": "^8.2.15",
+    "react-intl-webpack-plugin": "^0.3.0"
+  },
+  "peerDependencies": {
+    "webpack": ">=2",
+    "@babel/core": "^7.0.0"
+  },
+  "engines": {
+    "node": ">= 6.9"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "yarn run clean && yarn run build",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "nicolo-ribaudo",
+      "email": "nicolo.ribaudo@gmail.com"
+    },
+    {
+      "name": "existentialism",
+      "email": "bng412@gmail.com"
+    },
+    {
+      "name": "loganfsmyth",
+      "email": "loganfsmyth@gmail.com"
+    },
+    {
+      "name": "danez",
+      "email": "daniel@tschinder.de"
+    },
+    {
+      "name": "hzoo",
+      "email": "hi@henryzoo.com"
+    }
+  ],
+  "author": "Luis Couto <hello@luiscouto.pt>",
+  "publishedAt": "2020-11-10T11:26:59.711Z",
+  "dist": {
+    "integrity": "sha512-xm8HSeshX4r143Vhi7b0LBjqAtOWPNGoIe7yvLUQjJcGU90+h5Odby13VejHo6zKAN+GuaOK/DwLa7wzMV5wSg==",
+    "shasum": "37b37e8e35511627d0e73e00a0bb5f023230fea0",
+    "tarball": "https://registry.npmjs.org/babel-loader/-/babel-loader-8.2.0.tgz",
+    "fileCount": 10,
+    "unpackedSize": 39279
+  },
+  "repository": {
+    "url": "https://github.com/babel/babel-loader.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/babel/babel-loader",
+  "bugs": {
+    "url": "https://github.com/babel/babel-loader/issues"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "babel",
+    "es6",
+    "transpiler",
+    "module"
+  ],
+  "_npmUser": {
+    "name": "nicolo-ribaudo",
+    "email": "nicolo.ribaudo@gmail.com"
+  },
+  "captured_at": "2026-05-24T10:35:18.573Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
