@@ -1,0 +1,130 @@
+{
+  "name": "DocumentFormat.OpenXml",
+  "version": "3.1.1",
+  "ecosystem": "nuget",
+  "description": "The Open XML SDK provides tools for working with Office Word, Excel, and PowerPoint documents. It supports scenarios such as:\n\n- High-performance generation of word-processing documents, spreadsheets, and presentations.\n- Populating content in Word files from an XML data source.\n- Splitting up (shredding) a Word or PowerPoint file into multiple files, and combining multiple Word/PowerPoint files into a single file.\n- Extraction of data from Excel documents.\n- Searching and replacing content in Word/PowerPoint using regular expressions.\n- Updating cached data and embedded spreadsheets for charts in Word/PowerPoint.\n- Document modification, such as removing tracked revisions or removing unacceptable content from documents.",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    "openxml",
+    "office"
+  ],
+  "projectUrl": "https://github.com/dotnet/Open-XML-SDK",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "DocumentFormat.OpenXml.Framework",
+      "range": "[3.1.1, )",
+      "targetFramework": ".NETFramework3.5"
+    },
+    {
+      "id": "DocumentFormat.OpenXml.Framework",
+      "range": "[3.1.1, )",
+      "targetFramework": ".NETFramework4.0"
+    },
+    {
+      "id": "DocumentFormat.OpenXml.Framework",
+      "range": "[3.1.1, )",
+      "targetFramework": ".NETFramework4.6"
+    },
+    {
+      "id": "DocumentFormat.OpenXml.Framework",
+      "range": "[3.1.1, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "DocumentFormat.OpenXml.Framework",
+      "range": "[3.1.1, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.10.16.16.21.02/documentformat.openxml.3.1.1.json#dependencygroup/.netframework3.5",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.10.16.16.21.02/documentformat.openxml.3.1.1.json#dependencygroup/.netframework3.5/documentformat.openxml.framework",
+          "@type": "PackageDependency",
+          "id": "DocumentFormat.OpenXml.Framework",
+          "range": "[3.1.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/documentformat.openxml.framework/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework3.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.10.16.16.21.02/documentformat.openxml.3.1.1.json#dependencygroup/.netframework4.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.10.16.16.21.02/documentformat.openxml.3.1.1.json#dependencygroup/.netframework4.0/documentformat.openxml.framework",
+          "@type": "PackageDependency",
+          "id": "DocumentFormat.OpenXml.Framework",
+          "range": "[3.1.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/documentformat.openxml.framework/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.10.16.16.21.02/documentformat.openxml.3.1.1.json#dependencygroup/.netframework4.6",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.10.16.16.21.02/documentformat.openxml.3.1.1.json#dependencygroup/.netframework4.6/documentformat.openxml.framework",
+          "@type": "PackageDependency",
+          "id": "DocumentFormat.OpenXml.Framework",
+          "range": "[3.1.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/documentformat.openxml.framework/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.10.16.16.21.02/documentformat.openxml.3.1.1.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.10.16.16.21.02/documentformat.openxml.3.1.1.json#dependencygroup/net8.0/documentformat.openxml.framework",
+          "@type": "PackageDependency",
+          "id": "DocumentFormat.OpenXml.Framework",
+          "range": "[3.1.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/documentformat.openxml.framework/index.json"
+        }
+      ],
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.10.16.16.21.02/documentformat.openxml.3.1.1.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.10.16.16.21.02/documentformat.openxml.3.1.1.json#dependencygroup/.netstandard2.0/documentformat.openxml.framework",
+          "@type": "PackageDependency",
+          "id": "DocumentFormat.OpenXml.Framework",
+          "range": "[3.1.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/documentformat.openxml.framework/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2024-10-16T16:17:21.377+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/documentformat.openxml/3.1.1/icon",
+  "readmeUrl": "https://www.nuget.org/packages/DocumentFormat.OpenXml/3.1.1#show-readme-container",
+  "captured_at": "2026-05-24T15:29:33.103Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
