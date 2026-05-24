@@ -1,0 +1,101 @@
+{
+  "name": "Azure.Storage.Common",
+  "version": "12.17.0",
+  "ecosystem": "nuget",
+  "description": "This client library enables working with the Microsoft Azure Storage services which include the blob and file services for storing binary and text data, and the queue service for storing messages that may be accessed by a client.\n      For this release see notes - https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Common/README.md and https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Common/CHANGELOG.md\n      in addition to the breaking changes https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/storage/Azure.Storage.Common/BreakingChanges.txt\n      Microsoft Azure Storage quickstarts and tutorials - https://docs.microsoft.com/en-us/azure/storage/\n      Microsoft Azure Storage REST API Reference - https://docs.microsoft.com/en-us/rest/api/storageservices/",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    "Microsoft",
+    "Azure",
+    "Storage",
+    "Common",
+    "StorageScalable",
+    "azureofficial"
+  ],
+  "projectUrl": "https://github.com/Azure/azure-sdk-for-net/blob/Azure.Storage.Common_12.17.0/sdk/storage/Azure.Storage.Common/README.md",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Azure.Core",
+      "range": "[1.35.0, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "System.IO.Hashing",
+      "range": "[6.0.0, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "Azure.Core",
+      "range": "[1.35.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.IO.Hashing",
+      "range": "[6.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.09.12.20.52.51/azure.storage.common.12.17.0.json#dependencygroup/net6.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.09.12.20.52.51/azure.storage.common.12.17.0.json#dependencygroup/net6.0/azure.core",
+          "@type": "PackageDependency",
+          "id": "Azure.Core",
+          "range": "[1.35.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/azure.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.09.12.20.52.51/azure.storage.common.12.17.0.json#dependencygroup/net6.0/system.io.hashing",
+          "@type": "PackageDependency",
+          "id": "System.IO.Hashing",
+          "range": "[6.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io.hashing/index.json"
+        }
+      ],
+      "targetFramework": "net6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.09.12.20.52.51/azure.storage.common.12.17.0.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.09.12.20.52.51/azure.storage.common.12.17.0.json#dependencygroup/.netstandard2.0/azure.core",
+          "@type": "PackageDependency",
+          "id": "Azure.Core",
+          "range": "[1.35.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/azure.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.09.12.20.52.51/azure.storage.common.12.17.0.json#dependencygroup/.netstandard2.0/system.io.hashing",
+          "@type": "PackageDependency",
+          "id": "System.IO.Hashing",
+          "range": "[6.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io.hashing/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2023-09-12T20:49:17.067+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/azure.storage.common/12.17.0/icon",
+  "readmeUrl": "https://www.nuget.org/packages/Azure.Storage.Common/12.17.0#show-readme-container",
+  "captured_at": "2026-05-24T16:52:07.705Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
