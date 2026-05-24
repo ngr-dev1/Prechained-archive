@@ -1,0 +1,78 @@
+{
+  "name": "xss",
+  "version": "0.2.13",
+  "ecosystem": "npm",
+  "description": "Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "cssfilter": "0.0.7"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0",
+    "mocha": "^2.3.4",
+    "blanket": "^1.2.1",
+    "uglify-js": "^2.6.1",
+    "browserify": "^12.0.1"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "npm run test && npm run build",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "leizongmin",
+      "email": "leizongmin@gmail.com"
+    }
+  ],
+  "author": {
+    "url": "http://ucdok.com",
+    "name": "leizongmin",
+    "email": "leizongmin@gmail.com"
+  },
+  "publishedAt": "2016-05-05T13:18:08.409Z",
+  "dist": {
+    "integrity": "sha512-O2RJP04UAUw3yTlyvBNUlEjbML1gSzNvLMjFafLi1FtLe8u6d8tyaLxW/2TE5dr1S73lTWAfVhlECGjJRW2Qfw==",
+    "shasum": "84f1a3ca615aabb61f0d49b863a1c24fa8305454",
+    "tarball": "https://registry.npmjs.org/xss/-/xss-0.2.13.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": {
+    "url": "git://github.com/leizongmin/js-xss.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/leizongmin/js-xss",
+  "bugs": {
+    "url": "https://github.com/leizongmin/js-xss/issues"
+  },
+  "keywords": [
+    "sanitization",
+    "xss",
+    "sanitize",
+    "sanitisation",
+    "input",
+    "security",
+    "escape",
+    "encode",
+    "filter",
+    "validator",
+    "html",
+    "injection",
+    "whitelist"
+  ],
+  "_npmUser": {
+    "name": "leizongmin",
+    "email": "leizongmin@gmail.com"
+  },
+  "captured_at": "2026-05-24T07:52:11.493Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
