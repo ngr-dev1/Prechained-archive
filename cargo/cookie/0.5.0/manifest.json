@@ -1,0 +1,80 @@
+{
+  "name": "cookie",
+  "version": "0.5.0",
+  "ecosystem": "cargo",
+  "description": "HTTP cookie parsing and cookie jar management. Supports signed and private\n(encrypted, authenticated) jars.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "a4213d4f6b89bc73a5fcb98ccaa68c59ecb8204bf3f242e969a8a4150ead1e11",
+  "features": {
+    "default": [
+      "secure"
+    ],
+    "secure": [
+      "openssl",
+      "rustc-serialize"
+    ],
+    "serialize-rustc": [
+      "rustc-serialize",
+      "time/rustc-serialize"
+    ],
+    "serialize-serde": [
+      "serde"
+    ]
+  },
+  "downloads": 3207,
+  "yanked": false,
+  "repository": "https://github.com/SergioBenitez/cookie-rs",
+  "homepage": null,
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "serde_json",
+      "requirement": "^0.8.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "openssl",
+      "requirement": "^0.9.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-serialize",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2016-12-29T15:59:39.231300Z",
+  "captured_at": "2026-05-24T20:42:08.267Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
