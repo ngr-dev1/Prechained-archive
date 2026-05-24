@@ -1,0 +1,67 @@
+{
+  "name": "rimraf",
+  "version": "4.0.3",
+  "ecosystem": "npm",
+  "description": "A deep deletion module for node (like `rm -rf`)",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "tap": "^16.3.3",
+    "mkdirp": "1",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.23.21",
+    "prettier": "^2.8.2",
+    "@types/tap": "^15.0.7",
+    "typescript": "^4.9.3",
+    "@types/node": "^18.11.9",
+    "eslint-config-prettier": "^8.6.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tsc -p tsconfig-cjs.json && tsc -p tsconfig-esm.json",
+    "prepublish": null,
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "url": "http://blog.izs.me/",
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me"
+  },
+  "publishedAt": "2023-01-13T01:37:14.720Z",
+  "dist": {
+    "integrity": "sha512-C8djGToHJHno7oMSP32Jg3EpzyUXtCE9Clo4LnBJu5XIoVb4rtzK3eMyR6iqJ3KfR/m90/ekfDt3Qp111HcD3Q==",
+    "shasum": "5e22101e127e869465eb812445ffb77eca8cab54",
+    "tarball": "https://registry.npmjs.org/rimraf/-/rimraf-4.0.3.tgz",
+    "fileCount": 107,
+    "unpackedSize": 150240
+  },
+  "repository": {
+    "url": "git://github.com/isaacs/rimraf.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/isaacs/rimraf#readme",
+  "bugs": {
+    "url": "https://github.com/isaacs/rimraf/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  },
+  "captured_at": "2026-05-24T09:32:07.587Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
