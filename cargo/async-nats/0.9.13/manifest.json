@@ -1,0 +1,70 @@
+{
+  "name": "async-nats",
+  "version": "0.9.13",
+  "ecosystem": "cargo",
+  "description": "A async Rust NATS client",
+  "license": "Apache-2.0",
+  "checksum": "d21130e7fd510cbfb0cc86f9f8b9e01f574080b066355d4846ac8bb829963f8f",
+  "features": {},
+  "downloads": 1507,
+  "yanked": false,
+  "repository": "https://github.com/nats-io/nats.rs",
+  "homepage": "https://github.com/nats-io/nats.rs",
+  "keywords": [
+    "api",
+    "client",
+    "messaging",
+    "nats"
+  ],
+  "categories": [
+    "API bindings",
+    "Network programming"
+  ],
+  "dependencies": [
+    {
+      "name": "blocking",
+      "requirement": "^1.0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "nats",
+      "requirement": "^0.9.13",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "nkeys",
+      "requirement": "^0.0.11",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "smol",
+      "requirement": "^1.2.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "structopt",
+      "requirement": "^0.3.21",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 507,
+    "login": "spacejam",
+    "name": "Tyler Neely"
+  },
+  "publishedAt": "2021-04-22T11:41:34.410529Z",
+  "captured_at": "2026-05-24T14:32:09.386Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
