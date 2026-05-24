@@ -1,0 +1,89 @@
+{
+  "name": "sharp",
+  "version": "0.17.2",
+  "ecosystem": "npm",
+  "description": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, GIF, AVIF and TIFF images",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "caw": "^2.0.0",
+    "got": "^6.7.1",
+    "nan": "^2.5.1",
+    "tar": "^2.2.1",
+    "color": "^1.0.3",
+    "semver": "^5.3.0"
+  },
+  "devDependencies": {
+    "cc": "^1.0.0",
+    "icc": "^1.0.0",
+    "nyc": "^10.1.2",
+    "async": "^2.1.4",
+    "mocha": "^3.2.0",
+    "unzip": "^0.1.11",
+    "rimraf": "^2.5.4",
+    "cross-env": "^3.1.4",
+    "bufferutil": "^2.0.1",
+    "exif-reader": "^1.0.2",
+    "semistandard": "^9.2.1",
+    "documentation": "^4.0.0-beta.18"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "lovell",
+      "email": "npm@lovell.info"
+    }
+  ],
+  "author": {
+    "name": "Lovell Fuller",
+    "email": "npm@lovell.info"
+  },
+  "publishedAt": "2017-02-11T10:48:13.301Z",
+  "dist": {
+    "integrity": "sha512-+ebDvcOqIfJymKfw6jGfiUzzdVSlisnCD49iAtqg3lkHs8JzEHl26dSfpBrCXORleEFrJg75NVRMtO6DqIHbBQ==",
+    "shasum": "3e5e02c27de10a65927b009d29f2f61920d51f81",
+    "tarball": "https://registry.npmjs.org/sharp/-/sharp-0.17.2.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": {
+    "url": "git://github.com/lovell/sharp.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/lovell/sharp",
+  "bugs": {
+    "url": "https://github.com/lovell/sharp/issues"
+  },
+  "keywords": [
+    "jpeg",
+    "png",
+    "webp",
+    "tiff",
+    "gif",
+    "svg",
+    "dzi",
+    "image",
+    "resize",
+    "thumbnail",
+    "crop",
+    "libvips",
+    "vips"
+  ],
+  "_npmUser": {
+    "name": "lovell",
+    "email": "npm@lovell.info"
+  },
+  "captured_at": "2026-05-24T17:22:08.540Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
