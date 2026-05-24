@@ -1,0 +1,63 @@
+{
+  "name": "quickcheck",
+  "version": "0.2.10",
+  "ecosystem": "cargo",
+  "description": "Automatic property based testing with shrinking.",
+  "license": "Unlicense",
+  "checksum": "92fd15552cea180f5789bcf9e658c4136e2d6d24ea6299f50a3b38f2bd63be59",
+  "features": {
+    "collect_impls": [
+      "collect"
+    ]
+  },
+  "downloads": 3176,
+  "yanked": false,
+  "repository": "https://github.com/BurntSushi/quickcheck",
+  "homepage": "https://github.com/BurntSushi/quickcheck",
+  "keywords": [
+    "fuzz",
+    "property",
+    "quickcheck",
+    "shrinking",
+    "testing"
+  ],
+  "categories": [
+    "Testing"
+  ],
+  "dependencies": [
+    {
+      "name": "log",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "collect",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-04-02T21:35:08.433049Z",
+  "captured_at": "2026-05-24T11:32:11.420Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
