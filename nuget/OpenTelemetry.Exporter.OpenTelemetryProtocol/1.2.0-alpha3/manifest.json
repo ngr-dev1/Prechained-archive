@@ -1,0 +1,168 @@
+{
+  "name": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
+  "version": "1.2.0-alpha3",
+  "ecosystem": "nuget",
+  "description": "OpenTelemetry protocol exporter for OpenTelemetry .NET",
+  "license": "Apache-2.0",
+  "licenseExpression": "Apache-2.0",
+  "authors": [
+    "OpenTelemetry Authors"
+  ],
+  "owners": [],
+  "tags": [
+    "Observability",
+    "OpenTelemetry",
+    "Monitoring",
+    "Telemetry",
+    "Tracing",
+    "OTLP"
+  ],
+  "projectUrl": "https://opentelemetry.io/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "OpenTelemetry",
+      "range": "[1.2.0-alpha3, )",
+      "targetFramework": ".NETFramework4.6.1"
+    },
+    {
+      "id": "Google.Protobuf",
+      "range": "[3.15.5, 4.0.0)",
+      "targetFramework": ".NETFramework4.6.1"
+    },
+    {
+      "id": "Grpc",
+      "range": "[2.23.0, 3.0.0)",
+      "targetFramework": ".NETFramework4.6.1"
+    },
+    {
+      "id": "OpenTelemetry",
+      "range": "[1.2.0-alpha3, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Google.Protobuf",
+      "range": "[3.15.5, 4.0.0)",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Grpc",
+      "range": "[2.23.0, 3.0.0)",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "OpenTelemetry",
+      "range": "[1.2.0-alpha3, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Google.Protobuf",
+      "range": "[3.15.5, 4.0.0)",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Grpc.Net.Client",
+      "range": "[2.32.0, 3.0.0)",
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.14.05.29.10/opentelemetry.exporter.opentelemetryprotocol.1.2.0-alpha3.json#dependencygroup/.netframework4.6.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.14.05.29.10/opentelemetry.exporter.opentelemetryprotocol.1.2.0-alpha3.json#dependencygroup/.netframework4.6.1/opentelemetry",
+          "@type": "PackageDependency",
+          "id": "OpenTelemetry",
+          "range": "[1.2.0-alpha3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/opentelemetry/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.14.05.29.10/opentelemetry.exporter.opentelemetryprotocol.1.2.0-alpha3.json#dependencygroup/.netframework4.6.1/google.protobuf",
+          "@type": "PackageDependency",
+          "id": "Google.Protobuf",
+          "range": "[3.15.5, 4.0.0)",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/google.protobuf/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.14.05.29.10/opentelemetry.exporter.opentelemetryprotocol.1.2.0-alpha3.json#dependencygroup/.netframework4.6.1/grpc",
+          "@type": "PackageDependency",
+          "id": "Grpc",
+          "range": "[2.23.0, 3.0.0)",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.14.05.29.10/opentelemetry.exporter.opentelemetryprotocol.1.2.0-alpha3.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.14.05.29.10/opentelemetry.exporter.opentelemetryprotocol.1.2.0-alpha3.json#dependencygroup/.netstandard2.0/opentelemetry",
+          "@type": "PackageDependency",
+          "id": "OpenTelemetry",
+          "range": "[1.2.0-alpha3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/opentelemetry/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.14.05.29.10/opentelemetry.exporter.opentelemetryprotocol.1.2.0-alpha3.json#dependencygroup/.netstandard2.0/google.protobuf",
+          "@type": "PackageDependency",
+          "id": "Google.Protobuf",
+          "range": "[3.15.5, 4.0.0)",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/google.protobuf/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.14.05.29.10/opentelemetry.exporter.opentelemetryprotocol.1.2.0-alpha3.json#dependencygroup/.netstandard2.0/grpc",
+          "@type": "PackageDependency",
+          "id": "Grpc",
+          "range": "[2.23.0, 3.0.0)",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.14.05.29.10/opentelemetry.exporter.opentelemetryprotocol.1.2.0-alpha3.json#dependencygroup/.netstandard2.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.14.05.29.10/opentelemetry.exporter.opentelemetryprotocol.1.2.0-alpha3.json#dependencygroup/.netstandard2.1/opentelemetry",
+          "@type": "PackageDependency",
+          "id": "OpenTelemetry",
+          "range": "[1.2.0-alpha3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/opentelemetry/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.14.05.29.10/opentelemetry.exporter.opentelemetryprotocol.1.2.0-alpha3.json#dependencygroup/.netstandard2.1/google.protobuf",
+          "@type": "PackageDependency",
+          "id": "Google.Protobuf",
+          "range": "[3.15.5, 4.0.0)",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/google.protobuf/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.14.05.29.10/opentelemetry.exporter.opentelemetryprotocol.1.2.0-alpha3.json#dependencygroup/.netstandard2.1/grpc.net.client",
+          "@type": "PackageDependency",
+          "id": "Grpc.Net.Client",
+          "range": "[2.32.0, 3.0.0)",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc.net.client/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "publishedAt": "2021-09-14T05:26:06.497+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/opentelemetry.exporter.opentelemetryprotocol/1.2.0-alpha3/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-24T14:42:09.239Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
