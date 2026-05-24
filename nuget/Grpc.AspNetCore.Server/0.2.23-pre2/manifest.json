@@ -1,0 +1,68 @@
+{
+  "name": "Grpc.AspNetCore.Server",
+  "version": "0.2.23-pre2",
+  "ecosystem": "nuget",
+  "description": "gRPC support for ASP.NET Core",
+  "license": "Apache-2.0",
+  "licenseExpression": "Apache-2.0",
+  "authors": [
+    "The gRPC Authors"
+  ],
+  "owners": [],
+  "tags": [
+    "gRPC",
+    "RPC",
+    "HTTP/2",
+    "aspnetcore"
+  ],
+  "projectUrl": "https://github.com/grpc/grpc-dotnet",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Grpc.Net.Common",
+      "range": "[0.2.23-pre2, )",
+      "targetFramework": ".NETCoreApp3.0"
+    },
+    {
+      "id": "Grpc.Core.Api",
+      "range": "[2.23.0, )",
+      "targetFramework": ".NETCoreApp3.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2023.07.13.20.45.47/grpc.aspnetcore.server.0.2.23-pre2.json#dependencygroup/.netcoreapp3.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.07.13.20.45.47/grpc.aspnetcore.server.0.2.23-pre2.json#dependencygroup/.netcoreapp3.0/grpc.net.common",
+          "@type": "PackageDependency",
+          "id": "Grpc.Net.Common",
+          "range": "[0.2.23-pre2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc.net.common/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2023.07.13.20.45.47/grpc.aspnetcore.server.0.2.23-pre2.json#dependencygroup/.netcoreapp3.0/grpc.core.api",
+          "@type": "PackageDependency",
+          "id": "Grpc.Core.Api",
+          "range": "[2.23.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc.core.api/index.json"
+        }
+      ],
+      "targetFramework": ".NETCoreApp3.0"
+    }
+  ],
+  "publishedAt": "2019-09-06T12:45:47.86+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/grpc.aspnetcore.server/0.2.23-pre2/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-24T13:42:07.377Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
