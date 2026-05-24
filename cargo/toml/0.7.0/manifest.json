@@ -1,0 +1,113 @@
+{
+  "name": "toml",
+  "version": "0.7.0",
+  "ecosystem": "cargo",
+  "description": "A native Rust encoder and decoder of TOML-formatted files and streams. Provides\nimplementations of the standard Serialize/Deserialize traits for TOML data to\nfacilitate deserializing and serializing Rust structures.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "2f560bc7fb3eb31f5eee1340c68a2160cad39605b7b9c9ec32045ddbdee13b85",
+  "features": {
+    "default": [
+      "parse",
+      "display"
+    ],
+    "display": [
+      "dep:toml_edit"
+    ],
+    "parse": [
+      "dep:toml_edit"
+    ],
+    "preserve_order": [
+      "indexmap"
+    ]
+  },
+  "downloads": 76762,
+  "yanked": false,
+  "repository": "https://github.com/toml-rs/toml",
+  "homepage": null,
+  "keywords": [
+    "encoding",
+    "no_std",
+    "toml"
+  ],
+  "categories": [
+    "Parser implementations",
+    "Parsing tools",
+    "Configuration",
+    "Encoding"
+  ],
+  "dependencies": [
+    {
+      "name": "serde",
+      "requirement": "^1.0.145",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.152",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.91",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_spanned",
+      "requirement": "^0.6.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "snapbox",
+      "requirement": "^0.4.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "toml-test-harness",
+      "requirement": "^0.4.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "toml_datetime",
+      "requirement": "^0.6.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "indexmap",
+      "requirement": "^1.9.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "toml_edit",
+      "requirement": "^0.19.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6743,
+    "login": "epage",
+    "name": "Ed Page"
+  },
+  "publishedAt": "2023-01-27T17:48:12.286323Z",
+  "captured_at": "2026-05-24T21:12:10.475Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
