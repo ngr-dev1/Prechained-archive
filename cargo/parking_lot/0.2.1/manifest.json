@@ -1,0 +1,75 @@
+{
+  "name": "parking_lot",
+  "version": "0.2.1",
+  "ecosystem": "cargo",
+  "description": "More compact and efficient implementations of the standard synchronization primitives.",
+  "license": "Apache-2.0/MIT",
+  "checksum": "f2f5de3f3e2df904a72c78c39825dab24c1c770fd4a544f2e47878af99042ee5",
+  "features": {
+    "nightly": []
+  },
+  "downloads": 3122,
+  "yanked": false,
+  "repository": "https://github.com/Amanieu/parking_lot",
+  "homepage": null,
+  "keywords": [
+    "condvar",
+    "mutex",
+    "once",
+    "rwlock",
+    "thread"
+  ],
+  "categories": [
+    "Concurrency"
+  ],
+  "dependencies": [
+    {
+      "name": "kernel32-sys",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "smallvec",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "winapi",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2016-05-23T05:48:05.266058Z",
+  "captured_at": "2026-05-24T23:52:08.831Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
