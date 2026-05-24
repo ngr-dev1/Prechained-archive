@@ -1,0 +1,85 @@
+{
+  "name": "tokio-rustls",
+  "version": "0.20.0",
+  "ecosystem": "cargo",
+  "description": "Asynchronous TLS/SSL streams for Tokio using Rustls.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "7ba3f045b4a15afc543ffe6e02bae7ecf372e89a0f9f8c4b15b13f0ceed4f105",
+  "features": {
+    "dangerous_configuration": [
+      "rustls/dangerous_configuration"
+    ],
+    "early-data": []
+  },
+  "downloads": 21441,
+  "yanked": false,
+  "repository": "https://github.com/rustls/tokio-rustls",
+  "homepage": "https://github.com/rustls/tokio-rustls",
+  "keywords": [],
+  "categories": [
+    "Asynchronous",
+    "Network programming",
+    "Cryptography"
+  ],
+  "dependencies": [
+    {
+      "name": "futures-util",
+      "requirement": "^0.3.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustls",
+      "requirement": "^0.18",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "webpki",
+      "requirement": "^0.21",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "webpki-roots",
+      "requirement": "^0.20",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 4286,
+    "login": "quininer",
+    "name": "quininer"
+  },
+  "publishedAt": "2020-10-16T10:28:38.497912Z",
+  "captured_at": "2026-05-24T19:42:06.044Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
