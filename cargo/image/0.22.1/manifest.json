@@ -1,0 +1,169 @@
+{
+  "name": "image",
+  "version": "0.22.1",
+  "ecosystem": "cargo",
+  "description": "Imaging library. Provides basic image processing and encoders/decoders for common image formats.",
+  "license": "MIT",
+  "checksum": "663a975007e0b49903e2e8ac0db2c432c465855f2d65f17883ba1476e85f0b42",
+  "features": {
+    "benchmarks": [],
+    "bmp": [],
+    "default": [
+      "gif_codec",
+      "jpeg",
+      "ico",
+      "png_codec",
+      "pnm",
+      "tga",
+      "tiff",
+      "webp",
+      "bmp",
+      "hdr",
+      "dxt",
+      "jpeg_rayon"
+    ],
+    "dxt": [],
+    "gif_codec": [
+      "gif"
+    ],
+    "hdr": [
+      "scoped_threadpool"
+    ],
+    "ico": [
+      "bmp",
+      "png_codec"
+    ],
+    "jpeg": [
+      "jpeg-decoder"
+    ],
+    "jpeg_rayon": [
+      "jpeg-decoder/rayon"
+    ],
+    "png_codec": [
+      "png"
+    ],
+    "pnm": [],
+    "tga": [],
+    "webp": []
+  },
+  "downloads": 120234,
+  "yanked": false,
+  "repository": "https://github.com/image-rs/image",
+  "homepage": "https://github.com/image-rs/image",
+  "keywords": [],
+  "categories": [
+    "Encoding",
+    "Images",
+    "Encoding"
+  ],
+  "dependencies": [
+    {
+      "name": "byteorder",
+      "requirement": "^1.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "crc32fast",
+      "requirement": "^1.2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "glob",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lzw",
+      "requirement": "^0.10.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num-complex",
+      "requirement": "^0.2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num-iter",
+      "requirement": "^0.1.32",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num-rational",
+      "requirement": "^0.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "num-traits",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^0.6.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "gif",
+      "requirement": "^0.10.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "jpeg-decoder",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "png",
+      "requirement": "^0.15",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "scoped_threadpool",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tiff",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 11453,
+    "login": "HeroicKatora",
+    "name": "Aurelia Molzer"
+  },
+  "publishedAt": "2019-08-01T16:31:42.289008Z",
+  "captured_at": "2026-05-24T08:02:05.860Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
