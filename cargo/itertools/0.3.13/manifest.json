@@ -1,0 +1,53 @@
+{
+  "name": "itertools",
+  "version": "0.3.13",
+  "ecosystem": "cargo",
+  "description": "Extra iterator adaptors, iterator methods, free functions, and macros.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "05d33d6a54c000c93f2fe9bf7b274f864cd6fe2f6c1475782610fcdf8c957fd3",
+  "features": {
+    "qc": [
+      "quickcheck",
+      "quickcheck_macros"
+    ],
+    "unstable": []
+  },
+  "downloads": 3598,
+  "yanked": false,
+  "repository": "https://github.com/rust-itertools/itertools",
+  "homepage": null,
+  "keywords": [
+    "data-structure",
+    "iterator",
+    "product",
+    "zip"
+  ],
+  "categories": [
+    "Rust patterns",
+    "No standard library",
+    "Algorithms",
+    "No dynamic allocation"
+  ],
+  "dependencies": [
+    {
+      "name": "quickcheck",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck_macros",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-06-06T20:45:25.400602Z",
+  "captured_at": "2026-05-24T12:52:05.688Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
