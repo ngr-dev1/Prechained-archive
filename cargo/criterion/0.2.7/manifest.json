@@ -1,0 +1,149 @@
+{
+  "name": "criterion",
+  "version": "0.2.7",
+  "ecosystem": "cargo",
+  "description": "Statistics-driven micro-benchmarking library",
+  "license": "Apache-2.0/MIT",
+  "checksum": "f8df98670b866802f983ae1aa1bc5ac96d4b71ed0a5f4f550eb8cf0e0e9796ba",
+  "features": {
+    "default": [
+      "html_reports"
+    ],
+    "html_reports": [
+      "handlebars",
+      "criterion-plot"
+    ],
+    "real_blackbox": []
+  },
+  "downloads": 15570,
+  "yanked": false,
+  "repository": "https://github.com/criterion-rs/criterion.rs",
+  "homepage": "https://criterion-rs.github.io/book/index.html",
+  "keywords": [
+    "benchmark",
+    "criterion"
+  ],
+  "categories": [
+    "Profiling"
+  ],
+  "dependencies": [
+    {
+      "name": "atty",
+      "requirement": "^0.2.11",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "clap",
+      "requirement": "^2.32",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion-stats",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "csv",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "failure",
+      "requirement": "^0.1.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "failure_derive",
+      "requirement": "^0.1.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "itertools",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "itertools-num",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "~1.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1.0.82",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempdir",
+      "requirement": "^0.3.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "walkdir",
+      "requirement": "^2.2.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion-plot",
+      "requirement": "^0.2.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "handlebars",
+      "requirement": "~1.0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-12-29T19:35:22.686045Z",
+  "captured_at": "2026-05-24T16:32:13.498Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
