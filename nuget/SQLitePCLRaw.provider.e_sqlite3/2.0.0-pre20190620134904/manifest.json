@@ -1,0 +1,53 @@
+{
+  "name": "SQLitePCLRaw.provider.e_sqlite3",
+  "version": "2.0.0-pre20190620134904",
+  "ecosystem": "nuget",
+  "description": "SQLitePCL.raw is a Portable Class Library (PCL) for low-level (raw) access to SQLite.  Packages named 'SQLitePCLRaw.provider.*' (like this one) are 'plugins' that allow SQLitePCLRaw.core to access the native SQLite library.  This provider does DllImport of 'e_sqlite3', the SQLite builds provided with SQLitePCLRaw.",
+  "license": "Apache-2.0",
+  "licenseExpression": "Apache-2.0",
+  "authors": [
+    "Eric Sink"
+  ],
+  "owners": [],
+  "tags": [
+    "sqlite",
+    "xamarin"
+  ],
+  "projectUrl": null,
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "SQLitePCLRaw.core",
+      "range": "[2.0.0-pre20190620134904, )",
+      "targetFramework": null
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2019.06.20.19.21.56/sqlitepclraw.provider.e_sqlite3.2.0.0-pre20190620134904.json#dependencygroup",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.06.20.19.21.56/sqlitepclraw.provider.e_sqlite3.2.0.0-pre20190620134904.json#dependencygroup/sqlitepclraw.core",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.core",
+          "range": "[2.0.0-pre20190620134904, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.core/index.json"
+        }
+      ]
+    }
+  ],
+  "publishedAt": "2019-06-20T19:17:42.71+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": "2.8.1",
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": null,
+  "readmeUrl": null,
+  "captured_at": "2026-05-24T00:32:43.332Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
