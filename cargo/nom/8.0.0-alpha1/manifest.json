@@ -1,0 +1,66 @@
+{
+  "name": "nom",
+  "version": "8.0.0-alpha1",
+  "ecosystem": "cargo",
+  "description": "A byte-oriented, zero-copy, parser combinators library",
+  "license": "MIT",
+  "checksum": "180ec9eb5c458ad0569a7223fa8cb9fd96c6a7ac1d590edef18ac32e040dbe78",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "docsrs": [],
+    "std": [
+      "alloc",
+      "memchr/std"
+    ]
+  },
+  "downloads": 1996,
+  "yanked": false,
+  "repository": "https://github.com/rust-bakery/nom",
+  "homepage": null,
+  "keywords": [
+    "bit",
+    "parser",
+    "parser-combinators",
+    "parsing",
+    "streaming"
+  ],
+  "categories": [
+    "Parsing tools"
+  ],
+  "dependencies": [
+    {
+      "name": "doc-comment",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "memchr",
+      "requirement": "^2.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "proptest",
+      "requirement": "=1.0.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 959,
+    "login": "Geal",
+    "name": "Geoffroy Couprie"
+  },
+  "publishedAt": "2024-04-25T11:49:10.834381Z",
+  "captured_at": "2026-05-24T10:22:08.006Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
