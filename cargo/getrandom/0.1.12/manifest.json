@@ -1,0 +1,93 @@
+{
+  "name": "getrandom",
+  "version": "0.1.12",
+  "ecosystem": "cargo",
+  "description": "A small cross-platform library for retrieving random data from system source",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "473a1265acc8ff1e808cd0a1af8cee3c2ee5200916058a2ca113c29f2d903571",
+  "features": {
+    "dummy": [],
+    "rustc-dep-of-std": [
+      "compiler_builtins",
+      "core"
+    ],
+    "std": []
+  },
+  "downloads": 1795233,
+  "yanked": false,
+  "repository": "https://github.com/rust-random/getrandom",
+  "homepage": null,
+  "keywords": [],
+  "categories": [
+    "No standard library",
+    "Operating systems"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.62",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "wasi",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "compiler_builtins",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-core",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "stdweb",
+      "requirement": "^0.4.18",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen",
+      "requirement": "^0.2.29",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 5059,
+    "login": "newpavlov",
+    "name": "Artyom Pavlov"
+  },
+  "publishedAt": "2019-09-06T12:01:46.043755Z",
+  "captured_at": "2026-05-24T07:21:51.158Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
