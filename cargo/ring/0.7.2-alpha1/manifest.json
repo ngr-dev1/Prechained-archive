@@ -1,0 +1,78 @@
+{
+  "name": "ring",
+  "version": "0.7.2-alpha1",
+  "ecosystem": "cargo",
+  "description": "An experiment.",
+  "license": "non-standard",
+  "checksum": "d0d38e4e198098b892e02dc00e76f7d8ded67e1e616d498aa9735697dffd43c4",
+  "features": {
+    "default": [
+      "use_heap",
+      "dev_urandom_fallback"
+    ],
+    "dev_urandom_fallback": [],
+    "internal_benches": [],
+    "rsa_signing": [],
+    "slow_tests": [],
+    "test_logging": [],
+    "use_heap": []
+  },
+  "downloads": 3428,
+  "yanked": true,
+  "repository": "https://github.com/briansmith/ring",
+  "homepage": null,
+  "keywords": [
+    "crypto",
+    "cryptography",
+    "ecc",
+    "rand",
+    "rsa"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "gcc",
+      "requirement": "^0.3",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^0.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.20",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rayon",
+      "requirement": "^0.6",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "untrusted",
+      "requirement": "^0.3.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-03-19T01:38:23.838320Z",
+  "captured_at": "2026-05-24T07:41:50.709Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
