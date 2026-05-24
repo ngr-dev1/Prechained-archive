@@ -1,0 +1,84 @@
+{
+  "name": "indexmap",
+  "version": "1.0.1",
+  "ecosystem": "cargo",
+  "description": "A hash table with consistent order and fast iteration.",
+  "license": "Apache-2.0/MIT",
+  "checksum": "08173ba1e906efb6538785a8844dd496f5d34f0a2d88038e95195172fc667220",
+  "features": {
+    "serde-1": [
+      "serde"
+    ],
+    "test_debug": [],
+    "test_low_transition_point": []
+  },
+  "downloads": 828425,
+  "yanked": false,
+  "repository": "https://github.com/indexmap-rs/indexmap",
+  "homepage": null,
+  "keywords": [
+    "hashmap",
+    "no_std"
+  ],
+  "categories": [
+    "Data structures",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "fnv",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "itertools",
+      "requirement": "^0.7.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^0.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_test",
+      "requirement": "^1.0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-03-24T20:13:26.315449Z",
+  "captured_at": "2026-05-24T15:43:37.194Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
