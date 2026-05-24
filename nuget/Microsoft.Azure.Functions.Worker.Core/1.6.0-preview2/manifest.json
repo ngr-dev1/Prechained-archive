@@ -1,0 +1,180 @@
+{
+  "name": "Microsoft.Azure.Functions.Worker.Core",
+  "version": "1.6.0-preview2",
+  "ecosystem": "nuget",
+  "description": "This library provides the core functionality to build an Azure Functions .NET Worker, adding support for the isolated, out-of-process execution model.",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "https://github.com/Azure/azure-functions-dotnet-worker",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Azure.Core",
+      "range": "[1.10.0, )",
+      "targetFramework": "net5.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting",
+      "range": "[5.0.0, )",
+      "targetFramework": "net5.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[5.0.0, )",
+      "targetFramework": "net5.0"
+    },
+    {
+      "id": "System.Collections.Immutable",
+      "range": "[5.0.0, )",
+      "targetFramework": "net5.0"
+    },
+    {
+      "id": "Azure.Core",
+      "range": "[1.10.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting",
+      "range": "[5.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[5.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[5.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Options",
+      "range": "[5.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Collections.Immutable",
+      "range": "[5.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.5.4, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/net5.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/net5.0/azure.core",
+          "@type": "PackageDependency",
+          "id": "Azure.Core",
+          "range": "[1.10.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/azure.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/net5.0/microsoft.extensions.hosting",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/net5.0/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/net5.0/system.collections.immutable",
+          "@type": "PackageDependency",
+          "id": "System.Collections.Immutable",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.collections.immutable/index.json"
+        }
+      ],
+      "targetFramework": "net5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/.netstandard2.0/azure.core",
+          "@type": "PackageDependency",
+          "id": "Azure.Core",
+          "range": "[1.10.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/azure.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/.netstandard2.0/microsoft.extensions.hosting",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/.netstandard2.0/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/.netstandard2.0/microsoft.extensions.options",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Options",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.options/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/.netstandard2.0/system.collections.immutable",
+          "@type": "PackageDependency",
+          "id": "System.Collections.Immutable",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.collections.immutable/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.05.16.21.23.49/microsoft.azure.functions.worker.core.1.6.0-preview2.json#dependencygroup/.netstandard2.0/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.5.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2022-05-16T21:21:18.843+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.azure.functions.worker.core/1.6.0-preview2/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-24T01:55:11.598Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
