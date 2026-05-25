@@ -1,0 +1,68 @@
+{
+  "name": "rusqlite",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "description": "Ergonomic wrapper for SQLite",
+  "license": "MIT",
+  "checksum": "e5193282608775a2ad900c0ab081e88b869d80815e1e92698a4fe18ec90abc0e",
+  "features": {
+    "load_extension": [
+      "libsqlite3-sys/load_extension"
+    ]
+  },
+  "downloads": 8838,
+  "yanked": false,
+  "repository": "https://github.com/rusqlite/rusqlite",
+  "homepage": null,
+  "keywords": [
+    "database",
+    "ffi",
+    "sqlite"
+  ],
+  "categories": [
+    "Database interfaces"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "~0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "~0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libsqlite3-sys",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempdir",
+      "requirement": "~0.3.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "~0.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-07-26T18:01:23.825749Z",
+  "captured_at": "2026-05-25T06:22:08.536Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
