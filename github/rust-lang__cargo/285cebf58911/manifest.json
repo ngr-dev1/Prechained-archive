@@ -1,0 +1,53 @@
+{
+  "repo": "rust-lang/cargo",
+  "commit_sha": "285cebf58911eca5b7f177f5d0b1c53e1f646577",
+  "tree_sha": "43f7f4e832430b2042f0d5398fd84b61f6a11cb7",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "The Rust package manager",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 15004,
+  "watchers": 15004,
+  "forks": 2926,
+  "open_issues": 1614,
+  "language": "Rust",
+  "topics": [
+    "cargo",
+    "package-manager",
+    "rust"
+  ],
+  "commit_message": "CVE-2026-5223: prohibit unpacking symlinks and other unexpected entries\n\nCargo has historically not allowed creating .crate packages containing\nsymlinks. (It packages the symlink target in place of the symlink,\ninstead.) So, any package containing a symlink would have to be\nhand-constructed. Such packages are also not allowed on crates.io, so it\ncould only come from an alternate registry.\n\nRather than dealing with symlink traversal attacks when unpacking a\ncrate, just prohibit symlinks entirely.",
+  "commit_author": {
+    "name": "Josh Triplett",
+    "email": "josh@joshtriplett.org",
+    "date": "2026-03-30T17:35:55Z"
+  },
+  "commit_committer": {
+    "name": "Emily Albini",
+    "email": "emily@emilyalbini.it",
+    "date": "2026-05-25T08:50:52Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "c4d63a44234de22dc745231c416b80ed848d997f"
+  ],
+  "github_author_login": "joshtriplett",
+  "github_committer_login": "emilyalbini",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-05-25T11:01:08Z",
+  "created_at": "2014-03-04T23:20:42Z",
+  "homepage": "https://doc.rust-lang.org/cargo",
+  "size_kb": 69300,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-25T13:12:09.733Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
