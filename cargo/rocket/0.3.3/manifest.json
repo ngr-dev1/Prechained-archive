@@ -1,0 +1,182 @@
+{
+  "name": "rocket",
+  "version": "0.3.3",
+  "ecosystem": "cargo",
+  "description": "Web framework with a focus on usability, security, extensibility, and speed.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "3ad92f830d1ae2e9400ff212c949f6101b794cb3f50df975a8278b30280de51e",
+  "features": {
+    "tls": [
+      "rustls",
+      "hyper-sync-rustls"
+    ]
+  },
+  "downloads": 53878,
+  "yanked": false,
+  "repository": "https://github.com/rwf2/Rocket",
+  "homepage": "https://rocket.rs",
+  "keywords": [
+    "rocket",
+    "server",
+    "web",
+    "framework"
+  ],
+  "categories": [
+    "HTTP server"
+  ],
+  "dependencies": [
+    {
+      "name": "base64",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "cookie",
+      "requirement": "^0.9.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^0.10.11",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "isatty",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "memchr",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num_cpus",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ordermap",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pear",
+      "requirement": "^0.0.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pear_codegen",
+      "requirement": "^0.0.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "smallvec",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "state",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "toml",
+      "requirement": "^0.4.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "version_check",
+      "requirement": "^0.1.3",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "yansi",
+      "requirement": "^0.3.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "yansi",
+      "requirement": "^0.3",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper-sync-rustls",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustls",
+      "requirement": "^0.9.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-09-26T04:04:39.787389Z",
+  "captured_at": "2026-05-25T17:22:06.624Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
