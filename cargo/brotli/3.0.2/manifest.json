@@ -1,0 +1,93 @@
+{
+  "name": "brotli",
+  "version": "3.0.2",
+  "ecosystem": "cargo",
+  "description": "A brotli compressor and decompressor that with an interface avoiding the rust stdlib. This makes it suitable for embedded devices and kernels. It is designed with a pluggable allocator so that the standard lib's allocator may be employed. The default build also includes a stdlib allocator and stream interface. Disable this with --features=no-stdlib. All included code is safe.",
+  "license": "BSD-3-Clause/MIT",
+  "checksum": "866aa77580d9501b6d87e0bcbb6605403df764d356b8ee65e1510bcba6a45fc0",
+  "features": {
+    "benchmark": [
+      "brotli-decompressor/benchmark"
+    ],
+    "default": [
+      "std"
+    ],
+    "disable-timer": [
+      "brotli-decompressor/disable-timer"
+    ],
+    "external-literal-probability": [],
+    "pass-through-ffi-panics": [],
+    "seccomp": [
+      "brotli-decompressor/seccomp"
+    ],
+    "simd": [
+      "packed_simd/into_bits"
+    ],
+    "std": [
+      "alloc-stdlib",
+      "brotli-decompressor/std"
+    ],
+    "validation": [
+      "sha2"
+    ],
+    "vector_scratch_space": []
+  },
+  "downloads": 6682,
+  "yanked": false,
+  "repository": "https://github.com/dropbox/rust-brotli",
+  "homepage": "https://github.com/dropbox/rust-brotli",
+  "keywords": [
+    "brotli",
+    "decompression",
+    "huffman",
+    "lz77",
+    "nostd"
+  ],
+  "categories": [
+    "Compression",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "alloc-no-stdlib",
+      "requirement": "^2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "brotli-decompressor",
+      "requirement": "~2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "alloc-stdlib",
+      "requirement": "~0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "packed_simd",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "sha2",
+      "requirement": "~0.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-11-06T02:50:27.432953Z",
+  "captured_at": "2026-05-25T09:02:11.334Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
