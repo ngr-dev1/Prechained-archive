@@ -1,0 +1,45 @@
+{
+  "name": "futures-io",
+  "version": "0.2.1",
+  "ecosystem": "cargo",
+  "description": "The `AsyncRead`, `AsyncWrite`, `AsyncSeek`, and `AsyncBufRead` traits for the futures-rs library.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "b6a0470fdba9dc87c27a3564ad6d5cc04e080f3afa26c93549728cce46ab21a2",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": [
+      "futures-core/std",
+      "iovec"
+    ]
+  },
+  "downloads": 45864,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/futures-rs",
+  "homepage": "https://rust-lang.github.io/futures-rs",
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "futures-core",
+      "requirement": "^0.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "iovec",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-04-19T18:56:59.686381Z",
+  "captured_at": "2026-05-25T23:52:10.212Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
