@@ -1,0 +1,86 @@
+{
+  "name": "x25519-dalek",
+  "version": "0.4.2",
+  "ecosystem": "cargo",
+  "description": "X25519 elliptic curve Diffie-Hellman key exchange in pure-Rust, using curve25519-dalek.",
+  "license": "BSD-3-Clause",
+  "checksum": "ec131e53d57f247f596152390463fc6fb096ce3e71575a2b48c0941330bf157d",
+  "features": {
+    "default": [
+      "std",
+      "nightly",
+      "u64_backend"
+    ],
+    "nightly": [
+      "curve25519-dalek/nightly",
+      "clear_on_drop/nightly"
+    ],
+    "std": [
+      "curve25519-dalek/std"
+    ],
+    "u32_backend": [
+      "curve25519-dalek/u32_backend"
+    ],
+    "u64_backend": [
+      "curve25519-dalek/u64_backend"
+    ]
+  },
+  "downloads": 2415,
+  "yanked": false,
+  "repository": "https://github.com/dalek-cryptography/curve25519-dalek/tree/main/x25519-dalek",
+  "homepage": "https://github.com/dalek-cryptography/curve25519-dalek",
+  "keywords": [
+    "cryptography",
+    "curve25519",
+    "diffie-hellman",
+    "key-exchange",
+    "x25519"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "clear_on_drop",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "curve25519-dalek",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rand_core",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rand_os",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2019-01-16T07:04:31.021540Z",
+  "captured_at": "2026-05-25T02:52:06.002Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
