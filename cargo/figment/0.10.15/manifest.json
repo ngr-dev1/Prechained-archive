@@ -1,0 +1,151 @@
+{
+  "name": "figment",
+  "version": "0.10.15",
+  "ecosystem": "cargo",
+  "description": "A configuration library so con-free, it's unreal.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "7270677e7067213e04f323b55084586195f18308cd7546cfac9f873344ccceb6",
+  "features": {
+    "env": [
+      "pear",
+      "parse-value"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "parse-value": [
+      "pear"
+    ],
+    "test": [
+      "tempfile",
+      "parking_lot"
+    ],
+    "yaml": [
+      "serde_yaml"
+    ]
+  },
+  "downloads": 294130,
+  "yanked": false,
+  "repository": "https://github.com/SergioBenitez/Figment",
+  "homepage": null,
+  "keywords": [
+    "json",
+    "config",
+    "yaml",
+    "configuration",
+    "toml"
+  ],
+  "categories": [
+    "Configuration"
+  ],
+  "dependencies": [
+    {
+      "name": "atomic",
+      "requirement": "^0.6.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "clap",
+      "requirement": "^4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "parking_lot",
+      "requirement": "^0.12",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "uncased",
+      "requirement": "^0.9.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "version_check",
+      "requirement": "^0.9",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "parking_lot",
+      "requirement": "^0.12",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "pear",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_yaml",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "toml",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 3864,
+    "login": "SergioBenitez",
+    "name": "Sergio Benitez"
+  },
+  "publishedAt": "2024-03-16T02:20:44.392424Z",
+  "captured_at": "2026-05-25T16:42:06.264Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
