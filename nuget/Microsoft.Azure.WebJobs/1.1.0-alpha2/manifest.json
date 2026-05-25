@@ -1,0 +1,85 @@
+{
+  "name": "Microsoft.Azure.WebJobs",
+  "version": "1.1.0-alpha2",
+  "ecosystem": "nuget",
+  "description": "This package contains the runtime assemblies for Microsoft.Azure.WebJobs.Host. It also adds rich diagnostics capabilities which makes it easier to monitor the WebJobs in the dashboard. For more information, please visit http://go.microsoft.com/fwlink/?LinkID=320971",
+  "license": "http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm",
+  "licenseExpression": null,
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    "Microsoft",
+    "Azure",
+    "WebJobs",
+    "Jobs",
+    "Storage",
+    "Table",
+    "Blob",
+    "Queue",
+    "windowsazureofficial",
+    "Web"
+  ],
+  "projectUrl": "http://go.microsoft.com/fwlink/?LinkID=320972",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.Azure.WebJobs.Core",
+      "range": "[1.1.0-alpha2, 1.1.0-alpha2]",
+      "targetFramework": null
+    },
+    {
+      "id": "Newtonsoft.Json",
+      "range": "[6.0.4, )",
+      "targetFramework": null
+    },
+    {
+      "id": "WindowsAzure.Storage",
+      "range": "[4.0.1, )",
+      "targetFramework": null
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.05.20.12.24/microsoft.azure.webjobs.1.1.0-alpha2.json#dependencygroup",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.05.20.12.24/microsoft.azure.webjobs.1.1.0-alpha2.json#dependencygroup/microsoft.azure.webjobs.core",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Azure.WebJobs.Core",
+          "range": "[1.1.0-alpha2, 1.1.0-alpha2]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.azure.webjobs.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.05.20.12.24/microsoft.azure.webjobs.1.1.0-alpha2.json#dependencygroup/newtonsoft.json",
+          "@type": "PackageDependency",
+          "id": "Newtonsoft.Json",
+          "range": "[6.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/newtonsoft.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.05.20.12.24/microsoft.azure.webjobs.1.1.0-alpha2.json#dependencygroup/windowsazure.storage",
+          "@type": "PackageDependency",
+          "id": "WindowsAzure.Storage",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/windowsazure.storage/index.json"
+        }
+      ]
+    }
+  ],
+  "publishedAt": "2015-08-12T21:57:48.677+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": null,
+  "readmeUrl": null,
+  "captured_at": "2026-05-25T10:02:08.096Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
