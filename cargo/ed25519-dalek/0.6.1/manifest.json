@@ -1,0 +1,125 @@
+{
+  "name": "ed25519-dalek",
+  "version": "0.6.1",
+  "ecosystem": "cargo",
+  "description": "Fast and efficient ed25519 EdDSA key generations, signing, and verification in pure Rust.",
+  "license": "BSD-3-Clause",
+  "checksum": "e3692ef38cc617236a39120ef0b91794e5e4d5c96227607a6740bfaaab53ac3c",
+  "features": {
+    "asm": [
+      "sha2/asm"
+    ],
+    "bench": [],
+    "default": [
+      "std"
+    ],
+    "nightly": [
+      "curve25519-dalek/nightly"
+    ],
+    "std": [
+      "rand",
+      "curve25519-dalek/std",
+      "failure/std"
+    ]
+  },
+  "downloads": 3183,
+  "yanked": false,
+  "repository": "https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek",
+  "homepage": "https://github.com/dalek-cryptography/curve25519-dalek",
+  "keywords": [
+    "cryptography",
+    "curve25519",
+    "ecc",
+    "ed25519",
+    "signature"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "bincode",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "curve25519-dalek",
+      "requirement": "^0.14",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "digest",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "failure",
+      "requirement": "^0.1.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "generic-array",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hex",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "sha2",
+      "requirement": "^0.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "subtle",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "sha2",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-02-02T22:35:14.207854Z",
+  "captured_at": "2026-05-25T00:02:11.523Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
