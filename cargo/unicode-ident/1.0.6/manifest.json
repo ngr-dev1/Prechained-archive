@@ -1,0 +1,76 @@
+{
+  "name": "unicode-ident",
+  "version": "1.0.6",
+  "ecosystem": "cargo",
+  "description": "Determine whether characters have the XID_Start or XID_Continue properties according to Unicode Standard Annex #31",
+  "license": "(MIT OR Apache-2.0) AND Unicode-DFS-2016",
+  "checksum": "84a22b9f218b40614adcb3f4ff08b703773ad44fa9423e4e0d346d5db86e4ebc",
+  "features": {},
+  "downloads": 33031398,
+  "yanked": false,
+  "repository": "https://github.com/dtolnay/unicode-ident",
+  "homepage": null,
+  "keywords": [
+    "unicode",
+    "xid"
+  ],
+  "categories": [
+    "Procedural macro helpers",
+    "No dynamic allocation",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "criterion",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "fst",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "roaring",
+      "requirement": "^0.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ucd-trie",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "unicode-xid",
+      "requirement": "^0.2.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 3618,
+    "login": "dtolnay",
+    "name": "David Tolnay"
+  },
+  "publishedAt": "2022-12-17T20:00:37.435270Z",
+  "captured_at": "2026-05-25T04:32:06.730Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
