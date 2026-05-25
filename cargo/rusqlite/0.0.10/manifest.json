@@ -1,0 +1,54 @@
+{
+  "name": "rusqlite",
+  "version": "0.0.10",
+  "ecosystem": "cargo",
+  "description": "Ergonomic wrapper for SQLite",
+  "license": "MIT",
+  "checksum": "37fccaa07edca3700a697033dc2a67dc3bd93ce6cd657fb90c483cc65d6f0156",
+  "features": {
+    "load_extension": [
+      "libsqlite3-sys/load_extension"
+    ]
+  },
+  "downloads": 3586,
+  "yanked": false,
+  "repository": "https://github.com/rusqlite/rusqlite",
+  "homepage": null,
+  "keywords": [
+    "database",
+    "ffi",
+    "sqlite"
+  ],
+  "categories": [
+    "Database interfaces"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "~0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libsqlite3-sys",
+      "requirement": "^0.0.9",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "~0.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-02-24T02:54:32.235607Z",
+  "captured_at": "2026-05-25T13:52:09.452Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
