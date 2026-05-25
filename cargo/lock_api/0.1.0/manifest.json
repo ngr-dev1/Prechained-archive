@@ -1,0 +1,47 @@
+{
+  "name": "lock_api",
+  "version": "0.1.0",
+  "ecosystem": "cargo",
+  "description": "Wrappers to create fully-featured Mutex and RwLock types. Compatible with no_std.",
+  "license": "Apache-2.0/MIT",
+  "checksum": "a904ee67e297422c388e1d92ecfd868e12f4706149c95d8ef287855459b95e81",
+  "features": {
+    "nightly": []
+  },
+  "downloads": 11513,
+  "yanked": false,
+  "repository": "https://github.com/Amanieu/parking_lot",
+  "homepage": null,
+  "keywords": [
+    "lock",
+    "mutex",
+    "no_std",
+    "rwlock"
+  ],
+  "categories": [
+    "Concurrency",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "scopeguard",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "owning_ref",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-06-08T00:16:14.822518Z",
+  "captured_at": "2026-05-25T01:52:13.448Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
