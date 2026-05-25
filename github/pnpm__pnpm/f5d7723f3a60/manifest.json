@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "f5d7723f3a60718f8611eb561848fa0889f49a81",
+  "tree_sha": "fa1856525310b461def7be6cc6ab14d22772cfe8",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35244,
+  "watchers": 35244,
+  "forks": 1455,
+  "open_issues": 2321,
+  "language": "TypeScript",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "perf(pacquet): port pnpm's purePkgs + peersCache for peer resolution (#11906)\n\n* test(resolving-deps-resolver): port four peer-resolution cases from pnpm\n\nPacquet's `mod peers` test block had five tests, all of which exercise\nsingle-occurrence happy paths. None covered the harder branches the\nupstream resolver is designed to handle — cycles, packages reached\ntwice with divergent peer scope, parallel peer chains, transitive\npeer issues. That gap left the peer resolver under-tested even for\nthe cu",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-05-24T19:18:26Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-24T19:18:26Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "add6c794f1b0a90fa5fc113e5211a1d253690d30"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-24T23:48:38Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 210845,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-25T00:01:58.681Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
