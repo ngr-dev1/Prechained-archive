@@ -1,0 +1,91 @@
+{
+  "name": "mio",
+  "version": "0.8.4",
+  "ecosystem": "cargo",
+  "description": "Lightweight non-blocking I/O.",
+  "license": "MIT",
+  "checksum": "57ee1c23c7c63b0c9250c339ffdc69255f110b298b901b9f6c82547b7b87caaf",
+  "features": {
+    "default": [],
+    "net": [],
+    "os-ext": [
+      "os-poll",
+      "windows-sys/Win32_System_Pipes",
+      "windows-sys/Win32_Security"
+    ],
+    "os-poll": []
+  },
+  "downloads": 17259781,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/mio",
+  "homepage": "https://github.com/tokio-rs/mio",
+  "keywords": [
+    "async",
+    "io",
+    "non-blocking"
+  ],
+  "categories": [
+    "Asynchronous"
+  ],
+  "dependencies": [
+    {
+      "name": "env_logger",
+      "requirement": "^0.8.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.121",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.121",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasi",
+      "requirement": "^0.11.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "windows-sys",
+      "requirement": "^0.36",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6025,
+    "login": "Thomasdezeeuw",
+    "name": "Thomas de Zeeuw"
+  },
+  "publishedAt": "2022-06-19T17:11:02.364454Z",
+  "captured_at": "2026-05-25T01:37:50.810Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
