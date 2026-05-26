@@ -1,0 +1,66 @@
+{
+  "name": "memchr",
+  "version": "2.1.2",
+  "ecosystem": "cargo",
+  "description": "Provides extremely fast (uses SIMD on x86_64, aarch64 and wasm32) routines for\n1, 2 or 3 byte search and single substring search.\n",
+  "license": "Unlicense/MIT",
+  "checksum": "db4c41318937f6e76648f42826b1d9ade5c09cafb5aef7e351240a70f39206e9",
+  "features": {
+    "default": [
+      "use_std",
+      "libc"
+    ],
+    "use_std": [
+      "libc",
+      "libc/use_std"
+    ]
+  },
+  "downloads": 611274,
+  "yanked": false,
+  "repository": "https://github.com/BurntSushi/memchr",
+  "homepage": "https://github.com/BurntSushi/memchr",
+  "keywords": [
+    "search",
+    "find",
+    "memchr",
+    "substring",
+    "memmem"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^0.1.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^0.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "version_check",
+      "requirement": "^0.1.4",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.18",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-12-11T12:24:31.673252Z",
+  "captured_at": "2026-05-26T06:47:02.982Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
