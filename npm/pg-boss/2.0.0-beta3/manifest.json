@@ -1,0 +1,71 @@
+{
+  "name": "pg-boss",
+  "version": "2.0.0-beta3",
+  "ecosystem": "npm",
+  "description": "Queueing jobs in Postgres from Node.js like a boss",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^6.1.0",
+    "uuid": "^3.0.0",
+    "bluebird": "^3.4.6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "isparta": "^4.0.0",
+    "istanbul": "0.4.4",
+    "babel-cli": "^6.8.0",
+    "coveralls": "^2.11.16",
+    "babel-core": "^6.8.0",
+    "babel-preset-es2015": "^6.6.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "npm run compile",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "timjones",
+      "email": "me.timjones@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "timgit"
+  },
+  "publishedAt": "2017-04-18T05:08:17.443Z",
+  "dist": {
+    "integrity": "sha512-pPVIlzQ10cLlmZWIEXBb3G387CURh2C5haeWYbVRkg8IzDluzGmK7DRYNDFA3zBB+zLpGqA2km/S0l7HH6VrIg==",
+    "shasum": "9438572ed7e58824e5f3489d490d96370167fc9a",
+    "tarball": "https://registry.npmjs.org/pg-boss/-/pg-boss-2.0.0-beta3.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": {
+    "url": "git+https://github.com/timgit/pg-boss.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/timgit/pg-boss#readme",
+  "bugs": {
+    "url": "https://github.com/timgit/pg-boss/issues"
+  },
+  "keywords": [
+    "postgresql",
+    "queue",
+    "job"
+  ],
+  "_npmUser": {
+    "name": "timjones",
+    "email": "me.timjones@gmail.com"
+  },
+  "captured_at": "2026-05-26T16:55:01.019Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
