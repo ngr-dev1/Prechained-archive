@@ -1,0 +1,59 @@
+{
+  "name": "serde",
+  "version": "1.0.56",
+  "ecosystem": "cargo",
+  "description": "A generic serialization/deserialization framework",
+  "license": "MIT/Apache-2.0",
+  "checksum": "490a3394c94953e6f2613b5c7bd58a4dc02e914b313a750311dcd3a230cd50e9",
+  "features": {
+    "alloc": [
+      "unstable"
+    ],
+    "default": [
+      "std"
+    ],
+    "derive": [
+      "serde_derive"
+    ],
+    "rc": [],
+    "std": [],
+    "unstable": []
+  },
+  "downloads": 16398,
+  "yanked": false,
+  "repository": "https://github.com/serde-rs/serde",
+  "homepage": "https://serde.rs",
+  "keywords": [
+    "serialization",
+    "no_std",
+    "serde"
+  ],
+  "categories": [
+    "Encoding",
+    "No standard library",
+    "No dynamic allocation"
+  ],
+  "published_by": null,
+  "publishedAt": "2018-05-18T19:54:18.811840Z",
+  "dependencies": [
+    {
+      "name": "serde_derive",
+      "req": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true,
+      "features": []
+    },
+    {
+      "name": "serde_derive",
+      "req": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true,
+      "features": []
+    }
+  ],
+  "captured_at": "2026-05-26T21:00:51.191Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "35166bbac850ff87ca819e5a7c1e0e21414028f5a53ae81d0a4b9364b4e837afbcb417e554502a75b938f6b30b8d6910"
+}
