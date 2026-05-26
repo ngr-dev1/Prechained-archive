@@ -1,0 +1,117 @@
+{
+  "name": "knex",
+  "version": "0.11.3",
+  "ecosystem": "npm",
+  "description": "A batteries-included SQL query & schema builder for PostgresSQL, MySQL, CockroachDB, MSSQL and SQLite3",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "debug": "^2.1.3",
+    "pool2": "^1.1.0",
+    "lodash": "^4.6.0",
+    "mkdirp": "^0.5.0",
+    "liftoff": "~2.2.0",
+    "tildify": "~1.0.0",
+    "v8flags": "^2.0.2",
+    "bluebird": "^3.3.4",
+    "inherits": "~2.0.1",
+    "minimist": "~1.1.0",
+    "commander": "^2.2.0",
+    "interpret": "^0.6.5",
+    "readable-stream": "^1.1.12",
+    "pg-connection-string": "^0.1.3"
+  },
+  "devDependencies": {
+    "pg": "^4.5.5",
+    "chai": "^2.3.0",
+    "tape": "^4.0.0",
+    "async": "^0.9.0",
+    "babel": "^5.2.17",
+    "mocha": "^2.2.4",
+    "mssql": "^2.3.2",
+    "mysql": "^2.6.2",
+    "sinon": "^1.10.0",
+    "jshint": "^2.9.2",
+    "mysql2": "^0.15.5",
+    "rimraf": "2.x",
+    "sqlite3": "^3.0.5",
+    "through": "^2.3.4",
+    "istanbul": "~0.3.0",
+    "mariasql": "^0.2.3",
+    "tap-spec": "^4.0.0",
+    "coveralls": "~2.11.1",
+    "node-uuid": "~1.4.0",
+    "JSONStream": "^1.0.3",
+    "sinon-chai": "^2.5.0",
+    "pg-query-stream": "^0.7.0"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "npm run build",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "elhigu",
+      "email": "mikael.lepisto@vincit.com"
+    },
+    {
+      "name": "rhys-vdw",
+      "email": "rhys.vdw@gmail.com"
+    },
+    {
+      "name": "tgriesser",
+      "email": "tgriesser10@gmail.com"
+    },
+    {
+      "name": "tjwebb",
+      "email": "me@traviswebb.com"
+    },
+    {
+      "name": "tkellen",
+      "email": "tyler@sleekcode.net"
+    }
+  ],
+  "author": {
+    "url": "https://github.com/tgriesser",
+    "name": "Tim Griesser"
+  },
+  "publishedAt": "2016-05-14T01:25:21.091Z",
+  "dist": {
+    "integrity": "sha512-cE0JRlTQRikMbrRyexERFYHp5Dfgi35Mg4Scg7innXdSunNtVTH1hpORUQm1n8xfXKgL8h/44N+U0HCBoOsarw==",
+    "shasum": "a235ac7948685375c65fd3940387a6508fb5666f",
+    "tarball": "https://registry.npmjs.org/knex/-/knex-0.11.3.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": {
+    "url": "git://github.com/tgriesser/knex.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/tgriesser/knex#readme",
+  "bugs": {
+    "url": "https://github.com/tgriesser/knex/issues"
+  },
+  "keywords": [
+    "sql",
+    "query",
+    "postgresql",
+    "mysql",
+    "mariadb",
+    "sqlite3",
+    "oracle",
+    "mssql"
+  ],
+  "_npmUser": {
+    "name": "rhys-vdw",
+    "email": "rhys.vdw@gmail.com"
+  },
+  "captured_at": "2026-05-26T10:07:22.380Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
