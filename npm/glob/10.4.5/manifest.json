@@ -1,0 +1,71 @@
+{
+  "name": "glob",
+  "version": "10.4.5",
+  "ecosystem": "npm",
+  "description": "the most correct and second fastest glob implementation in JavaScript",
+  "license": "ISC",
+  "dependencies": {
+    "minipass": "^7.1.2",
+    "jackspeak": "^3.1.2",
+    "minimatch": "^9.0.4",
+    "path-scurry": "^1.11.1",
+    "foreground-child": "^3.1.0",
+    "package-json-from-dist": "^1.0.0"
+  },
+  "devDependencies": {
+    "tap": "^19.0.0",
+    "tshy": "^1.14.0",
+    "memfs": "^3.4.13",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^5.0.7",
+    "typedoc": "^0.25.12",
+    "prettier": "^3.2.5",
+    "@types/node": "^20.11.30",
+    "sync-content": "^1.0.2"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tshy",
+    "prepublish": "npm run benchclean",
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "url": "https://blog.izs.me/",
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me"
+  },
+  "publishedAt": "2024-07-09T08:15:43.379Z",
+  "dist": {
+    "integrity": "sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==",
+    "shasum": "f4d9f0b90ffdbab09c9d77f5f29b4262517b0956",
+    "tarball": "https://registry.npmjs.org/glob/-/glob-10.4.5.tgz",
+    "fileCount": 65,
+    "unpackedSize": 474716
+  },
+  "repository": {
+    "url": "git://github.com/isaacs/node-glob.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/isaacs/node-glob#readme",
+  "bugs": {
+    "url": "https://github.com/isaacs/node-glob/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  },
+  "captured_at": "2026-05-26T07:26:58.217Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
