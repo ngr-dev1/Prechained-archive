@@ -1,0 +1,147 @@
+{
+  "name": "MongoDB.Driver.Core",
+  "version": "2.3.0",
+  "ecosystem": "nuget",
+  "description": "Core Component of the Official MongoDB .NET Driver.",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "licenseExpression": null,
+  "authors": [
+    "MongoDB",
+    "Inc."
+  ],
+  "owners": [],
+  "tags": [
+    "mongodb",
+    "mongo",
+    "nosql"
+  ],
+  "projectUrl": "http://www.mongodb.org/display/DOCS/CSharp+Language+Center",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "MongoDB.Bson",
+      "range": "[2.3.0, )",
+      "targetFramework": ".NETFramework4.5"
+    },
+    {
+      "id": "NETStandard.Library",
+      "range": "[1.6.0, )",
+      "targetFramework": ".NETStandard1.5"
+    },
+    {
+      "id": "System.Collections.Specialized",
+      "range": "[4.0.1, )",
+      "targetFramework": ".NETStandard1.5"
+    },
+    {
+      "id": "System.Diagnostics.TraceSource",
+      "range": "[4.0.0, )",
+      "targetFramework": ".NETStandard1.5"
+    },
+    {
+      "id": "System.Net.NameResolution",
+      "range": "[4.0.0, )",
+      "targetFramework": ".NETStandard1.5"
+    },
+    {
+      "id": "System.Net.Security",
+      "range": "[4.0.0, )",
+      "targetFramework": ".NETStandard1.5"
+    },
+    {
+      "id": "System.Security.SecureString",
+      "range": "[4.0.0, )",
+      "targetFramework": ".NETStandard1.5"
+    },
+    {
+      "id": "MongoDB.Bson",
+      "range": "[2.3.0, )",
+      "targetFramework": ".NETStandard1.5"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.09.39/mongodb.driver.core.2.3.0.json#dependencygroup/.netframework4.5",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.09.39/mongodb.driver.core.2.3.0.json#dependencygroup/.netframework4.5/mongodb.bson",
+          "@type": "PackageDependency",
+          "id": "MongoDB.Bson",
+          "range": "[2.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/mongodb.bson/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.09.39/mongodb.driver.core.2.3.0.json#dependencygroup/.netstandard1.5",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.09.39/mongodb.driver.core.2.3.0.json#dependencygroup/.netstandard1.5/netstandard.library",
+          "@type": "PackageDependency",
+          "id": "NETStandard.Library",
+          "range": "[1.6.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/netstandard.library/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.09.39/mongodb.driver.core.2.3.0.json#dependencygroup/.netstandard1.5/system.collections.specialized",
+          "@type": "PackageDependency",
+          "id": "System.Collections.Specialized",
+          "range": "[4.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.collections.specialized/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.09.39/mongodb.driver.core.2.3.0.json#dependencygroup/.netstandard1.5/system.diagnostics.tracesource",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.TraceSource",
+          "range": "[4.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.tracesource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.09.39/mongodb.driver.core.2.3.0.json#dependencygroup/.netstandard1.5/system.net.nameresolution",
+          "@type": "PackageDependency",
+          "id": "System.Net.NameResolution",
+          "range": "[4.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.nameresolution/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.09.39/mongodb.driver.core.2.3.0.json#dependencygroup/.netstandard1.5/system.net.security",
+          "@type": "PackageDependency",
+          "id": "System.Net.Security",
+          "range": "[4.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.security/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.09.39/mongodb.driver.core.2.3.0.json#dependencygroup/.netstandard1.5/system.security.securestring",
+          "@type": "PackageDependency",
+          "id": "System.Security.SecureString",
+          "range": "[4.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.securestring/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.15.13.09.39/mongodb.driver.core.2.3.0.json#dependencygroup/.netstandard1.5/mongodb.bson",
+          "@type": "PackageDependency",
+          "id": "MongoDB.Bson",
+          "range": "[2.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/mongodb.bson/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard1.5"
+    }
+  ],
+  "publishedAt": "2016-09-23T19:12:35.56+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/mongodb.driver.core/2.3.0/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-26T08:17:23.222Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
