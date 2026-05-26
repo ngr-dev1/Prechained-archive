@@ -1,0 +1,149 @@
+{
+  "name": "winnow",
+  "version": "0.5.2",
+  "ecosystem": "cargo",
+  "description": "A byte-oriented, zero-copy, parser combinators library",
+  "license": "MIT",
+  "checksum": "8bd122eb777186e60c3fdf765a58ac76e41c582f1f535fbf3314434c6b58f3f7",
+  "features": {
+    "alloc": [],
+    "debug": [
+      "dep:anstyle",
+      "dep:is-terminal",
+      "dep:terminal_size",
+      "dep:anstyle-stream"
+    ],
+    "default": [
+      "std"
+    ],
+    "simd": [
+      "dep:memchr"
+    ],
+    "std": [
+      "alloc",
+      "memchr?/std"
+    ],
+    "unstable-doc": [
+      "alloc",
+      "std",
+      "simd"
+    ]
+  },
+  "downloads": 874209,
+  "yanked": false,
+  "repository": "https://github.com/winnow-rs/winnow",
+  "homepage": null,
+  "keywords": [
+    "parser",
+    "parsing",
+    "streaming",
+    "bit",
+    "parser-combinators"
+  ],
+  "categories": [
+    "Parsing tools"
+  ],
+  "dependencies": [
+    {
+      "name": "circular",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.3.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "doc-comment",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "escargot",
+      "requirement": "^0.5.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lexopt",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "proptest",
+      "requirement": "^1.2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "snapbox",
+      "requirement": "^0.4.11",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "term-transcript",
+      "requirement": "^0.2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "anstyle",
+      "requirement": "^0.3.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "anstyle-stream",
+      "requirement": "^0.2.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "is-terminal",
+      "requirement": "^0.4.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "memchr",
+      "requirement": "^2.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "terminal_size",
+      "requirement": "^0.2.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6743,
+    "login": "epage",
+    "name": "Ed Page"
+  },
+  "publishedAt": "2023-07-30T01:05:54.696484Z",
+  "captured_at": "2026-05-26T22:15:48.141Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
