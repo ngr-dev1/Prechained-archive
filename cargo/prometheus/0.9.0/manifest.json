@@ -1,0 +1,140 @@
+{
+  "name": "prometheus",
+  "version": "0.9.0",
+  "ecosystem": "cargo",
+  "description": "Prometheus instrumentation library for Rust applications.",
+  "license": "Apache-2.0",
+  "checksum": "dd0ced56dee39a6e960c15c74dc48849d614586db2eaada6497477af7c7811cd",
+  "features": {
+    "default": [
+      "protobuf"
+    ],
+    "gen": [
+      "protobuf-codegen-pure"
+    ],
+    "nightly": [
+      "libc"
+    ],
+    "process": [
+      "libc",
+      "procfs"
+    ],
+    "push": [
+      "reqwest",
+      "libc",
+      "protobuf"
+    ]
+  },
+  "downloads": 1061622,
+  "yanked": false,
+  "repository": "https://github.com/tikv/rust-prometheus",
+  "homepage": "https://github.com/tikv/rust-prometheus",
+  "keywords": [
+    "metrics",
+    "prometheus"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fnv",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "getopts",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^0.13",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "spin",
+      "requirement": "^0.5.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "thiserror",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "procfs",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "protobuf",
+      "requirement": "^2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "protobuf-codegen-pure",
+      "requirement": "^2.0",
+      "kind": "build",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "reqwest",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 19336,
+    "login": "breezewish",
+    "name": "Wenxuan"
+  },
+  "publishedAt": "2020-05-17T12:57:42.394415Z",
+  "captured_at": "2026-05-26T13:17:22.329Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
