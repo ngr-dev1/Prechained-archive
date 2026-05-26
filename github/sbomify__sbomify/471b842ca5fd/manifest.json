@@ -1,0 +1,56 @@
+{
+  "repo": "sbomify/sbomify",
+  "commit_sha": "471b842ca5fdf1c1b801409f8fd5048f69732bdd",
+  "tree_sha": "0e958967edee6ea904766cfa8ace2df4b6daabfb",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "sbomify is a product security artifact hub and a trust center.",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 52,
+  "watchers": 52,
+  "forks": 10,
+  "open_issues": 33,
+  "language": "Python",
+  "topics": [
+    "sbom",
+    "security",
+    "security-tools",
+    "software-bill-of-material",
+    "software-bill-of-materials",
+    "trust-center"
+  ],
+  "commit_message": "fix(api): detect unique violations by error code, not message substring\n\nR3 Copilot — three related findings:\n\nR3.1: The substring grep for \"already exists\" misclassified non-uniqueness\nValidationError messages that happen to contain that phrase. Example:\nContactProfileContact.clean() raises \"A security contact already exists in\nthis profile...\" — a role-exclusivity rule, NOT a name-uniqueness violation,\nbut the old check would have returned DUPLICATE_NAME and told the API\nclient \"rename and ret",
+  "commit_author": {
+    "name": "Rana Aurangzaib",
+    "email": "aurangzaib048@gmail.com",
+    "date": "2026-05-26T08:01:39Z"
+  },
+  "commit_committer": {
+    "name": "Rana Aurangzaib",
+    "email": "aurangzaib048@gmail.com",
+    "date": "2026-05-26T08:01:39Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "86c28a2281873d2f0eb2a03353741b87abbe8e78"
+  ],
+  "github_author_login": "aurangzaib048",
+  "github_committer_login": "aurangzaib048",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-05-26T08:52:56Z",
+  "created_at": "2025-01-24T11:27:14Z",
+  "homepage": "https://sbomify.com",
+  "size_kb": 39782,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-26T13:57:27.052Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
