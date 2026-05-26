@@ -1,0 +1,97 @@
+{
+  "name": "image",
+  "version": "0.5.0",
+  "ecosystem": "cargo",
+  "description": "Imaging library. Provides basic image processing and encoders/decoders for common image formats.",
+  "license": "MIT",
+  "checksum": "b6ea2ce2901ccea9d00c3d98a88e4e84e081498e14517efbc6395c1ebdb881df",
+  "features": {
+    "bmp": [],
+    "default": [
+      "gif_codec",
+      "jpeg",
+      "ico",
+      "png_codec",
+      "ppm",
+      "tga",
+      "tiff",
+      "webp",
+      "bmp"
+    ],
+    "gif_codec": [
+      "gif"
+    ],
+    "ico": [
+      "bmp",
+      "png_codec"
+    ],
+    "jpeg": [],
+    "png_codec": [
+      "png"
+    ],
+    "ppm": [],
+    "tga": [],
+    "tiff": [],
+    "webp": []
+  },
+  "downloads": 5196,
+  "yanked": false,
+  "repository": "https://github.com/image-rs/image",
+  "homepage": "https://github.com/image-rs/image",
+  "keywords": [],
+  "categories": [
+    "Encoding",
+    "Encoding",
+    "Images"
+  ],
+  "dependencies": [
+    {
+      "name": "byteorder",
+      "requirement": "^0.3.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "enum_primitive",
+      "requirement": "^0.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "glob",
+      "requirement": "^0.2.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num",
+      "requirement": "^0.1.27",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "gif",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "png",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-11-10T19:15:14.068645Z",
+  "captured_at": "2026-05-26T21:00:08.523Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
