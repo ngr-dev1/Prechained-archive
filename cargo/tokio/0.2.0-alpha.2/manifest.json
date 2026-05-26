@@ -1,0 +1,187 @@
+{
+  "name": "tokio",
+  "version": "0.2.0-alpha.2",
+  "ecosystem": "cargo",
+  "description": "An event-driven, non-blocking I/O platform for writing asynchronous I/O\nbacked applications.\n",
+  "license": "MIT",
+  "checksum": "0bc38954f527bff6150016d9d464bd624f89cb999a423e4e19cc4652bb503e8b",
+  "features": {
+    "codec": [
+      "io",
+      "tokio-codec",
+      "bytes"
+    ],
+    "default": [
+      "codec",
+      "fs",
+      "io",
+      "net",
+      "rt-full",
+      "sync",
+      "timer"
+    ],
+    "fs": [
+      "tokio-fs"
+    ],
+    "io": [
+      "tokio-io"
+    ],
+    "net": [
+      "tcp",
+      "udp",
+      "uds"
+    ],
+    "rt-full": [
+      "num_cpus",
+      "net",
+      "sync",
+      "timer",
+      "tokio-executor/current-thread",
+      "tokio-executor/threadpool",
+      "tokio-macros",
+      "tracing-core"
+    ],
+    "sync": [
+      "tokio-sync"
+    ],
+    "tcp": [
+      "io",
+      "tokio-net/tcp"
+    ],
+    "timer": [
+      "tokio-timer"
+    ],
+    "udp": [
+      "io",
+      "tokio-net/udp"
+    ],
+    "uds": [
+      "io",
+      "tokio-net/uds"
+    ]
+  },
+  "downloads": 14310,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/tokio",
+  "homepage": "https://tokio.rs",
+  "keywords": [
+    "io",
+    "async",
+    "non-blocking",
+    "futures"
+  ],
+  "categories": [
+    "Asynchronous",
+    "Network programming"
+  ],
+  "dependencies": [
+    {
+      "name": "futures-core-preview",
+      "requirement": "= 0.3.0-alpha.18",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-sink-preview",
+      "requirement": "= 0.3.0-alpha.18",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-util-preview",
+      "requirement": "= 0.3.0-alpha.18",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "num_cpus",
+      "requirement": "^1.8.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-codec",
+      "requirement": "= 0.2.0-alpha.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-executor",
+      "requirement": "= 0.2.0-alpha.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-fs",
+      "requirement": "= 0.2.0-alpha.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-io",
+      "requirement": "= 0.2.0-alpha.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-macros",
+      "requirement": "= 0.2.0-alpha.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-net",
+      "requirement": "= 0.2.0-alpha.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-sync",
+      "requirement": "= 0.2.0-alpha.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-timer",
+      "requirement": "= 0.3.0-alpha.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tracing-core",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 10,
+    "login": "carllerche",
+    "name": "Carl Lerche"
+  },
+  "publishedAt": "2019-08-18T07:49:30.624929Z",
+  "captured_at": "2026-05-26T14:57:25.075Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
