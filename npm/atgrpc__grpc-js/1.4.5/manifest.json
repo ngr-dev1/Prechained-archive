@@ -1,0 +1,87 @@
+{
+  "name": "@grpc/grpc-js",
+  "version": "1.4.5",
+  "ecosystem": "npm",
+  "description": "gRPC Library for Node - pure JS implementation",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/node": ">=12.12.47",
+    "@grpc/proto-loader": "^0.6.4"
+  },
+  "devDependencies": {
+    "gts": "^2.0.0",
+    "ncp": "^2.0.0",
+    "gulp": "^4.0.2",
+    "pify": "^4.0.1",
+    "execa": "^2.0.3",
+    "madge": "^5.0.1",
+    "yargs": "^15.4.1",
+    "lodash": "^4.17.4",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.3.0",
+    "@types/ncp": "^2.0.1",
+    "gulp-mocha": "^6.0.0",
+    "typescript": "^3.7.2",
+    "@types/gulp": "^4.0.6",
+    "@types/pify": "^3.0.2",
+    "@types/mocha": "^5.2.6",
+    "@types/yargs": "^15.0.5",
+    "clang-format": "^1.0.55",
+    "@types/lodash": "^4.14.108",
+    "@types/gulp-mocha": "0.0.32",
+    "mocha-jenkins-reporter": "^0.4.1"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": "^8.13.0 || >=10.10.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "npm run generate-types && npm run compile",
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "murgatroid99",
+      "email": "mlumish@google.com"
+    },
+    {
+      "name": "grpc-packages",
+      "email": "grpc-packages@google.com"
+    },
+    {
+      "name": "nicolasnoble",
+      "email": "nicolas@nobis-crew.org"
+    }
+  ],
+  "author": {
+    "name": "Google Inc."
+  },
+  "publishedAt": "2021-12-16T19:52:07.525Z",
+  "dist": {
+    "integrity": "sha512-A6cOzSu7dqXZ7rzvh/9JZf+Jg/MOpLEMP0IdT8pT8hrWJZ6TB4ydN/MRuqOtAugInJe/VQ9F8BPricUpYZSaZA==",
+    "shasum": "0cd840b47180624eeedf066f2cdc422d052401f8",
+    "tarball": "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.4.5.tgz",
+    "fileCount": 388,
+    "unpackedSize": 1332409
+  },
+  "repository": {
+    "url": "git+https://github.com/grpc/grpc-node.git#master",
+    "type": "git"
+  },
+  "homepage": "https://grpc.io/",
+  "bugs": {
+    "url": "https://github.com/grpc/grpc-node/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "murgatroid99",
+    "email": "mlumish@google.com"
+  },
+  "captured_at": "2026-05-26T21:37:27.786Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
