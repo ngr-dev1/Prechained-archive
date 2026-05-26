@@ -1,0 +1,63 @@
+{
+  "name": "serde",
+  "version": "0.9.0-rc4",
+  "ecosystem": "cargo",
+  "description": "A generic serialization/deserialization framework",
+  "license": "MIT/Apache-2.0",
+  "checksum": "fec7a11bf3dfd1f6da662e29541847240de8ab936d4a1a7becede05b13c2e36b",
+  "features": {
+    "alloc": [
+      "unstable"
+    ],
+    "collections": [
+      "alloc"
+    ],
+    "default": [
+      "std"
+    ],
+    "std": [],
+    "unstable": [],
+    "unstable-testing": [
+      "clippy",
+      "unstable",
+      "std"
+    ]
+  },
+  "downloads": 3342,
+  "yanked": false,
+  "repository": "https://github.com/serde-rs/serde",
+  "homepage": "https://serde.rs",
+  "keywords": [
+    "serialization",
+    "no_std",
+    "serde"
+  ],
+  "categories": [
+    "Encoding",
+    "No standard library",
+    "No dynamic allocation"
+  ],
+  "published_by": null,
+  "publishedAt": "2017-01-25T18:15:01.973196Z",
+  "dependencies": [
+    {
+      "name": "serde_derive",
+      "req": "^0.9.0-rc3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true,
+      "features": []
+    },
+    {
+      "name": "clippy",
+      "req": "0.*",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true,
+      "features": []
+    }
+  ],
+  "captured_at": "2026-05-26T21:02:01.745Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "35166bbac850ff87ca819e5a7c1e0e21414028f5a53ae81d0a4b9364b4e837afbcb417e554502a75b938f6b30b8d6910"
+}
