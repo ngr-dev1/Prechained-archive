@@ -1,0 +1,54 @@
+{
+  "name": "filetime",
+  "version": "0.1.7",
+  "ecosystem": "cargo",
+  "description": "Platform-agnostic accessors of timestamps in File metadata\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "8ef11c94414f01df08db02d39eee0f38865adfaf0a0bc852f48db8d077ae5da3",
+  "features": {},
+  "downloads": 6698,
+  "yanked": false,
+  "repository": "https://github.com/alexcrichton/filetime",
+  "homepage": "https://github.com/alexcrichton/filetime",
+  "keywords": [
+    "timestamp",
+    "mtime"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "kernel32-sys",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempdir",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "winapi",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-11-17T18:15:05.122182Z",
+  "captured_at": "2026-05-26T12:07:29.282Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
