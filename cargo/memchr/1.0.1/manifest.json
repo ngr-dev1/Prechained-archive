@@ -1,0 +1,50 @@
+{
+  "name": "memchr",
+  "version": "1.0.1",
+  "ecosystem": "cargo",
+  "description": "Provides extremely fast (uses SIMD on x86_64, aarch64 and wasm32) routines for\n1, 2 or 3 byte search and single substring search.\n",
+  "license": "Unlicense/MIT",
+  "checksum": "1dbccc0e46f1ea47b9f17e6d67c5a96bd27030519c519c9c91327e31275a47b4",
+  "features": {
+    "default": [
+      "use_std"
+    ],
+    "use_std": [
+      "libc/use_std"
+    ]
+  },
+  "downloads": 1264363,
+  "yanked": false,
+  "repository": "https://github.com/BurntSushi/memchr",
+  "homepage": "https://github.com/BurntSushi/memchr",
+  "keywords": [
+    "search",
+    "find",
+    "memchr",
+    "substring",
+    "memmem"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "libc",
+      "requirement": "^0.2.18",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^0.4.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-01-04T01:43:18.364364Z",
+  "captured_at": "2026-05-26T10:07:29.407Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
