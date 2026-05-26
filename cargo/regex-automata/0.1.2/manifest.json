@@ -1,0 +1,102 @@
+{
+  "name": "regex-automata",
+  "version": "0.1.2",
+  "ecosystem": "cargo",
+  "description": "Automata construction and matching using regular expressions.",
+  "license": "Unlicense/MIT",
+  "checksum": "47e7dff779ce925dd79193bb6a401b057ef9a7e92cffb9fa606e93695efe9c45",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": [
+      "regex-syntax",
+      "utf8-ranges"
+    ]
+  },
+  "downloads": 3039,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/regex",
+  "homepage": "https://github.com/rust-lang/regex/tree/master/regex-automata",
+  "keywords": [
+    "automaton",
+    "regex",
+    "dfa",
+    "nfa",
+    "automata"
+  ],
+  "categories": [
+    "Text processing"
+  ],
+  "dependencies": [
+    {
+      "name": "byteorder",
+      "requirement": "^1.2.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1.2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.82",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_bytes",
+      "requirement": "^0.10.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1.0.82",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "toml",
+      "requirement": "^0.4.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex-syntax",
+      "requirement": "^0.6.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "utf8-ranges",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2019-01-04T02:53:10.406894Z",
+  "captured_at": "2026-05-26T23:47:21.919Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
