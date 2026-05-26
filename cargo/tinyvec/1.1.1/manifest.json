@@ -1,0 +1,72 @@
+{
+  "name": "tinyvec",
+  "version": "1.1.1",
+  "ecosystem": "cargo",
+  "description": "`tinyvec` provides 100% safe vec-like data structures.",
+  "license": "Zlib OR Apache-2.0 OR MIT",
+  "checksum": "317cca572a0e89c3ce0ca1f1bdc9369547fe318a683418e42ac8f59d14701023",
+  "features": {
+    "alloc": [
+      "tinyvec_macros"
+    ],
+    "default": [],
+    "experimental_write_impl": [],
+    "grab_spare_slice": [],
+    "nightly_const_generics": [],
+    "nightly_slice_partition_dedup": [],
+    "rustc_1_40": []
+  },
+  "downloads": 5304125,
+  "yanked": false,
+  "repository": "https://github.com/Lokathor/tinyvec",
+  "homepage": null,
+  "keywords": [
+    "vec",
+    "no_std",
+    "no-std"
+  ],
+  "categories": [
+    "Data structures",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "criterion",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_test",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "tinyvec_macros",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 7211,
+    "login": "Lokathor",
+    "name": "Lokathor"
+  },
+  "publishedAt": "2021-01-26T01:26:47.051429Z",
+  "captured_at": "2026-05-26T09:57:22.195Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
