@@ -1,0 +1,142 @@
+{
+  "name": "openssl",
+  "version": "0.7.6",
+  "ecosystem": "cargo",
+  "description": "OpenSSL bindings",
+  "license": "Apache-2.0",
+  "checksum": "76fab993892ca0927a675cf383a0e85a3bc48b978ade0546c43e2ac33af3a74c",
+  "features": {
+    "aes_ctr": [
+      "openssl-sys/aes_ctr"
+    ],
+    "aes_xts": [
+      "openssl-sys/aes_xts"
+    ],
+    "alpn": [
+      "openssl-sys/alpn"
+    ],
+    "dtlsv1": [
+      "openssl-sys/dtlsv1"
+    ],
+    "dtlsv1_2": [
+      "openssl-sys/dtlsv1_2"
+    ],
+    "ecdh_auto": [
+      "openssl-sys-extras/ecdh_auto"
+    ],
+    "nightly": [],
+    "npn": [
+      "openssl-sys/npn"
+    ],
+    "pkcs5_pbkdf2_hmac": [
+      "openssl-sys/pkcs5_pbkdf2_hmac"
+    ],
+    "rfc5114": [
+      "openssl-sys/rfc5114"
+    ],
+    "sslv2": [
+      "openssl-sys/sslv2"
+    ],
+    "sslv3": [
+      "openssl-sys/sslv3"
+    ],
+    "tlsv1_1": [
+      "openssl-sys/tlsv1_1"
+    ],
+    "tlsv1_2": [
+      "openssl-sys/tlsv1_2"
+    ]
+  },
+  "downloads": 62933,
+  "yanked": false,
+  "repository": "https://github.com/rust-openssl/rust-openssl",
+  "homepage": null,
+  "keywords": [
+    "crypto",
+    "tls",
+    "ssl",
+    "dtls"
+  ],
+  "categories": [
+    "API bindings",
+    "Cryptography"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": ">= 0.2, < 0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "gcc",
+      "requirement": "^0.3",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "net2",
+      "requirement": "^0.2.16",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "openssl-sys",
+      "requirement": "^0.7.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "openssl-sys-extras",
+      "requirement": "^0.7.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustc-serialize",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "winapi",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ws2_32-sys",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2016-02-10T17:45:21.993468Z",
+  "captured_at": "2026-05-26T07:54:08.363Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
