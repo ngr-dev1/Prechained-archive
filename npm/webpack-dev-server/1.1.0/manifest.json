@@ -1,0 +1,61 @@
+{
+  "name": "webpack-dev-server",
+  "version": "1.1.0",
+  "ecosystem": "npm",
+  "description": "Serves a webpack app. Updates the browser on changes.",
+  "dependencies": {
+    "express": "3.4.x",
+    "optimist": "0.6.x",
+    "socket.io": "0.9.x",
+    "stream-cache": "0.0.x",
+    "webpack-dev-middleware": "1.x"
+  },
+  "devDependencies": {
+    "webpack": "1.x",
+    "css-loader": "0.6.x",
+    "url-loader": "0.5.x",
+    "file-loader": "0.5.x",
+    "jade-loader": "0.5.x",
+    "style-loader": "0.6.x"
+  },
+  "peerDependencies": {
+    "webpack": "1.x"
+  },
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "webpack ./client/live.js client/live.bundle.js --colors --config client/webpack.config.js -p",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "sokra",
+      "email": "tobias.koppers@googlemail.com"
+    }
+  ],
+  "author": {
+    "name": "Tobias Koppers @sokra"
+  },
+  "publishedAt": "2014-01-09T13:25:29.951Z",
+  "dist": {
+    "integrity": "sha512-TRGaxMrBT0nj8Z1lZzEPQdiVpZk8cSWFtTOtZnjIkXhxaPv5XX+nRWgi1zYO+5PVk4KwowuQ4PlLaX/zbWiz2g==",
+    "shasum": "7bd807ee2c8cd9885005b592ce56298de44bf600",
+    "tarball": "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-1.1.0.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": null,
+  "homepage": "http://github.com/webpack/webpack-dev-server",
+  "bugs": null,
+  "keywords": [],
+  "_npmUser": {
+    "name": "sokra",
+    "email": "tobias.koppers@googlemail.com"
+  },
+  "captured_at": "2026-05-26T12:47:23.325Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
