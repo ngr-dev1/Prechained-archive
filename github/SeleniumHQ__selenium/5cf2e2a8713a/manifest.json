@@ -1,0 +1,58 @@
+{
+  "repo": "SeleniumHQ/selenium",
+  "commit_sha": "5cf2e2a8713a8af01b6313fa4c81f266436d0783",
+  "tree_sha": "a453e53f31a39e52682d3e215b05885c1219b780",
+  "branch": "trunk",
+  "ecosystem": "github",
+  "description": "A browser automation framework and ecosystem.",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 34115,
+  "watchers": 34115,
+  "forks": 8683,
+  "open_issues": 194,
+  "language": "Java",
+  "topics": [
+    "dotnet",
+    "java",
+    "javascript",
+    "python",
+    "ruby",
+    "rust",
+    "selenium",
+    "webdriver"
+  ],
+  "commit_message": "[grid] Apply TCP backpressure across the WebSocket tunnel handler (#17543)\n\nThe optional transparent TCP tunnel introduced in 9a2df3a0aa (2026-02-27,\n\"[grid] Router bypass WebSocket data path via transparent TCP tunnel\",\n#17146) forwarded inbound bytes from one channel to the other with no\nflow control. A slow drain on one leg let the opposite leg keep\nshipping bytes, which Netty queued in the outbound buffer indefinitely.\nA session with sustained bidirectional traffic and a slow client could\ngr",
+  "commit_author": {
+    "name": "Simon Mavi Stewart",
+    "email": "simon.m.stewart@gmail.com",
+    "date": "2026-05-26T15:51:52Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-26T15:51:52Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "5aade0240dc5a7fca05c706b1aa9c7c5d978be48"
+  ],
+  "github_author_login": "shs96c",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "trunk",
+  "pushed_at": "2026-05-26T17:34:32Z",
+  "created_at": "2013-01-14T21:40:56Z",
+  "homepage": "https://selenium.dev",
+  "size_kb": 2361401,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-26T17:52:05.705Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
