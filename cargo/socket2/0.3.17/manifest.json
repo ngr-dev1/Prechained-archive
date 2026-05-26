@@ -1,0 +1,73 @@
+{
+  "name": "socket2",
+  "version": "0.3.17",
+  "ecosystem": "cargo",
+  "description": "Utilities for handling networking sockets with a maximal amount of configuration\npossible intended.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "2c29947abdee2a218277abeca306f25789c938e500ea5a9d4b12a5a504466902",
+  "features": {
+    "pair": [],
+    "reuseport": [],
+    "unix": []
+  },
+  "downloads": 1342929,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/socket2",
+  "homepage": "https://github.com/rust-lang/socket2",
+  "keywords": [
+    "io",
+    "network",
+    "socket"
+  ],
+  "categories": [
+    "API bindings",
+    "Network programming"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.66",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "redox_syscall",
+      "requirement": "^0.1.38",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempdir",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "winapi",
+      "requirement": "^0.3.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6025,
+    "login": "Thomasdezeeuw",
+    "name": "Thomas de Zeeuw"
+  },
+  "publishedAt": "2020-11-21T10:54:34.649157Z",
+  "captured_at": "2026-05-26T12:17:21.969Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
