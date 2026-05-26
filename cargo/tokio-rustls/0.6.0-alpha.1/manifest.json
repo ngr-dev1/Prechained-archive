@@ -1,0 +1,70 @@
+{
+  "name": "tokio-rustls",
+  "version": "0.6.0-alpha.1",
+  "ecosystem": "cargo",
+  "description": "Asynchronous TLS/SSL streams for Tokio using Rustls.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "9abf639722ed077dc69684388194bcd60e9c00540d7c3f65e62c5d038c9613bf",
+  "features": {
+    "default": [
+      "tokio"
+    ],
+    "unstable-futures": [
+      "futures",
+      "tokio/unstable-futures"
+    ]
+  },
+  "downloads": 3073,
+  "yanked": false,
+  "repository": "https://github.com/rustls/tokio-rustls",
+  "homepage": "https://github.com/rustls/tokio-rustls",
+  "keywords": [],
+  "categories": [
+    "Asynchronous",
+    "Cryptography",
+    "Network programming"
+  ],
+  "dependencies": [
+    {
+      "name": "rustls",
+      "requirement": "^0.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "webpki",
+      "requirement": "^0.18.0-alpha",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.2.0-beta",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-03-31T09:13:01.261123Z",
+  "captured_at": "2026-05-26T20:58:06.390Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
