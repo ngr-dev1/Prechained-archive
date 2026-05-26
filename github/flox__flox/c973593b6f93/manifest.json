@@ -1,0 +1,56 @@
+{
+  "repo": "flox/flox",
+  "commit_sha": "c973593b6f939adb9f3682773464b346754f054f",
+  "tree_sha": "56c9d56a360cf0ff12148f93871a559029346ffe",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Deterministic Foundation for your SDLC",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 3990,
+  "watchers": 3990,
+  "forks": 126,
+  "open_issues": 408,
+  "language": "Rust",
+  "topics": [
+    "developer-tools",
+    "development-environment",
+    "nix",
+    "package-manager",
+    "rust",
+    "virtual-environments"
+  ],
+  "commit_message": "fix(catalog): rename PackageDerivationInput re-export to PackageDerivation\n\nA FastAPI update in the catalog server merged the separate\nPackageDerivation-Input and PackageDerivation-Output pydantic schemas\ninto a single PackageDerivation schema. The generated OpenAPI JSON and\nclient.rs were already updated in this PR. This fixes the one\nhand-written re-export in types.rs that still referenced the old\nPackageDerivationInput name, resolving the unresolved import error that\ncaused all CI checks to f",
+  "commit_author": {
+    "name": "Bill LeVine",
+    "email": "bill@floxdev.com",
+    "date": "2026-05-25T15:17:48Z"
+  },
+  "commit_committer": {
+    "name": "Bill LeVine",
+    "email": "bill@floxdev.com",
+    "date": "2026-05-25T15:29:52Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "a8918513a159c9ee0c496d3da2e9406bcd052d00"
+  ],
+  "github_author_login": "billlevine",
+  "github_committer_login": "billlevine",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-26T22:26:10Z",
+  "created_at": "2022-12-22T15:52:43Z",
+  "homepage": "https://flox.dev",
+  "size_kb": 25294,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-26T22:47:25.802Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
