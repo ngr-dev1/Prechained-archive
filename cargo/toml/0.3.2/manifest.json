@@ -1,0 +1,53 @@
+{
+  "name": "toml",
+  "version": "0.3.2",
+  "ecosystem": "cargo",
+  "description": "A native Rust encoder and decoder of TOML-formatted files and streams. Provides\nimplementations of the standard Serialize/Deserialize traits for TOML data to\nfacilitate deserializing and serializing Rust structures.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "bd86ad9ebee246fdedd610e0f6d0587b754a3d81438db930a244d0480ed7878f",
+  "features": {},
+  "downloads": 134828,
+  "yanked": false,
+  "repository": "https://github.com/toml-rs/toml",
+  "homepage": null,
+  "keywords": [
+    "encoding",
+    "toml",
+    "no_std"
+  ],
+  "categories": [
+    "Parser implementations",
+    "Parsing tools",
+    "Configuration",
+    "Encoding"
+  ],
+  "dependencies": [
+    {
+      "name": "serde",
+      "requirement": "^0.9.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-04-01T01:45:35.284867Z",
+  "captured_at": "2026-05-26T04:36:40.017Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
