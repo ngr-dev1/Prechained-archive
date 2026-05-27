@@ -1,0 +1,98 @@
+{
+  "name": "sharp",
+  "version": "0.34.2",
+  "ecosystem": "npm",
+  "description": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, GIF, AVIF and TIFF images",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "color": "^4.2.3",
+    "semver": "^7.7.2",
+    "detect-libc": "^2.0.4"
+  },
+  "devDependencies": {
+    "cc": "^3.0.1",
+    "icc": "^3.0.0",
+    "nyc": "^17.1.0",
+    "tsd": "^0.32.0",
+    "mocha": "^11.4.0",
+    "emnapi": "^1.4.3",
+    "tar-fs": "^3.0.8",
+    "prebuild": "^13.0.1",
+    "@types/node": "*",
+    "exif-reader": "^2.0.2",
+    "extract-zip": "^2.0.1",
+    "semistandard": "^17.0.0",
+    "node-addon-api": "^8.3.1",
+    "@emnapi/runtime": "^1.4.3",
+    "license-checker": "^25.0.1",
+    "jsdoc-to-markdown": "^9.1.1",
+    "@img/sharp-libvips-dev": "1.1.0",
+    "@img/sharp-libvips-win32-x64": "1.1.0",
+    "@img/sharp-libvips-dev-wasm32": "1.1.0",
+    "@img/sharp-libvips-win32-ia32": "1.1.0",
+    "@img/sharp-libvips-win32-arm64": "1.1.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
+  },
+  "scripts": {
+    "install": "node install/check",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "lovell",
+      "email": "npm@lovell.info"
+    }
+  ],
+  "author": {
+    "name": "Lovell Fuller",
+    "email": "npm@lovell.info"
+  },
+  "publishedAt": "2025-05-20T14:09:59.418Z",
+  "dist": {
+    "integrity": "sha512-lszvBmB9QURERtyKT2bNmsgxXK0ShJrL/fvqlonCo7e6xBF8nT8xU6pW+PMIbLsz0RxQk3rgH9kd8UmvOzlMJg==",
+    "shasum": "648bd639854dbe48047b0b420213c186d036b32d",
+    "tarball": "https://registry.npmjs.org/sharp/-/sharp-0.34.2.tgz",
+    "fileCount": 32,
+    "unpackedSize": 522492
+  },
+  "repository": {
+    "url": "git://github.com/lovell/sharp.git",
+    "type": "git"
+  },
+  "homepage": "https://sharp.pixelplumbing.com",
+  "bugs": {
+    "url": "https://github.com/lovell/sharp/issues"
+  },
+  "keywords": [
+    "jpeg",
+    "png",
+    "webp",
+    "avif",
+    "tiff",
+    "gif",
+    "svg",
+    "jp2",
+    "dzi",
+    "image",
+    "resize",
+    "thumbnail",
+    "crop",
+    "embed",
+    "libvips",
+    "vips"
+  ],
+  "_npmUser": {
+    "name": "lovell",
+    "email": "npm@lovell.info"
+  },
+  "captured_at": "2026-05-27T19:07:56.733Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
