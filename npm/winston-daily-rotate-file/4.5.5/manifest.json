@@ -1,0 +1,78 @@
+{
+  "name": "winston-daily-rotate-file",
+  "version": "4.5.5",
+  "ecosystem": "npm",
+  "description": "A transport for winston which logs to a rotating file each day.",
+  "license": "MIT",
+  "dependencies": {
+    "object-hash": "^2.0.1",
+    "triple-beam": "^1.3.0",
+    "winston-transport": "^4.4.0",
+    "file-stream-rotator": "^0.5.7"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "^7.1.1",
+    "eslint": "^6.0.1",
+    "moment": "^2.24.0",
+    "rimraf": "^3.0.2",
+    "eslint-plugin-node": "^11.0.0"
+  },
+  "peerDependencies": {
+    "winston": "^3"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "indexzero",
+      "email": "charlie.robbins@gmail.com"
+    },
+    {
+      "name": "mattberther",
+      "email": "matt@berther.io"
+    }
+  ],
+  "author": {
+    "name": "Charlie Robbins",
+    "email": "charlie.robbins@gmail.com"
+  },
+  "publishedAt": "2021-05-07T17:45:59.626Z",
+  "dist": {
+    "integrity": "sha512-ds0WahIjiDhKCiMXmY799pDBW+58ByqIBtUcsqr4oDoXrAI3Zn+hbgFdUxzMfqA93OG0mPLYVMiotqTgE/WeWQ==",
+    "shasum": "cfa3a89f4eb0e4126917592b375759b772bcd972",
+    "tarball": "https://registry.npmjs.org/winston-daily-rotate-file/-/winston-daily-rotate-file-4.5.5.tgz",
+    "fileCount": 12,
+    "unpackedSize": 34147
+  },
+  "repository": {
+    "url": "git+ssh://git@github.com/winstonjs/winston-daily-rotate-file.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/winstonjs/winston-daily-rotate-file#readme",
+  "bugs": {
+    "url": "https://github.com/winstonjs/winston-daily-rotate-file/issues"
+  },
+  "keywords": [
+    "winston",
+    "daily-rotate-file",
+    "log-rotate",
+    "logrotate"
+  ],
+  "_npmUser": {
+    "name": "mattberther",
+    "email": "matt@berther.io"
+  },
+  "captured_at": "2026-05-27T05:11:31.242Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
