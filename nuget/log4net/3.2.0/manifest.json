@@ -1,0 +1,61 @@
+{
+  "name": "log4net",
+  "version": "3.2.0",
+  "ecosystem": "nuget",
+  "description": "log4net is a tool to help the programmer output log statements to a variety of output targets.\nIn case of problems with an application, it is helpful to enable logging so that the problem\ncan be located. With log4net it is possible to enable logging at runtime without modifying the\napplication binary. The log4net package is designed so that log statements can remain in\nshipped code without incurring a high performance cost. It follows that the speed of logging\n(or rather not logging) is crucial.\n\nAt the same time, log output can be so voluminous that it quickly becomes overwhelming.\nOne of the distinctive features of log4net is the notion of hierarchical loggers.\nUsing these loggers it is possible to selectively control which log statements are output\nat arbitrary granularity.\n\nlog4net is designed with two distinct goals in mind: speed and flexibility",
+  "license": "Apache-2.0",
+  "licenseExpression": "Apache-2.0",
+  "authors": [
+    "The Apache Software Foundation"
+  ],
+  "owners": [],
+  "tags": [
+    "logging",
+    "log",
+    "tracing",
+    "logfiles"
+  ],
+  "projectUrl": "https://logging.apache.org/log4net/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "System.Configuration.ConfigurationManager",
+      "range": "[4.5.0, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.04.14.01.02.52/log4net.3.2.0.json#dependencygroup/.netframework4.6.2",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.04.14.01.02.52/log4net.3.2.0.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.04.14.01.02.52/log4net.3.2.0.json#dependencygroup/.netstandard2.0/system.configuration.configurationmanager",
+          "@type": "PackageDependency",
+          "id": "System.Configuration.ConfigurationManager",
+          "range": "[4.5.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.configuration.configurationmanager/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2025-08-22T20:00:57.847+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/log4net/3.2.0/icon",
+  "readmeUrl": "https://www.nuget.org/packages/log4net/3.2.0#show-readme-container",
+  "captured_at": "2026-05-27T21:27:23.485Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
