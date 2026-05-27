@@ -1,0 +1,126 @@
+{
+  "name": "nom",
+  "version": "7.0.0-alpha1",
+  "ecosystem": "cargo",
+  "description": "A byte-oriented, zero-copy, parser combinators library",
+  "license": "MIT",
+  "checksum": "dd43cd1e53168596e629accc602ada1297f5125fed588d62cf8be81175b46002",
+  "features": {
+    "alloc": [],
+    "bitvec-alloc": [
+      "alloc",
+      "bitvec/alloc"
+    ],
+    "bitvec-base": [
+      "bitvec"
+    ],
+    "bitvec-std": [
+      "bitvec/std",
+      "std"
+    ],
+    "default": [
+      "std",
+      "lexical"
+    ],
+    "docsrs": [],
+    "lexical": [
+      "lexical-core"
+    ],
+    "regexp": [
+      "regex"
+    ],
+    "std": [
+      "alloc",
+      "memchr/use_std"
+    ]
+  },
+  "downloads": 54313,
+  "yanked": false,
+  "repository": "https://github.com/rust-bakery/nom",
+  "homepage": null,
+  "keywords": [
+    "parser",
+    "parsing",
+    "streaming",
+    "bit",
+    "parser-combinators"
+  ],
+  "categories": [
+    "Parsing tools"
+  ],
+  "dependencies": [
+    {
+      "name": "criterion",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "doc-comment",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "jemallocator",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "memchr",
+      "requirement": "^2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "version_check",
+      "requirement": "^0.9",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bitvec",
+      "requirement": ">=0.22.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "lexical-core",
+      "requirement": "^0.7.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 959,
+    "login": "Geal",
+    "name": "Geoffroy Couprie"
+  },
+  "publishedAt": "2021-06-24T14:54:42.466308Z",
+  "captured_at": "2026-05-27T20:37:27.853Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
