@@ -1,0 +1,54 @@
+{
+  "repo": "apache/kafka",
+  "commit_sha": "e0456d1df2a685d0d8da53aeb265d793f8508b66",
+  "tree_sha": "cf8947903d985dab8ed678b387b8c533644d20aa",
+  "branch": "trunk",
+  "ecosystem": "github",
+  "description": "Apache Kafka - A distributed event streaming platform",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 32653,
+  "watchers": 32653,
+  "forks": 15211,
+  "open_issues": 380,
+  "language": "Java",
+  "topics": [
+    "java",
+    "kafka",
+    "scala",
+    "streaming"
+  ],
+  "commit_message": "KAFKA-17871: avoid blocking the herder thread when producer flushing hangs (#18142)\n\nThe call to `backingStore.get()` (called by connector task threads\nthrough `OffsetStorageReaderImpl.offsets()`) can block for long time\nwaiting for data flush to complete (`KafkaProducer.flush()`).\n\nThis change moves that call outside the synchronized clause that holds\n`offsetReadFutures`, so that if `backingStore.get()` hangs then it does\nnot keep `offsetReadFutures` locked. The access to `closed` flag\n(`closed",
+  "commit_author": {
+    "name": "Davide Armand",
+    "email": "davide.armand@aiven.io",
+    "date": "2026-05-27T15:25:18Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-27T15:25:18Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "3fcf9f1c415c39dcf4ce6ae7db25810a8ba95755"
+  ],
+  "github_author_login": "davide-armand",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "trunk",
+  "pushed_at": "2026-05-27T15:49:22Z",
+  "created_at": "2011-08-15T18:06:16Z",
+  "homepage": "https://kafka.apache.org/",
+  "size_kb": 291717,
+  "has_wiki": false,
+  "has_issues": false,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-27T15:56:30.319Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
