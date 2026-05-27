@@ -1,0 +1,117 @@
+{
+  "name": "rustls",
+  "version": "0.5.5",
+  "ecosystem": "cargo",
+  "description": "Rustls is a modern TLS library written in Rust.",
+  "license": "Apache-2.0/ISC/MIT",
+  "checksum": "21dbbc73fef27405212eaafbbb84a4a14bffc59009ab89d3f80c0b5b982795f7",
+  "features": {
+    "default": [
+      "logging"
+    ],
+    "logging": [
+      "log"
+    ]
+  },
+  "downloads": 5150,
+  "yanked": false,
+  "repository": "https://github.com/rustls/rustls",
+  "homepage": "https://github.com/rustls/rustls",
+  "keywords": [],
+  "categories": [
+    "Cryptography",
+    "Network programming"
+  ],
+  "dependencies": [
+    {
+      "name": "base64",
+      "requirement": "~0.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "docopt",
+      "requirement": "^0.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "env_logger",
+      "requirement": "^0.3.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.3.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mio",
+      "requirement": "^0.5.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ring",
+      "requirement": "^0.6.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustc-serialize",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.1.35",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "untrusted",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "webpki",
+      "requirement": "^0.9.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "webpki-roots",
+      "requirement": "^0.6.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.3.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-02-03T19:43:40.339385Z",
+  "captured_at": "2026-05-27T04:47:29.615Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
