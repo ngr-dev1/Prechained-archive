@@ -1,0 +1,69 @@
+{
+  "name": "webpack-dev-server",
+  "version": "1.4.6",
+  "ecosystem": "npm",
+  "description": "Serves a webpack app. Updates the browser on changes.",
+  "dependencies": {
+    "express": "^4.3.2",
+    "optimist": "~0.6.0",
+    "socket.io": "^0.9.17",
+    "http-proxy": "^1.1.4",
+    "serve-index": "^1.0.3",
+    "stream-cache": "~0.0.1",
+    "webpack-dev-middleware": "^1.0.7"
+  },
+  "devDependencies": {
+    "webpack": "^1.1.0",
+    "css-loader": "~0.6.12",
+    "url-loader": "~0.5.5",
+    "file-loader": "~0.5.1",
+    "jade-loader": "~0.6.1",
+    "less-loader": "~0.7.5",
+    "style-loader": "~0.6.3"
+  },
+  "peerDependencies": {
+    "webpack": "1.x"
+  },
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "webpack ./client/live.js client/live.bundle.js --colors --config client/webpack.config.js -p && webpack ./client/index.js client/index.bundle.js --colors --config client/webpack.config.js -p",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "sokra",
+      "email": "tobias.koppers@googlemail.com"
+    }
+  ],
+  "author": {
+    "name": "Tobias Koppers @sokra"
+  },
+  "publishedAt": "2014-07-02T20:46:16.051Z",
+  "dist": {
+    "integrity": "sha512-7IVC57EdidFhF8SA1SjpaqGcHvRmbsy6FABKRtvy6zBOwoDGaBQheebqRN2mFZB5QBKof4M3R2TyeoB7Jw9W8Q==",
+    "shasum": "9942f10dc87195174e5573e1d0c45b1a9a9a9dd2",
+    "tarball": "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-1.4.6.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": {
+    "url": "git://github.com/webpack/webpack-dev-server.git",
+    "type": "git"
+  },
+  "homepage": "http://github.com/webpack/webpack-dev-server",
+  "bugs": {
+    "url": "https://github.com/webpack/webpack-dev-server/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "sokra",
+    "email": "tobias.koppers@googlemail.com"
+  },
+  "captured_at": "2026-05-27T04:47:25.226Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
