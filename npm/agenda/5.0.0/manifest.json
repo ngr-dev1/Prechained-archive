@@ -1,0 +1,124 @@
+{
+  "name": "agenda",
+  "version": "5.0.0",
+  "ecosystem": "npm",
+  "description": "Light weight job scheduler for Node.js",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "~4.3.4",
+    "date.js": "~0.3.3",
+    "mongodb": "^4.11.0",
+    "cron-parser": "^3.5.0",
+    "human-interval": "~2.0.1",
+    "moment-timezone": "~0.5.37"
+  },
+  "devDependencies": {
+    "esm": "3.2.25",
+    "delay": "5.0.0",
+    "husky": "5.2.0",
+    "jsdoc": "3.6.7",
+    "mocha": "8.4.0",
+    "sinon": "11.1.2",
+    "eslint": "7.32.0",
+    "blanket": "1.2.3",
+    "prettier": "2.3.2",
+    "coveralls": "3.1.1",
+    "expect.js": "0.3.1",
+    "typescript": "4.3.5",
+    "lint-staged": "10.5.4",
+    "@types/debug": "4.1.5",
+    "jsdoc-template": "https://github.com/braintree/jsdoc-template",
+    "mocha-lcov-reporter": "1.3.0",
+    "@types/human-interval": "1.0.0",
+    "mongodb-memory-server": "7.3.4",
+    "eslint-config-prettier": "8.3.0",
+    "@typescript-eslint/parser": "4.29.0",
+    "@typescript-eslint/eslint-plugin": "4.29.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=12.9.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "rschmukler",
+      "email": "ryan@slingingcode.com"
+    },
+    {
+      "name": "niftylettuce",
+      "email": "niftylettuce@gmail.com"
+    },
+    {
+      "name": "vkarpov15",
+      "email": "val@karpov.io"
+    },
+    {
+      "name": "koresar",
+      "email": "kore.sar@gmail.com"
+    },
+    {
+      "name": "simison",
+      "email": "mikael@ihminen.org"
+    },
+    {
+      "name": "santypk4",
+      "email": "contacto.quinteros@gmail.com"
+    },
+    {
+      "name": "omgimalexis",
+      "email": "xo@wvvw.me"
+    },
+    {
+      "name": "joeframbach",
+      "email": "npm@framba.ch"
+    },
+    {
+      "name": "titanism",
+      "email": "npm@titanism.com"
+    }
+  ],
+  "author": {
+    "url": "http://slingingcode.com/",
+    "name": "Ryan Schmukler",
+    "email": "ryan@slingingcode.com"
+  },
+  "publishedAt": "2022-11-07T04:00:43.791Z",
+  "dist": {
+    "integrity": "sha512-jOoa7PvARpst/y2PI8h0wph4NmcjYJ/4wzFhQcHUbNgN+Hte/9h/MzKE0ZmHfIwdsSlnv3rhbBQ3Zd/gwFkThg==",
+    "shasum": "1b22b8c7710e5d973498f354713665bfd5e51c33",
+    "tarball": "https://registry.npmjs.org/agenda/-/agenda-5.0.0.tgz",
+    "fileCount": 280,
+    "unpackedSize": 353122
+  },
+  "repository": {
+    "url": "git://github.com/agenda/agenda",
+    "type": "git"
+  },
+  "homepage": null,
+  "bugs": {
+    "url": "https://github.com/agenda/agenda/issues"
+  },
+  "keywords": [
+    "job",
+    "jobs",
+    "cron",
+    "delayed",
+    "scheduler",
+    "runner"
+  ],
+  "_npmUser": {
+    "name": "koresar",
+    "email": "kore.sar@gmail.com"
+  },
+  "captured_at": "2026-05-27T23:57:21.698Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
