@@ -1,0 +1,87 @@
+{
+  "name": "codexui-android",
+  "version": "0.1.80",
+  "ecosystem": "npm",
+  "description": "A lightweight web interface for Codex that runs on top of the Codex app-server, allowing remote access from any browser",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.3",
+    "express": "^5.1.0",
+    "firebase": "^12.2.1",
+    "commander": "^13.1.0",
+    "@sentry/vue": "^10.48.0",
+    "@sentry/node": "^10.48.0",
+    "highlight.js": "^11.11.1",
+    "qrcode-terminal": "^0.12.0",
+    "@sentry/profiling-node": "^10.48.0"
+  },
+  "devDependencies": {
+    "vue": "^3.5.13",
+    "tsup": "^8.4.0",
+    "vite": "^6.1.0",
+    "vue-tsc": "^2.2.0",
+    "@types/ws": "^8.18.1",
+    "playwright": "^1.59.1",
+    "typescript": "^5.7.3",
+    "vue-router": "^4.6.4",
+    "@types/node": "^22.13.2",
+    "tailwindcss": "^4.1.18",
+    "@types/express": "^5.0.0",
+    "@playwright/test": "^1.59.1",
+    "@tailwindcss/vite": "^4.1.18",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@sentry/vite-plugin": "^5.2.0",
+    "@types/qrcode-terminal": "^0.12.2"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "friuns",
+      "email": "dorumonstr@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Pavel Voronin, Igor Levochkin"
+  },
+  "publishedAt": "2026-04-11T23:56:35.454Z",
+  "dist": {
+    "integrity": "sha512-nV7TQJe2d3GKKQ1jiSd9w9jr13vmi/ryCbqqqW0rqJFvZHU3U5m9i14M1D9Ir9/WY5oB2stSL/J5Fnlk+tH54A==",
+    "shasum": "219f350a0cf4c1fb94f5b890cd1d0148c9ccd4e8",
+    "tarball": "https://registry.npmjs.org/codexui-android/-/codexui-android-0.1.80.tgz",
+    "fileCount": 39,
+    "unpackedSize": 7398797
+  },
+  "repository": {
+    "url": "git+https://github.com/friuns2/codexui.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/friuns2/codexui#readme",
+  "bugs": {
+    "url": "https://github.com/friuns2/codexui/issues"
+  },
+  "keywords": [
+    "codex",
+    "openai",
+    "web-ui",
+    "remote",
+    "cli"
+  ],
+  "_npmUser": {
+    "name": "friuns",
+    "email": "dorumonstr@gmail.com"
+  },
+  "captured_at": "2026-05-27T14:28:17.548Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f0ff25bf197a49d25b59ea0da7cab7a0424d5768e6edbe0179bc785bd8a77b896fdebac9a43af6153c56c08920b5ac0c"
+}
