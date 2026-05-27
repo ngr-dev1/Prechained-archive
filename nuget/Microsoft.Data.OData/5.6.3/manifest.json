@@ -1,0 +1,79 @@
+{
+  "name": "Microsoft.Data.OData",
+  "version": "5.6.3",
+  "ecosystem": "nuget",
+  "description": "Classes to serialize, deserialize and validate OData payloads. Enables construction of OData producers and consumers. Targets .NET 4.0, Silverlight 4.0, .NET 4.0 Portable Lib (SL 5.0, Win Phone 8, Win Phone 8.1, and Win 8) and .NET 4.5 Portable Lib (Win Phone 8, Win Phone 8.1, and Win 8). Localized for CHS, CHT, DEU, ESN, FRA, ITA, JPN, KOR and RUS.",
+  "license": "http://go.microsoft.com/?linkid=9809688",
+  "licenseExpression": null,
+  "authors": [
+    "Microsoft Corporation"
+  ],
+  "owners": [],
+  "tags": [
+    "wcf",
+    "data",
+    "services",
+    "odata",
+    "odatalib",
+    "edmlib",
+    "spatial",
+    "ado.net",
+    "ef",
+    "entity",
+    "framework",
+    "open",
+    "protocol",
+    "wcfds",
+    "wcfdataservices",
+    "dataservices"
+  ],
+  "projectUrl": "http://go.microsoft.com/fwlink/?LinkId=220868",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "System.Spatial",
+      "range": "[5.6.3, 5.6.3]",
+      "targetFramework": null
+    },
+    {
+      "id": "Microsoft.Data.Edm",
+      "range": "[5.6.3, 5.6.3]",
+      "targetFramework": null
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.15.21.01.00/microsoft.data.odata.5.6.3.json#dependencygroup",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.15.21.01.00/microsoft.data.odata.5.6.3.json#dependencygroup/system.spatial",
+          "@type": "PackageDependency",
+          "id": "System.Spatial",
+          "range": "[5.6.3, 5.6.3]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.spatial/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.09.15.21.01.00/microsoft.data.odata.5.6.3.json#dependencygroup/microsoft.data.edm",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Data.Edm",
+          "range": "[5.6.3, 5.6.3]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.data.edm/index.json"
+        }
+      ]
+    }
+  ],
+  "publishedAt": "2014-10-21T04:46:14.29+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.data.odata/5.6.3/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-27T03:54:39.359Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
