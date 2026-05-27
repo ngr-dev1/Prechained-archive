@@ -1,0 +1,69 @@
+{
+  "name": "config",
+  "version": "0.3.1",
+  "ecosystem": "cargo",
+  "description": "Layered configuration system for Rust applications.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "d77b79e9bc4fd08d44d28c37d14bd4e51cafacd8bc0dc0e250ec303d8fba1808",
+  "features": {
+    "default": [
+      "toml"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "downloads": 11613,
+  "yanked": false,
+  "repository": "https://github.com/rust-cli/config-rs",
+  "homepage": null,
+  "keywords": [
+    "environment",
+    "env",
+    "settings",
+    "config",
+    "configuration"
+  ],
+  "categories": [
+    "Configuration"
+  ],
+  "dependencies": [
+    {
+      "name": "nom",
+      "requirement": "^2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "toml",
+      "requirement": "^0.2.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "yaml-rust",
+      "requirement": "^0.3.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-02-08T10:18:52.918665Z",
+  "captured_at": "2026-05-27T22:37:25.057Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
