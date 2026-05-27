@@ -1,0 +1,54 @@
+{
+  "repo": "nodemailer/nodemailer",
+  "commit_sha": "5f694977da2e0e13dc947037566e8e689a01217e",
+  "tree_sha": "016770f553d1eaabea6e100249c86b8745e3187b",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "✉️ Send e-mails with Node.JS – easy as cake!",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 17568,
+  "watchers": 17568,
+  "forks": 1426,
+  "open_issues": 0,
+  "language": "JavaScript",
+  "topics": [
+    "email",
+    "email-sender",
+    "nodemailer",
+    "rfc822"
+  ],
+  "commit_message": "fix: two pending security advisories (jsonTransport access bypass, List-* CRLF injection) (#1820)\n\n* fix: enforce disableFileAccess/disableUrlAccess in content resolution\n\nshared.resolveContent() read local files and fetched HTTP(S) URLs without\nconsulting disableFileAccess/disableUrlAccess. The MIME streaming path in\nmime-node enforces those flags, but jsonTransport (mail.normalize ->\nresolveAll) and the attachDataUrls pre-plugin (_convertDataImages) resolve\ncontent through shared.resolveConten",
+  "commit_author": {
+    "name": "Andris Reinman",
+    "email": "andris@reinman.eu",
+    "date": "2026-05-26T16:01:48Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-26T16:01:48Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "15138a84c543c20aa399218534cdbbfa2ea1ce55"
+  ],
+  "github_author_login": "andris9",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-05-26T16:03:37Z",
+  "created_at": "2011-01-19T21:17:36Z",
+  "homepage": "http://nodemailer.com/",
+  "size_kb": 10770,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-27T19:04:44.899Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
