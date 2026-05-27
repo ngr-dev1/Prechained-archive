@@ -1,0 +1,56 @@
+{
+  "repo": "sbomify/sbomify",
+  "commit_sha": "d0fac380288776b38b4f9c2da63194b46917cccb",
+  "tree_sha": "cc37a309d9c2b9ba691ae28a6b6503cdc97e761b",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "sbomify is a product security artifact hub and a trust center.",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 52,
+  "watchers": 52,
+  "forks": 10,
+  "open_issues": 33,
+  "language": "Python",
+  "topics": [
+    "sbom",
+    "security",
+    "security-tools",
+    "software-bill-of-material",
+    "software-bill-of-materials",
+    "trust-center"
+  ],
+  "commit_message": "fix(oidc): accept string repository_id/owner_id claims from GitHub\n\nGitHub Actions OIDC tokens ship every numeric identifier as a JSON\n*string* — ``\"repository_id\": \"74\"``, ``\"repository_owner_id\": \"65\"``,\n``\"actor_id\": \"12\"`` — per the example-subject-claims table in\nGitHub's OIDC hardening docs.\n\nThe service-layer validator gated the binding lookup behind\n``isinstance(..., int)``, which is False for every real-world token.\nPyJWT verified signature/issuer/audience/expiry just fine; the\nexchange",
+  "commit_author": {
+    "name": "Viktor Petersson",
+    "email": "viktor@sbomify.com",
+    "date": "2026-05-27T14:05:14Z"
+  },
+  "commit_committer": {
+    "name": "Viktor Petersson",
+    "email": "viktor@sbomify.com",
+    "date": "2026-05-27T14:05:14Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "4375f74244fed9c38ee935b43ff1799ec749528f"
+  ],
+  "github_author_login": "vpetersson",
+  "github_committer_login": "vpetersson",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-05-27T15:45:15Z",
+  "created_at": "2025-01-24T11:27:14Z",
+  "homepage": "https://sbomify.com",
+  "size_kb": 39812,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-27T21:07:26.948Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
