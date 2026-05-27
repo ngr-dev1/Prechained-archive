@@ -1,0 +1,181 @@
+{
+  "name": "hyper",
+  "version": "0.11.8",
+  "ecosystem": "cargo",
+  "description": "A protective and efficient HTTP library for all.",
+  "license": "MIT",
+  "checksum": "0d03ae910d2ac4c5ba6074a634003292a4dca70cbe602a6e1bddd47ac3dc87a1",
+  "features": {
+    "compat": [
+      "http"
+    ],
+    "default": [
+      "server-proto"
+    ],
+    "nightly": [],
+    "raw_status": [],
+    "server-proto": []
+  },
+  "downloads": 11302,
+  "yanked": false,
+  "repository": "https://github.com/hyperium/hyper",
+  "homepage": "https://hyper.rs",
+  "keywords": [
+    "hyper",
+    "http",
+    "hyperium"
+  ],
+  "categories": [
+    "Network programming",
+    "HTTP client",
+    "HTTP server"
+  ],
+  "dependencies": [
+    {
+      "name": "base64",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^0.4.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.1.17",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-cpupool",
+      "requirement": "^0.1.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "httparse",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "language-tags",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mime",
+      "requirement": "^0.3.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num_cpus",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "percent-encoding",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pretty_env_logger",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "relay",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "spmc",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-core",
+      "requirement": "^0.1.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-io",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-proto",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-service",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "unicase",
+      "requirement": "^2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "http",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-12-07T01:17:14.397671Z",
+  "captured_at": "2026-05-27T23:07:21.951Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
