@@ -1,0 +1,122 @@
+{
+  "name": "wasm-bindgen",
+  "version": "0.2.102",
+  "ecosystem": "cargo",
+  "description": "Easy support for interacting between JS and Rust.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "4ad224d2776649cfb4f4471124f8176e54c1cca67a88108e30a0cd98b90e7ad3",
+  "features": {
+    "default": [
+      "std",
+      "msrv"
+    ],
+    "enable-interning": [
+      "std"
+    ],
+    "gg-alloc": [],
+    "msrv": [
+      "rustversion"
+    ],
+    "serde-serialize": [
+      "serde",
+      "serde_json",
+      "std"
+    ],
+    "spans": [],
+    "std": [],
+    "strict-macro": [
+      "wasm-bindgen-macro/strict-macro"
+    ],
+    "xxx_debug_only_print_generated_code": []
+  },
+  "downloads": 153939,
+  "yanked": false,
+  "repository": "https://github.com/wasm-bindgen/wasm-bindgen",
+  "homepage": "https://wasm-bindgen.github.io/wasm-bindgen",
+  "keywords": [],
+  "categories": [
+    "WebAssembly"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "paste",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-macro",
+      "requirement": "=0.2.102",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-shared",
+      "requirement": "=0.2.102",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustversion",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 34642,
+    "login": "daxpedda",
+    "name": null
+  },
+  "publishedAt": "2025-09-16T22:47:46.479326Z",
+  "captured_at": "2026-05-27T06:37:25.664Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
