@@ -1,0 +1,106 @@
+{
+  "name": "zip",
+  "version": "0.5.4",
+  "ecosystem": "cargo",
+  "description": "Library to support the reading and writing of zip files.",
+  "license": "MIT",
+  "checksum": "e41ff37ba788e2169b19fa70253b70cb53d9f2db9fb9aea9bcfc5047e02c3bae",
+  "features": {
+    "default": [
+      "bzip2",
+      "deflate",
+      "time"
+    ],
+    "deflate": [
+      "flate2/rust_backend"
+    ],
+    "deflate-miniz": [
+      "flate2/default"
+    ],
+    "deflate-zlib": [
+      "flate2/zlib"
+    ]
+  },
+  "downloads": 184914,
+  "yanked": false,
+  "repository": "https://github.com/zip-rs/zip2",
+  "homepage": null,
+  "keywords": [
+    "compression",
+    "zip",
+    "archive"
+  ],
+  "categories": [
+    "Compression",
+    "Filesystem",
+    "Parser implementations"
+  ],
+  "dependencies": [
+    {
+      "name": "bencher",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "crc32fast",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "podio",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "walkdir",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bzip2",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "flate2",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "time",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 300,
+    "login": "mvdnes",
+    "name": "Mathijs van de Nes"
+  },
+  "publishedAt": "2020-01-06T21:30:53.440661Z",
+  "captured_at": "2026-05-27T14:40:51.934Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
