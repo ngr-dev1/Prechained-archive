@@ -1,0 +1,109 @@
+{
+  "name": "vitest",
+  "version": "0.0.62",
+  "ecosystem": "npm",
+  "description": "Next generation testing framework powered by Vite",
+  "license": "MIT",
+  "dependencies": {
+    "c8": "^7.10.0",
+    "chai": "^4.3.4",
+    "diff": "^5.0.0",
+    "mlly": "^0.3.15",
+    "sade": "^1.7.4",
+    "jsdom": "^19.0.0",
+    "sinon": "^12.0.1",
+    "nanoid": "^3.1.30",
+    "figures": "^4.0.0",
+    "find-up": "^6.2.0",
+    "piscina": "^3.1.0",
+    "fast-glob": "^3.2.7",
+    "happy-dom": "^2.24.5",
+    "log-update": "^5.0.0",
+    "picocolors": "^1.0.0",
+    "sinon-chai": "^3.7.0",
+    "source-map": "^0.7.3",
+    "strip-ansi": "^7.0.1",
+    "@types/chai": "^4.3.0",
+    "chai-subset": "^1.6.0",
+    "log-symbols": "^4.1.0",
+    "@antfu/utils": "^0.3.0",
+    "cli-truncate": "^3.1.0",
+    "pretty-format": "^27.4.2",
+    "elegant-spinner": "^3.0.0",
+    "@types/sinon-chai": "^3.2.6",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "esno": "^0.12.1",
+    "tsup": "^5.10.3",
+    "vite": "^2.7.1",
+    "bumpp": "^7.1.1",
+    "eslint": "^8.4.1",
+    "rimraf": "^3.0.2",
+    "@antfu/ni": "^0.11.1",
+    "typescript": "^4.5.2",
+    "@types/diff": "^5.0.1",
+    "@types/node": "^16.11.12",
+    "@types/sade": "^1.7.3",
+    "npm-run-all": "^4.1.5",
+    "@types/jsdom": "^16.2.13",
+    "@types/sinon": "^10.0.6",
+    "@types/chai-subset": "^1.3.3",
+    "@antfu/eslint-config": "^0.12.2",
+    "@types/natural-compare": "^1.4.1",
+    "@types/source-map-support": "^0.5.4"
+  },
+  "peerDependencies": {
+    "vite": "^2.7.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "esmo scripts/generate-types.ts",
+    "prepublish": null,
+    "prepublishOnly": "nr build"
+  },
+  "maintainers": [
+    {
+      "name": "antfu",
+      "email": "anthonyfu117@hotmail.com"
+    }
+  ],
+  "author": {
+    "name": "Anthony Fu",
+    "email": "anthonyfu117@hotmail.com"
+  },
+  "publishedAt": "2021-12-11T20:04:10.606Z",
+  "dist": {
+    "integrity": "sha512-Eq//e0nNhWl/Tl/dZHpOAWlWMwSzhJlD28ieG5du20Nx/riex79BVG2WqQaD0m4nntjWXXklZepMXTbziQI3Xg==",
+    "shasum": "9365fdae8d60b09e5503413b26d61bc197bc7a65",
+    "tarball": "https://registry.npmjs.org/vitest/-/vitest-0.0.62.tgz",
+    "fileCount": 21,
+    "unpackedSize": 95244
+  },
+  "repository": {
+    "url": "git+https://github.com/antfu/vitest.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/antfu/vitest#readme",
+  "bugs": {
+    "url": "https://github.com/antfu/vitest/issues"
+  },
+  "keywords": [
+    "vite",
+    "vite-node",
+    "test",
+    "jest"
+  ],
+  "_npmUser": {
+    "name": "antfu",
+    "email": "anthonyfu117@hotmail.com"
+  },
+  "captured_at": "2026-05-27T23:07:24.111Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
