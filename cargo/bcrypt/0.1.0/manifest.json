@@ -1,0 +1,68 @@
+{
+  "name": "bcrypt",
+  "version": "0.1.0",
+  "ecosystem": "cargo",
+  "description": "Easily hash and verify passwords using bcrypt",
+  "license": "MIT",
+  "checksum": "ddcd34207c9f367317d0b371ac3a38cf386d25f55d3110cdafaf12b72e7e0899",
+  "features": {
+    "default": [],
+    "dev": [
+      "clippy"
+    ]
+  },
+  "downloads": 3482,
+  "yanked": false,
+  "repository": "https://github.com/Keats/rust-bcrypt",
+  "homepage": "https://github.com/Keats/rust-bcrypt",
+  "keywords": [
+    "hash",
+    "web",
+    "password",
+    "bcrypt"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "lazy_static",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rust-crypto",
+      "requirement": "^0.2.34",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustc-serialize",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "clippy",
+      "requirement": "^0.0.32",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-12-24T22:40:27.531267Z",
+  "captured_at": "2026-05-27T15:47:45.875Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
