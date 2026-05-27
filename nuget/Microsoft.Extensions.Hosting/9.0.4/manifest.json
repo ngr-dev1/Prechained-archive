@@ -1,0 +1,1437 @@
+{
+  "name": "Microsoft.Extensions.Hosting",
+  "version": "9.0.4",
+  "ecosystem": "nuget",
+  "description": "Hosting and startup infrastructures for applications.",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "https://dot.net/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Binder",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.CommandLine",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.FileExtensions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Json",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.UserSecrets",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Diagnostics",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.FileProviders.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.FileProviders.Physical",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Configuration",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Console",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Debug",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.EventLog",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.EventSource",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Options",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.5.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Binder",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.CommandLine",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.FileExtensions",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Json",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.UserSecrets",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Diagnostics",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.FileProviders.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.FileProviders.Physical",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Configuration",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Console",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Debug",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.EventLog",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.EventSource",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Options",
+      "range": "[9.0.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Binder",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.CommandLine",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.FileExtensions",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Json",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.UserSecrets",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Diagnostics",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.FileProviders.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.FileProviders.Physical",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Configuration",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Console",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Debug",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.EventLog",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.EventSource",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Options",
+      "range": "[9.0.4, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Binder",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.CommandLine",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.FileExtensions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Json",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.UserSecrets",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Diagnostics",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.FileProviders.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.FileProviders.Physical",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Configuration",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Console",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Debug",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.EventLog",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.EventSource",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Options",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.5.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Binder",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.CommandLine",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.FileExtensions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Json",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.UserSecrets",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Diagnostics",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.FileProviders.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.FileProviders.Physical",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Configuration",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Console",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Debug",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.EventLog",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.EventSource",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.Options",
+      "range": "[9.0.4, )",
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.configuration.binder",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Binder",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.binder/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.configuration.commandline",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.CommandLine",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.commandline/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.configuration.environmentvariables",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.environmentvariables/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.configuration.fileextensions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.FileExtensions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.fileextensions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.configuration.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Json",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.configuration.usersecrets",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.UserSecrets",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.usersecrets/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.dependencyinjection.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.dependencyinjection",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.diagnostics",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Diagnostics",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.diagnostics/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.fileproviders.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.FileProviders.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.fileproviders.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.fileproviders.physical",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.FileProviders.Physical",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.fileproviders.physical/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.logging.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Configuration",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.logging.console",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Console",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.console/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.logging.debug",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Debug",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.debug/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.logging.eventlog",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.EventLog",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.eventlog/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.logging.eventsource",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.EventSource",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.eventsource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/microsoft.extensions.options",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Options",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.options/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netframework4.6.2/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.5.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.configuration.binder",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Binder",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.binder/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.configuration.commandline",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.CommandLine",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.commandline/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.configuration.environmentvariables",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.environmentvariables/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.configuration.fileextensions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.FileExtensions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.fileextensions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.configuration.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Json",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.configuration.usersecrets",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.UserSecrets",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.usersecrets/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.dependencyinjection.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.dependencyinjection",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.diagnostics",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Diagnostics",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.diagnostics/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.fileproviders.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.FileProviders.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.fileproviders.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.fileproviders.physical",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.FileProviders.Physical",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.fileproviders.physical/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.logging.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Configuration",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.logging.console",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Console",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.console/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.logging.debug",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Debug",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.debug/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.logging.eventlog",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.EventLog",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.eventlog/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.logging.eventsource",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.EventSource",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.eventsource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net8.0/microsoft.extensions.options",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Options",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.options/index.json"
+        }
+      ],
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.configuration.binder",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Binder",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.binder/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.configuration.commandline",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.CommandLine",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.commandline/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.configuration.environmentvariables",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.environmentvariables/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.configuration.fileextensions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.FileExtensions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.fileextensions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.configuration.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Json",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.configuration.usersecrets",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.UserSecrets",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.usersecrets/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.dependencyinjection.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.dependencyinjection",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.diagnostics",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Diagnostics",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.diagnostics/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.fileproviders.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.FileProviders.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.fileproviders.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.fileproviders.physical",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.FileProviders.Physical",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.fileproviders.physical/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.logging.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Configuration",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.logging.console",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Console",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.console/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.logging.debug",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Debug",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.debug/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.logging.eventlog",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.EventLog",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.eventlog/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.logging.eventsource",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.EventSource",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.eventsource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/net9.0/microsoft.extensions.options",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Options",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.options/index.json"
+        }
+      ],
+      "targetFramework": "net9.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.binder",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Binder",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.binder/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.commandline",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.CommandLine",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.commandline/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.environmentvariables",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.environmentvariables/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.fileextensions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.FileExtensions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.fileextensions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Json",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.usersecrets",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.UserSecrets",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.usersecrets/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.dependencyinjection.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.dependencyinjection",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.diagnostics",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Diagnostics",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.diagnostics/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.fileproviders.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.FileProviders.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.fileproviders.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.fileproviders.physical",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.FileProviders.Physical",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.fileproviders.physical/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Configuration",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.console",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Console",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.console/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.debug",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Debug",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.debug/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.eventlog",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.EventLog",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.eventlog/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.eventsource",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.EventSource",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.eventsource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/microsoft.extensions.options",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Options",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.options/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.0/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.5.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.configuration.binder",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Binder",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.binder/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.configuration.commandline",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.CommandLine",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.commandline/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.configuration.environmentvariables",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.environmentvariables/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.configuration.fileextensions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.FileExtensions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.fileextensions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.configuration.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Json",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.configuration.usersecrets",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.UserSecrets",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.usersecrets/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.dependencyinjection.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.dependencyinjection",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.diagnostics",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Diagnostics",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.diagnostics/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.fileproviders.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.FileProviders.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.fileproviders.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.fileproviders.physical",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.FileProviders.Physical",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.fileproviders.physical/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.logging.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Configuration",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.logging.console",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Console",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.console/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.logging.debug",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Debug",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.debug/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.logging.eventlog",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.EventLog",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.eventlog/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.logging.eventsource",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.EventSource",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.eventsource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.04.08.17.56.45/microsoft.extensions.hosting.9.0.4.json#dependencygroup/.netstandard2.1/microsoft.extensions.options",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Options",
+          "range": "[9.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.options/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "publishedAt": "2025-04-08T17:52:58+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.extensions.hosting/9.0.4/icon",
+  "readmeUrl": "https://www.nuget.org/packages/Microsoft.Extensions.Hosting/9.0.4#show-readme-container",
+  "captured_at": "2026-05-27T03:56:35.600Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
