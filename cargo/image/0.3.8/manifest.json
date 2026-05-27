@@ -1,0 +1,72 @@
+{
+  "name": "image",
+  "version": "0.3.8",
+  "ecosystem": "cargo",
+  "description": "Imaging library. Provides basic image processing and encoders/decoders for common image formats.",
+  "license": "MIT",
+  "checksum": "ce9694f56eec4f5554b6e7ecb98439bdb022cd23baef5e56aeaa175976eb819c",
+  "features": {
+    "default": [
+      "gif",
+      "jpeg",
+      "png",
+      "ppm",
+      "tga",
+      "tiff",
+      "webp"
+    ],
+    "gif": [],
+    "jpeg": [],
+    "png": [],
+    "ppm": [],
+    "tga": [],
+    "tiff": [],
+    "webp": []
+  },
+  "downloads": 8567,
+  "yanked": false,
+  "repository": "https://github.com/image-rs/image",
+  "homepage": "https://github.com/image-rs/image",
+  "keywords": [],
+  "categories": [
+    "Encoding",
+    "Encoding",
+    "Images"
+  ],
+  "dependencies": [
+    {
+      "name": "byteorder",
+      "requirement": "^0.3.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "enum_primitive",
+      "requirement": "^0.0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "glob",
+      "requirement": "^0.2.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num",
+      "requirement": "^0.1.20",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-04-22T17:50:23.017589Z",
+  "captured_at": "2026-05-27T16:09:15.808Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
