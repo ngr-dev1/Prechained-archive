@@ -1,0 +1,53 @@
+{
+  "name": "futures-sink",
+  "version": "0.2.1",
+  "ecosystem": "cargo",
+  "description": "The asynchronous `Sink` trait for the futures-rs library.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "a8a93a7c480876b8e02cdd70022e7eb9c8423575ea6a25a0b749b18834c16412",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": [
+      "either/use_std",
+      "futures-core/std",
+      "futures-channel/std"
+    ]
+  },
+  "downloads": 40823,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/futures-rs",
+  "homepage": "https://rust-lang.github.io/futures-rs",
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "futures-channel",
+      "requirement": "^0.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "futures-core",
+      "requirement": "^0.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "either",
+      "requirement": "^1.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-04-19T18:58:09.952200Z",
+  "captured_at": "2026-05-27T21:07:27.707Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
