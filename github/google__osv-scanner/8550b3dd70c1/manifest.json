@@ -1,0 +1,54 @@
+{
+  "repo": "google/osv-scanner",
+  "commit_sha": "8550b3dd70c124421e38d2791d147e6949db7691",
+  "tree_sha": "605011f23249d51544ee95ee01f962e4f7ac47a7",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 10352,
+  "watchers": 10352,
+  "forks": 707,
+  "open_issues": 119,
+  "language": "Go",
+  "topics": [
+    "scanner",
+    "security-audit",
+    "security-tools",
+    "vulnerability-scanner"
+  ],
+  "commit_message": "fix: return 0 exit code when help is explicitly requested (#2836)\n\nFix help exit code to return 0 when explicitly requested\n\nWhen `--help` or `-h` is explicitly passed, the exit code should be 0.\nIf help is printed due to missing or invalid arguments, it should still\nreturn 127.\n\nWe implement this by checking the arguments for explicit help flags\nbefore setting the error state in the `HelpPrinter`.\n\nFixes: https://github.com/google/osv-scanner/issues/2835",
+  "commit_author": {
+    "name": "Rex P",
+    "email": "106129829+another-rex@users.noreply.github.com",
+    "date": "2026-05-27T00:57:41Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-27T00:57:41Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "cd1bc614557bc6b59ea426b26cbde68c98db9cc4"
+  ],
+  "github_author_login": "another-rex",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-27T00:57:41Z",
+  "created_at": "2022-11-14T01:05:20Z",
+  "homepage": "https://google.github.io/osv-scanner/",
+  "size_kb": 42018,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-27T10:17:25.724Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
