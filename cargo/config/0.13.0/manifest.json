@@ -1,0 +1,223 @@
+{
+  "name": "config",
+  "version": "0.13.0",
+  "ecosystem": "cargo",
+  "description": "Layered configuration system for Rust applications.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "a623a46970097d353e2c8154fa527d8ce45cd0e02cc1812969b889c49b3728e8",
+  "features": {
+    "default": [
+      "toml",
+      "json",
+      "yaml",
+      "ini",
+      "ron",
+      "json5"
+    ],
+    "ini": [
+      "rust-ini"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "json5": [
+      "json5_rs"
+    ],
+    "preserve_order": [
+      "indexmap",
+      "toml/preserve_order",
+      "serde_json/preserve_order",
+      "ron/indexmap"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "downloads": 63912,
+  "yanked": false,
+  "repository": "https://github.com/rust-cli/config-rs",
+  "homepage": null,
+  "keywords": [
+    "environment",
+    "env",
+    "settings",
+    "config",
+    "configuration"
+  ],
+  "categories": [
+    "Configuration"
+  ],
+  "dependencies": [
+    {
+      "name": "async-trait",
+      "requirement": "^0.1.50",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "chrono",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "float-cmp",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3.15",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "glob",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "nom",
+      "requirement": "^7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "notify",
+      "requirement": "^4.0.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pathdiff",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "reqwest",
+      "requirement": "^0.11.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1.0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "warp",
+      "requirement": "=0.3.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "indexmap",
+      "requirement": "^1.7.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "json5",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "ron",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rust-ini",
+      "requirement": "^0.18",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "toml",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "yaml-rust",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 4003,
+    "login": "matthiasbeyer",
+    "name": "Matthias Beyer"
+  },
+  "publishedAt": "2022-04-03T11:20:39.185490Z",
+  "captured_at": "2026-05-27T00:36:11.367Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
