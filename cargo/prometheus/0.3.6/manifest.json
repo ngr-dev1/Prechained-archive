@@ -1,0 +1,127 @@
+{
+  "name": "prometheus",
+  "version": "0.3.6",
+  "ecosystem": "cargo",
+  "description": "Prometheus instrumentation library for Rust applications.",
+  "license": "Apache-2.0",
+  "checksum": "459a514c8f8aa573292b485faf0b0ec7dc4b79dc4105042f8f2f80c3b4ac8bf7",
+  "features": {
+    "default": [],
+    "dev": [
+      "clippy"
+    ],
+    "nightly": [
+      "libc",
+      "spin/unstable"
+    ],
+    "process": [
+      "libc",
+      "procinfo"
+    ],
+    "push": [
+      "hyper",
+      "libc"
+    ]
+  },
+  "downloads": 5202,
+  "yanked": false,
+  "repository": "https://github.com/tikv/rust-prometheus",
+  "homepage": "https://github.com/tikv/rust-prometheus",
+  "keywords": [
+    "metrics",
+    "prometheus"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fnv",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "getopts",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "protobuf",
+      "requirement": "^1.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quick-error",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "spin",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "clippy",
+      "requirement": "^0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "procinfo",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-12-13T03:08:22.395962Z",
+  "captured_at": "2026-05-27T14:40:48.139Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
