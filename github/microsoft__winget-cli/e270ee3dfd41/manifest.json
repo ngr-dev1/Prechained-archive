@@ -1,0 +1,54 @@
+{
+  "repo": "microsoft/winget-cli",
+  "commit_sha": "e270ee3dfd41a5f9a5cbbc1f49e0fdf84dcb3220",
+  "tree_sha": "082f9166f5797c20b7b8fd4f0beb5bc26b642532",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface).",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 25923,
+  "watchers": 25923,
+  "forks": 1744,
+  "open_issues": 1283,
+  "language": "C++",
+  "topics": [
+    "command-line",
+    "package-manager",
+    "windows",
+    "winget"
+  ],
+  "commit_message": "Make sfs-client a vcpkg port (#6243)\n\n## 📖 Description\n<!-- Describe what this PR changes, why, and any limitations. -->\nRemoves the git-subtree for sfs-client and replaces it with a local\nvcpkg port. This port is based on the [template provided by\nsfs-client](https://github.com/microsoft/sfs-client/tree/main/sfs-client-vcpkg-port/sfs-client)\n\n* Updated the script that creates a local overlay to fetch this port.\n* Added a small patch to fix a build error in the port.\n* Created a new folder for ",
+  "commit_author": {
+    "name": "Flor Chacón",
+    "email": "14323496+florelis@users.noreply.github.com",
+    "date": "2026-05-27T18:47:10Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-27T18:47:10Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "ab31639e4199d634364231567db1ead15ad7d757"
+  ],
+  "github_author_login": "florelis",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-05-27T18:49:10Z",
+  "created_at": "2019-07-16T22:16:49Z",
+  "homepage": "https://learn.microsoft.com/windows/package-manager/",
+  "size_kb": 44401,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-27T19:17:26.421Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
