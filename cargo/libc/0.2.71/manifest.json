@@ -1,0 +1,59 @@
+{
+  "name": "libc",
+  "version": "0.2.71",
+  "ecosystem": "cargo",
+  "description": "Raw FFI bindings to platform libraries like libc.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "9457b06509d27052635f90d6466700c65095fdf75409b3fbdd903e988b886f49",
+  "features": {
+    "align": [],
+    "const-extern-fn": [],
+    "default": [
+      "std"
+    ],
+    "extra_traits": [],
+    "rustc-dep-of-std": [
+      "align",
+      "rustc-std-workspace-core"
+    ],
+    "std": [],
+    "use_std": [
+      "std"
+    ]
+  },
+  "downloads": 3231458,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/libc",
+  "homepage": null,
+  "keywords": [
+    "bindings",
+    "ffi",
+    "system",
+    "libc",
+    "operating"
+  ],
+  "categories": [
+    "External FFI bindings",
+    "Operating systems",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "rustc-std-workspace-core",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 51017,
+    "login": "JohnTitor",
+    "name": "Yuki Okushi"
+  },
+  "publishedAt": "2020-05-26T15:42:25.610518Z",
+  "captured_at": "2026-05-27T23:47:28.594Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
