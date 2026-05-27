@@ -1,0 +1,62 @@
+{
+  "repo": "semgrep/semgrep",
+  "commit_sha": "38d4c3c024f60d387df2845c0517cf639c01714d",
+  "tree_sha": "506f96ed130a9a1c45eb1a05dfc1590a7a24df25",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+  "license": "LGPL-2.1",
+  "license_name": "GNU Lesser General Public License v2.1",
+  "stars": 15289,
+  "watchers": 15289,
+  "forks": 949,
+  "open_issues": 875,
+  "language": "OCaml",
+  "topics": [
+    "c",
+    "go",
+    "java",
+    "javascript",
+    "python",
+    "r2c",
+    "ruby",
+    "sast",
+    "semgrep",
+    "static-analysis",
+    "static-code-analysis",
+    "typescript"
+  ],
+  "commit_message": "feat: lower glibc contraint to >=2.34 (semgrep/semgrep-proprietary#6377)\n\nubuntu 22.04 locks us to glibc `>=2.35`; that's too high of a requirement as some of our users use semgrep on e.g RHEL 9 or AL2023, which both ship with glibc 2.34; blocking users on those distros from running semgrep. This PR switches us from building on ubuntu 22.04 to RHEL 9, which allows users on those distros to install semgrep.\n\nsynced from Pro bdc66f6cefc2bf0684d0aa2e699f22860c7e09aa",
+  "commit_author": {
+    "name": "Yosef",
+    "email": "72322110+yosefAlsuhaibani@users.noreply.github.com",
+    "date": "2026-05-26T17:58:53Z"
+  },
+  "commit_committer": {
+    "name": "Yosef",
+    "email": "72322110+yosefAlsuhaibani@users.noreply.github.com",
+    "date": "2026-05-26T18:42:14Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "97e9ad05a6c12f4843d1fe2d8d872864a579fead"
+  ],
+  "github_author_login": "yosefAlsuhaibani",
+  "github_committer_login": "yosefAlsuhaibani",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-05-27T00:23:15Z",
+  "created_at": "2019-12-13T09:29:54Z",
+  "homepage": "https://semgrep.dev",
+  "size_kb": 100062,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-27T10:57:29.301Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
