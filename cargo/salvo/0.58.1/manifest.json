@@ -1,0 +1,302 @@
+{
+  "name": "salvo",
+  "version": "0.58.1",
+  "ecosystem": "cargo",
+  "description": "Salvo is a powerful web framework that can make your work easier.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "8a6afbdaede518beb873aad20c765439c0098dc79fe3890d5fbbc3bea4f5fe31",
+  "features": {
+    "acme": [
+      "salvo_core/acme"
+    ],
+    "affix": [
+      "salvo_extra/affix"
+    ],
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic-auth": [
+      "salvo_extra/basic-auth"
+    ],
+    "cache": [
+      "dep:salvo-cache"
+    ],
+    "caching-headers": [
+      "salvo_extra/caching-headers"
+    ],
+    "catch-panic": [
+      "salvo_extra/catch-panic"
+    ],
+    "compression": [
+      "dep:salvo-compression"
+    ],
+    "concurrency-limiter": [
+      "salvo_extra/concurrency-limiter"
+    ],
+    "cookie": [
+      "salvo_core/cookie"
+    ],
+    "cors": [
+      "dep:salvo-cors"
+    ],
+    "csrf": [
+      "dep:salvo-csrf"
+    ],
+    "default": [
+      "cookie",
+      "http1",
+      "fix-http1-request-uri",
+      "http2",
+      "test"
+    ],
+    "eyre": [
+      "salvo_core/eyre"
+    ],
+    "fix-http1-request-uri": [
+      "salvo_core/fix-http1-request-uri"
+    ],
+    "flash": [
+      "dep:salvo-flash"
+    ],
+    "force-https": [
+      "salvo_extra/force-https"
+    ],
+    "full": [
+      "cookie",
+      "http1",
+      "fix-http1-request-uri",
+      "http2",
+      "quinn",
+      "rustls",
+      "native-tls",
+      "openssl",
+      "unix",
+      "acme",
+      "tower-compat",
+      "anyhow",
+      "eyre",
+      "test",
+      "affix",
+      "basic-auth",
+      "force-https",
+      "jwt-auth",
+      "catch-panic",
+      "compression",
+      "logging",
+      "proxy",
+      "concurrency-limiter",
+      "rate-limiter",
+      "sse",
+      "trailing-slash",
+      "timeout",
+      "websocket",
+      "request-id",
+      "caching-headers",
+      "cache",
+      "cors",
+      "csrf",
+      "flash",
+      "rate-limiter",
+      "session",
+      "serve-static",
+      "otel",
+      "oapi"
+    ],
+    "http1": [
+      "salvo_core/http1"
+    ],
+    "http2": [
+      "salvo_core/http2"
+    ],
+    "jwt-auth": [
+      "dep:salvo-jwt-auth"
+    ],
+    "logging": [
+      "salvo_extra/logging"
+    ],
+    "native-tls": [
+      "salvo_core/native-tls"
+    ],
+    "oapi": [
+      "dep:salvo-oapi"
+    ],
+    "openssl": [
+      "salvo_core/openssl"
+    ],
+    "otel": [
+      "dep:salvo-otel"
+    ],
+    "proxy": [
+      "salvo-proxy"
+    ],
+    "quinn": [
+      "salvo_core/quinn"
+    ],
+    "rate-limiter": [
+      "dep:salvo-rate-limiter"
+    ],
+    "request-id": [
+      "salvo_extra/request-id"
+    ],
+    "rustls": [
+      "salvo_core/rustls"
+    ],
+    "serve-static": [
+      "dep:salvo-serve-static"
+    ],
+    "session": [
+      "dep:salvo-session"
+    ],
+    "size-limiter": [
+      "salvo_extra/size-limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "test": [
+      "salvo_core/test"
+    ],
+    "timeout": [
+      "salvo_extra/timeout"
+    ],
+    "tower-compat": [
+      "salvo_core/tower-compat"
+    ],
+    "trailing-slash": [
+      "salvo_extra/trailing-slash"
+    ],
+    "unix": [
+      "salvo_core/unix"
+    ],
+    "websocket": [
+      "salvo_extra/websocket"
+    ]
+  },
+  "downloads": 6711,
+  "yanked": false,
+  "repository": "https://github.com/salvo-rs/salvo",
+  "homepage": "https://salvo.rs",
+  "keywords": [
+    "http",
+    "web",
+    "server",
+    "async",
+    "framework"
+  ],
+  "categories": [
+    "Asynchronous",
+    "Network programming",
+    "HTTP server",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "salvo_core",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "salvo-cache",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "salvo-compression",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "salvo-cors",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "salvo-csrf",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "salvo-flash",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "salvo-jwt-auth",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "salvo-oapi",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "salvo-otel",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "salvo-proxy",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "salvo-rate-limiter",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "salvo-serve-static",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "salvo-session",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "salvo_extra",
+      "requirement": "^0.58.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn",
+    "name": "Chrislearn Young"
+  },
+  "publishedAt": "2023-10-18T07:56:41.333417Z",
+  "captured_at": "2026-05-27T19:52:33.057Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
