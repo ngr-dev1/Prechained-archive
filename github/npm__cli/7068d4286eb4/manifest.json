@@ -1,0 +1,56 @@
+{
+  "repo": "npm/cli",
+  "commit_sha": "7068d4286eb446fdb0ded08d15d7b5c3883d80f5",
+  "tree_sha": "d49ce34214e87fbe134a4135cf51974ccda0bbd8",
+  "branch": "latest",
+  "ecosystem": "github",
+  "description": "the package manager for JavaScript",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 9787,
+  "watchers": 9787,
+  "forks": 4368,
+  "open_issues": 624,
+  "language": "JavaScript",
+  "topics": [
+    "javascript",
+    "nodejs",
+    "npm",
+    "npm-cli",
+    "package-manager",
+    "tools"
+  ],
+  "commit_message": "feat: Phase 1 of `allowScripts` opt-in install-script policy (#9360)\n\nImplements Phase 1 of\n[npm/rfcs#868](https://github.com/npm/rfcs/pull/868), which makes\ndependency install scripts opt-in.\n\n**Install behaviour is unchanged.** Scripts still run as they always\nhave. The only Phase 1 user-visible change is one advisory block at the\nend of `npm install` listing packages whose install scripts haven't been\nreviewed via the new `allowScripts` field in `package.json`. A future\nrelease will turn that",
+  "commit_author": {
+    "name": "Jamie Magee",
+    "email": "jamie.magee@gmail.com",
+    "date": "2026-05-27T15:06:03Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-27T15:06:03Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "33aebaa58541ac0af3882cc0b56f09b1b676740a"
+  ],
+  "github_author_login": "JamieMagee",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "latest",
+  "pushed_at": "2026-05-27T15:10:55Z",
+  "created_at": "2018-07-05T23:26:52Z",
+  "homepage": "https://docs.npmjs.com/cli/",
+  "size_kb": 174875,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-27T15:11:52.306Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
