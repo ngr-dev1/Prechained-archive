@@ -1,0 +1,58 @@
+{
+  "repo": "SeleniumHQ/selenium",
+  "commit_sha": "83b0c35e90e0ccbd2505e806617e89469d8f4d71",
+  "tree_sha": "ca9e642633304d53d516baefe6083c55f8a8a288",
+  "branch": "trunk",
+  "ecosystem": "github",
+  "description": "A browser automation framework and ecosystem.",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 34123,
+  "watchers": 34123,
+  "forks": 8683,
+  "open_issues": 193,
+  "language": "Java",
+  "topics": [
+    "dotnet",
+    "java",
+    "javascript",
+    "python",
+    "ruby",
+    "rust",
+    "selenium",
+    "webdriver"
+  ],
+  "commit_message": "[grid] Apply the WebSocket frame fast path on the Node (#17545)\n\nThe Router has had a direct frame-forwarding path between the Netty\npipeline and the upstream JDK WebSocket since db9b07aa5a (2026-03-11,\n\"[grid] Router WebSocket handle dropped close frames, idle disconnects,\nhigh-latency proxying\", #17197). Once the client-side handshake\ncompletes, an inbound WebSocketFrameProxy forwards each Netty\nWebSocketFrame straight to the upstream WebSocket, and the outbound\nDirectForwardingListener writes",
+  "commit_author": {
+    "name": "Simon Mavi Stewart",
+    "email": "simon.m.stewart@gmail.com",
+    "date": "2026-05-27T17:18:46Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-27T17:18:46Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "73019cd6f690d6bc7ad4a759736663ebc35a099a"
+  ],
+  "github_author_login": "shs96c",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "trunk",
+  "pushed_at": "2026-05-27T18:43:49Z",
+  "created_at": "2013-01-14T21:40:56Z",
+  "homepage": "https://selenium.dev",
+  "size_kb": 2361538,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-27T23:25:18.943Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
