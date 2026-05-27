@@ -1,0 +1,54 @@
+{
+  "repo": "sigstore/rekor-tiles",
+  "commit_sha": "7687c8d1f72091eede6d52ff2f32af3a6171aa92",
+  "tree_sha": "b2ac8d1275e913f0c339879b19e4638deb8a5604",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Signature Transparency Log designed for ease of use, low cost, and minimal maintenance",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 39,
+  "watchers": 39,
+  "forks": 23,
+  "open_issues": 38,
+  "language": "Go",
+  "topics": [
+    "provenance",
+    "security",
+    "supply-chain",
+    "transparency-log"
+  ],
+  "commit_message": "Limit client response reads, set default timeouts, and validate digest sizes (#806)\n\nThis change adds a few best practices as suggested by Gemini.\n\n* Bounded the write client's server response body reading to a maximum of 10MB.\n* Set a default HTTP client request timeout of 30 seconds.\n* Validated HashedRekord request digest lengths against the output size of the declared hash algorithm.\n\nSigned-off-by: Hayden <8418760+Hayden-IO@users.noreply.github.com>",
+  "commit_author": {
+    "name": "Hayden",
+    "email": "8418760+Hayden-IO@users.noreply.github.com",
+    "date": "2026-05-27T07:24:47Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-27T07:24:47Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "6a6ce797e06a3a11ae45371f5fd66491bbb92161"
+  ],
+  "github_author_login": "Hayden-IO",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-27T07:24:49Z",
+  "created_at": "2025-02-21T20:24:05Z",
+  "homepage": "https://sigstore.dev",
+  "size_kb": 1850,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-27T08:57:24.508Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
