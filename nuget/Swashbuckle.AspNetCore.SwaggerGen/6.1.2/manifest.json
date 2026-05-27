@@ -1,0 +1,133 @@
+{
+  "name": "Swashbuckle.AspNetCore.SwaggerGen",
+  "version": "6.1.2",
+  "ecosystem": "nuget",
+  "description": "Swagger Generator for APIs built on ASP.NET Core",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Swashbuckle.AspNetCore.SwaggerGen"
+  ],
+  "owners": [],
+  "tags": [
+    "swagger",
+    "documentation",
+    "discovery",
+    "help",
+    "webapi",
+    "aspnet",
+    "aspnetcore"
+  ],
+  "projectUrl": "https://github.com/domaindrivendev/Swashbuckle.AspNetCore",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Swashbuckle.AspNetCore.Swagger",
+      "range": "[6.1.2, )",
+      "targetFramework": ".NETCoreApp3.0"
+    },
+    {
+      "id": "Swashbuckle.AspNetCore.Swagger",
+      "range": "[6.1.2, )",
+      "targetFramework": "net5.0"
+    },
+    {
+      "id": "Swashbuckle.AspNetCore.Swagger",
+      "range": "[6.1.2, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.AspNetCore.Mvc.ApiExplorer",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.AspNetCore.Mvc.DataAnnotations",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Text.Json",
+      "range": "[4.6.0, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.04.09.16.47.58/swashbuckle.aspnetcore.swaggergen.6.1.2.json#dependencygroup/.netcoreapp3.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.04.09.16.47.58/swashbuckle.aspnetcore.swaggergen.6.1.2.json#dependencygroup/.netcoreapp3.0/swashbuckle.aspnetcore.swagger",
+          "@type": "PackageDependency",
+          "id": "Swashbuckle.AspNetCore.Swagger",
+          "range": "[6.1.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/swashbuckle.aspnetcore.swagger/index.json"
+        }
+      ],
+      "targetFramework": ".NETCoreApp3.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.04.09.16.47.58/swashbuckle.aspnetcore.swaggergen.6.1.2.json#dependencygroup/net5.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.04.09.16.47.58/swashbuckle.aspnetcore.swaggergen.6.1.2.json#dependencygroup/net5.0/swashbuckle.aspnetcore.swagger",
+          "@type": "PackageDependency",
+          "id": "Swashbuckle.AspNetCore.Swagger",
+          "range": "[6.1.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/swashbuckle.aspnetcore.swagger/index.json"
+        }
+      ],
+      "targetFramework": "net5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.04.09.16.47.58/swashbuckle.aspnetcore.swaggergen.6.1.2.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.04.09.16.47.58/swashbuckle.aspnetcore.swaggergen.6.1.2.json#dependencygroup/.netstandard2.0/swashbuckle.aspnetcore.swagger",
+          "@type": "PackageDependency",
+          "id": "Swashbuckle.AspNetCore.Swagger",
+          "range": "[6.1.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/swashbuckle.aspnetcore.swagger/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.04.09.16.47.58/swashbuckle.aspnetcore.swaggergen.6.1.2.json#dependencygroup/.netstandard2.0/microsoft.aspnetcore.mvc.apiexplorer",
+          "@type": "PackageDependency",
+          "id": "Microsoft.AspNetCore.Mvc.ApiExplorer",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.aspnetcore.mvc.apiexplorer/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.04.09.16.47.58/swashbuckle.aspnetcore.swaggergen.6.1.2.json#dependencygroup/.netstandard2.0/microsoft.aspnetcore.mvc.dataannotations",
+          "@type": "PackageDependency",
+          "id": "Microsoft.AspNetCore.Mvc.DataAnnotations",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.aspnetcore.mvc.dataannotations/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.04.09.16.47.58/swashbuckle.aspnetcore.swaggergen.6.1.2.json#dependencygroup/.netstandard2.0/system.text.json",
+          "@type": "PackageDependency",
+          "id": "System.Text.Json",
+          "range": "[4.6.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.json/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2021-04-09T16:46:15.58+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": null,
+  "readmeUrl": null,
+  "captured_at": "2026-05-27T21:57:28.345Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
