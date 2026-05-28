@@ -1,0 +1,157 @@
+{
+  "name": "syn",
+  "version": "1.0.31",
+  "ecosystem": "cargo",
+  "description": "Parser for Rust source code",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b5304cfdf27365b7585c25d4af91b35016ed21ef88f17ced89c7093b43dba8b6",
+  "features": {
+    "clone-impls": [],
+    "default": [
+      "derive",
+      "parsing",
+      "printing",
+      "clone-impls",
+      "proc-macro"
+    ],
+    "derive": [],
+    "extra-traits": [],
+    "fold": [],
+    "full": [],
+    "parsing": [],
+    "printing": [
+      "quote"
+    ],
+    "proc-macro": [
+      "proc-macro2/proc-macro",
+      "quote/proc-macro"
+    ],
+    "test": [
+      "syn-test-suite/all-features"
+    ],
+    "visit": [],
+    "visit-mut": []
+  },
+  "downloads": 772263,
+  "yanked": false,
+  "repository": "https://github.com/dtolnay/syn",
+  "homepage": null,
+  "keywords": [
+    "macros",
+    "syn"
+  ],
+  "categories": [
+    "Parser implementations",
+    "Procedural macro helpers"
+  ],
+  "dependencies": [
+    {
+      "name": "anyhow",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "flate2",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "insta",
+      "requirement": "^0.16",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "proc-macro2",
+      "requirement": "^1.0.13",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rayon",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ref-cast",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "reqwest",
+      "requirement": "^0.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "syn-test-suite",
+      "requirement": "^0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tar",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "termcolor",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "unicode-xid",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "walkdir",
+      "requirement": "^2.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quote",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 3618,
+    "login": "dtolnay",
+    "name": "David Tolnay"
+  },
+  "publishedAt": "2020-06-10T03:28:07.623896Z",
+  "captured_at": "2026-05-28T03:30:29.097Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
