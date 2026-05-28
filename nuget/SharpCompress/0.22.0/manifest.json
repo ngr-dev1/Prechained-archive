@@ -1,0 +1,122 @@
+{
+  "name": "SharpCompress",
+  "version": "0.22.0",
+  "ecosystem": "nuget",
+  "description": "SharpCompress is a compression library for NET Standard 1.0 that can unrar, decompress 7zip, decompress xz, zip/unzip, tar/untar lzip/unlzip, bzip2/unbzip2 and gzip/ungzip with forward-only reading and file random access APIs. Write support for zip/tar/bzip2/gzip is implemented.",
+  "license": "https://github.com/adamhathcock/sharpcompress/blob/master/LICENSE.txt",
+  "licenseExpression": null,
+  "authors": [
+    "Adam Hathcock"
+  ],
+  "owners": [],
+  "tags": [
+    "rar",
+    "unrar",
+    "zip",
+    "unzip",
+    "bzip2",
+    "gzip",
+    "tar",
+    "7zip",
+    "lzip",
+    "xz"
+  ],
+  "projectUrl": "https://github.com/adamhathcock/sharpcompress",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "NETStandard.Library",
+      "range": "[1.6.1, )",
+      "targetFramework": ".NETStandard1.0"
+    },
+    {
+      "id": "NETStandard.Library",
+      "range": "[1.6.1, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Text.Encoding.CodePages",
+      "range": "[4.5.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Text.Encoding.CodePages",
+      "range": "[4.5.0, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.08.23.51.15/sharpcompress.0.22.0.json#dependencygroup/.netframework3.5",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETFramework3.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.08.23.51.15/sharpcompress.0.22.0.json#dependencygroup/.netframework4.5",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": ".NETFramework4.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.08.23.51.15/sharpcompress.0.22.0.json#dependencygroup/.netstandard1.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.08.23.51.15/sharpcompress.0.22.0.json#dependencygroup/.netstandard1.0/netstandard.library",
+          "@type": "PackageDependency",
+          "id": "NETStandard.Library",
+          "range": "[1.6.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/netstandard.library/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.08.23.51.15/sharpcompress.0.22.0.json#dependencygroup/.netstandard1.3",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.08.23.51.15/sharpcompress.0.22.0.json#dependencygroup/.netstandard1.3/netstandard.library",
+          "@type": "PackageDependency",
+          "id": "NETStandard.Library",
+          "range": "[1.6.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/netstandard.library/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.08.23.51.15/sharpcompress.0.22.0.json#dependencygroup/.netstandard1.3/system.text.encoding.codepages",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encoding.CodePages",
+          "range": "[4.5.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encoding.codepages/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.08.23.51.15/sharpcompress.0.22.0.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.08.23.51.15/sharpcompress.0.22.0.json#dependencygroup/.netstandard2.0/system.text.encoding.codepages",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encoding.CodePages",
+          "range": "[4.5.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encoding.codepages/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2018-07-09T08:08:16.403+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": null,
+  "readmeUrl": null,
+  "captured_at": "2026-05-28T22:47:25.992Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
