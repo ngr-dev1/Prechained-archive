@@ -1,0 +1,82 @@
+{
+  "name": "metrics",
+  "version": "0.2.3",
+  "ecosystem": "cargo",
+  "description": "A lightweight metrics facade.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "8996a0b7644012c092405082e20930fc2fe3124b0a225b6a6baa5c10f60e9997",
+  "features": {
+    "prometheus": [
+      "prometheus_reporter",
+      "protobuf"
+    ]
+  },
+  "downloads": 12403,
+  "yanked": false,
+  "repository": "https://github.com/metrics-rs/metrics",
+  "homepage": "https://github.com/metrics-rs/metrics",
+  "keywords": [
+    "facade",
+    "metrics"
+  ],
+  "categories": [
+    "Debugging"
+  ],
+  "dependencies": [
+    {
+      "name": "histogram",
+      "requirement": "^0.6.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^0.10.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "iron",
+      "requirement": "^0.5.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.3.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.1.36",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "prometheus_reporter",
+      "requirement": "^0.0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "protobuf",
+      "requirement": "^1.2.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-05-25T05:52:40.609309Z",
+  "captured_at": "2026-05-28T14:57:26.179Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
