@@ -1,0 +1,208 @@
+{
+  "name": "leptos",
+  "version": "0.6.12",
+  "ecosystem": "cargo",
+  "description": "Leptos is a full-stack, isomorphic Rust web framework leveraging fine-grained reactivity to build declarative user interfaces.",
+  "license": "MIT",
+  "checksum": "b5fae88b21265cbb847c891d7cf660e284a1282da15459691992be9358e906fb",
+  "features": {
+    "csr": [
+      "leptos_dom/csr",
+      "leptos_macro/csr",
+      "leptos_reactive/csr",
+      "leptos_server/csr",
+      "dep:wasm-bindgen"
+    ],
+    "default": [
+      "serde"
+    ],
+    "default-tls": [
+      "leptos_server/default-tls",
+      "server_fn/default-tls"
+    ],
+    "experimental-islands": [
+      "leptos_dom/experimental-islands",
+      "leptos_macro/experimental-islands",
+      "leptos_reactive/experimental-islands",
+      "dep:serde",
+      "dep:serde_json"
+    ],
+    "hydrate": [
+      "leptos_dom/hydrate",
+      "leptos_macro/hydrate",
+      "leptos_reactive/hydrate",
+      "leptos_server/hydrate",
+      "dep:wasm-bindgen"
+    ],
+    "miniserde": [
+      "leptos_reactive/miniserde"
+    ],
+    "nightly": [
+      "leptos_dom/nightly",
+      "leptos_macro/nightly",
+      "leptos_reactive/nightly",
+      "leptos_server/nightly"
+    ],
+    "nonce": [
+      "leptos_dom/nonce"
+    ],
+    "rkyv": [
+      "leptos_reactive/rkyv"
+    ],
+    "rustls": [
+      "leptos_server/rustls",
+      "server_fn/rustls"
+    ],
+    "serde": [
+      "leptos_reactive/serde"
+    ],
+    "serde-lite": [
+      "leptos_reactive/serde-lite"
+    ],
+    "spin": [
+      "leptos_reactive/spin",
+      "leptos-spin-macro"
+    ],
+    "ssr": [
+      "leptos_dom/ssr",
+      "leptos_macro/ssr",
+      "leptos_reactive/ssr",
+      "leptos_server/ssr",
+      "server_fn/ssr"
+    ],
+    "template_macro": [
+      "leptos_dom/web",
+      "dep:wasm-bindgen"
+    ],
+    "trace-component-props": [
+      "leptos_dom/trace-component-props",
+      "leptos_macro/trace-component-props"
+    ],
+    "tracing": [
+      "leptos_macro/tracing"
+    ]
+  },
+  "downloads": 61784,
+  "yanked": false,
+  "repository": "https://github.com/leptos-rs/leptos",
+  "homepage": "https://leptos.dev/",
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "leptos_config",
+      "requirement": "^0.6.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "leptos_dom",
+      "requirement": "^0.6.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "leptos_macro",
+      "requirement": "^0.6.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "leptos_reactive",
+      "requirement": "^0.6.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "leptos_server",
+      "requirement": "^0.6.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "server_fn",
+      "requirement": "^0.6.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "typed-builder",
+      "requirement": "^0.18",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "typed-builder-macro",
+      "requirement": "^0.18",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "web-sys",
+      "requirement": "^0.3.63",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "leptos-spin-macro",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 130155,
+    "login": "gbj",
+    "name": "Greg Johnston"
+  },
+  "publishedAt": "2024-06-02T18:11:12.651095Z",
+  "captured_at": "2026-05-28T07:07:24.276Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
