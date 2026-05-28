@@ -1,0 +1,109 @@
+{
+  "name": "sanitize-html",
+  "version": "1.20.1",
+  "ecosystem": "npm",
+  "description": "Clean up user-submitted HTML, preserving allowlisted elements and allowlisted attributes on a per-element basis",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "xtend": "^4.0.1",
+    "srcset": "^1.0.0",
+    "postcss": "^7.0.5",
+    "htmlparser2": "^3.10.0",
+    "lodash.isstring": "^4.0.1",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.mergewith": "^4.6.1",
+    "lodash.escaperegexp": "^4.1.2",
+    "lodash.isplainobject": "^4.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "babelify": "^10.0.0",
+    "babel-cli": "^6.26.0",
+    "uglify-js": "^3.4.9",
+    "browserify": "^16.2.3",
+    "babel-preset-env": "^1.7.0"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "true",
+    "prepublish": null,
+    "prepublishOnly": "make clean && npm run minify"
+  },
+  "maintainers": [
+    {
+      "name": "alexgilbert",
+      "email": "alex@punkave.com"
+    },
+    {
+      "name": "austinstarin",
+      "email": "austin@punkave.com"
+    },
+    {
+      "name": "bgantick",
+      "email": "bgantick@gmail.com"
+    },
+    {
+      "name": "boutell",
+      "email": "tom@punkave.com"
+    },
+    {
+      "name": "colpanik",
+      "email": "kerry@punkave.com"
+    },
+    {
+      "name": "grdunn",
+      "email": "grdunn@gmail.com"
+    },
+    {
+      "name": "jimmyh",
+      "email": "jimmy@punkave.com"
+    },
+    {
+      "name": "mtthwmnc",
+      "email": "matthew.mance@gmail.com"
+    },
+    {
+      "name": "stuartromanek",
+      "email": "stuart@punkave.com"
+    }
+  ],
+  "author": {
+    "name": "P'unk Avenue LLC"
+  },
+  "publishedAt": "2019-04-25T16:55:44.284Z",
+  "dist": {
+    "integrity": "sha512-txnH8TQjaQvg2Q0HY06G6CDJLVYCpbnxrdO0WN8gjCKaU5J0KbyGYhZxx5QJg3WLZ1lB7XU9kDkfrCXUozqptA==",
+    "shasum": "f6effdf55dd398807171215a62bfc21811bacf85",
+    "tarball": "https://registry.npmjs.org/sanitize-html/-/sanitize-html-1.20.1.tgz",
+    "fileCount": 7,
+    "unpackedSize": 1048905
+  },
+  "repository": {
+    "url": "git+https://github.com/punkave/sanitize-html.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/punkave/sanitize-html#readme",
+  "bugs": {
+    "url": "https://github.com/punkave/sanitize-html/issues"
+  },
+  "keywords": [
+    "html",
+    "parser",
+    "sanitizer",
+    "html",
+    "sanitizer",
+    "apostrophe"
+  ],
+  "_npmUser": {
+    "name": "bgantick",
+    "email": "bgantick@gmail.com"
+  },
+  "captured_at": "2026-05-28T02:50:49.679Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
