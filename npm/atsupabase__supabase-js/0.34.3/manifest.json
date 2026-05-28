@@ -1,0 +1,87 @@
+{
+  "name": "@supabase/supabase-js",
+  "version": "0.34.3",
+  "ecosystem": "npm",
+  "description": "Isomorphic Javascript SDK for Supabase",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "superagent": "^5.2.1",
+    "@supabase/doctest-js": "^0.1.0",
+    "@supabase/realtime-js": "^0.9.0",
+    "@supabase/postgrest-js": "^0.16.1"
+  },
+  "devDependencies": {
+    "nyc": "^15.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^8.0.1",
+    "rimraf": "^3.0.2",
+    "cross-env": "^7.0.2",
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "babel-polyfill": "^6.26.0",
+    "@babel/register": "^7.8.3",
+    "chai-as-promised": "^7.1.1",
+    "@babel/preset-env": "^7.8.3",
+    "babel-preset-minify": "^0.5.1",
+    "jest-websocket-mock": "^2.0.1",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "babel-plugin-add-module-exports": "^1.0.0"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "npm run clean && npm run build",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "ange1ico",
+      "email": "angelico.delosreyes@gmail.com"
+    },
+    {
+      "name": "awalias",
+      "email": "antwilson@hotmail.co.uk"
+    },
+    {
+      "name": "kiwicopple",
+      "email": "pcopplestone@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Supabase"
+  },
+  "publishedAt": "2020-07-23T05:16:31.399Z",
+  "dist": {
+    "integrity": "sha512-rImQs3zHXvjtcRg3+2gM21Ei8xCcFD/S2zFGiH/z+VMsFic1rLfxl6MO2/qagBfugJLC1rQsqvWZy4xaMbPleA==",
+    "shasum": "cb07d5b0defefdf97d2d82bb5949a8f25279e4a2",
+    "tarball": "https://registry.npmjs.org/@supabase/supabase-js/-/supabase-js-0.34.3.tgz",
+    "fileCount": 13,
+    "unpackedSize": 35554
+  },
+  "repository": {
+    "url": "git+https://github.com/supabase/supabase.git",
+    "type": "git"
+  },
+  "homepage": "https://supabase.io",
+  "bugs": {
+    "url": "https://github.com/supabase/supabase/issues"
+  },
+  "keywords": [
+    "supabase",
+    "realtime",
+    "postgrest",
+    "javascript"
+  ],
+  "_npmUser": {
+    "name": "kiwicopple",
+    "email": "pcopplestone@gmail.com"
+  },
+  "captured_at": "2026-05-28T03:18:05.667Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "b309a94b7d16a9af01072213a8e8291058958c8c9ec7b3d6d3cb1c0e9b513104d469b0f5a423dd2d232c4014ed8060e0"
+}
