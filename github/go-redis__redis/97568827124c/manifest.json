@@ -1,0 +1,55 @@
+{
+  "repo": "go-redis/redis",
+  "commit_sha": "97568827124c58f1338d78b9535edc0eb9435453",
+  "tree_sha": "971af4a539e8fbdd3993efe2cd0966e216d0b940",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Redis Go client",
+  "license": "BSD-2-Clause",
+  "license_name": "BSD 2-Clause \"Simplified\" License",
+  "stars": 22109,
+  "watchers": 22109,
+  "forks": 2555,
+  "open_issues": 60,
+  "language": "Go",
+  "topics": [
+    "go",
+    "golang",
+    "redis",
+    "redis-client",
+    "redis-cluster"
+  ],
+  "commit_message": "fix(test): make waitForSentinelClusterStable robust to disconnected r… (#3830)\n\n* fix(test): make waitForSentinelClusterStable robust to disconnected replicas\n\nCI on master sporadically fails the universal_test.go spec\n\"should connect to failover servers on slaves when readonly Options is ok\"\nwith `Expected master to equal slave`. The flake reproduces only when the\nrandom spec order puts the sentinel-failover Describe block before the\nuniversal_test spec.\n\nRoot cause is in waitForSentinelCluster",
+  "commit_author": {
+    "name": "Nedyalko Dyakov",
+    "email": "1547186+ndyakov@users.noreply.github.com",
+    "date": "2026-05-27T15:01:01Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-27T15:01:01Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "875ce21e4862a7913edb5308b16869141ce5e833"
+  ],
+  "github_author_login": "ndyakov",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-05-27T21:31:03Z",
+  "created_at": "2012-07-25T13:01:39Z",
+  "homepage": "https://redis.io",
+  "size_kb": 18041,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-28T02:57:28.431Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
