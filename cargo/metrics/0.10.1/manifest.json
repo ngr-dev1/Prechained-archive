@@ -1,0 +1,192 @@
+{
+  "name": "metrics",
+  "version": "0.10.1",
+  "ecosystem": "cargo",
+  "description": "A lightweight metrics facade.",
+  "license": "MIT",
+  "checksum": "9fe5c5cf52817c1a7248d9a584de1618f7af3ddb01cd115cf5479baf698085b9",
+  "features": {
+    "default": [
+      "exporters",
+      "recorders"
+    ],
+    "exporters": [
+      "metrics-exporter-log",
+      "metrics-exporter-http"
+    ],
+    "recorders": [
+      "metrics-recorder-text",
+      "metrics-recorder-prometheus"
+    ]
+  },
+  "downloads": 5402,
+  "yanked": false,
+  "repository": "https://github.com/metrics-rs/metrics",
+  "homepage": "https://github.com/metrics-rs/metrics",
+  "keywords": [
+    "facade",
+    "metrics"
+  ],
+  "categories": [
+    "Debugging"
+  ],
+  "dependencies": [
+    {
+      "name": "arc-swap",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.2.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "crossbeam-utils",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "env_logger",
+      "requirement": "^0.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fxhash",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "getopts",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hashbrown",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hdrhistogram",
+      "requirement": "^6.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "im",
+      "requirement": "^12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "metrics-core",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "metrics-facade",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "metrics-util",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "parking_lot",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quanta",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "metrics-exporter-http",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "metrics-exporter-log",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "metrics-recorder-prometheus",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "metrics-recorder-text",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 10075,
+    "login": "tobz",
+    "name": "Toby Lawrence"
+  },
+  "publishedAt": "2019-06-12T01:38:55.205906Z",
+  "captured_at": "2026-05-28T13:17:46.717Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
