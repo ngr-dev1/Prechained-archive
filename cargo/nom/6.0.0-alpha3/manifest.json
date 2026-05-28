@@ -1,0 +1,118 @@
+{
+  "name": "nom",
+  "version": "6.0.0-alpha3",
+  "ecosystem": "cargo",
+  "description": "A byte-oriented, zero-copy, parser combinators library",
+  "license": "MIT",
+  "checksum": "acfdb15f1bbe80f55976605acfd7ee58424bac92f04ba96361cc3c7cacafb045",
+  "features": {
+    "alloc": [
+      "bitvec/alloc"
+    ],
+    "default": [
+      "std",
+      "bitvec",
+      "lexical"
+    ],
+    "lexical": [
+      "lexical-core"
+    ],
+    "regexp": [
+      "regex"
+    ],
+    "std": [
+      "alloc",
+      "bitvec/std",
+      "memchr/use_std"
+    ]
+  },
+  "downloads": 6101,
+  "yanked": false,
+  "repository": "https://github.com/rust-bakery/nom",
+  "homepage": null,
+  "keywords": [
+    "bit",
+    "parser",
+    "parser-combinators",
+    "parsing",
+    "streaming"
+  ],
+  "categories": [
+    "Parsing tools"
+  ],
+  "dependencies": [
+    {
+      "name": "criterion",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "doc-comment",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "jemallocator",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "memchr",
+      "requirement": "^2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "version_check",
+      "requirement": "^0.9",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bitvec",
+      "requirement": "^0.19.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "lexical-core",
+      "requirement": ">=0.6, <0.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 959,
+    "login": "Geal",
+    "name": "Geoffroy Couprie"
+  },
+  "publishedAt": "2020-10-04T16:12:46.426178Z",
+  "captured_at": "2026-05-28T10:57:25.681Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
