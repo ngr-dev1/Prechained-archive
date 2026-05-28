@@ -1,0 +1,114 @@
+{
+  "name": "time",
+  "version": "0.2.12",
+  "ecosystem": "cargo",
+  "description": "Date and time library. Fully interoperable with the standard library. Mostly compatible with #![no_std].",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b360ea5d21fa3f84cb059710501698e91a63dd49fbcc5d0491e4241f5019ee0c",
+  "features": {
+    "__doc": [],
+    "default": [
+      "deprecated",
+      "std"
+    ],
+    "deprecated": [],
+    "panicking-api": [],
+    "std": [
+      "libc",
+      "winapi",
+      "stdweb",
+      "standback/std"
+    ]
+  },
+  "downloads": 9586,
+  "yanked": false,
+  "repository": "https://github.com/time-rs/time",
+  "homepage": "https://time-rs.github.io",
+  "keywords": [
+    "calendar",
+    "date",
+    "duration",
+    "time"
+  ],
+  "categories": [
+    "Date and time",
+    "Value formatting",
+    "Parser implementations",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^0.1.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "standback",
+      "requirement": "^0.2.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "time-macros",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "version_check",
+      "requirement": "^0.9",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "serde",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "stdweb",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "winapi",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 15682,
+    "login": "jhpratt",
+    "name": "Jacob Pratt"
+  },
+  "publishedAt": "2020-04-30T23:03:39.625653Z",
+  "captured_at": "2026-05-28T08:37:21.841Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
