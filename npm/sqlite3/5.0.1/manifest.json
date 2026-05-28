@@ -1,0 +1,93 @@
+{
+  "name": "sqlite3",
+  "version": "5.0.1",
+  "ecosystem": "npm",
+  "description": "Asynchronous, non-blocking SQLite3 bindings",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "node-gyp": "3.x",
+    "node-pre-gyp": "^0.11.0",
+    "node-addon-api": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "eslint": "3.5.0",
+    "aws-sdk": "2.x",
+    "@mapbox/cloudfriend": "^1.9.0"
+  },
+  "peerDependencies": {
+    "node-gyp": "3.x"
+  },
+  "engines": {},
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "springmeyer",
+      "email": "dane@mapbox.com"
+    },
+    {
+      "name": "kkaefer",
+      "email": "mail@kkaefer.com"
+    },
+    {
+      "name": "tmcw",
+      "email": "tom@macwright.org"
+    },
+    {
+      "name": "yhahn",
+      "email": "young@mapbox.com"
+    },
+    {
+      "name": "mapsam",
+      "email": "sam@mapbox.com"
+    },
+    {
+      "name": "zmully",
+      "email": "mully@mapbox.com"
+    },
+    {
+      "name": "kewde_",
+      "email": "kewde@particl.io"
+    }
+  ],
+  "author": {
+    "url": "https://mapbox.com/",
+    "name": "MapBox"
+  },
+  "publishedAt": "2021-01-08T14:42:49.075Z",
+  "dist": {
+    "integrity": "sha512-kh2lTIcYNfmVcvhVJihsYuPj9U0xzBbh6bmqILO2hkryWSC9RRhzYmkIDtJkJ+d8Kg4wZRJ0T1reyHUEspICfg==",
+    "shasum": "d5b58c8d1568bbaf13062eb9465982f36324f78a",
+    "tarball": "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.1.tgz",
+    "fileCount": 32,
+    "unpackedSize": 3062835
+  },
+  "repository": {
+    "url": "git://github.com/mapbox/node-sqlite3.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/mapbox/node-sqlite3",
+  "bugs": {
+    "url": "https://github.com/mapbox/node-sqlite3/issues"
+  },
+  "keywords": [
+    "sql",
+    "sqlite",
+    "sqlite3",
+    "database"
+  ],
+  "_npmUser": {
+    "name": "kewde_",
+    "email": "kewde@particl.io"
+  },
+  "captured_at": "2026-05-28T00:17:21.733Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
