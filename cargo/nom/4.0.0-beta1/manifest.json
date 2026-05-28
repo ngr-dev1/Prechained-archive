@@ -1,0 +1,70 @@
+{
+  "name": "nom",
+  "version": "4.0.0-beta1",
+  "ecosystem": "cargo",
+  "description": "A byte-oriented, zero-copy, parser combinators library",
+  "license": "MIT",
+  "checksum": "781f1bc5226e9c61efe53e830cbdf6bec68d2d49581904b297bb4a4e6ce9b462",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "nightly": [],
+    "regexp": [
+      "regex"
+    ],
+    "regexp_macros": [
+      "regexp",
+      "lazy_static"
+    ],
+    "std": [
+      "alloc",
+      "memchr/use_std"
+    ],
+    "verbose-errors": []
+  },
+  "downloads": 9693,
+  "yanked": false,
+  "repository": "https://github.com/rust-bakery/nom",
+  "homepage": null,
+  "keywords": [
+    "bit",
+    "parser",
+    "parser-combinators",
+    "parsing",
+    "streaming"
+  ],
+  "categories": [
+    "Parsing tools"
+  ],
+  "dependencies": [
+    {
+      "name": "memchr",
+      "requirement": "^2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-02-17T18:31:35.961962Z",
+  "captured_at": "2026-05-28T21:37:25.787Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
