@@ -1,0 +1,73 @@
+{
+  "name": "semver",
+  "version": "0.10.0",
+  "ecosystem": "cargo",
+  "description": "Parser and evaluator for Cargo's flavor of Semantic Versioning",
+  "license": "MIT/Apache-2.0",
+  "checksum": "394cec28fa623e00903caf7ba4fa6fb9a0e260280bb8cdbbba029611108a0190",
+  "features": {
+    "ci": [
+      "serde",
+      "diesel/sqlite"
+    ],
+    "default": []
+  },
+  "downloads": 3945979,
+  "yanked": false,
+  "repository": "https://github.com/dtolnay/semver",
+  "homepage": null,
+  "keywords": [
+    "cargo"
+  ],
+  "categories": [
+    "Data structures",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "semver-parser",
+      "requirement": "^0.7.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "diesel",
+      "requirement": "^1.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 8,
+    "login": "steveklabnik",
+    "name": "Steve Klabnik"
+  },
+  "publishedAt": "2020-05-25T03:30:56.926240Z",
+  "captured_at": "2026-05-28T15:17:22.747Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
