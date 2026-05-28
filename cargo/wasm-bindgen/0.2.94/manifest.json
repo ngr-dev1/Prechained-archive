@@ -1,0 +1,95 @@
+{
+  "name": "wasm-bindgen",
+  "version": "0.2.94",
+  "ecosystem": "cargo",
+  "description": "Easy support for interacting between JS and Rust.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "ef073ced962d62984fb38a36e5fdc1a2b23c9e0e1fa0689bb97afa4202ef6887",
+  "features": {
+    "default": [
+      "spans",
+      "std"
+    ],
+    "enable-interning": [
+      "std"
+    ],
+    "gg-alloc": [],
+    "serde-serialize": [
+      "serde",
+      "serde_json",
+      "std"
+    ],
+    "spans": [
+      "wasm-bindgen-macro/spans"
+    ],
+    "std": [],
+    "strict-macro": [
+      "wasm-bindgen-macro/strict-macro"
+    ],
+    "xxx_debug_only_print_generated_code": [
+      "wasm-bindgen-macro/xxx_debug_only_print_generated_code"
+    ]
+  },
+  "downloads": 200373,
+  "yanked": true,
+  "repository": "https://github.com/wasm-bindgen/wasm-bindgen",
+  "homepage": "https://wasm-bindgen.github.io/wasm-bindgen",
+  "keywords": [],
+  "categories": [
+    "WebAssembly"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-macro",
+      "requirement": "=0.2.94",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 1,
+    "login": "alexcrichton",
+    "name": "Alex Crichton"
+  },
+  "publishedAt": "2024-10-09T20:12:49.444775Z",
+  "captured_at": "2026-05-28T06:17:25.176Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
