@@ -1,0 +1,90 @@
+{
+  "name": "@supabase/supabase-js",
+  "version": "0.36.2",
+  "ecosystem": "npm",
+  "description": "Isomorphic Javascript SDK for Supabase",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^5.2.1",
+    "@supabase/realtime-js": "^0.9.0",
+    "@supabase/postgrest-js": "^0.17.0"
+  },
+  "devDependencies": {
+    "nyc": "^15.0.0",
+    "chai": "^4.1.2",
+    "mocha": "^8.0.1",
+    "dotenv": "^8.2.0",
+    "rimraf": "^3.0.2",
+    "webpack": "^4.44.1",
+    "cross-env": "^7.0.2",
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "webpack-cli": "^3.3.12",
+    "babel-polyfill": "^6.26.0",
+    "@babel/register": "^7.8.3",
+    "chai-as-promised": "^7.1.1",
+    "@babel/preset-env": "^7.8.3",
+    "babel-preset-minify": "^0.5.1",
+    "jest-websocket-mock": "^2.0.1",
+    "@supabase/doctest-js": "^0.1.0",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "@babel/plugin-transform-modules-umd": "^7.10.4"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "npm run clean && npm run build && npm run build:umd",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "ange1ico",
+      "email": "angelico.delosreyes@gmail.com"
+    },
+    {
+      "name": "awalias",
+      "email": "antwilson@hotmail.co.uk"
+    },
+    {
+      "name": "kiwicopple",
+      "email": "pcopplestone@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Supabase"
+  },
+  "publishedAt": "2020-08-27T13:19:44.729Z",
+  "dist": {
+    "integrity": "sha512-iD3lX4DYKerTqXguYzpqPRmNA+ZzHrRx4v5DmEO0TixucRFF/u0S7+zdm3WvHvpI7H8Wa/1PmiBJwb0maB1G0w==",
+    "shasum": "5c664fc6639acc5b229210ffa6eb178045daf1ab",
+    "tarball": "https://registry.npmjs.org/@supabase/supabase-js/-/supabase-js-0.36.2.tgz",
+    "fileCount": 15,
+    "unpackedSize": 77773
+  },
+  "repository": {
+    "url": "git+https://github.com/supabase/supabase-js.git",
+    "type": "git"
+  },
+  "homepage": "https://supabase.io",
+  "bugs": {
+    "url": "https://github.com/supabase/supabase-js/issues"
+  },
+  "keywords": [
+    "supabase",
+    "realtime",
+    "postgrest",
+    "javascript"
+  ],
+  "_npmUser": {
+    "name": "kiwicopple",
+    "email": "pcopplestone@gmail.com"
+  },
+  "captured_at": "2026-05-28T03:18:19.541Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "b309a94b7d16a9af01072213a8e8291058958c8c9ec7b3d6d3cb1c0e9b513104d469b0f5a423dd2d232c4014ed8060e0"
+}
