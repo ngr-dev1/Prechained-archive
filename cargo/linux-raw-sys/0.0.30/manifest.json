@@ -1,0 +1,61 @@
+{
+  "name": "linux-raw-sys",
+  "version": "0.0.30",
+  "ecosystem": "cargo",
+  "description": "Generated bindings for Linux's userspace API",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "9a10719b7b556a01c99e065d2d44768737593aeb36a6f42d2aa93bfd6816f1dd",
+  "features": {
+    "default": [
+      "std",
+      "general",
+      "errno"
+    ],
+    "errno": [],
+    "general": [],
+    "netlink": [],
+    "no_std": [
+      "cty"
+    ],
+    "std": [],
+    "v2_6_32": [],
+    "v3_10": [],
+    "v3_2": [],
+    "v4_2": [],
+    "v4_20": [],
+    "v4_4": [],
+    "v5_11": [],
+    "v5_4": []
+  },
+  "downloads": 2927,
+  "yanked": false,
+  "repository": "https://github.com/sunfishcode/linux-raw-sys",
+  "homepage": null,
+  "keywords": [
+    "linux",
+    "ffi",
+    "uapi"
+  ],
+  "categories": [
+    "External FFI bindings"
+  ],
+  "dependencies": [
+    {
+      "name": "cty",
+      "requirement": "^0.2.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode",
+    "name": "Dan Gohman"
+  },
+  "publishedAt": "2021-11-02T14:22:32.283455Z",
+  "captured_at": "2026-05-28T00:27:29.129Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
