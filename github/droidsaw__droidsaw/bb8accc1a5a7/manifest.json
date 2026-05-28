@@ -1,0 +1,63 @@
+{
+  "repo": "droidsaw/droidsaw",
+  "commit_sha": "bb8accc1a5a78cc5a83bdc0d5646c22393032918",
+  "tree_sha": "139f237f0189e3f159a55b21aa24242a4d549634",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Pure-Rust Android decompiler and security-audit suite. DEX → Java, Hermes → JavaScript. Cross-layer taint across the React Native bridge. CycloneDX SBOM + OpenVEX. CLI and MCP. Bytecode is not a security layer.",
+  "license": "BSD-3-Clause",
+  "license_name": "BSD 3-Clause \"New\" or \"Revised\" License",
+  "stars": 13,
+  "watchers": 13,
+  "forks": 0,
+  "open_issues": 0,
+  "language": "Rust",
+  "topics": [
+    "android",
+    "apk",
+    "cyclonedx",
+    "decompiler",
+    "malware-analysis",
+    "mcp",
+    "mobile-security",
+    "openvex",
+    "reverse-engineering",
+    "rust",
+    "sbom",
+    "security",
+    "static-analysis"
+  ],
+  "commit_message": "feat: cross-layer Android RE binary — audit, decompile, taint, MCP server\n\nUnified command surface over APK, XAPK, DEX, and Hermes bundles.\nCrossLayerContext is built once per invocation from a single path;\nMCP sessions don't accumulate leaked buffers across loads.\n\n- audit: Semgrep + TruffleHog + YARA-X + STIX 2.1 in one pass;\n  findings + taint_flows in SQLite\n- taint: HBC → bridge → DEX; 15 sources × 15 sinks; JS NativeModule\n  → @ReactMethod → sink. taint_flow_count = canonical count of\n  HB",
+  "commit_author": {
+    "name": "Mark Esler",
+    "email": "mark@hexproof.dev",
+    "date": "2026-05-25T21:59:48Z"
+  },
+  "commit_committer": {
+    "name": "Mark Esler",
+    "email": "mark@hexproof.dev",
+    "date": "2026-05-25T22:04:57Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "5f0c8d6c298afb96342bedd318260f5be60eb677"
+  ],
+  "github_author_login": "eslerm",
+  "github_committer_login": "eslerm",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-25T23:04:14Z",
+  "created_at": "2026-04-13T23:02:19Z",
+  "homepage": "https://droidsaw.com",
+  "size_kb": 719,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-28T10:37:24.848Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
