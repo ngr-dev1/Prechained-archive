@@ -1,0 +1,164 @@
+{
+  "name": "k256",
+  "version": "0.4.2",
+  "ecosystem": "cargo",
+  "description": "secp256k1 elliptic curve library written in pure Rust with support for ECDSA\nsigning/verification/public-key recovery, Taproot Schnorr signatures (BIP340),\nElliptic Curve Diffie-Hellman (ECDH), and general-purpose secp256k1 elliptic\ncurve group operations which can be used to implement arbitrary protocols\n",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "cb63e78a457abe6e0a36ffee8efffeb1c4887134e696be119854d8d03c0b7aab",
+  "features": {
+    "arithmetic": [],
+    "default": [
+      "arithmetic",
+      "oid",
+      "std"
+    ],
+    "digest": [
+      "ecdsa-core/digest"
+    ],
+    "ecdh": [
+      "elliptic-curve/ecdh",
+      "rand",
+      "zeroize"
+    ],
+    "ecdsa": [
+      "arithmetic",
+      "ecdsa-core/signer",
+      "ecdsa-core/verifier",
+      "rand",
+      "sha256",
+      "zeroize"
+    ],
+    "endomorphism-mul": [],
+    "field-montgomery": [],
+    "force-32-bit": [],
+    "oid": [
+      "elliptic-curve/oid"
+    ],
+    "rand": [
+      "elliptic-curve/rand"
+    ],
+    "sha256": [
+      "digest",
+      "sha2"
+    ],
+    "std": [
+      "elliptic-curve/std"
+    ],
+    "test-vectors": [],
+    "zeroize": [
+      "elliptic-curve/zeroize"
+    ]
+  },
+  "downloads": 27106,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/elliptic-curves",
+  "homepage": "https://github.com/RustCrypto/elliptic-curves/tree/master/k256",
+  "keywords": [
+    "bitcoin",
+    "crypto",
+    "ecc",
+    "ethereum",
+    "secp256k1"
+  ],
+  "categories": [
+    "Cryptocurrencies",
+    "No standard library",
+    "Cryptography"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ecdsa",
+      "requirement": "^0.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "elliptic-curve",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "hex",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hex-literal",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num-bigint",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num-traits",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "proptest",
+      "requirement": "^0.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand_core",
+      "requirement": "^0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ecdsa",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "sha2",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri",
+    "name": "Tony Arcieri"
+  },
+  "publishedAt": "2020-08-12T00:33:39.930868Z",
+  "captured_at": "2026-05-28T17:07:28.787Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
