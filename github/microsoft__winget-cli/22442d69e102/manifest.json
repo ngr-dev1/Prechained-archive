@@ -1,0 +1,54 @@
+{
+  "repo": "microsoft/winget-cli",
+  "commit_sha": "22442d69e102cd6c6b5ec999807e8e39498db540",
+  "tree_sha": "fc47c7602587484249c99e5935e6a27649cedec9",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface).",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 25930,
+  "watchers": 25930,
+  "forks": 1746,
+  "open_issues": 1282,
+  "language": "C++",
+  "topics": [
+    "command-line",
+    "package-manager",
+    "windows",
+    "winget"
+  ],
+  "commit_message": "Honor DSCv3 package installMode for silent and interactive (#6249)\n\n## 📖 Description\nWhen using DSCv3 Microsoft.WinGet/Package resource with installMode:\nsilent specified, WinGet was not honoring the requested mode and instead\ndefaulting to SilentWithProgress. This resulted in progress UI being\nshown and manifest custom switches being omitted from installer\narguments.\n\nThis PR maps the installMode property (declared in DscPackageResource)\nto execution context args (--silent or --interactive) be",
+  "commit_author": {
+    "name": "Kaleb Luedtke",
+    "email": "trenlymc@gmail.com",
+    "date": "2026-05-27T22:11:28Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-27T22:11:28Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "e6fce56a4ecf350561b3656b540280908f1ee9ec"
+  ],
+  "github_author_login": "Trenly",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-05-28T00:29:29Z",
+  "created_at": "2019-07-16T22:16:49Z",
+  "homepage": "https://learn.microsoft.com/windows/package-manager/",
+  "size_kb": 44406,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-28T09:47:25.017Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
