@@ -1,0 +1,80 @@
+{
+  "name": "xss",
+  "version": "1.0.8",
+  "ecosystem": "npm",
+  "description": "Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.3",
+    "cssfilter": "0.0.10"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "debug": "^4.1.1",
+    "mocha": "^6.2.3",
+    "coveralls": "^3.1.0",
+    "uglify-js": "^3.9.4",
+    "browserify": "^16.5.1"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "npm run test && npm run build",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "leizongmin",
+      "email": "leizongmin@gmail.com"
+    }
+  ],
+  "author": {
+    "url": "http://ucdok.com",
+    "name": "Zongmin Lei",
+    "email": "leizongmin@gmail.com"
+  },
+  "publishedAt": "2020-07-27T02:20:45.044Z",
+  "dist": {
+    "integrity": "sha512-3MgPdaXV8rfQ/pNn16Eio6VXYPTkqwa0vc7GkiymmY/DqR1SE/7VPAAVZz1GJsJFrllMYO3RHfEaiUGjab6TNw==",
+    "shasum": "32feb87feb74b3dcd3d404b7a68ababf10700535",
+    "tarball": "https://registry.npmjs.org/xss/-/xss-1.0.8.tgz",
+    "fileCount": 16,
+    "unpackedSize": 140538
+  },
+  "repository": {
+    "url": "git://github.com/leizongmin/js-xss.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/leizongmin/js-xss",
+  "bugs": {
+    "url": "https://github.com/leizongmin/js-xss/issues"
+  },
+  "keywords": [
+    "sanitization",
+    "xss",
+    "sanitize",
+    "sanitisation",
+    "input",
+    "security",
+    "escape",
+    "encode",
+    "filter",
+    "validator",
+    "html",
+    "injection",
+    "whitelist"
+  ],
+  "_npmUser": {
+    "name": "leizongmin",
+    "email": "leizongmin@gmail.com"
+  },
+  "captured_at": "2026-05-28T21:57:21.406Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
