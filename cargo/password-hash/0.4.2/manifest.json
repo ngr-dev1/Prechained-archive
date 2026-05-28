@@ -1,0 +1,70 @@
+{
+  "name": "password-hash",
+  "version": "0.4.2",
+  "ecosystem": "cargo",
+  "description": "Traits which describe the functionality of password hashing algorithms, with optional support for a\n`no_std`/`no_alloc`-friendly implementation of the PHC string format, as well as generic support for other\nformats (e.g. Modular Crypt Format)\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "7676374caaee8a325c9e7a2ae557f216c5563a171d6997b0ef8a65af35147700",
+  "features": {
+    "alloc": [
+      "base64ct/alloc"
+    ],
+    "default": [
+      "rand_core"
+    ],
+    "std": [
+      "alloc",
+      "base64ct/std",
+      "rand_core/std"
+    ]
+  },
+  "downloads": 35284561,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/traits",
+  "homepage": null,
+  "keywords": [
+    "crypt",
+    "mcf",
+    "password",
+    "pbkdf",
+    "phc"
+  ],
+  "categories": [
+    "Authentication",
+    "Cryptography",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "base64ct",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "subtle",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rand_core",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri",
+    "name": "Tony Arcieri"
+  },
+  "publishedAt": "2022-06-28T00:34:45.779683Z",
+  "captured_at": "2026-05-28T13:41:19.646Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
