@@ -1,0 +1,53 @@
+{
+  "name": "flate2",
+  "version": "0.2.9",
+  "ecosystem": "cargo",
+  "description": "DEFLATE compression and decompression exposed as Read/BufRead/Write streams.\nSupports miniz_oxide and multiple zlib implementations. Supports zlib, gzip,\nand raw deflate streams.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "03d49ee68a7644f6db4171e2979fda5482c89cfd31854102b10108f77c92a642",
+  "features": {},
+  "downloads": 55133,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/flate2-rs",
+  "homepage": "https://github.com/rust-lang/flate2-rs",
+  "keywords": [
+    "deflate",
+    "encoding",
+    "gzip",
+    "zlib",
+    "zlib-ng"
+  ],
+  "categories": [
+    "API bindings",
+    "Compression"
+  ],
+  "dependencies": [
+    {
+      "name": "libc",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "miniz-sys",
+      "requirement": "^0.1.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-09-09T23:35:45.633138Z",
+  "captured_at": "2026-05-28T10:07:24.271Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
