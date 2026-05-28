@@ -1,0 +1,133 @@
+{
+  "name": "pbkdf2",
+  "version": "0.5.0",
+  "ecosystem": "cargo",
+  "description": "Generic implementation of PBKDF2",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "7170d73bf11f39b4ce1809aabc95bf5c33564cdc16fc3200ddda17a5f6e5e48b",
+  "features": {
+    "default": [
+      "include_simple",
+      "thread_rng"
+    ],
+    "include_simple": [
+      "sha2",
+      "hmac",
+      "rand_core",
+      "base64",
+      "subtle"
+    ],
+    "parallel": [
+      "rayon",
+      "std"
+    ],
+    "std": [],
+    "thread_rng": [
+      "rand"
+    ]
+  },
+  "downloads": 121390,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/password-hashes",
+  "homepage": "https://github.com/RustCrypto/password-hashes/tree/master/pbkdf2",
+  "keywords": [
+    "crypto",
+    "hashing",
+    "password",
+    "phf"
+  ],
+  "categories": [
+    "Authentication",
+    "No standard library",
+    "Cryptography"
+  ],
+  "dependencies": [
+    {
+      "name": "crypto-mac",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hmac",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "sha-1",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "sha2",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "base64",
+      "requirement": "^0.12",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "hmac",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "rand_core",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "rayon",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "sha2",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "subtle",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri",
+    "name": "Tony Arcieri"
+  },
+  "publishedAt": "2020-08-18T18:39:02.688213Z",
+  "captured_at": "2026-05-28T14:29:57.673Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
