@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "5c25833e49394a3478f69cee3dc458ba4b5ff1d7",
+  "tree_sha": "dbff415e91d63b98a7b9588cd076530f04c78b5f",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100214,
+  "watchers": 100214,
+  "forks": 27863,
+  "open_issues": 18330,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "[dynamo] Generalize ConstantVariable.tp_iter_impl to all iterable constants (#184633)\n\nThe previous tp_iter_impl only special-cased str, so any other iterable value\nthat ended up wrapped in a ConstantVariable (e.g. bytes, or a list smuggled in\nby bypassing ConstantVariable.create's redirect to ListVariable) fell through\nto the base unimplemented path and produced\n\"tp_iter_impl not implemented for <type>\" graph breaks.\n\nDrive iteration off unpack_var_sequence instead: any value whose\nas_python_co",
+  "commit_author": {
+    "name": "Guilherme Leobas",
+    "email": "guilhermeleobas@gmail.com",
+    "date": "2026-05-26T01:36:05Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-05-28T03:37:46Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "6f8064045c77de01e541de37490867bebd6e466e"
+  ],
+  "github_author_login": "guilhermeleobas",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-28T04:51:21Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1364673,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-28T04:52:23.929Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
