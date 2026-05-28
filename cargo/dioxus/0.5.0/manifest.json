@@ -1,0 +1,256 @@
+{
+  "name": "dioxus",
+  "version": "0.5.0",
+  "ecosystem": "cargo",
+  "description": "Build fullstack web, desktop, and mobile apps with a single codebase.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "804134b0ea229772d5841e8bc19b8e41a5b93cb6f6a7d28fdf24cbd44d373687",
+  "features": {
+    "axum": [
+      "dioxus-fullstack?/axum",
+      "dioxus-fullstack?/server",
+      "ssr",
+      "dioxus-liveview?/axum"
+    ],
+    "default": [
+      "macro",
+      "html",
+      "hot-reload",
+      "signals",
+      "hooks",
+      "launch"
+    ],
+    "desktop": [
+      "dioxus-desktop",
+      "dioxus-fullstack?/desktop",
+      "dioxus-config-macro/desktop"
+    ],
+    "fullstack": [
+      "dioxus-fullstack",
+      "dioxus-config-macro/fullstack",
+      "serde",
+      "dioxus-router?/fullstack"
+    ],
+    "hooks": [
+      "dioxus-hooks"
+    ],
+    "hot-reload": [
+      "dioxus-hot-reload"
+    ],
+    "html": [
+      "dioxus-html"
+    ],
+    "launch": [
+      "dioxus-config-macro"
+    ],
+    "liveview": [
+      "dioxus-liveview",
+      "dioxus-config-macro/liveview",
+      "dioxus-router?/liveview"
+    ],
+    "macro": [
+      "dioxus-core-macro"
+    ],
+    "mobile": [
+      "dioxus-mobile",
+      "dioxus-fullstack?/mobile",
+      "dioxus-config-macro/mobile"
+    ],
+    "router": [
+      "dioxus-router"
+    ],
+    "signals": [
+      "dioxus-signals"
+    ],
+    "ssr": [
+      "dioxus-ssr",
+      "dioxus-router?/ssr",
+      "dioxus-config-macro/ssr"
+    ],
+    "third-party-renderer": [],
+    "web": [
+      "dioxus-web",
+      "dioxus-fullstack?/web",
+      "dioxus-config-macro/web",
+      "dioxus-router?/web"
+    ]
+  },
+  "downloads": 8587,
+  "yanked": false,
+  "repository": "https://github.com/DioxusLabs/dioxus/",
+  "homepage": "https://dioxuslabs.com",
+  "keywords": [
+    "desktop",
+    "gui",
+    "mobile",
+    "wasm",
+    "web"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "criterion",
+      "requirement": "^0.3.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-core",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "env_logger",
+      "requirement": "^0.10.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "thiserror",
+      "requirement": "^1.0.40",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.28",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1.37",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-config-macro",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-core-macro",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-desktop",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-fullstack",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-hooks",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-hot-reload",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-html",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-liveview",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-mobile",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-router",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-signals",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "dioxus-ssr",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "dioxus-web",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.136",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 55668,
+    "login": "jkelleyrtp",
+    "name": "Jonathan Kelley"
+  },
+  "publishedAt": "2024-03-28T01:22:33.191041Z",
+  "captured_at": "2026-05-28T06:37:23.407Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
