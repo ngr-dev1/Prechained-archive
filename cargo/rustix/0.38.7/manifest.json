@@ -1,0 +1,287 @@
+{
+  "name": "rustix",
+  "version": "0.38.7",
+  "ecosystem": "cargo",
+  "description": "Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "172891ebdceb05aa0005f533a6cbfca599ddd7d966f6f5d4d9b2e70478e70399",
+  "features": {
+    "all-apis": [
+      "event",
+      "fs",
+      "io_uring",
+      "mm",
+      "mount",
+      "net",
+      "param",
+      "pipe",
+      "process",
+      "procfs",
+      "pty",
+      "rand",
+      "runtime",
+      "system",
+      "stdio",
+      "termios",
+      "thread",
+      "time"
+    ],
+    "cc": [],
+    "default": [
+      "std",
+      "use-libc-auxv"
+    ],
+    "event": [],
+    "fs": [],
+    "io_uring": [
+      "fs",
+      "net",
+      "linux-raw-sys/io_uring"
+    ],
+    "linux_4_11": [],
+    "linux_latest": [
+      "linux_4_11"
+    ],
+    "mm": [],
+    "mount": [],
+    "net": [
+      "linux-raw-sys/net",
+      "linux-raw-sys/netlink",
+      "linux-raw-sys/if_ether"
+    ],
+    "param": [
+      "fs"
+    ],
+    "pipe": [],
+    "process": [
+      "linux-raw-sys/prctl"
+    ],
+    "procfs": [
+      "once_cell",
+      "itoa",
+      "fs"
+    ],
+    "pty": [
+      "itoa",
+      "fs"
+    ],
+    "rand": [],
+    "runtime": [
+      "linux-raw-sys/prctl"
+    ],
+    "rustc-dep-of-std": [
+      "core",
+      "alloc",
+      "compiler_builtins",
+      "linux-raw-sys/rustc-dep-of-std",
+      "bitflags/rustc-dep-of-std"
+    ],
+    "std": [
+      "bitflags/std"
+    ],
+    "stdio": [],
+    "system": [
+      "linux-raw-sys/system"
+    ],
+    "termios": [],
+    "thread": [
+      "linux-raw-sys/prctl"
+    ],
+    "time": [],
+    "use-libc": [
+      "libc_errno",
+      "libc"
+    ],
+    "use-libc-auxv": []
+  },
+  "downloads": 2417578,
+  "yanked": false,
+  "repository": "https://github.com/bytecodealliance/rustix",
+  "homepage": null,
+  "keywords": [
+    "api",
+    "file",
+    "network",
+    "safe",
+    "syscall"
+  ],
+  "categories": [
+    "Date and time",
+    "Filesystem",
+    "Network programming",
+    "Unix APIs"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "^2.3.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ctor",
+      "requirement": "^0.2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "errno",
+      "requirement": "^0.3.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "errno",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "errno",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "flate2",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.147",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.147",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "linux-raw-sys",
+      "requirement": "^0.4.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "linux-raw-sys",
+      "requirement": "^0.4.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "memoffset",
+      "requirement": "^0.9.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serial_test",
+      "requirement": "^2.0.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "static_assertions",
+      "requirement": "^1.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3.5.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "windows-sys",
+      "requirement": "^0.48.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "compiler_builtins",
+      "requirement": "^0.1.49",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "errno",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "itoa",
+      "requirement": "^1.0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.147",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1.5.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-alloc",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-core",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode",
+    "name": "Dan Gohman"
+  },
+  "publishedAt": "2023-08-05T18:42:09.628873Z",
+  "captured_at": "2026-05-28T12:07:22.573Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
