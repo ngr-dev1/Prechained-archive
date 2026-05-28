@@ -1,0 +1,53 @@
+{
+  "repo": "StackExchange/StackExchange.Redis",
+  "commit_sha": "73cac3348b084f65ef808575c6f8a7c87b7ed364",
+  "tree_sha": "55f13de848d35cfc9c4bce2c43cc3ba7d3a6d937",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "General purpose redis client",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 6152,
+  "watchers": 6152,
+  "forks": 1550,
+  "open_issues": 305,
+  "language": "C#",
+  "topics": [
+    "c-sharp",
+    "redis",
+    "redis-client"
+  ],
+  "commit_message": "Tear down connection on write failure to prevent queue desync (#3092)\n\nPropagate exceptions out of Message.WriteTo so PhysicalBridge's outer\nwrite path can record a connection failure, and have HandleWriteException\nkill the PhysicalConnection via RecordConnectionFailed.\n\nWithout this, a write that throws partway through a frame (e.g. an OOM\nduring serialization) leaves bytes on the wire while the response queue\nstill considers the slot healthy. The next reply from the server then\nmatches against",
+  "commit_author": {
+    "name": "Pranish Pantha",
+    "email": "58866022+Pranish-Pantha@users.noreply.github.com",
+    "date": "2026-05-27T10:47:40Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-27T10:47:40Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "ce864344435684c1bf79d01a4012ddcdbe773aab"
+  ],
+  "github_author_login": "Pranish-Pantha",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-27T15:39:53Z",
+  "created_at": "2014-03-14T14:09:26Z",
+  "homepage": "https://stackexchange.github.io/StackExchange.Redis/",
+  "size_kb": 31204,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-28T07:07:25.674Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
