@@ -1,0 +1,52 @@
+{
+  "name": "time",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "description": "Date and time library. Fully interoperable with the standard library. Mostly compatible with #![no_std].",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "fcc26de0a81a07c8352b548977862908fa9863e0e6e4f0eb36b2a9f4f8845585",
+  "features": {
+    "default": [
+      "std",
+      "deprecated"
+    ],
+    "deprecated": [],
+    "panicking-api": [],
+    "std": []
+  },
+  "downloads": 21386,
+  "yanked": false,
+  "repository": "https://github.com/time-rs/time",
+  "homepage": "https://time-rs.github.io",
+  "keywords": [
+    "calendar",
+    "date",
+    "duration",
+    "time"
+  ],
+  "categories": [
+    "Date and time",
+    "Value formatting",
+    "Parser implementations",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "serde",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 15682,
+    "login": "jhpratt",
+    "name": "Jacob Pratt"
+  },
+  "publishedAt": "2019-12-19T21:12:48.635003Z",
+  "captured_at": "2026-05-28T09:37:28.379Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
