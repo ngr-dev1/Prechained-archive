@@ -1,0 +1,79 @@
+{
+  "name": "Microsoft.Data.OData",
+  "version": "5.8.5",
+  "ecosystem": "nuget",
+  "description": "This version of the library supports earlier versions of the Microsoft OData (V1-V3) protocol only and is not under active development. OData V1-V3 has been superseded by OData V4, which is an industry standard published by OASIS and ratified by ISO. OData V4 is supported through the OData V4 compliant core libraries available at: https://www.nuget.org/packages/Microsoft.OData.Core/ with support documentation available at: https://odata.github.io/odata.net. Note that Asp.Net developers can build OData V4 services using the higher-level OData V4 WebAPI libraries available at: https://www.nuget.org/packages/Microsoft.AspNet.OData/ with support documentation available at: https://odata.github.io/WebApi/.\n\n\t Classes to serialize, deserialize and validate OData payloads. Enables construction of OData producers and consumers. Targets .NET 4.0, Silverlight 4.0 or .NET Portable Lib with support for .NET 4.0, SL 5.0, Win Phone 8, Win Phone 8.1, and Win 8. Localized for CHS, CHT, DEU, ESN, FRA, ITA, JPN, KOR and RUS.",
+  "license": "http://go.microsoft.com/fwlink/?linkid=833178",
+  "licenseExpression": null,
+  "authors": [
+    "Microsoft Corporation"
+  ],
+  "owners": [],
+  "tags": [
+    "wcf",
+    "data",
+    "services",
+    "odata",
+    "odatalib",
+    "edmlib",
+    "spatial",
+    "ado.net",
+    "ef",
+    "entity",
+    "framework",
+    "open",
+    "protocol",
+    "wcfds",
+    "wcfdataservices",
+    "dataservices"
+  ],
+  "projectUrl": "http://odata.github.io/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "System.Spatial",
+      "range": "[5.8.5, 5.8.5]",
+      "targetFramework": null
+    },
+    {
+      "id": "Microsoft.Data.Edm",
+      "range": "[5.8.5, 5.8.5]",
+      "targetFramework": null
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.04.10.00.35.46/microsoft.data.odata.5.8.5.json#dependencygroup",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.04.10.00.35.46/microsoft.data.odata.5.8.5.json#dependencygroup/system.spatial",
+          "@type": "PackageDependency",
+          "id": "System.Spatial",
+          "range": "[5.8.5, 5.8.5]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.spatial/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.04.10.00.35.46/microsoft.data.odata.5.8.5.json#dependencygroup/microsoft.data.edm",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Data.Edm",
+          "range": "[5.8.5, 5.8.5]",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.data.edm/index.json"
+        }
+      ]
+    }
+  ],
+  "publishedAt": "2021-11-12T17:31:52.48+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.data.odata/5.8.5/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-28T03:36:14.794Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
