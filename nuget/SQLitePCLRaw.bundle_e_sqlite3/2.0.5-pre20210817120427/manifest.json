@@ -1,0 +1,250 @@
+{
+  "name": "SQLitePCLRaw.bundle_e_sqlite3",
+  "version": "2.0.5-pre20210817120427",
+  "ecosystem": "nuget",
+  "description": "This 'batteries-included' bundle brings in SQLitePCLRaw.core and the necessary stuff for certain common use cases.  Call SQLitePCL.Batteries.Init().  Policy of this bundle: e_sqlite3 included",
+  "license": "Apache-2.0",
+  "licenseExpression": "Apache-2.0",
+  "authors": [
+    "Eric Sink"
+  ],
+  "owners": [],
+  "tags": [
+    "sqlite",
+    "xamarin"
+  ],
+  "projectUrl": null,
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "SQLitePCLRaw.core",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": "Xamarin.iOS1.0"
+    },
+    {
+      "id": "SQLitePCLRaw.provider.internal",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": "Xamarin.iOS1.0"
+    },
+    {
+      "id": "SQLitePCLRaw.lib.e_sqlite3.ios",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": "Xamarin.iOS1.0"
+    },
+    {
+      "id": "SQLitePCLRaw.core",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": "Xamarin.TVOS1.0"
+    },
+    {
+      "id": "SQLitePCLRaw.provider.internal",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": "Xamarin.TVOS1.0"
+    },
+    {
+      "id": "SQLitePCLRaw.lib.e_sqlite3.tvos",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": "Xamarin.TVOS1.0"
+    },
+    {
+      "id": "SQLitePCLRaw.core",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": "MonoAndroid8.0"
+    },
+    {
+      "id": "SQLitePCLRaw.provider.e_sqlite3",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": "MonoAndroid8.0"
+    },
+    {
+      "id": "SQLitePCLRaw.lib.e_sqlite3.android",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": "MonoAndroid8.0"
+    },
+    {
+      "id": "SQLitePCLRaw.core",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": ".NETFramework4.6.1"
+    },
+    {
+      "id": "SQLitePCLRaw.provider.e_sqlite3",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": ".NETFramework4.6.1"
+    },
+    {
+      "id": "SQLitePCLRaw.lib.e_sqlite3",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": ".NETFramework4.6.1"
+    },
+    {
+      "id": "SQLitePCLRaw.core",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "SQLitePCLRaw.provider.e_sqlite3",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "SQLitePCLRaw.lib.e_sqlite3",
+      "range": "[2.0.5-pre20210817120427, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/xamarin.ios1.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/xamarin.ios1.0/sqlitepclraw.core",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.core",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/xamarin.ios1.0/sqlitepclraw.provider.internal",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.provider.internal",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.provider.internal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/xamarin.ios1.0/sqlitepclraw.lib.e_sqlite3.ios",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.lib.e_sqlite3.ios",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.lib.e_sqlite3.ios/index.json"
+        }
+      ],
+      "targetFramework": "Xamarin.iOS1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/xamarin.tvos1.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/xamarin.tvos1.0/sqlitepclraw.core",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.core",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/xamarin.tvos1.0/sqlitepclraw.provider.internal",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.provider.internal",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.provider.internal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/xamarin.tvos1.0/sqlitepclraw.lib.e_sqlite3.tvos",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.lib.e_sqlite3.tvos",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.lib.e_sqlite3.tvos/index.json"
+        }
+      ],
+      "targetFramework": "Xamarin.TVOS1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/monoandroid8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/monoandroid8.0/sqlitepclraw.core",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.core",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/monoandroid8.0/sqlitepclraw.provider.e_sqlite3",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.provider.e_sqlite3",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.provider.e_sqlite3/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/monoandroid8.0/sqlitepclraw.lib.e_sqlite3.android",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.lib.e_sqlite3.android",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.lib.e_sqlite3.android/index.json"
+        }
+      ],
+      "targetFramework": "MonoAndroid8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/.netframework4.6.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/.netframework4.6.1/sqlitepclraw.core",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.core",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/.netframework4.6.1/sqlitepclraw.provider.e_sqlite3",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.provider.e_sqlite3",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.provider.e_sqlite3/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/.netframework4.6.1/sqlitepclraw.lib.e_sqlite3",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.lib.e_sqlite3",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.lib.e_sqlite3/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/.netstandard2.0/sqlitepclraw.core",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.core",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/.netstandard2.0/sqlitepclraw.provider.e_sqlite3",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.provider.e_sqlite3",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.provider.e_sqlite3/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2021.08.17.17.36.11/sqlitepclraw.bundle_e_sqlite3.2.0.5-pre20210817120427.json#dependencygroup/.netstandard2.0/sqlitepclraw.lib.e_sqlite3",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.lib.e_sqlite3",
+          "range": "[2.0.5-pre20210817120427, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.lib.e_sqlite3/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2021-08-17T17:34:10.617+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": "2.12",
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": null,
+  "readmeUrl": null,
+  "captured_at": "2026-05-28T13:17:44.538Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
