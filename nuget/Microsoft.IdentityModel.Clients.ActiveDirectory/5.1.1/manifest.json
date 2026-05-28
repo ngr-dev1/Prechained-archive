@@ -1,0 +1,347 @@
+{
+  "name": "Microsoft.IdentityModel.Clients.ActiveDirectory",
+  "version": "5.1.1",
+  "ecosystem": "nuget",
+  "description": "This package contains the binaries of the Active Directory Authentication Library (ADAL). ADAL provides easy to use authentication functionality for your .NET based client by taking advantage of Windows Server Active Directory and Azure Active Directory.\n      ADAL.NET enables you to acquire a security token to access protected Web APIs, for instance Microsoft Graph or your own Web API.\n      ADAL.NET is built against multiple platforms, including .net desktop, .net standard, .net core, UWP, Xamarin iOS and Xamarin Android. It can  be called from applications and Web APIs (ASP.NET, .NET Core, ASP.NET Core) that call other Web APIs in the name of a user, or without a user.",
+  "license": "https://go.microsoft.com/fwlink/?linkid=841311",
+  "licenseExpression": null,
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    "Active",
+    "Directory",
+    "Authentication",
+    "Library",
+    "ADAL",
+    "ActiveDirectory",
+    "AD",
+    "AAD",
+    "Identity",
+    ".NET",
+    "Android",
+    "iOS",
+    "UWP",
+    "NetCore",
+    "Xamarin"
+  ],
+  "projectUrl": "https://aka.ms/adalnet",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "System.Net.Http",
+      "range": "[4.3.4, )",
+      "targetFramework": ".NETFramework4.5"
+    },
+    {
+      "id": "Microsoft.CSharp",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "NETStandard.Library",
+      "range": "[1.6.1, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.ComponentModel.TypeConverter",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Dynamic.Runtime",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Net.Http",
+      "range": "[4.3.4, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Runtime.Serialization.Formatters",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Runtime.Serialization.Json",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Runtime.Serialization.Primitives",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Security.Cryptography.X509Certificates",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Security.SecureString",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Xml.XDocument",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Xml.XmlDocument",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Net.Http",
+      "range": "[4.3.4, )",
+      "targetFramework": "MonoAndroid8.1"
+    },
+    {
+      "id": "Xamarin.Android.Support.CustomTabs",
+      "range": "[27.0.2.1, )",
+      "targetFramework": "MonoAndroid8.1"
+    },
+    {
+      "id": "Xamarin.Android.Support.v7.AppCompat",
+      "range": "[27.0.2.1, )",
+      "targetFramework": "MonoAndroid8.1"
+    },
+    {
+      "id": "System.Net.Http",
+      "range": "[4.3.4, )",
+      "targetFramework": "UAP10.0"
+    },
+    {
+      "id": "System.Net.NameResolution",
+      "range": "[4.3.0, )",
+      "targetFramework": "UAP10.0"
+    },
+    {
+      "id": "System.Runtime.Serialization.Json",
+      "range": "[4.3.0, )",
+      "targetFramework": "UAP10.0"
+    },
+    {
+      "id": "System.Runtime.Serialization.Primitives",
+      "range": "[4.3.0, )",
+      "targetFramework": "UAP10.0"
+    },
+    {
+      "id": "System.Xml.XDocument",
+      "range": "[4.3.0, )",
+      "targetFramework": "UAP10.0"
+    },
+    {
+      "id": "System.Net.Http",
+      "range": "[4.3.4, )",
+      "targetFramework": "Xamarin.iOS1.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netframework4.5",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netframework4.5/system.net.http",
+          "@type": "PackageDependency",
+          "id": "System.Net.Http",
+          "range": "[4.3.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.http/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3/microsoft.csharp",
+          "@type": "PackageDependency",
+          "id": "Microsoft.CSharp",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.csharp/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3/netstandard.library",
+          "@type": "PackageDependency",
+          "id": "NETStandard.Library",
+          "range": "[1.6.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/netstandard.library/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3/system.componentmodel.typeconverter",
+          "@type": "PackageDependency",
+          "id": "System.ComponentModel.TypeConverter",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.componentmodel.typeconverter/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3/system.dynamic.runtime",
+          "@type": "PackageDependency",
+          "id": "System.Dynamic.Runtime",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.dynamic.runtime/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3/system.net.http",
+          "@type": "PackageDependency",
+          "id": "System.Net.Http",
+          "range": "[4.3.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.http/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3/system.runtime.serialization.formatters",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.Serialization.Formatters",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.serialization.formatters/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3/system.runtime.serialization.json",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.Serialization.Json",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.serialization.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3/system.runtime.serialization.primitives",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.Serialization.Primitives",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.serialization.primitives/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3/system.security.cryptography.x509certificates",
+          "@type": "PackageDependency",
+          "id": "System.Security.Cryptography.X509Certificates",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.cryptography.x509certificates/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3/system.security.securestring",
+          "@type": "PackageDependency",
+          "id": "System.Security.SecureString",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.securestring/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3/system.xml.xdocument",
+          "@type": "PackageDependency",
+          "id": "System.Xml.XDocument",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.xml.xdocument/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/.netstandard1.3/system.xml.xmldocument",
+          "@type": "PackageDependency",
+          "id": "System.Xml.XmlDocument",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.xml.xmldocument/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/monoandroid8.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/monoandroid8.1/system.net.http",
+          "@type": "PackageDependency",
+          "id": "System.Net.Http",
+          "range": "[4.3.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.http/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/monoandroid8.1/xamarin.android.support.customtabs",
+          "@type": "PackageDependency",
+          "id": "Xamarin.Android.Support.CustomTabs",
+          "range": "[27.0.2.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/xamarin.android.support.customtabs/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/monoandroid8.1/xamarin.android.support.v7.appcompat",
+          "@type": "PackageDependency",
+          "id": "Xamarin.Android.Support.v7.AppCompat",
+          "range": "[27.0.2.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/xamarin.android.support.v7.appcompat/index.json"
+        }
+      ],
+      "targetFramework": "MonoAndroid8.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/uap10.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/uap10.0/system.net.http",
+          "@type": "PackageDependency",
+          "id": "System.Net.Http",
+          "range": "[4.3.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.http/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/uap10.0/system.net.nameresolution",
+          "@type": "PackageDependency",
+          "id": "System.Net.NameResolution",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.nameresolution/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/uap10.0/system.runtime.serialization.json",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.Serialization.Json",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.serialization.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/uap10.0/system.runtime.serialization.primitives",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.Serialization.Primitives",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.serialization.primitives/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/uap10.0/system.xml.xdocument",
+          "@type": "PackageDependency",
+          "id": "System.Xml.XDocument",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.xml.xdocument/index.json"
+        }
+      ],
+      "targetFramework": "UAP10.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/xamarin.ios1.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2022.04.14.20.28.00/microsoft.identitymodel.clients.activedirectory.5.1.1.json#dependencygroup/xamarin.ios1.0/system.net.http",
+          "@type": "PackageDependency",
+          "id": "System.Net.Http",
+          "range": "[4.3.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.http/index.json"
+        }
+      ],
+      "targetFramework": "Xamarin.iOS1.0"
+    }
+  ],
+  "publishedAt": "1900-01-01T00:00:00+00:00",
+  "listed": false,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": null,
+  "readmeUrl": null,
+  "captured_at": "2026-05-28T18:57:28.400Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
