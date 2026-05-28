@@ -1,0 +1,66 @@
+{
+  "name": "serde_derive",
+  "version": "1.0.160",
+  "ecosystem": "cargo",
+  "description": "Macros 1.1 implementation of #[derive(Serialize, Deserialize)]",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "291a097c63d8497e00160b166a967a4a79c64f3facdd01cbd7502231688d77df",
+  "features": {
+    "default": [],
+    "deserialize_in_place": []
+  },
+  "downloads": 6909697,
+  "yanked": false,
+  "repository": "https://github.com/serde-rs/serde",
+  "homepage": "https://serde.rs",
+  "keywords": [
+    "derive",
+    "no_std",
+    "serde",
+    "serialization"
+  ],
+  "categories": [
+    "No standard library",
+    "No dynamic allocation"
+  ],
+  "dependencies": [
+    {
+      "name": "proc-macro2",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quote",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "syn",
+      "requirement": "^2.0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 3618,
+    "login": "dtolnay",
+    "name": "David Tolnay"
+  },
+  "publishedAt": "2023-04-11T05:16:07.670929Z",
+  "captured_at": "2026-05-28T07:27:23.500Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
