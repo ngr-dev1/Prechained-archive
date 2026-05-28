@@ -1,0 +1,125 @@
+{
+  "name": "lerna",
+  "version": "2.3.0",
+  "ecosystem": "npm",
+  "description": "Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "async": "^1.5.0",
+    "chalk": "^2.1.0",
+    "execa": "^0.8.0",
+    "is-ci": "^1.0.10",
+    "yargs": "^8.0.2",
+    "dedent": "^0.7.0",
+    "globby": "^6.1.0",
+    "lodash": "^4.17.4",
+    "npmlog": "^4.1.2",
+    "rimraf": "^2.6.1",
+    "semver": "^5.4.1",
+    "find-up": "^2.1.0",
+    "cmd-shim": "^2.0.2",
+    "fs-extra": "^4.0.1",
+    "get-port": "^3.2.0",
+    "inquirer": "^3.2.2",
+    "read-pkg": "^2.0.0",
+    "columnify": "^1.5.4",
+    "minimatch": "^3.0.4",
+    "p-finally": "^1.0.0",
+    "write-pkg": "^3.1.0",
+    "temp-write": "^3.3.0",
+    "glob-parent": "^3.1.0",
+    "graceful-fs": "^4.1.11",
+    "path-exists": "^3.0.0",
+    "safe-buffer": "^5.1.1",
+    "signal-exit": "^3.0.2",
+    "command-join": "^2.0.0",
+    "read-cmd-shim": "^1.0.1",
+    "load-json-file": "^3.0.0",
+    "write-json-file": "^2.2.0",
+    "write-file-atomic": "^2.3.0",
+    "strong-log-transformer": "^1.0.6",
+    "conventional-changelog-cli": "^1.3.2",
+    "conventional-recommended-bump": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "tempy": "^0.1.0",
+    "touch": "^3.1.0",
+    "eslint": "^4.5.0",
+    "file-url": "^2.0.2",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "replacestream": "^4.0.2",
+    "normalize-path": "^2.1.1",
+    "babel-preset-env": "^1.6.0",
+    "normalize-newline": "^3.0.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-config-babel": "^7.0.2",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "babel-plugin-add-module-exports": "^0.2.1"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">= 4"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "npm run build",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "evocateur",
+      "email": "daniel.stockman@gmail.com"
+    },
+    {
+      "name": "gigabo",
+      "email": "gigabo@gmail.com"
+    },
+    {
+      "name": "thejameskyle",
+      "email": "me@thejameskyle.com"
+    },
+    {
+      "name": "hzoo",
+      "email": "hi@henryzoo.com"
+    },
+    {
+      "name": "sebmck",
+      "email": "sebmck@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com"
+  },
+  "publishedAt": "2017-10-03T01:11:22.200Z",
+  "dist": {
+    "integrity": "sha512-eDifUUMVXog1DVyWABzdvO0zDSKcCMBReeDC1N3JfysozE5OE1p/DL+UuctPrgZdxIoCa2WDsJtsbHK/Ctzjew==",
+    "shasum": "9d978aa190f57805e72025826703feba6d076b14",
+    "tarball": "https://registry.npmjs.org/lerna/-/lerna-2.3.0.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": {
+    "url": "git+https://github.com/lerna/lerna.git",
+    "type": "git"
+  },
+  "homepage": "https://lernajs.io/",
+  "bugs": {
+    "url": "https://github.com/lerna/lerna/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "evocateur",
+    "email": "daniel.stockman@gmail.com"
+  },
+  "captured_at": "2026-05-28T13:13:37.234Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
