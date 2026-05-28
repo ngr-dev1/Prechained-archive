@@ -1,0 +1,176 @@
+{
+  "name": "k256",
+  "version": "0.5.2",
+  "ecosystem": "cargo",
+  "description": "secp256k1 elliptic curve library written in pure Rust with support for ECDSA\nsigning/verification/public-key recovery, Taproot Schnorr signatures (BIP340),\nElliptic Curve Diffie-Hellman (ECDH), and general-purpose secp256k1 elliptic\ncurve group operations which can be used to implement arbitrary protocols\n",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "6e163af5c3d73a042455736aab29d9e98c7592f59ea5d3faf4a715fc4b8d36c2",
+  "features": {
+    "arithmetic": [
+      "elliptic-curve/arithmetic"
+    ],
+    "default": [
+      "arithmetic",
+      "oid",
+      "std"
+    ],
+    "digest": [
+      "elliptic-curve/digest",
+      "ecdsa-core/digest"
+    ],
+    "ecdh": [
+      "elliptic-curve/ecdh",
+      "zeroize"
+    ],
+    "ecdsa": [
+      "arithmetic",
+      "digest",
+      "ecdsa-core/sign",
+      "ecdsa-core/verify",
+      "zeroize"
+    ],
+    "endomorphism-mul": [],
+    "expose-field": [
+      "arithmetic"
+    ],
+    "field-montgomery": [],
+    "force-32-bit": [],
+    "keccak256": [
+      "digest",
+      "sha3"
+    ],
+    "oid": [
+      "elliptic-curve/oid"
+    ],
+    "sha256": [
+      "digest",
+      "sha2"
+    ],
+    "std": [
+      "elliptic-curve/std"
+    ],
+    "test-vectors": [],
+    "zeroize": [
+      "elliptic-curve/zeroize"
+    ]
+  },
+  "downloads": 3388,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/elliptic-curves",
+  "homepage": "https://github.com/RustCrypto/elliptic-curves/tree/master/k256",
+  "keywords": [
+    "bitcoin",
+    "crypto",
+    "ecc",
+    "ethereum",
+    "secp256k1"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library",
+    "Cryptocurrencies"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ecdsa",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "elliptic-curve",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "hex",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hex-literal",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num-bigint",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num-traits",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "proptest",
+      "requirement": "^0.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand_core",
+      "requirement": "^0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ecdsa",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "sha2",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "sha3",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri",
+    "name": "Tony Arcieri"
+  },
+  "publishedAt": "2020-09-22T14:28:01.942569Z",
+  "captured_at": "2026-05-28T02:46:15.811Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
