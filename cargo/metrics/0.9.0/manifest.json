@@ -1,0 +1,109 @@
+{
+  "name": "metrics",
+  "version": "0.9.0",
+  "ecosystem": "cargo",
+  "description": "A lightweight metrics facade.",
+  "license": "MIT",
+  "checksum": "a19d7076a843d20b735d6989b865424bffb998314e1ec439bda410a2d9d2a5a1",
+  "features": {},
+  "downloads": 5404,
+  "yanked": false,
+  "repository": "https://github.com/metrics-rs/metrics",
+  "homepage": "https://github.com/metrics-rs/metrics",
+  "keywords": [
+    "facade",
+    "metrics"
+  ],
+  "categories": [
+    "Debugging"
+  ],
+  "dependencies": [
+    {
+      "name": "crossbeam-channel",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "env_logger",
+      "requirement": "^0.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fnv",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "getopts",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hashbrown",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hdrhistogram",
+      "requirement": "^6.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "metrics-core",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "parking_lot",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quanta",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-sync",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 10075,
+    "login": "tobz",
+    "name": "Toby Lawrence"
+  },
+  "publishedAt": "2019-04-24T01:42:05.040399Z",
+  "captured_at": "2026-05-28T14:57:24.760Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
