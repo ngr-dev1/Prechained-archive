@@ -1,0 +1,86 @@
+{
+  "name": "ahash",
+  "version": "0.2.1",
+  "ecosystem": "cargo",
+  "description": "A non-cryptographic hash function using AES-NI for high performance",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "ba033d68079466204bef1bd2bc26f9e7e2f32778919d2bc23617c4d7aa973bc2",
+  "features": {},
+  "downloads": 3043,
+  "yanked": true,
+  "repository": "https://github.com/tkaitchuck/ahash",
+  "homepage": null,
+  "keywords": [
+    "aes",
+    "hash",
+    "hasher",
+    "hashmap",
+    "no-std"
+  ],
+  "categories": [
+    "Algorithms",
+    "Data structures",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "const-random",
+      "requirement": "^0.1.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.2.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fnv",
+      "requirement": "^1.0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fxhash",
+      "requirement": "^0.2.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hex",
+      "requirement": "^0.3.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.6.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "seahash",
+      "requirement": "^3.0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 25353,
+    "login": "tkaitchuck",
+    "name": "Tom Kaitchuck"
+  },
+  "publishedAt": "2019-07-06T06:31:20.863247Z",
+  "captured_at": "2026-05-28T11:27:25.058Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
