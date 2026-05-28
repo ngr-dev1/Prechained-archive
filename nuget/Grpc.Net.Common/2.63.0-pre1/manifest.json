@@ -1,0 +1,143 @@
+{
+  "name": "Grpc.Net.Common",
+  "version": "2.63.0-pre1",
+  "ecosystem": "nuget",
+  "description": "Infrastructure for common functionality in gRPC",
+  "license": "Apache-2.0",
+  "licenseExpression": "Apache-2.0",
+  "authors": [
+    "The gRPC Authors"
+  ],
+  "owners": [],
+  "tags": [
+    "gRPC",
+    "RPC",
+    "HTTP/2"
+  ],
+  "projectUrl": "https://github.com/grpc/grpc-dotnet",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Grpc.Core.Api",
+      "range": "[2.63.0-pre1, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "Grpc.Core.Api",
+      "range": "[2.63.0-pre1, )",
+      "targetFramework": "net7.0"
+    },
+    {
+      "id": "Grpc.Core.Api",
+      "range": "[2.63.0-pre1, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Grpc.Core.Api",
+      "range": "[2.63.0-pre1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[6.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Grpc.Core.Api",
+      "range": "[2.63.0-pre1, )",
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.08.22.30.29/grpc.net.common.2.63.0-pre1.json#dependencygroup/net6.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.08.22.30.29/grpc.net.common.2.63.0-pre1.json#dependencygroup/net6.0/grpc.core.api",
+          "@type": "PackageDependency",
+          "id": "Grpc.Core.Api",
+          "range": "[2.63.0-pre1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc.core.api/index.json"
+        }
+      ],
+      "targetFramework": "net6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.08.22.30.29/grpc.net.common.2.63.0-pre1.json#dependencygroup/net7.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.08.22.30.29/grpc.net.common.2.63.0-pre1.json#dependencygroup/net7.0/grpc.core.api",
+          "@type": "PackageDependency",
+          "id": "Grpc.Core.Api",
+          "range": "[2.63.0-pre1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc.core.api/index.json"
+        }
+      ],
+      "targetFramework": "net7.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.08.22.30.29/grpc.net.common.2.63.0-pre1.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.08.22.30.29/grpc.net.common.2.63.0-pre1.json#dependencygroup/net8.0/grpc.core.api",
+          "@type": "PackageDependency",
+          "id": "Grpc.Core.Api",
+          "range": "[2.63.0-pre1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc.core.api/index.json"
+        }
+      ],
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.08.22.30.29/grpc.net.common.2.63.0-pre1.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.08.22.30.29/grpc.net.common.2.63.0-pre1.json#dependencygroup/.netstandard2.0/grpc.core.api",
+          "@type": "PackageDependency",
+          "id": "Grpc.Core.Api",
+          "range": "[2.63.0-pre1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc.core.api/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.08.22.30.29/grpc.net.common.2.63.0-pre1.json#dependencygroup/.netstandard2.0/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[6.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.08.22.30.29/grpc.net.common.2.63.0-pre1.json#dependencygroup/.netstandard2.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.05.08.22.30.29/grpc.net.common.2.63.0-pre1.json#dependencygroup/.netstandard2.1/grpc.core.api",
+          "@type": "PackageDependency",
+          "id": "Grpc.Core.Api",
+          "range": "[2.63.0-pre1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/grpc.core.api/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "publishedAt": "2024-05-08T22:27:01.477+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/grpc.net.common/2.63.0-pre1/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-28T13:07:22.780Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
