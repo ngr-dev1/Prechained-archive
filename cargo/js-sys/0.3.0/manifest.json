@@ -1,0 +1,53 @@
+{
+  "name": "js-sys",
+  "version": "0.3.0",
+  "ecosystem": "cargo",
+  "description": "Bindings for all JS global objects and functions in all JS environments like\nNode.js and browsers, built on `#[wasm_bindgen]` using the `wasm-bindgen` crate.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "1cedf50c705f7ede60202104d9cb08d02f3156d4a6f4f638ab4fcdfd0e9ecdda",
+  "features": {},
+  "downloads": 18703,
+  "yanked": false,
+  "repository": "https://github.com/wasm-bindgen/wasm-bindgen/tree/master/crates/js-sys",
+  "homepage": "https://wasm-bindgen.github.io/wasm-bindgen/",
+  "keywords": [],
+  "categories": [
+    "WebAssembly"
+  ],
+  "dependencies": [
+    {
+      "name": "futures",
+      "requirement": "^0.1.20",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen",
+      "requirement": "^0.2.23",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-futures",
+      "requirement": "= 0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-test",
+      "requirement": "= 0.2.23",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-09-26T14:56:10.793442Z",
+  "captured_at": "2026-05-28T00:47:28.070Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "5961ea52cc02d470012ad75cb92c69489759f11869bec86da831b408be9069359135438140bdf1b94c8b8849897a9b82"
+}
