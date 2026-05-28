@@ -1,0 +1,80 @@
+{
+  "name": "MiniProfiler",
+  "version": "4.0.0-alpha9-00202",
+  "ecosystem": "nuget",
+  "description": "Lightweight mini-profiler, designed for ASP.NET (including MVC) (non-.NET Core) websites",
+  "license": "https://github.com/MiniProfiler/dotnet/blob/master/LICENSE.txt",
+  "licenseExpression": null,
+  "authors": [
+    "Marc Gravell",
+    "Jarrod Dixon",
+    "Yaakov Ellis",
+    "Nick Craver"
+  ],
+  "owners": [],
+  "tags": [
+    "ASP.NET",
+    "SQL",
+    "Profiler",
+    "Performance",
+    "Profiling",
+    "Timing"
+  ],
+  "projectUrl": "https://miniprofiler.com/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "MiniProfiler.Shared",
+      "range": "[4.0.0-alpha9-00202, )",
+      "targetFramework": ".NETFramework4.5"
+    },
+    {
+      "id": "MiniProfiler.Shared",
+      "range": "[4.0.0-alpha9-00202, )",
+      "targetFramework": ".NETFramework4.6"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.16.20.55.10/miniprofiler.4.0.0-alpha9-00202.json#dependencygroup/.netframework4.5",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.16.20.55.10/miniprofiler.4.0.0-alpha9-00202.json#dependencygroup/.netframework4.5/miniprofiler.shared",
+          "@type": "PackageDependency",
+          "id": "MiniProfiler.Shared",
+          "range": "[4.0.0-alpha9-00202, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/miniprofiler.shared/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.5"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.16.20.55.10/miniprofiler.4.0.0-alpha9-00202.json#dependencygroup/.netframework4.6",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.16.20.55.10/miniprofiler.4.0.0-alpha9-00202.json#dependencygroup/.netframework4.6/miniprofiler.shared",
+          "@type": "PackageDependency",
+          "id": "MiniProfiler.Shared",
+          "range": "[4.0.0-alpha9-00202, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/miniprofiler.shared/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6"
+    }
+  ],
+  "publishedAt": "2017-10-14T22:06:30.23+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": null,
+  "readmeUrl": null,
+  "captured_at": "2026-05-28T21:57:23.855Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
