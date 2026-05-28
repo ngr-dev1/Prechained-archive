@@ -1,0 +1,207 @@
+{
+  "name": "salvo",
+  "version": "0.37.1",
+  "ecosystem": "cargo",
+  "description": "Salvo is a powerful web framework that can make your work easier.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "7333d3c769ef3ce3837f2f4a8c4b484862313a356d0872b7fea0e738e462c607",
+  "features": {
+    "acme": [
+      "salvo_core/acme"
+    ],
+    "affix": [
+      "salvo_extra/affix"
+    ],
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic-auth": [
+      "salvo_extra/basic-auth"
+    ],
+    "cache": [
+      "dep:salvo-cache"
+    ],
+    "caching-headers": [
+      "salvo_extra/caching-headers"
+    ],
+    "compression": [
+      "salvo_extra/compression"
+    ],
+    "cookie": [
+      "salvo_core/cookie"
+    ],
+    "cors": [
+      "dep:salvo-cors"
+    ],
+    "csrf": [
+      "dep:salvo-csrf"
+    ],
+    "default": [
+      "test",
+      "cookie"
+    ],
+    "flash": [
+      "dep:salvo-flash"
+    ],
+    "force-https": [
+      "salvo_extra/force-https"
+    ],
+    "full": [
+      "test",
+      "cookie",
+      "rustls",
+      "native-tls",
+      "openssl",
+      "unix",
+      "acme",
+      "anyhow",
+      "cache",
+      "cors",
+      "csrf",
+      "flash",
+      "rate-limiter",
+      "session",
+      "serve-static"
+    ],
+    "jwt-auth": [
+      "salvo_extra/jwt-auth"
+    ],
+    "logging": [
+      "salvo_extra/logging"
+    ],
+    "native-tls": [
+      "salvo_core/native-tls"
+    ],
+    "openssl": [
+      "salvo_core/openssl"
+    ],
+    "proxy": [
+      "salvo_extra/proxy"
+    ],
+    "rate-limiter": [
+      "dep:salvo-rate-limiter"
+    ],
+    "rustls": [
+      "salvo_core/rustls"
+    ],
+    "serve-static": [
+      "dep:salvo-static"
+    ],
+    "session": [
+      "dep:salvo-session"
+    ],
+    "size-limiter": [
+      "salvo_extra/size-limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "test": [
+      "salvo_core/test"
+    ],
+    "timeout": [
+      "salvo_extra/timeout"
+    ],
+    "trailing-slash": [
+      "salvo_extra/trailing-slash"
+    ],
+    "unix": [
+      "salvo_core/unix"
+    ],
+    "ws": [
+      "salvo_extra/ws"
+    ]
+  },
+  "downloads": 7794,
+  "yanked": false,
+  "repository": "https://github.com/salvo-rs/salvo",
+  "homepage": "https://salvo.rs",
+  "keywords": [
+    "async",
+    "framework",
+    "http",
+    "server",
+    "web"
+  ],
+  "categories": [
+    "HTTP server",
+    "Network programming",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "salvo_core",
+      "requirement": "^0.37.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "salvo-cache",
+      "requirement": "^0.37.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "salvo-cors",
+      "requirement": "^0.37.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "salvo-csrf",
+      "requirement": "^0.37.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "salvo-flash",
+      "requirement": "^0.37.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "salvo-rate-limiter",
+      "requirement": "^0.37.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "salvo-session",
+      "requirement": "^0.37.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "salvo-static",
+      "requirement": "^0.37.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "salvo_extra",
+      "requirement": "^0.37.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn",
+    "name": "Chrislearn Young"
+  },
+  "publishedAt": "2022-10-18T01:05:25.340088Z",
+  "captured_at": "2026-05-28T22:54:38.144Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
