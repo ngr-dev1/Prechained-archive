@@ -1,0 +1,60 @@
+{
+  "name": "quote",
+  "version": "1.0.1",
+  "ecosystem": "cargo",
+  "description": "Quasi-quoting macro quote!(...)",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "49d77c41ca8767f2f41394c11a4eebccab83da25e7cc035387a3125f02be90a3",
+  "features": {
+    "default": [
+      "proc-macro"
+    ],
+    "proc-macro": [
+      "proc-macro2/proc-macro"
+    ]
+  },
+  "downloads": 146405,
+  "yanked": false,
+  "repository": "https://github.com/dtolnay/quote",
+  "homepage": null,
+  "keywords": [
+    "macros",
+    "syn"
+  ],
+  "categories": [
+    "Procedural macro helpers"
+  ],
+  "dependencies": [
+    {
+      "name": "proc-macro2",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rustversion",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "trybuild",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 3618,
+    "login": "dtolnay",
+    "name": "David Tolnay"
+  },
+  "publishedAt": "2019-08-16T16:11:52.260958Z",
+  "captured_at": "2026-05-29T00:41:27.669Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
