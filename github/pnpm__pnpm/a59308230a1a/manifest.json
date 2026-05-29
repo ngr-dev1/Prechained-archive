@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "a59308230a1a1bedbabe1bb765ac3114664e0b96",
+  "tree_sha": "02083760644b4fa28d0ad475edfbada349543d8b",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35274,
+  "watchers": 35274,
+  "forks": 1462,
+  "open_issues": 2343,
+  "language": "TypeScript",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "feat(registry): enforce per-package access policy from YAML (#12043)\n\n* feat(registry): enforce per-package access policy from YAML\n\nDerive PackagePolicies from each packages[*] entry's access/publish\ntokens in from_yaml/from_default_yaml, instead of hardcoding\nregistry_mock_defaults — configured ACLs were silently ignored before,\nso a user-defined private scope got no protection.\n\n- Add the $anonymous AccessRule: admits only unauthenticated callers;\n  an authenticated caller falls outside the g",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-05-28T23:18:46Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-28T23:18:46Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "a9011ad83b0b8dc2ad67ec8c20ddd45ce882ae72"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-29T02:17:58Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 212446,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-29T06:37:28.945Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
