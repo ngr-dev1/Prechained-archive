@@ -1,0 +1,87 @@
+{
+  "name": "serde_json",
+  "version": "1.0.31",
+  "ecosystem": "cargo",
+  "description": "A JSON serialization file format",
+  "license": "MIT/Apache-2.0",
+  "checksum": "bb47a3d5c84320222f66d7db21157c4a7407755de41798f9b4c1c40593397b1a",
+  "features": {
+    "arbitrary_precision": [],
+    "default": [],
+    "preserve_order": [
+      "indexmap"
+    ],
+    "raw_value": []
+  },
+  "downloads": 225442,
+  "yanked": false,
+  "repository": "https://github.com/serde-rs/json",
+  "homepage": null,
+  "keywords": [
+    "json",
+    "serde",
+    "serialization"
+  ],
+  "categories": [
+    "Encoding",
+    "No standard library",
+    "Parser implementations"
+  ],
+  "dependencies": [
+    {
+      "name": "compiletest_rs",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "itoa",
+      "requirement": "^0.4.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ryu",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.60",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_bytes",
+      "requirement": "^0.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "indexmap",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-09-26T16:21:08.821231Z",
+  "captured_at": "2026-05-29T08:27:24.165Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
