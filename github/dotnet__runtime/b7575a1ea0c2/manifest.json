@@ -1,0 +1,53 @@
+{
+  "repo": "dotnet/runtime",
+  "commit_sha": "b7575a1ea0c24a2e76330e6fdee08fc89fd1e477",
+  "tree_sha": "92b1d4f7fd839b612571b347550f830cd703a02a",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 17903,
+  "watchers": 17903,
+  "forks": 5449,
+  "open_issues": 8287,
+  "language": "C#",
+  "topics": [
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "Validate sizes and offsets when parsing NTLM challenge (#128692)\n\nThe managed NTLM client previously trusted the wire fields in\n`CHALLENGE_MESSAGE` without checking that the declared offsets, lengths,\nand AV pair sizes fit within the supplied blob. A malformed or truncated\nchallenge could cause out-of-range slice exceptions or silently misparse\ntarget info. This addresses the long-standing `// TODO: Validate size\nand offsets` in `ProcessChallenge`.\n\nChanges:\n\n- `ProcessChallenge` rejects challen",
+  "commit_author": {
+    "name": "Radek Zikmund",
+    "email": "32671551+rzikm@users.noreply.github.com",
+    "date": "2026-05-29T06:46:31Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-29T06:46:31Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "67e6af4af6f8027a1ee7d76ae090f4bae0f9b3db"
+  ],
+  "github_author_login": "rzikm",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-29T09:57:53Z",
+  "created_at": "2019-09-24T23:36:39Z",
+  "homepage": "https://docs.microsoft.com/dotnet/core/",
+  "size_kb": 1130847,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-29T10:17:24.873Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
