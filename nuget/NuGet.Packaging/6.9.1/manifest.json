@@ -1,0 +1,187 @@
+{
+  "name": "NuGet.Packaging",
+  "version": "6.9.1",
+  "ecosystem": "nuget",
+  "description": "NuGet's understanding of packages. Reading nuspec, nupkgs and package signing.",
+  "license": "Apache-2.0",
+  "licenseExpression": "Apache-2.0",
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    "nuget"
+  ],
+  "projectUrl": "https://aka.ms/nugetprj",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "NuGet.Configuration",
+      "range": "[6.9.1, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "NuGet.Versioning",
+      "range": "[6.9.1, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "Newtonsoft.Json",
+      "range": "[13.0.3, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "NuGet.Configuration",
+      "range": "[6.9.1, )",
+      "targetFramework": "net5.0"
+    },
+    {
+      "id": "NuGet.Versioning",
+      "range": "[6.9.1, )",
+      "targetFramework": "net5.0"
+    },
+    {
+      "id": "Newtonsoft.Json",
+      "range": "[13.0.3, )",
+      "targetFramework": "net5.0"
+    },
+    {
+      "id": "System.Security.Cryptography.Pkcs",
+      "range": "[6.0.4, )",
+      "targetFramework": "net5.0"
+    },
+    {
+      "id": "NuGet.Configuration",
+      "range": "[6.9.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "NuGet.Versioning",
+      "range": "[6.9.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Newtonsoft.Json",
+      "range": "[13.0.3, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Security.Cryptography.Pkcs",
+      "range": "[6.0.4, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/.netframework4.7.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/.netframework4.7.2/nuget.configuration",
+          "@type": "PackageDependency",
+          "id": "NuGet.Configuration",
+          "range": "[6.9.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/nuget.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/.netframework4.7.2/nuget.versioning",
+          "@type": "PackageDependency",
+          "id": "NuGet.Versioning",
+          "range": "[6.9.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/nuget.versioning/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/.netframework4.7.2/newtonsoft.json",
+          "@type": "PackageDependency",
+          "id": "Newtonsoft.Json",
+          "range": "[13.0.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/newtonsoft.json/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/net5.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/net5.0/nuget.configuration",
+          "@type": "PackageDependency",
+          "id": "NuGet.Configuration",
+          "range": "[6.9.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/nuget.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/net5.0/nuget.versioning",
+          "@type": "PackageDependency",
+          "id": "NuGet.Versioning",
+          "range": "[6.9.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/nuget.versioning/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/net5.0/newtonsoft.json",
+          "@type": "PackageDependency",
+          "id": "Newtonsoft.Json",
+          "range": "[13.0.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/newtonsoft.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/net5.0/system.security.cryptography.pkcs",
+          "@type": "PackageDependency",
+          "id": "System.Security.Cryptography.Pkcs",
+          "range": "[6.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.cryptography.pkcs/index.json"
+        }
+      ],
+      "targetFramework": "net5.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/.netstandard2.0/nuget.configuration",
+          "@type": "PackageDependency",
+          "id": "NuGet.Configuration",
+          "range": "[6.9.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/nuget.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/.netstandard2.0/nuget.versioning",
+          "@type": "PackageDependency",
+          "id": "NuGet.Versioning",
+          "range": "[6.9.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/nuget.versioning/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/.netstandard2.0/newtonsoft.json",
+          "@type": "PackageDependency",
+          "id": "Newtonsoft.Json",
+          "range": "[13.0.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/newtonsoft.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2024.02.13.18.20.11/nuget.packaging.6.9.1.json#dependencygroup/.netstandard2.0/system.security.cryptography.pkcs",
+          "@type": "PackageDependency",
+          "id": "System.Security.Cryptography.Pkcs",
+          "range": "[6.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.cryptography.pkcs/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2024-02-13T18:17:29.45+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/nuget.packaging/6.9.1/icon",
+  "readmeUrl": "https://www.nuget.org/packages/NuGet.Packaging/6.9.1#show-readme-container",
+  "captured_at": "2026-05-29T09:37:25.364Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
