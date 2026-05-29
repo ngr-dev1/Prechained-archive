@@ -1,0 +1,1013 @@
+{
+  "name": "Microsoft.Graph.Core",
+  "version": "3.2.3",
+  "ecosystem": "nuget",
+  "description": "Microsoft Graph Core Client Library implements core functionality used by Microsoft Graph client libraries.",
+  "license": "https://www.nuget.org/packages/Microsoft.Graph.Core/3.2.3/license",
+  "licenseExpression": null,
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    "Microsoft",
+    "Office365",
+    "Graph",
+    "GraphServiceClient",
+    "Outlook",
+    "OneDrive",
+    "AzureAD",
+    "GraphAPI",
+    "Productivity",
+    "SharePoint",
+    "Intune",
+    "SDK"
+  ],
+  "projectUrl": "https://developer.microsoft.com/graph",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "range": "[8.3.1, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Validators",
+      "range": "[8.3.1, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Kiota.Abstractions",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Kiota.Authentication.Azure",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Form",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Json",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Multipart",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Text",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Net.Http.WinHttpHandler",
+      "range": "[6.0.0, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "range": "[8.3.1, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Validators",
+      "range": "[8.3.1, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Abstractions",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Authentication.Azure",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Form",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Json",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Multipart",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Text",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "range": "[8.3.1, )",
+      "targetFramework": "net6.0-android31.0"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Validators",
+      "range": "[8.3.1, )",
+      "targetFramework": "net6.0-android31.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Abstractions",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-android31.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Authentication.Azure",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-android31.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-android31.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Form",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-android31.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Json",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-android31.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Multipart",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-android31.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Text",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-android31.0"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "range": "[8.3.1, )",
+      "targetFramework": "net6.0-ios16.1"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Validators",
+      "range": "[8.3.1, )",
+      "targetFramework": "net6.0-ios16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Abstractions",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-ios16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Authentication.Azure",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-ios16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-ios16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Form",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-ios16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Json",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-ios16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Multipart",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-ios16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Text",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-ios16.1"
+    },
+    {
+      "id": "System.Runtime.InteropServices.NFloat.Internal",
+      "range": "[6.0.1, )",
+      "targetFramework": "net6.0-ios16.1"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "range": "[8.3.1, )",
+      "targetFramework": "net6.0-maccatalyst16.1"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Validators",
+      "range": "[8.3.1, )",
+      "targetFramework": "net6.0-maccatalyst16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Abstractions",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-maccatalyst16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Authentication.Azure",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-maccatalyst16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-maccatalyst16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Form",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-maccatalyst16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Json",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-maccatalyst16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Multipart",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-maccatalyst16.1"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Text",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-maccatalyst16.1"
+    },
+    {
+      "id": "System.Runtime.InteropServices.NFloat.Internal",
+      "range": "[6.0.1, )",
+      "targetFramework": "net6.0-maccatalyst16.1"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "range": "[8.3.1, )",
+      "targetFramework": "net6.0-macos13.0"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Validators",
+      "range": "[8.3.1, )",
+      "targetFramework": "net6.0-macos13.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Abstractions",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-macos13.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Authentication.Azure",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-macos13.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-macos13.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Form",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-macos13.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Json",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-macos13.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Multipart",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-macos13.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Text",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-macos13.0"
+    },
+    {
+      "id": "System.Runtime.InteropServices.NFloat.Internal",
+      "range": "[6.0.1, )",
+      "targetFramework": "net6.0-macos13.0"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "range": "[8.3.1, )",
+      "targetFramework": "net6.0-windows7.0"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Validators",
+      "range": "[8.3.1, )",
+      "targetFramework": "net6.0-windows7.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Abstractions",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-windows7.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Authentication.Azure",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-windows7.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-windows7.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Form",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-windows7.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Json",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-windows7.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Multipart",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-windows7.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Text",
+      "range": "[1.16.4, )",
+      "targetFramework": "net6.0-windows7.0"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "range": "[8.3.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.IdentityModel.Validators",
+      "range": "[8.3.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Abstractions",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Authentication.Azure",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Form",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Json",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Multipart",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Kiota.Serialization.Text",
+      "range": "[1.16.4, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netframework4.6.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netframework4.6.2/microsoft.identitymodel.protocols.openidconnect",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.protocols.openidconnect/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netframework4.6.2/microsoft.identitymodel.validators",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Validators",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.validators/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netframework4.6.2/microsoft.kiota.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Abstractions",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netframework4.6.2/microsoft.kiota.authentication.azure",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Authentication.Azure",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.authentication.azure/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netframework4.6.2/microsoft.kiota.http.httpclientlibrary",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.http.httpclientlibrary/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netframework4.6.2/microsoft.kiota.serialization.form",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Form",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.form/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netframework4.6.2/microsoft.kiota.serialization.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Json",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netframework4.6.2/microsoft.kiota.serialization.multipart",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Multipart",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.multipart/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netframework4.6.2/microsoft.kiota.serialization.text",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Text",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.text/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netframework4.6.2/system.net.http.winhttphandler",
+          "@type": "PackageDependency",
+          "id": "System.Net.Http.WinHttpHandler",
+          "range": "[6.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.net.http.winhttphandler/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0/microsoft.identitymodel.protocols.openidconnect",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.protocols.openidconnect/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0/microsoft.identitymodel.validators",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Validators",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.validators/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0/microsoft.kiota.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Abstractions",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0/microsoft.kiota.authentication.azure",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Authentication.Azure",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.authentication.azure/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0/microsoft.kiota.http.httpclientlibrary",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.http.httpclientlibrary/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0/microsoft.kiota.serialization.form",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Form",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.form/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0/microsoft.kiota.serialization.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Json",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0/microsoft.kiota.serialization.multipart",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Multipart",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.multipart/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0/microsoft.kiota.serialization.text",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Text",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.text/index.json"
+        }
+      ],
+      "targetFramework": "net6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-android31.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-android31.0/microsoft.identitymodel.protocols.openidconnect",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.protocols.openidconnect/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-android31.0/microsoft.identitymodel.validators",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Validators",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.validators/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-android31.0/microsoft.kiota.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Abstractions",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-android31.0/microsoft.kiota.authentication.azure",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Authentication.Azure",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.authentication.azure/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-android31.0/microsoft.kiota.http.httpclientlibrary",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.http.httpclientlibrary/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-android31.0/microsoft.kiota.serialization.form",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Form",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.form/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-android31.0/microsoft.kiota.serialization.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Json",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-android31.0/microsoft.kiota.serialization.multipart",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Multipart",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.multipart/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-android31.0/microsoft.kiota.serialization.text",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Text",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.text/index.json"
+        }
+      ],
+      "targetFramework": "net6.0-android31.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-ios16.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-ios16.1/microsoft.identitymodel.protocols.openidconnect",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.protocols.openidconnect/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-ios16.1/microsoft.identitymodel.validators",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Validators",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.validators/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-ios16.1/microsoft.kiota.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Abstractions",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-ios16.1/microsoft.kiota.authentication.azure",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Authentication.Azure",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.authentication.azure/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-ios16.1/microsoft.kiota.http.httpclientlibrary",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.http.httpclientlibrary/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-ios16.1/microsoft.kiota.serialization.form",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Form",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.form/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-ios16.1/microsoft.kiota.serialization.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Json",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-ios16.1/microsoft.kiota.serialization.multipart",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Multipart",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.multipart/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-ios16.1/microsoft.kiota.serialization.text",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Text",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.text/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-ios16.1/system.runtime.interopservices.nfloat.internal",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.InteropServices.NFloat.Internal",
+          "range": "[6.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.interopservices.nfloat.internal/index.json"
+        }
+      ],
+      "targetFramework": "net6.0-ios16.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-maccatalyst16.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-maccatalyst16.1/microsoft.identitymodel.protocols.openidconnect",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.protocols.openidconnect/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-maccatalyst16.1/microsoft.identitymodel.validators",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Validators",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.validators/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-maccatalyst16.1/microsoft.kiota.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Abstractions",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-maccatalyst16.1/microsoft.kiota.authentication.azure",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Authentication.Azure",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.authentication.azure/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-maccatalyst16.1/microsoft.kiota.http.httpclientlibrary",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.http.httpclientlibrary/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-maccatalyst16.1/microsoft.kiota.serialization.form",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Form",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.form/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-maccatalyst16.1/microsoft.kiota.serialization.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Json",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-maccatalyst16.1/microsoft.kiota.serialization.multipart",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Multipart",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.multipart/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-maccatalyst16.1/microsoft.kiota.serialization.text",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Text",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.text/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-maccatalyst16.1/system.runtime.interopservices.nfloat.internal",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.InteropServices.NFloat.Internal",
+          "range": "[6.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.interopservices.nfloat.internal/index.json"
+        }
+      ],
+      "targetFramework": "net6.0-maccatalyst16.1"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-macos13.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-macos13.0/microsoft.identitymodel.protocols.openidconnect",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.protocols.openidconnect/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-macos13.0/microsoft.identitymodel.validators",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Validators",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.validators/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-macos13.0/microsoft.kiota.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Abstractions",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-macos13.0/microsoft.kiota.authentication.azure",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Authentication.Azure",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.authentication.azure/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-macos13.0/microsoft.kiota.http.httpclientlibrary",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.http.httpclientlibrary/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-macos13.0/microsoft.kiota.serialization.form",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Form",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.form/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-macos13.0/microsoft.kiota.serialization.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Json",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-macos13.0/microsoft.kiota.serialization.multipart",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Multipart",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.multipart/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-macos13.0/microsoft.kiota.serialization.text",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Text",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.text/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-macos13.0/system.runtime.interopservices.nfloat.internal",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.InteropServices.NFloat.Internal",
+          "range": "[6.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.interopservices.nfloat.internal/index.json"
+        }
+      ],
+      "targetFramework": "net6.0-macos13.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-windows7.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-windows7.0/microsoft.identitymodel.protocols.openidconnect",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.protocols.openidconnect/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-windows7.0/microsoft.identitymodel.validators",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Validators",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.validators/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-windows7.0/microsoft.kiota.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Abstractions",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-windows7.0/microsoft.kiota.authentication.azure",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Authentication.Azure",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.authentication.azure/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-windows7.0/microsoft.kiota.http.httpclientlibrary",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.http.httpclientlibrary/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-windows7.0/microsoft.kiota.serialization.form",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Form",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.form/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-windows7.0/microsoft.kiota.serialization.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Json",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-windows7.0/microsoft.kiota.serialization.multipart",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Multipart",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.multipart/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/net6.0-windows7.0/microsoft.kiota.serialization.text",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Text",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.text/index.json"
+        }
+      ],
+      "targetFramework": "net6.0-windows7.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netstandard2.0/microsoft.identitymodel.protocols.openidconnect",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.protocols.openidconnect/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netstandard2.0/microsoft.identitymodel.validators",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IdentityModel.Validators",
+          "range": "[8.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identitymodel.validators/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netstandard2.0/microsoft.kiota.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Abstractions",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netstandard2.0/microsoft.kiota.authentication.azure",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Authentication.Azure",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.authentication.azure/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netstandard2.0/microsoft.kiota.http.httpclientlibrary",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Http.HttpClientLibrary",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.http.httpclientlibrary/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netstandard2.0/microsoft.kiota.serialization.form",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Form",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.form/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netstandard2.0/microsoft.kiota.serialization.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Json",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netstandard2.0/microsoft.kiota.serialization.multipart",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Multipart",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.multipart/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2025.01.30.06.46.57/microsoft.graph.core.3.2.3.json#dependencygroup/.netstandard2.0/microsoft.kiota.serialization.text",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Kiota.Serialization.Text",
+          "range": "[1.16.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.kiota.serialization.text/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2025-01-30T06:43:53.607+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.graph.core/3.2.3/icon",
+  "readmeUrl": "https://www.nuget.org/packages/Microsoft.Graph.Core/3.2.3#show-readme-container",
+  "captured_at": "2026-05-29T05:37:25.917Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
