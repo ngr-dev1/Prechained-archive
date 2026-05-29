@@ -1,0 +1,117 @@
+{
+  "name": "bitflags",
+  "version": "2.12.0",
+  "ecosystem": "cargo",
+  "description": "A macro to generate structures which behave like bitflags.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "2c61cd05405eb1d0f3a4660f802bad76ece84b6e722426342ba5dd511f724e97",
+  "features": {
+    "example_generated": [],
+    "serde": [
+      "serde_core"
+    ],
+    "std": []
+  },
+  "downloads": 0,
+  "yanked": false,
+  "repository": "https://github.com/bitflags/bitflags",
+  "homepage": "https://github.com/bitflags/bitflags",
+  "keywords": [
+    "bit",
+    "bitflags",
+    "bitmask",
+    "flags"
+  ],
+  "categories": [
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "arbitrary",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytemuck",
+      "requirement": "^1.12.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustversion",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.103",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_test",
+      "requirement": "^1.0.19",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "trybuild",
+      "requirement": "^1.0.18",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "zerocopy",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "arbitrary",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "bytemuck",
+      "requirement": "^1.12",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_core",
+      "requirement": "^1.0.228",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 3204,
+    "login": "KodrAus",
+    "name": "Ashley Mannix"
+  },
+  "publishedAt": "2026-05-29T12:31:48.686523Z",
+  "captured_at": "2026-05-29T13:57:22.175Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
