@@ -1,0 +1,244 @@
+{
+  "name": "ed25519-dalek",
+  "version": "3.0.0-rc.0",
+  "ecosystem": "cargo",
+  "description": "Fast and efficient ed25519 EdDSA key generations, signing, and verification in pure Rust.",
+  "license": "BSD-3-Clause",
+  "checksum": "b011170fe4f04665565b4110afef66774fe9ffff278f3eb5b81cc73d26e27d60",
+  "features": {
+    "alloc": [
+      "curve25519-dalek/alloc",
+      "ed25519/alloc",
+      "signature/alloc",
+      "serde?/alloc",
+      "zeroize?/alloc"
+    ],
+    "batch": [
+      "alloc",
+      "dep:keccak",
+      "rand_core",
+      "strobe-rs"
+    ],
+    "default": [
+      "fast",
+      "zeroize"
+    ],
+    "digest": [
+      "signature/digest"
+    ],
+    "fast": [
+      "curve25519-dalek/precomputed-tables"
+    ],
+    "hazmat": [],
+    "legacy_compatibility": [
+      "curve25519-dalek/legacy_compatibility"
+    ],
+    "pem": [
+      "alloc",
+      "ed25519/pem",
+      "pkcs8"
+    ],
+    "pkcs8": [
+      "ed25519/pkcs8"
+    ],
+    "rand_core": [
+      "dep:rand_core"
+    ],
+    "serde": [
+      "dep:serde",
+      "ed25519/serde"
+    ],
+    "zeroize": [
+      "dep:zeroize",
+      "curve25519-dalek/zeroize"
+    ]
+  },
+  "downloads": 328,
+  "yanked": false,
+  "repository": "https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek",
+  "homepage": "https://github.com/dalek-cryptography/curve25519-dalek",
+  "keywords": [
+    "cryptography",
+    "curve25519",
+    "ecc",
+    "ed25519",
+    "signature"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "blake2",
+      "requirement": "^0.11.0-rc.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "chacha20",
+      "requirement": "^0.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "curve25519-dalek",
+      "requirement": "^5.0.0-rc.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "curve25519-dalek",
+      "requirement": "^5.0.0-rc.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "ed25519",
+      "requirement": "^3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hex",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hex-literal",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "postcard",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "sha2",
+      "requirement": "^0.11",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "sha3",
+      "requirement": "^0.11",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "subtle",
+      "requirement": "^2.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "toml",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "x25519-dalek",
+      "requirement": "^3.0.0-rc.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "keccak",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "rand_core",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "signature",
+      "requirement": "^3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "strobe-rs",
+      "requirement": "^0.13",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "zeroize",
+      "requirement": "^1.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6979,
+    "login": "rozbb",
+    "name": "Michael Rosenberg"
+  },
+  "publishedAt": "2026-05-28T23:00:25.352747Z",
+  "captured_at": "2026-05-29T17:07:23.125Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
