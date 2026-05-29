@@ -1,0 +1,66 @@
+{
+  "name": "lru-cache",
+  "version": "7.4.5",
+  "ecosystem": "npm",
+  "description": "A cache object that deletes the least-recently-used items.",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "^16.0.1",
+    "heapdump": "^0.3.15",
+    "benchmark": "^2.1.4",
+    "size-limit": "^7.0.8",
+    "webpack-cli": "^4.9.2",
+    "@size-limit/preset-small-lib": "^7.0.8"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "webpack-cli -o bundle ./index.js --node-env production",
+    "prepublish": null,
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me"
+  },
+  "publishedAt": "2022-04-09T19:35:55.240Z",
+  "dist": {
+    "integrity": "sha512-tT5jwefAV3F9AxyRPO/HrupMB4iLwae2a3sPMzttYKQBxc2/qaOdKUJxGZ3q2pihiHasDfpNkuNHGk92cb4RyA==",
+    "shasum": "818618db4de37bca83292f46362429124d6f0d45",
+    "tarball": "https://registry.npmjs.org/lru-cache/-/lru-cache-7.4.5.tgz",
+    "fileCount": 5,
+    "unpackedSize": 46234
+  },
+  "repository": {
+    "url": "git://github.com/isaacs/node-lru-cache.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/isaacs/node-lru-cache#readme",
+  "bugs": {
+    "url": "https://github.com/isaacs/node-lru-cache/issues"
+  },
+  "keywords": [
+    "mru",
+    "lru",
+    "cache"
+  ],
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  },
+  "captured_at": "2026-05-29T21:35:35.367Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
