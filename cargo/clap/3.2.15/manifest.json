@@ -1,0 +1,248 @@
+{
+  "name": "clap",
+  "version": "3.2.15",
+  "ecosystem": "cargo",
+  "description": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "44bbe24bbd31a185bc2c4f7c2abe80bea13a20d57ee4e55be70ac512bdc76417",
+  "features": {
+    "cargo": [
+      "once_cell"
+    ],
+    "color": [
+      "atty",
+      "termcolor"
+    ],
+    "debug": [
+      "clap_derive/debug",
+      "backtrace"
+    ],
+    "default": [
+      "std",
+      "color",
+      "suggestions"
+    ],
+    "deprecated": [
+      "clap_derive/deprecated"
+    ],
+    "derive": [
+      "clap_derive",
+      "once_cell"
+    ],
+    "env": [],
+    "std": [
+      "indexmap/std"
+    ],
+    "suggestions": [
+      "strsim"
+    ],
+    "unicode": [
+      "textwrap/unicode-width",
+      "unicase"
+    ],
+    "unstable-doc": [
+      "derive",
+      "cargo",
+      "wrap_help",
+      "yaml",
+      "env",
+      "unicode",
+      "regex",
+      "unstable-replace",
+      "unstable-grouped"
+    ],
+    "unstable-grouped": [],
+    "unstable-replace": [],
+    "unstable-v4": [
+      "clap_derive/unstable-v4",
+      "deprecated"
+    ],
+    "wrap_help": [
+      "terminal_size",
+      "textwrap/terminal_size"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "downloads": 867325,
+  "yanked": false,
+  "repository": "https://github.com/clap-rs/clap",
+  "homepage": null,
+  "keywords": [
+    "arg",
+    "argument",
+    "cli",
+    "parse",
+    "parser"
+  ],
+  "categories": [
+    "Command-line interface"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "^1.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "clap_lex",
+      "requirement": "^0.2.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "humantime",
+      "requirement": "^2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "indexmap",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustversion",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "shlex",
+      "requirement": "^1.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "snapbox",
+      "requirement": "^0.2.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "static_assertions",
+      "requirement": "^1.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "textwrap",
+      "requirement": "^0.15.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "trybuild",
+      "requirement": "^1.0.18",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "trycmd",
+      "requirement": "^0.13",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "atty",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "backtrace",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "clap_derive",
+      "requirement": "=3.2.15",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1.12.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "strsim",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "termcolor",
+      "requirement": "^1.1.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "terminal_size",
+      "requirement": "^0.1.12",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "unicase",
+      "requirement": "^2.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "yaml-rust",
+      "requirement": "^0.4.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6743,
+    "login": "epage",
+    "name": "Ed Page"
+  },
+  "publishedAt": "2022-07-25T18:31:00.697397Z",
+  "captured_at": "2026-05-29T01:37:23.037Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
