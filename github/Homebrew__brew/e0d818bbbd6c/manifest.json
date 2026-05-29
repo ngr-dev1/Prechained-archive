@@ -1,0 +1,55 @@
+{
+  "repo": "Homebrew/brew",
+  "commit_sha": "e0d818bbbd6c7a28e336f2f89992ad696136d5d9",
+  "tree_sha": "3dc4809aa58344216a836ef36f07ab86b99e3321",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "🍺 The missing package manager for macOS (or Linux)",
+  "license": "BSD-2-Clause",
+  "license_name": "BSD 2-Clause \"Simplified\" License",
+  "stars": 48229,
+  "watchers": 48229,
+  "forks": 11137,
+  "open_issues": 11,
+  "language": "Ruby",
+  "topics": [
+    "brew",
+    "homebrew",
+    "macos",
+    "package-manager",
+    "ruby"
+  ],
+  "commit_message": "Make bundle cleanup ask before removal\n\n- Prevent `brew bundle install --cleanup` from removing packages unless\n  ask mode or an explicit force cleanup path is used.\n- Share the ask confirmation helper with install, upgrade and bundle\n  cleanup flows so prompts behave consistently.\n- Keep generated help and completions aligned with the safer cleanup\n  contract.\n\nSigned-off-by: Patrick Linnane <patrick@linnane.io>",
+  "commit_author": {
+    "name": "Mike McQuaid",
+    "email": "mike@mikemcquaid.com",
+    "date": "2026-05-29T16:27:00Z"
+  },
+  "commit_committer": {
+    "name": "Patrick Linnane",
+    "email": "patrick@linnane.io",
+    "date": "2026-05-29T16:55:41Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "b6a670e46b86190c322b790ee0f877a5f75fc6b8"
+  ],
+  "github_author_login": "MikeMcQuaid",
+  "github_committer_login": "p-linnane",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-29T17:31:36Z",
+  "created_at": "2016-03-06T05:08:38Z",
+  "homepage": "https://brew.sh",
+  "size_kb": 114794,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-29T17:37:28.465Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
