@@ -1,0 +1,48 @@
+{
+  "name": "k256",
+  "version": "0.1.0",
+  "ecosystem": "cargo",
+  "description": "secp256k1 elliptic curve library written in pure Rust with support for ECDSA\nsigning/verification/public-key recovery, Taproot Schnorr signatures (BIP340),\nElliptic Curve Diffie-Hellman (ECDH), and general-purpose secp256k1 elliptic\ncurve group operations which can be used to implement arbitrary protocols\n",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "4407bc616f76afb6bccd8a813b86fe622752b15b43c5e60fec94d21af2393a72",
+  "features": {
+    "std": [
+      "elliptic-curve/std"
+    ]
+  },
+  "downloads": 13290,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/elliptic-curves",
+  "homepage": "https://github.com/RustCrypto/elliptic-curves/tree/master/k256",
+  "keywords": [
+    "bitcoin",
+    "crypto",
+    "ecc",
+    "ethereum",
+    "secp256k1"
+  ],
+  "categories": [
+    "Cryptocurrencies",
+    "No standard library",
+    "Cryptography"
+  ],
+  "dependencies": [
+    {
+      "name": "elliptic-curve",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri",
+    "name": "Tony Arcieri"
+  },
+  "publishedAt": "2020-01-06T04:57:26.284770Z",
+  "captured_at": "2026-05-29T14:17:25.543Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
