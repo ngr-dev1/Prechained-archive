@@ -1,0 +1,59 @@
+{
+  "name": "nom",
+  "version": "1.2.0",
+  "ecosystem": "cargo",
+  "description": "A byte-oriented, zero-copy, parser combinators library",
+  "license": "MIT",
+  "checksum": "e42f16eeab9fa9016ee8cc188b79dba1960d593829774bdf08d6427f6f633b3e",
+  "features": {
+    "core": [],
+    "default": [
+      "stream"
+    ],
+    "nightly": [],
+    "regexp": [
+      "regex"
+    ],
+    "regexp_macros": [
+      "regexp",
+      "regex_macros"
+    ],
+    "stream": []
+  },
+  "downloads": 22156,
+  "yanked": false,
+  "repository": "https://github.com/rust-bakery/nom",
+  "homepage": null,
+  "keywords": [
+    "bit",
+    "parser",
+    "parser-combinators",
+    "parsing",
+    "streaming"
+  ],
+  "categories": [
+    "Parsing tools"
+  ],
+  "dependencies": [
+    {
+      "name": "regex",
+      "requirement": "^0.1.41",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "regex_macros",
+      "requirement": "^0.1.21",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2016-02-08T17:16:08.143346Z",
+  "captured_at": "2026-05-29T14:17:28.463Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
