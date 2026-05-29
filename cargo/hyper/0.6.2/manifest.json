@@ -1,0 +1,145 @@
+{
+  "name": "hyper",
+  "version": "0.6.2",
+  "ecosystem": "cargo",
+  "description": "A protective and efficient HTTP library for all.",
+  "license": "MIT",
+  "checksum": "6facaca594c9954777bff936ab822f3b5e3f82cf24e27c3040746cc5e2b09941",
+  "features": {
+    "default": [
+      "ssl"
+    ],
+    "nightly": [],
+    "ssl": [
+      "openssl",
+      "cookie/secure"
+    ]
+  },
+  "downloads": 4742,
+  "yanked": false,
+  "repository": "https://github.com/hyperium/hyper",
+  "homepage": "https://hyper.rs",
+  "keywords": [
+    "http",
+    "hyper",
+    "hyperium"
+  ],
+  "categories": [
+    "Network programming",
+    "HTTP client",
+    "HTTP server"
+  ],
+  "dependencies": [
+    {
+      "name": "cookie",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "env_logger",
+      "requirement": "*",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "httparse",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "language-tags",
+      "requirement": "^0.0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mime",
+      "requirement": "^0.0.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num_cpus",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustc-serialize",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "solicit",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "time",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "traitobject",
+      "requirement": "^0.0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "typeable",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "unicase",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "openssl",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-07-06T22:24:43.804229Z",
+  "captured_at": "2026-05-29T19:47:22.920Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
