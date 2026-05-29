@@ -1,0 +1,58 @@
+{
+  "name": "openssl",
+  "version": "0.4.3",
+  "ecosystem": "cargo",
+  "description": "OpenSSL bindings",
+  "license": "Apache-2.0",
+  "checksum": "7c3b838e76b3e8b60841fb692aa43218dd65348dd737d0a24547311dfb5b7252",
+  "features": {
+    "aes_xts": [
+      "openssl-sys/aes_xts"
+    ],
+    "sslv2": [
+      "openssl-sys/sslv2"
+    ],
+    "tlsv1_1": [
+      "openssl-sys/tlsv1_1"
+    ],
+    "tlsv1_2": [
+      "openssl-sys/tlsv1_2"
+    ]
+  },
+  "downloads": 6065,
+  "yanked": false,
+  "repository": "https://github.com/rust-openssl/rust-openssl",
+  "homepage": null,
+  "keywords": [
+    "crypto",
+    "dtls",
+    "ssl",
+    "tls"
+  ],
+  "categories": [
+    "API bindings",
+    "Cryptography"
+  ],
+  "dependencies": [
+    {
+      "name": "openssl-sys",
+      "requirement": "^0.4.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustc-serialize",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-02-20T21:44:42.271165Z",
+  "captured_at": "2026-05-29T09:37:27.940Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
