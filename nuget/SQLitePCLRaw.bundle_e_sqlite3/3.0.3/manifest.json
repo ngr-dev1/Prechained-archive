@@ -1,0 +1,65 @@
+{
+  "name": "SQLitePCLRaw.bundle_e_sqlite3",
+  "version": "3.0.3",
+  "ecosystem": "nuget",
+  "description": "This 'batteries-included' bundle brings in SQLitePCLRaw.core and the necessary stuff for certain common use cases.  Call SQLitePCL.Batteries.Init().",
+  "license": "Apache-2.0",
+  "licenseExpression": "Apache-2.0",
+  "authors": [
+    "Eric Sink"
+  ],
+  "owners": [],
+  "tags": [
+    "sqlite"
+  ],
+  "projectUrl": null,
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "SQLitePCLRaw.config.e_sqlite3",
+      "range": "[3.0.3, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "SourceGear.sqlite3",
+      "range": "[3.50.4.5, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.07.17.05.32/sqlitepclraw.bundle_e_sqlite3.3.0.3.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.07.17.05.32/sqlitepclraw.bundle_e_sqlite3.3.0.3.json#dependencygroup/.netstandard2.0/sqlitepclraw.config.e_sqlite3",
+          "@type": "PackageDependency",
+          "id": "SQLitePCLRaw.config.e_sqlite3",
+          "range": "[3.0.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sqlitepclraw.config.e_sqlite3/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.07.17.05.32/sqlitepclraw.bundle_e_sqlite3.3.0.3.json#dependencygroup/.netstandard2.0/sourcegear.sqlite3",
+          "@type": "PackageDependency",
+          "id": "SourceGear.sqlite3",
+          "range": "[3.50.4.5, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sourcegear.sqlite3/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2026-05-07T17:01:58.643+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": null,
+  "readmeUrl": "https://www.nuget.org/packages/SQLitePCLRaw.bundle_e_sqlite3/3.0.3#show-readme-container",
+  "captured_at": "2026-05-29T19:07:32.184Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
