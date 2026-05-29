@@ -1,0 +1,62 @@
+{
+  "repo": "endojs/endo",
+  "commit_sha": "c49fb048b39e633363ea6e7dd6d8a7f788fec04f",
+  "tree_sha": "11020e607acf719cce7327a2162214e982117ace",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Endo is a distributed secure JavaScript sandbox, based on SES",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 1023,
+  "watchers": 1023,
+  "forks": 87,
+  "open_issues": 564,
+  "language": "JavaScript",
+  "topics": [
+    "capabilities",
+    "captp",
+    "hardened",
+    "javascript",
+    "multi-tenant",
+    "ocaps",
+    "powerbox",
+    "prototype-pollution",
+    "sandbox",
+    "security",
+    "supply-chain"
+  ],
+  "commit_message": "fix(compartment-mapper,bundle-source): async parser support (#3186)\n\nThis fixes the half-implemented type defs and support for async parsers\nby introducing `AsyncParserImplementation`.\n\nWe needed sync-and-async-specific parse-mappers in `map-parser.js` and\nsome type guards.\n\nA sync-parser-specific `SyncParserForLanguage` is introduced as well.\n\n_Bonus: added some tests for `import()` in ESM to\n`@endo/compartment-mapper`._",
+  "commit_author": {
+    "name": "Christopher Hiller",
+    "email": "boneskull@boneskull.com",
+    "date": "2026-05-29T01:06:28Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-29T01:06:28Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "3d58c8560adaf924773f70c5ea544efe15a25cf4",
+    "d5be9d83c0b818e4269b0bef16e5a8e2ce11ff8f"
+  ],
+  "github_author_login": "boneskull",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-05-29T05:29:10Z",
+  "created_at": "2019-11-06T20:09:57Z",
+  "homepage": "https://endojs.org/",
+  "size_kb": 76448,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-29T08:27:27.787Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
