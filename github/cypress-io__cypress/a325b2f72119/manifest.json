@@ -1,0 +1,63 @@
+{
+  "repo": "cypress-io/cypress",
+  "commit_sha": "a325b2f721197755e3a4828c3cf4e5a438df77c7",
+  "tree_sha": "55d391374a449b4e539eb6450843e9027c424f25",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 49655,
+  "watchers": 49655,
+  "forks": 3403,
+  "open_issues": 1228,
+  "language": "TypeScript",
+  "topics": [
+    "angular-testing-library",
+    "component-testing",
+    "cypress",
+    "cypress-cloud",
+    "cypress-schematic",
+    "end-to-end-testing",
+    "react-testing-library",
+    "svelte-testing-library",
+    "test-replay",
+    "testing-framework",
+    "testing-library",
+    "testing-tool",
+    "vue-testing-library"
+  ],
+  "commit_message": "fix: escape HTML in reporter assertion messages (#33416) (#33941)\n\nThe reporter's formattedMessage() splits assert command messages into\nstructural regex matches (e.g. ` with <svg>`) and value parts (wrapped\nin `**`). Value parts were already HTML-escaped via mdOnlyHTML, but\nstructural matches were concatenated verbatim into the string that's\nlater set via dangerouslySetInnerHTML, so HTML in unwrapped trailing\narguments (like sinon's calledOnceWith) was rendered as live markup.\n\nEscape the struc",
+  "commit_author": {
+    "name": "Matt Schile",
+    "email": "mschile@cypress.io",
+    "date": "2026-05-28T23:49:35Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-28T23:49:35Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "696fdd9be5e7ab1d7804906ca7fdea8f8d9f60c0"
+  ],
+  "github_author_login": "mschile",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-05-28T23:49:36Z",
+  "created_at": "2015-03-04T00:46:28Z",
+  "homepage": "https://cypress.io",
+  "size_kb": 554916,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-29T01:17:28.485Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
