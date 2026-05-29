@@ -1,0 +1,123 @@
+{
+  "name": "wasm-bindgen",
+  "version": "0.2.62",
+  "ecosystem": "cargo",
+  "description": "Easy support for interacting between JS and Rust.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "e3c7d40d09cdbf0f4895ae58cf57d92e1e57a9dd8ed2e8390514b54a47cc5551",
+  "features": {
+    "default": [
+      "spans",
+      "std"
+    ],
+    "enable-interning": [
+      "std"
+    ],
+    "nightly": [],
+    "serde-serialize": [
+      "serde",
+      "serde_json",
+      "std"
+    ],
+    "spans": [
+      "wasm-bindgen-macro/spans"
+    ],
+    "std": [],
+    "strict-macro": [
+      "wasm-bindgen-macro/strict-macro"
+    ],
+    "xxx_debug_only_print_generated_code": [
+      "wasm-bindgen-macro/xxx_debug_only_print_generated_code"
+    ]
+  },
+  "downloads": 565797,
+  "yanked": false,
+  "repository": "https://github.com/wasm-bindgen/wasm-bindgen",
+  "homepage": "https://wasm-bindgen.github.io/wasm-bindgen",
+  "keywords": [],
+  "categories": [
+    "WebAssembly"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^0.1.9",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "js-sys",
+      "requirement": "^0.3.39",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-futures",
+      "requirement": "= 0.4.12",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-macro",
+      "requirement": "= 0.2.62",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-test",
+      "requirement": "= 0.3.12",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-test-crate-a",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-test-crate-b",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 1,
+    "login": "alexcrichton",
+    "name": "Alex Crichton"
+  },
+  "publishedAt": "2020-05-01T15:35:03.770354Z",
+  "captured_at": "2026-05-29T01:47:28.671Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
