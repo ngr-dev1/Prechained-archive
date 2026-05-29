@@ -1,0 +1,93 @@
+{
+  "name": "tesseract.js",
+  "version": "2.1.0",
+  "ecosystem": "npm",
+  "description": "Pure Javascript Multilingual OCR",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bmp-js": "^0.1.0",
+    "is-url": "^1.2.4",
+    "zlibjs": "^0.3.1",
+    "file-type": "^12.4.1",
+    "idb-keyval": "^3.2.0",
+    "node-fetch": "^2.6.0",
+    "is-electron": "^2.2.0",
+    "resolve-url": "^0.2.1",
+    "tesseract.js-core": "^2.2.0",
+    "regenerator-runtime": "^0.13.3",
+    "opencollective-postinstall": "^2.0.2"
+  },
+  "devDependencies": {
+    "nyc": "^15.0.0",
+    "cors": "^2.8.5",
+    "acorn": "^6.4.0",
+    "mocha": "^5.2.0",
+    "eslint": "^5.16.0",
+    "rimraf": "^2.7.1",
+    "express": "^4.17.1",
+    "wait-on": "^3.3.0",
+    "webpack": "^4.41.4",
+    "expect.js": "^0.3.1",
+    "@babel/core": "^7.7.7",
+    "npm-run-all": "^4.1.5",
+    "webpack-cli": "^3.3.10",
+    "babel-loader": "^8.0.6",
+    "@babel/preset-env": "^7.7.7",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.19.1",
+    "mocha-headless-chrome": "^2.0.3",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-bundle-analyzer": "^3.6.0"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "opencollective-postinstall || true",
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "antimatter15",
+      "email": "antimatter15@gmail.com"
+    },
+    {
+      "name": "bijection",
+      "email": "guillermo@cdbzb.com"
+    },
+    {
+      "name": "jeromewu",
+      "email": "jeromewus@gmail.com"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2020-03-20T02:23:41.786Z",
+  "dist": {
+    "integrity": "sha512-Uh6sVkpDsuT0DetBxBNST77lP+C/KHYA3rdJfzbnQmPTmf5ms0LwJlVrCnEecCJb6wONgMXc4CzgaH9jCYg9KQ==",
+    "shasum": "97a7c81e3e4e299ee5617745dd3569d7ebf9ef2f",
+    "tarball": "https://registry.npmjs.org/tesseract.js/-/tesseract.js-2.1.0.tgz",
+    "fileCount": 74,
+    "unpackedSize": 1095855
+  },
+  "repository": {
+    "url": "git+https://github.com/naptha/tesseract.js.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/naptha/tesseract.js",
+  "bugs": {
+    "url": "https://github.com/naptha/tesseract.js/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "jeromewu",
+    "email": "jeromewus@gmail.com"
+  },
+  "captured_at": "2026-05-29T07:17:21.483Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
