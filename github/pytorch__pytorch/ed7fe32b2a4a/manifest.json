@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "ed7fe32b2a4a465ed226a5e2389d01d270543f39",
+  "tree_sha": "ceb7dd0478b911cdf40af367bd18e1f02926527f",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100255,
+  "watchers": 100255,
+  "forks": 27880,
+  "open_issues": 18369,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "[MPS] fix bucketization speed (#185622)\n\nthread should have jumped `threadgroup_size * num_tid_in_threadgroup`, instead it jumped just `threadgroup_size` which killed perf.\nNumbers:\n| dtype    | shape   | old_ms   | new_ms | speedup |\n|----------|---------|----------|--------|---------|\n| float32  | 1048576 | 27.9118  | 0.2327 | 119.97x |\n| bfloat16 | 1048576 | 26.2353  | 0.0692 | 379.08x |\n| float16  | 1048576 | 26.3862  | 0.0674 | 391.39x |\n| bfloat16 | 2097152 | 79.2882  | 0.1372 | 577.91x |\n",
+  "commit_author": {
+    "name": "Isalia20",
+    "email": "irakli.salia854@gmail.com",
+    "date": "2026-05-29T14:15:32Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-05-29T14:15:32Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "031b78cb70a67d1a9d9810ad547ae2acfe8ffe7f"
+  ],
+  "github_author_login": "Isalia20",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-29T15:00:55Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1367789,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-29T15:17:26.205Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
