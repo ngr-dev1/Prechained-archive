@@ -1,0 +1,176 @@
+{
+  "name": "Microsoft.Azure.WebJobs",
+  "version": "3.0.14",
+  "ecosystem": "nuget",
+  "description": "This package contains the runtime assemblies for Microsoft.Azure.WebJobs.Host. It also adds rich diagnostics capabilities which makes it easier to monitor the WebJobs in the dashboard. For more information, please visit http://go.microsoft.com/fwlink/?LinkID=320971",
+  "license": "https://go.microsoft.com/fwlink/?linkid=2028464",
+  "licenseExpression": null,
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    "Microsoft",
+    "Azure",
+    "WebJobs",
+    "AzureFunctions"
+  ],
+  "projectUrl": "http://go.microsoft.com/fwlink/?LinkID=320972",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.Azure.WebJobs.Core",
+      "range": "[3.0.14, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Json",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Configuration",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Newtonsoft.Json",
+      "range": "[11.0.2, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Threading.Tasks.Dataflow",
+      "range": "[4.8.0, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2019.10.16.18.34.23/microsoft.azure.webjobs.3.0.14.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.10.16.18.34.23/microsoft.azure.webjobs.3.0.14.json#dependencygroup/.netstandard2.0/microsoft.azure.webjobs.core",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Azure.WebJobs.Core",
+          "range": "[3.0.14, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.azure.webjobs.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.10.16.18.34.23/microsoft.azure.webjobs.3.0.14.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.10.16.18.34.23/microsoft.azure.webjobs.3.0.14.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.10.16.18.34.23/microsoft.azure.webjobs.3.0.14.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.environmentvariables",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.environmentvariables/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.10.16.18.34.23/microsoft.azure.webjobs.3.0.14.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Json",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.10.16.18.34.23/microsoft.azure.webjobs.3.0.14.json#dependencygroup/.netstandard2.0/microsoft.extensions.hosting",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.10.16.18.34.23/microsoft.azure.webjobs.3.0.14.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.10.16.18.34.23/microsoft.azure.webjobs.3.0.14.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.10.16.18.34.23/microsoft.azure.webjobs.3.0.14.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Configuration",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.10.16.18.34.23/microsoft.azure.webjobs.3.0.14.json#dependencygroup/.netstandard2.0/newtonsoft.json",
+          "@type": "PackageDependency",
+          "id": "Newtonsoft.Json",
+          "range": "[11.0.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/newtonsoft.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2019.10.16.18.34.23/microsoft.azure.webjobs.3.0.14.json#dependencygroup/.netstandard2.0/system.threading.tasks.dataflow",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Dataflow",
+          "range": "[4.8.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.dataflow/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2019-10-16T18:29:05.907+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.azure.webjobs/3.0.14/icon",
+  "readmeUrl": null,
+  "captured_at": "2026-05-29T05:07:25.775Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
