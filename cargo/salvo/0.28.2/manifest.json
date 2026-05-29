@@ -1,0 +1,123 @@
+{
+  "name": "salvo",
+  "version": "0.28.2",
+  "ecosystem": "cargo",
+  "description": "Salvo is a powerful web framework that can make your work easier.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "c61c086d72e111e1e45e595aeb3282c212252e8b597f5866ef96ad7f977e462a",
+  "features": {
+    "acme": [
+      "salvo_core/acme"
+    ],
+    "affix": [
+      "salvo_extra/affix"
+    ],
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic-auth": [
+      "salvo_extra/basic-auth"
+    ],
+    "compression": [
+      "salvo_extra/compression"
+    ],
+    "cors": [
+      "salvo_extra/cors"
+    ],
+    "csrf": [
+      "salvo_extra/csrf"
+    ],
+    "default": [],
+    "extra": [
+      "salvo_extra/full"
+    ],
+    "full": [
+      "test",
+      "rustls",
+      "native-tls",
+      "unix",
+      "acme",
+      "anyhow",
+      "extra"
+    ],
+    "jwt-auth": [
+      "salvo_extra/jwt-auth"
+    ],
+    "logging": [
+      "salvo_extra/logging"
+    ],
+    "native-tls": [
+      "salvo_core/native-tls"
+    ],
+    "proxy": [
+      "salvo_extra/proxy"
+    ],
+    "rustls": [
+      "salvo_core/rustls"
+    ],
+    "serve-static": [
+      "salvo_extra/serve-static"
+    ],
+    "size-limiter": [
+      "salvo_extra/size-limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "test": [
+      "salvo_core/test"
+    ],
+    "timeout": [
+      "salvo_extra/timeout"
+    ],
+    "unix": [
+      "salvo_core/unix"
+    ],
+    "ws": [
+      "salvo_extra/ws"
+    ]
+  },
+  "downloads": 5833,
+  "yanked": false,
+  "repository": "https://github.com/salvo-rs/salvo",
+  "homepage": "https://salvo.rs",
+  "keywords": [
+    "async",
+    "framework",
+    "http",
+    "server",
+    "web"
+  ],
+  "categories": [
+    "HTTP server",
+    "Network programming",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "salvo_core",
+      "requirement": "^0.28.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "salvo_extra",
+      "requirement": "^0.28.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn",
+    "name": "Chrislearn Young"
+  },
+  "publishedAt": "2022-08-01T09:44:29.835872Z",
+  "captured_at": "2026-05-29T05:07:26.547Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
