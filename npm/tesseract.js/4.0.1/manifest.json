@@ -1,0 +1,100 @@
+{
+  "name": "tesseract.js",
+  "version": "4.0.1",
+  "ecosystem": "npm",
+  "description": "Pure Javascript Multilingual OCR",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bmp-js": "^0.1.0",
+    "is-url": "^1.2.4",
+    "zlibjs": "^0.3.1",
+    "file-type": "^12.4.1",
+    "idb-keyval": "^3.2.0",
+    "node-fetch": "^2.6.0",
+    "is-electron": "^2.2.0",
+    "resolve-url": "^0.2.1",
+    "babel-eslint": "^10.1.0",
+    "tesseract.js-core": "^4.0.1",
+    "regenerator-runtime": "^0.13.3",
+    "wasm-feature-detect": "^1.2.11",
+    "opencollective-postinstall": "^2.0.2"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "cors": "^2.8.5",
+    "acorn": "^6.4.0",
+    "mocha": "^10.0.0",
+    "buffer": "^6.0.3",
+    "eslint": "^7.2.0",
+    "rimraf": "^2.7.1",
+    "rollup": "^2.79.0",
+    "express": "^4.17.1",
+    "wait-on": "^3.3.0",
+    "webpack": "^5.74.0",
+    "expect.js": "^0.3.1",
+    "@babel/core": "^7.18.7",
+    "npm-run-all": "^4.1.5",
+    "webpack-cli": "^4.10.0",
+    "babel-loader": "^8.2.0",
+    "@babel/preset-env": "^7.18.7",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha-headless-chrome": "^4.0.0",
+    "webpack-dev-middleware": "^5.3.3",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "webpack-bundle-analyzer": "^4.6.0",
+    "eslint-config-airbnb-base": "^14.2.0"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "opencollective-postinstall || true",
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "antimatter15",
+      "email": "antimatter15@gmail.com"
+    },
+    {
+      "name": "jeromewu",
+      "email": "jeromewus@gmail.com"
+    },
+    {
+      "name": "bijection",
+      "email": "guillermo@cdbzb.com"
+    },
+    {
+      "name": "balearica",
+      "email": "admin@scribeocr.com"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2022-12-10T05:12:56.352Z",
+  "dist": {
+    "integrity": "sha512-zrdcRp10w6mXUq++Isqf8c91aYB3UzWZwwTR+w4EBmixgAbVSo0qhOjvczyc9bgFLjc8kX+c2J6l7JP7QgydfQ==",
+    "shasum": "6e7ef89bc20e79fe42600adade97f159fe4f8c9e",
+    "tarball": "https://registry.npmjs.org/tesseract.js/-/tesseract.js-4.0.1.tgz",
+    "fileCount": 89,
+    "unpackedSize": 13318735
+  },
+  "repository": {
+    "url": "git+https://github.com/naptha/tesseract.js.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/naptha/tesseract.js",
+  "bugs": {
+    "url": "https://github.com/naptha/tesseract.js/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "balearica",
+    "email": "admin@scribeocr.com"
+  },
+  "captured_at": "2026-05-29T09:32:37.364Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
