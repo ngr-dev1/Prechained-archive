@@ -1,0 +1,62 @@
+{
+  "repo": "semgrep/semgrep",
+  "commit_sha": "4f8a90a673796725840ca374940b8d91bd3ce429",
+  "tree_sha": "ef795478d346c9c6be4ea350fa8dda84390c32ec",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+  "license": "LGPL-2.1",
+  "license_name": "GNU Lesser General Public License v2.1",
+  "stars": 15313,
+  "watchers": 15313,
+  "forks": 949,
+  "open_issues": 872,
+  "language": "OCaml",
+  "topics": [
+    "c",
+    "go",
+    "java",
+    "javascript",
+    "python",
+    "r2c",
+    "ruby",
+    "sast",
+    "semgrep",
+    "static-analysis",
+    "static-code-analysis",
+    "typescript"
+  ],
+  "commit_message": "feat: add SBOM generator for OCaml and Python dependencies (semgrep/semgrep-proprietary#6014)\n\nfeat: add SBOM generator for OCaml and Python dependencies\n\nAdds a script to generate CycloneDX 1.5 SBOMs from opam lockfiles and\nuv.lock, for customer-facing license compliance. Resolves license\nmetadata via opam CLI, GitHub API fallback, and PyPI JSON API.\n\nKey features:\n\n```\n- Exact versions from .locked files (not loose .opam constraints)\n- Multi-platform lockfile union with per-platform tracking\n-",
+  "commit_author": {
+    "name": "Nathan Taylor",
+    "email": "nathan.taylor@semgrep.com",
+    "date": "2026-05-26T21:47:12Z"
+  },
+  "commit_committer": {
+    "name": "Nat Mote",
+    "email": "nat@natmote.net",
+    "date": "2026-05-28T19:33:45Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "887f1f48a6f35e692870e68651100db7496036cf"
+  ],
+  "github_author_login": "dijkstracula",
+  "github_committer_login": "nmote",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-05-29T00:27:47Z",
+  "created_at": "2019-12-13T09:29:54Z",
+  "homepage": "https://semgrep.dev",
+  "size_kb": 100258,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-29T12:17:26.636Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
