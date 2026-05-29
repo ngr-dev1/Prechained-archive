@@ -1,0 +1,113 @@
+{
+  "name": "x25519-dalek",
+  "version": "3.0.0-rc.0",
+  "ecosystem": "cargo",
+  "description": "X25519 elliptic curve Diffie-Hellman key exchange in pure-Rust, using curve25519-dalek.",
+  "license": "BSD-3-Clause",
+  "checksum": "f17b575e04fcdb37e5509a85a14ff08116678a1c9724befb8b571db742dbdbb0",
+  "features": {
+    "default": [
+      "precomputed-tables",
+      "zeroize"
+    ],
+    "getrandom": [
+      "dep:getrandom"
+    ],
+    "precomputed-tables": [
+      "curve25519-dalek/precomputed-tables"
+    ],
+    "reusable_secrets": [],
+    "serde": [
+      "dep:serde",
+      "curve25519-dalek/serde"
+    ],
+    "static_secrets": [],
+    "zeroize": [
+      "dep:zeroize",
+      "curve25519-dalek/zeroize"
+    ]
+  },
+  "downloads": 20,
+  "yanked": false,
+  "repository": "https://github.com/dalek-cryptography/curve25519-dalek/tree/main/x25519-dalek",
+  "homepage": "https://github.com/dalek-cryptography/curve25519-dalek",
+  "keywords": [
+    "cryptography",
+    "curve25519",
+    "diffie-hellman",
+    "key-exchange",
+    "x25519"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "criterion",
+      "requirement": "^0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "curve25519-dalek",
+      "requirement": "^5.0.0-rc.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "postcard",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand_core",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "zeroize",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6979,
+    "login": "rozbb",
+    "name": "Michael Rosenberg"
+  },
+  "publishedAt": "2026-05-28T23:00:02.358448Z",
+  "captured_at": "2026-05-29T08:37:21.365Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
