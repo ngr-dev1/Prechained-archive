@@ -1,0 +1,63 @@
+{
+  "repo": "cypress-io/cypress",
+  "commit_sha": "c7d757dd4eae7182e2be8ca9682f5ddd0c18f15c",
+  "tree_sha": "3a1ca2a5f6b69e752ae7040a4968917da3b5f81f",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 49655,
+  "watchers": 49655,
+  "forks": 3403,
+  "open_issues": 1224,
+  "language": "TypeScript",
+  "topics": [
+    "angular-testing-library",
+    "component-testing",
+    "cypress",
+    "cypress-cloud",
+    "cypress-schematic",
+    "end-to-end-testing",
+    "react-testing-library",
+    "svelte-testing-library",
+    "test-replay",
+    "testing-framework",
+    "testing-library",
+    "testing-tool",
+    "vue-testing-library"
+  ],
+  "commit_message": "fix: Warn and ignore invalid `CYPRESS_env` and `CYPRESS_expose` values (#33945)\n\n* fix: warn instead of silently ignore when CYPRESS_ env var override fails validation\n\nWhen a CYPRESS_-prefixed env var that maps to a known config key (e.g.\nCYPRESS_env) contains an invalid value, the value was previously consumed\nby matchesConfigKey and then silently discarded because parseEnv's return\nvalue overwrites any side-effect on cfg. The user had no indication their\noverride was ignored.\n\nThis fix valida",
+  "commit_author": {
+    "name": "Jennifer Shehane",
+    "email": "jennifer@cypress.io",
+    "date": "2026-05-29T20:06:09Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-29T20:06:09Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "298c124e8cc2c1ecbe3508cf094fed9543aaeb3c"
+  ],
+  "github_author_login": "jennifer-shehane",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-05-29T20:46:32Z",
+  "created_at": "2015-03-04T00:46:28Z",
+  "homepage": "https://cypress.io",
+  "size_kb": 555096,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-29T20:47:26.223Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
