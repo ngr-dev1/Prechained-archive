@@ -1,0 +1,94 @@
+{
+  "name": "syn",
+  "version": "0.15.11",
+  "ecosystem": "cargo",
+  "description": "Parser for Rust source code",
+  "license": "MIT/Apache-2.0",
+  "checksum": "b036b7b35e846707c0e55c2c9441fa47867c0f87fca416921db3261b1d8c741a",
+  "features": {
+    "clone-impls": [],
+    "default": [
+      "derive",
+      "parsing",
+      "printing",
+      "clone-impls",
+      "proc-macro"
+    ],
+    "derive": [],
+    "extra-traits": [],
+    "fold": [],
+    "full": [],
+    "parsing": [],
+    "printing": [
+      "quote"
+    ],
+    "proc-macro": [
+      "proc-macro2/proc-macro",
+      "quote/proc-macro"
+    ],
+    "visit": [],
+    "visit-mut": []
+  },
+  "downloads": 70333,
+  "yanked": false,
+  "repository": "https://github.com/dtolnay/syn",
+  "homepage": null,
+  "keywords": [
+    "macros",
+    "syn"
+  ],
+  "categories": [
+    "Procedural macro helpers",
+    "Parser implementations"
+  ],
+  "dependencies": [
+    {
+      "name": "proc-macro2",
+      "requirement": "^0.4.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rayon",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "unicode-xid",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "walkdir",
+      "requirement": "^2.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quote",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-10-14T03:04:29.316622Z",
+  "captured_at": "2026-05-29T00:27:28.671Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
