@@ -1,0 +1,59 @@
+{
+  "repo": "nunit/nunit",
+  "commit_sha": "3ac86cf16272ed3fbc29819d06980d8f3aaf0055",
+  "tree_sha": "4d9dd724dcd741d9acc6ced6e679de8c36fc65b2",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "NUnit Framework",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 2622,
+  "watchers": 2622,
+  "forks": 769,
+  "open_issues": 262,
+  "language": "C#",
+  "topics": [
+    "c-sharp",
+    "dotnet",
+    "hacktoberfest",
+    "nunit",
+    "nunit-framework",
+    "tdd",
+    "test-driven-development",
+    "test-framework",
+    "testing"
+  ],
+  "commit_message": "Add regression tests for Issue #3849 (#5280)\n\nAdd tests to verify that Assert.Catch inside Assert.Multiple reports\nclear assertion failure messages instead of throwing InvalidCastException.\n\nThe bug was caused by explicit casting in Catch<TActual> returning\n(TActual?)Throws(...) which throws when the exception type doesn't match.\nThe fix (already in main) uses 'as TExpected' which returns null instead.\n\nThese tests ensure the fix remains in place.\n\nFixes #3849\n\nCo-authored-by: Claude Opus 4.5 <n",
+  "commit_author": {
+    "name": "Terje Sandstrom",
+    "email": "terje@hermit.no",
+    "date": "2026-05-28T19:41:33Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-28T19:41:33Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "b8bcb5e6c2ae5fa23b7ca41b9ffc8b30093d9b31"
+  ],
+  "github_author_login": "OsirisTerje",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-29T17:16:50Z",
+  "created_at": "2013-10-18T23:43:29Z",
+  "homepage": "https://nunit.org/",
+  "size_kb": 41223,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-29T23:57:28.535Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
