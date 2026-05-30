@@ -1,0 +1,99 @@
+{
+  "name": "wasm-bindgen",
+  "version": "0.2.20",
+  "ecosystem": "cargo",
+  "description": "Easy support for interacting between JS and Rust.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "1aca11e7043202bda41065b6921601b1c9ec5483b790ae584b00154d1496ad36",
+  "features": {
+    "default": [
+      "spans",
+      "std"
+    ],
+    "nightly": [],
+    "serde-serialize": [
+      "serde",
+      "serde_json",
+      "std"
+    ],
+    "spans": [
+      "wasm-bindgen-macro/spans"
+    ],
+    "std": [],
+    "xxx_debug_only_print_generated_code": [
+      "wasm-bindgen-macro/xxx_debug_only_print_generated_code"
+    ]
+  },
+  "downloads": 3046,
+  "yanked": false,
+  "repository": "https://github.com/wasm-bindgen/wasm-bindgen",
+  "homepage": "https://wasm-bindgen.github.io/wasm-bindgen",
+  "keywords": [],
+  "categories": [
+    "WebAssembly"
+  ],
+  "dependencies": [
+    {
+      "name": "js-sys",
+      "requirement": "^0.2.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-macro",
+      "requirement": "= 0.2.20",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-test",
+      "requirement": "= 0.2.20",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-test-crate-a",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-test-crate-b",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-09-06T21:50:27.510549Z",
+  "captured_at": "2026-05-30T22:05:22.089Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
