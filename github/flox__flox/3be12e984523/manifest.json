@@ -1,0 +1,57 @@
+{
+  "repo": "flox/flox",
+  "commit_sha": "3be12e98452383d242dd86b081fb72920f71f9b4",
+  "tree_sha": "7693b36ff5810ea8ed2f8bf6684fd4a9cc3a8cee",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Deterministic Foundation for your SDLC",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 3998,
+  "watchers": 3998,
+  "forks": 125,
+  "open_issues": 419,
+  "language": "Rust",
+  "topics": [
+    "developer-tools",
+    "development-environment",
+    "nix",
+    "package-manager",
+    "production",
+    "rust",
+    "virtual-environments"
+  ],
+  "commit_message": "test(buildenv): route tracing diagnostics through test capture\n\nAdd flox_test_utils::init_tracing() as a shared test helper that registers\na tracing subscriber using with_test_writer(). Output is captured per-test\nby the libtest harness and shown only for failing tests, so warn!/debug!\nfrom library code are visible in CI failure reports without cluttering\npassing runs.\n\nThis is particularly valuable for the buildenv and materialise_with_retry\ncode paths added in the previous commit, where struct",
+  "commit_author": {
+    "name": "Michael Brantley",
+    "email": "brantley@flox.dev",
+    "date": "2026-05-29T19:06:37Z"
+  },
+  "commit_committer": {
+    "name": "Michael Brantley",
+    "email": "brantley@flox.dev",
+    "date": "2026-05-30T07:13:43Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "797263b1ad9492dc922f2f825d48ef2b16f7fc8e"
+  ],
+  "github_author_login": "limeytexan",
+  "github_committer_login": "limeytexan",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-30T18:23:05Z",
+  "created_at": "2022-12-22T15:52:43Z",
+  "homepage": "https://flox.dev",
+  "size_kb": 24664,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-30T22:57:24.912Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
