@@ -1,0 +1,122 @@
+{
+  "name": "leptos",
+  "version": "0.0.21",
+  "ecosystem": "cargo",
+  "description": "Leptos is a full-stack, isomorphic Rust web framework leveraging fine-grained reactivity to build declarative user interfaces.",
+  "license": "MIT",
+  "checksum": "537c4a828f29993af503f0e975513b4a0156b71bfa1f02efed1d9ab642948fe4",
+  "features": {
+    "csr": [
+      "leptos_core/csr",
+      "leptos_dom/csr",
+      "leptos_macro/csr",
+      "leptos_reactive/csr",
+      "leptos_server/csr"
+    ],
+    "default": [
+      "csr",
+      "serde",
+      "interning"
+    ],
+    "hydrate": [
+      "leptos_core/hydrate",
+      "leptos_dom/hydrate",
+      "leptos_macro/hydrate",
+      "leptos_reactive/hydrate",
+      "leptos_server/hydrate"
+    ],
+    "interning": [
+      "leptos_dom/interning"
+    ],
+    "miniserde": [
+      "leptos_reactive/miniserde"
+    ],
+    "serde": [
+      "leptos_reactive/serde"
+    ],
+    "serde-lite": [
+      "leptos_reactive/serde-lite"
+    ],
+    "ssr": [
+      "leptos_core/ssr",
+      "leptos_dom/ssr",
+      "leptos_macro/ssr",
+      "leptos_reactive/ssr",
+      "leptos_server/ssr"
+    ],
+    "stable": [
+      "leptos_core/stable",
+      "leptos_dom/stable",
+      "leptos_macro/stable",
+      "leptos_reactive/stable",
+      "leptos_server/stable"
+    ]
+  },
+  "downloads": 1633,
+  "yanked": false,
+  "repository": "https://github.com/leptos-rs/leptos",
+  "homepage": "https://leptos.dev/",
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "leptos_config",
+      "requirement": "^0.0.21",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "leptos_core",
+      "requirement": "^0.0.21",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "leptos_dom",
+      "requirement": "^0.0.21",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "leptos_macro",
+      "requirement": "^0.0.21",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "leptos_reactive",
+      "requirement": "^0.0.21",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "leptos_server",
+      "requirement": "^0.0.21",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rustc_version",
+      "requirement": "^0.4",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 130155,
+    "login": "gbj",
+    "name": "Greg Johnston"
+  },
+  "publishedAt": "2022-12-23T18:16:38.286680Z",
+  "captured_at": "2026-05-30T19:15:09.773Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
