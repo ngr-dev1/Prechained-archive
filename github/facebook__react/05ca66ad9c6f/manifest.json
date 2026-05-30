@@ -1,0 +1,56 @@
+{
+  "repo": "facebook/react",
+  "commit_sha": "05ca66ad9c6f07b9ee2cc6a8f2129750e8f96fa4",
+  "tree_sha": "e77d8bab2c748454a126e6feb343d738639d2e76",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The library for web and native user interfaces.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 245330,
+  "watchers": 245330,
+  "forks": 51133,
+  "open_issues": 1306,
+  "language": "JavaScript",
+  "topics": [
+    "declarative",
+    "frontend",
+    "javascript",
+    "library",
+    "react",
+    "ui"
+  ],
+  "commit_message": "[Fizz] model fb bundle's external work scheduling explicitly (#36576)\n\nThere are parts of Fizz that need to schedule work regardless of whether\nthe primary rendering pathway is drive externally through performWork.\nHistorically scheduleWork and later s cheduleMicrotask were noops in\nthis bundle but it makes it hard to reason about the code because you\ncannot be assured that calling scheduleWork will actually result in the\nfunction\never executing. Now we model this explicitly through config. For ",
+  "commit_author": {
+    "name": "Josh Story",
+    "email": "gnoff@storyposted.com",
+    "date": "2026-05-30T20:30:53Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-30T20:30:53Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "f39ed9fd12743dd773780e7bbbda44a4daa33226"
+  ],
+  "github_author_login": "gnoff",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-30T20:36:06Z",
+  "created_at": "2013-05-24T16:15:54Z",
+  "homepage": "https://react.dev",
+  "size_kb": 986098,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-30T21:07:26.368Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
