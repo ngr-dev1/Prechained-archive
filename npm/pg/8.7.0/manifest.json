@@ -1,0 +1,79 @@
+{
+  "name": "pg",
+  "version": "8.7.0",
+  "ecosystem": "npm",
+  "description": "PostgreSQL client - pure javascript & libpq with the same API",
+  "license": "MIT",
+  "dependencies": {
+    "pgpass": "1.x",
+    "pg-pool": "^3.4.0",
+    "pg-types": "^2.1.0",
+    "pg-protocol": "^1.5.0",
+    "buffer-writer": "2.0.0",
+    "packet-reader": "1.0.0",
+    "pg-connection-string": "^2.5.0"
+  },
+  "devDependencies": {
+    "co": "4.6.0",
+    "async": "0.9.0",
+    "bluebird": "3.5.2",
+    "pg-copy-streams": "0.3.0"
+  },
+  "peerDependencies": {
+    "pg-native": ">=2.0.0"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "brianc",
+      "email": "brian.m.carlson@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Brian Carlson",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "publishedAt": "2021-07-27T18:23:30.693Z",
+  "dist": {
+    "integrity": "sha512-nHB5WvuUC/LpBYebXTo5LyKYOXWPSVjGZatAV7YGimdmSOj5adGZmWXyOD/uAf2S4PyYAEv4rMW6k5HeneykXA==",
+    "shasum": "f9a20516684b069a409cf03cae90d47bddc82065",
+    "tarball": "https://registry.npmjs.org/pg/-/pg-8.7.0.tgz",
+    "fileCount": 16,
+    "unpackedSize": 71544
+  },
+  "repository": {
+    "url": "git://github.com/brianc/node-postgres.git",
+    "type": "git",
+    "directory": "packages/pg"
+  },
+  "homepage": "https://github.com/brianc/node-postgres",
+  "bugs": {
+    "url": "https://github.com/brianc/node-postgres/issues"
+  },
+  "keywords": [
+    "database",
+    "libpq",
+    "pg",
+    "postgre",
+    "postgres",
+    "postgresql",
+    "rdbms"
+  ],
+  "_npmUser": {
+    "name": "brianc",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "captured_at": "2026-05-30T21:47:24.922Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
