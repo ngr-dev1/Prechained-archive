@@ -1,0 +1,78 @@
+{
+  "name": "pg",
+  "version": "8.5.1",
+  "ecosystem": "npm",
+  "description": "PostgreSQL client - pure javascript & libpq with the same API",
+  "license": "MIT",
+  "dependencies": {
+    "pgpass": "1.x",
+    "pg-pool": "^3.2.2",
+    "pg-types": "^2.1.0",
+    "pg-protocol": "^1.4.0",
+    "buffer-writer": "2.0.0",
+    "packet-reader": "1.0.0",
+    "pg-connection-string": "^2.4.0"
+  },
+  "devDependencies": {
+    "co": "4.6.0",
+    "async": "0.9.0",
+    "bluebird": "3.5.2",
+    "pg-copy-streams": "0.3.0"
+  },
+  "peerDependencies": {
+    "pg-native": ">=2.0.0"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "brianc",
+      "email": "brian.m.carlson@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Brian Carlson",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "publishedAt": "2020-11-13T15:00:22.238Z",
+  "dist": {
+    "integrity": "sha512-9wm3yX9lCfjvA98ybCyw2pADUivyNWT/yIP4ZcDVpMN0og70BUWYEGXPCTAQdGTAqnytfRADb7NERrY1qxhIqw==",
+    "shasum": "34dcb15f6db4a29c702bf5031ef2e1e25a06a120",
+    "tarball": "https://registry.npmjs.org/pg/-/pg-8.5.1.tgz",
+    "fileCount": 16,
+    "unpackedSize": 68566
+  },
+  "repository": {
+    "url": "git://github.com/brianc/node-postgres.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/brianc/node-postgres",
+  "bugs": {
+    "url": "https://github.com/brianc/node-postgres/issues"
+  },
+  "keywords": [
+    "database",
+    "libpq",
+    "pg",
+    "postgre",
+    "postgres",
+    "postgresql",
+    "rdbms"
+  ],
+  "_npmUser": {
+    "name": "brianc",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "captured_at": "2026-05-30T21:47:23.467Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
