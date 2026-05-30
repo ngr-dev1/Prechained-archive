@@ -1,0 +1,54 @@
+{
+  "repo": "open-telemetry/opentelemetry-go",
+  "commit_sha": "de8158f87a49079e0959f47d7f4904d53708c592",
+  "tree_sha": "d9af2d0c3463642699023eac7fc0548600912cb3",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "OpenTelemetry Go API and SDK",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 6402,
+  "watchers": 6402,
+  "forks": 1365,
+  "open_issues": 199,
+  "language": "Go",
+  "topics": [
+    "logging",
+    "metrics",
+    "opentelemetry",
+    "tracing"
+  ],
+  "commit_message": "fix(semconv): share metric option pools (#8371)\n\nShare the AddOption and RecordOption pools used by generated semconv\nmetric helpers through a small internal package, instead of emitting one\npair of pools in every generated metric package.\n\nRegenerate semconv/v1.41.0 from the updated templates.\n\nFixes #8356\n\n---------\n\nCo-authored-by: Robert Pająk <pellared@hotmail.com>",
+  "commit_author": {
+    "name": "Ayush",
+    "email": "63203492+macayu17@users.noreply.github.com",
+    "date": "2026-05-29T10:17:09Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-29T10:17:09Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "b62d92831b2dd142f5a0cc89c828270274196877"
+  ],
+  "github_author_login": "macayu17",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-29T20:42:22Z",
+  "created_at": "2019-05-16T19:05:26Z",
+  "homepage": "https://opentelemetry.io/docs/languages/go",
+  "size_kb": 29901,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-30T16:57:26.167Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
