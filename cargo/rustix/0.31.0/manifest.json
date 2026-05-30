@@ -1,0 +1,203 @@
+{
+  "name": "rustix",
+  "version": "0.31.0",
+  "ecosystem": "cargo",
+  "description": "Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "c9f93a06380ac0b4210538cbb392381faca6f7eba0bedd6c61f2a52514896560",
+  "features": {
+    "all-impls": [
+      "async-std",
+      "tokio",
+      "os_pipe",
+      "socket2",
+      "mio",
+      "fs-err"
+    ],
+    "async-std": [
+      "io-lifetimes/async-std"
+    ],
+    "default": [
+      "std"
+    ],
+    "fs-err": [
+      "io-lifetimes/fs-err"
+    ],
+    "mio": [
+      "io-lifetimes/mio"
+    ],
+    "os_pipe": [
+      "io-lifetimes/os_pipe"
+    ],
+    "procfs": [
+      "once_cell",
+      "itoa"
+    ],
+    "rustc-dep-of-std": [
+      "core",
+      "alloc",
+      "compiler_builtins",
+      "linux-raw-sys/rustc-dep-of-std",
+      "bitflags/rustc-dep-of-std",
+      "libc/rustc-dep-of-std"
+    ],
+    "socket2": [
+      "io-lifetimes/socket2"
+    ],
+    "std": [
+      "io-lifetimes",
+      "linux-raw-sys/std"
+    ],
+    "tokio": [
+      "io-lifetimes/tokio"
+    ]
+  },
+  "downloads": 13947,
+  "yanked": false,
+  "repository": "https://github.com/bytecodealliance/rustix",
+  "homepage": null,
+  "keywords": [
+    "api",
+    "file",
+    "network",
+    "safe",
+    "syscall"
+  ],
+  "categories": [
+    "Network programming",
+    "Unix APIs",
+    "Date and time",
+    "Filesystem"
+  ],
+  "dependencies": [
+    {
+      "name": "atty",
+      "requirement": "^0.2.14",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bitflags",
+      "requirement": "^1.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "errno",
+      "requirement": "^0.2.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.98",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.98",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "linux-raw-sys",
+      "requirement": "^0.0.36",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "serial_test",
+      "requirement": "^0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3.2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "winapi",
+      "requirement": "^0.3.9",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "cc",
+      "requirement": "^1.0.68",
+      "kind": "build",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "compiler_builtins",
+      "requirement": "^0.1.49",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "io-lifetimes",
+      "requirement": "^0.4.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "itoa",
+      "requirement": "^1.0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1.5.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-alloc",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustc-std-workspace-core",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode",
+    "name": "Dan Gohman"
+  },
+  "publishedAt": "2021-12-16T17:55:42.404700Z",
+  "captured_at": "2026-05-30T21:05:21.151Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
