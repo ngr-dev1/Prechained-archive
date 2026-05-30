@@ -1,0 +1,77 @@
+{
+  "name": "serde_json",
+  "version": "0.9.7",
+  "ecosystem": "cargo",
+  "description": "A JSON serialization file format",
+  "license": "MIT/Apache-2.0",
+  "checksum": "2eb96d30e4e6f9fc52e08f51176d078b6f79b981dc3ed4134f7b850be9f446a8",
+  "features": {
+    "preserve_order": [
+      "linked-hash-map"
+    ]
+  },
+  "downloads": 16559,
+  "yanked": true,
+  "repository": "https://github.com/serde-rs/json",
+  "homepage": null,
+  "keywords": [
+    "json",
+    "serde",
+    "serialization"
+  ],
+  "categories": [
+    "Encoding",
+    "No standard library",
+    "Parser implementations"
+  ],
+  "dependencies": [
+    {
+      "name": "dtoa",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "itoa",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num-traits",
+      "requirement": "^0.1.32",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^0.9.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "linked-hash-map",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-02-20T17:33:31.246219Z",
+  "captured_at": "2026-05-30T08:07:26.830Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
