@@ -1,0 +1,56 @@
+{
+  "name": "serde_json",
+  "version": "0.7.0",
+  "ecosystem": "cargo",
+  "description": "A JSON serialization file format",
+  "license": "MIT/Apache-2.0",
+  "checksum": "b92e087c1281d3a0cb007037fcb9f03d7720d451fcbe65f2a9826e119a849cd3",
+  "features": {
+    "nightly-testing": [
+      "clippy"
+    ]
+  },
+  "downloads": 87957,
+  "yanked": false,
+  "repository": "https://github.com/serde-rs/json",
+  "homepage": null,
+  "keywords": [
+    "json",
+    "serde",
+    "serialization"
+  ],
+  "categories": [
+    "Encoding",
+    "No standard library",
+    "Parser implementations"
+  ],
+  "dependencies": [
+    {
+      "name": "num",
+      "requirement": "~0.1.27",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "serde",
+      "requirement": "^0.7.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "clippy",
+      "requirement": "0.*",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2016-02-27T07:01:11.087761Z",
+  "captured_at": "2026-05-30T20:35:21.704Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
