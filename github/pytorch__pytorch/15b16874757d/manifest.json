@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "15b16874757d9be922a6b377f995fda4babc0acb",
+  "tree_sha": "890f2b86a1708da27012da50b0e733d4c176e345",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100277,
+  "watchers": 100277,
+  "forks": 27894,
+  "open_issues": 18352,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "[inductor] Improve Triton launcher arg mismatch error and its reporting. Included some basic optimizations (#184522)\n\n### **PROBLEM**\nWhen Inductor generates a Triton kernel and its corresponding launcher, a mismatch in arguments (e.g., due to signature changes, or a mismatch in filtering `constexpr` / `None` args) results in passing too many positional arguments at the call site. Because generated launcher functions append explicit parameters at the end (like `stream`), Python binds the excess ",
+  "commit_author": {
+    "name": "N0AHZACH",
+    "email": "nzachp@gmail.com",
+    "date": "2026-05-30T17:25:52Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-05-30T17:25:52Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "fbd70f074256633f3e0afb990e8eb55edfa9e556"
+  ],
+  "github_author_login": "N0AHZACH",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-30T19:04:20Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1370761,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-30T19:07:27.789Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
