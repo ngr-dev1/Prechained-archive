@@ -1,0 +1,51 @@
+{
+  "name": "openssl",
+  "version": "0.2.12",
+  "ecosystem": "cargo",
+  "description": "OpenSSL bindings",
+  "license": "Apache-2.0",
+  "checksum": "8a41cc2a94c90c1df85f0335c199624706d721c497208498263ce81989e1e491",
+  "features": {
+    "aes_xts": [
+      "openssl-sys/aes_xts"
+    ],
+    "sslv2": [
+      "openssl-sys/sslv2"
+    ],
+    "tlsv1_1": [
+      "openssl-sys/tlsv1_1"
+    ],
+    "tlsv1_2": [
+      "openssl-sys/tlsv1_2"
+    ]
+  },
+  "downloads": 3734,
+  "yanked": false,
+  "repository": "https://github.com/rust-openssl/rust-openssl",
+  "homepage": null,
+  "keywords": [
+    "crypto",
+    "dtls",
+    "ssl",
+    "tls"
+  ],
+  "categories": [
+    "API bindings",
+    "Cryptography"
+  ],
+  "dependencies": [
+    {
+      "name": "openssl-sys",
+      "requirement": "^0.2.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-01-04T16:04:41.951898Z",
+  "captured_at": "2026-05-30T08:17:25.160Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
