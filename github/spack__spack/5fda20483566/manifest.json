@@ -1,0 +1,61 @@
+{
+  "repo": "spack/spack",
+  "commit_sha": "5fda204835666cc68592418713ea9992192f4f13",
+  "tree_sha": "1017ef9b427133499c8e3d7b454e79669d163c63",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers.",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 5062,
+  "watchers": 5062,
+  "forks": 2438,
+  "open_issues": 1739,
+  "language": "Python",
+  "topics": [
+    "build-tools",
+    "hpc",
+    "hpsf",
+    "linux",
+    "macos",
+    "package-manager",
+    "python",
+    "radiuss",
+    "scientific-computing",
+    "spack",
+    "windows"
+  ],
+  "commit_message": "Refactor the GPG module to better support signing/verification workflows (#52430)\n\nThe GPG module is central to the verification pipeline used for\nbuild cache binaries. This is important for both bootstrapping and for\ninstall. However, the current architecture for GPG utilizes a shared\nglobal state for all signing and verification which can lead to\nincorrect contexts being used.\n\nIn order to improve Spack's ability to control the context of GPG, the\nGPG util has been refactored to wrap all of th",
+  "commit_author": {
+    "name": "Ryan Krattiger",
+    "email": "80296582+kwryankrattiger@users.noreply.github.com",
+    "date": "2026-05-29T17:34:23Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-29T17:34:23Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "525775aa9b3e9500f661508456902c7634c23655"
+  ],
+  "github_author_login": "kwryankrattiger",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-05-29T19:00:30Z",
+  "created_at": "2014-01-08T09:22:12Z",
+  "homepage": "https://spack.io",
+  "size_kb": 240079,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-30T19:25:09.907Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
