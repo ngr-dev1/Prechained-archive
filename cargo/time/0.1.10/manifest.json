@@ -1,0 +1,54 @@
+{
+  "name": "time",
+  "version": "0.1.10",
+  "ecosystem": "cargo",
+  "description": "Date and time library. Fully interoperable with the standard library. Mostly compatible with #![no_std].",
+  "license": "MIT/Apache-2.0",
+  "checksum": "6a57eca33a92371ffa503cb671699b824e5a384daa6cb3eec447ef558c4685f2",
+  "features": {},
+  "downloads": 3759,
+  "yanked": false,
+  "repository": "https://github.com/time-rs/time",
+  "homepage": "https://time-rs.github.io",
+  "keywords": [
+    "calendar",
+    "date",
+    "duration",
+    "time"
+  ],
+  "categories": [
+    "Parser implementations",
+    "No standard library",
+    "Date and time",
+    "Value formatting"
+  ],
+  "dependencies": [
+    {
+      "name": "gcc",
+      "requirement": "^0.1",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustc-serialize",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-01-06T10:34:14.049772Z",
+  "captured_at": "2026-05-30T00:40:33.140Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
