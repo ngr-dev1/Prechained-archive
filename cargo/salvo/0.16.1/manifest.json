@@ -1,0 +1,191 @@
+{
+  "name": "salvo",
+  "version": "0.16.1",
+  "ecosystem": "cargo",
+  "description": "Salvo is a powerful web framework that can make your work easier.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b1a030120956aa7ba8bc55609ef2c6095a4f0f36fdcc31f89dc76aa3f38e3256",
+  "features": {
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic_auth": [
+      "salvo_extra/basic_auth"
+    ],
+    "compression": [
+      "salvo_extra/compression"
+    ],
+    "cors": [
+      "salvo_extra/cors"
+    ],
+    "csrf": [
+      "salvo_extra/csrf"
+    ],
+    "default": [],
+    "extra": [
+      "basic_auth",
+      "jwt_auth",
+      "compression",
+      "cors",
+      "csrf",
+      "proxy",
+      "serve",
+      "sse",
+      "ws",
+      "size_limiter"
+    ],
+    "full": [
+      "extra",
+      "rustls",
+      "anyhow"
+    ],
+    "jwt_auth": [
+      "salvo_extra/jwt_auth"
+    ],
+    "proxy": [
+      "salvo_extra/proxy"
+    ],
+    "rustls": [
+      "salvo_core/rustls"
+    ],
+    "serve": [
+      "salvo_extra/serve"
+    ],
+    "size_limiter": [
+      "salvo_extra/size_limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "ws": [
+      "salvo_extra/ws"
+    ]
+  },
+  "downloads": 2502,
+  "yanked": false,
+  "repository": "https://github.com/salvo-rs/salvo",
+  "homepage": "https://salvo.rs",
+  "keywords": [
+    "async",
+    "framework",
+    "http",
+    "server",
+    "web"
+  ],
+  "categories": [
+    "HTTP server",
+    "Network programming",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "async-stream",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "hyper",
+      "requirement": "^0.14",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "salvo_core",
+      "requirement": "^0.16.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "serde",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-stream",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tower",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing-log",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing-subscriber",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "salvo_extra",
+      "requirement": "^0.16.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn",
+    "name": "Chrislearn Young"
+  },
+  "publishedAt": "2021-11-16T05:01:44.520774Z",
+  "captured_at": "2026-05-30T16:27:26.024Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
