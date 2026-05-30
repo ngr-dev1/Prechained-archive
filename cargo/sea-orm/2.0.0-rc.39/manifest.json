@@ -1,0 +1,479 @@
+{
+  "name": "sea-orm",
+  "version": "2.0.0-rc.39",
+  "ecosystem": "cargo",
+  "description": "🐚 An async & dynamic ORM for Rust",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "678d06c302206cebb633e9f58c96ebe258fe4aabb7761a62e5bbbe1d3b77dd9f",
+  "features": {
+    "debug-print": [],
+    "default": [
+      "macros",
+      "with-json",
+      "with-chrono",
+      "with-rust_decimal",
+      "with-uuid",
+      "with-time",
+      "sqlite-use-returning-for-3_35"
+    ],
+    "entity-registry": [
+      "inventory",
+      "sea-orm-macros/entity-registry"
+    ],
+    "json-array": [
+      "postgres-array"
+    ],
+    "macros": [
+      "sea-orm-macros/derive"
+    ],
+    "mariadb-use-returning": [],
+    "mock": [],
+    "postgres-array": [
+      "sea-query/postgres-array",
+      "sea-orm-macros/postgres-array",
+      "sea-query-sqlx?/postgres-array"
+    ],
+    "postgres-use-serial-pk": [
+      "sea-query/option-postgres-use-serial"
+    ],
+    "postgres-vector": [
+      "pgvector",
+      "sea-query/postgres-vector",
+      "sea-query-sqlx?/postgres-vector"
+    ],
+    "proxy": [
+      "serde/derive"
+    ],
+    "rbac": [
+      "sea-query/audit",
+      "macros"
+    ],
+    "runtime-async-std": [
+      "sqlx?/runtime-async-std"
+    ],
+    "runtime-async-std-native-tls": [
+      "sqlx?/tls-native-tls",
+      "runtime-async-std"
+    ],
+    "runtime-async-std-rustls": [
+      "sqlx?/tls-rustls",
+      "runtime-async-std"
+    ],
+    "runtime-tokio": [
+      "sqlx?/runtime-tokio"
+    ],
+    "runtime-tokio-native-tls": [
+      "sqlx?/tls-native-tls",
+      "runtime-tokio"
+    ],
+    "runtime-tokio-rustls": [
+      "sqlx?/tls-rustls",
+      "runtime-tokio"
+    ],
+    "rusqlite": [],
+    "schema-sync": [
+      "sea-schema"
+    ],
+    "sea-orm-internal": [],
+    "seaography": [
+      "sea-orm-macros/seaography"
+    ],
+    "sqlite-no-row-value-before-3_15": [],
+    "sqlite-use-returning-for-3_35": [],
+    "sqlx-all": [
+      "sqlx-mysql",
+      "sqlx-postgres",
+      "sqlx-sqlite"
+    ],
+    "sqlx-dep": [
+      "sqlx",
+      "sqlx-core"
+    ],
+    "sqlx-mysql": [
+      "sqlx-dep",
+      "sea-query-sqlx/sqlx-mysql",
+      "sea-schema?/sqlx-mysql"
+    ],
+    "sqlx-postgres": [
+      "sqlx-dep",
+      "sea-orm-macros/sqlx-postgres",
+      "sea-query-sqlx/sqlx-postgres",
+      "postgres-array",
+      "sea-schema?/sqlx-postgres"
+    ],
+    "sqlx-sqlite": [
+      "sqlx-dep",
+      "sea-query-sqlx/sqlx-sqlite",
+      "sea-schema?/sqlx-sqlite"
+    ],
+    "sync": [],
+    "tests-cfg": [
+      "serde/derive"
+    ],
+    "tests-features": [
+      "default",
+      "postgres-array",
+      "rbac",
+      "schema-sync",
+      "with-arrow",
+      "with-bigdecimal",
+      "with-ipnetwork"
+    ],
+    "tracing-spans": [],
+    "with-arrow": [
+      "sea-orm-arrow",
+      "sea-orm-macros/with-arrow"
+    ],
+    "with-bigdecimal": [
+      "bigdecimal",
+      "sea-query/with-bigdecimal",
+      "sea-query-sqlx?/with-bigdecimal",
+      "sea-orm-arrow?/with-bigdecimal"
+    ],
+    "with-chrono": [
+      "chrono",
+      "sea-query/with-chrono",
+      "sea-query-sqlx?/with-chrono",
+      "sea-orm-arrow?/with-chrono"
+    ],
+    "with-ipnetwork": [
+      "ipnetwork",
+      "sea-query/with-ipnetwork",
+      "sea-query-sqlx?/with-ipnetwork"
+    ],
+    "with-json": [
+      "serde_json",
+      "sea-query/with-json",
+      "sea-orm-macros/with-json",
+      "chrono?/serde",
+      "rust_decimal?/serde",
+      "bigdecimal?/serde",
+      "uuid?/serde",
+      "time?/serde",
+      "mac_address?/serde",
+      "pgvector?/serde",
+      "sea-query-sqlx?/with-json"
+    ],
+    "with-mac_address": [
+      "mac_address",
+      "sea-query/with-mac_address",
+      "sea-query-sqlx?/with-mac_address"
+    ],
+    "with-rust_decimal": [
+      "rust_decimal",
+      "sea-query/with-rust_decimal",
+      "sea-query-sqlx?/with-rust_decimal",
+      "sea-orm-arrow?/with-rust_decimal"
+    ],
+    "with-time": [
+      "time",
+      "sea-query/with-time",
+      "sea-query-sqlx?/with-time",
+      "sea-orm-arrow?/with-time"
+    ],
+    "with-uuid": [
+      "uuid",
+      "sea-query/with-uuid",
+      "sea-query-sqlx?/with-uuid"
+    ]
+  },
+  "downloads": 0,
+  "yanked": false,
+  "repository": "https://github.com/SeaQL/sea-orm",
+  "homepage": "https://www.sea-ql.org/SeaORM",
+  "keywords": [
+    "async",
+    "mysql",
+    "orm",
+    "postgres",
+    "sqlite"
+  ],
+  "categories": [
+    "Database interfaces"
+  ],
+  "dependencies": [
+    {
+      "name": "async-stream",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "async-trait",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "derive_more",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "dotenv",
+      "requirement": "^0.15",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "itertools",
+      "requirement": "^0.14.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "maplit",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ouroboros",
+      "requirement": "^0.18",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "pretty_assertions",
+      "requirement": "^0.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "sea-orm-macros",
+      "requirement": "~2.0.0-rc.39",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "sea-query",
+      "requirement": "~1.0.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "smol",
+      "requirement": "^1.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "smol-potat",
+      "requirement": "^1.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "strum",
+      "requirement": "^0.28",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "thiserror",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "time",
+      "requirement": "^0.3.36",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "tracing-subscriber",
+      "requirement": "^0.3.17",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^2.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "uuid",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "web-time",
+      "requirement": "^1.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "bigdecimal",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "chrono",
+      "requirement": "^0.4.30",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "inventory",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "ipnetwork",
+      "requirement": "^0.21",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "mac_address",
+      "requirement": "^1.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "pgvector",
+      "requirement": "~0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "rust_decimal",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "sea-orm-arrow",
+      "requirement": "^2.0.0-rc",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "sea-query-sqlx",
+      "requirement": "=0.9.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "sea-schema",
+      "requirement": "^0.18.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "sqlx",
+      "requirement": "^0.9.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "sqlx-core",
+      "requirement": "^0.9.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "time",
+      "requirement": "^0.3.36",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "uuid",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 103782,
+    "login": "tyt2y3",
+    "name": "Chris Tsang"
+  },
+  "publishedAt": "2026-05-30T20:50:51.513035Z",
+  "captured_at": "2026-05-30T20:57:22.911Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
