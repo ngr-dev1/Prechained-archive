@@ -1,0 +1,81 @@
+{
+  "name": "serde_json",
+  "version": "0.8.3",
+  "ecosystem": "cargo",
+  "description": "A JSON serialization file format",
+  "license": "MIT/Apache-2.0",
+  "checksum": "1cb6b19e74d9f65b9d03343730b643d729a446b29376785cd65efdff4675e2fc",
+  "features": {
+    "preserve_order": [
+      "linked-hash-map",
+      "linked-hash-map/serde_impl"
+    ],
+    "unstable-testing": [
+      "clippy"
+    ]
+  },
+  "downloads": 118449,
+  "yanked": false,
+  "repository": "https://github.com/serde-rs/json",
+  "homepage": null,
+  "keywords": [
+    "json",
+    "serde",
+    "serialization"
+  ],
+  "categories": [
+    "Encoding",
+    "No standard library",
+    "Parser implementations"
+  ],
+  "dependencies": [
+    {
+      "name": "dtoa",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "itoa",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num-traits",
+      "requirement": "~0.1.32",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^0.8.13",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "clippy",
+      "requirement": "0.*",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "linked-hash-map",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2016-10-16T19:34:46.729774Z",
+  "captured_at": "2026-05-30T19:35:09.927Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
