@@ -1,0 +1,83 @@
+{
+  "name": "leptos",
+  "version": "0.0.10",
+  "ecosystem": "cargo",
+  "description": "Leptos is a full-stack, isomorphic Rust web framework leveraging fine-grained reactivity to build declarative user interfaces.",
+  "license": "MIT",
+  "checksum": "7be6fa20ffafaf9133cfd343fdbaedd653b0bea2c019b628a90f30ed52d148f3",
+  "features": {
+    "csr": [
+      "leptos_core/csr",
+      "leptos_dom/csr",
+      "leptos_macro/csr",
+      "leptos_reactive/csr"
+    ],
+    "default": [
+      "csr"
+    ],
+    "hydrate": [
+      "leptos_core/hydrate",
+      "leptos_dom/hydrate",
+      "leptos_macro/hydrate",
+      "leptos_reactive/hydrate"
+    ],
+    "ssr": [
+      "leptos_core/ssr",
+      "leptos_dom/ssr",
+      "leptos_macro/ssr",
+      "leptos_reactive/ssr"
+    ],
+    "stable": [
+      "leptos_core/stable",
+      "leptos_dom/stable",
+      "leptos_macro/stable",
+      "leptos_reactive/stable"
+    ]
+  },
+  "downloads": 1186,
+  "yanked": false,
+  "repository": "https://github.com/leptos-rs/leptos",
+  "homepage": "https://leptos.dev/",
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "leptos_core",
+      "requirement": "^0.0.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "leptos_dom",
+      "requirement": "^0.0.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "leptos_macro",
+      "requirement": "^0.0.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "leptos_reactive",
+      "requirement": "^0.0.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 130155,
+    "login": "gbj",
+    "name": "Greg Johnston"
+  },
+  "publishedAt": "2022-10-22T12:11:46.271038Z",
+  "captured_at": "2026-05-30T21:45:26.814Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
