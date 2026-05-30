@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "c5d9d3a8f3e3acfada098d93585c04b5fde62ece",
+  "tree_sha": "acb5c1e420e918e7c5b669bf44c09f0e53bae03d",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35293,
+  "watchers": 35293,
+  "forks": 1465,
+  "open_issues": 2345,
+  "language": "TypeScript",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "refactor(pnpr): rename pnpm-registry to pnpr (#12069)\n\n* refactor(pnpr): rename pnpm-registry to pnpr\n\nRename the registry server across the board to match the npm wrapper\npackage name, which was already `@pnpm/pnpr`.\n\n- crate `pnpm-registry` -> `pnpr`, `pnpm-registry-fixtures` -> `pnpr-fixtures`\n- binaries `pnpm-registry` -> `pnpr`, `pnpm-registry-prepare` -> `pnpr-prepare`\n- module paths and log targets `pnpm_registry::*` -> `pnpr::*`\n- binary-locating env vars `PNPM_REGISTRY_BIN` -> `PNPR_BIN",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-05-29T18:02:10Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-29T18:02:10Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "36e6a270661c44a5f2f2e843d6882957944f120e"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-29T21:52:42Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 213973,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-30T06:57:26.999Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
