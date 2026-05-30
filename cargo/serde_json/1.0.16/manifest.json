@@ -1,0 +1,86 @@
+{
+  "name": "serde_json",
+  "version": "1.0.16",
+  "ecosystem": "cargo",
+  "description": "A JSON serialization file format",
+  "license": "MIT/Apache-2.0",
+  "checksum": "8c6c4e049dc657a99e394bd85c22acbf97356feeec6dbf44150f2dcf79fb3118",
+  "features": {
+    "arbitrary_precision": [],
+    "default": [],
+    "preserve_order": [
+      "linked-hash-map"
+    ]
+  },
+  "downloads": 328250,
+  "yanked": false,
+  "repository": "https://github.com/serde-rs/json",
+  "homepage": null,
+  "keywords": [
+    "json",
+    "serde",
+    "serialization"
+  ],
+  "categories": [
+    "Encoding",
+    "No standard library",
+    "Parser implementations"
+  ],
+  "dependencies": [
+    {
+      "name": "compiletest_rs",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "dtoa",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "itoa",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_bytes",
+      "requirement": "^0.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "linked-hash-map",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-04-21T22:15:26.760998Z",
+  "captured_at": "2026-05-30T00:37:25.690Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
