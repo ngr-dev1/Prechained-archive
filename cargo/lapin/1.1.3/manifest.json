@@ -1,0 +1,164 @@
+{
+  "name": "lapin",
+  "version": "1.1.3",
+  "ecosystem": "cargo",
+  "description": "AMQP client library",
+  "license": "MIT",
+  "checksum": "cf258f012529f87ac3bfc144951f024ff3f87217b6737f10cc6d53f190f6a07e",
+  "features": {
+    "codegen": [
+      "codegen-internal",
+      "amq-protocol/codegen"
+    ],
+    "codegen-internal": [
+      "amq-protocol-codegen",
+      "serde_json"
+    ],
+    "default": [
+      "native-tls"
+    ],
+    "native-tls": [
+      "amq-protocol/native-tls"
+    ],
+    "openssl": [
+      "amq-protocol/openssl"
+    ],
+    "rustls": [
+      "rustls-native-certs"
+    ],
+    "rustls-native-certs": [
+      "amq-protocol/rustls-native-certs"
+    ],
+    "rustls-webpki-roots-certs": [
+      "amq-protocol/rustls-webpki-roots-certs"
+    ],
+    "vendored-openssl": [
+      "amq-protocol/vendored-openssl"
+    ]
+  },
+  "downloads": 3920,
+  "yanked": false,
+  "repository": "https://github.com/amqp-rs/lapin",
+  "homepage": null,
+  "keywords": [
+    "amqp",
+    "async",
+    "client",
+    "messaging",
+    "rabbitmq"
+  ],
+  "categories": [
+    "Asynchronous",
+    "Network programming"
+  ],
+  "dependencies": [
+    {
+      "name": "amq-protocol",
+      "requirement": "=6.0.0-rc11",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "async-task",
+      "requirement": "^3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "crossbeam-channel",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "env_logger",
+      "requirement": "^0.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-core",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-executor",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-test",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mio",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "parking_lot",
+      "requirement": "^0.11",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pinky-swear",
+      "requirement": "^4.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "amq-protocol-codegen",
+      "requirement": "=6.0.0-rc11",
+      "kind": "build",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "build",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 1926,
+    "login": "Keruspe",
+    "name": "Marc-Antoine Perennou"
+  },
+  "publishedAt": "2020-06-23T20:16:23.919399Z",
+  "captured_at": "2026-05-30T17:15:05.013Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
