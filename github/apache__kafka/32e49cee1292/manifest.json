@@ -1,0 +1,54 @@
+{
+  "repo": "apache/kafka",
+  "commit_sha": "32e49cee129241fbab48c4754262c9a3f801bb94",
+  "tree_sha": "688e4790181d211b218d81ba10d7670d694d4529",
+  "branch": "trunk",
+  "ecosystem": "github",
+  "description": "Apache Kafka - A distributed event streaming platform",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 32676,
+  "watchers": 32676,
+  "forks": 15223,
+  "open_issues": 384,
+  "language": "Java",
+  "topics": [
+    "java",
+    "kafka",
+    "scala",
+    "streaming"
+  ],
+  "commit_message": "KAFKA-20610: Move abstraction instantiation to BrokerServer for share fetch (3/N) (#22414)\n\nMoves the instantiation of LogReader, PartitionMetadataProvider, and\nConsumer<DelayedShareFetchKey> from SharePartitionManager to\nBrokerServer.\n\n#### What Changed:\n- BrokerServer now creates ReplicaManagerLogReader,\nReplicaManagerPartitionMetadataProvider, and delayed request notifier\n- Test builder updated to create and inject dependencies\n\nReviewers: Andrew Schofield <aschofield@confluent.io>",
+  "commit_author": {
+    "name": "Apoorv Mittal",
+    "email": "apoorvmittal10@gmail.com",
+    "date": "2026-05-29T17:34:01Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-29T17:34:01Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "6bfa19475d27808de524ac34d321bac387bd760a"
+  ],
+  "github_author_login": "apoorvmittal10",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "trunk",
+  "pushed_at": "2026-05-30T03:54:04Z",
+  "created_at": "2011-08-15T18:06:16Z",
+  "homepage": "https://kafka.apache.org/",
+  "size_kb": 292185,
+  "has_wiki": false,
+  "has_issues": false,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-30T04:07:26.303Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
