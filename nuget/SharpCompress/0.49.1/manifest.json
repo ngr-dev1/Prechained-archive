@@ -1,0 +1,151 @@
+{
+  "name": "SharpCompress",
+  "version": "0.49.1",
+  "ecosystem": "nuget",
+  "description": "SharpCompress is a compression library for NET 4.8/NET Standard 2.0/NET Standard 2.1/NET 5.0/NET 6.0/NET 7.0/NET 8.0/NET 9.0/NET 10.0 that can unrar, decompress 7zip, decompress xz, zip/unzip, tar/untar lzip/unlzip, bzip2/unbzip2 and gzip/ungzip with forward-only reading and file random access APIs. Write support for zip/tar/bzip2/gzip/7zip is implemented.",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Adam Hathcock"
+  ],
+  "owners": [],
+  "tags": [
+    "rar",
+    "unrar",
+    "zip",
+    "unzip",
+    "bzip2",
+    "gzip",
+    "tar",
+    "7zip",
+    "lzip",
+    "xz"
+  ],
+  "projectUrl": "https://github.com/adamhathcock/sharpcompress",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[8.0.0, )",
+      "targetFramework": ".NETFramework4.8"
+    },
+    {
+      "id": "System.Text.Encoding.CodePages",
+      "range": "[8.0.0, )",
+      "targetFramework": ".NETFramework4.8"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[8.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Text.Encoding.CodePages",
+      "range": "[8.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[8.0.0, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "System.Text.Encoding.CodePages",
+      "range": "[8.0.0, )",
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.29.14.59.32/sharpcompress.0.49.1.json#dependencygroup/net10.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "net10.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.29.14.59.32/sharpcompress.0.49.1.json#dependencygroup/.netframework4.8",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.29.14.59.32/sharpcompress.0.49.1.json#dependencygroup/.netframework4.8/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.29.14.59.32/sharpcompress.0.49.1.json#dependencygroup/.netframework4.8/system.text.encoding.codepages",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encoding.CodePages",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encoding.codepages/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.8"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.29.14.59.32/sharpcompress.0.49.1.json#dependencygroup/net6.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "net6.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.29.14.59.32/sharpcompress.0.49.1.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.29.14.59.32/sharpcompress.0.49.1.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.29.14.59.32/sharpcompress.0.49.1.json#dependencygroup/.netstandard2.0/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.29.14.59.32/sharpcompress.0.49.1.json#dependencygroup/.netstandard2.0/system.text.encoding.codepages",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encoding.CodePages",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encoding.codepages/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.29.14.59.32/sharpcompress.0.49.1.json#dependencygroup/.netstandard2.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.29.14.59.32/sharpcompress.0.49.1.json#dependencygroup/.netstandard2.1/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.05.29.14.59.32/sharpcompress.0.49.1.json#dependencygroup/.netstandard2.1/system.text.encoding.codepages",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encoding.CodePages",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encoding.codepages/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "publishedAt": "2026-05-29T14:55:40.31+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": null,
+  "readmeUrl": "https://www.nuget.org/packages/SharpCompress/0.49.1#show-readme-container",
+  "captured_at": "2026-05-30T05:37:28.077Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
