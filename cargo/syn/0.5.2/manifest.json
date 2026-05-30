@@ -1,0 +1,47 @@
+{
+  "name": "syn",
+  "version": "0.5.2",
+  "ecosystem": "cargo",
+  "description": "Parser for Rust source code",
+  "license": "MIT/Apache-2.0",
+  "checksum": "d3605d1491363db5941e19374ac79ba3d12ef861a9463c23f46db2c21b5700d6",
+  "features": {
+    "aster": [],
+    "default": [
+      "parsing",
+      "printing"
+    ],
+    "parsing": [],
+    "printing": [
+      "quote"
+    ],
+    "visit": []
+  },
+  "downloads": 3381,
+  "yanked": false,
+  "repository": "https://github.com/dtolnay/syn",
+  "homepage": null,
+  "keywords": [
+    "macros",
+    "syn"
+  ],
+  "categories": [
+    "Procedural macro helpers",
+    "Parser implementations"
+  ],
+  "dependencies": [
+    {
+      "name": "quote",
+      "requirement": "^0.1.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2016-09-14T07:02:16.492002Z",
+  "captured_at": "2026-05-30T00:57:21.700Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
