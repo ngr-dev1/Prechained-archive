@@ -1,0 +1,180 @@
+{
+  "name": "salvo",
+  "version": "0.10.0",
+  "ecosystem": "cargo",
+  "description": "Salvo is a powerful web framework that can make your work easier.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "a5bc27d0196abca756b981613e616b783a7be20dcd60d884be782e94d79e91f7",
+  "features": {
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic_auth": [
+      "salvo_extra/basic_auth"
+    ],
+    "compression": [
+      "salvo_extra/compression"
+    ],
+    "cors": [
+      "salvo_extra/cors"
+    ],
+    "default": [],
+    "extra": [
+      "basic_auth",
+      "jwt_auth",
+      "compression",
+      "cors",
+      "proxy",
+      "serve",
+      "sse",
+      "ws",
+      "size_limiter"
+    ],
+    "full": [
+      "extra",
+      "tls",
+      "anyhow"
+    ],
+    "jwt_auth": [
+      "salvo_extra/jwt_auth"
+    ],
+    "proxy": [
+      "salvo_extra/proxy"
+    ],
+    "serve": [
+      "salvo_extra/serve"
+    ],
+    "size_limiter": [
+      "salvo_extra/size_limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "tls": [
+      "salvo_core/tls"
+    ],
+    "ws": [
+      "salvo_extra/ws"
+    ]
+  },
+  "downloads": 2506,
+  "yanked": false,
+  "repository": "https://github.com/salvo-rs/salvo",
+  "homepage": "https://salvo.rs",
+  "keywords": [
+    "async",
+    "framework",
+    "http",
+    "server",
+    "web"
+  ],
+  "categories": [
+    "HTTP server",
+    "Network programming",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "futures",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "reqwest",
+      "requirement": "^0.11",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "salvo_core",
+      "requirement": "^0.10.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "serde",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-stream",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing-futures",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing-log",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing-subscriber",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "salvo_extra",
+      "requirement": "^0.10.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn",
+    "name": "Chrislearn Young"
+  },
+  "publishedAt": "2021-04-04T10:06:34.298368Z",
+  "captured_at": "2026-05-30T21:47:28.380Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
