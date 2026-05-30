@@ -1,0 +1,105 @@
+{
+  "name": "husky",
+  "version": "4.0.6",
+  "ecosystem": "npm",
+  "description": "Modern native Git hooks",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "slash": "^3.0.0",
+    "ci-info": "^2.0.0",
+    "pkg-dir": "^4.2.0",
+    "get-stdin": "^7.0.0",
+    "cosmiconfig": "^6.0.0",
+    "which-pm-runs": "^1.0.0",
+    "please-upgrade-node": "^3.2.0",
+    "opencollective-postinstall": "^2.0.2"
+  },
+  "devDependencies": {
+    "del": "^5.1.0",
+    "jest": "^24.9.0",
+    "pinst": "^2.0.0",
+    "tempy": "^0.3.0",
+    "eslint": "^6.8.0",
+    "mkdirp": "^0.5.1",
+    "pkg-ok": "^2.3.1",
+    "del-cli": "^3.0.0",
+    "ts-jest": "^24.2.0",
+    "prettier": "^1.19.1",
+    "cross-env": "^6.0.3",
+    "formatree": "^1.0.2",
+    "type-fest": "^0.8.1",
+    "typescript": "^3.7.4",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.4",
+    "markdown-toc": "^1.2.0",
+    "@types/mkdirp": "^0.5.2",
+    "@types/ci-info": "^2.0.0",
+    "@types/cosmiconfig": "^6.0.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-config-xo-space": "^0.22.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "@typescript-eslint/parser": "^2.15.0",
+    "@typescript-eslint/eslint-plugin": "^2.15.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "install": "node husky install",
+    "preinstall": null,
+    "postinstall": "opencollective-postinstall || exit 0",
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "npm run test && npm run build && pinst --enable && pkg-ok"
+  },
+  "maintainers": [
+    {
+      "name": "typicode",
+      "email": "typicode@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Typicode",
+    "email": "typicode@gmail.com"
+  },
+  "publishedAt": "2020-01-10T07:38:57.451Z",
+  "dist": {
+    "integrity": "sha512-OxsXXQXu/FYauV5GGhNpyN1yhQPQoDFUJwzHoshYc3wO//gC0PB9YNYLgBxKckfEce0FGEbzb498UecR3jNdZw==",
+    "shasum": "b64206220ab940f091cb5f1c75672453eb39fc9f",
+    "tarball": "https://registry.npmjs.org/husky/-/husky-4.0.6.tgz",
+    "fileCount": 19,
+    "unpackedSize": 48380
+  },
+  "repository": {
+    "url": "git+https://github.com/typicode/husky.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/typicode/husky#readme",
+  "bugs": {
+    "url": "https://github.com/typicode/husky/issues"
+  },
+  "keywords": [
+    "git",
+    "hook",
+    "hooks",
+    "pre-commit",
+    "precommit",
+    "post-commit",
+    "postcommit",
+    "pre-push",
+    "prepush",
+    "post-merge",
+    "postmerge",
+    "test",
+    "lint"
+  ],
+  "_npmUser": {
+    "name": "typicode",
+    "email": "typicode@gmail.com"
+  },
+  "captured_at": "2026-05-30T22:25:25.318Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
