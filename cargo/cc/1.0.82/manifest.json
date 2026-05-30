@@ -1,0 +1,56 @@
+{
+  "name": "cc",
+  "version": "1.0.82",
+  "ecosystem": "cargo",
+  "description": "A build-time dependency for Cargo build scripts to assist in invoking the native\nC compiler to compile native C code into a static archive to be linked into Rust\ncode.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "305fe645edc1442a0fa8b6726ba61d422798d37a52e12eaecf4b022ebbb88f01",
+  "features": {
+    "parallel": [
+      "jobserver"
+    ]
+  },
+  "downloads": 5240587,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/cc-rs",
+  "homepage": "https://github.com/rust-lang/cc-rs",
+  "keywords": [
+    "build-dependencies"
+  ],
+  "categories": [
+    "Build Utils"
+  ],
+  "dependencies": [
+    {
+      "name": "libc",
+      "requirement": "^0.2.62",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "jobserver",
+      "requirement": "^0.1.16",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 4357,
+    "login": "thomcc",
+    "name": "Thom Chiovoloni"
+  },
+  "publishedAt": "2023-08-07T04:14:33.871289Z",
+  "captured_at": "2026-05-30T21:15:26.895Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
