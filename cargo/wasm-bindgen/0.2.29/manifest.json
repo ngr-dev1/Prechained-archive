@@ -1,0 +1,67 @@
+{
+  "name": "wasm-bindgen",
+  "version": "0.2.29",
+  "ecosystem": "cargo",
+  "description": "Easy support for interacting between JS and Rust.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "91f95b8f30407b9ca0c2de157281d3828bbed1fc1f55bea6eb54f40c52ec75ec",
+  "features": {
+    "default": [
+      "spans",
+      "std"
+    ],
+    "nightly": [],
+    "serde-serialize": [
+      "serde",
+      "serde_json",
+      "std"
+    ],
+    "spans": [
+      "wasm-bindgen-macro/spans"
+    ],
+    "std": [],
+    "strict-macro": [
+      "wasm-bindgen-macro/strict-macro"
+    ],
+    "xxx_debug_only_print_generated_code": [
+      "wasm-bindgen-macro/xxx_debug_only_print_generated_code"
+    ]
+  },
+  "downloads": 30413,
+  "yanked": false,
+  "repository": "https://github.com/wasm-bindgen/wasm-bindgen",
+  "homepage": "https://wasm-bindgen.github.io/wasm-bindgen",
+  "keywords": [],
+  "categories": [
+    "WebAssembly"
+  ],
+  "dependencies": [
+    {
+      "name": "wasm-bindgen-macro",
+      "requirement": "= 0.2.29",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-12-04T14:25:52.579131Z",
+  "captured_at": "2026-05-30T16:14:54.669Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
