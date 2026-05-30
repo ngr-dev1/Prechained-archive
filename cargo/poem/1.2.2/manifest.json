@@ -1,0 +1,429 @@
+{
+  "name": "poem",
+  "version": "1.2.2",
+  "ecosystem": "cargo",
+  "description": "Poem is a full-featured and easy-to-use web framework with the Rust programming language.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "1c715e2ce32ff816421654f18bcdc43535065db13e8f57aec6441cdc2c30504c",
+  "features": {
+    "compression": [
+      "async-compression",
+      "typed-headers"
+    ],
+    "cookie": [
+      "libcookie",
+      "chrono",
+      "time"
+    ],
+    "csrf": [
+      "cookie",
+      "base64",
+      "libcsrf"
+    ],
+    "default": [],
+    "multipart": [
+      "multer"
+    ],
+    "native-tls": [
+      "tokio-native-tls"
+    ],
+    "opentelemetry": [
+      "libopentelemetry",
+      "opentelemetry-http",
+      "opentelemetry-semantic-conventions"
+    ],
+    "prometheus": [
+      "libopentelemetry",
+      "opentelemetry-prometheus",
+      "libprometheus"
+    ],
+    "redis-session": [
+      "session",
+      "redis"
+    ],
+    "rustls": [
+      "tokio-rustls"
+    ],
+    "session": [
+      "cookie",
+      "rand",
+      "priority-queue"
+    ],
+    "sse": [],
+    "tempfile": [
+      "libtempfile"
+    ],
+    "tower-compat": [
+      "tower"
+    ],
+    "websocket": [
+      "tokio-tungstenite",
+      "sha1",
+      "base64"
+    ]
+  },
+  "downloads": 3085,
+  "yanked": false,
+  "repository": "https://github.com/poem-web/poem",
+  "homepage": "https://github.com/poem-web/poem",
+  "keywords": [
+    "async",
+    "framework",
+    "http",
+    "web"
+  ],
+  "categories": [
+    "Network programming",
+    "HTTP server",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "async-stream",
+      "requirement": "^0.3.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "async-trait",
+      "requirement": "^0.1.51",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^1.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3.17",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "headers",
+      "requirement": "^0.3.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "http",
+      "requirement": "^0.2.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^0.14.13",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mime",
+      "requirement": "^0.3.16",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mime_guess",
+      "requirement": "^2.0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "parking_lot",
+      "requirement": "^0.11.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "percent-encoding",
+      "requirement": "^2.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-project-lite",
+      "requirement": "^0.2.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "poem-derive",
+      "requirement": "^1.2.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.5.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.130",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.68",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_urlencoded",
+      "requirement": "^0.7.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "smallvec",
+      "requirement": "^1.6.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "thiserror",
+      "requirement": "^1.0.30",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.12.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.12.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-stream",
+      "requirement": "^0.1.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-util",
+      "requirement": "^0.6.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1.29",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "webpki",
+      "requirement": "^0.21.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "anyhow",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "async-compression",
+      "requirement": "^0.3.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "base64",
+      "requirement": "^0.13.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "chrono",
+      "requirement": "^0.4.19",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "cookie",
+      "requirement": "^0.15.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "csrf",
+      "requirement": "^0.4.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "multer",
+      "requirement": "^2.0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "opentelemetry",
+      "requirement": "^0.16.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "opentelemetry-http",
+      "requirement": "^0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "opentelemetry-prometheus",
+      "requirement": "^0.9.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "opentelemetry-semantic-conventions",
+      "requirement": "^0.8.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "priority-queue",
+      "requirement": "^1.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "prometheus",
+      "requirement": "^0.12.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "redis",
+      "requirement": "^0.21.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "sha1",
+      "requirement": "^0.6.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.2.27",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-native-tls",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-rustls",
+      "requirement": "^0.22.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-tungstenite",
+      "requirement": "^0.15.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tower",
+      "requirement": "^0.4.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "typed-headers",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 66052,
+    "login": "sunli829",
+    "name": "Sunli"
+  },
+  "publishedAt": "2021-12-16T08:50:54.167346Z",
+  "captured_at": "2026-05-30T15:27:24.141Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
