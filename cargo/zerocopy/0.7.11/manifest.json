@@ -1,0 +1,126 @@
+{
+  "name": "zerocopy",
+  "version": "0.7.11",
+  "ecosystem": "cargo",
+  "description": "Zerocopy makes zero-cost memory manipulation effortless. We write \"unsafe\" so you don't have to.",
+  "license": "BSD-2-Clause",
+  "checksum": "4c19fae0c8a9efc6a8281f2e623db8af1db9e57852e04cde3e754dd2dc29340f",
+  "features": {
+    "__internal_use_only_features_that_work_on_stable": [
+      "alloc",
+      "derive",
+      "simd"
+    ],
+    "alloc": [],
+    "default": [
+      "byteorder"
+    ],
+    "derive": [
+      "zerocopy-derive"
+    ],
+    "simd": [],
+    "simd-nightly": [
+      "simd"
+    ]
+  },
+  "downloads": 785505,
+  "yanked": true,
+  "repository": "https://github.com/google/zerocopy",
+  "homepage": null,
+  "keywords": [
+    "cast",
+    "convert",
+    "transmutation",
+    "transmute",
+    "type-punning"
+  ],
+  "categories": [
+    "Parsing tools",
+    "No dynamic allocation",
+    "Embedded development",
+    "Rust patterns",
+    "Encoding"
+  ],
+  "dependencies": [
+    {
+      "name": "assert_matches",
+      "requirement": "^1.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "itertools",
+      "requirement": "^0.11",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.8.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustversion",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "static_assertions",
+      "requirement": "^1.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "trybuild",
+      "requirement": "=1.0.85",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "zerocopy-derive",
+      "requirement": "=0.7.11",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "zerocopy-derive",
+      "requirement": "=0.7.11",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "byteorder",
+      "requirement": "^1.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "zerocopy-derive",
+      "requirement": "=0.7.11",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 7178,
+    "login": "joshlf",
+    "name": "Joshua Liebow-Feeser"
+  },
+  "publishedAt": "2023-10-11T23:41:15.194226Z",
+  "captured_at": "2026-05-30T19:52:35.708Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
