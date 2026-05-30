@@ -1,0 +1,54 @@
+{
+  "repo": "apache/kafka",
+  "commit_sha": "88a955d8354182399e599fc34d36d9267408c9d1",
+  "tree_sha": "eb238e9afc3d5003bdbe5fdb9a6194b6663a98f0",
+  "branch": "trunk",
+  "ecosystem": "github",
+  "description": "Apache Kafka - A distributed event streaming platform",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 32676,
+  "watchers": 32676,
+  "forks": 15223,
+  "open_issues": 384,
+  "language": "Java",
+  "topics": [
+    "java",
+    "kafka",
+    "scala",
+    "streaming"
+  ],
+  "commit_message": "KAFKA-20497: Add readOnly(IsolationLevel) to ChangeLogging stores (#22311)\n\nThe ChangeLogging wrappers have no cache of their own — they simply\nintercept  writes to emit changelog records and delegate reads straight\nthrough. There is  no uncommitted state held at this layer, so the\nisolation semantics belong  entirely to the inner store. Pure delegation\nto wrapped().readOnly(level) is  therefore the only sensible\nimplementation.\n\nKAFKA-20497\n\nReviewers: Murali Basani  <muralidhar.basani@aiven.io",
+  "commit_author": {
+    "name": "Nick Telford",
+    "email": "nick.telford@gmail.com",
+    "date": "2026-05-29T18:30:01Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-29T18:30:01Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "32e49cee129241fbab48c4754262c9a3f801bb94"
+  ],
+  "github_author_login": "nicktelford",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "trunk",
+  "pushed_at": "2026-05-30T03:54:04Z",
+  "created_at": "2011-08-15T18:06:16Z",
+  "homepage": "https://kafka.apache.org/",
+  "size_kb": 292185,
+  "has_wiki": false,
+  "has_issues": false,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-30T04:07:25.526Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
