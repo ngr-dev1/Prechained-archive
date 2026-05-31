@@ -1,0 +1,141 @@
+{
+  "name": "clap",
+  "version": "2.23.1",
+  "ecosystem": "cargo",
+  "description": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+  "license": "MIT",
+  "checksum": "d480c39a2e5f9b3a3798c661613e1b0e7a7ae71e005102d4aa910fc3289df484",
+  "features": {
+    "color": [
+      "ansi_term",
+      "atty"
+    ],
+    "debug": [],
+    "default": [
+      "suggestions",
+      "color",
+      "wrap_help"
+    ],
+    "lints": [
+      "clippy"
+    ],
+    "nightly": [],
+    "no_cargo": [],
+    "suggestions": [
+      "strsim"
+    ],
+    "unstable": [],
+    "wrap_help": [
+      "term_size"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "downloads": 30089,
+  "yanked": false,
+  "repository": "https://github.com/clap-rs/clap",
+  "homepage": null,
+  "keywords": [
+    "arg",
+    "argument",
+    "cli",
+    "parse",
+    "parser"
+  ],
+  "categories": [
+    "Command-line interface"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "^0.8.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "unicode-segmentation",
+      "requirement": "^1.0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "unicode-width",
+      "requirement": "^0.1.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "vec_map",
+      "requirement": "^0.7.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ansi_term",
+      "requirement": "^0.9.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "atty",
+      "requirement": "^0.2.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "clippy",
+      "requirement": "~0.0.118",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "strsim",
+      "requirement": "^0.6.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "term_size",
+      "requirement": "^0.2.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "yaml-rust",
+      "requirement": "^0.3.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2017-04-05T15:00:47.058707Z",
+  "captured_at": "2026-05-31T11:17:25.763Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
