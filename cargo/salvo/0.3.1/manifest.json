@@ -1,0 +1,72 @@
+{
+  "name": "salvo",
+  "version": "0.3.1",
+  "ecosystem": "cargo",
+  "description": "Salvo is a powerful web framework that can make your work easier.\n",
+  "license": "MIT",
+  "checksum": "057f42d2a03eb18db0ff1d54c71698987b642ce055c44cd12746516110bc1bcc",
+  "features": {
+    "default": [
+      "macro"
+    ],
+    "extra": [],
+    "macro": []
+  },
+  "downloads": 2480,
+  "yanked": true,
+  "repository": "https://github.com/salvo-rs/salvo",
+  "homepage": "https://salvo.rs",
+  "keywords": [
+    "async",
+    "framework",
+    "http",
+    "server",
+    "web"
+  ],
+  "categories": [
+    "HTTP server",
+    "Network programming",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "async-trait",
+      "requirement": "^0.1.42",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "salvo_core",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "salvo_extra",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "salvo_macro",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn",
+    "name": "Chrislearn Young"
+  },
+  "publishedAt": "2020-12-27T13:19:21.722786Z",
+  "captured_at": "2026-05-31T10:17:24.007Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
