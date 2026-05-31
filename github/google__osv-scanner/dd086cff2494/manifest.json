@@ -1,0 +1,54 @@
+{
+  "repo": "google/osv-scanner",
+  "commit_sha": "dd086cff24945b1ba3ac0730f7164bb1b4f163c9",
+  "tree_sha": "8049550265d884f8a3838c5990f52957ec92ba31",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 10387,
+  "watchers": 10387,
+  "forks": 710,
+  "open_issues": 110,
+  "language": "Go",
+  "topics": [
+    "scanner",
+    "security-audit",
+    "security-tools",
+    "vulnerability-scanner"
+  ],
+  "commit_message": "fix: keep transitive scanning with `--offline-vulnerabilities` (#2783)\n\n## Overview\n\nFixes #2775.\n\n`--offline-vulnerabilities` is documented as only switching\nvulnerability matching to the local DB, but it was also causing Scalibr\nto filter out network-backed plugins.\nThat meant transitive dependency scanning was disabled even when\n`--no-resolve` was not passed.\n\nThis PR keeps that behavior scoped to the full `--offline` flag instead.\n\n\n## Details\n\nI added a separate `ScannerActions.PluginNetwor",
+  "commit_author": {
+    "name": "Jongsik Kim",
+    "email": "83115515+gotgolem@users.noreply.github.com",
+    "date": "2026-05-29T01:28:43Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-29T01:28:43Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "4e30efd6965d343535638ae156877cdfb89a4ef8"
+  ],
+  "github_author_login": "gotgolem",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-30T21:17:51Z",
+  "created_at": "2022-11-14T01:05:20Z",
+  "homepage": "https://google.github.io/osv-scanner/",
+  "size_kb": 42218,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-31T12:17:26.730Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
