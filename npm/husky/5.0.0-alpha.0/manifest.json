@@ -1,0 +1,94 @@
+{
+  "name": "husky",
+  "version": "5.0.0-alpha.0",
+  "ecosystem": "npm",
+  "description": "Modern native Git hooks",
+  "license": "See LICENSE file",
+  "dependencies": {},
+  "devDependencies": {
+    "pinst": "^2.0.0",
+    "eslint": "^7.9.0",
+    "prettier": "^2.1.1",
+    "type-fest": "^0.16.0",
+    "typescript": "^4.0.2",
+    "@types/node": "^14.10.1",
+    "docsify-cli": "^4.4.1",
+    "@commitlint/cli": "^11.0.0",
+    "@tsconfig/node10": "^1.0.7",
+    "@commitlint/prompt-cli": "^11.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "@typescript-eslint/parser": "^4.1.1",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.1.1"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "pinst --disable",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "typicode",
+      "email": "typicode@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Typicode",
+    "email": "typicode@gmail.com"
+  },
+  "publishedAt": "2020-09-14T22:46:36.919Z",
+  "dist": {
+    "integrity": "sha512-OovCNinqHOOfevEBHSqbaBhFg6IJMGibx5nwYLPwEc32lBYjYBiFVCs1oYoK79oJfTGgTqqZd4nqnSwQ6vZ0Kg==",
+    "shasum": "75b51831a6db1f548ca530e67affa743f099dcad",
+    "tarball": "https://registry.npmjs.org/husky/-/husky-5.0.0-alpha.0.tgz",
+    "fileCount": 12,
+    "unpackedSize": 16126
+  },
+  "repository": {
+    "url": "git+https://github.com/typicode/husky.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/typicode/husky#readme",
+  "bugs": {
+    "url": "https://github.com/typicode/husky/issues"
+  },
+  "keywords": [
+    "git",
+    "hook",
+    "hooks",
+    "test",
+    "lint",
+    "applypatch-msg",
+    "pre-applypatch",
+    "post-applypatch",
+    "pre-commit",
+    "pre-merge-commit",
+    "prepare-commit-msg",
+    "commit-msg",
+    "post-commit",
+    "pre-rebase",
+    "post-checkout",
+    "post-merge",
+    "pre-push",
+    "post-update",
+    "push-to-checkout",
+    "pre-auto-gc",
+    "post-rewrite",
+    "sendemail-validate"
+  ],
+  "_npmUser": {
+    "name": "typicode",
+    "email": "typicode@gmail.com"
+  },
+  "captured_at": "2026-05-31T23:57:20.489Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "d119c8806c279830b1deb9937e384de1e274cfbaf39e3f8a85221cc3889e1ff4783ca69b4f4272776d43489c69df2bbd"
+}
