@@ -1,0 +1,73 @@
+{
+  "name": "serde_derive",
+  "version": "0.8.16",
+  "ecosystem": "cargo",
+  "description": "Macros 1.1 implementation of #[derive(Serialize, Deserialize)]",
+  "license": "MIT/Apache-2.0",
+  "checksum": "de0edf3d328158ba2bbb0214427343881e5034aeb8df43cec66f9af6c25836d0",
+  "features": {},
+  "downloads": 9368,
+  "yanked": false,
+  "repository": "https://github.com/serde-rs/serde",
+  "homepage": "https://serde.rs",
+  "keywords": [
+    "derive",
+    "no_std",
+    "serde",
+    "serialization"
+  ],
+  "categories": [
+    "No standard library",
+    "No dynamic allocation"
+  ],
+  "dependencies": [
+    {
+      "name": "compiletest_rs",
+      "requirement": "^0.2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fnv",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "post-expansion",
+      "requirement": "^0.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^0.8.16",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_codegen",
+      "requirement": "= 0.8.16",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "serde_test",
+      "requirement": "^0.8.16",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2016-10-22T07:10:12.657591Z",
+  "captured_at": "2026-05-31T10:46:27.156Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
