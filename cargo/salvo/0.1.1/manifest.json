@@ -1,0 +1,304 @@
+{
+  "name": "salvo",
+  "version": "0.1.1",
+  "ecosystem": "cargo",
+  "description": "Salvo is a powerful web framework that can make your work easier.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "bc304163d4c5f99602c546559e66c74fdff478295204a4c61faa2c95103ebf4e",
+  "features": {},
+  "downloads": 2469,
+  "yanked": true,
+  "repository": "https://github.com/salvo-rs/salvo",
+  "homepage": "https://salvo.rs",
+  "keywords": [
+    "async",
+    "framework",
+    "http",
+    "server",
+    "web"
+  ],
+  "categories": [
+    "HTTP server",
+    "Network programming",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "async-trait",
+      "requirement": "^0.1.22",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "base64",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bitflags",
+      "requirement": "^1.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "config",
+      "requirement": "^0.9.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "cookie",
+      "requirement": "^0.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "display_bytes",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "double-checked-cell",
+      "requirement": "^2.0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "double-checked-cell-async",
+      "requirement": "^2.0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-test",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "http",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "httparse",
+      "requirement": "^1.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^0.13",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mime",
+      "requirement": "^0.3.14",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mime_guess",
+      "requirement": "^2.0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "multimap",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-utils",
+      "requirement": "^0.1.0-alpha.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.1.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "salvo_macros",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_cbor",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "slog",
+      "requirement": "^2.5.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "slog-term",
+      "requirement": "^2.4.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "state",
+      "requirement": "^0.4.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempdir",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "textnonce",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "toml",
+      "requirement": "^0.4.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "twoway",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^2.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "version_check",
+      "requirement": "^0.1.3",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "yansi",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "yansi",
+      "requirement": "^0.5",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn",
+    "name": "Chrislearn Young"
+  },
+  "publishedAt": "2020-02-09T14:58:09.045218Z",
+  "captured_at": "2026-05-31T10:37:25.151Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
