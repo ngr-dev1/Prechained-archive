@@ -1,0 +1,206 @@
+{
+  "name": "clap",
+  "version": "3.0.0-beta.5",
+  "ecosystem": "cargo",
+  "description": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "feff3878564edb93745d58cf63e17b63f24142506e7a20c87a5521ed7bfb1d63",
+  "features": {
+    "cargo": [
+      "lazy_static"
+    ],
+    "color": [
+      "atty",
+      "termcolor"
+    ],
+    "debug": [
+      "clap_derive/debug",
+      "backtrace"
+    ],
+    "default": [
+      "std",
+      "derive",
+      "cargo",
+      "color",
+      "env",
+      "suggestions",
+      "unicode"
+    ],
+    "derive": [
+      "clap_derive",
+      "lazy_static"
+    ],
+    "env": [],
+    "std": [
+      "indexmap/std"
+    ],
+    "suggestions": [
+      "strsim"
+    ],
+    "unicode": [
+      "textwrap/unicode-width",
+      "unicase"
+    ],
+    "unstable-multicall": [],
+    "unstable-replace": [],
+    "wrap_help": [
+      "terminal_size",
+      "textwrap/terminal_size"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "downloads": 763127,
+  "yanked": false,
+  "repository": "https://github.com/clap-rs/clap",
+  "homepage": null,
+  "keywords": [
+    "arg",
+    "argument",
+    "cli",
+    "parse",
+    "parser"
+  ],
+  "categories": [
+    "Command-line interface"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "^1.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.3.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "indexmap",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "os_str_bytes",
+      "requirement": "^4.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "textwrap",
+      "requirement": "^0.14.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "version-sync",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "atty",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "backtrace",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "clap_derive",
+      "requirement": "=3.0.0-beta.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "lazy_static",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "strsim",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "termcolor",
+      "requirement": "^1.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "terminal_size",
+      "requirement": "^0.1.12",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "unicase",
+      "requirement": "^2.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "yaml-rust",
+      "requirement": "^0.4.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 26168,
+    "login": "pksunkara",
+    "name": "Pavan K Sunkara"
+  },
+  "publishedAt": "2021-10-17T17:31:11.479372Z",
+  "captured_at": "2026-05-31T03:07:22.454Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
