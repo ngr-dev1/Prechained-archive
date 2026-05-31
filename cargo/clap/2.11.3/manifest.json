@@ -1,0 +1,139 @@
+{
+  "name": "clap",
+  "version": "2.11.3",
+  "ecosystem": "cargo",
+  "description": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+  "license": "MIT",
+  "checksum": "63710db0c7585f80aaf1ca6d010e6bac497f2cbe333bb3eb25feeae91e10ed5b",
+  "features": {
+    "color": [
+      "ansi_term",
+      "libc"
+    ],
+    "debug": [],
+    "default": [
+      "suggestions",
+      "color",
+      "wrap_help"
+    ],
+    "lints": [
+      "clippy",
+      "nightly"
+    ],
+    "nightly": [],
+    "suggestions": [
+      "strsim"
+    ],
+    "travis": [
+      "lints",
+      "nightly"
+    ],
+    "unstable": [],
+    "wrap_help": [
+      "libc",
+      "term_size"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "downloads": 27620,
+  "yanked": true,
+  "repository": "https://github.com/clap-rs/clap",
+  "homepage": null,
+  "keywords": [
+    "arg",
+    "argument",
+    "cli",
+    "parse",
+    "parser"
+  ],
+  "categories": [
+    "Command-line interface"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "~0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "~0.1.69",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "unicode-segmentation",
+      "requirement": "~0.1.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "unicode-width",
+      "requirement": "~0.1.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "vec_map",
+      "requirement": "~0.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ansi_term",
+      "requirement": "~0.9.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "clippy",
+      "requirement": "~0.0.88",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "~0.2.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "strsim",
+      "requirement": "~0.5.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "term_size",
+      "requirement": "~0.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "yaml-rust",
+      "requirement": "~0.3.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2016-09-07T21:40:15.344973Z",
+  "captured_at": "2026-05-31T14:57:22.318Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
