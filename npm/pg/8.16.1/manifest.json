@@ -1,0 +1,83 @@
+{
+  "name": "pg",
+  "version": "8.16.1",
+  "ecosystem": "npm",
+  "description": "PostgreSQL client - pure javascript & libpq with the same API",
+  "license": "MIT",
+  "dependencies": {
+    "pgpass": "1.0.5",
+    "pg-pool": "^3.10.1",
+    "pg-types": "2.2.0",
+    "pg-protocol": "^1.10.1",
+    "pg-cloudflare": "^1.2.6",
+    "pg-connection-string": "^2.9.1"
+  },
+  "devDependencies": {
+    "co": "4.6.0",
+    "async": "2.6.4",
+    "vitest": "~3.0.9",
+    "bluebird": "3.7.2",
+    "wrangler": "^3.x",
+    "typescript": "^4.0.3",
+    "pg-copy-streams": "0.3.0",
+    "@cloudflare/workers-types": "^4.20230404.0",
+    "@cloudflare/vitest-pool-workers": "0.8.23"
+  },
+  "peerDependencies": {
+    "pg-native": ">=3.0.1"
+  },
+  "engines": {
+    "node": ">= 16.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "brianc",
+      "email": "brian.m.carlson@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Brian Carlson",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "publishedAt": "2025-06-18T15:46:54.452Z",
+  "dist": {
+    "integrity": "sha512-5n6e7MgF5ABRsssOsX9xC95p+NUuhgDQDBSsrKSZJjYVqZHGyrmJuknym2IbVhGtzV9siBdzH9SEIQAuWF+sdg==",
+    "shasum": "06a0a300852a061df2fc2011dd83742fd1b6afb7",
+    "tarball": "https://registry.npmjs.org/pg/-/pg-8.16.1.tgz",
+    "fileCount": 22,
+    "unpackedSize": 88205
+  },
+  "repository": {
+    "url": "git://github.com/brianc/node-postgres.git",
+    "type": "git",
+    "directory": "packages/pg"
+  },
+  "homepage": "https://github.com/brianc/node-postgres",
+  "bugs": {
+    "url": "https://github.com/brianc/node-postgres/issues"
+  },
+  "keywords": [
+    "database",
+    "libpq",
+    "pg",
+    "postgre",
+    "postgres",
+    "postgresql",
+    "rdbms"
+  ],
+  "_npmUser": {
+    "name": "brianc",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "captured_at": "2026-05-31T05:47:25.242Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
