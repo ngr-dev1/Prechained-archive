@@ -1,0 +1,57 @@
+{
+  "repo": "zdharma-continuum/zinit",
+  "commit_sha": "17f2c4bc7453d50614112bb909ab886847f0e016",
+  "tree_sha": "b7f966b4c98dee67b3ed8f8c615f4432684c98e6",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "🌻 Flexible and fast ZSH plugin manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 4689,
+  "watchers": 4689,
+  "forks": 149,
+  "open_issues": 113,
+  "language": "Shell",
+  "topics": [
+    "package-manager",
+    "plugin-manager",
+    "zinit",
+    "zinit-annex",
+    "zsh",
+    "zsh-configuration",
+    "zsh-plugin"
+  ],
+  "commit_message": "test: replace cog gh-r test with cosign\n\nreplicate/cog stopped shipping a static binary in its GitHub releases\n(switched to a Python wheel coglet-*.whl as of v0.20.0), which broke the\nlinux gh-r CI job — ziextract cannot unpack a .whl, and the linked symlink\nreturns 'exec format error' when run.\n\nReplace with sigstore/cosign, which still ships static binaries\n(cosign-linux-amd64 / cosign-darwin-{amd64,arm64}) and slots into\nthe alphabetical position between 'checkmake' and 'compress'.",
+  "commit_author": {
+    "name": "Andrea Alberti",
+    "email": "a.alberti82@gmail.com",
+    "date": "2026-05-30T16:40:15Z"
+  },
+  "commit_committer": {
+    "name": "Andrea Alberti",
+    "email": "a.alberti82@gmail.com",
+    "date": "2026-05-30T16:42:00Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "74173749a6276a7895711008555651fcdacd0f69"
+  ],
+  "github_author_login": "alberti42",
+  "github_committer_login": "alberti42",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-30T20:39:06Z",
+  "created_at": "2021-10-30T01:07:44Z",
+  "homepage": null,
+  "size_kb": 12945,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-31T09:27:22.774Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
