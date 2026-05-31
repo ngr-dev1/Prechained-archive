@@ -1,0 +1,57 @@
+{
+  "name": "clap",
+  "version": "0.8.3",
+  "ecosystem": "cargo",
+  "description": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+  "license": "MIT",
+  "checksum": "dda67204c3cf6d35e208aa09c857035b2ee98254e241111870a7f0d58a28776a",
+  "features": {
+    "color": [
+      "ansi_term"
+    ],
+    "default": [
+      "suggestions",
+      "color"
+    ],
+    "suggestions": [
+      "strsim"
+    ],
+    "unstable": []
+  },
+  "downloads": 4109,
+  "yanked": false,
+  "repository": "https://github.com/clap-rs/clap",
+  "homepage": null,
+  "keywords": [
+    "arg",
+    "argument",
+    "cli",
+    "parse",
+    "parser"
+  ],
+  "categories": [
+    "Command-line interface"
+  ],
+  "dependencies": [
+    {
+      "name": "ansi_term",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "strsim",
+      "requirement": "*",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-05-10T18:59:37.818284Z",
+  "captured_at": "2026-05-31T22:54:37.914Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "d119c8806c279830b1deb9937e384de1e274cfbaf39e3f8a85221cc3889e1ff4783ca69b4f4272776d43489c69df2bbd"
+}
