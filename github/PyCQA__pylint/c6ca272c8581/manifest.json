@@ -1,0 +1,57 @@
+{
+  "repo": "PyCQA/pylint",
+  "commit_sha": "c6ca272c8581416a7eb24beaf3fb3733ec40eb1c",
+  "tree_sha": "8b56f229739272ee666d0376a763168e6cb0110f",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "It's not just a linter that annoys you!",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 5685,
+  "watchers": 5685,
+  "forks": 1249,
+  "open_issues": 1061,
+  "language": "Python",
+  "topics": [
+    "closember",
+    "code-quality",
+    "hacktoberfest",
+    "linter",
+    "pep8",
+    "static-analysis",
+    "static-code-analysis"
+  ],
+  "commit_message": "Fix a crash in `consider-using-enumerate` for non-name loop targets (#11067)\n\nfix(refactoring): prevent consider-using-enumerate crash on non-name loop target\n\n`_check_consider_using_enumerate` accessed `node.target.name` unconditionally, which raised `AttributeError` when the loop target was not a plain variable (e.g. `for self.idx in range(len(x))`), where `node.target` is an `AssignAttr`/`Tuple`/`Subscript` with no `.name`.\n\nGuard with an `AssignName` check and return early. This is also the ",
+  "commit_author": {
+    "name": "Joeseph Grey",
+    "email": "212606152+StressTestor@users.noreply.github.com",
+    "date": "2026-05-31T20:17:49Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-31T20:17:49Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "ffe2023bfac0cd0e0830e8b158d24f1e9a18efdf"
+  ],
+  "github_author_login": "StressTestor",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-31T20:50:47Z",
+  "created_at": "2015-12-09T05:40:02Z",
+  "homepage": "https://pylint.readthedocs.io/en/latest/",
+  "size_kb": 40810,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-31T22:54:37.328Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "d119c8806c279830b1deb9937e384de1e274cfbaf39e3f8a85221cc3889e1ff4783ca69b4f4272776d43489c69df2bbd"
+}
