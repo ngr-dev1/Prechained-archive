@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "54d2b57000adb8ef3682b3400fd08e80f9177442",
+  "tree_sha": "c3d5a589676a378dd363588a1e25359aa0671ade",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35310,
+  "watchers": 35310,
+  "forks": 1467,
+  "open_issues": 2352,
+  "language": "TypeScript",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "feat(pnpr): server-accelerated installs via pnprServer (endpoints + client + CLI) (#12077)\n\n## What\n\nAdds an opt-in **`pnprServer`** setting that offloads the slow part of an install — dependency resolution and computing which files the local store is missing — to a [pnpr](https://github.com/pnpm/pnpm/tree/main/pnpr) server, which streams back only the missing files. `node_modules` is still linked **locally** from the server-produced lockfile (like server-side rendering: the compute runs remotel",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-05-31T14:50:20Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-05-31T14:50:20Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "1db05c6fca55c653b4dd0bfaa6363c4bfee4c0e2"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-31T14:50:22Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 214097,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-31T16:54:32.933Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
