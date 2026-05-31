@@ -1,0 +1,56 @@
+{
+  "repo": "diesel-rs/diesel",
+  "commit_sha": "e213a0d38a238781e85cbab90eebc79d5147482b",
+  "tree_sha": "45771ef4d8acd526cbc65f4406b65ddfa62959d2",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "A safe, extensible ORM and Query Builder for Rust",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 14077,
+  "watchers": 14077,
+  "forks": 1212,
+  "open_issues": 163,
+  "language": "Rust",
+  "topics": [
+    "mysql",
+    "orm",
+    "postgresql",
+    "query-builder",
+    "rust",
+    "sqlite"
+  ],
+  "commit_message": "Fix order_by/then_order_by with GROUP BY rejecting valid aggregate expressions\n\nSince `v2.3.8`, calling `order_by()` or `then_order_by()` with an aggregate\nexpression on a query that has a `group_by()` clause incorrectly failed\nto compile, even though the resulting SQL is valid. The check introduced\nin `v2.3.8` validated the `SELECT` clause against the `ORDER BY` expression at\n`order_by()` call time, which blocked valid patterns like:\n\n```rust\ntable.group_by(col).order_by(max(other_col)).select(",
+  "commit_author": {
+    "name": "Alex Yarotsky",
+    "email": "yarotsky.alex@gmail.com",
+    "date": "2026-05-22T03:25:27Z"
+  },
+  "commit_committer": {
+    "name": "Georg Semmler",
+    "email": "github@weiznich.de",
+    "date": "2026-05-31T12:29:01Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "8f31d575b4540e2a69684d568b12efdd479b3b97"
+  ],
+  "github_author_login": "ayarotsky",
+  "github_committer_login": "weiznich",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-05-31T13:00:17Z",
+  "created_at": "2015-08-29T22:51:00Z",
+  "homepage": "https://diesel.rs",
+  "size_kb": 151771,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-05-31T21:44:33.279Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
