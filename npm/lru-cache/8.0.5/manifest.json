@@ -1,0 +1,77 @@
+{
+  "name": "lru-cache",
+  "version": "8.0.5",
+  "ecosystem": "npm",
+  "description": "A cache object that deletes the least-recently-used items.",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "c8": "^7.11.2",
+    "tap": "^16.3.4",
+    "tslib": "^2.4.0",
+    "marked": "^4.2.12",
+    "mkdirp": "^2.1.5",
+    "esbuild": "^0.17.11",
+    "ts-node": "^10.7.0",
+    "typedoc": "^0.23.24",
+    "prettier": "^2.6.2",
+    "benchmark": "^2.1.4",
+    "@types/tap": "^15.0.6",
+    "clock-mock": "^1.0.6",
+    "size-limit": "^7.0.8",
+    "typescript": "^4.6.4",
+    "@types/node": "^17.0.31",
+    "eslint-config-prettier": "^8.5.0",
+    "@size-limit/preset-small-lib": "^7.0.8"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=16.14"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tsc -p tsconfig.json && tsc -p tsconfig-esm.json",
+    "prepublish": null,
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me"
+  },
+  "publishedAt": "2023-04-05T06:06:32.862Z",
+  "dist": {
+    "integrity": "sha512-MhWWlVnuab1RG5/zMRRcVGXZLCXrZTgfwMikgzCegsPnG62yDQo5JnqKkrK4jO5iKqDAZGItAqN5CtKBCBWRUA==",
+    "shasum": "983fe337f3e176667f8e567cfcce7cb064ea214e",
+    "tarball": "https://registry.npmjs.org/lru-cache/-/lru-cache-8.0.5.tgz",
+    "fileCount": 21,
+    "unpackedSize": 637806
+  },
+  "repository": {
+    "url": "git://github.com/isaacs/node-lru-cache.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/isaacs/node-lru-cache#readme",
+  "bugs": {
+    "url": "https://github.com/isaacs/node-lru-cache/issues"
+  },
+  "keywords": [
+    "mru",
+    "lru",
+    "cache"
+  ],
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  },
+  "captured_at": "2026-05-31T20:27:20.574Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
