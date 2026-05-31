@@ -1,0 +1,97 @@
+{
+  "name": "clap",
+  "version": "1.5.1",
+  "ecosystem": "cargo",
+  "description": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+  "license": "MIT",
+  "checksum": "632eb97c3df6f4237807d76f3e0c6efb9ec2cb61000be56c9680e46d44df3cee",
+  "features": {
+    "color": [
+      "ansi_term"
+    ],
+    "debug": [],
+    "default": [
+      "suggestions",
+      "color"
+    ],
+    "lints": [
+      "clippy",
+      "nightly"
+    ],
+    "nightly": [],
+    "suggestions": [
+      "strsim"
+    ],
+    "unstable": [
+      "lints",
+      "nightly"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "downloads": 3450,
+  "yanked": true,
+  "repository": "https://github.com/clap-rs/clap",
+  "homepage": null,
+  "keywords": [
+    "arg",
+    "argument",
+    "cli",
+    "parse",
+    "parser"
+  ],
+  "categories": [
+    "Command-line interface"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "^0.3.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "vec_map",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ansi_term",
+      "requirement": "~0.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "clippy",
+      "requirement": "~0.0.22",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "strsim",
+      "requirement": "~0.4.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "yaml-rust",
+      "requirement": "~0.2.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2015-11-13T21:11:39.842981Z",
+  "captured_at": "2026-05-31T19:14:33.927Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
