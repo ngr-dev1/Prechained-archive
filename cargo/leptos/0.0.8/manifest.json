@@ -1,0 +1,77 @@
+{
+  "name": "leptos",
+  "version": "0.0.8",
+  "ecosystem": "cargo",
+  "description": "Leptos is a full-stack, isomorphic Rust web framework leveraging fine-grained reactivity to build declarative user interfaces.",
+  "license": "MIT",
+  "checksum": "eb5ea4212a5b8f8ab978b9ab61f1eba236a329ed9b61c555cf5460e77f725f31",
+  "features": {
+    "csr": [
+      "leptos_core/csr",
+      "leptos_macro/csr",
+      "leptos_reactive/csr"
+    ],
+    "default": [
+      "resource"
+    ],
+    "hydrate": [
+      "leptos_core/hydrate",
+      "leptos_macro/hydrate",
+      "leptos_reactive/hydrate"
+    ],
+    "resource": [
+      "leptos_reactive/resource"
+    ],
+    "ssr": [
+      "leptos_core/ssr",
+      "leptos_macro/ssr",
+      "leptos_reactive/ssr"
+    ]
+  },
+  "downloads": 1213,
+  "yanked": false,
+  "repository": "https://github.com/leptos-rs/leptos",
+  "homepage": "https://leptos.dev/",
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "leptos_core",
+      "requirement": "^0.0.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "leptos_dom",
+      "requirement": "^0.0.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "leptos_macro",
+      "requirement": "^0.0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "leptos_reactive",
+      "requirement": "^0.0.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 130155,
+    "login": "gbj",
+    "name": "Greg Johnston"
+  },
+  "publishedAt": "2022-10-16T02:37:07.124460Z",
+  "captured_at": "2026-05-31T01:27:22.549Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
