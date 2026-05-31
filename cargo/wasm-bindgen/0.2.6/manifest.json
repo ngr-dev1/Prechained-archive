@@ -1,0 +1,48 @@
+{
+  "name": "wasm-bindgen",
+  "version": "0.2.6",
+  "ecosystem": "cargo",
+  "description": "Easy support for interacting between JS and Rust.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "9b72b6daaa1351f391a015544915fccc87601e66af6e366b086f2fc3a9a36914",
+  "features": {
+    "default": [
+      "spans",
+      "std"
+    ],
+    "spans": [
+      "wasm-bindgen-macro/spans"
+    ],
+    "std": []
+  },
+  "downloads": 5279,
+  "yanked": false,
+  "repository": "https://github.com/wasm-bindgen/wasm-bindgen",
+  "homepage": "https://wasm-bindgen.github.io/wasm-bindgen",
+  "keywords": [],
+  "categories": [
+    "WebAssembly"
+  ],
+  "dependencies": [
+    {
+      "name": "wasm-bindgen-cli-support",
+      "requirement": "= 0.2.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-macro",
+      "requirement": "= 0.2.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2018-04-27T02:14:41.947643Z",
+  "captured_at": "2026-05-31T07:47:25.878Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "14fd99f7bc3bfd15b45a4b622d0ed6777bb822ec69162dd487ecabc3f7a99e3a434335ef3eb80a94db648225c98f55a4"
+}
