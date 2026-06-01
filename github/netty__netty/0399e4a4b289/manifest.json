@@ -1,0 +1,49 @@
+{
+  "repo": "netty/netty",
+  "commit_sha": "0399e4a4b2893c9dfdaf0286c785347276ce6c72",
+  "tree_sha": "513a0f93d14e8b979adee04906d9385f82235e58",
+  "branch": "4.2",
+  "ecosystem": "github",
+  "description": "Netty project - an event-driven asynchronous network application framework",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 34967,
+  "watchers": 34967,
+  "forks": 16246,
+  "open_issues": 640,
+  "language": "Java",
+  "topics": [],
+  "commit_message": "Merge commit from fork\n\nMotivation:\nRFC 9112 permit empty lines (CR LF sequences) prior to the request line, but we were skipping over any ISO control characters.\nThis is parsing leniency beyond what the standard mandates and can be a security liability.\n\nModification:\nExpand the scope of the \"strict line parsing\" decoder configuration option to also include enforcing that any octets prior to the initial line can only be the line separators CR LF.\n\nResult:\nStrict line parsing covers more cases.",
+  "commit_author": {
+    "name": "Chris Vest",
+    "email": "christianvest_hansen@apple.com",
+    "date": "2026-06-01T09:45:19Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-01T09:45:19Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "9eb4b86434bcf080779cfabb9ddce69b7763d845"
+  ],
+  "github_author_login": "chrisvest",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "4.2",
+  "pushed_at": "2026-06-01T09:46:33Z",
+  "created_at": "2010-11-09T09:22:21Z",
+  "homepage": "http://netty.io",
+  "size_kb": 110430,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-01T12:47:26.098Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
