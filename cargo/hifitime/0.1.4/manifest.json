@@ -1,0 +1,51 @@
+{
+  "name": "hifitime",
+  "version": "0.1.4",
+  "ecosystem": "cargo",
+  "description": "Ultra-precise date and time handling in Rust for scientific applications with leap second support",
+  "license": "Apache-2.0",
+  "checksum": "0790c4b135b17486f25170e5350b3b59f367f8383643e498cf4c514a71247e68",
+  "features": {
+    "default": [],
+    "simulation": [
+      "rand"
+    ]
+  },
+  "downloads": 2029,
+  "yanked": false,
+  "repository": "https://github.com/nyx-space/hifitime",
+  "homepage": "https://nyxspace.com/",
+  "keywords": [
+    "date",
+    "leap-second",
+    "no-std",
+    "science",
+    "time"
+  ],
+  "categories": [
+    "Date and time",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "lazy_static",
+      "req": "^1.0.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "regex",
+      "req": "^0.2",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "rand",
+      "req": "^0.4",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": null,
+  "publishedAt": "2018-06-04T07:55:48.846745Z"
+}
