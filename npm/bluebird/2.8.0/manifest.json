@@ -1,0 +1,86 @@
+{
+  "name": "bluebird",
+  "version": "2.8.0",
+  "ecosystem": "npm",
+  "description": "Full featured Promises/A+ implementation with exceptionally good performance",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "glob": "^4.3.2",
+    "open": "~0.0.5",
+    "acorn": "~0.6.0",
+    "mocha": "~2.1",
+    "sinon": "~1.7.3",
+    "jshint": "^2.5.11",
+    "mkdirp": "~0.5.0",
+    "rimraf": "~2.2.6",
+    "bluebird": "^2.5.2",
+    "optimist": "~0.6.1",
+    "cli-table": "~0.3.1",
+    "uglify-js": "~2.4.16",
+    "browserify": "~8.0.3",
+    "cross-spawn": "^0.2.3",
+    "serve-static": "^1.7.1",
+    "jshint-stylish": "~0.2.0",
+    "grunt-saucelabs": "~8.4.1"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "node tools/build.js --no-debug --main --zalgo --browser --minify",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "esailija",
+      "email": "petka_antonov@hotmail.com"
+    }
+  ],
+  "author": {
+    "url": "http://github.com/petkaantonov/",
+    "name": "Petka Antonov",
+    "email": "petka_antonov@hotmail.com"
+  },
+  "publishedAt": "2015-01-19T00:32:35.082Z",
+  "dist": {
+    "integrity": "sha512-mwjKzyc1m3w8e0KWU0/fXzyon/f5OWC9AofGh8/GWra2AA033hD58QHSwG/EiMxuDP7JCo9YMuWv5KFlaiL6SA==",
+    "shasum": "cd518eb046b865374db4c6de6759be9094972358",
+    "tarball": "https://registry.npmjs.org/bluebird/-/bluebird-2.8.0.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": {
+    "url": "git://github.com/petkaantonov/bluebird.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/petkaantonov/bluebird",
+  "bugs": {
+    "url": "http://github.com/petkaantonov/bluebird/issues"
+  },
+  "keywords": [
+    "promise",
+    "performance",
+    "promises",
+    "promises-a",
+    "promises-aplus",
+    "async",
+    "await",
+    "deferred",
+    "deferreds",
+    "future",
+    "flow control",
+    "dsl",
+    "fluent interface"
+  ],
+  "_npmUser": {
+    "name": "esailija",
+    "email": "petka_antonov@hotmail.com"
+  },
+  "captured_at": "2026-06-01T20:42:52.600Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
