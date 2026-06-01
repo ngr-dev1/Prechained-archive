@@ -1,0 +1,95 @@
+{
+  "name": "@grpc/grpc-js",
+  "version": "1.10.10",
+  "ecosystem": "npm",
+  "description": "gRPC Library for Node - pure JS implementation",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.7.13",
+    "@js-sdsl/ordered-map": "^4.4.2"
+  },
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "gulp": "^4.0.2",
+    "pify": "^4.0.1",
+    "execa": "^2.0.3",
+    "madge": "^5.0.1",
+    "eslint": "^8.42.0",
+    "lodash": "^4.17.21",
+    "rimraf": "^3.0.2",
+    "semver": "^7.6.0",
+    "ts-node": "^10.9.2",
+    "prettier": "^2.8.8",
+    "@types/ncp": "^2.0.8",
+    "gulp-mocha": "^6.0.0",
+    "typescript": "^5.3.3",
+    "@types/gulp": "^4.0.17",
+    "@types/node": ">=20.11.20",
+    "@types/pify": "^5.0.4",
+    "@types/mocha": "^10.0.6",
+    "clang-format": "^1.8.0",
+    "@types/lodash": "^4.14.202",
+    "@types/semver": "^7.5.8",
+    "@types/gulp-mocha": "0.0.37",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha-jenkins-reporter": "^0.4.1",
+    "@typescript-eslint/parser": "^7.1.0",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/typescript-estree": "^7.1.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=12.10.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "npm run generate-types && npm run compile",
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "murgatroid99",
+      "email": "mlumish@google.com"
+    },
+    {
+      "name": "grpc-packages",
+      "email": "grpc-packages@google.com"
+    },
+    {
+      "name": "nicolasnoble",
+      "email": "nicolas@nobis-crew.org"
+    }
+  ],
+  "author": {
+    "name": "Google Inc."
+  },
+  "publishedAt": "2024-06-24T21:13:58.131Z",
+  "dist": {
+    "integrity": "sha512-HPa/K5NX6ahMoeBv15njAc/sfF4/jmiXLar9UlC2UfHFKZzsCVLc3wbe7+7qua7w9VPh2/L6EBxyAV7/E8Wftg==",
+    "shasum": "476d315feeb9dbb0f2d6560008c92688c30f13e0",
+    "tarball": "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.10.10.tgz",
+    "fileCount": 436,
+    "unpackedSize": 1857958
+  },
+  "repository": {
+    "url": "git+https://github.com/grpc/grpc-node.git#master",
+    "type": "git"
+  },
+  "homepage": "https://grpc.io/",
+  "bugs": {
+    "url": "https://github.com/grpc/grpc-node/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "murgatroid99",
+    "email": "mlumish@google.com"
+  },
+  "captured_at": "2026-06-01T22:57:26.490Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
