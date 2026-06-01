@@ -1,0 +1,61 @@
+{
+  "repo": "spack/spack",
+  "commit_sha": "606ea95b4a26c8969c0bee859d4227e8216107c1",
+  "tree_sha": "35825430f2bbf8690d09ca7628a4b8a4b1905b40",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers.",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 5064,
+  "watchers": 5064,
+  "forks": 2438,
+  "open_issues": 1740,
+  "language": "Python",
+  "topics": [
+    "build-tools",
+    "hpc",
+    "hpsf",
+    "linux",
+    "macos",
+    "package-manager",
+    "python",
+    "radiuss",
+    "scientific-computing",
+    "spack",
+    "windows"
+  ],
+  "commit_message": "Bootstrap: new keytrust approach (#52408)\n\nInstead of using the bin-dist module `get_keys` we store the fingerprint\nfor the spack public key in `share/spack/bootstrap/fingerprints`,\ndownload the public key directly via the url in the fingerprint file,\nand verify with the fingerprint before trusting. We then use that for\nbootstrap binary cache signing validation, by redirectiong gpg home to a\nbootstrap specific location.\n\ngpghome override location is piped to build processes by adding the\ncurrent",
+  "commit_author": {
+    "name": "John W. Parent",
+    "email": "45471568+johnwparent@users.noreply.github.com",
+    "date": "2026-06-01T05:28:35Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-01T05:28:35Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "cc2f2f27a991d5180744bae8eb0ab543a921bbeb"
+  ],
+  "github_author_login": "johnwparent",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-06-01T05:28:35Z",
+  "created_at": "2014-01-08T09:22:12Z",
+  "homepage": "https://spack.io",
+  "size_kb": 240009,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-01T12:30:13.313Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
