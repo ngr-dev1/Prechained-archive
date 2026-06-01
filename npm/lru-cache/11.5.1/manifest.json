@@ -1,0 +1,70 @@
+{
+  "name": "lru-cache",
+  "version": "11.5.1",
+  "ecosystem": "npm",
+  "description": "A cache object that deletes the least-recently-used items.",
+  "license": "BlueOak-1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "esbuild": "^0.28.0",
+    "marked": "^4.2.12",
+    "mkdirp": "^3.0.1",
+    "oxlint": "^1.65.0",
+    "oxlint-tsgolint": "^0.22.1",
+    "prettier": "^3.8.3",
+    "tap": "^21.7.4",
+    "tshy": "^4.1.2",
+    "typedoc": "^0.28.19"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": "20 || >=22"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tshy && bash scripts/build.sh",
+    "prepublish": null,
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me"
+  },
+  "publishedAt": "2026-05-27T15:04:12.732Z",
+  "dist": {
+    "integrity": "sha512-RPimw/7aMdv2oqRrxKwvZXcPfwBrn/JZ2xYcY9Hus/6LaS3VOAKVWKWgNLCFSiOm1ESXinjsDlidVU7JlnCN2A==",
+    "shasum": "f3daa3540847b9737ebc02499ddb36765e54db4a",
+    "tarball": "https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.1.tgz",
+    "fileCount": 89,
+    "unpackedSize": 2731124
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/isaacs/node-lru-cache.git"
+  },
+  "homepage": "https://github.com/isaacs/node-lru-cache#readme",
+  "bugs": {
+    "url": "https://github.com/isaacs/node-lru-cache/issues"
+  },
+  "keywords": [
+    "mru",
+    "lru",
+    "cache"
+  ],
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  },
+  "captured_at": "2026-06-01T07:07:27.061Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "d119c8806c279830b1deb9937e384de1e274cfbaf39e3f8a85221cc3889e1ff4783ca69b4f4272776d43489c69df2bbd"
+}
