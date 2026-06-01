@@ -1,0 +1,55 @@
+{
+  "name": "log",
+  "version": "0.4.0",
+  "ecosystem": "cargo",
+  "description": "A lightweight logging facade for Rust\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "b3a89a0c46ba789b8a247d4c567aed4d7c68e624672d238b45cc3ec20dc9f940",
+  "features": {
+    "max_level_debug": [],
+    "max_level_error": [],
+    "max_level_info": [],
+    "max_level_off": [],
+    "max_level_trace": [],
+    "max_level_warn": [],
+    "release_max_level_debug": [],
+    "release_max_level_error": [],
+    "release_max_level_info": [],
+    "release_max_level_off": [],
+    "release_max_level_trace": [],
+    "release_max_level_warn": [],
+    "std": []
+  },
+  "downloads": 164811,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/log",
+  "homepage": null,
+  "keywords": [
+    "logging"
+  ],
+  "categories": [
+    "Debugging"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "req": "^0.1.2",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "serde_test",
+      "req": "^1.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "serde",
+      "req": "^1.0",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": null,
+  "publishedAt": "2017-12-24T21:48:00.741034Z"
+}
