@@ -1,0 +1,54 @@
+{
+  "repo": "dotnet/aspnetcore",
+  "commit_sha": "bc4e954f1e15463b026ba4ea19a31fb28211f540",
+  "tree_sha": "153ef0ebb8be93f510ff5bfb8e4ede7e90f74f49",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 37954,
+  "watchers": 37954,
+  "forks": 10680,
+  "open_issues": 3989,
+  "language": "C#",
+  "topics": [
+    "aspnetcore",
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "[Blazor] Use SDK Asset Groups for Assets.Internal and Identity UI (#66412)\n\n* Use SDK Asset Groups for Assets.Internal, Identity UI, and Components.WebAssembly\n\nReplace custom build/props/targets packaging with SDK StaticWebAssetGroupDefinition\nand StaticWebAssetGroup items (dotnet/sdk#53187).\n\nAssets.Internal changes:\n- Switch to Microsoft.NET.Sdk.Razor SDK\n- Add StaticWebAssetFrameworkPattern=**/*.js for framework asset marking\n- Use Content items with Link/ContentRoot metadata instead of cust",
+  "commit_author": {
+    "name": "Javier Calvarro Nelson",
+    "email": "jacalvar@microsoft.com",
+    "date": "2026-06-01T10:51:12Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-01T10:51:12Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "d8cd74d22828375911fa65ecd9bb0a6a9f06d163"
+  ],
+  "github_author_login": "javiercn",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-01T16:07:57Z",
+  "created_at": "2014-03-11T06:09:42Z",
+  "homepage": "https://asp.net",
+  "size_kb": 378759,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-01T16:08:57.589Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
