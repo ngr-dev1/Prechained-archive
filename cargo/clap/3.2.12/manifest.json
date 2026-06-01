@@ -1,0 +1,222 @@
+{
+  "name": "clap",
+  "version": "3.2.12",
+  "ecosystem": "cargo",
+  "description": "A simple to use, efficient, and full-featured Command Line Argument Parser",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "ab8b79fe3946ceb4a0b1c080b4018992b8d27e9ff363644c1c9b6387c854614d",
+  "features": {
+    "cargo": [
+      "once_cell"
+    ],
+    "color": [
+      "atty",
+      "termcolor"
+    ],
+    "debug": [
+      "clap_derive/debug",
+      "backtrace"
+    ],
+    "default": [
+      "std",
+      "color",
+      "suggestions"
+    ],
+    "deprecated": [
+      "clap_derive/deprecated"
+    ],
+    "derive": [
+      "clap_derive",
+      "once_cell"
+    ],
+    "env": [],
+    "std": [
+      "indexmap/std"
+    ],
+    "suggestions": [
+      "strsim"
+    ],
+    "unicode": [
+      "textwrap/unicode-width",
+      "unicase"
+    ],
+    "unstable-doc": [
+      "derive",
+      "cargo",
+      "wrap_help",
+      "yaml",
+      "env",
+      "unicode",
+      "regex",
+      "unstable-replace",
+      "unstable-grouped"
+    ],
+    "unstable-grouped": [],
+    "unstable-replace": [],
+    "unstable-v4": [
+      "clap_derive/unstable-v4",
+      "deprecated"
+    ],
+    "wrap_help": [
+      "terminal_size",
+      "textwrap/terminal_size"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "downloads": 474691,
+  "yanked": false,
+  "repository": "https://github.com/clap-rs/clap",
+  "homepage": null,
+  "keywords": [
+    "arg",
+    "argument",
+    "cli",
+    "parse",
+    "parser"
+  ],
+  "categories": [
+    "Command-line interface"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "req": "^1.2",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "clap_lex",
+      "req": "^0.2.2",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "humantime",
+      "req": "^2",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "indexmap",
+      "req": "^1.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "regex",
+      "req": "^1.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "rustversion",
+      "req": "^1",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "shlex",
+      "req": "^1.1.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "snapbox",
+      "req": "^0.2.9",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "static_assertions",
+      "req": "^1.1.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "textwrap",
+      "req": "^0.15.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "trybuild",
+      "req": "^1.0.18",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "trycmd",
+      "req": "^0.13",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "atty",
+      "req": "^0.2",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "backtrace",
+      "req": "^0.3",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "clap_derive",
+      "req": "=3.2.7",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "once_cell",
+      "req": "^1.12.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "regex",
+      "req": "^1.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "strsim",
+      "req": "^0.10",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "termcolor",
+      "req": "^1.1.1",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "terminal_size",
+      "req": "^0.1.12",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "unicase",
+      "req": "^2.6",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "yaml-rust",
+      "req": "^0.4.1",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": {
+    "id": 6743,
+    "login": "epage",
+    "name": "Ed Page"
+  },
+  "publishedAt": "2022-07-14T14:39:02.787386Z"
+}
