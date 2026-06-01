@@ -1,0 +1,108 @@
+{
+  "name": "clap_complete",
+  "version": "4.6.3",
+  "ecosystem": "cargo",
+  "description": "Generate shell completion scripts for your clap::Command",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "660c0520455b1013b9bcb0393d5f643d7e4454fb69c915b8d6d2aa0e9a45acc3",
+  "features": {
+    "debug": [
+      "clap/debug"
+    ],
+    "default": [],
+    "unstable-doc": [
+      "unstable-dynamic"
+    ],
+    "unstable-dynamic": [
+      "dep:clap_lex",
+      "dep:shlex",
+      "dep:is_executable",
+      "clap/unstable-ext"
+    ],
+    "unstable-shell-tests": [
+      "dep:completest",
+      "dep:completest-pty"
+    ]
+  },
+  "downloads": 1120307,
+  "yanked": false,
+  "repository": "https://github.com/clap-rs/clap",
+  "homepage": null,
+  "keywords": [
+    "bash",
+    "clap",
+    "cli",
+    "completion"
+  ],
+  "categories": [
+    "Command-line interface"
+  ],
+  "dependencies": [
+    {
+      "name": "automod",
+      "req": "^1.0.16",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "clap",
+      "req": "^4.5.20",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "clap",
+      "req": "^4.5.20",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "snapbox",
+      "req": "^1.2.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "trycmd",
+      "req": "^1.2.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "clap_lex",
+      "req": "^1.0.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "completest",
+      "req": "^1.1.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "completest-pty",
+      "req": "^1.1.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "is_executable",
+      "req": "^1.0.5",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "shlex",
+      "req": "^1.3.0",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": {
+    "id": 6743,
+    "login": "epage",
+    "name": "Ed Page"
+  },
+  "publishedAt": "2026-04-27T14:44:40.782456Z"
+}
