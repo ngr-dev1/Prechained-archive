@@ -1,0 +1,65 @@
+{
+  "name": "joi",
+  "version": "17.4.1",
+  "ecosystem": "npm",
+  "description": "Object schema validation",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@hapi/hoek": "^9.0.0",
+    "@hapi/topo": "^5.0.0",
+    "@sideway/address": "^4.1.0",
+    "@sideway/formula": "^3.0.0",
+    "@sideway/pinpoint": "^2.0.0"
+  },
+  "devDependencies": {
+    "@hapi/lab": "24.x.x",
+    "@hapi/code": "8.x.x",
+    "typescript": "4.3.x",
+    "@hapi/bourne": "2.x.x",
+    "@hapi/joi-legacy-test": "npm:@hapi/joi@15.x.x"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "cd browser && npm install && npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "hueniverse",
+      "email": "eran@hammer.io"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2021-07-11T05:04:12.623Z",
+  "dist": {
+    "integrity": "sha512-gDPOwQ5sr+BUxXuPDGrC1pSNcVR/yGGcTI0aCnjYxZEa3za60K/iCQ+OFIkEHWZGVCUcUlXlFKvMmrlmxrG6UQ==",
+    "shasum": "15d2f23c8cbe4d1baded2dd190c58f8dbe11cca0",
+    "tarball": "https://registry.npmjs.org/joi/-/joi-17.4.1.tgz",
+    "fileCount": 36,
+    "unpackedSize": 516081
+  },
+  "repository": {
+    "url": "git://github.com/sideway/joi.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/sideway/joi#readme",
+  "bugs": {
+    "url": "https://github.com/sideway/joi/issues"
+  },
+  "keywords": [
+    "schema",
+    "validation"
+  ],
+  "_npmUser": {
+    "name": "hueniverse",
+    "email": "eran@hammer.io"
+  },
+  "captured_at": "2026-06-01T07:12:52.668Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "d119c8806c279830b1deb9937e384de1e274cfbaf39e3f8a85221cc3889e1ff4783ca69b4f4272776d43489c69df2bbd"
+}
