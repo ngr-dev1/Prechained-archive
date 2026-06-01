@@ -1,0 +1,275 @@
+{
+  "name": "serve",
+  "version": "11.1.0",
+  "ecosystem": "npm",
+  "description": "Static file serving and directory listing",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "6.5.3",
+    "arg": "2.0.0",
+    "boxen": "1.3.0",
+    "chalk": "2.4.1",
+    "clipboardy": "1.2.3",
+    "compression": "1.7.3",
+    "update-check": "1.5.2",
+    "@zeit/schemas": "2.6.0",
+    "serve-handler": "6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "5.4.0",
+    "@zeit/git-hooks": "0.1.4",
+    "@zeit/eslint-config-node": "0.3.0"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "alexaltea",
+      "email": "alexandro@phi.nz"
+    },
+    {
+      "name": "anatrajkovska",
+      "email": "ana.trajkovska2015@gmail.com"
+    },
+    {
+      "name": "andybitz",
+      "email": "artzbitz@gmail.com"
+    },
+    {
+      "name": "arunoda",
+      "email": "arunoda.susiripala@gmail.com"
+    },
+    {
+      "name": "arzafran",
+      "email": "franco@basement.studio"
+    },
+    {
+      "name": "atcastle",
+      "email": "atcastle@gmail.com"
+    },
+    {
+      "name": "caarlos0",
+      "email": "caarlos0@gmail.com"
+    },
+    {
+      "name": "codetheory",
+      "email": "thecodetheory@gmail.com"
+    },
+    {
+      "name": "coetry",
+      "email": "allenhai03@gmail.com"
+    },
+    {
+      "name": "dav-is",
+      "email": "mail@connordav.is"
+    },
+    {
+      "name": "developit",
+      "email": "jason@developit.ca"
+    },
+    {
+      "name": "fivepointseven",
+      "email": "fivepointseven@icloud.com"
+    },
+    {
+      "name": "guybedford",
+      "email": "guybedford@gmail.com"
+    },
+    {
+      "name": "hharnisc",
+      "email": "hharnisc@gmail.com"
+    },
+    {
+      "name": "housseindjirdeh",
+      "email": "houssein.djirdeh@gmail.com"
+    },
+    {
+      "name": "huvik",
+      "email": "lukas@huvar.cz"
+    },
+    {
+      "name": "iamevilrabbit",
+      "email": "hello@evilrabb.it"
+    },
+    {
+      "name": "igorklopov",
+      "email": "igor@klopov.com"
+    },
+    {
+      "name": "ijjk",
+      "email": "jj@jjsweb.site"
+    },
+    {
+      "name": "janicklas-ralph",
+      "email": "janicklasralph036@gmail.com"
+    },
+    {
+      "name": "javivelasco",
+      "email": "javier.velasco86@gmail.com"
+    },
+    {
+      "name": "joecohens",
+      "email": "joecohenr@gmail.com"
+    },
+    {
+      "name": "juancampa",
+      "email": "juancampa@gmail.com"
+    },
+    {
+      "name": "keanulee",
+      "email": "npm@keanulee.com"
+    },
+    {
+      "name": "leo",
+      "email": "leo@zeit.co"
+    },
+    {
+      "name": "lfades",
+      "email": "luisito453@gmail.com"
+    },
+    {
+      "name": "lucleray",
+      "email": "luc.leray@gmail.com"
+    },
+    {
+      "name": "manovotny",
+      "email": "manovotny@gmail.com"
+    },
+    {
+      "name": "marcosnils",
+      "email": "marcosnils@gmail.com"
+    },
+    {
+      "name": "matheuss",
+      "email": "me@matheus.top"
+    },
+    {
+      "name": "mfix22",
+      "email": "mrfix84@gmail.com"
+    },
+    {
+      "name": "mglagola",
+      "email": "mark.glagola@gmail.com"
+    },
+    {
+      "name": "msweeneydev",
+      "email": "mail@msweeneydev.com"
+    },
+    {
+      "name": "nkzawa",
+      "email": "naoyuki.kanezawa@gmail.com"
+    },
+    {
+      "name": "olliv",
+      "email": "olli@zeit.co"
+    },
+    {
+      "name": "paco",
+      "email": "pvco.coursey@gmail.com"
+    },
+    {
+      "name": "paulogdm",
+      "email": "paulogdemitri@gmail.com"
+    },
+    {
+      "name": "quietshu",
+      "email": "ds303077135@gmail.com"
+    },
+    {
+      "name": "rabaut",
+      "email": "rabautse@gmail.com"
+    },
+    {
+      "name": "ragojose",
+      "email": "ragojosefrancisco@gmail.com"
+    },
+    {
+      "name": "rauchg",
+      "email": "rauchg@gmail.com"
+    },
+    {
+      "name": "sarupbanskota",
+      "email": "sbanskota08@gmail.com"
+    },
+    {
+      "name": "skllcrn",
+      "email": "skllcrn@zeit.co"
+    },
+    {
+      "name": "sophearak",
+      "email": "t.sophearak@gmail.com"
+    },
+    {
+      "name": "spanicker",
+      "email": "shubhie@gmail.com"
+    },
+    {
+      "name": "styfle",
+      "email": "steven@ceriously.com"
+    },
+    {
+      "name": "timer",
+      "email": "timer150@gmail.com"
+    },
+    {
+      "name": "timneutkens",
+      "email": "tim@timneutkens.nl"
+    },
+    {
+      "name": "tootallnate",
+      "email": "nathan@tootallnate.net"
+    },
+    {
+      "name": "umegaya",
+      "email": "iyatomi@gmail.com"
+    },
+    {
+      "name": "williamli",
+      "email": "williamli@bbi.io"
+    },
+    {
+      "name": "zeit-bot",
+      "email": "team@zeit.co"
+    }
+  ],
+  "author": {
+    "name": "leo"
+  },
+  "publishedAt": "2019-07-10T01:46:20.765Z",
+  "dist": {
+    "integrity": "sha512-+4wpDtOSS+4ZLyDWMxThutA3iOTawX2+yDovOI8cjOUOmemyvNlHyFAsezBlSgbZKTYChI3tzA1Mh0z6XZ62qA==",
+    "shasum": "1bfe2f4a08d0130cbf44711cdb7996cb742172e0",
+    "tarball": "https://registry.npmjs.org/serve/-/serve-11.1.0.tgz",
+    "fileCount": 4,
+    "unpackedSize": 16320
+  },
+  "repository": {
+    "url": "git+https://github.com/zeit/serve.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/zeit/serve#readme",
+  "bugs": {
+    "url": "https://github.com/zeit/serve/issues"
+  },
+  "keywords": [
+    "now",
+    "serve",
+    "micro",
+    "http-server"
+  ],
+  "_npmUser": {
+    "name": "tootallnate",
+    "email": "nathan@tootallnate.net"
+  },
+  "captured_at": "2026-06-01T10:17:26.279Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "d119c8806c279830b1deb9937e384de1e274cfbaf39e3f8a85221cc3889e1ff4783ca69b4f4272776d43489c69df2bbd"
+}
