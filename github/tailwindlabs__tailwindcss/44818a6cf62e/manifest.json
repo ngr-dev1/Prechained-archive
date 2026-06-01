@@ -1,0 +1,57 @@
+{
+  "repo": "tailwindlabs/tailwindcss",
+  "commit_sha": "44818a6cf62e19741ac752116e074876a4ed1a16",
+  "tree_sha": "9daf461768f98eac922ee73d6d8d472e3bdd46a5",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "A utility-first CSS framework for rapid UI development.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 95178,
+  "watchers": 95178,
+  "forks": 5277,
+  "open_issues": 84,
+  "language": "TypeScript",
+  "topics": [
+    "css",
+    "css-framework",
+    "functional-css",
+    "postcss",
+    "responsive",
+    "tailwindcss",
+    "utility-classes"
+  ],
+  "commit_message": "Ensure `@tailwindcss/cli` recovers from a deleted transitive dependency (#20137)\n\nThis PR fixes an issue where the `@tailwindcss/cli` can get into a\nnon-recoverable state when any of the transitive dependencies break.\n\nTailwind CSS has 2 kinds of dependencies:\n\n1. All your templates\n2. All dependencies that contribute to your configuration such as the\n`input.css`, any plugins, any `tailwind.config.js` files and so on.\n\nWhen a template changes, we just have to scan for new Tailwind CSS\nclasses an",
+  "commit_author": {
+    "name": "Robin Malfait",
+    "email": "malfait.robin@gmail.com",
+    "date": "2026-06-01T17:15:40Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-01T17:15:40Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "6b43b6400a743a508afd712b50a73b2d3feb6444"
+  ],
+  "github_author_login": "RobinMalfait",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-01T17:15:43Z",
+  "created_at": "2017-10-06T14:59:14Z",
+  "homepage": "https://tailwindcss.com/",
+  "size_kb": 113835,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-01T17:33:50.431Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
