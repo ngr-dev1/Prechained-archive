@@ -1,0 +1,226 @@
+{
+  "name": "System.IO.Packaging",
+  "version": "4.3.0",
+  "ecosystem": "nuget",
+  "description": "Provides classes that support storage of multiple data objects in a single container. \nWhen using NuGet 3.x this package requires at least version 3.4.",
+  "authors": "Microsoft",
+  "licenseExpression": null,
+  "licenseUrl": "http://go.microsoft.com/fwlink/?LinkId=329770",
+  "projectUrl": "https://dot.net/",
+  "tags": [
+    ""
+  ],
+  "language": null,
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "System.IO.FileSystem.Primitives",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETFramework4.6"
+    },
+    {
+      "id": "System.Collections",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Diagnostics.Debug",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Globalization",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.IO",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.IO.Compression",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.IO.FileSystem",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.IO.FileSystem.Primitives",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Resources.ResourceManager",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Runtime",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Runtime.Extensions",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Text.Encoding",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "id": "System.Xml.ReaderWriter",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETStandard1.3"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/monoandroid1.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "MonoAndroid1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/monotouch1.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "MonoTouch1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netframework4.6",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netframework4.6/system.io.filesystem.primitives",
+          "@type": "PackageDependency",
+          "id": "System.IO.FileSystem.Primitives",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io.filesystem.primitives/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3/system.collections",
+          "@type": "PackageDependency",
+          "id": "System.Collections",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.collections/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3/system.diagnostics.debug",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.Debug",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.debug/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3/system.globalization",
+          "@type": "PackageDependency",
+          "id": "System.Globalization",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.globalization/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3/system.io",
+          "@type": "PackageDependency",
+          "id": "System.IO",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3/system.io.compression",
+          "@type": "PackageDependency",
+          "id": "System.IO.Compression",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io.compression/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3/system.io.filesystem",
+          "@type": "PackageDependency",
+          "id": "System.IO.FileSystem",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io.filesystem/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3/system.io.filesystem.primitives",
+          "@type": "PackageDependency",
+          "id": "System.IO.FileSystem.Primitives",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.io.filesystem.primitives/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3/system.resources.resourcemanager",
+          "@type": "PackageDependency",
+          "id": "System.Resources.ResourceManager",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.resources.resourcemanager/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3/system.runtime",
+          "@type": "PackageDependency",
+          "id": "System.Runtime",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3/system.runtime.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.Extensions",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.extensions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3/system.text.encoding",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encoding",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encoding/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/.netstandard1.3/system.xml.readerwriter",
+          "@type": "PackageDependency",
+          "id": "System.Xml.ReaderWriter",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.xml.readerwriter/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard1.3"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/xamarin.ios1.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "Xamarin.iOS1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/xamarin.mac2.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "Xamarin.Mac2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/xamarin.tvos1.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "Xamarin.TVOS1.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.10.07.07.11.32/system.io.packaging.4.3.0.json#dependencygroup/xamarin.watchos1.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "Xamarin.WatchOS1.0"
+    }
+  ],
+  "publishedAt": "2016-11-15T23:46:05.6+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "packageHash": null,
+  "packageHashAlgorithm": null
+}
