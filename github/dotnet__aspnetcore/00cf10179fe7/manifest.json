@@ -1,0 +1,54 @@
+{
+  "repo": "dotnet/aspnetcore",
+  "commit_sha": "00cf10179fe7c82929fd2df44d9a28004f3566dd",
+  "tree_sha": "1212522e0f4004efbe0dc5c0ee46cbb6a108a295",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 37953,
+  "watchers": 37953,
+  "forks": 10681,
+  "open_issues": 3986,
+  "language": "C#",
+  "topics": [
+    "aspnetcore",
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "Fix BlazorGateway VS F5 launch (#66836) and E2E manifest task path (#66617) (#66849)\n\n* Fix BlazorGateway VS F5 launch and E2E manifest task path\n\n- Fix #66836: Convert BlazorGateway RunCommand/RunArguments from target-based\n  to static properties so VS can read them during F5/Ctrl+F5 launch (matching\n  the old DevServer pattern).\n\n- Fix #66617: Update _E2ETasksAssembly path probe in\n  Microsoft.AspNetCore.Components.Testing.targets to walk up two directories\n  from buildTransitive/net10.0/ to t",
+  "commit_author": {
+    "name": "Javier Calvarro Nelson",
+    "email": "jacalvar@microsoft.com",
+    "date": "2026-06-01T18:10:01Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-01T18:10:01Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "6258d7040fffb0c79f52d7b895f7e315a6473b5c"
+  ],
+  "github_author_login": "javiercn",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-01T20:57:09Z",
+  "created_at": "2014-03-11T06:09:42Z",
+  "homepage": "https://asp.net",
+  "size_kb": 378712,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-01T21:17:22.554Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
