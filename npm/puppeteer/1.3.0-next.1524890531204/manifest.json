@@ -1,0 +1,90 @@
+{
+  "name": "puppeteer",
+  "version": "1.3.0-next.1524890531204",
+  "ecosystem": "npm",
+  "description": "A high-level API to control headless Chrome over the DevTools Protocol",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ws": "^3.0.0",
+    "mime": "^2.0.3",
+    "debug": "^3.1.0",
+    "rimraf": "^2.6.1",
+    "progress": "^2.0.0",
+    "extract-zip": "^1.6.5",
+    "proxy-from-env": "^1.0.0",
+    "https-proxy-agent": "^2.1.0"
+  },
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "pngjs": "^3.3.3",
+    "eslint": "^4.0.0",
+    "esprima": "^4.0.0",
+    "minimist": "^1.2.0",
+    "@types/ws": "^3.0.2",
+    "cross-env": "^5.0.5",
+    "text-diff": "^1.0.1",
+    "commonmark": "^0.27.0",
+    "pdfjs-dist": "^1.8.595",
+    "pixelmatch": "^4.0.2",
+    "typescript": "~2.8.1",
+    "@types/mime": "^2.0.0",
+    "@types/node": "^8.0.26",
+    "@types/debug": "0.0.30",
+    "markdown-toc": "^1.1.0",
+    "@types/rimraf": "^2.0.2",
+    "@types/extract-zip": "^1.6.2"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "scripts": {
+    "install": "node install.js",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "aslushnikov",
+      "email": "aslushnikov@gmail.com"
+    },
+    {
+      "name": "ebidel",
+      "email": "ebidel@gmail.com"
+    },
+    {
+      "name": "paulirish",
+      "email": "paul.irish@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "The Chromium Authors"
+  },
+  "publishedAt": "2018-04-28T04:42:24.054Z",
+  "dist": {
+    "integrity": "sha512-ls0PS8M0M2/Y5Qa7Cs7mNEKy5vldXpWKUq3X8vXhpMo5jSKceIx24Whfi2Lw5piADguhWpxwTbbGsI/0RnJKJg==",
+    "shasum": "253d34c24ef9b70f0ea5c1db41bd20a7c948091a",
+    "tarball": "https://registry.npmjs.org/puppeteer/-/puppeteer-1.3.0-next.1524890531204.tgz",
+    "fileCount": 31,
+    "unpackedSize": 258577
+  },
+  "repository": {
+    "url": "git+https://github.com/googlechrome/puppeteer.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/googlechrome/puppeteer#readme",
+  "bugs": {
+    "url": "https://github.com/googlechrome/puppeteer/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "aslushnikov",
+    "email": "aslushnikov@gmail.com"
+  },
+  "captured_at": "2026-06-01T10:37:24.805Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "d119c8806c279830b1deb9937e384de1e274cfbaf39e3f8a85221cc3889e1ff4783ca69b4f4272776d43489c69df2bbd"
+}
