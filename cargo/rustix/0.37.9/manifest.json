@@ -1,0 +1,249 @@
+{
+  "name": "rustix",
+  "version": "0.37.9",
+  "ecosystem": "cargo",
+  "description": "Safe Rust bindings to POSIX/Unix/Linux/Winsock-like syscalls",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "d3eb76a3b09109e78c52d45979fea3cd8ddaadb223531d0846bedb60e72c3e99",
+  "features": {
+    "all-apis": [
+      "fs",
+      "io_uring",
+      "mm",
+      "net",
+      "param",
+      "process",
+      "procfs",
+      "rand",
+      "runtime",
+      "termios",
+      "thread",
+      "time"
+    ],
+    "all-impls": [
+      "os_pipe",
+      "fs-err"
+    ],
+    "default": [
+      "std",
+      "use-libc-auxv"
+    ],
+    "fs": [],
+    "fs-err": [
+      "io-lifetimes/fs-err"
+    ],
+    "io_uring": [
+      "fs",
+      "net"
+    ],
+    "linux_4_11": [],
+    "linux_latest": [
+      "linux_4_11"
+    ],
+    "mm": [],
+    "net": [],
+    "os_pipe": [
+      "io-lifetimes/os_pipe"
+    ],
+    "param": [
+      "fs"
+    ],
+    "process": [],
+    "procfs": [
+      "once_cell",
+      "itoa",
+      "fs"
+    ],
+    "rand": [],
+    "runtime": [],
+    "rustc-dep-of-std": [
+      "core",
+      "alloc",
+      "compiler_builtins",
+      "linux-raw-sys/rustc-dep-of-std",
+      "bitflags/rustc-dep-of-std"
+    ],
+    "std": [
+      "io-lifetimes"
+    ],
+    "termios": [],
+    "thread": [],
+    "time": [],
+    "use-libc": [
+      "libc_errno",
+      "libc"
+    ],
+    "use-libc-auxv": [
+      "libc"
+    ]
+  },
+  "downloads": 21084,
+  "yanked": false,
+  "repository": "https://github.com/bytecodealliance/rustix",
+  "homepage": null,
+  "keywords": [
+    "api",
+    "file",
+    "network",
+    "safe",
+    "syscall"
+  ],
+  "categories": [
+    "Network programming",
+    "Unix APIs",
+    "Date and time",
+    "Filesystem"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "req": "^1.2.1",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "criterion",
+      "req": "^0.4",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "ctor",
+      "req": "^0.2.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "errno",
+      "req": "^0.3.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "errno",
+      "req": "^0.3.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "flate2",
+      "req": "^1.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "io-lifetimes",
+      "req": "^1.0.10",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "libc",
+      "req": "^0.2.141",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "libc",
+      "req": "^0.2.141",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "linux-raw-sys",
+      "req": "^0.3.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "linux-raw-sys",
+      "req": "^0.3.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "memoffset",
+      "req": "^0.8.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "serial_test",
+      "req": "^0.6",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "tempfile",
+      "req": "^3.4.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "windows-sys",
+      "req": "^0.48.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "cc",
+      "req": "^1.0.68",
+      "kind": "build",
+      "optional": true
+    },
+    {
+      "name": "compiler_builtins",
+      "req": "^0.1.49",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "errno",
+      "req": "^0.3.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "io-lifetimes",
+      "req": "^1.0.10",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "itoa",
+      "req": "^1.0.1",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "libc",
+      "req": "^0.2.141",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "once_cell",
+      "req": "^1.5.2",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "rustc-std-workspace-alloc",
+      "req": "^1.0.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "rustc-std-workspace-core",
+      "req": "^1.0.0",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode",
+    "name": "Dan Gohman"
+  },
+  "publishedAt": "2023-04-07T23:11:27.427651Z"
+}
