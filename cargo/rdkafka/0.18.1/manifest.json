@@ -1,0 +1,114 @@
+{
+  "name": "rdkafka",
+  "version": "0.18.1",
+  "ecosystem": "cargo",
+  "description": "Rust wrapper for librdkafka",
+  "license": "MIT",
+  "checksum": "bd8c92d5362eba4bde79db7bffdfc1ffaab5a3c9597a3c075874db41fda88c00",
+  "features": {
+    "cmake_build": [
+      "rdkafka-sys/cmake_build"
+    ],
+    "default": [],
+    "dynamic_linking": [
+      "rdkafka-sys/dynamic_linking"
+    ],
+    "external_lz4": [
+      "rdkafka-sys/external_lz4"
+    ],
+    "sasl": [
+      "rdkafka-sys/sasl",
+      "ssl"
+    ],
+    "ssl": [
+      "rdkafka-sys/ssl"
+    ]
+  },
+  "downloads": 4304,
+  "yanked": false,
+  "repository": "https://github.com/fede1024/rust-rdkafka",
+  "homepage": null,
+  "keywords": [
+    "kafka",
+    "rdkafka"
+  ],
+  "categories": [
+    "API bindings"
+  ],
+  "dependencies": [
+    {
+      "name": "chrono",
+      "req": "^0.4.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "clap",
+      "req": "^2.18.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "env_logger",
+      "req": "^0.3.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "futures",
+      "req": "^0.1.21",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "libc",
+      "req": "^0.2.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "log",
+      "req": "^0.3.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "rand",
+      "req": "^0.3.15",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "rdkafka-sys",
+      "req": "^0.11.6-0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "serde",
+      "req": "^1.0.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "serde_derive",
+      "req": "^1.0.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "serde_json",
+      "req": "^1.0.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "tokio",
+      "req": "^0.1.7",
+      "kind": "dev",
+      "optional": false
+    }
+  ],
+  "published_by": null,
+  "publishedAt": "2019-02-06T22:21:29.743607Z"
+}
