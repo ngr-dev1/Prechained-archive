@@ -1,0 +1,79 @@
+{
+  "name": "org.xerial:sqlite-jdbc",
+  "version": "3.43.2.0",
+  "ecosystem": "maven",
+  "groupId": "org.xerial",
+  "artifactId": "sqlite-jdbc",
+  "description": "SQLite JDBC library",
+  "url": "https://github.com/xerial/sqlite-jdbc",
+  "inceptionYear": null,
+  "licenses": [
+    {
+      "name": "The Apache Software License, Version 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ],
+  "developers": [
+    {
+      "id": "leo",
+      "name": "Taro L. Saito",
+      "email": "leo@xerial.org"
+    }
+  ],
+  "scm": {
+    "url": "https://github.com/xerial/sqlite-jdbc",
+    "connection": "scm:git:git://github.com/xerial/sqlite-jdbc.git"
+  },
+  "dependencies": [
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "version": "2.0.9",
+      "scope": null
+    },
+    {
+      "groupId": "org.graalvm.sdk",
+      "artifactId": "nativeimage",
+      "version": "${graalvm.version}",
+      "scope": "provided"
+    },
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter",
+      "version": "${junit.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.assertj",
+      "artifactId": "assertj-core",
+      "version": "3.24.2",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.junit-pioneer",
+      "artifactId": "junit-pioneer",
+      "version": "2.1.0",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.mockito",
+      "artifactId": "mockito-core",
+      "version": "5.6.0",
+      "scope": "test"
+    },
+    {
+      "groupId": "com.tngtech.archunit",
+      "artifactId": "archunit-junit5",
+      "version": "1.1.0",
+      "scope": "test"
+    },
+    {
+      "groupId": "ch.qos.logback",
+      "artifactId": "logback-classic",
+      "version": "1.4.11",
+      "scope": "test"
+    }
+  ],
+  "centralUrl": "https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.43.2.0/",
+  "publishedAt": null
+}
