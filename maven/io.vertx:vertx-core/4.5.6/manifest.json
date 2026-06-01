@@ -1,0 +1,227 @@
+{
+  "name": "io.vertx:vertx-core",
+  "version": "4.5.6",
+  "ecosystem": "maven",
+  "groupId": "io.vertx",
+  "artifactId": "vertx-core",
+  "description": null,
+  "url": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+  "inceptionYear": null,
+  "licenses": [
+    {
+      "name": "The Apache Software License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+      "name": "Eclipse Public License - v 2.0",
+      "url": "http://www.eclipse.org/legal/epl-v20.html"
+    }
+  ],
+  "developers": [],
+  "scm": {
+    "url": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+    "connection": "scm:git:git@github.com:eclipse/vert.x.git"
+  },
+  "dependencies": [
+    {
+      "groupId": "io.vertx",
+      "artifactId": "vertx-dependencies",
+      "version": "${stack.version}",
+      "scope": "import"
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-common",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-buffer",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-transport",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-handler",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-handler-proxy",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-codec-http",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-codec-http2",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-resolver",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-resolver-dns",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-codec-haproxy",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-transport-native-epoll",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-transport-native-kqueue",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "com.fasterxml.jackson.core",
+      "artifactId": "jackson-core",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "com.fasterxml.jackson.core",
+      "artifactId": "jackson-databind",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "org.apache.logging.log4j",
+      "artifactId": "log4j-api",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.vertx",
+      "artifactId": "vertx-codegen",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "io.vertx",
+      "artifactId": "vertx-docgen",
+      "version": null,
+      "scope": null
+    },
+    {
+      "groupId": "junit",
+      "artifactId": "junit",
+      "version": "${junit.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.apache.directory.server",
+      "artifactId": "apacheds-protocol-dns",
+      "version": "${apacheds-protocol-dns.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.assertj",
+      "artifactId": "assertj-core",
+      "version": "${assertj.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-simple",
+      "version": null,
+      "scope": "test"
+    },
+    {
+      "groupId": "org.apache.logging.log4j",
+      "artifactId": "log4j-core",
+      "version": null,
+      "scope": "test"
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-tcnative-boringssl-static",
+      "version": null,
+      "scope": "test"
+    },
+    {
+      "groupId": "com.aayushatharva.brotli4j",
+      "artifactId": "brotli4j",
+      "version": "1.16.0",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.openjdk.jmh",
+      "artifactId": "jmh-core",
+      "version": "${jmh.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.openjdk.jmh",
+      "artifactId": "jmh-generator-annprocess",
+      "version": "${jmh.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-transport-native-epoll",
+      "version": null,
+      "scope": "test"
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-resolver-dns-native-macos",
+      "version": null,
+      "scope": "test"
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-transport-native-kqueue",
+      "version": null,
+      "scope": "test"
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-resolver-dns-native-macos",
+      "version": null,
+      "scope": "test"
+    },
+    {
+      "groupId": "io.netty",
+      "artifactId": "netty-transport-native-kqueue",
+      "version": null,
+      "scope": "test"
+    }
+  ],
+  "centralUrl": "https://repo1.maven.org/maven2/io/vertx/vertx-core/4.5.6/",
+  "publishedAt": null
+}
