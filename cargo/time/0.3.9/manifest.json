@@ -1,0 +1,159 @@
+{
+  "name": "time",
+  "version": "0.3.9",
+  "ecosystem": "cargo",
+  "description": "Date and time library. Fully interoperable with the standard library. Mostly compatible with #![no_std].",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "c2702e08a7a860f005826c6815dcac101b19b5eb330c27fe4a5928fec1d20ddd",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "formatting": [
+      "itoa",
+      "std"
+    ],
+    "large-dates": [
+      "time-macros/large-dates"
+    ],
+    "local-offset": [
+      "std"
+    ],
+    "macros": [
+      "time-macros"
+    ],
+    "parsing": [],
+    "quickcheck": [
+      "quickcheck-dep",
+      "alloc"
+    ],
+    "serde-human-readable": [
+      "serde",
+      "formatting",
+      "parsing"
+    ],
+    "serde-well-known": [
+      "serde/alloc",
+      "formatting",
+      "parsing"
+    ],
+    "std": [
+      "alloc"
+    ]
+  },
+  "downloads": 8351319,
+  "yanked": false,
+  "repository": "https://github.com/time-rs/time",
+  "homepage": "https://time-rs.github.io",
+  "keywords": [
+    "calendar",
+    "date",
+    "duration",
+    "time"
+  ],
+  "categories": [
+    "Parser implementations",
+    "No standard library",
+    "Date and time",
+    "Value formatting"
+  ],
+  "dependencies": [
+    {
+      "name": "criterion",
+      "req": "^0.3.5",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "criterion-cycles-per-byte",
+      "req": "^0.1.2",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "libc",
+      "req": "^0.2.98",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "num_threads",
+      "req": "^0.1.2",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "quickcheck_macros",
+      "req": "^1.0.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "rand",
+      "req": "^0.8.4",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "serde",
+      "req": "^1.0.126",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "serde_json",
+      "req": "^1.0.68",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "serde_test",
+      "req": "^1.0.126",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "trybuild",
+      "req": "=1.0.34",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "itoa",
+      "req": "^1.0.1",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "quickcheck",
+      "req": "^1.0.3",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "rand",
+      "req": "^0.8.4",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "serde",
+      "req": "^1.0.126",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "time-macros",
+      "req": "=0.2.4",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": {
+    "id": 15682,
+    "login": "jhpratt",
+    "name": "Jacob Pratt"
+  },
+  "publishedAt": "2022-03-22T22:14:44.886055Z"
+}
