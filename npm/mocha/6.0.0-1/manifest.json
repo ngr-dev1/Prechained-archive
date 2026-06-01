@@ -1,0 +1,137 @@
+{
+  "name": "mocha",
+  "version": "6.0.0-1",
+  "ecosystem": "npm",
+  "description": "simple, flexible, fun test framework",
+  "license": "MIT",
+  "dependencies": {
+    "he": "1.2.0",
+    "ms": "2.1.1",
+    "diff": "3.5.0",
+    "glob": "7.1.3",
+    "debug": "3.2.6",
+    "growl": "1.10.5",
+    "which": "1.3.1",
+    "yargs": "12.0.5",
+    "mkdirp": "0.5.1",
+    "js-yaml": "3.12.0",
+    "minimatch": "3.0.4",
+    "wide-align": "1.1.3",
+    "ansi-colors": "3.2.3",
+    "findup-sync": "2.0.0",
+    "log-symbols": "2.2.0",
+    "yargs-parser": "11.1.1",
+    "object.assign": "4.1.0",
+    "browser-stdout": "1.3.1",
+    "supports-color": "6.0.0",
+    "yargs-unparser": "1.5.0",
+    "strip-json-comments": "2.0.1",
+    "escape-string-regexp": "1.0.5",
+    "node-environment-flags": "1.0.2"
+  },
+  "devDependencies": {
+    "nps": "^5.9.3",
+    "nyc": "^13.1.0",
+    "chai": "^4.2.0",
+    "svgo": "^1.1.1",
+    "husky": "^1.2.1",
+    "jsdoc": "^3.5.5",
+    "karma": "^3.1.1",
+    "sinon": "^7.1.1",
+    "eslint": "^5.10.0",
+    "remark": "^10.0.1",
+    "rimraf": "^2.5.2",
+    "prettier": "^1.15.3",
+    "through2": "^3.0.0",
+    "to-vfile": "^5.0.2",
+    "watchify": "^3.7.0",
+    "coveralls": "^3.0.2",
+    "browserify": "^16.2.3",
+    "rewiremock": "^3.12.3",
+    "strip-ansi": "^5.0.0",
+    "unexpected": "^10.39.2",
+    "cross-spawn": "^6.0.5",
+    "karma-mocha": "^1.3.0",
+    "lint-staged": "^8.1.0",
+    "markdown-toc": "^1.2.0",
+    "coffee-script": "^1.10.0",
+    "remark-github": "^7.0.5",
+    "@mocha/docdash": "^1.0.1",
+    "markdown-magic": "^0.1.25",
+    "karma-browserify": "^5.3.0",
+    "markdownlint-cli": "^0.13.0",
+    "unexpected-sinon": "^10.10.1",
+    "assetgraph-builder": "^6.4.2",
+    "eslint-plugin-node": "^8.0.0",
+    "@mocha/contributors": "^1.0.3",
+    "remark-inline-links": "^3.1.2",
+    "eslint-plugin-import": "^2.14.0",
+    "karma-mocha-reporter": "^2.2.4",
+    "karma-sauce-launcher": "^1.2.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "browserify-package-json": "^1.0.1",
+    "eslint-config-semistandard": "^13.0.0",
+    "markdown-magic-package-json": "^2.0.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "nps test clean build"
+  },
+  "maintainers": [
+    {
+      "name": "boneskull",
+      "email": "boneskull@boneskull.com"
+    },
+    {
+      "name": "munter",
+      "email": "munter@fumle.dk"
+    }
+  ],
+  "author": {
+    "name": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca"
+  },
+  "publishedAt": "2019-01-02T18:26:07.398Z",
+  "dist": {
+    "integrity": "sha512-zWknXdGp3Rq80HVqsKN+S+Fd77Z1nKRg+PnWets+ClWl8NP6GqguI77oHEoPQGanvU7G5z4gfYGvh9+MZjXNdw==",
+    "shasum": "1399b40fc1f685bacd1b7de2c16d228fabae204a",
+    "tarball": "https://registry.npmjs.org/mocha/-/mocha-6.0.0-1.tgz",
+    "fileCount": 63,
+    "unpackedSize": 916378
+  },
+  "repository": {
+    "url": "git+https://github.com/mochajs/mocha.git",
+    "type": "git"
+  },
+  "homepage": "https://mochajs.org/",
+  "bugs": {
+    "url": "https://github.com/mochajs/mocha/issues/"
+  },
+  "keywords": [
+    "mocha",
+    "test",
+    "bdd",
+    "tdd",
+    "tap"
+  ],
+  "_npmUser": {
+    "name": "boneskull",
+    "email": "boneskull@boneskull.com"
+  },
+  "captured_at": "2026-06-01T02:27:25.175Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "d119c8806c279830b1deb9937e384de1e274cfbaf39e3f8a85221cc3889e1ff4783ca69b4f4272776d43489c69df2bbd"
+}
