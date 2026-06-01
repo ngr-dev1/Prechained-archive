@@ -1,0 +1,157 @@
+{
+  "name": "tokio-tungstenite",
+  "version": "0.17.0",
+  "ecosystem": "cargo",
+  "description": "Tokio binding for Tungstenite, the Lightweight stream-based WebSocket implementation",
+  "license": "MIT",
+  "checksum": "545bc3ea3a139f54a5338bcfcfe75105a45b952b477def251a957c96de5be43d",
+  "features": {
+    "__rustls-tls": [
+      "rustls",
+      "tokio-rustls",
+      "stream",
+      "tungstenite/__rustls-tls",
+      "webpki"
+    ],
+    "connect": [
+      "stream",
+      "tokio/net"
+    ],
+    "default": [
+      "connect"
+    ],
+    "native-tls": [
+      "native-tls-crate",
+      "tokio-native-tls",
+      "stream",
+      "tungstenite/native-tls"
+    ],
+    "native-tls-vendored": [
+      "native-tls",
+      "native-tls-crate/vendored",
+      "tungstenite/native-tls-vendored"
+    ],
+    "rustls-tls-native-roots": [
+      "__rustls-tls",
+      "rustls-native-certs"
+    ],
+    "rustls-tls-webpki-roots": [
+      "__rustls-tls",
+      "webpki-roots"
+    ],
+    "stream": []
+  },
+  "downloads": 11370,
+  "yanked": false,
+  "repository": "https://github.com/snapview/tokio-tungstenite",
+  "homepage": "https://github.com/snapview/tokio-tungstenite",
+  "keywords": [
+    "io",
+    "web",
+    "websocket"
+  ],
+  "categories": [
+    "Network programming",
+    "Concurrency",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "env_logger",
+      "req": "^0.9",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "futures-channel",
+      "req": "^0.3",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "futures-util",
+      "req": "^0.3",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "log",
+      "req": "^0.4",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "tokio",
+      "req": "^1.0.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "tokio",
+      "req": "^1.0.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "tungstenite",
+      "req": "^0.17.1",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "url",
+      "req": "^2.0.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "native-tls",
+      "req": "^0.2.7",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "rustls",
+      "req": "^0.20.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "rustls-native-certs",
+      "req": "^0.6.1",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "tokio-native-tls",
+      "req": "^0.3.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "tokio-rustls",
+      "req": "^0.23.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "webpki",
+      "req": "^0.22.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "webpki-roots",
+      "req": "^0.22.1",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": {
+    "id": 96974,
+    "login": "daniel-abramov",
+    "name": "Daniel Abramov"
+  },
+  "publishedAt": "2022-02-18T16:05:16.137325Z"
+}
