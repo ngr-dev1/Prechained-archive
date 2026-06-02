@@ -1,0 +1,100 @@
+{
+  "name": "opentelemetry-prometheus",
+  "version": "0.32.0",
+  "ecosystem": "cargo",
+  "description": "Prometheus exporter for OpenTelemetry",
+  "license": "Apache-2.0",
+  "checksum": "2c0359983e7f79cf33c9abd89e5d7ddf67c46c419d0148598022d70e70c01aba",
+  "features": {
+    "default": [
+      "internal-logs"
+    ],
+    "internal-logs": [
+      "tracing"
+    ],
+    "prometheus-encoding": []
+  },
+  "downloads": 18971,
+  "yanked": false,
+  "repository": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry-prometheus",
+  "homepage": "https://github.com/open-telemetry/opentelemetry-rust/tree/main/opentelemetry-prometheus",
+  "keywords": [
+    "async",
+    "metrics",
+    "opentelemetry",
+    "prometheus"
+  ],
+  "categories": [
+    "Profiling",
+    "Debugging",
+    "Asynchronous"
+  ],
+  "dependencies": [
+    {
+      "name": "http-body-util",
+      "req": "^0.1",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "hyper",
+      "req": "^1.3",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "hyper-util",
+      "req": "^0.1",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "once_cell",
+      "req": "^1.13",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "opentelemetry",
+      "req": "^0.32",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "opentelemetry-semantic-conventions",
+      "req": "^0.32",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "opentelemetry_sdk",
+      "req": "^0.32",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "prometheus",
+      "req": "^0.14",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "tokio",
+      "req": "^1",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "tracing",
+      "req": ">=0.1.40",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": {
+    "id": 250714,
+    "login": "cijothomas",
+    "name": "Cijo Thomas"
+  },
+  "publishedAt": "2026-05-08T23:52:44.935028Z"
+}
