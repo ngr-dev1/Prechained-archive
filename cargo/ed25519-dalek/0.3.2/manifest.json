@@ -1,0 +1,82 @@
+{
+  "name": "ed25519-dalek",
+  "version": "0.3.2",
+  "ecosystem": "cargo",
+  "description": "Fast and efficient ed25519 EdDSA key generations, signing, and verification in pure Rust.",
+  "license": "CC0-1.0",
+  "checksum": "f6c31be5a9105fa83992d333da4df7490582bee3ae462f4581416486c76dafcb",
+  "features": {
+    "bench": [],
+    "default": [
+      "std"
+    ],
+    "nightly": [
+      "curve25519-dalek/nightly"
+    ],
+    "std": [
+      "rand",
+      "curve25519-dalek/std"
+    ]
+  },
+  "downloads": 2797,
+  "yanked": false,
+  "repository": "https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek",
+  "homepage": "https://github.com/dalek-cryptography/curve25519-dalek",
+  "keywords": [
+    "cryptography",
+    "curve25519",
+    "ecc",
+    "ed25519",
+    "signature"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "arrayref",
+      "req": "^0.3.3",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "curve25519-dalek",
+      "req": "^0.7",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "digest",
+      "req": "^0.5",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "generic-array",
+      "req": "^0.6",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "rustc-serialize",
+      "req": "^0.3",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "sha2",
+      "req": "^0.5",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "rand",
+      "req": "^0.3",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": null,
+  "publishedAt": "2017-05-15T05:04:10.069554Z"
+}
