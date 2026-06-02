@@ -1,0 +1,169 @@
+{
+  "name": "com.microsoft.sqlserver:mssql-jdbc",
+  "version": "12.8.1.jre11",
+  "ecosystem": "maven",
+  "groupId": "com.microsoft.sqlserver",
+  "artifactId": "mssql-jdbc",
+  "description": "Microsoft JDBC Driver for SQL Server.",
+  "url": "https://github.com/Microsoft/mssql-jdbc",
+  "inceptionYear": null,
+  "licenses": [
+    {
+      "name": "MIT License",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "developers": [
+    {
+      "id": null,
+      "name": null,
+      "email": null
+    }
+  ],
+  "scm": {
+    "url": "https://github.com/Microsoft/mssql-jdbc",
+    "connection": null
+  },
+  "dependencies": [
+    {
+      "groupId": "com.azure",
+      "artifactId": "azure-security-keyvault-keys",
+      "version": "${azure-security-keyvault-keys.version}",
+      "scope": null
+    },
+    {
+      "groupId": "com.azure",
+      "artifactId": "azure-identity",
+      "version": "${azure-identity.version}",
+      "scope": null
+    },
+    {
+      "groupId": "com.microsoft.azure",
+      "artifactId": "msal4j",
+      "version": "${msal.version}",
+      "scope": null
+    },
+    {
+      "groupId": "org.antlr",
+      "artifactId": "antlr4-runtime",
+      "version": "${antlr-runtime.version}",
+      "scope": null
+    },
+    {
+      "groupId": "com.google.code.gson",
+      "artifactId": "gson",
+      "version": "${com.google.code.gson.version}",
+      "scope": null
+    },
+    {
+      "groupId": "org.bouncycastle",
+      "artifactId": "bcprov-jdk18on",
+      "version": "${bcprov-jdk18on.version}",
+      "scope": null
+    },
+    {
+      "groupId": "org.bouncycastle",
+      "artifactId": "bcpkix-jdk18on",
+      "version": "${bcpkix-jdk18on.version}",
+      "scope": null
+    },
+    {
+      "groupId": "org.osgi",
+      "artifactId": "org.osgi.core",
+      "version": "${org.osgi.core.version}",
+      "scope": "provided"
+    },
+    {
+      "groupId": "org.osgi",
+      "artifactId": "org.osgi.service.jdbc",
+      "version": "${osgi.jdbc.version}",
+      "scope": "provided"
+    },
+    {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-console",
+      "version": "${junit.platform.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-commons",
+      "version": "${junit.platform.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-engine",
+      "version": "${junit.platform.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-launcher",
+      "version": "${junit.platform.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-runner",
+      "version": "${junit.platform.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-surefire-provider",
+      "version": "${junit.platform.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-api",
+      "version": "${junit.jupiter.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-engine",
+      "version": "${junit.jupiter.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "com.zaxxer",
+      "artifactId": "HikariCP",
+      "version": "${hikaricp.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-dbcp2",
+      "version": "${dbcp2.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-nop",
+      "version": "${slf4j.nop.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.eclipse.gemini.blueprint",
+      "artifactId": "gemini-blueprint-mock",
+      "version": "${gemini.mock.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "com.h2database",
+      "artifactId": "h2",
+      "version": "${h2.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-params",
+      "version": "${junit.jupiter.version}",
+      "scope": "test"
+    }
+  ],
+  "centralUrl": "https://repo1.maven.org/maven2/com/microsoft/sqlserver/mssql-jdbc/12.8.1.jre11/",
+  "publishedAt": null
+}
