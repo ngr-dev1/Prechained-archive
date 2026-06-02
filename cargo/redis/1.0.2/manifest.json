@@ -1,0 +1,475 @@
+{
+  "name": "redis",
+  "version": "1.0.2",
+  "ecosystem": "cargo",
+  "description": "Redis driver for Rust.",
+  "license": "BSD-3-Clause",
+  "checksum": "5dfe20977fe93830c0e9817a16fbf1ed1cfd8d4bba366087a1841d2c6033c251",
+  "features": {
+    "acl": [],
+    "aio": [
+      "bytes",
+      "dep:pin-project-lite",
+      "dep:futures-util",
+      "dep:tokio",
+      "dep:tokio-util",
+      "tokio-util/codec",
+      "combine/tokio",
+      "dep:cfg-if"
+    ],
+    "bb8": [
+      "dep:bb8"
+    ],
+    "cache-aio": [
+      "aio",
+      "dep:lru"
+    ],
+    "cluster": [
+      "dep:crc16",
+      "dep:rand"
+    ],
+    "cluster-async": [
+      "aio",
+      "cluster",
+      "dep:log"
+    ],
+    "connection-manager": [
+      "dep:arc-swap",
+      "dep:futures-channel",
+      "aio",
+      "dep:backon"
+    ],
+    "default": [
+      "acl",
+      "streams",
+      "geospatial",
+      "script",
+      "num-bigint"
+    ],
+    "geospatial": [],
+    "json": [
+      "dep:serde",
+      "serde/derive",
+      "dep:serde_json"
+    ],
+    "num-bigint": [
+      "dep:num-bigint"
+    ],
+    "r2d2": [
+      "dep:r2d2"
+    ],
+    "script": [
+      "dep:sha1_smol"
+    ],
+    "sentinel": [
+      "dep:rand"
+    ],
+    "smol-comp": [
+      "aio",
+      "dep:smol",
+      "dep:smol-timeout",
+      "dep:async-io"
+    ],
+    "smol-native-tls-comp": [
+      "smol-comp",
+      "dep:async-native-tls",
+      "tls-native-tls"
+    ],
+    "smol-rustls-comp": [
+      "smol-comp",
+      "dep:futures-rustls",
+      "tls-rustls"
+    ],
+    "streams": [],
+    "tls-native-tls": [
+      "dep:native-tls"
+    ],
+    "tls-rustls": [
+      "dep:rustls",
+      "rustls/std",
+      "dep:rustls-native-certs"
+    ],
+    "tls-rustls-insecure": [
+      "tls-rustls"
+    ],
+    "tls-rustls-webpki-roots": [
+      "tls-rustls",
+      "dep:webpki-roots"
+    ],
+    "tokio-comp": [
+      "aio",
+      "tokio/net"
+    ],
+    "tokio-native-tls-comp": [
+      "tokio-comp",
+      "tls-native-tls",
+      "dep:tokio-native-tls"
+    ],
+    "tokio-rustls-comp": [
+      "tokio-comp",
+      "tls-rustls",
+      "dep:tokio-rustls"
+    ],
+    "vector-sets": [
+      "dep:serde",
+      "serde/derive",
+      "dep:serde_json"
+    ]
+  },
+  "downloads": 575938,
+  "yanked": false,
+  "repository": "https://github.com/redis-rs/redis-rs",
+  "homepage": "https://github.com/redis-rs/redis-rs",
+  "keywords": [
+    "cluster",
+    "pubsub",
+    "redis",
+    "sentinel",
+    "valkey"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "anyhow",
+      "req": "^1",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "arcstr",
+      "req": "^1.2.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "assert_approx_eq",
+      "req": "^1.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "combine",
+      "req": "^4.6",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "criterion",
+      "req": "^0.7",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "fnv",
+      "req": "^1.0.5",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "futures",
+      "req": "^0.3",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "futures-time",
+      "req": "^3",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "itoa",
+      "req": "^1.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "partial-io",
+      "req": "^0.5",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "percent-encoding",
+      "req": "^2.3",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "quickcheck",
+      "req": "^1.0.3",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "rand",
+      "req": "^0.9",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "rstest",
+      "req": "^0.26",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "rustls",
+      "req": "^0.23",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "ryu",
+      "req": "^1.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "socket2",
+      "req": "^0.6",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "tempfile",
+      "req": "^3.23.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "tokio",
+      "req": "^1",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "url",
+      "req": "^2.5",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "xxhash-rust",
+      "req": "^0.8",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "ahash",
+      "req": "^0.8.11",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "arc-swap",
+      "req": "^1.7.1",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "async-io",
+      "req": "^2",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "async-native-tls",
+      "req": "^0.5",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "backon",
+      "req": "^1.6.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "bb8",
+      "req": "^0.9.1",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "bigdecimal",
+      "req": "^0.4.9",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "bytes",
+      "req": "^1",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "cfg-if",
+      "req": "^1",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "crc16",
+      "req": "^0.4",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "futures-channel",
+      "req": "^0.3.31",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "futures-rustls",
+      "req": "^0.26",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "futures-util",
+      "req": "^0.3.31",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "hashbrown",
+      "req": "^0.16",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "log",
+      "req": "^0.4",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "lru",
+      "req": "^0.16",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "native-tls",
+      "req": "^0.2",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "num-bigint",
+      "req": "^0.4.6",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "pin-project-lite",
+      "req": "^0.2",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "r2d2",
+      "req": "^0.8.10",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "rand",
+      "req": "^0.9",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "rust_decimal",
+      "req": "^1.39.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "rustls",
+      "req": "^0.23",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "rustls-native-certs",
+      "req": "^0.8",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "serde",
+      "req": "^1.0.219",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "serde_json",
+      "req": "^1.0.145",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "sha1_smol",
+      "req": "^1.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "smol",
+      "req": "^2",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "smol-timeout",
+      "req": "^0.6",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "tokio",
+      "req": "^1",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "tokio-native-tls",
+      "req": "^0.3",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "tokio-rustls",
+      "req": "^0.26",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "tokio-util",
+      "req": "^0.7",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "uuid",
+      "req": "^1.18.1",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "webpki-roots",
+      "req": "^1.0",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": {
+    "id": 147005,
+    "login": "nihohit",
+    "name": "Shachar Langbeheim"
+  },
+  "publishedAt": "2025-12-25T05:33:23.892357Z"
+}
