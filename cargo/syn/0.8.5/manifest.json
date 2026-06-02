@@ -1,0 +1,30 @@
+{
+  "name": "syn",
+  "version": "0.8.5",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "d12ba3829991f6855256034621f9e1f25f4e1a51675e6f3be2d5e748b3215fdf",
+  "features": {
+    "aster": [],
+    "default": [
+      "parsing",
+      "printing"
+    ],
+    "full": [],
+    "parsing": [
+      "unicode-xid"
+    ],
+    "printing": [
+      "quote"
+    ],
+    "visit": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-10-02T16:56:25.784412Z",
+  "dependencies": [
+    "clippy",
+    "quote",
+    "unicode-xid"
+  ]
+}

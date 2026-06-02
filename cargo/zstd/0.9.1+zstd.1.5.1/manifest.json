@@ -1,0 +1,54 @@
+{
+  "name": "zstd",
+  "version": "0.9.1+zstd.1.5.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "538b8347df9257b7fbce37677ef7535c00a3c7bf1f81023cc328ed7fe4b41de8",
+  "features": {
+    "arrays": [
+      "zstd-safe/arrays"
+    ],
+    "bindgen": [
+      "zstd-safe/bindgen"
+    ],
+    "debug": [
+      "zstd-safe/debug"
+    ],
+    "default": [
+      "legacy",
+      "arrays"
+    ],
+    "experimental": [
+      "zstd-safe/experimental"
+    ],
+    "legacy": [
+      "zstd-safe/legacy"
+    ],
+    "no_asm": [
+      "zstd-safe/no_asm"
+    ],
+    "pkg-config": [
+      "zstd-safe/pkg-config"
+    ],
+    "thin": [
+      "zstd-safe/thin"
+    ],
+    "wasm": [],
+    "zstdmt": [
+      "zstd-safe/zstdmt"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3203,
+    "login": "gyscos"
+  },
+  "publishedAt": "2021-12-23T22:30:49.696537Z",
+  "dependencies": [
+    "clap",
+    "humansize",
+    "partial-io",
+    "walkdir",
+    "zstd-safe"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "name": "actix-web",
+  "version": "4.4.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "0e4a5b5e29603ca8c94a77c65cf874718ceb60292c5a5c3e5f4ace041af462b9",
+  "features": {
+    "__compress": [],
+    "compress-brotli": [
+      "actix-http/compress-brotli",
+      "__compress"
+    ],
+    "compress-gzip": [
+      "actix-http/compress-gzip",
+      "__compress"
+    ],
+    "compress-zstd": [
+      "actix-http/compress-zstd",
+      "__compress"
+    ],
+    "cookies": [
+      "cookie"
+    ],
+    "default": [
+      "macros",
+      "compress-brotli",
+      "compress-gzip",
+      "compress-zstd",
+      "cookies",
+      "http2"
+    ],
+    "experimental-io-uring": [
+      "actix-server/io-uring"
+    ],
+    "http2": [
+      "actix-http/http2"
+    ],
+    "macros": [
+      "actix-macros",
+      "actix-web-codegen"
+    ],
+    "openssl": [
+      "http2",
+      "actix-http/openssl",
+      "actix-tls/accept",
+      "actix-tls/openssl"
+    ],
+    "rustls": [
+      "rustls-0_20"
+    ],
+    "rustls-0_20": [
+      "http2",
+      "actix-http/rustls-0_20",
+      "actix-tls/accept",
+      "actix-tls/rustls-0_20"
+    ],
+    "rustls-0_21": [
+      "http2",
+      "actix-http/rustls-0_21",
+      "actix-tls/accept",
+      "actix-tls/rustls-0_21"
+    ],
+    "secure-cookies": [
+      "cookies",
+      "cookie/secure"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 56903,
+    "login": "robjtede"
+  },
+  "publishedAt": "2023-08-29T01:00:16.262530Z",
+  "dependencies": [
+    "actix-codec",
+    "actix-http",
+    "actix-router",
+    "actix-rt",
+    "actix-server",
+    "actix-service",
+    "actix-utils",
+    "ahash",
+    "bytes",
+    "bytestring",
+    "cfg-if",
+    "derive_more",
+    "encoding_rs",
+    "futures-core",
+    "futures-util",
+    "itoa",
+    "language-tags",
+    "log",
+    "mime",
+    "once_cell",
+    "pin-project-lite",
+    "regex",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "smallvec",
+    "socket2",
+    "time",
+    "url",
+    "actix-macros",
+    "actix-tls",
+    "actix-web-codegen",
+    "cookie"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "uuid",
+  "version": "0.6.0-beta",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "e1117aaf8467623ef5d6bb5306fbe224768e37090ef71be5e2914ea637d5ec09",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": [],
+    "v1": [],
+    "v3": [
+      "md5"
+    ],
+    "v4": [
+      "rand"
+    ],
+    "v5": [
+      "sha1"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-02-08T07:57:11.210751Z",
+  "dependencies": [
+    "serde_test",
+    "md5",
+    "rand",
+    "serde",
+    "sha1"
+  ]
+}

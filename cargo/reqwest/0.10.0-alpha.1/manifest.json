@@ -1,0 +1,84 @@
+{
+  "name": "reqwest",
+  "version": "0.10.0-alpha.1",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "3d75dbf305ed1eb54d3c8564e3b746012166b40ec0841381df92b50a2052db71",
+  "features": {
+    "blocking": [
+      "futures-channel-preview",
+      "futures-util-preview/io",
+      "tokio/rt-full"
+    ],
+    "cookies": [
+      "cookie_crate",
+      "cookie_store"
+    ],
+    "default": [
+      "default-tls"
+    ],
+    "default-tls": [
+      "hyper-tls",
+      "native-tls",
+      "tls",
+      "tokio-tls"
+    ],
+    "default-tls-vendored": [
+      "default-tls",
+      "native-tls/vendored"
+    ],
+    "gzip": [
+      "async-compression"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "tls": [],
+    "unstable-stream": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2019-10-08T21:04:03.791301Z",
+  "dependencies": [
+    "base64",
+    "bytes",
+    "doc-comment",
+    "encoding_rs",
+    "env_logger",
+    "futures-core-preview",
+    "futures-util-preview",
+    "http",
+    "http-body",
+    "hyper",
+    "hyper",
+    "js-sys",
+    "libflate",
+    "log",
+    "mime",
+    "mime_guess",
+    "percent-encoding",
+    "serde",
+    "serde",
+    "serde_urlencoded",
+    "time",
+    "tokio",
+    "tokio-executor",
+    "url",
+    "uuid",
+    "wasm-bindgen",
+    "wasm-bindgen-futures",
+    "web-sys",
+    "winreg",
+    "async-compression",
+    "cookie",
+    "cookie_store",
+    "futures-channel-preview",
+    "hyper-tls",
+    "native-tls",
+    "serde_json",
+    "tokio-tls"
+  ]
+}

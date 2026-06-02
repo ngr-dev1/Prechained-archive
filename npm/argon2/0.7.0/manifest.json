@@ -1,0 +1,44 @@
+{
+  "name": "argon2",
+  "version": "0.7.0",
+  "ecosystem": "npm",
+  "description": "An Argon2 library for Node",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.2.0",
+    "bindings": "^1.2.1"
+  },
+  "devDependencies": {
+    "async": "^1.5.2",
+    "nodeunit": "^0.9.1",
+    "async-benchmark": "^1.0.1"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "preinstall": null,
+    "postinstall": "npm run build",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "ranisalt",
+      "email": "ranisalt@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Ranieri Althoff",
+    "email": "ranisalt+argon2@gmail.com"
+  },
+  "publishedAt": "2016-02-01T20:29:08.680Z",
+  "dist": {
+    "integrity": "sha512-PNdlYXjKLaKwAPTELWFkpkiD0UJOcIvQ65ub7RiJW0hYIURrcoTcnshqhkU/NtlcERSbPyj1l4qXploRKyIj5A==",
+    "shasum": "257b71f69ce011f9bd76357c7e198662e62e0cb1",
+    "tarball": "https://registry.npmjs.org/argon2/-/argon2-0.7.0.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "ranisalt",
+    "email": "ranisalt@gmail.com"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "once_cell",
+  "version": "1.21.4",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50",
+  "features": {
+    "alloc": [
+      "race"
+    ],
+    "atomic-polyfill": [
+      "critical-section"
+    ],
+    "critical-section": [
+      "dep:critical-section",
+      "portable-atomic"
+    ],
+    "default": [
+      "std"
+    ],
+    "parking_lot": [
+      "dep:parking_lot_core"
+    ],
+    "portable-atomic": [
+      "dep:portable-atomic"
+    ],
+    "race": [],
+    "std": [
+      "alloc"
+    ],
+    "unstable": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2699,
+    "login": "matklad"
+  },
+  "publishedAt": "2026-03-12T10:59:52.512992Z",
+  "dependencies": [
+    "critical-section",
+    "regex",
+    "critical-section",
+    "parking_lot_core",
+    "portable-atomic"
+  ]
+}

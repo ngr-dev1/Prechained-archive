@@ -1,0 +1,69 @@
+{
+  "name": "derive_more",
+  "version": "0.99.4",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "71384e8785f24a1754e9c7be805f5e5ca3a2663c6bd49ed7090b4941085de42c",
+  "features": {
+    "add": [],
+    "add_assign": [],
+    "as_mut": [],
+    "as_ref": [],
+    "constructor": [],
+    "default": [
+      "add_assign",
+      "add",
+      "as_mut",
+      "as_ref",
+      "constructor",
+      "deref",
+      "deref_mut",
+      "display",
+      "error",
+      "from",
+      "from_str",
+      "index",
+      "index_mut",
+      "into",
+      "into_iterator",
+      "iterator",
+      "mul_assign",
+      "mul",
+      "not",
+      "sum",
+      "try_into"
+    ],
+    "deref": [],
+    "deref_mut": [],
+    "display": [],
+    "error": [],
+    "from": [],
+    "from_str": [],
+    "generate-parsing-rs": [
+      "peg"
+    ],
+    "index": [],
+    "index_mut": [],
+    "into": [],
+    "into_iterator": [],
+    "iterator": [],
+    "mul": [],
+    "mul_assign": [],
+    "nightly": [],
+    "not": [],
+    "sum": [],
+    "try_into": []
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 3797,
+    "login": "JelteF"
+  },
+  "publishedAt": "2020-03-28T10:28:18.609696Z",
+  "dependencies": [
+    "proc-macro2",
+    "quote",
+    "syn",
+    "peg"
+  ]
+}

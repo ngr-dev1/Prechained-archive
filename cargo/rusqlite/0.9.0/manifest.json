@@ -1,0 +1,32 @@
+{
+  "name": "rusqlite",
+  "version": "0.9.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "f46e04acb4285628ccf57d501222851498d368f97a5d3b8787a26486a4bc2753",
+  "features": {
+    "backup": [],
+    "blob": [],
+    "bundled": [
+      "libsqlite3-sys/bundled"
+    ],
+    "functions": [],
+    "load_extension": [],
+    "trace": []
+  },
+  "yanked": true,
+  "published_by": null,
+  "publishedAt": "2017-01-20T20:25:03.673581Z",
+  "dependencies": [
+    "bitflags",
+    "lazy_static",
+    "libc",
+    "libsqlite3-sys",
+    "lru-cache",
+    "regex",
+    "tempdir",
+    "time",
+    "chrono",
+    "serde_json"
+  ]
+}

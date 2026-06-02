@@ -1,0 +1,73 @@
+{
+  "name": "derive_more",
+  "version": "0.99.6",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "46b046a346c374c6c3c84d2070bfe33904504686bdf949c2d8eb22edad3f270c",
+  "features": {
+    "add": [],
+    "add_assign": [],
+    "as_mut": [],
+    "as_ref": [],
+    "constructor": [],
+    "default": [
+      "add_assign",
+      "add",
+      "as_mut",
+      "as_ref",
+      "constructor",
+      "deref",
+      "deref_mut",
+      "display",
+      "error",
+      "from",
+      "from_str",
+      "index",
+      "index_mut",
+      "into",
+      "into_iterator",
+      "iterator",
+      "mul_assign",
+      "mul",
+      "not",
+      "sum",
+      "try_into"
+    ],
+    "deref": [],
+    "deref_mut": [],
+    "display": [],
+    "error": [],
+    "from": [],
+    "from_str": [],
+    "generate-parsing-rs": [
+      "peg"
+    ],
+    "index": [],
+    "index_mut": [],
+    "into": [],
+    "into_iterator": [],
+    "iterator": [],
+    "mul": [],
+    "mul_assign": [],
+    "nightly": [],
+    "not": [],
+    "sum": [],
+    "testing-helpers": [
+      "rustc_version"
+    ],
+    "try_into": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3797,
+    "login": "JelteF"
+  },
+  "publishedAt": "2020-05-13T20:42:14.886643Z",
+  "dependencies": [
+    "proc-macro2",
+    "quote",
+    "syn",
+    "peg",
+    "rustc_version"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "salvo",
+  "version": "0.11.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "edf8cf2c4c1e1eae390989ca840981aa2c50a488feb9925248d2ad073df35147",
+  "features": {
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic_auth": [
+      "salvo_extra/basic_auth"
+    ],
+    "compression": [
+      "salvo_extra/compression"
+    ],
+    "cors": [
+      "salvo_extra/cors"
+    ],
+    "default": [],
+    "extra": [
+      "basic_auth",
+      "jwt_auth",
+      "compression",
+      "cors",
+      "proxy",
+      "serve",
+      "sse",
+      "ws",
+      "size_limiter"
+    ],
+    "full": [
+      "extra",
+      "tls",
+      "anyhow"
+    ],
+    "jwt_auth": [
+      "salvo_extra/jwt_auth"
+    ],
+    "proxy": [
+      "salvo_extra/proxy"
+    ],
+    "serve": [
+      "salvo_extra/serve"
+    ],
+    "size_limiter": [
+      "salvo_extra/size_limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "tls": [
+      "salvo_core/tls"
+    ],
+    "ws": [
+      "salvo_extra/ws"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn"
+  },
+  "publishedAt": "2021-04-30T01:02:12.109631Z",
+  "dependencies": [
+    "futures",
+    "once_cell",
+    "reqwest",
+    "salvo_core",
+    "serde",
+    "serde_derive",
+    "tokio",
+    "tokio-stream",
+    "tracing",
+    "tracing-futures",
+    "tracing-log",
+    "tracing-subscriber",
+    "salvo_extra"
+  ]
+}

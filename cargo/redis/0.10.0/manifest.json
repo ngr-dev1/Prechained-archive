@@ -1,0 +1,41 @@
+{
+  "name": "redis",
+  "version": "0.10.0",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "b543b95de413ac964ca609e91fd9fd58419312e69988fb197f3ff8770312a1af",
+  "features": {
+    "with-rustc-json": [
+      "rustc-serialize"
+    ],
+    "with-system-unix-sockets": [],
+    "with-unix-sockets": [
+      "unix_socket",
+      "tokio-uds"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2019-02-19T20:55:52.378550Z",
+  "dependencies": [
+    "bytes",
+    "combine",
+    "criterion",
+    "fnv",
+    "futures",
+    "net2",
+    "partial-io",
+    "quickcheck",
+    "rand",
+    "sha1",
+    "tokio",
+    "tokio-codec",
+    "tokio-executor",
+    "tokio-io",
+    "tokio-tcp",
+    "url",
+    "rustc-serialize",
+    "tokio-uds",
+    "unix_socket"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "ed25519-dalek",
+  "version": "0.4.0",
+  "ecosystem": "cargo",
+  "license": "CC0-1.0",
+  "checksum": "d56bc87725485bc965978b7924a65b7e4fd13b534a99d03843cd43891338cadb",
+  "features": {
+    "asm": [
+      "sha2/asm"
+    ],
+    "bench": [],
+    "default": [
+      "std"
+    ],
+    "nightly": [
+      "curve25519-dalek/nightly"
+    ],
+    "std": [
+      "rand",
+      "curve25519-dalek/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-08-02T19:43:51.287853Z",
+  "dependencies": [
+    "arrayref",
+    "curve25519-dalek",
+    "digest",
+    "generic-array",
+    "rustc-serialize",
+    "sha2",
+    "subtle",
+    "rand"
+  ]
+}

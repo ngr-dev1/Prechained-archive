@@ -1,0 +1,75 @@
+{
+  "name": "actix-web",
+  "version": "0.4.8",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "64418d999b920a71215b7eb5a1ca7cd5ef94bfe41be5beb4a97140c38aeb06b0",
+  "features": {
+    "alpn": [
+      "openssl",
+      "openssl/v102",
+      "openssl/v110",
+      "tokio-openssl"
+    ],
+    "default": [
+      "session"
+    ],
+    "session": [
+      "cookie/secure"
+    ],
+    "tls": [
+      "native-tls",
+      "tokio-tls"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-03-12T17:51:48.509419Z",
+  "dependencies": [
+    "actix",
+    "base64",
+    "bitflags",
+    "brotli2",
+    "byteorder",
+    "bytes",
+    "cookie",
+    "encoding",
+    "env_logger",
+    "failure",
+    "flate2",
+    "futures",
+    "futures-cpupool",
+    "h2",
+    "http",
+    "http-range",
+    "httparse",
+    "language-tags",
+    "libc",
+    "log",
+    "mime",
+    "mime_guess",
+    "mio",
+    "net2",
+    "num_cpus",
+    "percent-encoding",
+    "rand",
+    "regex",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "sha1",
+    "skeptic",
+    "skeptic",
+    "smallvec",
+    "time",
+    "tokio-core",
+    "tokio-io",
+    "trust-dns-resolver",
+    "url",
+    "version_check",
+    "native-tls",
+    "openssl",
+    "tokio-openssl",
+    "tokio-tls"
+  ]
+}

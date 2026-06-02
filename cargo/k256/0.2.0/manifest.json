@@ -1,0 +1,33 @@
+{
+  "name": "k256",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "f8a010224d825405c12a840fc269094683abe1282222f46c368318a02fa8876b",
+  "features": {
+    "arithmetic": [
+      "subtle"
+    ],
+    "default": [
+      "arithmetic",
+      "std"
+    ],
+    "std": [
+      "elliptic-curve/std"
+    ],
+    "test-vectors": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2020-05-01T14:01:03.732434Z",
+  "dependencies": [
+    "elliptic-curve",
+    "fiat-crypto",
+    "hex",
+    "proptest",
+    "subtle"
+  ]
+}

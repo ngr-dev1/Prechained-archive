@@ -1,0 +1,30 @@
+{
+  "name": "zip",
+  "version": "0.5.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "00acf1fafb786ff450b6726e5be41ef029142597b47a40ce80f952f1471730a0",
+  "features": {
+    "default": [
+      "bzip2",
+      "deflate",
+      "time"
+    ],
+    "deflate": [
+      "libflate"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-11-17T11:28:12.183284Z",
+  "dependencies": [
+    "bencher",
+    "crc32fast",
+    "podio",
+    "rand",
+    "walkdir",
+    "bzip2",
+    "libflate",
+    "time"
+  ]
+}

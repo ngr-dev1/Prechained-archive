@@ -1,0 +1,44 @@
+{
+  "name": "zerocopy",
+  "version": "0.8.37",
+  "ecosystem": "cargo",
+  "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+  "checksum": "7456cf00f0685ad319c5b1693f291a650eaf345e941d082fc4e03df8a03996ac",
+  "features": {
+    "__internal_use_only_features_that_work_on_stable": [
+      "alloc",
+      "derive",
+      "simd",
+      "std"
+    ],
+    "alloc": [],
+    "derive": [
+      "zerocopy-derive"
+    ],
+    "float-nightly": [],
+    "simd": [],
+    "simd-nightly": [
+      "simd"
+    ],
+    "std": [
+      "alloc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 7178,
+    "login": "joshlf"
+  },
+  "publishedAt": "2026-01-30T17:33:09.881425Z",
+  "dependencies": [
+    "elain",
+    "itertools",
+    "rand",
+    "rustversion",
+    "static_assertions",
+    "trybuild",
+    "zerocopy-derive",
+    "zerocopy-derive",
+    "zerocopy-derive"
+  ]
+}

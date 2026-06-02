@@ -1,0 +1,38 @@
+{
+  "name": "nx",
+  "version": "0.7.3",
+  "ecosystem": "npm",
+  "description": "The core Nx plugin contains the core functionality of Nx like the project graph, nx commands and task orchestration.",
+  "dependencies": {
+    "nx-core": ">= 0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install": null,
+    "preinstall": "node-waf clean || true; node-waf configure build",
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "kotsutsumi",
+      "email": "kotsutsumi@xenophy.com"
+    }
+  ],
+  "author": {
+    "name": "Kazuhiro Kotsutsumi",
+    "email": "kotsutsumi@xenophy.com"
+  },
+  "publishedAt": "2011-12-08T06:49:58.515Z",
+  "dist": {
+    "integrity": "sha512-JPfTgSoaNSks1ImB0d4KN2LuBRJKyBFQV1r5L7eVVLsu3z8Aoz5t1XeUBfRnM+FBBqJbs4m6SnHCwqJ79FNmLA==",
+    "shasum": "86d55ca2faa7e666304964d647fc7e2831cda8c4",
+    "tarball": "https://registry.npmjs.org/nx/-/nx-0.7.3.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "kotsutsumi",
+    "email": "kotsutsumi@xenophy.com"
+  }
+}

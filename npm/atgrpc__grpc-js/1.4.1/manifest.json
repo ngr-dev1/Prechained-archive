@@ -1,0 +1,69 @@
+{
+  "name": "@grpc/grpc-js",
+  "version": "1.4.1",
+  "ecosystem": "npm",
+  "description": "gRPC Library for Node - pure JS implementation",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@types/node": ">=12.12.47",
+    "@grpc/proto-loader": "^0.6.4"
+  },
+  "devDependencies": {
+    "gts": "^2.0.0",
+    "ncp": "^2.0.0",
+    "gulp": "^4.0.2",
+    "pify": "^4.0.1",
+    "execa": "^2.0.3",
+    "madge": "^5.0.1",
+    "yargs": "^15.4.1",
+    "lodash": "^4.17.4",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.3.0",
+    "@types/ncp": "^2.0.1",
+    "gulp-mocha": "^6.0.0",
+    "typescript": "^3.7.2",
+    "@types/gulp": "^4.0.6",
+    "@types/pify": "^3.0.2",
+    "@types/mocha": "^5.2.6",
+    "@types/yargs": "^15.0.5",
+    "clang-format": "^1.0.55",
+    "@types/lodash": "^4.14.108",
+    "@types/gulp-mocha": "0.0.32",
+    "mocha-jenkins-reporter": "^0.4.1"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "npm run generate-types && npm run compile"
+  },
+  "maintainers": [
+    {
+      "name": "murgatroid99",
+      "email": "mlumish@google.com"
+    },
+    {
+      "name": "grpc-packages",
+      "email": "grpc-packages@google.com"
+    },
+    {
+      "name": "nicolasnoble",
+      "email": "nicolas@nobis-crew.org"
+    }
+  ],
+  "author": {
+    "name": "Google Inc."
+  },
+  "publishedAt": "2021-10-13T18:24:25.516Z",
+  "dist": {
+    "integrity": "sha512-/chkA48TdAvATHA7RXJPeHQLdfFhpu51974s8htjO/XTDHA41j5+SkR5Io+lr9XsLmkZD6HxLyRAFGmA9wjO2w==",
+    "shasum": "799063a4ff7395987d4fceb2aab133629b003840",
+    "tarball": "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.4.1.tgz",
+    "fileCount": 388,
+    "unpackedSize": 1318824
+  },
+  "_npmUser": {
+    "name": "murgatroid99",
+    "email": "mlumish@google.com"
+  }
+}

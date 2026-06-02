@@ -1,0 +1,95 @@
+{
+  "name": "rustix",
+  "version": "0.34.5",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "3d275ec42d7bd48e2863912dd8075a4d7376c6f1433b922a0175578b5c7725ce",
+  "features": {
+    "all-apis": [
+      "io_uring",
+      "procfs"
+    ],
+    "all-impls": [
+      "async-std",
+      "tokio",
+      "os_pipe",
+      "socket2",
+      "mio",
+      "fs-err"
+    ],
+    "async-std": [
+      "io-lifetimes/async-std"
+    ],
+    "default": [
+      "std"
+    ],
+    "fs-err": [
+      "io-lifetimes/fs-err"
+    ],
+    "io_uring": [
+      "linux-raw-sys"
+    ],
+    "mio": [
+      "io-lifetimes/mio"
+    ],
+    "os_pipe": [
+      "io-lifetimes/os_pipe"
+    ],
+    "procfs": [
+      "once_cell",
+      "itoa"
+    ],
+    "rustc-dep-of-std": [
+      "core",
+      "alloc",
+      "compiler_builtins",
+      "linux-raw-sys/rustc-dep-of-std",
+      "bitflags/rustc-dep-of-std",
+      "libc/rustc-dep-of-std"
+    ],
+    "socket2": [
+      "io-lifetimes/socket2"
+    ],
+    "std": [
+      "io-lifetimes"
+    ],
+    "tokio": [
+      "io-lifetimes/tokio"
+    ],
+    "use-libc": [
+      "errno",
+      "libc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode"
+  },
+  "publishedAt": "2022-04-28T22:53:16.640199Z",
+  "dependencies": [
+    "bitflags",
+    "criterion",
+    "ctor",
+    "errno",
+    "errno",
+    "libc",
+    "libc",
+    "linux-raw-sys",
+    "memoffset",
+    "serial_test",
+    "tempfile",
+    "winapi",
+    "winapi",
+    "cc",
+    "compiler_builtins",
+    "errno",
+    "io-lifetimes",
+    "itoa",
+    "libc",
+    "linux-raw-sys",
+    "once_cell",
+    "rustc-std-workspace-alloc",
+    "rustc-std-workspace-core"
+  ]
+}

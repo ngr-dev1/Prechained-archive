@@ -1,0 +1,124 @@
+{
+  "name": "poem",
+  "version": "1.2.16",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "c7e81913aa164826274971659a658498c5f4794175353b0e096e2e06bd9ff7a8",
+  "features": {
+    "compression": [
+      "async-compression",
+      "typed-headers"
+    ],
+    "cookie": [
+      "libcookie",
+      "chrono",
+      "time"
+    ],
+    "csrf": [
+      "cookie",
+      "base64",
+      "libcsrf"
+    ],
+    "default": [],
+    "multipart": [
+      "multer"
+    ],
+    "native-tls": [
+      "tokio-native-tls"
+    ],
+    "opentelemetry": [
+      "libopentelemetry",
+      "opentelemetry-http",
+      "opentelemetry-semantic-conventions"
+    ],
+    "prometheus": [
+      "libopentelemetry",
+      "opentelemetry-prometheus",
+      "libprometheus"
+    ],
+    "redis-session": [
+      "session",
+      "redis"
+    ],
+    "rustls": [
+      "tokio-rustls"
+    ],
+    "session": [
+      "cookie",
+      "rand",
+      "priority-queue"
+    ],
+    "sse": [],
+    "static-files": [
+      "httpdate"
+    ],
+    "tempfile": [
+      "libtempfile"
+    ],
+    "tower-compat": [
+      "tower"
+    ],
+    "websocket": [
+      "tokio-tungstenite",
+      "sha1",
+      "base64"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66052,
+    "login": "sunli829"
+  },
+  "publishedAt": "2021-12-29T02:39:07.603712Z",
+  "dependencies": [
+    "async-stream",
+    "async-trait",
+    "bytes",
+    "futures-util",
+    "headers",
+    "http",
+    "hyper",
+    "mime",
+    "mime_guess",
+    "parking_lot",
+    "percent-encoding",
+    "pin-project-lite",
+    "poem-derive",
+    "regex",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "smallvec",
+    "thiserror",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tracing",
+    "webpki",
+    "anyhow",
+    "async-compression",
+    "base64",
+    "chrono",
+    "cookie",
+    "csrf",
+    "httpdate",
+    "multer",
+    "opentelemetry",
+    "opentelemetry-http",
+    "opentelemetry-prometheus",
+    "opentelemetry-semantic-conventions",
+    "priority-queue",
+    "prometheus",
+    "rand",
+    "redis",
+    "sha1",
+    "tempfile",
+    "time",
+    "tokio-native-tls",
+    "tokio-rustls",
+    "tokio-tungstenite",
+    "tower",
+    "typed-headers"
+  ]
+}

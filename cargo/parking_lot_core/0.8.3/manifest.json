@@ -1,0 +1,32 @@
+{
+  "name": "parking_lot_core",
+  "version": "0.8.3",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "fa7a782938e745763fe6907fc6ba86946d72f49fe7e21de074e08128a99fb018",
+  "features": {
+    "deadlock_detection": [
+      "petgraph",
+      "thread-id",
+      "backtrace"
+    ],
+    "nightly": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2915,
+    "login": "Amanieu"
+  },
+  "publishedAt": "2021-02-12T19:14:23.619900Z",
+  "dependencies": [
+    "cfg-if",
+    "instant",
+    "libc",
+    "redox_syscall",
+    "smallvec",
+    "winapi",
+    "backtrace",
+    "petgraph",
+    "thread-id"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "config",
+  "version": "0.4.1",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "51517c6ffbd1201b94b75dc16d00978696db5a82292d74fc7375731e79e92cea",
+  "features": {
+    "default": [
+      "toml"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-02-12T19:05:30.800587Z",
+  "dependencies": [
+    "nom",
+    "serde_json",
+    "toml",
+    "yaml-rust"
+  ]
+}

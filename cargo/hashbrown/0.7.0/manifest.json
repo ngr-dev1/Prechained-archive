@@ -1,0 +1,49 @@
+{
+  "name": "hashbrown",
+  "version": "0.7.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "728e7d31e63d53c436094370f1e6fa249f60a4bb318cc5dfbbbe0aa2bc5a29d7",
+  "features": {
+    "ahash-compile-time-rng": [
+      "ahash/compile-time-rng"
+    ],
+    "default": [
+      "ahash",
+      "ahash-compile-time-rng",
+      "inline-more"
+    ],
+    "inline-more": [],
+    "nightly": [],
+    "raw": [],
+    "rustc-dep-of-std": [
+      "nightly",
+      "core",
+      "compiler_builtins",
+      "alloc",
+      "rustc-internal-api"
+    ],
+    "rustc-internal-api": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2915,
+    "login": "Amanieu"
+  },
+  "publishedAt": "2020-01-31T01:48:33.392903Z",
+  "dependencies": [
+    "autocfg",
+    "doc-comment",
+    "lazy_static",
+    "rand",
+    "rayon",
+    "rustc-hash",
+    "serde_test",
+    "ahash",
+    "compiler_builtins",
+    "rayon",
+    "rustc-std-workspace-alloc",
+    "rustc-std-workspace-core",
+    "serde"
+  ]
+}

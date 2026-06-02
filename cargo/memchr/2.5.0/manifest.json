@@ -1,0 +1,32 @@
+{
+  "name": "memchr",
+  "version": "2.5.0",
+  "ecosystem": "cargo",
+  "license": "Unlicense/MIT",
+  "checksum": "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "rustc-dep-of-std": [
+      "core",
+      "compiler_builtins"
+    ],
+    "std": [],
+    "use_std": [
+      "std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 189,
+    "login": "BurntSushi"
+  },
+  "publishedAt": "2022-04-30T17:29:35.225543Z",
+  "dependencies": [
+    "quickcheck",
+    "compiler_builtins",
+    "libc",
+    "rustc-std-workspace-core"
+  ]
+}

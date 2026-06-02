@@ -1,0 +1,192 @@
+{
+  "name": "salvo",
+  "version": "0.55.4",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "f626afef573fa2f34513837e29739dc4bbd1704e8a76fc3b5970f0b378252437",
+  "features": {
+    "acme": [
+      "salvo_core/acme"
+    ],
+    "affix": [
+      "salvo_extra/affix"
+    ],
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic-auth": [
+      "salvo_extra/basic-auth"
+    ],
+    "cache": [
+      "dep:salvo-cache"
+    ],
+    "caching-headers": [
+      "salvo_extra/caching-headers"
+    ],
+    "catch-panic": [
+      "salvo_extra/catch-panic"
+    ],
+    "compression": [
+      "dep:salvo-compression"
+    ],
+    "concurrency-limiter": [
+      "salvo_extra/concurrency-limiter"
+    ],
+    "cookie": [
+      "salvo_core/cookie"
+    ],
+    "cors": [
+      "dep:salvo-cors"
+    ],
+    "csrf": [
+      "dep:salvo-csrf"
+    ],
+    "default": [
+      "cookie",
+      "http1",
+      "fix-http1-request-uri",
+      "http2",
+      "test"
+    ],
+    "eyre": [
+      "salvo_core/eyre"
+    ],
+    "fix-http1-request-uri": [
+      "salvo_core/fix-http1-request-uri"
+    ],
+    "flash": [
+      "dep:salvo-flash"
+    ],
+    "force-https": [
+      "salvo_extra/force-https"
+    ],
+    "full": [
+      "cookie",
+      "http1",
+      "fix-http1-request-uri",
+      "http2",
+      "quinn",
+      "rustls",
+      "native-tls",
+      "openssl",
+      "unix",
+      "acme",
+      "anyhow",
+      "eyre",
+      "test",
+      "affix",
+      "basic-auth",
+      "force-https",
+      "jwt-auth",
+      "catch-panic",
+      "compression",
+      "logging",
+      "proxy",
+      "concurrency-limiter",
+      "rate-limiter",
+      "sse",
+      "trailing-slash",
+      "timeout",
+      "websocket",
+      "request-id",
+      "caching-headers",
+      "cache",
+      "cors",
+      "csrf",
+      "flash",
+      "rate-limiter",
+      "session",
+      "serve-static",
+      "otel",
+      "oapi"
+    ],
+    "http1": [
+      "salvo_core/http1"
+    ],
+    "http2": [
+      "salvo_core/http2"
+    ],
+    "jwt-auth": [
+      "dep:salvo-jwt-auth"
+    ],
+    "logging": [
+      "salvo_extra/logging"
+    ],
+    "native-tls": [
+      "salvo_core/native-tls"
+    ],
+    "oapi": [
+      "dep:salvo-oapi"
+    ],
+    "openssl": [
+      "salvo_core/openssl"
+    ],
+    "otel": [
+      "dep:salvo-otel"
+    ],
+    "proxy": [
+      "salvo-proxy"
+    ],
+    "quinn": [
+      "salvo_core/quinn"
+    ],
+    "rate-limiter": [
+      "dep:salvo-rate-limiter"
+    ],
+    "request-id": [
+      "salvo_extra/request-id"
+    ],
+    "rustls": [
+      "salvo_core/rustls"
+    ],
+    "serve-static": [
+      "dep:salvo-serve-static"
+    ],
+    "session": [
+      "dep:salvo-session"
+    ],
+    "size-limiter": [
+      "salvo_extra/size-limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "test": [
+      "salvo_core/test"
+    ],
+    "timeout": [
+      "salvo_extra/timeout"
+    ],
+    "trailing-slash": [
+      "salvo_extra/trailing-slash"
+    ],
+    "unix": [
+      "salvo_core/unix"
+    ],
+    "websocket": [
+      "salvo_extra/websocket"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn"
+  },
+  "publishedAt": "2023-09-19T03:12:08.695555Z",
+  "dependencies": [
+    "salvo_core",
+    "salvo-cache",
+    "salvo-compression",
+    "salvo-cors",
+    "salvo-csrf",
+    "salvo-flash",
+    "salvo-jwt-auth",
+    "salvo-oapi",
+    "salvo-otel",
+    "salvo-proxy",
+    "salvo-rate-limiter",
+    "salvo-serve-static",
+    "salvo-session",
+    "salvo_extra"
+  ]
+}

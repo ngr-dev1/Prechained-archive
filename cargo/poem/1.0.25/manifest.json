@@ -1,0 +1,118 @@
+{
+  "name": "poem",
+  "version": "1.0.25",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "040319d0365fc2539bac60b45a9f59c9512ab4345b58d694967620d705771bd5",
+  "features": {
+    "compression": [
+      "async-compression",
+      "typed-headers"
+    ],
+    "cookie": [
+      "libcookie",
+      "chrono",
+      "time"
+    ],
+    "default": [],
+    "multipart": [
+      "multer"
+    ],
+    "native-tls": [
+      "tokio-native-tls"
+    ],
+    "opentelemetry": [
+      "libopentelemetry",
+      "opentelemetry-http",
+      "opentelemetry-semantic-conventions"
+    ],
+    "prometheus": [
+      "libopentelemetry",
+      "opentelemetry-prometheus",
+      "libprometheus"
+    ],
+    "redis-session": [
+      "session",
+      "redis"
+    ],
+    "rustls": [
+      "tokio-rustls"
+    ],
+    "session": [
+      "cookie",
+      "rand",
+      "priority-queue"
+    ],
+    "sse": [],
+    "staticfiles": [
+      "askama"
+    ],
+    "tempfile": [
+      "libtempfile"
+    ],
+    "template": [
+      "askama"
+    ],
+    "tower-compat": [
+      "tower"
+    ],
+    "websocket": [
+      "tokio-tungstenite"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66052,
+    "login": "sunli829"
+  },
+  "publishedAt": "2021-11-15T03:28:24.574364Z",
+  "dependencies": [
+    "async-stream",
+    "async-trait",
+    "base64",
+    "bytes",
+    "futures-util",
+    "headers",
+    "http",
+    "hyper",
+    "mime",
+    "mime_guess",
+    "nom",
+    "parking_lot",
+    "percent-encoding",
+    "pin-project-lite",
+    "poem-derive",
+    "regex",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "sha1",
+    "smallvec",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tracing",
+    "webpki",
+    "askama",
+    "async-compression",
+    "chrono",
+    "cookie",
+    "multer",
+    "opentelemetry",
+    "opentelemetry-http",
+    "opentelemetry-prometheus",
+    "opentelemetry-semantic-conventions",
+    "priority-queue",
+    "prometheus",
+    "rand",
+    "redis",
+    "tempfile",
+    "time",
+    "tokio-native-tls",
+    "tokio-rustls",
+    "tokio-tungstenite",
+    "tower",
+    "typed-headers"
+  ]
+}

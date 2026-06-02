@@ -1,0 +1,73 @@
+{
+  "name": "proptest",
+  "version": "1.5.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b4c2511913b88df1637da85cc8d96ec8e43a3f8bb8ccb71ee1ac240d6f3df58d",
+  "features": {
+    "alloc": [],
+    "atomic64bit": [],
+    "attr-macro": [
+      "proptest-macro"
+    ],
+    "bit-set": [
+      "dep:bit-set",
+      "dep:bit-vec"
+    ],
+    "default": [
+      "std",
+      "fork",
+      "timeout",
+      "bit-set"
+    ],
+    "default-code-coverage": [
+      "std",
+      "fork",
+      "timeout",
+      "bit-set"
+    ],
+    "fork": [
+      "std",
+      "rusty-fork",
+      "tempfile"
+    ],
+    "hardware-rng": [
+      "x86"
+    ],
+    "std": [
+      "rand/std",
+      "lazy_static",
+      "regex-syntax",
+      "num-traits/std"
+    ],
+    "timeout": [
+      "fork",
+      "rusty-fork/timeout"
+    ],
+    "unstable": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 43982,
+    "login": "matthew-russo"
+  },
+  "publishedAt": "2024-06-22T18:24:33.846481Z",
+  "dependencies": [
+    "bitflags",
+    "num-traits",
+    "rand",
+    "rand_chacha",
+    "rand_xorshift",
+    "regex",
+    "trybuild",
+    "unarray",
+    "bit-set",
+    "bit-vec",
+    "lazy_static",
+    "proptest-macro",
+    "regex-syntax",
+    "rusty-fork",
+    "tempfile",
+    "x86"
+  ]
+}

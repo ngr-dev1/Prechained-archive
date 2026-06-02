@@ -1,0 +1,58 @@
+{
+  "name": "image",
+  "version": "0.10.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "e59dd725312ef944181cc139c57a926ca7aeb88611b319879682c5aa9d834ce3",
+  "features": {
+    "bmp": [],
+    "default": [
+      "gif_codec",
+      "jpeg",
+      "ico",
+      "png_codec",
+      "ppm",
+      "tga",
+      "tiff",
+      "webp",
+      "bmp",
+      "hdr"
+    ],
+    "gif_codec": [
+      "gif"
+    ],
+    "hdr": [
+      "scoped_threadpool"
+    ],
+    "ico": [
+      "bmp",
+      "png_codec"
+    ],
+    "jpeg": [
+      "jpeg-decoder"
+    ],
+    "png_codec": [
+      "png"
+    ],
+    "ppm": [],
+    "tga": [],
+    "tiff": [],
+    "webp": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-08-13T09:11:46.802385Z",
+  "dependencies": [
+    "byteorder",
+    "enum_primitive",
+    "glob",
+    "num-complex",
+    "num-iter",
+    "num-rational",
+    "num-traits",
+    "gif",
+    "jpeg-decoder",
+    "png",
+    "scoped_threadpool"
+  ]
+}

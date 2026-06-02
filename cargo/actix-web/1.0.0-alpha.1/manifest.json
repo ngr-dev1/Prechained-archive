@@ -1,0 +1,85 @@
+{
+  "name": "actix-web",
+  "version": "1.0.0-alpha.1",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "1820b97bdb8550f65be53eb2eb9838ae2b93a4b8abc55b062dd352a259ae9f55",
+  "features": {
+    "brotli": [
+      "actix-http/brotli2"
+    ],
+    "client": [
+      "awc"
+    ],
+    "cookies": [
+      "cookie",
+      "actix-http/cookies"
+    ],
+    "default": [
+      "brotli",
+      "flate2-zlib",
+      "cookies",
+      "client"
+    ],
+    "flate2-rust": [
+      "actix-http/flate2-rust"
+    ],
+    "flate2-zlib": [
+      "actix-http/flate2-zlib"
+    ],
+    "ssl": [
+      "openssl",
+      "actix-server/ssl"
+    ],
+    "tls": [
+      "native-tls",
+      "actix-server/ssl"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 7201,
+    "login": "fafhrd91"
+  },
+  "publishedAt": "2019-03-28T20:22:07.796951Z",
+  "dependencies": [
+    "actix-codec",
+    "actix-http",
+    "actix-http",
+    "actix-http-test",
+    "actix-router",
+    "actix-rt",
+    "actix-server",
+    "actix-server-config",
+    "actix-service",
+    "actix-threadpool",
+    "actix-utils",
+    "actix-web-codegen",
+    "brotli2",
+    "bytes",
+    "derive_more",
+    "encoding",
+    "env_logger",
+    "flate2",
+    "futures",
+    "hashbrown",
+    "httparse",
+    "log",
+    "mime",
+    "net2",
+    "parking_lot",
+    "rand",
+    "regex",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_urlencoded",
+    "time",
+    "tokio-timer",
+    "url",
+    "awc",
+    "cookie",
+    "native-tls",
+    "openssl"
+  ]
+}

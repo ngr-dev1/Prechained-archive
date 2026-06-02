@@ -1,0 +1,120 @@
+{
+  "name": "regex",
+  "version": "1.11.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "23d7fd106d8c02486a8d64e778353d1cffe08ce79ac2e82f540c86d0facf6912",
+  "features": {
+    "default": [
+      "std",
+      "perf",
+      "unicode",
+      "regex-syntax/default"
+    ],
+    "logging": [
+      "aho-corasick?/logging",
+      "memchr?/logging",
+      "regex-automata/logging"
+    ],
+    "pattern": [],
+    "perf": [
+      "perf-cache",
+      "perf-dfa",
+      "perf-onepass",
+      "perf-backtrack",
+      "perf-inline",
+      "perf-literal"
+    ],
+    "perf-backtrack": [
+      "regex-automata/nfa-backtrack"
+    ],
+    "perf-cache": [],
+    "perf-dfa": [
+      "regex-automata/hybrid"
+    ],
+    "perf-dfa-full": [
+      "regex-automata/dfa-build",
+      "regex-automata/dfa-search"
+    ],
+    "perf-inline": [
+      "regex-automata/perf-inline"
+    ],
+    "perf-literal": [
+      "dep:aho-corasick",
+      "dep:memchr",
+      "regex-automata/perf-literal"
+    ],
+    "perf-onepass": [
+      "regex-automata/dfa-onepass"
+    ],
+    "std": [
+      "aho-corasick?/std",
+      "memchr?/std",
+      "regex-automata/std",
+      "regex-syntax/std"
+    ],
+    "unicode": [
+      "unicode-age",
+      "unicode-bool",
+      "unicode-case",
+      "unicode-gencat",
+      "unicode-perl",
+      "unicode-script",
+      "unicode-segment",
+      "regex-automata/unicode",
+      "regex-syntax/unicode"
+    ],
+    "unicode-age": [
+      "regex-automata/unicode-age",
+      "regex-syntax/unicode-age"
+    ],
+    "unicode-bool": [
+      "regex-automata/unicode-bool",
+      "regex-syntax/unicode-bool"
+    ],
+    "unicode-case": [
+      "regex-automata/unicode-case",
+      "regex-syntax/unicode-case"
+    ],
+    "unicode-gencat": [
+      "regex-automata/unicode-gencat",
+      "regex-syntax/unicode-gencat"
+    ],
+    "unicode-perl": [
+      "regex-automata/unicode-perl",
+      "regex-automata/unicode-word-boundary",
+      "regex-syntax/unicode-perl"
+    ],
+    "unicode-script": [
+      "regex-automata/unicode-script",
+      "regex-syntax/unicode-script"
+    ],
+    "unicode-segment": [
+      "regex-automata/unicode-segment",
+      "regex-syntax/unicode-segment"
+    ],
+    "unstable": [
+      "pattern"
+    ],
+    "use_std": [
+      "std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 189,
+    "login": "BurntSushi"
+  },
+  "publishedAt": "2025-08-24T13:41:12.303458Z",
+  "dependencies": [
+    "anyhow",
+    "doc-comment",
+    "env_logger",
+    "quickcheck",
+    "regex-automata",
+    "regex-syntax",
+    "regex-test",
+    "aho-corasick",
+    "memchr"
+  ]
+}

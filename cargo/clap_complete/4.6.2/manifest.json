@@ -1,0 +1,44 @@
+{
+  "name": "clap_complete",
+  "version": "4.6.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "3ff7a1dccbdd8b078c2bdebff47e404615151534d5043da397ec50286816f9cb",
+  "features": {
+    "debug": [
+      "clap/debug"
+    ],
+    "default": [],
+    "unstable-doc": [
+      "unstable-dynamic"
+    ],
+    "unstable-dynamic": [
+      "dep:clap_lex",
+      "dep:shlex",
+      "dep:is_executable",
+      "clap/unstable-ext"
+    ],
+    "unstable-shell-tests": [
+      "dep:completest",
+      "dep:completest-pty"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6743,
+    "login": "epage"
+  },
+  "publishedAt": "2026-04-13T14:19:24.617338Z",
+  "dependencies": [
+    "automod",
+    "clap",
+    "clap",
+    "snapbox",
+    "trycmd",
+    "clap_lex",
+    "completest",
+    "completest-pty",
+    "is_executable",
+    "shlex"
+  ]
+}

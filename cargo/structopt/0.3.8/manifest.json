@@ -1,0 +1,52 @@
+{
+  "name": "structopt",
+  "version": "0.3.8",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "df136b42d76b1fbea72e2ab3057343977b04b4a2e00836c3c7c0673829572713",
+  "features": {
+    "color": [
+      "clap/color"
+    ],
+    "debug": [
+      "clap/debug"
+    ],
+    "default": [
+      "clap/default"
+    ],
+    "doc": [
+      "clap/doc"
+    ],
+    "lints": [
+      "clap/lints"
+    ],
+    "no_cargo": [
+      "clap/no_cargo"
+    ],
+    "paw": [
+      "structopt-derive/paw"
+    ],
+    "suggestions": [
+      "clap/suggestions"
+    ],
+    "wrap_help": [
+      "clap/wrap_help"
+    ],
+    "yaml": [
+      "clap/yaml"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 54029,
+    "login": "CreepySkeleton"
+  },
+  "publishedAt": "2020-01-19T12:50:35.675335Z",
+  "dependencies": [
+    "clap",
+    "lazy_static",
+    "rustversion",
+    "structopt-derive",
+    "trybuild"
+  ]
+}

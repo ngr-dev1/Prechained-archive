@@ -1,0 +1,52 @@
+{
+  "name": "cookie",
+  "version": "0.15.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "d5f1c7727e460397e56abc4bddc1d49e07a1ad78fc98eb2e1c8f032a58a2f80d",
+  "features": {
+    "key-expansion": [
+      "sha2",
+      "hkdf"
+    ],
+    "percent-encode": [
+      "percent-encoding"
+    ],
+    "private": [
+      "aes-gcm",
+      "base64",
+      "rand",
+      "subtle"
+    ],
+    "secure": [
+      "private",
+      "signed",
+      "key-expansion"
+    ],
+    "signed": [
+      "hmac",
+      "sha2",
+      "base64",
+      "rand",
+      "subtle"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3864,
+    "login": "SergioBenitez"
+  },
+  "publishedAt": "2021-07-14T21:29:06.773217Z",
+  "dependencies": [
+    "time",
+    "version_check",
+    "aes-gcm",
+    "base64",
+    "hkdf",
+    "hmac",
+    "percent-encoding",
+    "rand",
+    "sha2",
+    "subtle"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "levelup",
+  "version": "0.5.2",
+  "ecosystem": "npm",
+  "description": "Fast & simple storage - a Node.js-style LevelDB wrapper",
+  "license": "MIT",
+  "dependencies": {
+    "errno": "~0.0.3",
+    "bindings": "~1.0.0",
+    "bufferstream": "~0.5.1",
+    "concat-stream": "~0.0.9"
+  },
+  "devDependencies": {
+    "du": "*",
+    "tar": "*",
+    "async": "*",
+    "buster": "*",
+    "rimraf": "*",
+    "delayed": "*",
+    "fstream": "*",
+    "boganipsum": "*",
+    "mkfiletree": "*",
+    "slow-stream": ">=0.0.3",
+    "readfiletree": "*"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "rvagg",
+      "email": "rod@vagg.org"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2013-01-23T22:32:11.441Z",
+  "dist": {
+    "integrity": "sha512-CjlVbg4BA9+GOeB53s2xl9Vjxpd4HsCqoddkJoYH8ienZEebORtDKExyrIyDSjBeH/5V/nTI+i5kz1ox8npjnQ==",
+    "shasum": "a05df06bca13c0a426ad943c07ae7358e5c6784a",
+    "tarball": "https://registry.npmjs.org/levelup/-/levelup-0.5.2.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "rvagg",
+    "email": "rod@vagg.org"
+  }
+}

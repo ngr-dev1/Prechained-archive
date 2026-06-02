@@ -1,0 +1,29 @@
+{
+  "name": "dotenv",
+  "version": "0.12.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "7caca33722c89a7b87bd2b8181e00a4b52ca36a59bf00a995c19944c630f9dcf",
+  "features": {
+    "backtrace": [
+      "error-chain/backtrace"
+    ],
+    "cli": [
+      "clap"
+    ],
+    "default": [
+      "backtrace"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-05-19T12:55:02.188950Z",
+  "dependencies": [
+    "derive-error-chain",
+    "error-chain",
+    "lazy_static",
+    "regex",
+    "tempdir",
+    "clap"
+  ]
+}

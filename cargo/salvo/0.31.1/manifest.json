@@ -1,0 +1,100 @@
+{
+  "name": "salvo",
+  "version": "0.31.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "1c4d81d1989b3d613a4cdbccbae2295a0f71a7f5760fbb8f4a3314eea763cb01",
+  "features": {
+    "acme": [
+      "salvo_core/acme"
+    ],
+    "affix": [
+      "salvo_extra/affix"
+    ],
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic-auth": [
+      "salvo_extra/basic-auth"
+    ],
+    "compression": [
+      "salvo_extra/compression"
+    ],
+    "cookie": [
+      "salvo_core/cookie"
+    ],
+    "cors": [
+      "salvo_extra/cors"
+    ],
+    "csrf": [
+      "salvo_extra/csrf"
+    ],
+    "default": [
+      "test",
+      "cookie"
+    ],
+    "extra": [
+      "salvo_extra/full"
+    ],
+    "full": [
+      "test",
+      "cookie",
+      "rustls",
+      "native-tls",
+      "openssl",
+      "unix",
+      "acme",
+      "anyhow",
+      "extra"
+    ],
+    "jwt-auth": [
+      "salvo_extra/jwt-auth"
+    ],
+    "logging": [
+      "salvo_extra/logging"
+    ],
+    "native-tls": [
+      "salvo_core/native-tls"
+    ],
+    "openssl": [
+      "salvo_core/openssl"
+    ],
+    "proxy": [
+      "salvo_extra/proxy"
+    ],
+    "rustls": [
+      "salvo_core/rustls"
+    ],
+    "serve-static": [
+      "salvo_extra/serve-static"
+    ],
+    "size-limiter": [
+      "salvo_extra/size-limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "test": [
+      "salvo_core/test"
+    ],
+    "timeout": [
+      "salvo_extra/timeout"
+    ],
+    "unix": [
+      "salvo_core/unix"
+    ],
+    "ws": [
+      "salvo_extra/ws"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn"
+  },
+  "publishedAt": "2022-08-21T04:12:12.674149Z",
+  "dependencies": [
+    "salvo_core",
+    "salvo_extra"
+  ]
+}

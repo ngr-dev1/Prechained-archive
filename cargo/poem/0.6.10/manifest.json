@@ -1,0 +1,71 @@
+{
+  "name": "poem",
+  "version": "0.6.10",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "cbf729a580f7459110aff513a3368cd07c04b2759ec7121aa98d156bdf785bf3",
+  "features": {
+    "compression": [
+      "async-compression",
+      "typed-headers"
+    ],
+    "default": [],
+    "multipart": [
+      "multer"
+    ],
+    "sse": [],
+    "tls": [
+      "tokio-rustls"
+    ],
+    "tower-compat": [
+      "tower"
+    ],
+    "websocket": [
+      "tokio-tungstenite"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66052,
+    "login": "sunli829"
+  },
+  "publishedAt": "2021-09-26T07:05:17.926452Z",
+  "dependencies": [
+    "anyhow",
+    "askama",
+    "async-trait",
+    "base64",
+    "bytes",
+    "cookie",
+    "futures-util",
+    "http",
+    "hyper",
+    "mime",
+    "mime_guess",
+    "nom",
+    "once_cell",
+    "parking_lot",
+    "percent-encoding",
+    "pin-project-lite",
+    "poem-derive",
+    "regex",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "sha1",
+    "smallvec",
+    "thiserror",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "async-compression",
+    "multer",
+    "tempfile",
+    "tokio-rustls",
+    "tokio-tungstenite",
+    "tower",
+    "tracing",
+    "typed-headers"
+  ]
+}

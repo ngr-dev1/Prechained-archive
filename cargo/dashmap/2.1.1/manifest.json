@@ -1,0 +1,31 @@
+{
+  "name": "dashmap",
+  "version": "2.1.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "1cb7ebab7705baa489c3f36e494b59bc16edb4fc5b3341921197270a11259d6a",
+  "features": {
+    "nightly": [
+      "parking_lot/nightly",
+      "dashmap-shard/nightly"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 19646,
+    "login": "xacrimon"
+  },
+  "publishedAt": "2019-12-18T18:38:54.574327Z",
+  "dependencies": [
+    "chashmap",
+    "cht",
+    "contrie",
+    "criterion",
+    "crossbeam-utils",
+    "dashmap-shard",
+    "fxhash",
+    "num_cpus",
+    "parking_lot",
+    "rayon"
+  ]
+}

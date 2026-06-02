@@ -1,0 +1,30 @@
+{
+  "name": "tinyvec",
+  "version": "1.0.0",
+  "ecosystem": "cargo",
+  "license": "Zlib OR Apache-2.0 OR MIT",
+  "checksum": "f331a553cacb14e99d183e5573c86044dd177b5a5277b21e562fd1bd5e1076e1",
+  "features": {
+    "alloc": [
+      "tinyvec_macros"
+    ],
+    "default": [],
+    "experimental_write_impl": [],
+    "grab_spare_slice": [],
+    "nightly_const_generics": [],
+    "nightly_slice_partition_dedup": [],
+    "rustc_1_40": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 7211,
+    "login": "Lokathor"
+  },
+  "publishedAt": "2020-08-28T03:25:19.615697Z",
+  "dependencies": [
+    "criterion",
+    "serde_test",
+    "serde",
+    "tinyvec_macros"
+  ]
+}

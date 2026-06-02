@@ -1,0 +1,127 @@
+{
+  "name": "actix-web",
+  "version": "4.6.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b1cf67dadb19d7c95e5a299e2dda24193b89d5d4f33a3b9800888ede9e19aa32",
+  "features": {
+    "__compress": [],
+    "compress-brotli": [
+      "actix-http/compress-brotli",
+      "__compress"
+    ],
+    "compress-gzip": [
+      "actix-http/compress-gzip",
+      "__compress"
+    ],
+    "compress-zstd": [
+      "actix-http/compress-zstd",
+      "__compress"
+    ],
+    "cookies": [
+      "cookie"
+    ],
+    "default": [
+      "macros",
+      "compress-brotli",
+      "compress-gzip",
+      "compress-zstd",
+      "cookies",
+      "http2",
+      "unicode"
+    ],
+    "experimental-io-uring": [
+      "actix-server/io-uring"
+    ],
+    "http2": [
+      "actix-http/http2"
+    ],
+    "macros": [
+      "actix-macros",
+      "actix-web-codegen"
+    ],
+    "openssl": [
+      "http2",
+      "actix-http/openssl",
+      "actix-tls/accept",
+      "actix-tls/openssl"
+    ],
+    "rustls": [
+      "rustls-0_20"
+    ],
+    "rustls-0_20": [
+      "http2",
+      "actix-http/rustls-0_20",
+      "actix-tls/accept",
+      "actix-tls/rustls-0_20"
+    ],
+    "rustls-0_21": [
+      "http2",
+      "actix-http/rustls-0_21",
+      "actix-tls/accept",
+      "actix-tls/rustls-0_21"
+    ],
+    "rustls-0_22": [
+      "http2",
+      "actix-http/rustls-0_22",
+      "actix-tls/accept",
+      "actix-tls/rustls-0_22"
+    ],
+    "rustls-0_23": [
+      "http2",
+      "actix-http/rustls-0_23",
+      "actix-tls/accept",
+      "actix-tls/rustls-0_23"
+    ],
+    "secure-cookies": [
+      "cookies",
+      "cookie/secure"
+    ],
+    "unicode": [
+      "dep:regex",
+      "actix-router/unicode"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 56903,
+    "login": "robjtede"
+  },
+  "publishedAt": "2024-05-19T11:18:40.208954Z",
+  "dependencies": [
+    "actix-codec",
+    "actix-http",
+    "actix-router",
+    "actix-rt",
+    "actix-server",
+    "actix-service",
+    "actix-utils",
+    "ahash",
+    "bytes",
+    "bytestring",
+    "cfg-if",
+    "derive_more",
+    "encoding_rs",
+    "futures-core",
+    "futures-util",
+    "itoa",
+    "language-tags",
+    "log",
+    "mime",
+    "once_cell",
+    "pin-project-lite",
+    "regex-lite",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "smallvec",
+    "socket2",
+    "time",
+    "url",
+    "actix-macros",
+    "actix-tls",
+    "actix-web-codegen",
+    "cookie",
+    "regex"
+  ]
+}

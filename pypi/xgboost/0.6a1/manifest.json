@@ -1,0 +1,20 @@
+{
+  "name": "xgboost",
+  "version": "0.6a1",
+  "ecosystem": "pypi",
+  "summary": "XGBoost Python Package\n======================\n\n|PyPI version|\n\nInstallation\n------------\n\nWe are on `PyPI <https://pypi.python.org/pypi/xgboost>`__ now. For\nstable version, please install using pip:\n\n-  ``pip install xgboost``\n-  Since this package contains C++ source code, ``pip`` needs a C++ compiler from the system\n   to compile the source code on-the-fly. Please follow the following instruction for each\n   supported platform.\n-  Note for Mac OS X users: please install ``gcc`` from ``brew`` by \n   ``brew tap homebrew/versions; brew install gcc --without-multilib`` firstly.\n-  Note for Linux users: please install ``gcc`` by ``sudo apt-get install build-essential`` firstly\n   or using the corresponding package manager of the system.\n-  Note for windows users: this pip installation may not work on some\n   windows environment, and it may cause unexpected errors. pip\n   installation on windows is currently disabled for further\n   invesigation, please install from github.\n\nFor up-to-date version, please install from github.\n\n-  To make the python module, type ``./build.sh`` in the root directory\n   of project\n-  Make sure you have\n   `setuptools <https://pypi.python.org/pypi/setuptools>`__\n-  Install with ``cd python-package; python setup.py install`` from this directory.\n-  For windows users, please use the Visual Studio project file under\n   `windows folder <../windows/>`__. See also the `installation\n   tutorial <https://www.kaggle.com/c/otto-group-product-classification-challenge/forums/t/13043/run-xgboost-from-windows-and-python>`__\n   from Kaggle Otto Forum.\n-  Add MinGW to the system PATH in Windows if you are using the latest version of xgboost which requires compilation:\n\n    ```python\n    import os\n    os.environ['PATH'] = os.environ['PATH'] + ';C:\\\\Program Files\\\\mingw-w64\\\\x86_64-5.3.0-posix-seh-rt_v4-rev0\\\\mingw64\\\\bin'\n    ```\n\nExamples\n--------\n\n-  Refer also to the walk through example in `demo\n   folder <../demo/guide-python>`__\n-  See also the `example scripts <../demo/kaggle-higgs>`__ for Kaggle\n   Higgs Challenge, including `speedtest\n   script <../demo/kaggle-higgs/speedtest.py>`__ on this dataset.\n\nNote\n----\n\n-  If you want to build xgboost on Mac OS X with multiprocessing support\n   where clang in XCode by default doesn't support, please install gcc\n   4.9 or higher using `homebrew <http://brew.sh/>`__\n   ``brew tap homebrew/versions; brew install gcc --without-multilib``\n-  If you want to run XGBoost process in parallel using the fork backend\n   for joblib/multiprocessing, you must build XGBoost without support\n   for OpenMP by ``make no_omp=1``. Otherwise, use the forkserver (in\n   Python 3.4) or spawn backend. See the\n   `sklearn\\_parallel.py <../demo/guide-python/sklearn_parallel.py>`__\n   demo.\n\n.. |PyPI version| image:: https://badge.fury.io/py/xgboost.svg\n   :target: http://badge.fury.io/py/xgboost",
+  "license": "UNKNOWN",
+  "author": "Hongliang Liu",
+  "author_email": "phunter.lau@gmail.com",
+  "requires_python": null,
+  "requires_dist": [],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2016-08-09T09:42:11",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/7f/36/e55ba853acc85d7ebaddec498c72c768bb2700415c5a2ea967a0b8dc8957/xgboost-0.6a1.tar.gz",
+    "sha256": "919050c614d24917016de1fb4cd54eea513e17b9ba714dc5f55e0f7eb376348d",
+    "size": 1194910,
+    "filename": "xgboost-0.6a1.tar.gz"
+  }
+}

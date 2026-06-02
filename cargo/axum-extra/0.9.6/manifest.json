@@ -1,0 +1,122 @@
+{
+  "name": "axum-extra",
+  "version": "0.9.6",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "c794b30c904f0a1c2fb7740f7df7f7972dfaa14ef6f57cb6178dc63e5dca2f04",
+  "features": {
+    "async-read-body": [
+      "dep:tokio-util",
+      "tokio-util?/io",
+      "dep:tokio"
+    ],
+    "attachment": [
+      "dep:tracing"
+    ],
+    "cookie": [
+      "dep:cookie"
+    ],
+    "cookie-key-expansion": [
+      "cookie",
+      "cookie?/key-expansion"
+    ],
+    "cookie-private": [
+      "cookie",
+      "cookie?/private"
+    ],
+    "cookie-signed": [
+      "cookie",
+      "cookie?/signed"
+    ],
+    "default": [
+      "tracing",
+      "multipart"
+    ],
+    "erased-json": [
+      "dep:serde_json",
+      "dep:typed-json"
+    ],
+    "form": [
+      "dep:serde_html_form"
+    ],
+    "json-deserializer": [
+      "dep:serde_json",
+      "dep:serde_path_to_error"
+    ],
+    "json-lines": [
+      "dep:serde_json",
+      "dep:tokio-util",
+      "dep:tokio-stream",
+      "tokio-util?/io",
+      "tokio-stream?/io-util",
+      "dep:tokio"
+    ],
+    "multipart": [
+      "dep:multer",
+      "dep:fastrand"
+    ],
+    "protobuf": [
+      "dep:prost"
+    ],
+    "query": [
+      "dep:serde_html_form"
+    ],
+    "tracing": [
+      "axum-core/tracing",
+      "axum/tracing"
+    ],
+    "typed-header": [
+      "dep:headers"
+    ],
+    "typed-routing": [
+      "dep:axum-macros",
+      "dep:percent-encoding",
+      "dep:serde_html_form",
+      "dep:form_urlencoded"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6913,
+    "login": "jplatte"
+  },
+  "publishedAt": "2024-11-16T19:38:17.538778Z",
+  "dependencies": [
+    "axum",
+    "axum-core",
+    "bytes",
+    "futures-util",
+    "http",
+    "http-body",
+    "http-body-util",
+    "hyper",
+    "mime",
+    "pin-project-lite",
+    "reqwest",
+    "serde",
+    "serde",
+    "serde_json",
+    "tokio",
+    "tower",
+    "tower",
+    "tower-http",
+    "tower-layer",
+    "tower-service",
+    "axum-macros",
+    "cookie",
+    "fastrand",
+    "form_urlencoded",
+    "headers",
+    "multer",
+    "percent-encoding",
+    "prost",
+    "serde_html_form",
+    "serde_json",
+    "serde_path_to_error",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tracing",
+    "typed-json"
+  ]
+}

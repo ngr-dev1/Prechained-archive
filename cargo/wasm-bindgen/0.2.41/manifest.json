@@ -1,0 +1,40 @@
+{
+  "name": "wasm-bindgen",
+  "version": "0.2.41",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "b47cc2bf0081a6d86ab185de23f5f97e1474cb0c7dfb139a39ae395654bf37de",
+  "features": {
+    "default": [
+      "spans",
+      "std"
+    ],
+    "nightly": [],
+    "serde-serialize": [
+      "serde",
+      "serde_json",
+      "std"
+    ],
+    "spans": [
+      "wasm-bindgen-macro/spans"
+    ],
+    "std": [],
+    "strict-macro": [
+      "wasm-bindgen-macro/strict-macro"
+    ],
+    "xxx_debug_only_print_generated_code": [
+      "wasm-bindgen-macro/xxx_debug_only_print_generated_code"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1,
+    "login": "alexcrichton"
+  },
+  "publishedAt": "2019-04-10T21:13:42.703334Z",
+  "dependencies": [
+    "wasm-bindgen-macro",
+    "serde",
+    "serde_json"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "idna",
+  "version": "1.1.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "3b0875f23caa03898994f6ddc501886a45c7d3d62d04d2d90788d47be1b1e4de",
+  "features": {
+    "alloc": [],
+    "compiled_data": [
+      "idna_adapter/compiled_data"
+    ],
+    "default": [
+      "std",
+      "compiled_data"
+    ],
+    "std": [
+      "alloc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 72883,
+    "login": "valenting"
+  },
+  "publishedAt": "2025-08-21T08:48:20.326736Z",
+  "dependencies": [
+    "assert_matches",
+    "bencher",
+    "idna_adapter",
+    "serde_json",
+    "smallvec",
+    "tester",
+    "utf8_iter"
+  ]
+}

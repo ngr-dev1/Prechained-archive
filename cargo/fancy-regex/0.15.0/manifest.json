@@ -1,0 +1,43 @@
+{
+  "name": "fancy-regex",
+  "version": "0.15.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "d6215aee357f8c7c989ebb4b8466ca4d7dc93b3957039f2fc3ea2ade8ea5f279",
+  "features": {
+    "default": [
+      "unicode",
+      "perf",
+      "std"
+    ],
+    "perf": [
+      "regex-automata/perf"
+    ],
+    "std": [
+      "regex-automata/std",
+      "regex-syntax/std",
+      "bit-set/std"
+    ],
+    "track_caller": [],
+    "unicode": [
+      "regex-automata/unicode",
+      "regex-syntax/unicode"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5997,
+    "login": "robinst"
+  },
+  "publishedAt": "2025-07-06T11:22:09.010054Z",
+  "dependencies": [
+    "bit-set",
+    "criterion",
+    "derivative",
+    "matches",
+    "quickcheck",
+    "regex",
+    "regex-automata",
+    "regex-syntax"
+  ]
+}

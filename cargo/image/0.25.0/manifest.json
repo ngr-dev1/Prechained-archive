@@ -1,0 +1,107 @@
+{
+  "name": "image",
+  "version": "0.25.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "a9b4f005360d32e9325029b38ba47ebd7a56f3316df09249368939562d518645",
+  "features": {
+    "avif": [
+      "dep:ravif",
+      "dep:rgb"
+    ],
+    "avif-native": [
+      "dep:mp4parse",
+      "dep:dcv-color-primitives",
+      "dep:dav1d"
+    ],
+    "benchmarks": [],
+    "bmp": [],
+    "dds": [],
+    "default": [
+      "rayon",
+      "default-formats"
+    ],
+    "default-formats": [
+      "avif",
+      "bmp",
+      "dds",
+      "exr",
+      "ff",
+      "gif",
+      "hdr",
+      "ico",
+      "jpeg",
+      "png",
+      "pnm",
+      "qoi",
+      "tga",
+      "tiff",
+      "webp"
+    ],
+    "exr": [
+      "dep:exr"
+    ],
+    "ff": [],
+    "gif": [
+      "dep:gif",
+      "dep:color_quant"
+    ],
+    "hdr": [],
+    "ico": [
+      "bmp",
+      "png"
+    ],
+    "jpeg": [
+      "dep:zune-core",
+      "dep:zune-jpeg"
+    ],
+    "png": [
+      "dep:png"
+    ],
+    "pnm": [],
+    "qoi": [
+      "dep:qoi"
+    ],
+    "rayon": [
+      "dep:rayon"
+    ],
+    "tga": [],
+    "tiff": [
+      "dep:tiff"
+    ],
+    "webp": [
+      "dep:image-webp"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5862,
+    "login": "fintelia"
+  },
+  "publishedAt": "2024-03-10T19:05:11.187512Z",
+  "dependencies": [
+    "bytemuck",
+    "byteorder",
+    "crc32fast",
+    "criterion",
+    "glob",
+    "num-complex",
+    "num-traits",
+    "quickcheck",
+    "color_quant",
+    "dav1d",
+    "dcv-color-primitives",
+    "exr",
+    "gif",
+    "image-webp",
+    "mp4parse",
+    "png",
+    "qoi",
+    "ravif",
+    "rayon",
+    "rgb",
+    "tiff",
+    "zune-core",
+    "zune-jpeg"
+  ]
+}

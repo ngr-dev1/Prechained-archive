@@ -1,0 +1,31 @@
+{
+  "name": "password-hash",
+  "version": "0.6.0-rc.8",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "f77af9403a6489b7b51f552693bd48d8e81a710c92d3d77648b203558578762d",
+  "features": {
+    "alloc": [
+      "phc?/alloc"
+    ],
+    "getrandom": [
+      "dep:getrandom",
+      "phc?/getrandom"
+    ],
+    "rand_core": [
+      "dep:rand_core",
+      "phc?/rand_core"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2026-01-11T23:13:47.979631Z",
+  "dependencies": [
+    "getrandom",
+    "phc",
+    "rand_core"
+  ]
+}

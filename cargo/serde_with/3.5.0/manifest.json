@@ -1,0 +1,119 @@
+{
+  "name": "serde_with",
+  "version": "3.5.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "f58c3a1b3e418f61c25b2aeb43fc6c95eaa252b8cecdda67f401943e9e08d33f",
+  "features": {
+    "alloc": [
+      "serde/alloc",
+      "base64?/alloc",
+      "chrono_0_4?/alloc",
+      "hex?/alloc",
+      "serde_json?/alloc",
+      "time_0_3?/alloc"
+    ],
+    "base64": [
+      "dep:base64",
+      "alloc"
+    ],
+    "chrono": [
+      "chrono_0_4"
+    ],
+    "chrono_0_4": [
+      "dep:chrono_0_4"
+    ],
+    "default": [
+      "std",
+      "macros"
+    ],
+    "guide": [
+      "dep:doc-comment",
+      "dep:document-features",
+      "macros",
+      "std"
+    ],
+    "hashbrown_0_14": [
+      "dep:hashbrown_0_14",
+      "alloc"
+    ],
+    "hex": [
+      "dep:hex",
+      "alloc"
+    ],
+    "indexmap": [
+      "indexmap_1"
+    ],
+    "indexmap_1": [
+      "dep:indexmap_1",
+      "alloc"
+    ],
+    "indexmap_2": [
+      "dep:indexmap_2",
+      "alloc"
+    ],
+    "json": [
+      "dep:serde_json",
+      "alloc"
+    ],
+    "macros": [
+      "dep:serde_with_macros"
+    ],
+    "schemars_0_8": [
+      "dep:schemars_0_8",
+      "std",
+      "serde_with_macros?/schemars_0_8"
+    ],
+    "std": [
+      "alloc",
+      "serde/std",
+      "chrono_0_4?/clock",
+      "chrono_0_4?/std",
+      "indexmap_1?/std",
+      "indexmap_2?/std",
+      "time_0_3?/serde-well-known",
+      "time_0_3?/std"
+    ],
+    "time_0_3": [
+      "dep:time_0_3"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 7676,
+    "login": "jonasbb"
+  },
+  "publishedAt": "2024-01-21T00:00:14.688917Z",
+  "dependencies": [
+    "expect-test",
+    "fnv",
+    "glob",
+    "jsonschema",
+    "mime",
+    "pretty_assertions",
+    "regex",
+    "rmp-serde",
+    "ron",
+    "rustversion",
+    "schemars",
+    "serde",
+    "serde-xml-rs",
+    "serde_json",
+    "serde_test",
+    "serde_yaml",
+    "version-sync",
+    "xml-rs",
+    "base64",
+    "chrono",
+    "doc-comment",
+    "document-features",
+    "hashbrown",
+    "hex",
+    "indexmap",
+    "indexmap",
+    "schemars",
+    "serde_json",
+    "serde_with_macros",
+    "time"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "chumsky",
+  "version": "1.0.0-alpha.4",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "cc3172a80699de358070dd99f80ea8badc6cdf8ac2417cb5a96e6d81bf5fe06d",
+  "features": {
+    "_test_stable": [
+      "std",
+      "spill-stack",
+      "memoization",
+      "extension",
+      "label",
+      "sync"
+    ],
+    "default": [
+      "std",
+      "spill-stack"
+    ],
+    "extension": [],
+    "label": [],
+    "memoization": [],
+    "nightly": [],
+    "spill-stack": [
+      "stacker",
+      "std"
+    ],
+    "std": [],
+    "sync": [
+      "spin"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 21853,
+    "login": "zesterer"
+  },
+  "publishedAt": "2023-05-13T13:39:27.034092Z",
+  "dependencies": [
+    "ariadne",
+    "ciborium",
+    "criterion",
+    "hashbrown",
+    "lasso",
+    "logos",
+    "nom",
+    "pest",
+    "pest_derive",
+    "pom",
+    "pprof",
+    "serde_json",
+    "slotmap",
+    "sn",
+    "winnow",
+    "regex",
+    "spin",
+    "stacker"
+  ]
+}

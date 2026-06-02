@@ -1,0 +1,102 @@
+{
+  "name": "zip",
+  "version": "4.2.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "95ab361742de920c5535880f89bbd611ee62002bf11341d16a5f057bb8ba6899",
+  "features": {
+    "_all-features": [],
+    "_deflate-any": [],
+    "aes-crypto": [
+      "dep:aes",
+      "dep:constant_time_eq",
+      "hmac",
+      "pbkdf2",
+      "sha1",
+      "getrandom",
+      "zeroize"
+    ],
+    "chrono": [
+      "dep:chrono"
+    ],
+    "default": [
+      "aes-crypto",
+      "bzip2",
+      "deflate64",
+      "deflate",
+      "lzma",
+      "time",
+      "zstd",
+      "xz"
+    ],
+    "deflate": [
+      "deflate-zopfli",
+      "deflate-flate2-zlib-rs"
+    ],
+    "deflate-flate2": [
+      "_deflate-any",
+      "dep:flate2"
+    ],
+    "deflate-flate2-zlib": [
+      "deflate-flate2",
+      "flate2/zlib"
+    ],
+    "deflate-flate2-zlib-rs": [
+      "deflate-flate2",
+      "flate2/zlib-rs"
+    ],
+    "deflate-zopfli": [
+      "dep:zopfli",
+      "_deflate-any"
+    ],
+    "jiff-02": [
+      "dep:jiff"
+    ],
+    "lzma": [
+      "dep:liblzma"
+    ],
+    "nt-time": [
+      "dep:nt-time"
+    ],
+    "unreserved": [],
+    "xz": [
+      "dep:liblzma"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 209322,
+    "login": "Pr0methean"
+  },
+  "publishedAt": "2025-06-23T04:24:17.196511Z",
+  "dependencies": [
+    "anyhow",
+    "arbitrary",
+    "bencher",
+    "clap",
+    "crc32fast",
+    "getrandom",
+    "indexmap",
+    "memchr",
+    "tempfile",
+    "time",
+    "walkdir",
+    "aes",
+    "bzip2",
+    "chrono",
+    "constant_time_eq",
+    "deflate64",
+    "flate2",
+    "getrandom",
+    "hmac",
+    "jiff",
+    "liblzma",
+    "nt-time",
+    "pbkdf2",
+    "sha1",
+    "time",
+    "zeroize",
+    "zopfli",
+    "zstd"
+  ]
+}

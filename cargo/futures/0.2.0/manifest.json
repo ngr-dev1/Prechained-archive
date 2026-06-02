@@ -1,0 +1,36 @@
+{
+  "name": "futures",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "db86a222316537177383a3f02a439218a2a6a6be9d0b373f10c4e67a5519ca72",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "nightly": [
+      "futures-core/nightly",
+      "futures-stable/nightly"
+    ],
+    "std": [
+      "futures-core/std",
+      "futures-executor/std",
+      "futures-io/std",
+      "futures-sink/std",
+      "futures-stable/std",
+      "futures-util/std"
+    ]
+  },
+  "yanked": true,
+  "published_by": null,
+  "publishedAt": "2018-04-06T19:06:34.471210Z",
+  "dependencies": [
+    "futures-channel",
+    "futures-core",
+    "futures-executor",
+    "futures-io",
+    "futures-sink",
+    "futures-stable",
+    "futures-util"
+  ]
+}

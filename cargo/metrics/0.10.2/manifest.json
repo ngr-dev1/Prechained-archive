@@ -1,0 +1,50 @@
+{
+  "name": "metrics",
+  "version": "0.10.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "ca7e724e24d5c85071f7a2018487c2d0336b702acb310eb2a554f44fa2e1f943",
+  "features": {
+    "default": [
+      "exporters",
+      "recorders"
+    ],
+    "exporters": [
+      "metrics-exporter-log",
+      "metrics-exporter-http"
+    ],
+    "recorders": [
+      "metrics-recorder-text",
+      "metrics-recorder-prometheus"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 10075,
+    "login": "tobz"
+  },
+  "publishedAt": "2019-06-12T01:48:13.484253Z",
+  "dependencies": [
+    "arc-swap",
+    "criterion",
+    "crossbeam-utils",
+    "env_logger",
+    "futures",
+    "fxhash",
+    "getopts",
+    "hashbrown",
+    "hdrhistogram",
+    "im",
+    "lazy_static",
+    "log",
+    "metrics-core",
+    "metrics-facade",
+    "metrics-util",
+    "parking_lot",
+    "quanta",
+    "metrics-exporter-http",
+    "metrics-exporter-log",
+    "metrics-recorder-prometheus",
+    "metrics-recorder-text"
+  ]
+}

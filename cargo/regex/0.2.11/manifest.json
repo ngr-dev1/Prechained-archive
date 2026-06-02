@@ -1,0 +1,28 @@
+{
+  "name": "regex",
+  "version": "0.2.11",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "9329abc99e39129fcceabd24cf5d85b4671ef7c29c50e972bc5afe32438ec384",
+  "features": {
+    "default": [],
+    "pattern": [],
+    "simd-accel": [],
+    "unstable": [
+      "pattern"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-05-01T17:31:48.340967Z",
+  "dependencies": [
+    "aho-corasick",
+    "lazy_static",
+    "memchr",
+    "quickcheck",
+    "rand",
+    "regex-syntax",
+    "thread_local",
+    "utf8-ranges"
+  ]
+}

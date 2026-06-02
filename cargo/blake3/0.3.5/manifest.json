@@ -1,0 +1,41 @@
+{
+  "name": "blake3",
+  "version": "0.3.5",
+  "ecosystem": "cargo",
+  "license": "CC0-1.0 OR Apache-2.0",
+  "checksum": "59f88a20f7dc23e3896bcbd85add056543c87215de721468b90e0c85d5a9f365",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "neon": [],
+    "no_avx2": [],
+    "no_avx512": [],
+    "no_sse41": [],
+    "prefer_intrinsics": [],
+    "pure": [],
+    "std": [
+      "digest/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3589,
+    "login": "oconnor663"
+  },
+  "publishedAt": "2020-07-10T16:39:13.239085Z",
+  "dependencies": [
+    "arrayref",
+    "arrayvec",
+    "cc",
+    "cfg-if",
+    "constant_time_eq",
+    "crypto-mac",
+    "digest",
+    "hex",
+    "page_size",
+    "rand",
+    "rand_chacha",
+    "rayon"
+  ]
+}

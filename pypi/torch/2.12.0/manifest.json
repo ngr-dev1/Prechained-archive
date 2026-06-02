@@ -1,0 +1,39 @@
+{
+  "name": "torch",
+  "version": "2.12.0",
+  "ecosystem": "pypi",
+  "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "BSD-3-Clause",
+  "author": null,
+  "author_email": "PyTorch Team <packages@pytorch.org>",
+  "requires_python": ">=3.10",
+  "requires_dist": [
+    "filelock",
+    "typing-extensions>=4.10.0",
+    "setuptools<82",
+    "sympy>=1.13.3",
+    "networkx>=2.5.1",
+    "jinja2",
+    "fsspec>=0.8.5",
+    "cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == \"Linux\"",
+    "nvidia-cublas<=13.1.1.3,>=13.1.0.3; platform_system == \"Linux\"",
+    "cuda-bindings<14,>=13.0.3; platform_system == \"Linux\"",
+    "nvidia-cudnn-cu13==9.20.0.48; platform_system == \"Linux\"",
+    "nvidia-cusparselt-cu13==0.8.1; platform_system == \"Linux\"",
+    "nvidia-nccl-cu13==2.29.7; platform_system == \"Linux\"",
+    "nvidia-nvshmem-cu13==3.4.5; platform_system == \"Linux\"",
+    "triton==3.7.0; platform_system == \"Linux\"",
+    "optree>=0.13.0; extra == \"optree\"",
+    "opt-einsum>=3.3; extra == \"opt-einsum\"",
+    "pyyaml; extra == \"pyyaml\""
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2026-05-13T14:55:53",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/c2/b7/53fe0436586716ab7aecff41e26b9302d57c85ded481fd83a2cd741e6b4e/torch-2.12.0-cp310-cp310-macosx_14_0_arm64.whl",
+    "sha256": "1834bd984f8a2f4f16bdfbeecca9146184b220aa46276bf5756735b5dae12812",
+    "size": 87981887,
+    "filename": "torch-2.12.0-cp310-cp310-macosx_14_0_arm64.whl"
+  }
+}

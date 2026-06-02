@@ -1,0 +1,35 @@
+{
+  "name": "serde",
+  "version": "0.6.15",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "c97b18e9e53de541f11e497357d6c5eaeb39f0cb9c8734e274abe4935f6991fa",
+  "features": {
+    "nightly": [],
+    "nightly-testing": [
+      "clippy",
+      "nightly"
+    ],
+    "num-bigint": [
+      "num/bigint"
+    ],
+    "num-complex": [
+      "num/complex"
+    ],
+    "num-impls": [
+      "num-bigint",
+      "num-complex",
+      "num-rational"
+    ],
+    "num-rational": [
+      "num/rational"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-02-22T16:30:12.941823Z",
+  "dependencies": [
+    "num",
+    "clippy"
+  ]
+}

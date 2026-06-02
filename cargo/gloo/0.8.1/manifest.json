@@ -1,0 +1,82 @@
+{
+  "name": "gloo",
+  "version": "0.8.1",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "28999cda5ef6916ffd33fb4a7b87e1de633c47c0dc6d97905fee1cdaa142b94d",
+  "features": {
+    "console": [
+      "gloo-console"
+    ],
+    "default": [
+      "timers",
+      "events",
+      "file",
+      "dialogs",
+      "storage",
+      "render",
+      "console",
+      "utils",
+      "history",
+      "worker",
+      "net"
+    ],
+    "dialogs": [
+      "gloo-dialogs"
+    ],
+    "events": [
+      "gloo-events"
+    ],
+    "file": [
+      "gloo-file"
+    ],
+    "futures": [
+      "timers",
+      "file",
+      "worker",
+      "gloo-timers/futures",
+      "gloo-file/futures",
+      "gloo-worker/futures"
+    ],
+    "history": [
+      "gloo-history"
+    ],
+    "net": [
+      "gloo-net"
+    ],
+    "render": [
+      "gloo-render"
+    ],
+    "storage": [
+      "gloo-storage"
+    ],
+    "timers": [
+      "gloo-timers"
+    ],
+    "utils": [
+      "gloo-utils"
+    ],
+    "worker": [
+      "gloo-worker"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 111482,
+    "login": "ranile"
+  },
+  "publishedAt": "2023-06-17T13:17:24.729542Z",
+  "dependencies": [
+    "gloo-console",
+    "gloo-dialogs",
+    "gloo-events",
+    "gloo-file",
+    "gloo-history",
+    "gloo-net",
+    "gloo-render",
+    "gloo-storage",
+    "gloo-timers",
+    "gloo-utils",
+    "gloo-worker"
+  ]
+}

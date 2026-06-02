@@ -1,0 +1,66 @@
+{
+  "name": "tokio-tungstenite",
+  "version": "0.17.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "f714dd15bead90401d77e04243611caec13726c2408afd5b31901dfcdcb3b181",
+  "features": {
+    "__rustls-tls": [
+      "rustls",
+      "tokio-rustls",
+      "stream",
+      "tungstenite/__rustls-tls",
+      "webpki"
+    ],
+    "connect": [
+      "stream",
+      "tokio/net"
+    ],
+    "default": [
+      "connect"
+    ],
+    "native-tls": [
+      "native-tls-crate",
+      "tokio-native-tls",
+      "stream",
+      "tungstenite/native-tls"
+    ],
+    "native-tls-vendored": [
+      "native-tls",
+      "native-tls-crate/vendored",
+      "tungstenite/native-tls-vendored"
+    ],
+    "rustls-tls-native-roots": [
+      "__rustls-tls",
+      "rustls-native-certs"
+    ],
+    "rustls-tls-webpki-roots": [
+      "__rustls-tls",
+      "webpki-roots"
+    ],
+    "stream": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 96974,
+    "login": "daniel-abramov"
+  },
+  "publishedAt": "2022-07-13T13:51:39.712166Z",
+  "dependencies": [
+    "env_logger",
+    "futures-channel",
+    "futures-util",
+    "log",
+    "tokio",
+    "tokio",
+    "tungstenite",
+    "url",
+    "native-tls",
+    "rustls",
+    "rustls-native-certs",
+    "tokio-native-tls",
+    "tokio-rustls",
+    "webpki",
+    "webpki-roots"
+  ]
+}

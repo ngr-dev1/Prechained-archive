@@ -1,0 +1,46 @@
+{
+  "name": "toml",
+  "version": "0.8.23",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "dc1beb996b9d83529a9e75c17a1686767d148d70663143c7854d8b4a09ced362",
+  "features": {
+    "default": [
+      "parse",
+      "display"
+    ],
+    "display": [
+      "dep:toml_edit",
+      "toml_edit?/display"
+    ],
+    "parse": [
+      "dep:toml_edit",
+      "toml_edit?/parse"
+    ],
+    "preserve_order": [
+      "indexmap"
+    ],
+    "unbounded": [
+      "toml_edit?/unbounded"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6743,
+    "login": "epage"
+  },
+  "publishedAt": "2025-06-06T15:03:09.398690Z",
+  "dependencies": [
+    "serde",
+    "serde",
+    "serde_json",
+    "serde_spanned",
+    "snapbox",
+    "toml-test-data",
+    "toml-test-harness",
+    "toml_datetime",
+    "walkdir",
+    "indexmap",
+    "toml_edit"
+  ]
+}

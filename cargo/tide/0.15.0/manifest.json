@@ -1,0 +1,62 @@
+{
+  "name": "tide",
+  "version": "0.15.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "c832ca099a0645f6446b6c8900b09e3b76978dedc0d7383438698b32ff07f734",
+  "features": {
+    "cookies": [],
+    "default": [
+      "h1-server",
+      "cookies",
+      "logger",
+      "sessions"
+    ],
+    "docs": [
+      "unstable"
+    ],
+    "h1-server": [
+      "async-h1"
+    ],
+    "logger": [
+      "femme"
+    ],
+    "sessions": [
+      "async-session",
+      "cookies"
+    ],
+    "unstable": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3824,
+    "login": "yoshuawuyts"
+  },
+  "publishedAt": "2020-11-13T14:19:43.949492Z",
+  "dependencies": [
+    "async-sse",
+    "async-std",
+    "async-std",
+    "async-trait",
+    "criterion",
+    "futures-util",
+    "http-client",
+    "http-types",
+    "juniper",
+    "kv-log-macro",
+    "lazy_static",
+    "log",
+    "logtest",
+    "pin-project-lite",
+    "portpicker",
+    "route-recognizer",
+    "serde",
+    "serde",
+    "serde_json",
+    "surf",
+    "tempfile",
+    "async-h1",
+    "async-session",
+    "femme"
+  ]
+}

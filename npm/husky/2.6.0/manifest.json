@@ -1,0 +1,71 @@
+{
+  "name": "husky",
+  "version": "2.6.0",
+  "ecosystem": "npm",
+  "description": "Modern native Git hooks",
+  "license": "MIT",
+  "dependencies": {
+    "execa": "^1.0.0",
+    "is-ci": "^2.0.0",
+    "slash": "^3.0.0",
+    "pkg-dir": "^4.2.0",
+    "read-pkg": "^5.1.1",
+    "run-node": "^1.0.0",
+    "get-stdin": "^7.0.0",
+    "cosmiconfig": "^5.2.1",
+    "please-upgrade-node": "^3.1.1",
+    "opencollective-postinstall": "^2.0.2"
+  },
+  "devDependencies": {
+    "del": "^4.1.1",
+    "jest": "^24.8.0",
+    "pinst": "^1.1.1",
+    "tempy": "^0.3.0",
+    "eslint": "^6.0.0",
+    "mkdirp": "^0.5.1",
+    "pkg-ok": "^2.3.1",
+    "del-cli": "^2.0.0",
+    "ts-jest": "^24.0.2",
+    "prettier": "^1.18.2",
+    "formatree": "^1.0.2",
+    "typescript": "^3.5.2",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.10",
+    "@types/mkdirp": "^0.5.2",
+    "@types/read-pkg": "^4.0.0",
+    "@types/cosmiconfig": "^5.0.3",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-config-xo-space": "^0.21.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "@typescript-eslint/eslint-plugin": "^1.11.0"
+  },
+  "scripts": {
+    "install": "node husky install",
+    "preinstall": null,
+    "postinstall": "opencollective-postinstall || true",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "typicode",
+      "email": "typicode@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Typicode",
+    "email": "typicode@gmail.com"
+  },
+  "publishedAt": "2019-06-26T13:22:55.957Z",
+  "dist": {
+    "integrity": "sha512-AbBod6i0qmaPv/fb9XjOR+m/cJ6MKToLpJh+pYV8Pl7VKvOWvCXpjQK1MkFC4XLoxGX6mqBFfA/H5ugxUd9nLg==",
+    "shasum": "0f7ad7ad2662909ca89e2978efa86584873bc7bd",
+    "tarball": "https://registry.npmjs.org/husky/-/husky-2.6.0.tgz",
+    "fileCount": 22,
+    "unpackedSize": 41838
+  },
+  "_npmUser": {
+    "name": "typicode",
+    "email": "typicode@gmail.com"
+  }
+}

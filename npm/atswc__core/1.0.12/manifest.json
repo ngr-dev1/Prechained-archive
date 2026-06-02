@@ -1,0 +1,52 @@
+{
+  "name": "@swc/core",
+  "version": "1.0.12",
+  "ecosystem": "npm",
+  "description": "Super-fast alternative for babel",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "npmlog": "^4.1.2",
+    "request": "^2.88.0",
+    "neon-cli": "^0.2.0",
+    "true-case-path": "^1.0.3"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "@babel/core": "^7.2.2",
+    "bench-runner": "^1.3.4",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-typescript": "^7.1.0",
+    "babel-plugin-transform-node-env-inline": "^0.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0"
+  },
+  "scripts": {
+    "install": "node scripts/install.js || neon build --release",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "kdy1",
+      "email": "kdy1@outlook.kr"
+    }
+  ],
+  "author": {
+    "name": "강동윤",
+    "email": "kdy1@outlook.kr"
+  },
+  "publishedAt": "2019-02-15T01:07:09.565Z",
+  "dist": {
+    "integrity": "sha512-RL0R+HaDTahmW6keTDrWXS0IXNMFow6hld6/sGnREFB0CSeueFaUXLYpp0IphSQJZJK/RNBfVsZ3haktVNELpg==",
+    "shasum": "b85bfdcde6c3868d0ddb6ef2f1afc6524ba811bc",
+    "tarball": "https://registry.npmjs.org/@swc/core/-/core-1.0.12.tgz",
+    "fileCount": 25,
+    "unpackedSize": 128358
+  },
+  "_npmUser": {
+    "name": "kdy1",
+    "email": "kdy1@outlook.kr"
+  }
+}

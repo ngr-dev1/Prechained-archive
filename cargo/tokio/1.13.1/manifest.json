@@ -1,0 +1,109 @@
+{
+  "name": "tokio",
+  "version": "1.13.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "52963f91310c08d91cb7bff5786dfc8b79642ab839e188187e92105dbfb9d2c8",
+  "features": {
+    "default": [],
+    "fs": [],
+    "full": [
+      "fs",
+      "io-util",
+      "io-std",
+      "macros",
+      "net",
+      "parking_lot",
+      "process",
+      "rt",
+      "rt-multi-thread",
+      "signal",
+      "sync",
+      "time"
+    ],
+    "io-std": [],
+    "io-util": [
+      "memchr",
+      "bytes"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "libc",
+      "mio/os-poll",
+      "mio/os-util",
+      "mio/tcp",
+      "mio/udp",
+      "mio/uds",
+      "winapi/namedpipeapi"
+    ],
+    "process": [
+      "bytes",
+      "once_cell",
+      "libc",
+      "mio/os-poll",
+      "mio/os-util",
+      "mio/uds",
+      "signal-hook-registry",
+      "winapi/threadpoollegacyapiset"
+    ],
+    "rt": [],
+    "rt-multi-thread": [
+      "num_cpus",
+      "rt"
+    ],
+    "signal": [
+      "once_cell",
+      "libc",
+      "mio/os-poll",
+      "mio/uds",
+      "mio/os-util",
+      "signal-hook-registry",
+      "winapi/consoleapi"
+    ],
+    "stats": [],
+    "sync": [],
+    "test-util": [
+      "rt",
+      "sync",
+      "time"
+    ],
+    "time": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1249,
+    "login": "hawkw"
+  },
+  "publishedAt": "2021-11-15T22:05:45.912725Z",
+  "dependencies": [
+    "async-stream",
+    "autocfg",
+    "futures",
+    "libc",
+    "loom",
+    "mio-aio",
+    "mockall",
+    "nix",
+    "ntapi",
+    "pin-project-lite",
+    "proptest",
+    "rand",
+    "socket2",
+    "tempfile",
+    "tokio-stream",
+    "tokio-test",
+    "bytes",
+    "libc",
+    "memchr",
+    "mio",
+    "num_cpus",
+    "once_cell",
+    "parking_lot",
+    "signal-hook-registry",
+    "tokio-macros",
+    "tracing",
+    "winapi"
+  ]
+}

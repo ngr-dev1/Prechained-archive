@@ -1,0 +1,84 @@
+{
+  "name": "jsonrpsee",
+  "version": "0.14.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "11e017217fcd18da0a25296d3693153dd19c8a6aadab330b3595285d075385d1",
+  "features": {
+    "async-client": [
+      "jsonrpsee-core/async-client"
+    ],
+    "client": [
+      "http-client",
+      "ws-client",
+      "wasm-client"
+    ],
+    "client-ws-transport": [
+      "jsonrpsee-client-transport/ws",
+      "jsonrpsee-client-transport/tls"
+    ],
+    "client-ws-transport-no-tls": [
+      "jsonrpsee-client-transport/ws"
+    ],
+    "full": [
+      "client",
+      "server",
+      "macros",
+      "async-client",
+      "client-ws-transport"
+    ],
+    "http-client": [
+      "jsonrpsee-http-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ],
+    "http-server": [
+      "jsonrpsee-http-server",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ],
+    "macros": [
+      "jsonrpsee-proc-macros",
+      "jsonrpsee-types",
+      "jsonrpsee-core/client",
+      "tracing"
+    ],
+    "server": [
+      "http-server",
+      "ws-server"
+    ],
+    "wasm-client": [
+      "jsonrpsee-wasm-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ],
+    "ws-client": [
+      "jsonrpsee-ws-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ],
+    "ws-server": [
+      "jsonrpsee-ws-server",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 18452,
+    "login": "niklasad1"
+  },
+  "publishedAt": "2022-06-14T10:06:25.735733Z",
+  "dependencies": [
+    "jsonrpsee-client-transport",
+    "jsonrpsee-core",
+    "jsonrpsee-http-client",
+    "jsonrpsee-http-server",
+    "jsonrpsee-proc-macros",
+    "jsonrpsee-types",
+    "jsonrpsee-wasm-client",
+    "jsonrpsee-ws-client",
+    "jsonrpsee-ws-server",
+    "tracing"
+  ]
+}

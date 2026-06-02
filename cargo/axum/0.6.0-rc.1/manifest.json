@@ -1,0 +1,103 @@
+{
+  "name": "axum",
+  "version": "0.6.0-rc.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "d49958d54e0bab71947eb00a33175eb9164ccc0ea4c262d2139c5f8899a3616e",
+  "features": {
+    "__private_docs": [
+      "tower/full",
+      "tower-http/full"
+    ],
+    "default": [
+      "form",
+      "http1",
+      "json",
+      "matched-path",
+      "original-uri",
+      "query",
+      "tower-log"
+    ],
+    "form": [
+      "dep:serde_urlencoded"
+    ],
+    "http1": [
+      "hyper/http1"
+    ],
+    "http2": [
+      "hyper/http2"
+    ],
+    "json": [
+      "dep:serde_json"
+    ],
+    "macros": [
+      "dep:axum-macros"
+    ],
+    "matched-path": [],
+    "multipart": [
+      "dep:multer"
+    ],
+    "original-uri": [],
+    "query": [
+      "dep:serde_urlencoded"
+    ],
+    "tower-log": [
+      "tower/log"
+    ],
+    "ws": [
+      "dep:tokio-tungstenite",
+      "dep:sha-1",
+      "dep:base64"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2022-08-23T21:04:37.671139Z",
+  "dependencies": [
+    "anyhow",
+    "async-trait",
+    "axum-core",
+    "bitflags",
+    "bytes",
+    "futures",
+    "futures-util",
+    "http",
+    "http-body",
+    "hyper",
+    "itoa",
+    "matchit",
+    "memchr",
+    "mime",
+    "percent-encoding",
+    "pin-project-lite",
+    "quickcheck",
+    "quickcheck_macros",
+    "reqwest",
+    "serde",
+    "serde",
+    "serde_json",
+    "sync_wrapper",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tower",
+    "tower",
+    "tower-http",
+    "tower-http",
+    "tower-layer",
+    "tower-service",
+    "tracing",
+    "uuid",
+    "axum-macros",
+    "base64",
+    "headers",
+    "multer",
+    "serde_json",
+    "serde_urlencoded",
+    "sha-1",
+    "tokio-tungstenite"
+  ]
+}

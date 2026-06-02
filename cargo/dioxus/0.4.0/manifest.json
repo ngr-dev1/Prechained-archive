@@ -1,0 +1,49 @@
+{
+  "name": "dioxus",
+  "version": "0.4.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "734b13d4894daf5cee7d4a1d7960da207acd7d4b4e427c05c201a2ba87a5c032",
+  "features": {
+    "default": [
+      "macro",
+      "hooks",
+      "html",
+      "hot-reload"
+    ],
+    "hooks": [
+      "dioxus-hooks"
+    ],
+    "hot-reload": [
+      "dioxus-hot-reload"
+    ],
+    "html": [
+      "dioxus-html"
+    ],
+    "macro": [
+      "dioxus-core-macro",
+      "dioxus-rsx"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 55668,
+    "login": "jkelleyrtp"
+  },
+  "publishedAt": "2023-08-01T01:33:09.124675Z",
+  "dependencies": [
+    "criterion",
+    "dioxus-core",
+    "env_logger",
+    "futures-util",
+    "log",
+    "rand",
+    "thiserror",
+    "tokio",
+    "dioxus-core-macro",
+    "dioxus-hooks",
+    "dioxus-hot-reload",
+    "dioxus-html",
+    "dioxus-rsx"
+  ]
+}

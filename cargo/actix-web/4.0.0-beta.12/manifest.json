@@ -1,0 +1,89 @@
+{
+  "name": "actix-web",
+  "version": "4.0.0-beta.12",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "e87cfc4efaad42f8a054e269d1b85046397ff4e8707e49128dea3f99a512a9d6",
+  "features": {
+    "__compress": [],
+    "compress-brotli": [
+      "actix-http/compress-brotli",
+      "__compress"
+    ],
+    "compress-gzip": [
+      "actix-http/compress-gzip",
+      "__compress"
+    ],
+    "compress-zstd": [
+      "actix-http/compress-zstd",
+      "__compress"
+    ],
+    "cookies": [
+      "cookie"
+    ],
+    "default": [
+      "compress-brotli",
+      "compress-gzip",
+      "compress-zstd",
+      "cookies"
+    ],
+    "experimental-io-uring": [
+      "actix-server/io-uring"
+    ],
+    "openssl": [
+      "actix-http/openssl",
+      "actix-tls/accept",
+      "actix-tls/openssl"
+    ],
+    "rustls": [
+      "actix-http/rustls",
+      "actix-tls/accept",
+      "actix-tls/rustls"
+    ],
+    "secure-cookies": [
+      "cookie/secure"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 56903,
+    "login": "robjtede"
+  },
+  "publishedAt": "2021-11-22T22:07:22.616498Z",
+  "dependencies": [
+    "actix-codec",
+    "actix-http",
+    "actix-macros",
+    "actix-router",
+    "actix-rt",
+    "actix-server",
+    "actix-service",
+    "actix-utils",
+    "actix-web-codegen",
+    "ahash",
+    "bytes",
+    "cfg-if",
+    "derive_more",
+    "either",
+    "encoding_rs",
+    "futures-core",
+    "futures-util",
+    "itoa",
+    "language-tags",
+    "log",
+    "mime",
+    "once_cell",
+    "paste",
+    "pin-project",
+    "regex",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "smallvec",
+    "socket2",
+    "time",
+    "url",
+    "actix-tls",
+    "cookie"
+  ]
+}

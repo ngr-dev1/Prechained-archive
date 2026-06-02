@@ -1,0 +1,66 @@
+{
+  "name": "blake3",
+  "version": "1.6.0",
+  "ecosystem": "cargo",
+  "license": "CC0-1.0 OR Apache-2.0 OR Apache-2.0 WITH LLVM-exception",
+  "checksum": "1230237285e3e10cde447185e8975408ae24deaa67205ce684805c25bc0c7937",
+  "features": {
+    "default": [
+      "std",
+      "mmap"
+    ],
+    "digest": [
+      "dep:digest"
+    ],
+    "mmap": [
+      "std",
+      "dep:memmap2"
+    ],
+    "neon": [],
+    "no_avx2": [],
+    "no_avx512": [],
+    "no_neon": [],
+    "no_sse2": [],
+    "no_sse41": [],
+    "prefer_intrinsics": [],
+    "pure": [],
+    "rayon": [
+      "dep:rayon-core",
+      "std"
+    ],
+    "std": [],
+    "traits-preview": [
+      "dep:digest"
+    ],
+    "zeroize": [
+      "dep:zeroize",
+      "arrayvec/zeroize"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3589,
+    "login": "oconnor663"
+  },
+  "publishedAt": "2025-02-17T23:32:21.340736Z",
+  "dependencies": [
+    "arrayref",
+    "arrayvec",
+    "cc",
+    "cfg-if",
+    "ciborium",
+    "constant_time_eq",
+    "hex",
+    "hmac",
+    "page_size",
+    "rand",
+    "rand_chacha",
+    "serde_json",
+    "tempfile",
+    "digest",
+    "memmap2",
+    "rayon-core",
+    "serde",
+    "zeroize"
+  ]
+}

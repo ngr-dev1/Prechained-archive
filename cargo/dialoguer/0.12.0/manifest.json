@@ -1,0 +1,37 @@
+{
+  "name": "dialoguer",
+  "version": "0.12.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "25f104b501bf2364e78d0d3974cbc774f738f5865306ed128e1e0d7499c0ad96",
+  "features": {
+    "completion": [],
+    "default": [
+      "editor",
+      "password"
+    ],
+    "editor": [
+      "tempfile"
+    ],
+    "fuzzy-select": [
+      "fuzzy-matcher"
+    ],
+    "history": [],
+    "password": [
+      "zeroize"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4556,
+    "login": "djc"
+  },
+  "publishedAt": "2025-08-23T15:37:51.581957Z",
+  "dependencies": [
+    "console",
+    "shell-words",
+    "fuzzy-matcher",
+    "tempfile",
+    "zeroize"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "blake3",
+  "version": "0.2.1",
+  "ecosystem": "cargo",
+  "license": "CC0-1.0 OR Apache-2.0",
+  "checksum": "19998abf37d118ecf18b9cd2d0af027f8737d52852f2147c0e3136f7ca4d098a",
+  "features": {
+    "c": [],
+    "c_neon": [],
+    "c_prefer_intrinsics": [],
+    "default": [
+      "std"
+    ],
+    "std": [
+      "digest/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3589,
+    "login": "oconnor663"
+  },
+  "publishedAt": "2020-02-14T16:36:17.826984Z",
+  "dependencies": [
+    "arrayref",
+    "arrayvec",
+    "cc",
+    "cfg-if",
+    "constant_time_eq",
+    "crypto-mac",
+    "digest",
+    "page_size",
+    "rand",
+    "rand_chacha",
+    "rayon"
+  ]
+}

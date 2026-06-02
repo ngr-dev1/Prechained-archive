@@ -1,0 +1,56 @@
+{
+  "name": "pbkdf2",
+  "version": "0.13.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "112d82ceb8c5bf524d9af484d4e4970c9fd5a0cc15ba14ad93dccd28873b0629",
+  "features": {
+    "alloc": [
+      "mcf?/alloc",
+      "password-hash?/alloc"
+    ],
+    "default": [
+      "hmac"
+    ],
+    "getrandom": [
+      "password-hash/getrandom"
+    ],
+    "kdf": [
+      "sha2",
+      "dep:kdf"
+    ],
+    "mcf": [
+      "sha2",
+      "password-hash",
+      "dep:mcf"
+    ],
+    "phc": [
+      "password-hash/phc",
+      "sha2"
+    ],
+    "rand_core": [
+      "password-hash/rand_core"
+    ],
+    "sha2": [
+      "hmac",
+      "dep:sha2"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2026-04-21T13:26:45.248211Z",
+  "dependencies": [
+    "belt-hash",
+    "digest",
+    "hex-literal",
+    "hmac",
+    "sha1",
+    "sha2",
+    "streebog",
+    "hmac",
+    "kdf",
+    "mcf",
+    "password-hash",
+    "sha2"
+  ]
+}

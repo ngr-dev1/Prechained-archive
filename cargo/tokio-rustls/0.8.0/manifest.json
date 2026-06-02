@@ -1,0 +1,31 @@
+{
+  "name": "tokio-rustls",
+  "version": "0.8.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "1c98c5346e4231382951111f42f4651094854462297370a08f0fba57a3b92576",
+  "features": {
+    "default": [
+      "tokio-support"
+    ],
+    "nightly": [
+      "bytes",
+      "iovec"
+    ],
+    "tokio-support": [
+      "tokio"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-09-30T17:47:24.418708Z",
+  "dependencies": [
+    "lazy_static",
+    "rustls",
+    "tokio",
+    "webpki",
+    "bytes",
+    "iovec",
+    "tokio"
+  ]
+}

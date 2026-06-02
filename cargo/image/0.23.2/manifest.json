@@ -1,0 +1,66 @@
+{
+  "name": "image",
+  "version": "0.23.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "9062b90712d25bc6bb165d110aa59c6b47c849246e341e7b86a98daff9d49f60",
+  "features": {
+    "benchmarks": [],
+    "bmp": [],
+    "dds": [
+      "dxt"
+    ],
+    "default": [
+      "gif",
+      "jpeg",
+      "ico",
+      "png",
+      "pnm",
+      "tga",
+      "tiff",
+      "webp",
+      "bmp",
+      "hdr",
+      "dxt",
+      "dds",
+      "jpeg_rayon"
+    ],
+    "dxt": [],
+    "hdr": [
+      "scoped_threadpool"
+    ],
+    "ico": [
+      "bmp",
+      "png"
+    ],
+    "jpeg_rayon": [
+      "jpeg/rayon"
+    ],
+    "pnm": [],
+    "tga": [],
+    "webp": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 11453,
+    "login": "HeroicKatora"
+  },
+  "publishedAt": "2020-03-17T16:40:50.846412Z",
+  "dependencies": [
+    "bytemuck",
+    "byteorder",
+    "crc32fast",
+    "criterion",
+    "glob",
+    "num-complex",
+    "num-iter",
+    "num-rational",
+    "num-traits",
+    "quickcheck",
+    "gif",
+    "jpeg-decoder",
+    "png",
+    "scoped_threadpool",
+    "tiff"
+  ]
+}

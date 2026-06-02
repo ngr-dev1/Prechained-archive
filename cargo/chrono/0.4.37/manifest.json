@@ -1,0 +1,84 @@
+{
+  "name": "chrono",
+  "version": "0.4.37",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "8a0d04d43504c61aa6c7531f1871dd0d418d91130162063b789da00fd7057a5e",
+  "features": {
+    "__internal_bench": [],
+    "alloc": [],
+    "clock": [
+      "winapi",
+      "iana-time-zone",
+      "android-tzdata",
+      "now"
+    ],
+    "default": [
+      "clock",
+      "std",
+      "oldtime",
+      "wasmbind"
+    ],
+    "libc": [],
+    "now": [
+      "std"
+    ],
+    "oldtime": [],
+    "rkyv": [
+      "dep:rkyv",
+      "rkyv/size_32"
+    ],
+    "rkyv-16": [
+      "dep:rkyv",
+      "rkyv?/size_16"
+    ],
+    "rkyv-32": [
+      "dep:rkyv",
+      "rkyv?/size_32"
+    ],
+    "rkyv-64": [
+      "dep:rkyv",
+      "rkyv?/size_64"
+    ],
+    "rkyv-validation": [
+      "rkyv?/validation"
+    ],
+    "std": [
+      "alloc"
+    ],
+    "unstable-locales": [
+      "pure-rust-locales"
+    ],
+    "wasmbind": [
+      "wasm-bindgen",
+      "js-sys"
+    ],
+    "winapi": [
+      "windows-targets"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 228432,
+    "login": "pitdicker"
+  },
+  "publishedAt": "2024-03-27T11:46:02.613197Z",
+  "dependencies": [
+    "bincode",
+    "num-traits",
+    "serde_derive",
+    "serde_json",
+    "wasm-bindgen-test",
+    "windows-bindgen",
+    "android-tzdata",
+    "arbitrary",
+    "iana-time-zone",
+    "js-sys",
+    "pure-rust-locales",
+    "rkyv",
+    "rustc-serialize",
+    "serde",
+    "wasm-bindgen",
+    "windows-targets"
+  ]
+}

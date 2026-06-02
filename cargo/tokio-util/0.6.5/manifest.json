@@ -1,0 +1,59 @@
+{
+  "name": "tokio-util",
+  "version": "0.6.5",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "5143d049e85af7fbc36f5454d990e62c2df705b3589f123b71f441b6b59f443f",
+  "features": {
+    "__docs_rs": [
+      "futures-util"
+    ],
+    "codec": [],
+    "compat": [
+      "futures-io"
+    ],
+    "default": [],
+    "full": [
+      "codec",
+      "compat",
+      "io",
+      "time",
+      "net",
+      "rt"
+    ],
+    "io": [],
+    "net": [
+      "tokio/net"
+    ],
+    "rt": [
+      "tokio/rt"
+    ],
+    "time": [
+      "tokio/time",
+      "slab"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6741,
+    "login": "Darksonn"
+  },
+  "publishedAt": "2021-03-20T11:20:26.290042Z",
+  "dependencies": [
+    "async-stream",
+    "bytes",
+    "futures",
+    "futures-core",
+    "futures-sink",
+    "futures-test",
+    "log",
+    "pin-project-lite",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-test",
+    "futures-io",
+    "futures-util",
+    "slab"
+  ]
+}

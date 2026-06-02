@@ -1,0 +1,29 @@
+{
+  "name": "rand_core",
+  "version": "0.9.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "a88e0da7a2c97baa202165137c158d0a2e824ac465d13d81046727b34cb247d3",
+  "features": {
+    "os_rng": [
+      "dep:getrandom"
+    ],
+    "serde": [
+      "dep:serde"
+    ],
+    "std": [
+      "getrandom?/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1234,
+    "login": "dhardy"
+  },
+  "publishedAt": "2025-02-16T17:53:34.055533Z",
+  "dependencies": [
+    "zerocopy",
+    "getrandom",
+    "serde"
+  ]
+}

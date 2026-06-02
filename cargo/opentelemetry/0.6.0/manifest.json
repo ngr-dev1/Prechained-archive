@@ -1,0 +1,49 @@
+{
+  "name": "opentelemetry",
+  "version": "0.6.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "bc49c2e2f36870923d158ff0e357c28e2ff581cb7d8d2181ac27198882ca4132",
+  "features": {
+    "base64_format": [
+      "base64"
+    ],
+    "default": [
+      "metrics",
+      "trace"
+    ],
+    "metrics": [
+      "prometheus"
+    ],
+    "serialize": [
+      "serde",
+      "bincode"
+    ],
+    "trace": [
+      "futures",
+      "rand",
+      "pin-project"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66511,
+    "login": "jtescher"
+  },
+  "publishedAt": "2020-06-02T18:22:21.936141Z",
+  "dependencies": [
+    "criterion",
+    "lazy_static",
+    "percent-encoding",
+    "tokio",
+    "base64",
+    "bincode",
+    "futures",
+    "http",
+    "pin-project",
+    "prometheus",
+    "rand",
+    "serde",
+    "tonic"
+  ]
+}

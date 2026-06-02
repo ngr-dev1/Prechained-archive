@@ -1,0 +1,50 @@
+{
+  "name": "clap",
+  "version": "2.18.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "40046b8a004bf3ba43b9078bf4b9b6d1708406a234848f925dbd7160a374c8a8",
+  "features": {
+    "color": [
+      "ansi_term",
+      "libc"
+    ],
+    "debug": [],
+    "default": [
+      "suggestions",
+      "color",
+      "wrap_help"
+    ],
+    "lints": [
+      "clippy"
+    ],
+    "nightly": [],
+    "suggestions": [
+      "strsim"
+    ],
+    "unstable": [],
+    "wrap_help": [
+      "libc",
+      "term_size"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "yanked": true,
+  "published_by": null,
+  "publishedAt": "2016-11-05T23:59:34.895146Z",
+  "dependencies": [
+    "bitflags",
+    "regex",
+    "unicode-segmentation",
+    "unicode-width",
+    "vec_map",
+    "ansi_term",
+    "clippy",
+    "libc",
+    "strsim",
+    "term_size",
+    "yaml-rust"
+  ]
+}

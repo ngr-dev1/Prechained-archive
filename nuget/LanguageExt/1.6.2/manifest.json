@@ -1,0 +1,39 @@
+{
+  "name": "LanguageExt",
+  "version": "1.6.2",
+  "ecosystem": "nuget",
+  "description": "This library uses and abuses the features of C# 6 to provide a functional 'Base class library', that, if you squint, can look like extensions to the language itself. It also includes an 'Erlang like' process system (actors) that can optionally persist messages and state to Redis (note you can use it without Redis for in-app messaging). The process system additionally supports Rx streams of messages and state allowing for a fully complete system of reactive events and message dispatch.\n\nThis package is a functional 'toolkit' and also solves some of the annoyances with C#, namely:\n\n            * Poor tuple support\n            * Null reference problem\n            * Lack of lambda and expression inference\n            * Void isn't a real type\n            * Mutable lists, dictionaries, sets, queues, etc.\n            * The awful 'out' parameter\n\n        The library very heavily focusses on correctness, to give you the tools needed to write safe declarative code.\n\n        Features:\n\n            Powerful 'prelude' which you include by `using static LanguageExt.Prelude` (in C# 6) that covers many of the basic functional language core library functions and types (from `using LanguageExt`):\n\n                Pattern matching\n                Lambda type-inference: `var fn = fun( (int x, int y) => x + y );`\n                `Option<T>` monad\n                `OptionUnsafe<T>` monad\n                `Either<L,R>` monad\n                `EitherUnsafe<L,R>` monad\n                `TryOption<T>` monad\n                `Try<T>` monad\n                `Writer<W, T>` monad\n                `Reader<E, T>` monad\n                `State<S, T>` monad\n                `Tuple(a,b,...)` - `Tuple` construction without typing `Tuple.Create(a,b,...)` as well as `map` to project the `Item1..ItemN` properties onto named values.\n                `Lst<T>` - immutable list \n                `Map<K,V>` - immutable map                                                \n                `Se",
+  "licenseExpression": null,
+  "authors": "Paul Louth",
+  "tags": [
+    "C#",
+    "Functional",
+    "Language",
+    "Extension",
+    "Monad",
+    "Option",
+    "Either",
+    "Reader",
+    "Writer",
+    "State",
+    "List",
+    "Set",
+    "Map",
+    "Queue",
+    "Memo",
+    "Memoization",
+    "Immutable",
+    "Lambda",
+    "Pattern",
+    "Matching",
+    "Tuple"
+  ],
+  "repositoryUrl": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    "Rx-Main"
+  ],
+  "publishedAt": "1900-01-01T00:00:00+00:00",
+  "listed": false,
+  "packageHash": null
+}

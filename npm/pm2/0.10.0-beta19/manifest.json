@@ -1,0 +1,68 @@
+{
+  "name": "pm2",
+  "version": "0.10.0-beta19",
+  "ecosystem": "npm",
+  "description": "Production process manager for Node.JS applications with a built-in load balancer.",
+  "license": "AGPLv3",
+  "dependencies": {
+    "axm": "~0.1.7",
+    "ikt": "git+http://ikt.pm2.io/ikt.git#master",
+    "axon": "~2.0.0",
+    "cron": "~1.0.4",
+    "punt": "~2.2.0",
+    "async": "~0.9.0",
+    "chalk": "~0.4.0",
+    "debug": "~1.0.2",
+    "colors": "~0.6.2",
+    "moment": "~2.7.0",
+    "chokidar": "~0.8.2",
+    "nssocket": "~0.5.1",
+    "pidusage": "~0.0.7",
+    "pm2-logs": "latest",
+    "cli-table": "~0.3.0",
+    "commander": "~2.3.0",
+    "pm2-deploy": "~0.0.4",
+    "uid-number": "~0.0.5",
+    "pm2-axon-rpc": "~0.2.1",
+    "coffee-script": "~1.7.1",
+    "eventemitter2": "~0.4.14",
+    "pm2-interface": "~1.1.0",
+    "pm2-multimeter": "~0.1.2",
+    "json-stringify-safe": "~5.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "should": "^4.0.0",
+    "better-assert": "^1.0.0",
+    "promise-spawner": "^0.0.3"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": "node -e 'heyy' ; pm2 list; bash ./scripts/preinstall.sh",
+    "postinstall": "bash ./scripts/postinstall.sh",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "tknew",
+      "email": "strzelewicz.alexandre@gmail.com"
+    }
+  ],
+  "author": {
+    "url": "http://pm2.io",
+    "name": "Strzelewicz Alexandre",
+    "email": "as@unitech.io"
+  },
+  "publishedAt": "2014-08-19T15:54:10.502Z",
+  "dist": {
+    "integrity": "sha512-hBBnqmCNJq5oOUguTgVlCsHcjF8N4bDSMaUP2S/8q1MXbU68q8+B9JW+kA1oWbRtSPDeC655/D53hW1OjdHreg==",
+    "shasum": "236af3367e74d85d18557712ac42a098d2c7b71d",
+    "tarball": "https://registry.npmjs.org/pm2/-/pm2-0.10.0-beta19.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "tknew",
+    "email": "strzelewicz.alexandre@gmail.com"
+  }
+}

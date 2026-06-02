@@ -1,0 +1,27 @@
+{
+  "name": "torch",
+  "version": "1.13.0",
+  "ecosystem": "pypi",
+  "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "BSD-3",
+  "author": "PyTorch Team",
+  "author_email": "packages@pytorch.org",
+  "requires_python": ">=3.7.0",
+  "requires_dist": [
+    "typing-extensions",
+    "nvidia-cuda-runtime-cu11 (==11.7.99)",
+    "nvidia-cudnn-cu11 (==8.5.0.96)",
+    "nvidia-cublas-cu11 (==11.10.3.66)",
+    "nvidia-cuda-nvrtc-cu11 (==11.7.99)",
+    "opt-einsum (>=3.3) ; extra == 'opt-einsum'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2022-10-28T16:35:37",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/83/4b/f71a84a44192ff5fc57c2a82b9b015876c3244d3ef478a8910b701515ed0/torch-1.13.0-cp310-cp310-manylinux1_x86_64.whl",
+    "sha256": "f68edfea71ade3862039ba66bcedf954190a2db03b0c41a9b79afd72210abd97",
+    "size": 890140157,
+    "filename": "torch-1.13.0-cp310-cp310-manylinux1_x86_64.whl"
+  }
+}

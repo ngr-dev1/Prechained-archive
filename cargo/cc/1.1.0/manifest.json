@@ -1,0 +1,26 @@
+{
+  "name": "cc",
+  "version": "1.1.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "eaff6f8ce506b9773fa786672d63fc7a191ffea1be33f72bbd4aeacefca9ffc8",
+  "features": {
+    "parallel": [
+      "dep:libc",
+      "dep:jobserver",
+      "dep:once_cell"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 55123,
+    "login": "rust-lang-owner"
+  },
+  "publishedAt": "2024-07-09T09:31:44.764403Z",
+  "dependencies": [
+    "tempfile",
+    "jobserver",
+    "libc",
+    "once_cell"
+  ]
+}

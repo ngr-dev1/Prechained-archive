@@ -1,0 +1,31 @@
+{
+  "name": "ciborium",
+  "version": "0.2.2",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "42e69ffd6f0917f5c029256a24d0161db17cea3997d185db0d35926308770f0e",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": [
+      "ciborium-io/std",
+      "serde/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 155667,
+    "login": "rjzak"
+  },
+  "publishedAt": "2024-01-24T03:04:25.973012Z",
+  "dependencies": [
+    "ciborium-io",
+    "ciborium-ll",
+    "hex",
+    "rand",
+    "rstest",
+    "serde",
+    "serde_bytes"
+  ]
+}

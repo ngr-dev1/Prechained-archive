@@ -1,0 +1,133 @@
+{
+  "name": "tonic",
+  "version": "0.14.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "67ac5a8627ada0968acec063a4746bf79588aa03ccb66db2f75d7dce26722a40",
+  "features": {
+    "_tls-any": [
+      "dep:tokio-rustls",
+      "dep:tokio",
+      "tokio?/rt",
+      "tokio?/macros"
+    ],
+    "channel": [
+      "dep:hyper",
+      "hyper?/client",
+      "dep:hyper-util",
+      "hyper-util?/client-legacy",
+      "dep:tower",
+      "tower?/balance",
+      "tower?/buffer",
+      "tower?/discover",
+      "tower?/limit",
+      "tower?/load-shed",
+      "tower?/util",
+      "dep:tokio",
+      "tokio?/time",
+      "dep:hyper-timeout"
+    ],
+    "codegen": [
+      "dep:async-trait"
+    ],
+    "default": [
+      "router",
+      "transport",
+      "codegen"
+    ],
+    "deflate": [
+      "dep:flate2"
+    ],
+    "gzip": [
+      "dep:flate2"
+    ],
+    "router": [
+      "dep:axum",
+      "dep:tower",
+      "tower?/util"
+    ],
+    "server": [
+      "dep:h2",
+      "dep:hyper",
+      "hyper?/server",
+      "dep:hyper-util",
+      "hyper-util?/service",
+      "hyper-util?/server-auto",
+      "dep:socket2",
+      "dep:tokio",
+      "tokio?/macros",
+      "tokio?/net",
+      "tokio?/time",
+      "tokio-stream/net",
+      "dep:tower",
+      "tower?/util",
+      "tower?/limit",
+      "tower?/load-shed"
+    ],
+    "tls-aws-lc": [
+      "_tls-any",
+      "tokio-rustls/aws-lc-rs"
+    ],
+    "tls-native-roots": [
+      "_tls-any",
+      "channel",
+      "dep:rustls-native-certs"
+    ],
+    "tls-ring": [
+      "_tls-any",
+      "tokio-rustls/ring"
+    ],
+    "tls-webpki-roots": [
+      "_tls-any",
+      "channel",
+      "dep:webpki-roots"
+    ],
+    "transport": [
+      "server",
+      "channel"
+    ],
+    "zstd": [
+      "dep:zstd"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3959,
+    "login": "LucioFranco"
+  },
+  "publishedAt": "2025-08-08T12:45:26.785911Z",
+  "dependencies": [
+    "base64",
+    "bencher",
+    "bytes",
+    "http",
+    "http-body",
+    "http-body-util",
+    "percent-encoding",
+    "pin-project",
+    "quickcheck",
+    "quickcheck_macros",
+    "static_assertions",
+    "sync_wrapper",
+    "tokio",
+    "tokio-stream",
+    "tower",
+    "tower-layer",
+    "tower-service",
+    "tracing",
+    "async-trait",
+    "axum",
+    "flate2",
+    "h2",
+    "hyper",
+    "hyper-timeout",
+    "hyper-util",
+    "rustls-native-certs",
+    "socket2",
+    "tokio",
+    "tokio-rustls",
+    "tower",
+    "webpki-roots",
+    "zstd"
+  ]
+}

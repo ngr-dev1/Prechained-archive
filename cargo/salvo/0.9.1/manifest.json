@@ -1,0 +1,49 @@
+{
+  "name": "salvo",
+  "version": "0.9.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "6138420cbab9d67c5b377590528655c6b69a3305cc8b9da3d8abb0524c2cf20e",
+  "features": {
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "default": [],
+    "extra": [
+      "salvo_extra"
+    ],
+    "full": [
+      "extra",
+      "tls",
+      "anyhow"
+    ],
+    "tls": [
+      "salvo_core/tls"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn"
+  },
+  "publishedAt": "2021-03-19T08:44:29.036188Z",
+  "dependencies": [
+    "async-trait",
+    "futures",
+    "once_cell",
+    "reqwest",
+    "salvo_core",
+    "salvo_core",
+    "salvo_extra",
+    "salvo_macros",
+    "serde",
+    "serde_derive",
+    "tokio",
+    "tokio-stream",
+    "tracing",
+    "tracing-futures",
+    "tracing-log",
+    "tracing-subscriber",
+    "salvo_extra"
+  ]
+}

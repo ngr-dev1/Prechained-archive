@@ -1,0 +1,83 @@
+{
+  "name": "async-nats",
+  "version": "0.38.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "76433c4de73442daedb3a59e991d94e85c14ebfc33db53dfcd347a21cd6ef4f8",
+  "features": {
+    "aws-lc-rs": [
+      "dep:aws-lc-rs",
+      "tokio-rustls/aws-lc-rs",
+      "tokio-websockets/aws-lc-rs"
+    ],
+    "compatibility_tests": [],
+    "default": [
+      "server_2_10",
+      "ring"
+    ],
+    "experimental": [
+      "service"
+    ],
+    "fips": [
+      "aws-lc-rs",
+      "tokio-rustls/fips"
+    ],
+    "ring": [
+      "dep:ring",
+      "tokio-rustls/ring",
+      "tokio-websockets/ring"
+    ],
+    "server_2_10": [],
+    "service": [],
+    "slow_tests": [],
+    "websockets": [
+      "dep:tokio-websockets"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 146568,
+    "login": "Jarema"
+  },
+  "publishedAt": "2024-11-19T13:45:47.987634Z",
+  "dependencies": [
+    "base64",
+    "bytes",
+    "criterion",
+    "futures",
+    "futures",
+    "jsonschema",
+    "memchr",
+    "nkeys",
+    "nuid",
+    "num",
+    "once_cell",
+    "pin-project",
+    "portable-atomic",
+    "rand",
+    "rand",
+    "regex",
+    "reqwest",
+    "ring",
+    "rustls-native-certs",
+    "rustls-pemfile",
+    "rustls-webpki",
+    "serde",
+    "serde_json",
+    "serde_nanos",
+    "serde_repr",
+    "thiserror",
+    "time",
+    "tokio",
+    "tokio",
+    "tokio-rustls",
+    "tokio-util",
+    "tracing",
+    "tracing-subscriber",
+    "tryhard",
+    "url",
+    "aws-lc-rs",
+    "ring",
+    "tokio-websockets"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "metrics",
+  "version": "0.9.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "763d511b4a680412600a0b7b965e5575d1cdeb86fc4e394c62bf66742df336c2",
+  "features": {
+    "default": [
+      "exporters",
+      "recorders"
+    ],
+    "exporters": [
+      "metrics-exporter-log"
+    ],
+    "recorders": [
+      "metrics-recorder-text",
+      "metrics-recorder-prometheus"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 10075,
+    "login": "tobz"
+  },
+  "publishedAt": "2019-05-01T15:48:06.809253Z",
+  "dependencies": [
+    "crossbeam-channel",
+    "env_logger",
+    "fnv",
+    "futures",
+    "getopts",
+    "hashbrown",
+    "hdrhistogram",
+    "log",
+    "metrics-core",
+    "parking_lot",
+    "quanta",
+    "tokio-sync",
+    "metrics-exporter-log",
+    "metrics-recorder-prometheus",
+    "metrics-recorder-text"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "name": "p256",
+  "version": "0.14.0-pre.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "00a9c7e3fe894f553af8fb20c69c66ecc35d27f8f30a420ecb59a7ab2d3b43d7",
+  "features": {
+    "alloc": [
+      "ecdsa-core?/alloc",
+      "elliptic-curve/alloc",
+      "primeorder?/alloc"
+    ],
+    "arithmetic": [
+      "dep:primeorder",
+      "elliptic-curve/arithmetic"
+    ],
+    "bits": [
+      "arithmetic",
+      "elliptic-curve/bits"
+    ],
+    "default": [
+      "arithmetic",
+      "ecdsa",
+      "pem",
+      "std"
+    ],
+    "digest": [
+      "ecdsa-core/digest",
+      "ecdsa-core/hazmat"
+    ],
+    "ecdh": [
+      "arithmetic",
+      "elliptic-curve/ecdh"
+    ],
+    "ecdsa": [
+      "arithmetic",
+      "ecdsa-core/signing",
+      "ecdsa-core/verifying",
+      "sha256"
+    ],
+    "expose-field": [
+      "arithmetic"
+    ],
+    "hash2curve": [
+      "arithmetic",
+      "elliptic-curve/hash2curve"
+    ],
+    "jwk": [
+      "elliptic-curve/jwk"
+    ],
+    "pem": [
+      "elliptic-curve/pem",
+      "ecdsa-core/pem",
+      "pkcs8"
+    ],
+    "pkcs8": [
+      "ecdsa-core?/pkcs8",
+      "elliptic-curve/pkcs8"
+    ],
+    "serde": [
+      "ecdsa-core?/serde",
+      "elliptic-curve/serde",
+      "primeorder?/serde",
+      "serdect"
+    ],
+    "sha256": [
+      "digest",
+      "sha2"
+    ],
+    "std": [
+      "alloc",
+      "ecdsa-core?/std",
+      "elliptic-curve/std"
+    ],
+    "test-vectors": [
+      "dep:hex-literal"
+    ],
+    "voprf": [
+      "elliptic-curve/voprf",
+      "sha2"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2024-01-19T20:47:47.438950Z",
+  "dependencies": [
+    "blobby",
+    "criterion",
+    "ecdsa",
+    "elliptic-curve",
+    "hex-literal",
+    "primeorder",
+    "proptest",
+    "rand_core",
+    "ecdsa",
+    "hex-literal",
+    "primeorder",
+    "serdect",
+    "sha2"
+  ]
+}

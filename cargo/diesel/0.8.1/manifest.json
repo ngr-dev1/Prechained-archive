@@ -1,0 +1,38 @@
+{
+  "name": "diesel",
+  "version": "0.8.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "932e6e3dead4069e67a4999f98395175b91533cab2901ff471c414101018f9a4",
+  "features": {
+    "default": [
+      "postgres"
+    ],
+    "huge-tables": [
+      "large-tables"
+    ],
+    "large-tables": [],
+    "postgres": [
+      "pq-sys"
+    ],
+    "sqlite": [
+      "libsqlite3-sys"
+    ],
+    "unstable": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-11-01T18:37:57.092649Z",
+  "dependencies": [
+    "byteorder",
+    "dotenv",
+    "libc",
+    "quickcheck",
+    "tempdir",
+    "chrono",
+    "libsqlite3-sys",
+    "pq-sys",
+    "quickcheck",
+    "uuid"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "rayon",
+  "version": "1.10.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b418a60154510ca1a002a752ca9714984e21e4241e804d32555251faf8b78ffa",
+  "features": {
+    "web_spin_lock": [
+      "dep:wasm_sync",
+      "rayon-core/web_spin_lock"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 539,
+    "login": "cuviper"
+  },
+  "publishedAt": "2024-03-24T05:24:47.903463Z",
+  "dependencies": [
+    "either",
+    "rand",
+    "rand_xorshift",
+    "rayon-core",
+    "wasm_sync"
+  ]
+}

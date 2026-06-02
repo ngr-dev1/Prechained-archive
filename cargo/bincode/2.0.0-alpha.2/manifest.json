@@ -1,0 +1,42 @@
+{
+  "name": "bincode",
+  "version": "2.0.0-alpha.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "36d1c3abc6974e716eb17169ba868ebb206f17eebac8f73fc93c5bc6369d6387",
+  "features": {
+    "alloc": [],
+    "atomic": [],
+    "default": [
+      "std",
+      "derive",
+      "atomic"
+    ],
+    "derive": [
+      "bincode_derive"
+    ],
+    "serde": [
+      "std",
+      "serde_incl",
+      "serde_incl/std"
+    ],
+    "std": [
+      "alloc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4990,
+    "login": "VictorKoenders"
+  },
+  "publishedAt": "2021-12-14T14:32:55.700926Z",
+  "dependencies": [
+    "criterion",
+    "rand",
+    "serde_derive",
+    "serde_json",
+    "tempfile",
+    "bincode_derive",
+    "serde"
+  ]
+}

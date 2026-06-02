@@ -1,0 +1,46 @@
+{
+  "name": "reqwest",
+  "version": "0.9.5",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "ab52e462d1e15891441aeefadff68bdea005174328ce3da0a314f2ad313ec837",
+  "features": {
+    "default": [
+      "default-tls"
+    ],
+    "default-tls": [
+      "hyper-tls",
+      "native-tls"
+    ],
+    "hyper-011": [
+      "hyper-old-types"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-11-13T20:41:25.417528Z",
+  "dependencies": [
+    "base64",
+    "bytes",
+    "encoding_rs",
+    "env_logger",
+    "futures",
+    "http",
+    "hyper",
+    "libflate",
+    "log",
+    "mime",
+    "mime_guess",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_urlencoded",
+    "tokio",
+    "tokio-io",
+    "url",
+    "uuid",
+    "hyper-old-types",
+    "hyper-tls",
+    "native-tls"
+  ]
+}

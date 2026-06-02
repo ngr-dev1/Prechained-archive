@@ -1,0 +1,41 @@
+{
+  "name": "dask",
+  "version": "0.13.0rc1",
+  "ecosystem": "pypi",
+  "summary": "Parallel NumPy/Pandas through task scheduling",
+  "license": "BSD",
+  "author": "Matthew Rocklin",
+  "author_email": "mrocklin@gmail.com",
+  "requires_python": "",
+  "requires_dist": [
+    "numpy; extra == 'array'",
+    "toolz (>=0.7.2); extra == 'array'",
+    "cloudpickle (>=0.2.1); extra == 'bag'",
+    "partd (>=0.3.7); extra == 'bag'",
+    "toolz (>=0.7.2); extra == 'bag'",
+    "cloudpickle (>=0.2.1); extra == 'complete'",
+    "distributed (>=1.14); extra == 'complete'",
+    "numpy; extra == 'complete'",
+    "pandas (>=0.18.0); extra == 'complete'",
+    "partd (>=0.3.7); extra == 'complete'",
+    "s3fs (>=0.0.8); extra == 'complete'",
+    "toolz (>=0.7.2); extra == 'complete'",
+    "cloudpickle (>=0.2.1); extra == 'dataframe'",
+    "numpy; extra == 'dataframe'",
+    "pandas (>=0.18.0); extra == 'dataframe'",
+    "partd (>=0.3.7); extra == 'dataframe'",
+    "toolz (>=0.7.2); extra == 'dataframe'",
+    "distributed (>=1.14); extra == 'distributed'",
+    "s3fs (>=0.0.8); extra == 'distributed'",
+    "toolz (>=0.7.2); extra == 'imperative'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2016-12-30T01:34:39",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/5d/6d/bd3b1b383b2a9f24b872970c858025bc16d7235eb489ae4973a19a7030c6/dask-0.13.0rc1-py2.py3-none-any.whl",
+    "sha256": "0056b7bf2f84a7c7ac86bc40b92038961c00a9bb01d731b8f776df10cd46103f",
+    "size": 432651,
+    "filename": "dask-0.13.0rc1-py2.py3-none-any.whl"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "balloon-hash",
+  "version": "0.5.0-rc.3",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "293e7c1a176d5358ccf6c0db3576a43a46940bd5dc63fe0db9a362d921d6cea7",
+  "features": {
+    "alloc": [
+      "password-hash/alloc"
+    ],
+    "default": [
+      "alloc",
+      "getrandom",
+      "password-hash"
+    ],
+    "getrandom": [
+      "password-hash/getrandom"
+    ],
+    "parallel": [
+      "dep:rayon"
+    ],
+    "password-hash": [
+      "dep:password-hash"
+    ],
+    "rand_core": [
+      "password-hash/rand_core"
+    ],
+    "zeroize": [
+      "dep:zeroize"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2025-12-13T22:29:17.729992Z",
+  "dependencies": [
+    "crypto-bigint",
+    "digest",
+    "hex-literal",
+    "sha2",
+    "password-hash",
+    "rayon",
+    "zeroize"
+  ]
+}

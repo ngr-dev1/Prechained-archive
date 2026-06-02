@@ -1,0 +1,30 @@
+{
+  "name": "arrayvec",
+  "version": "0.3.21",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "164cb8f559a0e097229af8ed6cb0bcf8c5193a5581fc3a183785048049eb18b4",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": [
+      "odds/std",
+      "nodrop/std"
+    ],
+    "use_generic_array": [
+      "generic-array"
+    ],
+    "use_union": [
+      "nodrop/use_union"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-03-17T17:51:05.203847Z",
+  "dependencies": [
+    "nodrop",
+    "odds",
+    "generic-array"
+  ]
+}

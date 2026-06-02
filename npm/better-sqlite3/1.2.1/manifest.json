@@ -1,0 +1,47 @@
+{
+  "name": "better-sqlite3",
+  "version": "1.2.1",
+  "ecosystem": "npm",
+  "description": "The fastest and simplest library for SQLite in Node.js.",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.4.0",
+    "bindings": "^1.2.1",
+    "to-descriptor": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "sqlite3": "^3.1.4",
+    "fs-extra": "^0.30.0",
+    "cli-color": "^1.1.0"
+  },
+  "scripts": {
+    "install": "if [ \"$CI\" = \"true\" ]; then node-gyp rebuild --debug; else node-gyp rebuild; fi;",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "joshuawise",
+      "email": "joshuathomaswise@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Joshua Wise",
+    "email": "joshuathomaswise@gmail.com"
+  },
+  "publishedAt": "2016-09-23T20:58:42.508Z",
+  "dist": {
+    "integrity": "sha512-+8OLrNrCnpHvwY9ERQM+YGN60NgNwEowJuaV5nEa/uRlltD6saAZzULB+/aw/hoOuqdccQ9/csBA3mHp+/c2Rg==",
+    "shasum": "cbd9963cd92f6a6a50ccc8c62a882af4cb702a0e",
+    "tarball": "https://registry.npmjs.org/better-sqlite3/-/better-sqlite3-1.2.1.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "joshuawise",
+    "email": "joshuathomaswise@gmail.com"
+  }
+}

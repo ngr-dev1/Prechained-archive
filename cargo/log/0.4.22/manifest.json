@@ -1,0 +1,74 @@
+{
+  "name": "log",
+  "version": "0.4.22",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "a7a70ba024b9dc04c27ea2f0c0548feb474ec5c54bba33a7f72f873a39d07b24",
+  "features": {
+    "kv": [],
+    "kv_serde": [
+      "kv_std",
+      "value-bag/serde",
+      "serde"
+    ],
+    "kv_std": [
+      "std",
+      "kv",
+      "value-bag/error"
+    ],
+    "kv_sval": [
+      "kv",
+      "value-bag/sval",
+      "sval",
+      "sval_ref"
+    ],
+    "kv_unstable": [
+      "kv",
+      "value-bag"
+    ],
+    "kv_unstable_serde": [
+      "kv_serde",
+      "kv_unstable_std"
+    ],
+    "kv_unstable_std": [
+      "kv_std",
+      "kv_unstable"
+    ],
+    "kv_unstable_sval": [
+      "kv_sval",
+      "kv_unstable"
+    ],
+    "max_level_debug": [],
+    "max_level_error": [],
+    "max_level_info": [],
+    "max_level_off": [],
+    "max_level_trace": [],
+    "max_level_warn": [],
+    "release_max_level_debug": [],
+    "release_max_level_error": [],
+    "release_max_level_info": [],
+    "release_max_level_off": [],
+    "release_max_level_trace": [],
+    "release_max_level_warn": [],
+    "std": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3204,
+    "login": "KodrAus"
+  },
+  "publishedAt": "2024-06-28T00:28:14.087905Z",
+  "dependencies": [
+    "proc-macro2",
+    "serde",
+    "serde_json",
+    "serde_test",
+    "sval",
+    "sval_derive",
+    "value-bag",
+    "serde",
+    "sval",
+    "sval_ref",
+    "value-bag"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "zip",
+  "version": "0.5.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "1cbbddef6339155bc4fa8e2609040078ff18f3011117b55caa9f0516d544a357",
+  "features": {
+    "default": [
+      "bzip2",
+      "deflate",
+      "time"
+    ],
+    "deflate": [
+      "libflate"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 300,
+    "login": "mvdnes"
+  },
+  "publishedAt": "2019-03-10T13:14:27.121420Z",
+  "dependencies": [
+    "bencher",
+    "crc32fast",
+    "podio",
+    "rand",
+    "walkdir",
+    "bzip2",
+    "libflate",
+    "time"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "combine",
+  "version": "4.3.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "2809f67365382d65fd2b6d9c22577231b954ed27400efeafbe687bda75abcc0b",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "futures-03": [
+      "pin-project",
+      "std",
+      "futures-io-03",
+      "futures-util-03"
+    ],
+    "mp4": [],
+    "pin-project": [
+      "pin-project-lite"
+    ],
+    "std": [
+      "memchr/use_std",
+      "bytes_05",
+      "pin-project"
+    ],
+    "tokio-02": [
+      "pin-project",
+      "std",
+      "tokio-02-dep",
+      "futures-util-03"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 987,
+    "login": "Marwes"
+  },
+  "publishedAt": "2020-09-08T09:08:19.517667Z",
+  "dependencies": [
+    "async-std",
+    "bytes",
+    "criterion",
+    "futures",
+    "memchr",
+    "once_cell",
+    "partial-io",
+    "quick-error",
+    "quickcheck",
+    "tokio",
+    "tokio-util",
+    "bytes",
+    "futures-io",
+    "futures-util",
+    "pin-project-lite",
+    "regex",
+    "tokio"
+  ]
+}

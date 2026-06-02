@@ -1,0 +1,84 @@
+{
+  "name": "criterion",
+  "version": "0.7.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "e1c047a62b0cc3e145fa84415a3191f628e980b194c2755aa12300a4e6cbd928",
+  "features": {
+    "async": [],
+    "async_futures": [
+      "dep:futures",
+      "async"
+    ],
+    "async_smol": [
+      "dep:smol",
+      "async"
+    ],
+    "async_std": [
+      "dep:async-std",
+      "async"
+    ],
+    "async_tokio": [
+      "dep:tokio",
+      "async"
+    ],
+    "cargo_bench_support": [],
+    "csv_output": [
+      "dep:csv"
+    ],
+    "default": [
+      "rayon",
+      "plotters",
+      "cargo_bench_support"
+    ],
+    "html_reports": [],
+    "plotters": [
+      "dep:plotters"
+    ],
+    "rayon": [
+      "dep:rayon"
+    ],
+    "real_blackbox": [],
+    "stable": [
+      "csv_output",
+      "html_reports",
+      "async_futures",
+      "async_smol",
+      "async_tokio",
+      "async_std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 119743,
+    "login": "lemmih"
+  },
+  "publishedAt": "2025-07-25T10:53:22.779656Z",
+  "dependencies": [
+    "anes",
+    "approx",
+    "cast",
+    "ciborium",
+    "clap",
+    "criterion-plot",
+    "futures",
+    "itertools",
+    "num-traits",
+    "oorandom",
+    "quickcheck",
+    "rand",
+    "regex",
+    "serde",
+    "serde_json",
+    "tempfile",
+    "tinytemplate",
+    "walkdir",
+    "async-std",
+    "csv",
+    "futures",
+    "plotters",
+    "rayon",
+    "smol",
+    "tokio"
+  ]
+}

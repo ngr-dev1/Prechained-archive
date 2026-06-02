@@ -1,0 +1,30 @@
+{
+  "name": "itertools",
+  "version": "0.10.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "37d572918e350e82412fe766d24b15e6682fb2ed2bbe018280caa810397cb319",
+  "features": {
+    "default": [
+      "use_std"
+    ],
+    "use_alloc": [],
+    "use_std": [
+      "use_alloc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1442,
+    "login": "jswrenn"
+  },
+  "publishedAt": "2020-12-26T18:08:19.782525Z",
+  "dependencies": [
+    "criterion",
+    "either",
+    "paste",
+    "permutohedron",
+    "quickcheck",
+    "rand"
+  ]
+}

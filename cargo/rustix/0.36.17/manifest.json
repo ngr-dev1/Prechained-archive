@@ -1,0 +1,105 @@
+{
+  "name": "rustix",
+  "version": "0.36.17",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "305efbd14fde4139eb501df5f136994bb520b033fa9fbdce287507dc23b8c7ed",
+  "features": {
+    "all-apis": [
+      "fs",
+      "io_uring",
+      "mm",
+      "net",
+      "param",
+      "process",
+      "procfs",
+      "rand",
+      "runtime",
+      "termios",
+      "thread",
+      "time"
+    ],
+    "all-impls": [
+      "os_pipe",
+      "fs-err"
+    ],
+    "default": [
+      "std",
+      "use-libc-auxv"
+    ],
+    "fs": [],
+    "fs-err": [
+      "io-lifetimes/fs-err"
+    ],
+    "io_uring": [
+      "fs",
+      "net"
+    ],
+    "mm": [],
+    "net": [],
+    "os_pipe": [
+      "io-lifetimes/os_pipe"
+    ],
+    "param": [
+      "fs"
+    ],
+    "process": [],
+    "procfs": [
+      "once_cell",
+      "itoa",
+      "fs"
+    ],
+    "rand": [],
+    "runtime": [],
+    "rustc-dep-of-std": [
+      "core",
+      "alloc",
+      "compiler_builtins",
+      "linux-raw-sys/rustc-dep-of-std",
+      "bitflags/rustc-dep-of-std"
+    ],
+    "std": [
+      "io-lifetimes"
+    ],
+    "termios": [],
+    "thread": [],
+    "time": [],
+    "use-libc": [
+      "libc_errno",
+      "libc"
+    ],
+    "use-libc-auxv": [
+      "libc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode"
+  },
+  "publishedAt": "2023-10-26T21:31:54.332965Z",
+  "dependencies": [
+    "bitflags",
+    "ctor",
+    "errno",
+    "errno",
+    "flate2",
+    "io-lifetimes",
+    "libc",
+    "libc",
+    "linux-raw-sys",
+    "linux-raw-sys",
+    "memoffset",
+    "tempfile",
+    "windows-sys",
+    "cc",
+    "compiler_builtins",
+    "errno",
+    "io-lifetimes",
+    "itoa",
+    "libc",
+    "once_cell",
+    "rustc-std-workspace-alloc",
+    "rustc-std-workspace-core"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "name": "k256",
+  "version": "0.11.4",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "6db2573d3fd3e4cc741affc9b5ce1a8ce36cf29f09f80f36da4309d0ae6d7854",
+  "features": {
+    "arithmetic": [
+      "elliptic-curve/arithmetic"
+    ],
+    "bits": [
+      "arithmetic",
+      "elliptic-curve/bits"
+    ],
+    "default": [
+      "arithmetic",
+      "ecdsa",
+      "pkcs8",
+      "schnorr",
+      "std"
+    ],
+    "digest": [
+      "ecdsa-core/digest",
+      "ecdsa-core/hazmat"
+    ],
+    "ecdh": [
+      "arithmetic",
+      "elliptic-curve/ecdh"
+    ],
+    "ecdsa": [
+      "arithmetic",
+      "ecdsa-core/sign",
+      "ecdsa-core/verify",
+      "sha256"
+    ],
+    "expose-field": [
+      "arithmetic"
+    ],
+    "hash2curve": [
+      "arithmetic",
+      "elliptic-curve/hash2curve"
+    ],
+    "jwk": [
+      "elliptic-curve/jwk"
+    ],
+    "keccak256": [
+      "digest",
+      "sha3"
+    ],
+    "pem": [
+      "ecdsa-core/pem",
+      "elliptic-curve/pem",
+      "pkcs8"
+    ],
+    "pkcs8": [
+      "ecdsa-core/pkcs8",
+      "elliptic-curve/pkcs8"
+    ],
+    "schnorr": [
+      "arithmetic",
+      "sha256"
+    ],
+    "serde": [
+      "ecdsa-core/serde",
+      "elliptic-curve/serde",
+      "serdect"
+    ],
+    "sha256": [
+      "digest",
+      "sha2"
+    ],
+    "std": [
+      "ecdsa-core/std",
+      "elliptic-curve/std"
+    ],
+    "test-vectors": [
+      "hex-literal"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2022-08-13T23:35:50.784073Z",
+  "dependencies": [
+    "blobby",
+    "cfg-if",
+    "criterion",
+    "ecdsa",
+    "elliptic-curve",
+    "hex-literal",
+    "num-bigint",
+    "num-traits",
+    "proptest",
+    "rand_core",
+    "ecdsa",
+    "hex-literal",
+    "serdect",
+    "sha2",
+    "sha3"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "lru-cache",
+  "version": "7.4.3",
+  "ecosystem": "npm",
+  "description": "A cache object that deletes the least-recently-used items.",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "^15.1.6",
+    "benchmark": "^2.1.4",
+    "size-limit": "^7.0.8",
+    "webpack-cli": "^4.9.2",
+    "@size-limit/preset-small-lib": "^7.0.8"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "webpack-cli -o bundle ./index.js --node-env production"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me"
+  },
+  "publishedAt": "2022-03-10T19:24:02.285Z",
+  "dist": {
+    "integrity": "sha512-kuOtCBL+fxym0asLazBsj4mEmt4kwiLV6KTGYdAO9jjXVkx5svj3uMd3j/y88YONegeFAOETN8u6XPb8cw/mIw==",
+    "shasum": "b28a09754515ca5c6efcf1a5c995c2a52c40ac20",
+    "tarball": "https://registry.npmjs.org/lru-cache/-/lru-cache-7.4.3.tgz",
+    "fileCount": 6,
+    "unpackedSize": 59000
+  },
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  }
+}

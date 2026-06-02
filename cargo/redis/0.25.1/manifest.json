@@ -1,0 +1,186 @@
+{
+  "name": "redis",
+  "version": "0.25.1",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "14c442de91f2a085154b1e1b374d5d5edf5bc49d2ebbfdf47e67edd6c2df568d",
+  "features": {
+    "acl": [],
+    "aio": [
+      "bytes",
+      "pin-project-lite",
+      "futures-util",
+      "futures-util/alloc",
+      "futures-util/sink",
+      "tokio/io-util",
+      "tokio-util",
+      "tokio-util/codec",
+      "tokio/sync",
+      "combine/tokio",
+      "async-trait"
+    ],
+    "async-std-comp": [
+      "aio",
+      "async-std"
+    ],
+    "async-std-native-tls-comp": [
+      "async-std-comp",
+      "async-native-tls",
+      "tls-native-tls"
+    ],
+    "async-std-rustls-comp": [
+      "async-std-comp",
+      "futures-rustls",
+      "tls-rustls"
+    ],
+    "async-std-tls-comp": [
+      "async-std-native-tls-comp"
+    ],
+    "bigdecimal": [
+      "dep:bigdecimal"
+    ],
+    "cluster": [
+      "crc16",
+      "rand"
+    ],
+    "cluster-async": [
+      "cluster",
+      "futures",
+      "futures-util",
+      "log"
+    ],
+    "connection-manager": [
+      "arc-swap",
+      "futures",
+      "aio",
+      "tokio-retry"
+    ],
+    "default": [
+      "acl",
+      "streams",
+      "geospatial",
+      "script",
+      "keep-alive"
+    ],
+    "disable-client-setinfo": [],
+    "geospatial": [],
+    "json": [
+      "serde",
+      "serde/derive",
+      "serde_json"
+    ],
+    "keep-alive": [
+      "socket2"
+    ],
+    "num-bigint": [
+      "dep:num-bigint"
+    ],
+    "rust_decimal": [
+      "dep:rust_decimal"
+    ],
+    "script": [
+      "sha1_smol"
+    ],
+    "sentinel": [
+      "rand"
+    ],
+    "streams": [],
+    "tcp_nodelay": [],
+    "tls": [
+      "tls-native-tls"
+    ],
+    "tls-native-tls": [
+      "native-tls"
+    ],
+    "tls-rustls": [
+      "rustls",
+      "rustls-native-certs",
+      "rustls-pemfile",
+      "rustls-pki-types"
+    ],
+    "tls-rustls-insecure": [
+      "tls-rustls"
+    ],
+    "tls-rustls-webpki-roots": [
+      "tls-rustls",
+      "webpki-roots"
+    ],
+    "tokio-comp": [
+      "aio",
+      "tokio",
+      "tokio/net"
+    ],
+    "tokio-native-tls-comp": [
+      "tokio-comp",
+      "tls-native-tls",
+      "tokio-native-tls"
+    ],
+    "tokio-rustls-comp": [
+      "tokio-comp",
+      "tls-rustls",
+      "tokio-rustls"
+    ],
+    "uuid": [
+      "dep:uuid"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 147005,
+    "login": "nihohit"
+  },
+  "publishedAt": "2024-03-13T04:34:42.442019Z",
+  "dependencies": [
+    "anyhow",
+    "assert_approx_eq",
+    "combine",
+    "criterion",
+    "fnv",
+    "futures",
+    "futures-time",
+    "itoa",
+    "once_cell",
+    "partial-io",
+    "percent-encoding",
+    "quickcheck",
+    "rand",
+    "ryu",
+    "socket2",
+    "tempfile",
+    "tokio",
+    "url",
+    "ahash",
+    "arc-swap",
+    "async-native-tls",
+    "async-std",
+    "async-trait",
+    "bigdecimal",
+    "bytes",
+    "crc16",
+    "futures",
+    "futures-rustls",
+    "futures-util",
+    "log",
+    "native-tls",
+    "num-bigint",
+    "pin-project-lite",
+    "r2d2",
+    "rand",
+    "rust_decimal",
+    "rustls",
+    "rustls-native-certs",
+    "rustls-pemfile",
+    "rustls-pki-types",
+    "serde",
+    "serde_json",
+    "sha1_smol",
+    "socket2",
+    "tokio",
+    "tokio-native-tls",
+    "tokio-retry",
+    "tokio-rustls",
+    "tokio-util",
+    "uuid",
+    "webpki-roots"
+  ]
+}

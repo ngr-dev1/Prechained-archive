@@ -1,0 +1,57 @@
+{
+  "name": "nodemon",
+  "version": "1.14.6",
+  "ecosystem": "npm",
+  "description": "Simple monitor script for use during development of a Node.js app.",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.6.8",
+    "touch": "^3.1.0",
+    "chokidar": "^1.7.0",
+    "minimatch": "^3.0.4",
+    "undefsafe": "0.0.3",
+    "pstree.remy": "^1.1.0",
+    "update-notifier": "^2.3.0",
+    "ignore-by-default": "^1.0.1"
+  },
+  "devDependencies": {
+    "jscs": "^3.0.7",
+    "async": "1.4.2",
+    "husky": "^0.14.3",
+    "mocha": "^2.3.3",
+    "should": "~4.0.0",
+    "istanbul": "^0.4.5",
+    "coffee-script": "~1.7.1",
+    "@commitlint/cli": "^3.1.3",
+    "semantic-release": "^8.2.0",
+    "@commitlint/config-angular": "^3.1.1"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "node -e \"console.log('\\u001b[32mLove nodemon? You can now support the project via the open collective:\\u001b[22m\\u001b[39m\\n > \\u001b[96m\\u001b[1mhttps://opencollective.com/nodemon/donate\\u001b[0m\\n')\"",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "remy",
+      "email": "remy@leftlogic.com"
+    }
+  ],
+  "author": {
+    "url": "http://github.com/remy",
+    "name": "Remy Sharp"
+  },
+  "publishedAt": "2017-12-29T16:55:18.415Z",
+  "dist": {
+    "integrity": "sha512-jwF0CXtG3xO+ZP5Hq+O1Ry1ZxB6boB5SUY1hvsbwOAQ0gG+or2hawqGURYkrxqO/pN4mcp1fUvO69haxG6Mfjw==",
+    "shasum": "d1b2fa204137b8d2c9242d797cd0b394d05fe77d",
+    "tarball": "https://registry.npmjs.org/nodemon/-/nodemon-1.14.6.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "remy",
+    "email": "remy@leftlogic.com"
+  }
+}

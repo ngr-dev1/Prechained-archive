@@ -1,0 +1,32 @@
+{
+  "name": "NPOI",
+  "version": "2.5.1",
+  "ecosystem": "nuget",
+  "description": "Bug Fixes\n- #302 Deleted text is stilll extracted from Word document\n- #283 XWPFTableCell.GetParagraphArray(0) always return null\n- #256 ISheet.CopyRow() throws NullReferenceException\n- #187 customHeight attribute of row for SXSSFWorkbook wrong\n- #225 Infinite Loop in Substitute.ReplaceAllOccurrences on empty searchStr\n- #199 SXSSFCell: numeric value is serialized with CurrentCulture rules\n- #141 XSSFFont.FontHeight setting bug\n- #165 Excel warns if we use a font without setting its size\n- #203 Add XWPFRun.AddSvg\n- #200 Optimizations and bugfixes of SXSSF logic\n- #198 Add XWPFStyles.GetStyleWithName(string styleName)\n- #325 Fix XSSFDataValidationHelper.CreateValidation to use all CellRangeAddresses.",
+  "licenseExpression": null,
+  "authors": "NPOI Contributors",
+  "tags": [
+    "xlsx",
+    "xls",
+    "Excel",
+    "Word",
+    "docx",
+    "office",
+    "ole"
+  ],
+  "repositoryUrl": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    "System.Configuration.ConfigurationManager",
+    "System.Drawing.Common",
+    "SharpZipLib",
+    "Portable.BouncyCastle",
+    "SharpZipLib",
+    "Portable.BouncyCastle",
+    "SharpZipLib",
+    "Portable.BouncyCastle"
+  ],
+  "publishedAt": "2020-04-04T13:58:15.16+00:00",
+  "listed": true,
+  "packageHash": null
+}

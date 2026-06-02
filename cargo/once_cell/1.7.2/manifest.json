@@ -1,0 +1,32 @@
+{
+  "name": "once_cell",
+  "version": "1.7.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "af8b08b04175473088b46763e51ee54da5f9a164bc162f615b91bc179dbf15a3",
+  "features": {
+    "alloc": [
+      "race"
+    ],
+    "default": [
+      "std"
+    ],
+    "race": [],
+    "std": [
+      "alloc"
+    ],
+    "unstable": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2699,
+    "login": "matklad"
+  },
+  "publishedAt": "2021-03-02T15:22:34.860755Z",
+  "dependencies": [
+    "crossbeam-utils",
+    "lazy_static",
+    "regex",
+    "parking_lot"
+  ]
+}

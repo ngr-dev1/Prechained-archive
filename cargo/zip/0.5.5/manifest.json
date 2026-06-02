@@ -1,0 +1,39 @@
+{
+  "name": "zip",
+  "version": "0.5.5",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "6df134e83b8f0f8153a094c7b0fd79dfebe437f1d76e7715afa18ed95ebe2fd7",
+  "features": {
+    "default": [
+      "bzip2",
+      "deflate",
+      "time"
+    ],
+    "deflate": [
+      "flate2/rust_backend"
+    ],
+    "deflate-miniz": [
+      "flate2/default"
+    ],
+    "deflate-zlib": [
+      "flate2/zlib"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 300,
+    "login": "mvdnes"
+  },
+  "publishedAt": "2020-03-01T12:51:27.255718Z",
+  "dependencies": [
+    "bencher",
+    "crc32fast",
+    "podio",
+    "rand",
+    "walkdir",
+    "bzip2",
+    "flate2",
+    "time"
+  ]
+}

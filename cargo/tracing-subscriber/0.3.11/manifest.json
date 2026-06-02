@@ -1,0 +1,89 @@
+{
+  "name": "tracing-subscriber",
+  "version": "0.3.11",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "4bc28f93baff38037f64e6f43d34cfa1605f27a49c34e8a04c5e78b0babf2596",
+  "features": {
+    "alloc": [],
+    "ansi": [
+      "fmt",
+      "ansi_term"
+    ],
+    "default": [
+      "smallvec",
+      "fmt",
+      "ansi",
+      "tracing-log",
+      "std"
+    ],
+    "env-filter": [
+      "matchers",
+      "regex",
+      "lazy_static",
+      "tracing",
+      "std",
+      "thread_local"
+    ],
+    "fmt": [
+      "registry",
+      "std"
+    ],
+    "json": [
+      "tracing-serde",
+      "serde",
+      "serde_json"
+    ],
+    "local-time": [
+      "time/local-offset"
+    ],
+    "registry": [
+      "sharded-slab",
+      "thread_local",
+      "std"
+    ],
+    "std": [
+      "alloc",
+      "tracing-core/std"
+    ],
+    "valuable": [
+      "tracing-core/valuable",
+      "valuable_crate",
+      "valuable-serde",
+      "tracing-serde/valuable"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1249,
+    "login": "hawkw"
+  },
+  "publishedAt": "2022-04-09T21:37:03.858300Z",
+  "dependencies": [
+    "criterion",
+    "log",
+    "regex",
+    "time",
+    "tokio",
+    "tracing",
+    "tracing-core",
+    "tracing-futures",
+    "tracing-log",
+    "ansi_term",
+    "lazy_static",
+    "matchers",
+    "parking_lot",
+    "regex",
+    "serde",
+    "serde_json",
+    "sharded-slab",
+    "smallvec",
+    "thread_local",
+    "time",
+    "tracing",
+    "tracing-log",
+    "tracing-serde",
+    "valuable",
+    "valuable-serde"
+  ]
+}

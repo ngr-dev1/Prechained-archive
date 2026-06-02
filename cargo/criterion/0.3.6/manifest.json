@@ -1,0 +1,76 @@
+{
+  "name": "criterion",
+  "version": "0.3.6",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "b01d6de93b2b6c65e17c634a26653a29d107b3c98c607c765bf38d041531cd8f",
+  "features": {
+    "async": [
+      "futures"
+    ],
+    "async_futures": [
+      "futures/executor",
+      "async"
+    ],
+    "async_smol": [
+      "smol",
+      "async"
+    ],
+    "async_std": [
+      "async-std",
+      "async"
+    ],
+    "async_tokio": [
+      "tokio",
+      "async"
+    ],
+    "cargo_bench_support": [],
+    "csv_output": [],
+    "default": [
+      "cargo_bench_support"
+    ],
+    "html_reports": [],
+    "real_blackbox": [],
+    "stable": [
+      "async_futures",
+      "async_smol",
+      "async_tokio",
+      "async_std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 8785,
+    "login": "bheisler"
+  },
+  "publishedAt": "2022-07-06T22:35:18.029214Z",
+  "dependencies": [
+    "approx",
+    "atty",
+    "cast",
+    "clap",
+    "criterion-plot",
+    "csv",
+    "futures",
+    "itertools",
+    "lazy_static",
+    "num-traits",
+    "oorandom",
+    "plotters",
+    "quickcheck",
+    "rand",
+    "rayon",
+    "regex",
+    "serde",
+    "serde_cbor",
+    "serde_derive",
+    "serde_json",
+    "tempfile",
+    "tinytemplate",
+    "walkdir",
+    "async-std",
+    "futures",
+    "smol",
+    "tokio"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "clap",
+  "version": "3.2.18",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b15f2ea93df33549dbe2e8eecd1ca55269d63ae0b3ba1f55db030817d1c2867f",
+  "features": {
+    "cargo": [
+      "once_cell"
+    ],
+    "color": [
+      "atty",
+      "termcolor"
+    ],
+    "debug": [
+      "clap_derive/debug",
+      "backtrace"
+    ],
+    "default": [
+      "std",
+      "color",
+      "suggestions"
+    ],
+    "deprecated": [
+      "clap_derive/deprecated"
+    ],
+    "derive": [
+      "clap_derive",
+      "once_cell"
+    ],
+    "env": [],
+    "std": [
+      "indexmap/std"
+    ],
+    "suggestions": [
+      "strsim"
+    ],
+    "unicode": [
+      "textwrap/unicode-width",
+      "unicase"
+    ],
+    "unstable-doc": [
+      "derive",
+      "cargo",
+      "wrap_help",
+      "yaml",
+      "env",
+      "unicode",
+      "regex",
+      "unstable-replace",
+      "unstable-grouped"
+    ],
+    "unstable-grouped": [],
+    "unstable-replace": [],
+    "unstable-v4": [
+      "clap_derive/unstable-v4",
+      "deprecated"
+    ],
+    "wrap_help": [
+      "terminal_size",
+      "textwrap/terminal_size"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6743,
+    "login": "epage"
+  },
+  "publishedAt": "2022-08-29T16:28:22.319572Z",
+  "dependencies": [
+    "bitflags",
+    "clap_lex",
+    "humantime",
+    "indexmap",
+    "regex",
+    "rustversion",
+    "shlex",
+    "snapbox",
+    "static_assertions",
+    "textwrap",
+    "trybuild",
+    "trycmd",
+    "atty",
+    "backtrace",
+    "clap_derive",
+    "once_cell",
+    "regex",
+    "strsim",
+    "termcolor",
+    "terminal_size",
+    "unicase",
+    "yaml-rust"
+  ]
+}

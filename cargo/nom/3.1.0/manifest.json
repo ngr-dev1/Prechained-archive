@@ -1,0 +1,37 @@
+{
+  "name": "nom",
+  "version": "3.1.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "6f609d6a10aad859fdfccb134ba1022bbdfac52dd759acc2ab75171874056237",
+  "features": {
+    "default": [
+      "std",
+      "stream"
+    ],
+    "nightly": [
+      "compiler_error"
+    ],
+    "regexp": [
+      "regex"
+    ],
+    "regexp_macros": [
+      "regexp",
+      "lazy_static"
+    ],
+    "std": [
+      "memchr/use_std"
+    ],
+    "stream": [],
+    "verbose-errors": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-06-16T13:57:26.692277Z",
+  "dependencies": [
+    "memchr",
+    "compiler_error",
+    "lazy_static",
+    "regex"
+  ]
+}

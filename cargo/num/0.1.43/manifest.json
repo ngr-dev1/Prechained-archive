@@ -1,0 +1,48 @@
+{
+  "name": "num",
+  "version": "0.1.43",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "c9bdb1fb680e609c2e0930c1866cafdd0be7e7c7a1ecf92aec71ed8d99d3e133",
+  "features": {
+    "bigint": [
+      "num-bigint"
+    ],
+    "complex": [
+      "num-complex"
+    ],
+    "default": [
+      "bigint",
+      "complex",
+      "rational",
+      "rustc-serialize"
+    ],
+    "rational": [
+      "num-rational"
+    ],
+    "rustc-serialize": [
+      "num-bigint/rustc-serialize",
+      "num-complex/rustc-serialize",
+      "num-rational/rustc-serialize"
+    ],
+    "serde": [
+      "num-bigint/serde",
+      "num-complex/serde",
+      "num-rational/serde"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 539,
+    "login": "cuviper"
+  },
+  "publishedAt": "2025-01-25T00:57:47.642450Z",
+  "dependencies": [
+    "num-integer",
+    "num-iter",
+    "num-traits",
+    "num-bigint",
+    "num-complex",
+    "num-rational"
+  ]
+}

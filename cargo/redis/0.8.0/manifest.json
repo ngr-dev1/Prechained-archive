@@ -1,0 +1,27 @@
+{
+  "name": "redis",
+  "version": "0.8.0",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "02a92e223490cc63d9230c4cdf132a48ce154ab1e063558e3841e219c2ea3f91",
+  "features": {
+    "with-rustc-json": [
+      "rustc-serialize"
+    ],
+    "with-system-unix-sockets": [],
+    "with-unix-sockets": [
+      "unix_socket"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-12-26T20:24:26.445946Z",
+  "dependencies": [
+    "net2",
+    "rand",
+    "sha1",
+    "url",
+    "rustc-serialize",
+    "unix_socket"
+  ]
+}

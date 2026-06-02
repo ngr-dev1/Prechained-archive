@@ -1,0 +1,88 @@
+{
+  "name": "yew",
+  "version": "0.17.4",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "2d8703eb5b883e816cd74c65e2f6dd4144eeedb77c1b3e0284e8f3f593b80ab1",
+  "features": {
+    "agent": [
+      "bincode"
+    ],
+    "cbor": [
+      "serde_cbor"
+    ],
+    "default": [
+      "services",
+      "agent",
+      "web_sys"
+    ],
+    "doc_test": [],
+    "httpbin_test": [],
+    "msgpack": [
+      "rmp-serde"
+    ],
+    "services": [],
+    "std_web": [
+      "stdweb",
+      "yew-macro/std_web"
+    ],
+    "wasm_test": [],
+    "web_sys": [
+      "console_error_panic_hook",
+      "futures",
+      "gloo",
+      "js-sys",
+      "web-sys",
+      "wasm-bindgen",
+      "wasm-bindgen-futures"
+    ],
+    "yaml": [
+      "serde_yaml"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 48163,
+    "login": "jstarry"
+  },
+  "publishedAt": "2020-10-18T16:13:28.939303Z",
+  "dependencies": [
+    "anyhow",
+    "anymap",
+    "base64",
+    "bincode",
+    "cfg-if",
+    "cfg-match",
+    "http",
+    "indexmap",
+    "log",
+    "proc-macro-hack",
+    "proc-macro-nested",
+    "rmp-serde",
+    "rustversion",
+    "ryu",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "slab",
+    "ssri",
+    "thiserror",
+    "trybuild",
+    "wasm-bindgen",
+    "wasm-bindgen-test",
+    "yew-macro",
+    "bincode",
+    "console_error_panic_hook",
+    "futures",
+    "gloo",
+    "js-sys",
+    "rmp-serde",
+    "serde_cbor",
+    "serde_yaml",
+    "stdweb",
+    "toml",
+    "wasm-bindgen",
+    "wasm-bindgen-futures",
+    "web-sys"
+  ]
+}

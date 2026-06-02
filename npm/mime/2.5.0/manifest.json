@@ -1,0 +1,52 @@
+{
+  "name": "mime",
+  "version": "2.5.0",
+  "ecosystem": "npm",
+  "description": "A comprehensive library for mime-type mapping",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "4.1.0",
+    "mocha": "7.2.0",
+    "runmd": "*",
+    "eslint": "7.15.0",
+    "mime-db": "1.45.0",
+    "benchmark": "*",
+    "mime-score": "1.2.0",
+    "mime-types": "2.1.27",
+    "standard-version": "9.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "node src/build.js && runmd --output README.md src/README_js.md"
+  },
+  "maintainers": [
+    {
+      "name": "bentomas",
+      "email": "benjamin@benjaminthomas.org"
+    },
+    {
+      "name": "broofa",
+      "email": "robert@broofa.com"
+    }
+  ],
+  "author": {
+    "url": "http://github.com/broofa",
+    "name": "Robert Kieffer",
+    "email": "robert@broofa.com"
+  },
+  "publishedAt": "2021-01-16T00:49:39.456Z",
+  "dist": {
+    "integrity": "sha512-ft3WayFSFUVBuJj7BMLKAQcSlItKtfjsKDDsii3rqFDAZ7t11zRe8ASw/GlmivGwVUYtwkQrxiGGpL6gFvB0ag==",
+    "shasum": "2b4af934401779806ee98026bb42e8c1ae1876b1",
+    "tarball": "https://registry.npmjs.org/mime/-/mime-2.5.0.tgz",
+    "fileCount": 10,
+    "unpackedSize": 59334
+  },
+  "_npmUser": {
+    "name": "broofa",
+    "email": "robert@broofa.com"
+  }
+}

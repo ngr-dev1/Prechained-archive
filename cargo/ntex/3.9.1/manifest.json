@@ -1,0 +1,107 @@
+{
+  "name": "ntex",
+  "version": "3.9.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "0ad3a86e90b2a9ba4341a54efd7216c82e82449bb5035ebfae8ffa304b527148",
+  "features": {
+    "compio": [
+      "ntex-net/compio"
+    ],
+    "compress": [
+      "flate2"
+    ],
+    "cookie": [
+      "coo-kie",
+      "coo-kie/percent-encode"
+    ],
+    "default": [
+      "ws"
+    ],
+    "neon": [],
+    "neon-polling": [
+      "ntex-net/neon-polling"
+    ],
+    "neon-uring": [
+      "ntex-net/neon-uring"
+    ],
+    "no-test-logging": [],
+    "openssl": [
+      "tls_openssl",
+      "ntex-tls/openssl"
+    ],
+    "rustls": [
+      "tls_rustls",
+      "webpki-roots",
+      "ntex-tls/rustls"
+    ],
+    "tokio": [
+      "ntex-net/tokio"
+    ],
+    "trace": [],
+    "url": [
+      "url-pkg"
+    ],
+    "ws": [
+      "dep:sha1"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 7201,
+    "login": "fafhrd91"
+  },
+  "publishedAt": "2026-05-07T21:31:03.511759Z",
+  "dependencies": [
+    "base64",
+    "bitflags",
+    "derive_more",
+    "encoding_rs",
+    "env_logger",
+    "futures-util",
+    "httparse",
+    "httpdate",
+    "log",
+    "mime",
+    "nanorand",
+    "ntex-bytes",
+    "ntex-codec",
+    "ntex-dispatcher",
+    "ntex-error",
+    "ntex-h2",
+    "ntex-http",
+    "ntex-httparse",
+    "ntex-io",
+    "ntex-macros",
+    "ntex-net",
+    "ntex-router",
+    "ntex-rt",
+    "ntex-server",
+    "ntex-service",
+    "ntex-tls",
+    "ntex-util",
+    "oneshot",
+    "openssl",
+    "percent-encoding",
+    "pin-project-lite",
+    "rand",
+    "regex",
+    "rustls",
+    "rustls-pemfile",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "thiserror",
+    "time",
+    "uuid",
+    "variadics_please",
+    "webpki-roots",
+    "cookie",
+    "flate2",
+    "openssl",
+    "rustls",
+    "sha1",
+    "url",
+    "webpki-roots"
+  ]
+}

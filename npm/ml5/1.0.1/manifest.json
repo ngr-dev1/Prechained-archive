@@ -1,0 +1,99 @@
+{
+  "name": "ml5",
+  "version": "1.0.1",
+  "ecosystem": "npm",
+  "description": "A friendly machine learning library for the web.",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "webpack-merge": "^5.9.0",
+    "@mediapipe/pose": "^0.5.1675469404",
+    "@mediapipe/hands": "^0.4.1675469240",
+    "@tensorflow/tfjs": "^4.2.0",
+    "@mediapipe/face_mesh": "^0.4.1633559619",
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@mediapipe/selfie_segmentation": "~0.1.0",
+    "@tensorflow-models/pose-detection": "^2.1.0",
+    "@tensorflow-models/speech-commands": "^0.5.4",
+    "@tensorflow-models/body-segmentation": "^1.0.1",
+    "@tensorflow-models/hand-pose-detection": "^2.0.0",
+    "@tensorflow-models/face-landmarks-detection": "1.0.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "dotenv": "^16.4.5",
+    "rimraf": "^5.0.5",
+    "webpack": "^5.76.1",
+    "prettier": "2.8.8",
+    "babel-jest": "^29.7.0",
+    "@babel/core": "^7.23.2",
+    "cross-fetch": "^4.0.0",
+    "webpack-cli": "^5.0.1",
+    "bson-objectid": "^2.0.4",
+    "patch-package": "^8.0.0",
+    "@babel/preset-env": "^7.23.2",
+    "webpack-dev-server": "^4.15.1",
+    "html-webpack-plugin": "^5.5.3",
+    "all-contributors-cli": "^6.26.1",
+    "terser-webpack-plugin": "^5.3.10",
+    "jest-environment-jsdom": "^29.7.0",
+    "postinstall-postinstall": "^2.1.0",
+    "@tensorflow/tfjs-backend-webgpu": "^4.17.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "patch-package",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "bomanimc",
+      "email": "bomanimc@gmail.com"
+    },
+    {
+      "name": "yining",
+      "email": "yining@nyu.edu"
+    },
+    {
+      "name": "shiffman",
+      "email": "daniel@shiffman.net"
+    },
+    {
+      "name": "joeyklee",
+      "email": "jsphknglee@gmail.com"
+    },
+    {
+      "name": "pearmini",
+      "email": "subairui@icloud.com"
+    },
+    {
+      "name": "gohai",
+      "email": "gottfried.haider@gmail.com"
+    },
+    {
+      "name": "ziyuan-linn",
+      "email": "zl4140@nyu.edu"
+    },
+    {
+      "name": "sharellbryant",
+      "email": "sharell.bryant@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "ml5"
+  },
+  "publishedAt": "2024-06-22T17:07:14.407Z",
+  "dist": {
+    "integrity": "sha512-xyNgMeOlrrcboje3zpDMFnkLsTnzBecfWZf2QF4L3YcAVshWXRqn1HdN1SobJB8aW5URo/Y63L481e7l60eoXg==",
+    "shasum": "c3e4f240263e4be1fd9ea196a13f1416749358b5",
+    "tarball": "https://registry.npmjs.org/ml5/-/ml5-1.0.1.tgz",
+    "fileCount": 7,
+    "unpackedSize": 71365698
+  },
+  "_npmUser": {
+    "name": "shiffman",
+    "email": "daniel@shiffman.net"
+  }
+}

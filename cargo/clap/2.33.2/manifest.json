@@ -1,0 +1,59 @@
+{
+  "name": "clap",
+  "version": "2.33.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "10040cdf04294b565d9e0319955430099ec3813a64c952b86a41200ad714ae48",
+  "features": {
+    "color": [
+      "ansi_term",
+      "atty"
+    ],
+    "debug": [],
+    "default": [
+      "suggestions",
+      "color",
+      "vec_map"
+    ],
+    "doc": [
+      "yaml"
+    ],
+    "lints": [
+      "clippy"
+    ],
+    "nightly": [],
+    "no_cargo": [],
+    "suggestions": [
+      "strsim"
+    ],
+    "unstable": [],
+    "wrap_help": [
+      "term_size",
+      "textwrap/term_size"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 54029,
+    "login": "CreepySkeleton"
+  },
+  "publishedAt": "2020-08-05T19:12:27.681686Z",
+  "dependencies": [
+    "bitflags",
+    "lazy_static",
+    "regex",
+    "textwrap",
+    "unicode-width",
+    "version-sync",
+    "ansi_term",
+    "atty",
+    "clippy",
+    "strsim",
+    "term_size",
+    "vec_map",
+    "yaml-rust"
+  ]
+}

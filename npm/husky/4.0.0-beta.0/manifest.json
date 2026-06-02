@@ -1,0 +1,73 @@
+{
+  "name": "husky",
+  "version": "4.0.0-beta.0",
+  "ecosystem": "npm",
+  "description": "Modern native Git hooks",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "execa": "^1.0.0",
+    "is-ci": "^2.0.0",
+    "slash": "^3.0.0",
+    "pkg-dir": "^4.2.0",
+    "read-pkg": "^5.1.1",
+    "run-node": "^1.0.0",
+    "get-stdin": "^7.0.0",
+    "cosmiconfig": "^5.2.1",
+    "which-pm-runs": "^1.0.0",
+    "please-upgrade-node": "^3.2.0",
+    "opencollective-postinstall": "^2.0.2"
+  },
+  "devDependencies": {
+    "del": "^4.1.1",
+    "jest": "^24.8.0",
+    "pinst": "^1.1.1",
+    "tempy": "^0.3.0",
+    "eslint": "^6.0.0",
+    "mkdirp": "^0.5.1",
+    "pkg-ok": "^2.3.1",
+    "del-cli": "^2.0.0",
+    "ts-jest": "^24.0.2",
+    "prettier": "^1.18.2",
+    "formatree": "^1.0.2",
+    "typescript": "^3.5.2",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.10",
+    "@types/mkdirp": "^0.5.2",
+    "@types/read-pkg": "^4.0.0",
+    "@types/cosmiconfig": "^5.0.3",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-config-xo-space": "^0.21.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "@typescript-eslint/eslint-plugin": "^1.11.0"
+  },
+  "scripts": {
+    "install": "node husky install",
+    "preinstall": null,
+    "postinstall": "opencollective-postinstall || true",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "typicode",
+      "email": "typicode@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Typicode",
+    "email": "typicode@gmail.com"
+  },
+  "publishedAt": "2019-08-14T02:14:00.566Z",
+  "dist": {
+    "integrity": "sha512-V3mD/FUvzH+ZX4IezsYVozrkVyyQ7c3wCsGJC2Jt6qNrgIKdcs8JEvVUHdq6MZNY+xSv/b7YSm+kCyBZOMCVTw==",
+    "shasum": "8b27a9cf7cf0ee380c49d53d9b1c044f06427ad0",
+    "tarball": "https://registry.npmjs.org/husky/-/husky-4.0.0-beta.0.tgz",
+    "fileCount": 22,
+    "unpackedSize": 42605
+  },
+  "_npmUser": {
+    "name": "typicode",
+    "email": "typicode@gmail.com"
+  }
+}

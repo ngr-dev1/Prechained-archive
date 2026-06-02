@@ -1,0 +1,50 @@
+{
+  "name": "x25519-dalek",
+  "version": "1.2.0",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "2392b6b94a576b4e2bf3c5b2757d63f10ada8020a2e4d08ac849ebcf6ea8e077",
+  "features": {
+    "default": [
+      "std",
+      "u64_backend"
+    ],
+    "fiat_u32_backend": [
+      "curve25519-dalek/fiat_u32_backend"
+    ],
+    "fiat_u64_backend": [
+      "curve25519-dalek/fiat_u64_backend"
+    ],
+    "nightly": [
+      "curve25519-dalek/nightly"
+    ],
+    "reusable_secrets": [],
+    "serde": [
+      "our_serde",
+      "curve25519-dalek/serde"
+    ],
+    "std": [
+      "curve25519-dalek/std"
+    ],
+    "u32_backend": [
+      "curve25519-dalek/u32_backend"
+    ],
+    "u64_backend": [
+      "curve25519-dalek/u64_backend"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5289,
+    "login": "isislovecruft"
+  },
+  "publishedAt": "2021-09-14T23:47:36.363217Z",
+  "dependencies": [
+    "bincode",
+    "criterion",
+    "curve25519-dalek",
+    "rand_core",
+    "zeroize",
+    "serde"
+  ]
+}

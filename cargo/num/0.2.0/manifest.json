@@ -1,0 +1,49 @@
+{
+  "name": "num",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "cf4825417e1e1406b3782a8ce92f4d53f26ec055e3622e1881ca8e9f5f9e08db",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "i128": [
+      "num-bigint/i128",
+      "num-complex/i128",
+      "num-integer/i128",
+      "num-iter/i128",
+      "num-rational/i128",
+      "num-traits/i128"
+    ],
+    "rand": [
+      "num-bigint/rand",
+      "num-complex/rand"
+    ],
+    "serde": [
+      "num-bigint/serde",
+      "num-complex/serde",
+      "num-rational/serde"
+    ],
+    "std": [
+      "num-bigint/std",
+      "num-complex/std",
+      "num-integer/std",
+      "num-iter/std",
+      "num-rational/std",
+      "num-rational/bigint",
+      "num-traits/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-06-30T05:53:34.000512Z",
+  "dependencies": [
+    "num-complex",
+    "num-integer",
+    "num-iter",
+    "num-rational",
+    "num-traits",
+    "num-bigint"
+  ]
+}

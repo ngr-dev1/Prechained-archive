@@ -1,0 +1,117 @@
+{
+  "name": "axum",
+  "version": "0.6.5",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "3114e77b361ec716aa429ae5c04243abe00cf7548e870b9370affcc5c491a7d0",
+  "features": {
+    "__private_docs": [
+      "tower/full",
+      "tower-http/full"
+    ],
+    "default": [
+      "form",
+      "http1",
+      "json",
+      "matched-path",
+      "original-uri",
+      "query",
+      "tokio",
+      "tower-log"
+    ],
+    "form": [
+      "dep:serde_urlencoded"
+    ],
+    "http1": [
+      "hyper/http1"
+    ],
+    "http2": [
+      "hyper/http2"
+    ],
+    "json": [
+      "dep:serde_json",
+      "dep:serde_path_to_error"
+    ],
+    "macros": [
+      "dep:axum-macros"
+    ],
+    "matched-path": [],
+    "multipart": [
+      "dep:multer"
+    ],
+    "original-uri": [],
+    "query": [
+      "dep:serde_urlencoded"
+    ],
+    "tokio": [
+      "dep:tokio",
+      "hyper/server",
+      "hyper/tcp",
+      "hyper/runtime",
+      "tower/make"
+    ],
+    "tower-log": [
+      "tower/log"
+    ],
+    "ws": [
+      "tokio",
+      "dep:tokio-tungstenite",
+      "dep:sha1",
+      "dep:base64"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2023-02-11T21:34:14.378422Z",
+  "dependencies": [
+    "anyhow",
+    "async-trait",
+    "axum-core",
+    "axum-macros",
+    "bitflags",
+    "bytes",
+    "futures",
+    "futures-util",
+    "http",
+    "http-body",
+    "hyper",
+    "itoa",
+    "matchit",
+    "memchr",
+    "mime",
+    "percent-encoding",
+    "pin-project-lite",
+    "quickcheck",
+    "quickcheck_macros",
+    "reqwest",
+    "rustversion",
+    "serde",
+    "serde",
+    "serde_json",
+    "sync_wrapper",
+    "time",
+    "tokio",
+    "tokio-stream",
+    "tower",
+    "tower",
+    "tower-http",
+    "tower-http",
+    "tower-layer",
+    "tower-service",
+    "tracing",
+    "uuid",
+    "axum-macros",
+    "base64",
+    "headers",
+    "multer",
+    "serde_json",
+    "serde_path_to_error",
+    "serde_urlencoded",
+    "sha1",
+    "tokio",
+    "tokio-tungstenite"
+  ]
+}

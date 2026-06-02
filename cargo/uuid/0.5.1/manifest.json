@@ -1,0 +1,32 @@
+{
+  "name": "uuid",
+  "version": "0.5.1",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "bcc7e3b898aa6f6c08e5295b6c89258d1331e9ac578cc992fb818759951bdc22",
+  "features": {
+    "use_std": [],
+    "v1": [
+      "rand"
+    ],
+    "v3": [
+      "md5"
+    ],
+    "v4": [
+      "rand"
+    ],
+    "v5": [
+      "sha1"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-06-30T06:40:58.648702Z",
+  "dependencies": [
+    "md5",
+    "rand",
+    "rustc-serialize",
+    "serde",
+    "sha1"
+  ]
+}

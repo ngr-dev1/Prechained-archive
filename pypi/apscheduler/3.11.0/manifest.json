@@ -1,0 +1,43 @@
+{
+  "name": "apscheduler",
+  "version": "3.11.0",
+  "ecosystem": "pypi",
+  "summary": "In-process task scheduler with Cron-like capabilities",
+  "license": "MIT",
+  "author": null,
+  "author_email": "Alex Grönholm <alex.gronholm@nextday.fi>",
+  "requires_python": ">=3.8",
+  "requires_dist": [
+    "tzlocal>=3.0",
+    "backports.zoneinfo; python_version < \"3.9\"",
+    "etcd3; extra == \"etcd\"",
+    "protobuf<=3.21.0; extra == \"etcd\"",
+    "gevent; extra == \"gevent\"",
+    "pymongo>=3.0; extra == \"mongodb\"",
+    "redis>=3.0; extra == \"redis\"",
+    "rethinkdb>=2.4.0; extra == \"rethinkdb\"",
+    "sqlalchemy>=1.4; extra == \"sqlalchemy\"",
+    "tornado>=4.3; extra == \"tornado\"",
+    "twisted; extra == \"twisted\"",
+    "kazoo; extra == \"zookeeper\"",
+    "APScheduler[etcd,mongodb,redis,rethinkdb,sqlalchemy,tornado,zookeeper]; extra == \"test\"",
+    "pytest; extra == \"test\"",
+    "anyio>=4.5.2; extra == \"test\"",
+    "PySide6; (platform_python_implementation == \"CPython\" and python_version < \"3.14\") and extra == \"test\"",
+    "gevent; python_version < \"3.14\" and extra == \"test\"",
+    "pytz; extra == \"test\"",
+    "twisted; python_version < \"3.14\" and extra == \"test\"",
+    "packaging; extra == \"doc\"",
+    "sphinx; extra == \"doc\"",
+    "sphinx-rtd-theme>=1.3.0; extra == \"doc\""
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2024-11-24T19:39:24",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/d0/ae/9a053dd9229c0fde6b1f1f33f609ccff1ee79ddda364c756a924c6d8563b/APScheduler-3.11.0-py3-none-any.whl",
+    "sha256": "fc134ca32e50f5eadcc4938e3a4545ab19131435e851abb40b34d63d5141c6da",
+    "size": 64004,
+    "filename": "APScheduler-3.11.0-py3-none-any.whl"
+  }
+}

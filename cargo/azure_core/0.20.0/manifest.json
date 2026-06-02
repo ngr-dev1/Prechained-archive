@@ -1,0 +1,75 @@
+{
+  "name": "azure_core",
+  "version": "0.20.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "34ce3de4b65b1ee2667c81d1fc692949049502a4cf9c38118d811d6d79a7eaef",
+  "features": {
+    "azurite_workaround": [],
+    "default": [],
+    "enable_reqwest": [
+      "reqwest/default-tls"
+    ],
+    "enable_reqwest_gzip": [
+      "reqwest/gzip"
+    ],
+    "enable_reqwest_rustls": [
+      "reqwest/rustls-tls"
+    ],
+    "hmac_openssl": [
+      "dep:openssl"
+    ],
+    "hmac_rust": [
+      "dep:sha2",
+      "dep:hmac"
+    ],
+    "test_e2e": [],
+    "tokio-fs": [
+      "tokio/fs",
+      "tokio/sync",
+      "tokio/io-util"
+    ],
+    "tokio-sleep": [
+      "tokio"
+    ],
+    "xml": [
+      "quick-xml"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 85990,
+    "login": "demoray"
+  },
+  "publishedAt": "2024-04-24T16:20:18.162247Z",
+  "dependencies": [
+    "async-trait",
+    "base64",
+    "bytes",
+    "dyn-clone",
+    "futures",
+    "getrandom",
+    "http-types",
+    "once_cell",
+    "paste",
+    "pin-project",
+    "rand",
+    "rustc_version",
+    "serde",
+    "serde_json",
+    "thiserror",
+    "time",
+    "time",
+    "tokio",
+    "tracing",
+    "tracing-subscriber",
+    "url",
+    "uuid",
+    "hmac",
+    "openssl",
+    "quick-xml",
+    "reqwest",
+    "sha2",
+    "tokio"
+  ]
+}

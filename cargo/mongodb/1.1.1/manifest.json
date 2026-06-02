@@ -1,0 +1,82 @@
+{
+  "name": "mongodb",
+  "version": "1.1.1",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "a726495d7418c4579ecc9465b53ddade8187c0299e5db0e7250672b67d196913",
+  "features": {
+    "async-std-runtime": [
+      "async-std",
+      "async-std/attributes"
+    ],
+    "default": [
+      "tokio-runtime"
+    ],
+    "sync": [
+      "async-std-runtime"
+    ],
+    "tokio-runtime": [
+      "tokio/dns",
+      "tokio/macros",
+      "tokio/rt-core",
+      "tokio/tcp",
+      "tokio/rt-threaded",
+      "tokio/time",
+      "reqwest",
+      "serde_bytes"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2193,
+    "login": "saghm"
+  },
+  "publishedAt": "2020-09-01T21:21:17.504482Z",
+  "dependencies": [
+    "approx",
+    "async-trait",
+    "base64",
+    "bitflags",
+    "bson",
+    "chrono",
+    "derivative",
+    "derive_more",
+    "err-derive",
+    "function_name",
+    "futures",
+    "futures-intrusive",
+    "hex",
+    "hmac",
+    "lazy_static",
+    "md-5",
+    "os_info",
+    "pbkdf2",
+    "percent-encoding",
+    "pretty_assertions",
+    "rand",
+    "rustls",
+    "semver",
+    "serde",
+    "serde_json",
+    "serde_with",
+    "sha-1",
+    "sha2",
+    "socket2",
+    "stringprep",
+    "strsim",
+    "take_mut",
+    "time",
+    "tokio",
+    "tokio-rustls",
+    "trust-dns-proto",
+    "trust-dns-resolver",
+    "typed-builder",
+    "uuid",
+    "version_check",
+    "webpki",
+    "webpki-roots",
+    "async-std",
+    "reqwest",
+    "serde_bytes"
+  ]
+}

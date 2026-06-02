@@ -1,0 +1,25 @@
+{
+  "name": "metrics",
+  "version": "0.2.2",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "d91eb58a8456589bbbb8796dd6dd9816f094c4bb35e5abc9d9cdb169c7176271",
+  "features": {
+    "prometheus": [
+      "prometheus_reporter",
+      "protobuf"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-12-09T05:36:50.252425Z",
+  "dependencies": [
+    "histogram",
+    "hyper",
+    "iron",
+    "log",
+    "time",
+    "prometheus_reporter",
+    "protobuf"
+  ]
+}

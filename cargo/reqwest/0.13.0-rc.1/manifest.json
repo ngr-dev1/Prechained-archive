@@ -1,0 +1,201 @@
+{
+  "name": "reqwest",
+  "version": "0.13.0-rc.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "f01adb2cba432b90d89150c52f0818a05372409a48b52323c2325d47dead8739",
+  "features": {
+    "__rustls": [
+      "dep:hyper-rustls",
+      "dep:tokio-rustls",
+      "dep:rustls",
+      "__tls"
+    ],
+    "__rustls-aws-lc-rs": [
+      "hyper-rustls?/aws-lc-rs",
+      "tokio-rustls?/aws-lc-rs",
+      "rustls?/aws-lc-rs",
+      "quinn?/aws-lc-rs"
+    ],
+    "__tls": [
+      "dep:rustls-pki-types",
+      "tokio/io-util"
+    ],
+    "blocking": [
+      "dep:futures-channel",
+      "futures-channel?/sink",
+      "dep:futures-util",
+      "futures-util?/io",
+      "futures-util?/sink",
+      "tokio/sync"
+    ],
+    "brotli": [
+      "tower-http/decompression-br"
+    ],
+    "charset": [
+      "dep:encoding_rs",
+      "dep:mime"
+    ],
+    "cookies": [
+      "dep:cookie_crate",
+      "dep:cookie_store"
+    ],
+    "default": [
+      "default-tls",
+      "charset",
+      "http2",
+      "system-proxy"
+    ],
+    "default-tls": [
+      "rustls"
+    ],
+    "deflate": [
+      "tower-http/decompression-deflate"
+    ],
+    "form": [
+      "dep:serde",
+      "dep:serde_urlencoded"
+    ],
+    "gzip": [
+      "tower-http/decompression-gzip"
+    ],
+    "hickory-dns": [
+      "dep:hickory-resolver",
+      "dep:once_cell"
+    ],
+    "http2": [
+      "h2",
+      "hyper/http2",
+      "hyper-util/http2",
+      "hyper-rustls?/http2"
+    ],
+    "http3": [
+      "rustls",
+      "dep:h3",
+      "dep:h3-quinn",
+      "dep:quinn",
+      "tokio/macros"
+    ],
+    "json": [
+      "dep:serde",
+      "dep:serde_json"
+    ],
+    "multipart": [
+      "dep:mime_guess",
+      "dep:futures-util"
+    ],
+    "native-tls": [
+      "dep:hyper-tls",
+      "dep:native-tls-crate",
+      "__tls",
+      "dep:tokio-native-tls"
+    ],
+    "native-tls-alpn": [
+      "native-tls",
+      "native-tls-crate?/alpn",
+      "hyper-tls?/alpn"
+    ],
+    "native-tls-vendored": [
+      "native-tls",
+      "native-tls-crate?/vendored"
+    ],
+    "query": [
+      "dep:serde",
+      "dep:serde_urlencoded"
+    ],
+    "rustls": [
+      "__rustls-aws-lc-rs",
+      "dep:rustls-platform-verifier",
+      "__rustls"
+    ],
+    "rustls-no-provider": [
+      "dep:rustls-platform-verifier",
+      "__rustls"
+    ],
+    "socks": [],
+    "stream": [
+      "tokio/fs",
+      "dep:futures-util",
+      "dep:tokio-util",
+      "dep:wasm-streams"
+    ],
+    "system-proxy": [
+      "hyper-util/client-proxy-system"
+    ],
+    "zstd": [
+      "tower-http/decompression-zstd"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2025-12-23T21:05:51.164079Z",
+  "dependencies": [
+    "base64",
+    "brotli",
+    "bytes",
+    "doc-comment",
+    "env_logger",
+    "flate2",
+    "futures-core",
+    "futures-util",
+    "http",
+    "http-body",
+    "http-body-util",
+    "hyper",
+    "hyper",
+    "hyper-util",
+    "hyper-util",
+    "js-sys",
+    "libc",
+    "log",
+    "num_cpus",
+    "percent-encoding",
+    "pin-project-lite",
+    "serde",
+    "sync_wrapper",
+    "tokio",
+    "tokio",
+    "tower",
+    "tower",
+    "tower-http",
+    "tower-service",
+    "url",
+    "wasm-bindgen",
+    "wasm-bindgen",
+    "wasm-bindgen-futures",
+    "wasm-bindgen-test",
+    "web-sys",
+    "zstd",
+    "cookie",
+    "cookie_store",
+    "encoding_rs",
+    "futures-channel",
+    "futures-util",
+    "h2",
+    "h3",
+    "h3-quinn",
+    "hickory-resolver",
+    "hyper-rustls",
+    "hyper-tls",
+    "mime",
+    "mime_guess",
+    "native-tls",
+    "once_cell",
+    "quinn",
+    "rustls",
+    "rustls-native-certs",
+    "rustls-pki-types",
+    "rustls-platform-verifier",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "tokio-native-tls",
+    "tokio-rustls",
+    "tokio-util",
+    "wasm-streams",
+    "webpki-roots"
+  ]
+}

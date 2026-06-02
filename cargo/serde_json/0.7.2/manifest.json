@@ -1,0 +1,25 @@
+{
+  "name": "serde_json",
+  "version": "0.7.2",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "2384802fef27e59e47f1051f27b608dbc59cfa3f6f6cc8a1d43e48bb51811809",
+  "features": {
+    "nightly-testing": [
+      "clippy"
+    ],
+    "preserve_order": [
+      "linked-hash-map",
+      "linked-hash-map/serde_impl"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-06-24T15:23:27.292311Z",
+  "dependencies": [
+    "num-traits",
+    "serde",
+    "clippy",
+    "linked-hash-map"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "regex-automata",
+  "version": "0.1.9",
+  "ecosystem": "cargo",
+  "license": "Unlicense/MIT",
+  "checksum": "ae1ded71d66a4a97f5e961fd0cb25a5f366a42a41570d16a763a69c092c26ae4",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": [
+      "regex-syntax"
+    ],
+    "transducer": [
+      "std",
+      "fst"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 189,
+    "login": "BurntSushi"
+  },
+  "publishedAt": "2020-03-09T00:15:24.254957Z",
+  "dependencies": [
+    "bstr",
+    "byteorder",
+    "lazy_static",
+    "regex",
+    "serde",
+    "serde_bytes",
+    "serde_derive",
+    "toml",
+    "fst",
+    "regex-syntax"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "name": "jsonrpsee",
+  "version": "0.7.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "726b6cb76e568aefc4cc127fdb39cb9d92c176f4df0385eaf8053f770351719c",
+  "features": {
+    "async-client": [
+      "jsonrpsee-core/async-client"
+    ],
+    "client": [
+      "http-client",
+      "ws-client"
+    ],
+    "client-ws-transport": [
+      "jsonrpsee-client-transport/ws",
+      "jsonrpsee-client-transport/tls"
+    ],
+    "client-ws-transport-no-tls": [
+      "jsonrpsee-client-transport/ws"
+    ],
+    "full": [
+      "client",
+      "server",
+      "macros",
+      "async-client",
+      "client-ws-transport"
+    ],
+    "http-client": [
+      "jsonrpsee-http-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ],
+    "http-server": [
+      "jsonrpsee-http-server",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ],
+    "macros": [
+      "jsonrpsee-proc-macros",
+      "jsonrpsee-types"
+    ],
+    "server": [
+      "http-server",
+      "ws-server"
+    ],
+    "ws-client": [
+      "jsonrpsee-ws-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core/async-client"
+    ],
+    "ws-server": [
+      "jsonrpsee-ws-server",
+      "jsonrpsee-types",
+      "jsonrpsee-core"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 11797,
+    "login": "dvdplm"
+  },
+  "publishedAt": "2021-12-22T15:15:10.413266Z",
+  "dependencies": [
+    "jsonrpsee-client-transport",
+    "jsonrpsee-core",
+    "jsonrpsee-http-client",
+    "jsonrpsee-http-server",
+    "jsonrpsee-proc-macros",
+    "jsonrpsee-types",
+    "jsonrpsee-ws-client",
+    "jsonrpsee-ws-server"
+  ]
+}

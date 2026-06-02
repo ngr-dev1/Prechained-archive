@@ -1,0 +1,79 @@
+{
+  "name": "actix-web",
+  "version": "0.5.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "af57fb387a5ca73f8902a0edfac7fe49271b2a9c2bb78815b519c0ad35637c77",
+  "features": {
+    "alpn": [
+      "openssl",
+      "tokio-openssl"
+    ],
+    "brotli": [
+      "brotli2"
+    ],
+    "default": [
+      "session",
+      "brotli"
+    ],
+    "session": [
+      "cookie"
+    ],
+    "tls": [
+      "native-tls",
+      "tokio-tls"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-04-10T18:29:02.322842Z",
+  "dependencies": [
+    "actix",
+    "base64",
+    "bitflags",
+    "byteorder",
+    "bytes",
+    "encoding",
+    "env_logger",
+    "failure",
+    "flate2",
+    "futures",
+    "futures-cpupool",
+    "h2",
+    "http",
+    "http-range",
+    "httparse",
+    "language-tags",
+    "lazy_static",
+    "libc",
+    "log",
+    "mime",
+    "mime_guess",
+    "mio",
+    "net2",
+    "num_cpus",
+    "percent-encoding",
+    "rand",
+    "regex",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_urlencoded",
+    "sha1",
+    "skeptic",
+    "skeptic",
+    "smallvec",
+    "time",
+    "tokio-core",
+    "tokio-io",
+    "trust-dns-resolver",
+    "url",
+    "version_check",
+    "brotli2",
+    "cookie",
+    "native-tls",
+    "openssl",
+    "tokio-openssl",
+    "tokio-tls"
+  ]
+}

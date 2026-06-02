@@ -1,0 +1,87 @@
+{
+  "name": "async-nats",
+  "version": "0.43.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "351fc678084ed17ee61a56285eda9443b10452ed5ea611a35d06b28000bf07fd",
+  "features": {
+    "aws-lc-rs": [
+      "dep:aws-lc-rs",
+      "tokio-rustls/aws-lc-rs",
+      "tokio-websockets?/aws-lc-rs",
+      "rustls-webpki/aws_lc_rs"
+    ],
+    "compatibility_tests": [],
+    "default": [
+      "server_2_10",
+      "server_2_11",
+      "server_2_12",
+      "ring"
+    ],
+    "experimental": [],
+    "fips": [
+      "aws-lc-rs",
+      "tokio-rustls/fips"
+    ],
+    "ring": [
+      "dep:ring",
+      "tokio-rustls/ring",
+      "tokio-websockets?/ring"
+    ],
+    "server_2_10": [],
+    "server_2_11": [],
+    "server_2_12": [],
+    "service": [],
+    "slow_tests": [],
+    "websockets": [
+      "dep:tokio-websockets"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 146568,
+    "login": "Jarema"
+  },
+  "publishedAt": "2025-09-23T10:25:55.404202Z",
+  "dependencies": [
+    "base64",
+    "bytes",
+    "criterion",
+    "futures",
+    "futures-util",
+    "jsonschema",
+    "memchr",
+    "nkeys",
+    "nuid",
+    "num",
+    "once_cell",
+    "pin-project",
+    "portable-atomic",
+    "rand",
+    "rand",
+    "regex",
+    "reqwest",
+    "ring",
+    "rustls-native-certs",
+    "rustls-pemfile",
+    "rustls-webpki",
+    "serde",
+    "serde_json",
+    "serde_nanos",
+    "serde_repr",
+    "thiserror",
+    "time",
+    "tokio",
+    "tokio",
+    "tokio-rustls",
+    "tokio-stream",
+    "tokio-util",
+    "tracing",
+    "tracing-subscriber",
+    "tryhard",
+    "url",
+    "aws-lc-rs",
+    "ring",
+    "tokio-websockets"
+  ]
+}

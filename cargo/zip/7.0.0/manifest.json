@@ -1,0 +1,118 @@
+{
+  "name": "zip",
+  "version": "7.0.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "bdd8a47718a4ee5fe78e07667cd36f3de80e7c2bfe727c7074245ffc7303c037",
+  "features": {
+    "_all-features": [],
+    "_deflate-any": [],
+    "aes-crypto": [
+      "dep:aes",
+      "dep:constant_time_eq",
+      "dep:generic-array",
+      "dep:getrandom",
+      "dep:hmac",
+      "dep:pbkdf2",
+      "dep:sha1",
+      "dep:zeroize"
+    ],
+    "chrono": [
+      "dep:chrono"
+    ],
+    "default": [
+      "aes-crypto",
+      "bzip2",
+      "deflate64",
+      "deflate",
+      "lzma",
+      "ppmd",
+      "time",
+      "zstd",
+      "xz"
+    ],
+    "deflate": [
+      "deflate-zopfli",
+      "deflate-flate2-zlib-rs"
+    ],
+    "deflate-flate2": [
+      "_deflate-any",
+      "dep:flate2"
+    ],
+    "deflate-flate2-zlib": [
+      "deflate-flate2",
+      "flate2/zlib"
+    ],
+    "deflate-flate2-zlib-ng": [
+      "deflate-flate2",
+      "flate2/zlib-ng"
+    ],
+    "deflate-flate2-zlib-ng-compat": [
+      "deflate-flate2",
+      "flate2/zlib-ng-compat"
+    ],
+    "deflate-flate2-zlib-rs": [
+      "deflate-flate2",
+      "flate2/zlib-rs"
+    ],
+    "deflate-zopfli": [
+      "dep:zopfli",
+      "_deflate-any"
+    ],
+    "jiff-02": [
+      "dep:jiff"
+    ],
+    "legacy-zip": [
+      "bitstream-io"
+    ],
+    "lzma": [
+      "dep:lzma-rust2"
+    ],
+    "nt-time": [
+      "dep:nt-time"
+    ],
+    "ppmd": [
+      "dep:ppmd-rust"
+    ],
+    "unreserved": [],
+    "xz": [
+      "dep:lzma-rust2"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2025-12-19T23:16:44.172577Z",
+  "dependencies": [
+    "anyhow",
+    "arbitrary",
+    "bencher",
+    "clap",
+    "crc32fast",
+    "getrandom",
+    "indexmap",
+    "memchr",
+    "tempfile",
+    "time",
+    "walkdir",
+    "aes",
+    "bitstream-io",
+    "bzip2",
+    "chrono",
+    "constant_time_eq",
+    "deflate64",
+    "flate2",
+    "generic-array",
+    "getrandom",
+    "hmac",
+    "jiff",
+    "lzma-rust2",
+    "nt-time",
+    "pbkdf2",
+    "ppmd-rust",
+    "sha1",
+    "time",
+    "zeroize",
+    "zopfli",
+    "zstd"
+  ]
+}

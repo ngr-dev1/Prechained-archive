@@ -1,0 +1,39 @@
+{
+  "name": "x25519-dalek",
+  "version": "0.5.1",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "4aca1ba6bec2719576bd20dfe5b24d9359552e616d10bff257e50cd85f745d17",
+  "features": {
+    "default": [
+      "std",
+      "u64_backend"
+    ],
+    "nightly": [
+      "curve25519-dalek/nightly",
+      "clear_on_drop/nightly"
+    ],
+    "std": [
+      "curve25519-dalek/std"
+    ],
+    "u32_backend": [
+      "curve25519-dalek/u32_backend"
+    ],
+    "u64_backend": [
+      "curve25519-dalek/u64_backend"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5289,
+    "login": "isislovecruft"
+  },
+  "publishedAt": "2019-02-28T22:45:08.905808Z",
+  "dependencies": [
+    "clear_on_drop",
+    "criterion",
+    "curve25519-dalek",
+    "rand_core",
+    "rand_os"
+  ]
+}

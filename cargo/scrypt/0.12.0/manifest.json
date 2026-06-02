@@ -1,0 +1,49 @@
+{
+  "name": "scrypt",
+  "version": "0.12.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "d87af57419b594aa23fa95f09f0e06d80d84ba01c26148c43844cad6ff4485f0",
+  "features": {
+    "alloc": [
+      "password-hash?/alloc"
+    ],
+    "getrandom": [
+      "password-hash",
+      "password-hash/getrandom"
+    ],
+    "kdf": [
+      "alloc",
+      "dep:kdf"
+    ],
+    "mcf": [
+      "alloc",
+      "phc",
+      "dep:ctutils",
+      "dep:mcf"
+    ],
+    "parallel": [
+      "dep:rayon"
+    ],
+    "phc": [
+      "password-hash/phc"
+    ],
+    "rand_core": [
+      "password-hash/rand_core"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2026-04-22T12:57:26.796747Z",
+  "dependencies": [
+    "cfg-if",
+    "pbkdf2",
+    "salsa20",
+    "sha2",
+    "ctutils",
+    "kdf",
+    "mcf",
+    "password-hash",
+    "rayon"
+  ]
+}

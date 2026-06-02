@@ -1,0 +1,45 @@
+{
+  "name": "mkdirp",
+  "version": "2.1.3",
+  "ecosystem": "npm",
+  "description": "Recursively mkdir, like `mkdir -p`",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "tap": "^16.3.3",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.23.21",
+    "prettier": "^2.8.2",
+    "@types/tap": "^15.0.7",
+    "typescript": "^4.9.3",
+    "@types/node": "^18.11.9",
+    "@types/brace-expansion": "^1.1.0",
+    "eslint-config-prettier": "^8.6.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tsc -p tsconfig.json && tsc -p tsconfig-esm.json"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2023-01-17T22:18:31.249Z",
+  "dist": {
+    "integrity": "sha512-sjAkg21peAG9HS+Dkx7hlG9Ztx7HLeKnvB3NQRcu/mltCVmvkF0pisbiTSfDVYTT86XEfZrTUosLdZLStquZUw==",
+    "shasum": "b083ff37be046fd3d6552468c1f0ff44c1545d1f",
+    "tarball": "https://registry.npmjs.org/mkdirp/-/mkdirp-2.1.3.tgz",
+    "fileCount": 53,
+    "unpackedSize": 77700
+  },
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  }
+}

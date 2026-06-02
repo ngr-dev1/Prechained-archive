@@ -1,0 +1,51 @@
+{
+  "name": "warp",
+  "version": "0.2.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "54cd1e2b3eb3539284d88b76a9afcf5e20f2ef2fab74db5b21a1c30d7d945e82",
+  "features": {
+    "default": [
+      "multipart",
+      "websocket"
+    ],
+    "tls": [
+      "tokio-rustls"
+    ],
+    "websocket": [
+      "tokio-tungstenite"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2020-03-03T22:20:38.755107Z",
+  "dependencies": [
+    "bytes",
+    "futures",
+    "handlebars",
+    "headers",
+    "http",
+    "hyper",
+    "listenfd",
+    "log",
+    "mime",
+    "mime_guess",
+    "pin-project",
+    "pretty_env_logger",
+    "scoped-tls",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_urlencoded",
+    "tokio",
+    "tokio",
+    "tower-service",
+    "urlencoding",
+    "multipart",
+    "tokio-rustls",
+    "tokio-tungstenite"
+  ]
+}

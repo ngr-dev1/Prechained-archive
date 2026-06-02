@@ -1,0 +1,68 @@
+{
+  "name": "diesel",
+  "version": "0.13.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "90edf3024e90c3bf92ff71c6e9e809648b0e482a653dc006d5639fdc40cd78a3",
+  "features": {
+    "default": [
+      "with-deprecated"
+    ],
+    "deprecated-time": [
+      "time"
+    ],
+    "extras": [
+      "chrono",
+      "serde_json",
+      "uuid",
+      "deprecated-time",
+      "network-address"
+    ],
+    "huge-tables": [
+      "large-tables"
+    ],
+    "large-tables": [],
+    "lint": [
+      "clippy"
+    ],
+    "mysql": [
+      "mysqlclient-sys",
+      "url"
+    ],
+    "network-address": [
+      "ipnetwork",
+      "libc"
+    ],
+    "postgres": [
+      "pq-sys"
+    ],
+    "sqlite": [
+      "libsqlite3-sys"
+    ],
+    "unstable": [],
+    "with-deprecated": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-05-15T16:59:28.330791Z",
+  "dependencies": [
+    "byteorder",
+    "cfg-if",
+    "diesel_codegen",
+    "dotenv",
+    "quickcheck",
+    "tempdir",
+    "chrono",
+    "clippy",
+    "ipnetwork",
+    "libc",
+    "libsqlite3-sys",
+    "mysqlclient-sys",
+    "pq-sys",
+    "quickcheck",
+    "serde_json",
+    "time",
+    "url",
+    "uuid"
+  ]
+}

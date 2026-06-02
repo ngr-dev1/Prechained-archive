@@ -1,0 +1,36 @@
+{
+  "name": "leptos",
+  "version": "0.0.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "713298a036ecf87fd5beaaaec4f0730f69f403716aec79991602613a1a937211",
+  "features": {
+    "csr": [
+      "leptos_core/csr",
+      "leptos_macro/csr",
+      "leptos_reactive/csr"
+    ],
+    "hydrate": [
+      "leptos_core/hydrate",
+      "leptos_macro/hydrate",
+      "leptos_reactive/hydrate"
+    ],
+    "ssr": [
+      "leptos_core/ssr",
+      "leptos_macro/ssr",
+      "leptos_reactive/ssr"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 130155,
+    "login": "gbj"
+  },
+  "publishedAt": "2022-10-07T11:07:13.187265Z",
+  "dependencies": [
+    "leptos_core",
+    "leptos_dom",
+    "leptos_macro",
+    "leptos_reactive"
+  ]
+}

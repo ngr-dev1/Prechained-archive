@@ -1,0 +1,50 @@
+{
+  "name": "generic-array",
+  "version": "1.4.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "dab9e9188e97a93276e1fe7b56401b851e2b45a46d045ca658100c1303ada649",
+  "features": {
+    "alloc": [],
+    "as_slice": [
+      "dep:as-slice"
+    ],
+    "bitvec": [
+      "dep:bitvec",
+      "const-default"
+    ],
+    "compat-0_14": [
+      "dep:generic_array-0_14"
+    ],
+    "internals": [],
+    "serde": [
+      "dep:serde_core"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5704,
+    "login": "novacrazy"
+  },
+  "publishedAt": "2026-04-28T04:42:09.095324Z",
+  "dependencies": [
+    "aes",
+    "bincode",
+    "criterion",
+    "rand",
+    "rustversion",
+    "serde_json",
+    "typenum",
+    "arbitrary",
+    "as-slice",
+    "bitvec",
+    "bytemuck",
+    "const-default",
+    "faster-hex",
+    "generic-array",
+    "hybrid-array",
+    "serde_core",
+    "subtle",
+    "zeroize"
+  ]
+}

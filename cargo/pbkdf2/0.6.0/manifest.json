@@ -1,0 +1,47 @@
+{
+  "name": "pbkdf2",
+  "version": "0.6.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b3b8c0d71734018084da0c0354193a5edfb81b20d2d57a92c5b154aefc554a4a",
+  "features": {
+    "default": [
+      "include_simple",
+      "thread_rng"
+    ],
+    "include_simple": [
+      "sha2",
+      "hmac",
+      "rand_core",
+      "base64",
+      "subtle"
+    ],
+    "parallel": [
+      "rayon",
+      "std"
+    ],
+    "std": [],
+    "thread_rng": [
+      "rand"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2020-10-18T17:09:59.741027Z",
+  "dependencies": [
+    "crypto-mac",
+    "hmac",
+    "sha-1",
+    "sha2",
+    "base64",
+    "hmac",
+    "rand",
+    "rand_core",
+    "rayon",
+    "sha2",
+    "subtle"
+  ]
+}

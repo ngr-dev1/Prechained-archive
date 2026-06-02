@@ -1,0 +1,40 @@
+{
+  "name": "indicatif",
+  "version": "0.17.0-rc.4",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "bcff4a3e20f61e89b1560f96ce23f3943ea58fd71ef8c9c028e56436da02e37b",
+  "features": {
+    "default": [
+      "unicode-width",
+      "console/unicode-width"
+    ],
+    "improved_unicode": [
+      "unicode-segmentation",
+      "unicode-width",
+      "console/unicode-width"
+    ],
+    "in_memory": [
+      "vt100"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4556,
+    "login": "djc"
+  },
+  "publishedAt": "2022-02-10T21:41:24.793683Z",
+  "dependencies": [
+    "console",
+    "number_prefix",
+    "once_cell",
+    "rand",
+    "structopt",
+    "tokio",
+    "rayon",
+    "tokio",
+    "unicode-segmentation",
+    "unicode-width",
+    "vt100"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "cypress",
+  "version": "0.20.1-dev.20170914.162644",
+  "ecosystem": "npm",
+  "description": "Cypress is a next generation front end testing tool built for the modern web",
+  "license": "MIT",
+  "dependencies": {
+    "tmp": "0.0.31",
+    "url": "0.11.0",
+    "glob": "7.1.2",
+    "chalk": "2.1.0",
+    "debug": "2.6.8",
+    "getos": "2.8.4",
+    "is-ci": "1.0.10",
+    "listr": "0.12.0",
+    "ramda": "0.24.1",
+    "yauzl": "2.8.0",
+    "lodash": "4.17.4",
+    "request": "2.81.0",
+    "bluebird": "3.5.0",
+    "fs-extra": "4.0.1",
+    "minimist": "1.2.0",
+    "progress": "1.1.8",
+    "commander": "2.9.0",
+    "common-tags": "1.4.0",
+    "extract-zip": "1.6.5",
+    "@cypress/xvfb": "1.0.4",
+    "request-progress": "0.3.1",
+    "is-installed-globally": "0.1.0",
+    "@cypress/listr-verbose-renderer": "0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "node index.js --exec install",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "bahmutov",
+      "email": "gleb.bahmutov@gmail.com"
+    },
+    {
+      "name": "brian-mann",
+      "email": "brian.mann86@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Brian Mann"
+  },
+  "publishedAt": "2017-09-14T20:26:50.550Z",
+  "dist": {
+    "integrity": "sha512-v0X8rEsbu13BK9cx6NvQxHgVwFs4SE+yBnu7SsIj1TPjEceNYOezKTWoe0ThFc5vs37I9/mm72JZ1ZPGwDML1Q==",
+    "shasum": "807f0e8636448913a0ee31fe5641f5964540f798",
+    "tarball": "https://registry.npmjs.org/cypress/-/cypress-0.20.1-dev.20170914.162644.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "brian-mann",
+    "email": "brian.mann86@gmail.com"
+  }
+}

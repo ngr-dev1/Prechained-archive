@@ -1,0 +1,48 @@
+{
+  "name": "kafka",
+  "version": "0.8.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "f37f068eb07305e1141453ea2dccfb4f278153a4261bb9a519f10d1eb13d25a8",
+  "features": {
+    "default": [
+      "snappy",
+      "gzip",
+      "security"
+    ],
+    "gzip": [
+      "flate2"
+    ],
+    "integration_tests": [],
+    "nightly": [],
+    "security": [
+      "openssl"
+    ],
+    "snappy": [
+      "snap"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1554,
+    "login": "dead10ck"
+  },
+  "publishedAt": "2019-09-10T21:58:12.439580Z",
+  "dependencies": [
+    "byteorder",
+    "crc",
+    "env_logger",
+    "error-chain",
+    "fnv",
+    "getopts",
+    "lazy_static",
+    "log",
+    "rand",
+    "ref_slice",
+    "time",
+    "twox-hash",
+    "flate2",
+    "openssl",
+    "snap"
+  ]
+}

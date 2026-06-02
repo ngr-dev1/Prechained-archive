@@ -1,0 +1,149 @@
+{
+  "name": "viz",
+  "version": "0.8.5",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "9a63190bdae9febcd3a0c0a39fdec33c4dd3334a047a3205f89906106371cb49",
+  "features": {
+    "compression": [
+      "viz-core/compression"
+    ],
+    "cookie": [
+      "viz-core/cookie"
+    ],
+    "cookie-private": [
+      "viz-core/cookie-private"
+    ],
+    "cookie-signed": [
+      "viz-core/cookie-signed"
+    ],
+    "cors": [
+      "viz-core/cors"
+    ],
+    "csrf": [
+      "cookie",
+      "cookie-private",
+      "viz-core/csrf"
+    ],
+    "default": [
+      "state",
+      "limits",
+      "query",
+      "form",
+      "json",
+      "multipart",
+      "params",
+      "cookie",
+      "session",
+      "http1"
+    ],
+    "embed": [
+      "handlers",
+      "viz-handlers?/embed"
+    ],
+    "form": [
+      "viz-core/form"
+    ],
+    "fs": [
+      "viz-core/fs"
+    ],
+    "handlers": [
+      "dep:viz-handlers"
+    ],
+    "http1": [
+      "dep:hyper",
+      "dep:hyper-util",
+      "hyper?/http1",
+      "hyper-util?/http1"
+    ],
+    "http2": [
+      "dep:hyper",
+      "dep:hyper-util",
+      "hyper?/http2",
+      "hyper-util?/http2"
+    ],
+    "json": [
+      "viz-core/json"
+    ],
+    "limits": [
+      "viz-core/limits"
+    ],
+    "macros": [
+      "dep:viz-macros"
+    ],
+    "multipart": [
+      "viz-core/multipart"
+    ],
+    "native-tls": [
+      "dep:futures-util",
+      "dep:tokio-native-tls"
+    ],
+    "otel": [
+      "viz-core/otel"
+    ],
+    "otel-metrics": [
+      "otel",
+      "viz-core/otel-metrics"
+    ],
+    "otel-prometheus": [
+      "handlers",
+      "viz-handlers?/prometheus"
+    ],
+    "otel-tracing": [
+      "otel",
+      "viz-core/otel-tracing"
+    ],
+    "params": [
+      "viz-core/params"
+    ],
+    "query": [
+      "viz-core/query"
+    ],
+    "rustls": [
+      "dep:rustls-pemfile",
+      "dep:futures-util",
+      "dep:tokio-rustls"
+    ],
+    "serve": [
+      "handlers",
+      "viz-handlers?/serve"
+    ],
+    "session": [
+      "cookie",
+      "cookie-private",
+      "viz-core/session"
+    ],
+    "sse": [
+      "viz-core/sse"
+    ],
+    "state": [
+      "viz-core/state"
+    ],
+    "unix-socket": [],
+    "websocket": [
+      "viz-core/websocket"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 39221,
+    "login": "fundon"
+  },
+  "publishedAt": "2024-05-28T03:35:02.324549Z",
+  "dependencies": [
+    "tokio",
+    "tokio",
+    "tokio-util",
+    "tracing",
+    "viz-core",
+    "viz-router",
+    "futures-util",
+    "hyper",
+    "hyper-util",
+    "rustls-pemfile",
+    "tokio-native-tls",
+    "tokio-rustls",
+    "viz-handlers",
+    "viz-macros"
+  ]
+}

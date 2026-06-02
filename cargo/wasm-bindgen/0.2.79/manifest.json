@@ -1,0 +1,50 @@
+{
+  "name": "wasm-bindgen",
+  "version": "0.2.79",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "25f1af7423d8588a3d840681122e72e6a24ddbcb3f0ec385cac0d12d24256c06",
+  "features": {
+    "default": [
+      "spans",
+      "std"
+    ],
+    "enable-interning": [
+      "std"
+    ],
+    "nightly": [],
+    "serde-serialize": [
+      "serde",
+      "serde_json",
+      "std"
+    ],
+    "spans": [
+      "wasm-bindgen-macro/spans"
+    ],
+    "std": [],
+    "strict-macro": [
+      "wasm-bindgen-macro/strict-macro"
+    ],
+    "xxx_debug_only_print_generated_code": [
+      "wasm-bindgen-macro/xxx_debug_only_print_generated_code"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1,
+    "login": "alexcrichton"
+  },
+  "publishedAt": "2022-01-19T21:00:32.333996Z",
+  "dependencies": [
+    "cfg-if",
+    "js-sys",
+    "serde_derive",
+    "wasm-bindgen-futures",
+    "wasm-bindgen-macro",
+    "wasm-bindgen-test",
+    "wasm-bindgen-test-crate-a",
+    "wasm-bindgen-test-crate-b",
+    "serde",
+    "serde_json"
+  ]
+}

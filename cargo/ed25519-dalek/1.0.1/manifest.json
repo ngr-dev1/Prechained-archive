@@ -1,0 +1,80 @@
+{
+  "name": "ed25519-dalek",
+  "version": "1.0.1",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "c762bae6dcaf24c4c84667b8579785430908723d5c889f469d76a41d59cc7a9d",
+  "features": {
+    "alloc": [
+      "curve25519-dalek/alloc",
+      "rand/alloc",
+      "zeroize/alloc"
+    ],
+    "asm": [
+      "sha2/asm"
+    ],
+    "batch": [
+      "merlin",
+      "rand"
+    ],
+    "batch_deterministic": [
+      "merlin",
+      "rand",
+      "rand_core"
+    ],
+    "default": [
+      "std",
+      "rand",
+      "u64_backend"
+    ],
+    "legacy_compatibility": [],
+    "nightly": [
+      "curve25519-dalek/nightly"
+    ],
+    "serde": [
+      "serde_crate",
+      "serde_bytes",
+      "ed25519/serde"
+    ],
+    "simd_backend": [
+      "curve25519-dalek/simd_backend"
+    ],
+    "std": [
+      "curve25519-dalek/std",
+      "ed25519/std",
+      "serde_crate/std",
+      "sha2/std",
+      "rand/std"
+    ],
+    "u32_backend": [
+      "curve25519-dalek/u32_backend"
+    ],
+    "u64_backend": [
+      "curve25519-dalek/u64_backend"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5289,
+    "login": "isislovecruft"
+  },
+  "publishedAt": "2020-09-22T02:01:04.148204Z",
+  "dependencies": [
+    "bincode",
+    "criterion",
+    "curve25519-dalek",
+    "ed25519",
+    "hex",
+    "rand",
+    "serde",
+    "serde_json",
+    "sha2",
+    "toml",
+    "zeroize",
+    "merlin",
+    "rand",
+    "rand_core",
+    "serde",
+    "serde_bytes"
+  ]
+}

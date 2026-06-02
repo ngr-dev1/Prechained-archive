@@ -1,0 +1,33 @@
+{
+  "name": "chumsky",
+  "version": "0.9.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "f1ab9dfd50d9aa6fb879d170612f27bb66099f94405eba85330e58b67db8c203",
+  "features": {
+    "ahash": [],
+    "default": [
+      "ahash",
+      "std",
+      "spill-stack"
+    ],
+    "nightly": [],
+    "spill-stack": [
+      "stacker",
+      "std"
+    ],
+    "std": []
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 21853,
+    "login": "zesterer"
+  },
+  "publishedAt": "2023-03-02T16:00:09.835514Z",
+  "dependencies": [
+    "ariadne",
+    "hashbrown",
+    "pom",
+    "stacker"
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "name": "sea-orm",
+  "version": "2.0.0-rc.37",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "4b846dc1c7fefbea372c03765ff08307d68894bbad8c73b66176dcd53a3ee131",
+  "features": {
+    "debug-print": [],
+    "default": [
+      "macros",
+      "with-json",
+      "with-chrono",
+      "with-rust_decimal",
+      "with-uuid",
+      "with-time",
+      "sqlite-use-returning-for-3_35"
+    ],
+    "entity-registry": [
+      "inventory",
+      "sea-orm-macros/entity-registry"
+    ],
+    "json-array": [
+      "postgres-array"
+    ],
+    "macros": [
+      "sea-orm-macros/derive"
+    ],
+    "mariadb-use-returning": [],
+    "mock": [],
+    "postgres-array": [
+      "sea-query/postgres-array",
+      "sea-orm-macros/postgres-array",
+      "sea-query-sqlx?/postgres-array"
+    ],
+    "postgres-use-serial-pk": [
+      "sea-query/option-postgres-use-serial"
+    ],
+    "postgres-vector": [
+      "pgvector",
+      "sea-query/postgres-vector",
+      "sea-query-sqlx?/postgres-vector"
+    ],
+    "proxy": [
+      "serde/derive"
+    ],
+    "rbac": [
+      "sea-query/audit",
+      "macros"
+    ],
+    "runtime-async-std": [
+      "sqlx?/runtime-async-std"
+    ],
+    "runtime-async-std-native-tls": [
+      "sqlx?/runtime-async-std-native-tls",
+      "runtime-async-std"
+    ],
+    "runtime-async-std-rustls": [
+      "sqlx?/runtime-async-std-rustls",
+      "runtime-async-std"
+    ],
+    "runtime-tokio": [
+      "sqlx?/runtime-tokio"
+    ],
+    "runtime-tokio-native-tls": [
+      "sqlx?/runtime-tokio-native-tls",
+      "runtime-tokio"
+    ],
+    "runtime-tokio-rustls": [
+      "sqlx?/runtime-tokio-rustls",
+      "runtime-tokio"
+    ],
+    "rusqlite": [],
+    "schema-sync": [
+      "sea-schema"
+    ],
+    "sea-orm-internal": [],
+    "seaography": [
+      "sea-orm-macros/seaography"
+    ],
+    "sqlite-no-row-value-before-3_15": [],
+    "sqlite-use-returning-for-3_35": [],
+    "sqlx-all": [
+      "sqlx-mysql",
+      "sqlx-postgres",
+      "sqlx-sqlite"
+    ],
+    "sqlx-dep": [
+      "sqlx"
+    ],
+    "sqlx-mysql": [
+      "sqlx-dep",
+      "sea-query-sqlx/sqlx-mysql",
+      "sea-schema?/sqlx-mysql"
+    ],
+    "sqlx-postgres": [
+      "sqlx-dep",
+      "sea-query-sqlx/sqlx-postgres",
+      "postgres-array",
+      "sea-schema?/sqlx-postgres"
+    ],
+    "sqlx-sqlite": [
+      "sqlx-dep",
+      "sea-query-sqlx/sqlx-sqlite",
+      "sea-schema?/sqlx-sqlite"
+    ],
+    "sync": [],
+    "tests-cfg": [
+      "serde/derive"
+    ],
+    "tests-features": [
+      "default",
+      "postgres-array",
+      "rbac",
+      "schema-sync",
+      "with-arrow",
+      "with-bigdecimal",
+      "with-ipnetwork"
+    ],
+    "tracing-spans": [],
+    "with-arrow": [
+      "sea-orm-arrow",
+      "sea-orm-macros/with-arrow"
+    ],
+    "with-bigdecimal": [
+      "bigdecimal",
+      "sea-query/with-bigdecimal",
+      "sea-query-sqlx?/with-bigdecimal",
+      "sea-orm-arrow?/with-bigdecimal"
+    ],
+    "with-chrono": [
+      "chrono",
+      "sea-query/with-chrono",
+      "sea-query-sqlx?/with-chrono",
+      "sea-orm-arrow?/with-chrono"
+    ],
+    "with-ipnetwork": [
+      "ipnetwork",
+      "sea-query/with-ipnetwork",
+      "sea-query-sqlx?/with-ipnetwork"
+    ],
+    "with-json": [
+      "serde_json",
+      "sea-query/with-json",
+      "sea-orm-macros/with-json",
+      "chrono?/serde",
+      "rust_decimal?/serde",
+      "bigdecimal?/serde",
+      "uuid?/serde",
+      "time?/serde",
+      "mac_address?/serde",
+      "pgvector?/serde",
+      "sea-query-sqlx?/with-json"
+    ],
+    "with-mac_address": [
+      "mac_address",
+      "sea-query/with-mac_address",
+      "sea-query-sqlx?/with-mac_address"
+    ],
+    "with-rust_decimal": [
+      "rust_decimal",
+      "sea-query/with-rust_decimal",
+      "sea-query-sqlx?/with-rust_decimal",
+      "sea-orm-arrow?/with-rust_decimal"
+    ],
+    "with-time": [
+      "time",
+      "sea-query/with-time",
+      "sea-query-sqlx?/with-time",
+      "sea-orm-arrow?/with-time"
+    ],
+    "with-uuid": [
+      "uuid",
+      "sea-query/with-uuid",
+      "sea-query-sqlx?/with-uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 103782,
+    "login": "tyt2y3"
+  },
+  "publishedAt": "2026-03-09T13:53:44.244137Z",
+  "dependencies": [
+    "async-stream",
+    "async-trait",
+    "derive_more",
+    "dotenv",
+    "futures-util",
+    "itertools",
+    "log",
+    "maplit",
+    "ouroboros",
+    "pretty_assertions",
+    "sea-orm-macros",
+    "sea-query",
+    "serde",
+    "smol",
+    "smol-potat",
+    "strum",
+    "thiserror",
+    "time",
+    "tokio",
+    "tracing",
+    "tracing-subscriber",
+    "url",
+    "uuid",
+    "bigdecimal",
+    "chrono",
+    "inventory",
+    "ipnetwork",
+    "mac_address",
+    "pgvector",
+    "rust_decimal",
+    "sea-orm-arrow",
+    "sea-query-sqlx",
+    "sea-schema",
+    "serde_json",
+    "sqlx",
+    "time",
+    "uuid"
+  ]
+}

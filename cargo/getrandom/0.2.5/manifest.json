@@ -1,0 +1,39 @@
+{
+  "name": "getrandom",
+  "version": "0.2.5",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "d39cd93900197114fa1fcb7ae84ca742095eed9442088988ae74fa744e930e77",
+  "features": {
+    "custom": [],
+    "js": [
+      "wasm-bindgen",
+      "js-sys"
+    ],
+    "rdrand": [],
+    "rustc-dep-of-std": [
+      "compiler_builtins",
+      "core",
+      "libc/rustc-dep-of-std",
+      "wasi/rustc-dep-of-std"
+    ],
+    "std": [],
+    "test-in-browser": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5059,
+    "login": "newpavlov"
+  },
+  "publishedAt": "2022-02-22T12:22:30.403542Z",
+  "dependencies": [
+    "cfg-if",
+    "libc",
+    "wasi",
+    "wasm-bindgen-test",
+    "compiler_builtins",
+    "js-sys",
+    "rustc-std-workspace-core",
+    "wasm-bindgen"
+  ]
+}

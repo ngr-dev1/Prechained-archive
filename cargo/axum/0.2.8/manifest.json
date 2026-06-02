@@ -1,0 +1,68 @@
+{
+  "name": "axum",
+  "version": "0.2.8",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "8f08f95a202e827209db1491047aa57c18c8adb4c5efcfcfd4a2da4838ee3a72",
+  "features": {
+    "default": [
+      "tower-log"
+    ],
+    "http2": [
+      "hyper/http2"
+    ],
+    "multipart": [
+      "multer",
+      "mime"
+    ],
+    "tower-log": [
+      "tower/log"
+    ],
+    "ws": [
+      "tokio-tungstenite",
+      "sha-1",
+      "base64"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2021-10-07T15:28:14.649016Z",
+  "dependencies": [
+    "async-trait",
+    "bitflags",
+    "bytes",
+    "futures",
+    "futures-util",
+    "http",
+    "http-body",
+    "hyper",
+    "pin-project-lite",
+    "regex",
+    "reqwest",
+    "serde",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "sync_wrapper",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tower",
+    "tower",
+    "tower-http",
+    "tower-http",
+    "tower-layer",
+    "tower-service",
+    "uuid",
+    "base64",
+    "headers",
+    "mime",
+    "multer",
+    "sha-1",
+    "tokio-tungstenite"
+  ]
+}

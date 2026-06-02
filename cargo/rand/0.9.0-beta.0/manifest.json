@@ -1,0 +1,58 @@
+{
+  "name": "rand",
+  "version": "0.9.0-beta.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "64535f75665ca4111b59c1b2c9eb99358dc57c3775cc3379675c11dca030f81a",
+  "features": {
+    "alloc": [
+      "rand_core/alloc"
+    ],
+    "default": [
+      "std",
+      "std_rng",
+      "os_rng",
+      "small_rng"
+    ],
+    "log": [
+      "dep:log"
+    ],
+    "nightly": [],
+    "os_rng": [
+      "rand_core/os_rng"
+    ],
+    "serde": [
+      "dep:serde",
+      "rand_core/serde"
+    ],
+    "simd_support": [
+      "zerocopy/simd-nightly"
+    ],
+    "small_rng": [],
+    "std": [
+      "rand_core/std",
+      "rand_chacha?/std",
+      "alloc"
+    ],
+    "std_rng": [
+      "dep:rand_chacha"
+    ],
+    "unbiased": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1234,
+    "login": "dhardy"
+  },
+  "publishedAt": "2024-11-26T13:30:33.546927Z",
+  "dependencies": [
+    "bincode",
+    "rand_core",
+    "rand_pcg",
+    "rayon",
+    "zerocopy",
+    "log",
+    "rand_chacha",
+    "serde"
+  ]
+}

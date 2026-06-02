@@ -1,0 +1,34 @@
+{
+  "name": "console",
+  "version": "0.15.3",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "5556015fe3aad8b968e5d4124980fbe2f6aaee7aeec6b749de1faaa2ca5d0a4c",
+  "features": {
+    "ansi-parsing": [],
+    "default": [
+      "unicode-width",
+      "ansi-parsing"
+    ],
+    "windows-console-colors": [
+      "ansi-parsing",
+      "regex"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 39,
+    "login": "mitsuhiko"
+  },
+  "publishedAt": "2022-12-27T19:38:10.434980Z",
+  "dependencies": [
+    "encode_unicode",
+    "lazy_static",
+    "libc",
+    "proptest",
+    "regex",
+    "windows-sys",
+    "regex",
+    "unicode-width"
+  ]
+}

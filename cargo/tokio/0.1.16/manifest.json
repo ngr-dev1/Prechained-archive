@@ -1,0 +1,99 @@
+{
+  "name": "tokio",
+  "version": "0.1.16",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "fcaabb3cec70485d0df6e9454fe514393ad1c4070dee8915f11041e95630b230",
+  "features": {
+    "async-await-preview": [
+      "tokio-async-await/async-await-preview"
+    ],
+    "codec": [
+      "io",
+      "tokio-codec"
+    ],
+    "default": [
+      "codec",
+      "fs",
+      "io",
+      "reactor",
+      "rt-full",
+      "sync",
+      "tcp",
+      "timer",
+      "udp",
+      "uds"
+    ],
+    "fs": [
+      "tokio-fs"
+    ],
+    "io": [
+      "bytes",
+      "tokio-io"
+    ],
+    "reactor": [
+      "io",
+      "mio",
+      "tokio-reactor"
+    ],
+    "rt-full": [
+      "num_cpus",
+      "reactor",
+      "timer",
+      "tokio-current-thread",
+      "tokio-executor",
+      "tokio-threadpool"
+    ],
+    "sync": [
+      "tokio-sync"
+    ],
+    "tcp": [
+      "tokio-tcp"
+    ],
+    "timer": [
+      "tokio-timer"
+    ],
+    "udp": [
+      "tokio-udp"
+    ],
+    "uds": [
+      "tokio-uds"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 10,
+    "login": "carllerche"
+  },
+  "publishedAt": "2019-03-02T05:10:20.560393Z",
+  "dependencies": [
+    "env_logger",
+    "flate2",
+    "futures",
+    "futures-cpupool",
+    "http",
+    "httparse",
+    "libc",
+    "num_cpus",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "time",
+    "bytes",
+    "mio",
+    "num_cpus",
+    "tokio-async-await",
+    "tokio-codec",
+    "tokio-current-thread",
+    "tokio-executor",
+    "tokio-fs",
+    "tokio-io",
+    "tokio-reactor",
+    "tokio-sync",
+    "tokio-tcp",
+    "tokio-threadpool",
+    "tokio-timer",
+    "tokio-udp",
+    "tokio-uds"
+  ]
+}

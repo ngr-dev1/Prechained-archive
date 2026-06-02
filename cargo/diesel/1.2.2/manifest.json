@@ -1,0 +1,107 @@
+{
+  "name": "diesel",
+  "version": "1.2.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "24815a0c2094f2c8dafe74ab3b9e975892f44acbb94b4d4b4898025a7615efa4",
+  "features": {
+    "128-column-tables": [
+      "64-column-tables"
+    ],
+    "32-column-tables": [],
+    "64-column-tables": [
+      "32-column-tables"
+    ],
+    "default": [
+      "with-deprecated",
+      "32-column-tables"
+    ],
+    "deprecated-time": [
+      "time"
+    ],
+    "extras": [
+      "chrono",
+      "serde_json",
+      "uuid",
+      "deprecated-time",
+      "network-address",
+      "numeric",
+      "r2d2"
+    ],
+    "huge-tables": [
+      "64-column-tables"
+    ],
+    "large-tables": [
+      "32-column-tables"
+    ],
+    "lint": [
+      "clippy"
+    ],
+    "mysql": [
+      "mysqlclient-sys",
+      "url",
+      "diesel_derives/mysql"
+    ],
+    "network-address": [
+      "ipnetwork",
+      "libc"
+    ],
+    "numeric": [
+      "num-bigint",
+      "bigdecimal",
+      "num-traits",
+      "num-integer"
+    ],
+    "postgres": [
+      "pq-sys",
+      "bitflags",
+      "diesel_derives/postgres"
+    ],
+    "sqlite": [
+      "libsqlite3-sys",
+      "diesel_derives/sqlite"
+    ],
+    "unstable": [
+      "diesel_derives/nightly"
+    ],
+    "with-deprecated": [],
+    "x128-column-tables": [
+      "128-column-tables"
+    ],
+    "x32-column-tables": [
+      "32-column-tables"
+    ],
+    "x64-column-tables": [
+      "64-column-tables"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-04-12T19:48:26.724827Z",
+  "dependencies": [
+    "byteorder",
+    "cfg-if",
+    "diesel_derives",
+    "dotenv",
+    "quickcheck",
+    "tempdir",
+    "bigdecimal",
+    "bitflags",
+    "chrono",
+    "clippy",
+    "ipnetwork",
+    "libc",
+    "libsqlite3-sys",
+    "mysqlclient-sys",
+    "num-bigint",
+    "num-integer",
+    "num-traits",
+    "pq-sys",
+    "quickcheck",
+    "r2d2",
+    "serde_json",
+    "time",
+    "url",
+    "uuid"
+  ]
+}

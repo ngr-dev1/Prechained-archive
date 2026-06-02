@@ -1,0 +1,69 @@
+{
+  "name": "flate2",
+  "version": "1.1.8",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b375d6465b98090a5f25b1c7703f3859783755aa9a80433b36e0379a3ec2f369",
+  "features": {
+    "any_c_zlib": [
+      "any_zlib"
+    ],
+    "any_impl": [],
+    "any_zlib": [
+      "any_impl"
+    ],
+    "cloudflare_zlib": [
+      "any_c_zlib",
+      "cloudflare-zlib-sys"
+    ],
+    "default": [
+      "rust_backend"
+    ],
+    "miniz-sys": [
+      "rust_backend"
+    ],
+    "rust_backend": [
+      "miniz_oxide",
+      "any_impl"
+    ],
+    "zlib": [
+      "any_c_zlib",
+      "libz-sys"
+    ],
+    "zlib-default": [
+      "any_c_zlib",
+      "libz-sys/default"
+    ],
+    "zlib-ng": [
+      "any_c_zlib",
+      "libz-ng-sys"
+    ],
+    "zlib-ng-compat": [
+      "zlib",
+      "libz-sys/zlib-ng"
+    ],
+    "zlib-rs": [
+      "any_zlib",
+      "dep:zlib-rs"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 980,
+    "login": "Byron"
+  },
+  "publishedAt": "2026-01-12T11:57:47.071232Z",
+  "dependencies": [
+    "crc32fast",
+    "futures",
+    "miniz_oxide",
+    "quickcheck",
+    "rand",
+    "cloudflare-zlib-sys",
+    "document-features",
+    "libz-ng-sys",
+    "libz-sys",
+    "miniz_oxide",
+    "zlib-rs"
+  ]
+}

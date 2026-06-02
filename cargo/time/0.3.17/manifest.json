@@ -1,0 +1,86 @@
+{
+  "name": "time",
+  "version": "0.3.17",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "a561bf4617eebd33bca6434b988f39ed798e527f51a1e797d0ee4f61c0a38376",
+  "features": {
+    "alloc": [
+      "serde?/alloc"
+    ],
+    "default": [
+      "std"
+    ],
+    "formatting": [
+      "dep:itoa",
+      "std",
+      "time-macros?/formatting"
+    ],
+    "large-dates": [
+      "time-macros?/large-dates"
+    ],
+    "local-offset": [
+      "std",
+      "dep:libc",
+      "dep:num_threads"
+    ],
+    "macros": [
+      "dep:time-macros"
+    ],
+    "parsing": [
+      "time-macros?/parsing"
+    ],
+    "quickcheck": [
+      "dep:quickcheck",
+      "alloc"
+    ],
+    "rand": [
+      "dep:rand"
+    ],
+    "serde": [
+      "dep:serde",
+      "time-macros?/serde"
+    ],
+    "serde-human-readable": [
+      "serde",
+      "formatting",
+      "parsing"
+    ],
+    "serde-well-known": [
+      "serde",
+      "formatting",
+      "parsing"
+    ],
+    "std": [
+      "alloc"
+    ],
+    "wasm-bindgen": [
+      "dep:js-sys"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 15682,
+    "login": "jhpratt"
+  },
+  "publishedAt": "2022-11-06T04:59:26.926420Z",
+  "dependencies": [
+    "criterion",
+    "quickcheck_macros",
+    "rand",
+    "serde",
+    "serde_json",
+    "serde_test",
+    "time-core",
+    "time-macros",
+    "trybuild",
+    "itoa",
+    "js-sys",
+    "libc",
+    "num_threads",
+    "quickcheck",
+    "rand",
+    "serde",
+    "time-macros"
+  ]
+}

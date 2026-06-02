@@ -3,73 +3,24 @@
   "version": "7.0.1",
   "ecosystem": "nuget",
   "description": "Autofac is an IoC container for Microsoft .NET. It manages the dependencies between classes so that applications stay easy to change as they grow in size and complexity.",
-  "license": "MIT",
+  "licenseExpression": "MIT",
   "authors": "Autofac Contributors",
-  "dependencies": [
-    {
-      "@id": "https://api.nuget.org/v3/catalog0/data/2023.04.18.02.13.39/autofac.7.0.1.json#dependencygroup/.netframework6.0",
-      "@type": "PackageDependencyGroup",
-      "dependencies": [
-        {
-          "@id": "https://api.nuget.org/v3/catalog0/data/2023.04.18.02.13.39/autofac.7.0.1.json#dependencygroup/.netframework6.0/system.diagnostics.diagnosticsource",
-          "@type": "PackageDependency",
-          "id": "System.Diagnostics.DiagnosticSource",
-          "range": "[4.7.1, )",
-          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
-        }
-      ],
-      "targetFramework": ".NETFramework6.0"
-    },
-    {
-      "@id": "https://api.nuget.org/v3/catalog0/data/2023.04.18.02.13.39/autofac.7.0.1.json#dependencygroup/.netframework7.0",
-      "@type": "PackageDependencyGroup",
-      "dependencies": [
-        {
-          "@id": "https://api.nuget.org/v3/catalog0/data/2023.04.18.02.13.39/autofac.7.0.1.json#dependencygroup/.netframework7.0/system.diagnostics.diagnosticsource",
-          "@type": "PackageDependency",
-          "id": "System.Diagnostics.DiagnosticSource",
-          "range": "[4.7.1, )",
-          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
-        }
-      ],
-      "targetFramework": ".NETFramework7.0"
-    },
-    {
-      "@id": "https://api.nuget.org/v3/catalog0/data/2023.04.18.02.13.39/autofac.7.0.1.json#dependencygroup/.netstandard2.0",
-      "@type": "PackageDependencyGroup",
-      "dependencies": [
-        {
-          "@id": "https://api.nuget.org/v3/catalog0/data/2023.04.18.02.13.39/autofac.7.0.1.json#dependencygroup/.netstandard2.0/microsoft.bcl.asyncinterfaces",
-          "@type": "PackageDependency",
-          "id": "Microsoft.Bcl.AsyncInterfaces",
-          "range": "[1.1.0, )",
-          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
-        },
-        {
-          "@id": "https://api.nuget.org/v3/catalog0/data/2023.04.18.02.13.39/autofac.7.0.1.json#dependencygroup/.netstandard2.0/system.diagnostics.diagnosticsource",
-          "@type": "PackageDependency",
-          "id": "System.Diagnostics.DiagnosticSource",
-          "range": "[4.7.1, )",
-          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
-        }
-      ],
-      "targetFramework": ".NETStandard2.0"
-    },
-    {
-      "@id": "https://api.nuget.org/v3/catalog0/data/2023.04.18.02.13.39/autofac.7.0.1.json#dependencygroup/.netstandard2.1",
-      "@type": "PackageDependencyGroup",
-      "dependencies": [
-        {
-          "@id": "https://api.nuget.org/v3/catalog0/data/2023.04.18.02.13.39/autofac.7.0.1.json#dependencygroup/.netstandard2.1/system.diagnostics.diagnosticsource",
-          "@type": "PackageDependency",
-          "id": "System.Diagnostics.DiagnosticSource",
-          "range": "[4.7.1, )",
-          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
-        }
-      ],
-      "targetFramework": ".NETStandard2.1"
-    }
+  "tags": [
+    "autofac",
+    "di",
+    "ioc",
+    "dependencyinjection"
   ],
-  "captured_at": "2026-05-22T22:17:55.407Z",
-  "captured_by": "prechained.com"
+  "repositoryUrl": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    "System.Diagnostics.DiagnosticSource",
+    "System.Diagnostics.DiagnosticSource",
+    "Microsoft.Bcl.AsyncInterfaces",
+    "System.Diagnostics.DiagnosticSource",
+    "System.Diagnostics.DiagnosticSource"
+  ],
+  "publishedAt": "2023-04-18T02:10:59.443+00:00",
+  "listed": true,
+  "packageHash": null
 }

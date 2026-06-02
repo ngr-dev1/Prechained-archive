@@ -1,0 +1,41 @@
+{
+  "name": "sha2",
+  "version": "0.9.3",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "fa827a14b29ab7f44778d14a88d3cb76e949c45083f7dbfa507d0cb699dc12de",
+  "features": {
+    "asm": [
+      "sha2-asm",
+      "libc"
+    ],
+    "asm-aarch64": [
+      "asm"
+    ],
+    "compress": [],
+    "default": [
+      "std"
+    ],
+    "force-soft": [],
+    "std": [
+      "digest/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5059,
+    "login": "newpavlov"
+  },
+  "publishedAt": "2021-01-30T19:10:24.678773Z",
+  "dependencies": [
+    "block-buffer",
+    "cfg-if",
+    "cpuid-bool",
+    "digest",
+    "digest",
+    "hex-literal",
+    "opaque-debug",
+    "libc",
+    "sha2-asm"
+  ]
+}

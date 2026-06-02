@@ -1,0 +1,120 @@
+{
+  "name": "async-nats",
+  "version": "0.48.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "31811585c7c5bc2f60f8b80d5a6b0f737115611dac47567d7f7d94562ebb180b",
+  "features": {
+    "aws-lc-rs": [
+      "dep:aws-lc-rs",
+      "tokio-rustls/aws-lc-rs",
+      "tokio-websockets?/aws-lc-rs",
+      "rustls-webpki/aws-lc-rs"
+    ],
+    "compatibility_tests": [],
+    "crypto": [],
+    "default": [
+      "server_2_10",
+      "server_2_11",
+      "server_2_12",
+      "server_2_14",
+      "service",
+      "ring",
+      "jetstream",
+      "nkeys",
+      "crypto",
+      "object-store",
+      "kv",
+      "websockets",
+      "nuid"
+    ],
+    "experimental": [],
+    "fips": [
+      "aws-lc-rs",
+      "tokio-rustls/fips"
+    ],
+    "jetstream": [
+      "dep:time",
+      "dep:serde_nanos",
+      "dep:tryhard",
+      "dep:base64"
+    ],
+    "kv": [
+      "jetstream"
+    ],
+    "nkeys": [
+      "dep:nkeys",
+      "dep:base64"
+    ],
+    "nuid": [
+      "dep:nuid"
+    ],
+    "object-store": [
+      "jetstream",
+      "crypto"
+    ],
+    "ring": [
+      "dep:ring",
+      "tokio-rustls/ring",
+      "tokio-websockets?/ring"
+    ],
+    "server_2_10": [],
+    "server_2_11": [],
+    "server_2_12": [],
+    "server_2_14": [],
+    "service": [
+      "dep:time",
+      "dep:serde_nanos"
+    ],
+    "slow_tests": [],
+    "websockets": [
+      "dep:tokio-websockets"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 146568,
+    "login": "Jarema"
+  },
+  "publishedAt": "2026-05-07T06:06:18.328508Z",
+  "dependencies": [
+    "bytes",
+    "criterion",
+    "futures",
+    "futures-util",
+    "jsonschema",
+    "memchr",
+    "num",
+    "pin-project",
+    "portable-atomic",
+    "rand",
+    "rand",
+    "regex",
+    "reqwest",
+    "ring",
+    "rustls-native-certs",
+    "rustls-pki-types",
+    "rustls-webpki",
+    "serde",
+    "serde_json",
+    "serde_repr",
+    "thiserror",
+    "tokio",
+    "tokio",
+    "tokio-rustls",
+    "tokio-stream",
+    "tokio-util",
+    "tracing",
+    "tracing-subscriber",
+    "url",
+    "aws-lc-rs",
+    "base64",
+    "nkeys",
+    "nuid",
+    "ring",
+    "serde_nanos",
+    "time",
+    "tokio-websockets",
+    "tryhard"
+  ]
+}

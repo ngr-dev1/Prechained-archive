@@ -1,0 +1,127 @@
+{
+  "name": "tokio",
+  "version": "1.50.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "27ad5e34374e03cfffefc301becb44e9dc3c17584f414349ebe29ed26661822d",
+  "features": {
+    "default": [],
+    "fs": [],
+    "full": [
+      "fs",
+      "io-util",
+      "io-std",
+      "macros",
+      "net",
+      "parking_lot",
+      "process",
+      "rt",
+      "rt-multi-thread",
+      "signal",
+      "sync",
+      "time"
+    ],
+    "io-std": [],
+    "io-uring": [
+      "dep:io-uring",
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "dep:slab"
+    ],
+    "io-util": [
+      "bytes"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "socket2",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_Security",
+      "windows-sys/Win32_Storage_FileSystem",
+      "windows-sys/Win32_System_Pipes",
+      "windows-sys/Win32_System_SystemServices"
+    ],
+    "process": [
+      "bytes",
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "signal-hook-registry",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_System_Threading",
+      "windows-sys/Win32_System_WindowsProgramming"
+    ],
+    "rt": [],
+    "rt-multi-thread": [
+      "rt"
+    ],
+    "signal": [
+      "libc",
+      "mio/os-poll",
+      "mio/net",
+      "mio/os-ext",
+      "signal-hook-registry",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_System_Console"
+    ],
+    "sync": [],
+    "taskdump": [
+      "dep:backtrace"
+    ],
+    "test-util": [
+      "rt",
+      "sync",
+      "time"
+    ],
+    "time": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6741,
+    "login": "Darksonn"
+  },
+  "publishedAt": "2026-03-03T09:40:42.375310Z",
+  "dependencies": [
+    "async-stream",
+    "futures",
+    "futures-concurrency",
+    "futures-test",
+    "libc",
+    "loom",
+    "mio-aio",
+    "mockall",
+    "nix",
+    "pin-project-lite",
+    "proptest",
+    "rand",
+    "socket2",
+    "tempfile",
+    "tokio-stream",
+    "tokio-test",
+    "tokio-util",
+    "tracing-mock",
+    "wasm-bindgen-test",
+    "windows-sys",
+    "backtrace",
+    "bytes",
+    "io-uring",
+    "libc",
+    "libc",
+    "mio",
+    "mio",
+    "parking_lot",
+    "signal-hook-registry",
+    "slab",
+    "socket2",
+    "tokio-macros",
+    "tracing",
+    "windows-sys"
+  ]
+}

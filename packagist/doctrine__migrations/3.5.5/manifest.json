@@ -1,0 +1,60 @@
+{
+  "name": "doctrine/migrations",
+  "version": "3.5.5",
+  "ecosystem": "packagist",
+  "description": "PHP Doctrine Migrations project offer additional functionality on top of the database abstraction layer (DBAL) for versioning your database schema and easily deploying changes to it. It is a very easy to use and a powerful tool.",
+  "license": [
+    "MIT"
+  ],
+  "type": "library",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "composer-runtime-api": "^2",
+    "doctrine/dbal": "^3.5.1",
+    "doctrine/deprecations": "^0.5.3 || ^1",
+    "doctrine/event-manager": "^1.2 || ^2.0",
+    "friendsofphp/proxy-manager-lts": "^1.0",
+    "psr/log": "^1.1.3 || ^2 || ^3",
+    "symfony/console": "^4.4.16 || ^5.4 || ^6.0",
+    "symfony/stopwatch": "^4.4 || ^5.4 || ^6.0"
+  },
+  "require_dev": {},
+  "dist": {
+    "url": "https://api.github.com/repos/doctrine/migrations/zipball/4b1e2b6ba71d21d0c5be22ed03b6fc954d20b204",
+    "type": "zip",
+    "shasum": "",
+    "reference": "4b1e2b6ba71d21d0c5be22ed03b6fc954d20b204"
+  },
+  "source": {
+    "url": "https://github.com/doctrine/migrations.git",
+    "type": "git",
+    "reference": "4b1e2b6ba71d21d0c5be22ed03b6fc954d20b204"
+  },
+  "authors": [
+    {
+      "name": "Benjamin Eberlei",
+      "email": "kontakt@beberlei.de"
+    },
+    {
+      "name": "Jonathan Wage",
+      "email": "jonwage@gmail.com"
+    },
+    {
+      "name": "Michael Simonson",
+      "email": "contact@mikesimonson.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "beberlei",
+      "avatar_url": "https://www.gravatar.com/avatar/892698bb1d3f6dae0e3a44abe3e26920ddb4eb000c6c583c87b4db5e5027e166?d=identicon"
+    },
+    {
+      "name": "jwage",
+      "avatar_url": "https://www.gravatar.com/avatar/3c4b569aa557436333fb02f55dfc0dacd6cb54c29820de24d9ad8a61cabb7716?d=identicon"
+    }
+  ],
+  "is_dev_branch": false,
+  "branch_alias": null,
+  "publishedAt": "2023-01-18T12:44:30+00:00"
+}

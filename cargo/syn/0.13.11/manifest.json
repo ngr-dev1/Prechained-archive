@@ -1,0 +1,41 @@
+{
+  "name": "syn",
+  "version": "0.13.11",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "14f9bf6292f3a61d2c716723fdb789a41bbe104168e6f496dc6497e531ea1b9b",
+  "features": {
+    "clone-impls": [],
+    "default": [
+      "derive",
+      "parsing",
+      "printing",
+      "clone-impls",
+      "proc-macro"
+    ],
+    "derive": [],
+    "extra-traits": [],
+    "fold": [],
+    "full": [],
+    "parsing": [],
+    "printing": [
+      "quote"
+    ],
+    "proc-macro": [
+      "proc-macro2/proc-macro",
+      "quote/proc-macro"
+    ],
+    "visit": [],
+    "visit-mut": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-05-20T05:24:05.517060Z",
+  "dependencies": [
+    "proc-macro2",
+    "rayon",
+    "unicode-xid",
+    "walkdir",
+    "quote"
+  ]
+}

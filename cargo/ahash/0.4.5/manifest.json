@@ -1,0 +1,34 @@
+{
+  "name": "ahash",
+  "version": "0.4.5",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "0adac150c2dd5a9c864d054e07bda5e6bc010cd10036ea5f17e82a2f5867f735",
+  "features": {
+    "compile-time-rng": [
+      "const-random"
+    ],
+    "default": [
+      "compile-time-rng",
+      "std"
+    ],
+    "specialize": [],
+    "std": []
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 25353,
+    "login": "tkaitchuck"
+  },
+  "publishedAt": "2020-09-13T00:00:09.554937Z",
+  "dependencies": [
+    "criterion",
+    "fnv",
+    "fxhash",
+    "hex",
+    "no-panic",
+    "rand",
+    "seahash",
+    "const-random"
+  ]
+}

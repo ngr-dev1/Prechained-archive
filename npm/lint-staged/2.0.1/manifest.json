@@ -1,0 +1,59 @@
+{
+  "name": "lint-staged",
+  "version": "2.0.1",
+  "ecosystem": "npm",
+  "description": "Lint files staged by git",
+  "license": "MIT",
+  "dependencies": {
+    "ora": "^0.2.3",
+    "batchflow": "^0.4.0",
+    "minimatch": "^3.0.0",
+    "npm-which": "^2.0.0",
+    "app-root-path": "^1.2.1",
+    "object-assign": "^4.1.0",
+    "staged-git-files": "0.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "eslint": "^2.9.0",
+    "expect": "^1.20.2",
+    "npmpub": "^3.1.0",
+    "rewire": "^2.5.1",
+    "babel-core": "^6.10.4",
+    "mock-spawn": "^0.2.6",
+    "pre-commit": "^1.1.3",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint-plugin-promise": "^1.3.2",
+    "eslint-config-standard": "^5.3.1",
+    "eslint-plugin-standard": "^1.3.2"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "echo \"lint-staged installed! Do not forget to configure it. See https://github.com/okonet/lint-staged/blob/master/README.md\" && exit 0",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "okonet",
+      "email": "andrey@okonet.ru"
+    }
+  ],
+  "author": {
+    "name": "Andrey Okonetchnikov",
+    "email": "andrey@okonet.ru"
+  },
+  "publishedAt": "2016-07-08T12:41:51.510Z",
+  "dist": {
+    "integrity": "sha512-eXs+j89rn4OWqw6xKM2jKPQR4xvOdynAN5aBDDGewC6iHFSxxdMEPkcn3ctqpPz2OkZLjoPXomx2EqFBy9Me3A==",
+    "shasum": "80300f73174df151609402bf8d1ba48fc7a52221",
+    "tarball": "https://registry.npmjs.org/lint-staged/-/lint-staged-2.0.1.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "okonet",
+    "email": "andrey@okonet.ru"
+  }
+}

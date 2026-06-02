@@ -1,0 +1,70 @@
+{
+  "name": "tonic",
+  "version": "0.1.0-alpha.5",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "d68951b701f4b3750dc78b4115f7e030d2835207a9805e47cd6e2e45b2e06410",
+  "features": {
+    "codegen": [
+      "async-trait",
+      "prost",
+      "prost-derive"
+    ],
+    "default": [
+      "transport",
+      "codegen"
+    ],
+    "openssl": [
+      "openssl1",
+      "tokio-openssl",
+      "tls"
+    ],
+    "rustls": [
+      "tokio-rustls",
+      "tls"
+    ],
+    "tls": [],
+    "transport": [
+      "hyper",
+      "tokio",
+      "tower",
+      "tower-balance",
+      "tower-load"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3959,
+    "login": "LucioFranco"
+  },
+  "publishedAt": "2019-10-31T18:27:54.243094Z",
+  "dependencies": [
+    "async-stream",
+    "base64",
+    "bytes",
+    "criterion",
+    "futures-core-preview",
+    "futures-util-preview",
+    "http",
+    "http-body",
+    "percent-encoding",
+    "pin-project",
+    "rand",
+    "static_assertions",
+    "tokio-codec",
+    "tower-make",
+    "tower-service",
+    "tracing",
+    "async-trait",
+    "hyper",
+    "openssl",
+    "prost",
+    "prost-derive",
+    "tokio",
+    "tokio-openssl",
+    "tokio-rustls",
+    "tower",
+    "tower-balance",
+    "tower-load"
+  ]
+}

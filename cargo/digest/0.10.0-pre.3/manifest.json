@@ -1,0 +1,33 @@
+{
+  "name": "digest",
+  "version": "0.10.0-pre.3",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "a9c8cdee23593b2baf43a90cdb5df9bcea1db5e86a86bdab1e8eee41776a0fbf",
+  "features": {
+    "alloc": [],
+    "block-padding": [
+      "block-buffer/block-padding"
+    ],
+    "core-api": [
+      "block-buffer"
+    ],
+    "dev": [
+      "blobby"
+    ],
+    "std": [
+      "alloc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5059,
+    "login": "newpavlov"
+  },
+  "publishedAt": "2021-02-09T12:13:42.264810Z",
+  "dependencies": [
+    "generic-array",
+    "blobby",
+    "block-buffer"
+  ]
+}

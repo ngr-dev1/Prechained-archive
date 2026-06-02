@@ -1,0 +1,80 @@
+{
+  "name": "proptest",
+  "version": "1.8.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "2bb0be07becd10686a0bb407298fb425360a5c44a663774406340c59a22de4ce",
+  "features": {
+    "alloc": [],
+    "atomic64bit": [],
+    "attr-macro": [
+      "proptest-macro"
+    ],
+    "bit-set": [
+      "dep:bit-set",
+      "dep:bit-vec"
+    ],
+    "default": [
+      "std",
+      "fork",
+      "timeout",
+      "bit-set"
+    ],
+    "default-code-coverage": [
+      "std",
+      "fork",
+      "timeout",
+      "bit-set"
+    ],
+    "fork": [
+      "std",
+      "rusty-fork",
+      "tempfile"
+    ],
+    "handle-panics": [
+      "std"
+    ],
+    "hardware-rng": [
+      "x86"
+    ],
+    "no_std": [
+      "num-traits/libm"
+    ],
+    "std": [
+      "rand/std",
+      "rand/os_rng",
+      "lazy_static",
+      "regex-syntax",
+      "num-traits/std"
+    ],
+    "timeout": [
+      "fork",
+      "rusty-fork/timeout"
+    ],
+    "unstable": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 336629,
+    "login": "rexmas"
+  },
+  "publishedAt": "2025-09-20T18:12:30.564021Z",
+  "dependencies": [
+    "bitflags",
+    "num-traits",
+    "rand",
+    "rand_chacha",
+    "rand_xorshift",
+    "regex",
+    "trybuild",
+    "unarray",
+    "bit-set",
+    "bit-vec",
+    "lazy_static",
+    "proptest-macro",
+    "regex-syntax",
+    "rusty-fork",
+    "tempfile",
+    "x86"
+  ]
+}

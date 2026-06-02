@@ -1,0 +1,36 @@
+{
+  "name": "miniz_oxide",
+  "version": "0.7.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Zlib OR Apache-2.0",
+  "checksum": "1c0a278c1442e9480db49d296fd27518e08e6180c3b9e2c104e0579bb6d06570",
+  "features": {
+    "default": [
+      "with-alloc"
+    ],
+    "rustc-dep-of-std": [
+      "core",
+      "alloc",
+      "compiler_builtins",
+      "adler/rustc-dep-of-std"
+    ],
+    "simd": [
+      "simd-adler32"
+    ],
+    "std": [],
+    "with-alloc": []
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 4968,
+    "login": "oyvindln"
+  },
+  "publishedAt": "2023-02-01T19:15:17.739071Z",
+  "dependencies": [
+    "adler",
+    "compiler_builtins",
+    "rustc-std-workspace-alloc",
+    "rustc-std-workspace-core",
+    "simd-adler32"
+  ]
+}

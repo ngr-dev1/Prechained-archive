@@ -1,0 +1,47 @@
+{
+  "name": "config",
+  "version": "0.11.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "1b1b9d958c2b1368a663f05538fc1b5975adce1e19f435acceae987aceeeb369",
+  "features": {
+    "default": [
+      "toml",
+      "json",
+      "yaml",
+      "hjson",
+      "ini"
+    ],
+    "hjson": [
+      "serde-hjson"
+    ],
+    "ini": [
+      "rust-ini"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4003,
+    "login": "matthiasbeyer"
+  },
+  "publishedAt": "2021-03-17T17:03:53.741400Z",
+  "dependencies": [
+    "chrono",
+    "float-cmp",
+    "lazy_static",
+    "nom",
+    "serde",
+    "serde_derive",
+    "rust-ini",
+    "serde-hjson",
+    "serde_json",
+    "toml",
+    "yaml-rust"
+  ]
+}

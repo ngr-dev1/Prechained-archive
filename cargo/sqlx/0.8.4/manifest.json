@@ -1,0 +1,225 @@
+{
+  "name": "sqlx",
+  "version": "0.8.4",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "14e22987355fbf8cfb813a0cf8cd97b1b4ec834b94dbd759a9e8679d41fabe83",
+  "features": {
+    "_rt-async-std": [],
+    "_rt-tokio": [],
+    "_sqlite": [],
+    "_unstable-all-types": [
+      "bigdecimal",
+      "rust_decimal",
+      "json",
+      "time",
+      "chrono",
+      "ipnet",
+      "ipnetwork",
+      "mac_address",
+      "uuid",
+      "bit-vec",
+      "bstr"
+    ],
+    "all-databases": [
+      "mysql",
+      "sqlite",
+      "postgres",
+      "any"
+    ],
+    "any": [
+      "sqlx-core/any",
+      "sqlx-mysql?/any",
+      "sqlx-postgres?/any",
+      "sqlx-sqlite?/any"
+    ],
+    "bigdecimal": [
+      "sqlx-core/bigdecimal",
+      "sqlx-macros?/bigdecimal",
+      "sqlx-mysql?/bigdecimal",
+      "sqlx-postgres?/bigdecimal"
+    ],
+    "bit-vec": [
+      "sqlx-core/bit-vec",
+      "sqlx-macros?/bit-vec",
+      "sqlx-postgres?/bit-vec"
+    ],
+    "bstr": [
+      "sqlx-core/bstr"
+    ],
+    "chrono": [
+      "sqlx-core/chrono",
+      "sqlx-macros?/chrono",
+      "sqlx-mysql?/chrono",
+      "sqlx-postgres?/chrono",
+      "sqlx-sqlite?/chrono"
+    ],
+    "default": [
+      "any",
+      "macros",
+      "migrate",
+      "json"
+    ],
+    "derive": [
+      "sqlx-macros/derive"
+    ],
+    "ipnet": [
+      "sqlx-core/ipnet",
+      "sqlx-macros?/ipnet",
+      "sqlx-postgres?/ipnet"
+    ],
+    "ipnetwork": [
+      "sqlx-core/ipnetwork",
+      "sqlx-macros?/ipnetwork",
+      "sqlx-postgres?/ipnetwork"
+    ],
+    "json": [
+      "sqlx-core/json",
+      "sqlx-macros?/json",
+      "sqlx-mysql?/json",
+      "sqlx-postgres?/json",
+      "sqlx-sqlite?/json"
+    ],
+    "mac_address": [
+      "sqlx-core/mac_address",
+      "sqlx-macros?/mac_address",
+      "sqlx-postgres?/mac_address"
+    ],
+    "macros": [
+      "derive",
+      "sqlx-macros/macros"
+    ],
+    "migrate": [
+      "sqlx-core/migrate",
+      "sqlx-macros?/migrate",
+      "sqlx-mysql?/migrate",
+      "sqlx-postgres?/migrate",
+      "sqlx-sqlite?/migrate"
+    ],
+    "mysql": [
+      "sqlx-mysql",
+      "sqlx-macros?/mysql"
+    ],
+    "postgres": [
+      "sqlx-postgres",
+      "sqlx-macros?/postgres"
+    ],
+    "regexp": [
+      "sqlx-sqlite?/regexp"
+    ],
+    "runtime-async-std": [
+      "_rt-async-std",
+      "sqlx-core/_rt-async-std",
+      "sqlx-macros?/_rt-async-std"
+    ],
+    "runtime-async-std-native-tls": [
+      "runtime-async-std",
+      "tls-native-tls"
+    ],
+    "runtime-async-std-rustls": [
+      "runtime-async-std",
+      "tls-rustls-ring"
+    ],
+    "runtime-tokio": [
+      "_rt-tokio",
+      "sqlx-core/_rt-tokio",
+      "sqlx-macros?/_rt-tokio"
+    ],
+    "runtime-tokio-native-tls": [
+      "runtime-tokio",
+      "tls-native-tls"
+    ],
+    "runtime-tokio-rustls": [
+      "runtime-tokio",
+      "tls-rustls-ring"
+    ],
+    "rust_decimal": [
+      "sqlx-core/rust_decimal",
+      "sqlx-macros?/rust_decimal",
+      "sqlx-mysql?/rust_decimal",
+      "sqlx-postgres?/rust_decimal"
+    ],
+    "sqlite": [
+      "_sqlite",
+      "sqlx-sqlite/bundled",
+      "sqlx-macros?/sqlite"
+    ],
+    "sqlite-preupdate-hook": [
+      "sqlx-sqlite/preupdate-hook"
+    ],
+    "sqlite-unbundled": [
+      "_sqlite",
+      "sqlx-sqlite/unbundled",
+      "sqlx-macros?/sqlite-unbundled"
+    ],
+    "time": [
+      "sqlx-core/time",
+      "sqlx-macros?/time",
+      "sqlx-mysql?/time",
+      "sqlx-postgres?/time",
+      "sqlx-sqlite?/time"
+    ],
+    "tls-native-tls": [
+      "sqlx-core/_tls-native-tls",
+      "sqlx-macros?/_tls-native-tls"
+    ],
+    "tls-none": [],
+    "tls-rustls": [
+      "tls-rustls-ring"
+    ],
+    "tls-rustls-aws-lc-rs": [
+      "sqlx-core/_tls-rustls-aws-lc-rs",
+      "sqlx-macros?/_tls-rustls-aws-lc-rs"
+    ],
+    "tls-rustls-ring": [
+      "tls-rustls-ring-webpki"
+    ],
+    "tls-rustls-ring-native-roots": [
+      "sqlx-core/_tls-rustls-ring-native-roots",
+      "sqlx-macros?/_tls-rustls-ring-native-roots"
+    ],
+    "tls-rustls-ring-webpki": [
+      "sqlx-core/_tls-rustls-ring-webpki",
+      "sqlx-macros?/_tls-rustls-ring-webpki"
+    ],
+    "uuid": [
+      "sqlx-core/uuid",
+      "sqlx-macros?/uuid",
+      "sqlx-mysql?/uuid",
+      "sqlx-postgres?/uuid",
+      "sqlx-sqlite?/uuid"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 127,
+    "login": "abonander"
+  },
+  "publishedAt": "2025-04-14T04:57:29.381242Z",
+  "dependencies": [
+    "anyhow",
+    "async-std",
+    "criterion",
+    "dotenvy",
+    "env_logger",
+    "futures",
+    "hex",
+    "libsqlite3-sys",
+    "libsqlite3-sys",
+    "paste",
+    "rand",
+    "rand_xoshiro",
+    "serde",
+    "serde_json",
+    "sqlx-core",
+    "tempfile",
+    "time",
+    "tokio",
+    "trybuild",
+    "url",
+    "sqlx-macros",
+    "sqlx-mysql",
+    "sqlx-postgres",
+    "sqlx-sqlite"
+  ]
+}

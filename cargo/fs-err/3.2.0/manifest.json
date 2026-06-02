@@ -1,0 +1,29 @@
+{
+  "name": "fs-err",
+  "version": "3.2.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "62d91fd049c123429b018c47887d3f75a265540dd3c30ba9cb7bae9197edb03a",
+  "features": {
+    "debug": [
+      "path_facts"
+    ],
+    "debug_tokio": [
+      "path_facts",
+      "tokio/rt-multi-thread"
+    ],
+    "expose_original_error": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6872,
+    "login": "andrewhickman"
+  },
+  "publishedAt": "2025-11-15T15:21:20.709959Z",
+  "dependencies": [
+    "autocfg",
+    "serde_json",
+    "path_facts",
+    "tokio"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "hyper",
+  "version": "0.14.10",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "7728a72c4c7d72665fde02204bcbd93b247721025b222ef78606f14513e0fd03",
+  "features": {
+    "__internal_happy_eyeballs_tests": [],
+    "client": [],
+    "default": [],
+    "ffi": [
+      "libc"
+    ],
+    "full": [
+      "client",
+      "http1",
+      "http2",
+      "server",
+      "stream",
+      "runtime"
+    ],
+    "http1": [],
+    "http2": [
+      "h2"
+    ],
+    "nightly": [],
+    "runtime": [
+      "tcp",
+      "tokio/rt"
+    ],
+    "server": [],
+    "stream": [],
+    "tcp": [
+      "socket2",
+      "tokio/net",
+      "tokio/rt",
+      "tokio/time"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2021-07-07T18:34:07.364319Z",
+  "dependencies": [
+    "bytes",
+    "futures-channel",
+    "futures-core",
+    "futures-util",
+    "futures-util",
+    "http",
+    "http-body",
+    "httparse",
+    "httpdate",
+    "itoa",
+    "matches",
+    "num_cpus",
+    "pin-project-lite",
+    "pnet_datalink",
+    "pretty_env_logger",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "spmc",
+    "tokio",
+    "tokio",
+    "tokio-test",
+    "tokio-util",
+    "tower",
+    "tower-service",
+    "tower-util",
+    "tracing",
+    "url",
+    "want",
+    "h2",
+    "libc",
+    "socket2"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "name": "clap",
+  "version": "4.0.11",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "4ed45cc2c62a3eff523e718d8576ba762c83a3146151093283ac62ae11933a73",
+  "features": {
+    "cargo": [
+      "dep:once_cell"
+    ],
+    "color": [
+      "dep:atty",
+      "dep:termcolor"
+    ],
+    "debug": [
+      "clap_derive?/debug",
+      "dep:backtrace"
+    ],
+    "default": [
+      "std",
+      "color",
+      "help",
+      "usage",
+      "error-context",
+      "suggestions"
+    ],
+    "deprecated": [
+      "clap_derive?/deprecated"
+    ],
+    "derive": [
+      "dep:clap_derive",
+      "dep:once_cell"
+    ],
+    "env": [],
+    "error-context": [],
+    "help": [],
+    "std": [],
+    "string": [],
+    "suggestions": [
+      "dep:strsim",
+      "error-context"
+    ],
+    "unicode": [
+      "dep:unicode-width",
+      "dep:unicase"
+    ],
+    "unstable-doc": [
+      "derive",
+      "cargo",
+      "wrap_help",
+      "env",
+      "unicode",
+      "string",
+      "unstable-replace",
+      "unstable-grouped"
+    ],
+    "unstable-grouped": [],
+    "unstable-replace": [],
+    "unstable-v5": [
+      "clap_derive?/unstable-v5",
+      "deprecated"
+    ],
+    "usage": [],
+    "wrap_help": [
+      "help",
+      "dep:terminal_size"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6743,
+    "login": "epage"
+  },
+  "publishedAt": "2022-10-09T00:58:38.778510Z",
+  "dependencies": [
+    "bitflags",
+    "clap_lex",
+    "humantime",
+    "rustversion",
+    "shlex",
+    "snapbox",
+    "static_assertions",
+    "trybuild",
+    "trycmd",
+    "unic-emoji-char",
+    "atty",
+    "backtrace",
+    "clap_derive",
+    "once_cell",
+    "strsim",
+    "termcolor",
+    "terminal_size",
+    "unicase",
+    "unicode-width"
+  ]
+}

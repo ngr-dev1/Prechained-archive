@@ -1,0 +1,103 @@
+{
+  "name": "time",
+  "version": "0.3.43",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "83bde6f1ec10e72d583d91623c939f623002284ef622b87de38cfd546cbf2031",
+  "features": {
+    "alloc": [
+      "serde?/alloc"
+    ],
+    "default": [
+      "std"
+    ],
+    "formatting": [
+      "std",
+      "time-macros?/formatting"
+    ],
+    "large-dates": [
+      "time-macros?/large-dates"
+    ],
+    "local-offset": [
+      "std",
+      "dep:libc",
+      "dep:num_threads"
+    ],
+    "macros": [
+      "dep:time-macros"
+    ],
+    "parsing": [
+      "time-macros?/parsing"
+    ],
+    "quickcheck": [
+      "dep:quickcheck",
+      "alloc",
+      "deranged/quickcheck"
+    ],
+    "rand": [
+      "rand08",
+      "rand09"
+    ],
+    "rand08": [
+      "dep:rand08",
+      "deranged/rand08"
+    ],
+    "rand09": [
+      "dep:rand09",
+      "deranged/rand09"
+    ],
+    "serde": [
+      "dep:serde",
+      "time-macros?/serde",
+      "deranged/serde"
+    ],
+    "serde-human-readable": [
+      "serde",
+      "formatting",
+      "parsing"
+    ],
+    "serde-well-known": [
+      "serde",
+      "formatting",
+      "parsing"
+    ],
+    "std": [
+      "alloc"
+    ],
+    "wasm-bindgen": [
+      "dep:js-sys"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 15682,
+    "login": "jhpratt"
+  },
+  "publishedAt": "2025-09-02T19:25:40.244332Z",
+  "dependencies": [
+    "criterion",
+    "deranged",
+    "num-conv",
+    "num-conv",
+    "powerfmt",
+    "quickcheck_macros",
+    "rand",
+    "rand",
+    "rstest",
+    "rstest_reuse",
+    "serde",
+    "serde_json",
+    "serde_test",
+    "time-core",
+    "time-macros",
+    "trybuild",
+    "js-sys",
+    "libc",
+    "num_threads",
+    "quickcheck",
+    "rand",
+    "rand",
+    "serde",
+    "time-macros"
+  ]
+}

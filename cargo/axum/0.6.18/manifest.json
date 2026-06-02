@@ -1,0 +1,123 @@
+{
+  "name": "axum",
+  "version": "0.6.18",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "f8175979259124331c1d7bf6586ee7e0da434155e4b2d48ec2c8386281d8df39",
+  "features": {
+    "__private_docs": [
+      "tower/full",
+      "dep:tower-http"
+    ],
+    "default": [
+      "form",
+      "http1",
+      "json",
+      "matched-path",
+      "original-uri",
+      "query",
+      "tokio",
+      "tower-log"
+    ],
+    "form": [
+      "dep:serde_urlencoded"
+    ],
+    "http1": [
+      "hyper/http1"
+    ],
+    "http2": [
+      "hyper/http2"
+    ],
+    "json": [
+      "dep:serde_json",
+      "dep:serde_path_to_error"
+    ],
+    "macros": [
+      "dep:axum-macros"
+    ],
+    "matched-path": [],
+    "multipart": [
+      "dep:multer"
+    ],
+    "original-uri": [],
+    "query": [
+      "dep:serde_urlencoded"
+    ],
+    "tokio": [
+      "dep:tokio",
+      "hyper/server",
+      "hyper/tcp",
+      "hyper/runtime",
+      "tower/make"
+    ],
+    "tower-log": [
+      "tower/log"
+    ],
+    "tracing": [
+      "dep:tracing",
+      "axum-core/tracing"
+    ],
+    "ws": [
+      "tokio",
+      "dep:tokio-tungstenite",
+      "dep:sha1",
+      "dep:base64"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2023-04-30T11:36:36.089420Z",
+  "dependencies": [
+    "anyhow",
+    "async-trait",
+    "axum-core",
+    "axum-macros",
+    "bitflags",
+    "bytes",
+    "futures-util",
+    "http",
+    "http-body",
+    "hyper",
+    "itoa",
+    "matchit",
+    "memchr",
+    "mime",
+    "percent-encoding",
+    "pin-project-lite",
+    "quickcheck",
+    "quickcheck_macros",
+    "reqwest",
+    "rustversion",
+    "rustversion",
+    "serde",
+    "serde",
+    "serde_json",
+    "sync_wrapper",
+    "time",
+    "tokio",
+    "tokio-stream",
+    "tower",
+    "tower",
+    "tower-http",
+    "tower-layer",
+    "tower-service",
+    "tracing",
+    "tracing-subscriber",
+    "uuid",
+    "axum-macros",
+    "base64",
+    "headers",
+    "multer",
+    "serde_json",
+    "serde_path_to_error",
+    "serde_urlencoded",
+    "sha1",
+    "tokio",
+    "tokio-tungstenite",
+    "tower-http",
+    "tracing"
+  ]
+}

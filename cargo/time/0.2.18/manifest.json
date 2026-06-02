@@ -1,0 +1,38 @@
+{
+  "name": "time",
+  "version": "0.2.18",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "12785163ae8a1cbb52a5db39af4a5baabd3fe49f07f76f952f89d7e89e5ce531",
+  "features": {
+    "default": [
+      "deprecated",
+      "std"
+    ],
+    "deprecated": [],
+    "panicking-api": [],
+    "std": [
+      "libc",
+      "winapi",
+      "stdweb",
+      "standback/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 15682,
+    "login": "jhpratt"
+  },
+  "publishedAt": "2020-09-08T04:36:39.286891Z",
+  "dependencies": [
+    "const_fn",
+    "standback",
+    "time-macros",
+    "version_check",
+    "libc",
+    "rand",
+    "serde",
+    "stdweb",
+    "winapi"
+  ]
+}

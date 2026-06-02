@@ -1,0 +1,70 @@
+{
+  "name": "time",
+  "version": "0.3.15",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "d634a985c4d4238ec39cacaed2e7ae552fbd3c476b552c1deac3021b7d7eaf0c",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "formatting": [
+      "itoa",
+      "std"
+    ],
+    "large-dates": [
+      "time-macros/large-dates"
+    ],
+    "local-offset": [
+      "std"
+    ],
+    "macros": [
+      "time-macros"
+    ],
+    "parsing": [],
+    "quickcheck": [
+      "quickcheck-dep",
+      "alloc"
+    ],
+    "serde-human-readable": [
+      "serde",
+      "formatting",
+      "parsing"
+    ],
+    "serde-well-known": [
+      "serde/alloc",
+      "formatting",
+      "parsing"
+    ],
+    "std": [
+      "alloc"
+    ],
+    "wasm-bindgen": [
+      "js-sys"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 15682,
+    "login": "jhpratt"
+  },
+  "publishedAt": "2022-10-04T03:12:24.822705Z",
+  "dependencies": [
+    "criterion",
+    "libc",
+    "num_threads",
+    "quickcheck_macros",
+    "rand",
+    "serde",
+    "serde_json",
+    "serde_test",
+    "trybuild",
+    "itoa",
+    "js-sys",
+    "quickcheck",
+    "rand",
+    "serde",
+    "time-macros"
+  ]
+}

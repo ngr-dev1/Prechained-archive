@@ -1,0 +1,34 @@
+{
+  "name": "cookie",
+  "version": "0.4.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "24fcc697127e82832d93475e73ff2a020d371fadd45c43a0522c441095ef8846",
+  "features": {
+    "default": [
+      "secure"
+    ],
+    "secure": [
+      "openssl",
+      "rustc-serialize"
+    ],
+    "serialize-rustc": [
+      "rustc-serialize",
+      "time/rustc-serialize"
+    ],
+    "serialize-serde": [
+      "serde"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-11-21T15:59:01.919892Z",
+  "dependencies": [
+    "serde_json",
+    "time",
+    "url",
+    "openssl",
+    "rustc-serialize",
+    "serde"
+  ]
+}

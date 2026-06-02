@@ -1,0 +1,32 @@
+{
+  "name": "crossbeam",
+  "version": "0.7.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "c0ed8eb69717048f2cff523d82eff984adf9f1dce1f40995d8c9aa254ebfd9f5",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "nightly": [
+      "crossbeam-epoch/nightly",
+      "crossbeam-utils/nightly"
+    ],
+    "std": [
+      "crossbeam-epoch/std",
+      "crossbeam-utils/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2019-01-28T20:37:17.179644Z",
+  "dependencies": [
+    "cfg-if",
+    "crossbeam-channel",
+    "crossbeam-deque",
+    "crossbeam-epoch",
+    "crossbeam-queue",
+    "crossbeam-utils",
+    "rand"
+  ]
+}

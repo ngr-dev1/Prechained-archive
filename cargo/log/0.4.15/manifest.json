@@ -1,0 +1,57 @@
+{
+  "name": "log",
+  "version": "0.4.15",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "1c4dcd960cc540667f619483fc99102f88d6118b87730e24e8fbe8054b7445e4",
+  "features": {
+    "kv_unstable": [
+      "value-bag"
+    ],
+    "kv_unstable_serde": [
+      "kv_unstable_std",
+      "value-bag/serde",
+      "serde"
+    ],
+    "kv_unstable_std": [
+      "std",
+      "kv_unstable",
+      "value-bag/error"
+    ],
+    "kv_unstable_sval": [
+      "kv_unstable",
+      "value-bag/sval",
+      "sval"
+    ],
+    "max_level_debug": [],
+    "max_level_error": [],
+    "max_level_info": [],
+    "max_level_off": [],
+    "max_level_trace": [],
+    "max_level_warn": [],
+    "release_max_level_debug": [],
+    "release_max_level_error": [],
+    "release_max_level_info": [],
+    "release_max_level_off": [],
+    "release_max_level_trace": [],
+    "release_max_level_warn": [],
+    "std": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3204,
+    "login": "KodrAus"
+  },
+  "publishedAt": "2022-03-22T10:00:33.955006Z",
+  "dependencies": [
+    "cfg-if",
+    "rustversion",
+    "serde",
+    "serde_test",
+    "sval",
+    "value-bag",
+    "serde",
+    "sval",
+    "value-bag"
+  ]
+}

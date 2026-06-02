@@ -1,0 +1,38 @@
+{
+  "name": "criterion",
+  "version": "0.2.3",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "4f11151e2961d0483e5eb7a2ede5ed8071a460d04d2b7c89e8257aa5502b0e0b",
+  "features": {
+    "default": [
+      "html_reports"
+    ],
+    "html_reports": [
+      "handlebars",
+      "criterion-plot"
+    ],
+    "real_blackbox": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-04-15T01:35:45.392570Z",
+  "dependencies": [
+    "atty",
+    "clap",
+    "criterion-stats",
+    "failure",
+    "failure_derive",
+    "itertools",
+    "itertools-num",
+    "log",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "simplelog",
+    "tempdir",
+    "walkdir",
+    "criterion-plot",
+    "handlebars"
+  ]
+}

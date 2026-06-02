@@ -1,0 +1,116 @@
+{
+  "name": "actix-web",
+  "version": "0.7.11",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "830a595f28f2f9c6857e6bb7794ff44a6c9121eb2958f20cba98c709cd1db471",
+  "features": {
+    "alpn": [
+      "openssl",
+      "tokio-openssl",
+      "actix-net/ssl"
+    ],
+    "brotli": [
+      "brotli2"
+    ],
+    "cell": [
+      "actix-net/cell"
+    ],
+    "default": [
+      "session",
+      "brotli",
+      "flate2-c",
+      "cell"
+    ],
+    "flate2-c": [
+      "flate2/miniz-sys"
+    ],
+    "flate2-rust": [
+      "flate2/rust_backend"
+    ],
+    "rust-tls": [
+      "rustls",
+      "tokio-rustls",
+      "webpki",
+      "webpki-roots",
+      "actix-net/rust-tls"
+    ],
+    "session": [
+      "cookie/secure"
+    ],
+    "ssl": [
+      "openssl",
+      "tokio-openssl",
+      "actix-net/ssl"
+    ],
+    "tls": [
+      "native-tls",
+      "tokio-tls",
+      "actix-net/tls"
+    ],
+    "uds": [
+      "tokio-uds"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-10-09T21:37:09.607109Z",
+  "dependencies": [
+    "actix",
+    "actix-net",
+    "base64",
+    "bitflags",
+    "byteorder",
+    "bytes",
+    "cookie",
+    "encoding",
+    "env_logger",
+    "failure",
+    "futures",
+    "futures-cpupool",
+    "h2",
+    "htmlescape",
+    "http",
+    "httparse",
+    "language-tags",
+    "lazy_static",
+    "lazycell",
+    "log",
+    "mime",
+    "mime_guess",
+    "mio",
+    "net2",
+    "num_cpus",
+    "parking_lot",
+    "percent-encoding",
+    "rand",
+    "regex",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_urlencoded",
+    "sha1",
+    "slab",
+    "smallvec",
+    "time",
+    "tokio",
+    "tokio-current-thread",
+    "tokio-io",
+    "tokio-reactor",
+    "tokio-tcp",
+    "tokio-timer",
+    "url",
+    "version_check",
+    "brotli2",
+    "flate2",
+    "native-tls",
+    "openssl",
+    "rustls",
+    "tokio-openssl",
+    "tokio-rustls",
+    "tokio-tls",
+    "tokio-uds",
+    "webpki",
+    "webpki-roots"
+  ]
+}

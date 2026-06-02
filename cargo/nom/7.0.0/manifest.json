@@ -1,0 +1,33 @@
+{
+  "name": "nom",
+  "version": "7.0.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "7ffd9d26838a953b4af82cbeb9f1592c6798916983959be223a7124e992742c1",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "docsrs": [],
+    "std": [
+      "alloc",
+      "memchr/use_std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 959,
+    "login": "Geal"
+  },
+  "publishedAt": "2021-08-21T11:04:09.142255Z",
+  "dependencies": [
+    "criterion",
+    "doc-comment",
+    "jemallocator",
+    "memchr",
+    "minimal-lexical",
+    "proptest",
+    "version_check"
+  ]
+}

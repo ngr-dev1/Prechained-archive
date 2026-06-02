@@ -1,0 +1,54 @@
+{
+  "name": "uuid",
+  "version": "3.4.0",
+  "ecosystem": "npm",
+  "description": "RFC9562 UUIDs",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "~3.0.5",
+    "mocha": "6.2.0",
+    "runmd": "1.2.1",
+    "eslint": "~6.4.0",
+    "@commitlint/cli": "~8.2.0",
+    "standard-version": "7.0.0",
+    "@commitlint/config-conventional": "~8.2.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "runmd --output=README.md README_js.md"
+  },
+  "maintainers": [
+    {
+      "name": "broofa",
+      "email": "robert@broofa.com"
+    },
+    {
+      "name": "ctavan",
+      "email": "dev@tavan.de"
+    },
+    {
+      "name": "defunctzombie",
+      "email": "shtylman@gmail.com"
+    },
+    {
+      "name": "vvo",
+      "email": "vincent.voyer@gmail.com"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2020-01-16T21:05:38.628Z",
+  "dist": {
+    "integrity": "sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==",
+    "shasum": "b23e4358afa8a202fe7a100af1f5f883f02007ee",
+    "tarball": "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz",
+    "fileCount": 19,
+    "unpackedSize": 34269
+  },
+  "_npmUser": {
+    "name": "ctavan",
+    "email": "dev@tavan.de"
+  }
+}

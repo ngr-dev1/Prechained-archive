@@ -1,0 +1,50 @@
+{
+  "name": "digest",
+  "version": "0.11.0-rc.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "3a4aae35a0fcbe22ff1be50fe96df72002d5a4a6fb4aae9193cf2da0daa36da2",
+  "features": {
+    "alloc": [],
+    "block-api": [
+      "block-buffer"
+    ],
+    "default": [
+      "block-api"
+    ],
+    "dev": [
+      "blobby"
+    ],
+    "mac": [
+      "subtle"
+    ],
+    "oid": [
+      "const-oid"
+    ],
+    "os_rng": [
+      "crypto-common/rand_core",
+      "rand_core"
+    ],
+    "rand_core": [
+      "crypto-common/rand_core"
+    ],
+    "zeroize": [
+      "dep:zeroize",
+      "block-buffer?/zeroize"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2025-09-02T19:36:30.072989Z",
+  "dependencies": [
+    "crypto-common",
+    "blobby",
+    "block-buffer",
+    "const-oid",
+    "subtle",
+    "zeroize"
+  ]
+}

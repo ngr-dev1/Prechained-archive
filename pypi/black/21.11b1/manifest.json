@@ -1,0 +1,37 @@
+{
+  "name": "black",
+  "version": "21.11b1",
+  "ecosystem": "pypi",
+  "summary": "The uncompromising code formatter.",
+  "license": "MIT",
+  "author": "Łukasz Langa",
+  "author_email": "lukasz@langa.pl",
+  "requires_python": ">=3.6.2",
+  "requires_dist": [
+    "click (>=7.1.2)",
+    "platformdirs (>=2)",
+    "tomli (<2.0.0,>=0.2.6)",
+    "regex (>=2021.4.4)",
+    "pathspec (<1,>=0.9.0)",
+    "typing-extensions (>=3.10.0.0)",
+    "mypy-extensions (>=0.4.3)",
+    "dataclasses (>=0.6) ; python_version < \"3.7\"",
+    "typed-ast (>=1.4.2) ; python_version < \"3.8\" and implementation_name == \"cpython\"",
+    "typing-extensions (!=3.10.0.1) ; python_version >= \"3.10\"",
+    "colorama (>=0.4.3) ; extra == 'colorama'",
+    "aiohttp (>=3.7.4) ; extra == 'd'",
+    "ipython (>=7.8.0) ; extra == 'jupyter'",
+    "tokenize-rt (>=3.2.0) ; extra == 'jupyter'",
+    "typed-ast (>=1.4.3) ; extra == 'python2'",
+    "uvloop (>=0.15.2) ; extra == 'uvloop'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2021-11-18T03:58:02",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/c7/24/0de05480822e5f0f2cc539fce9029bc2507b44b7f85ec1a9e23d89dea6c3/black-21.11b1-py3-none-any.whl",
+    "sha256": "802c6c30b637b28645b7fde282ed2569c0cd777dbe493a41b6a03c1d903f99ac",
+    "size": 155162,
+    "filename": "black-21.11b1-py3-none-any.whl"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "prometheus",
+  "version": "0.13.2",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "45c8babc29389186697fe5a2a4859d697825496b83db5d0b65271cdc0488e88c",
+  "features": {
+    "default": [
+      "protobuf"
+    ],
+    "gen": [
+      "protobuf-codegen-pure"
+    ],
+    "nightly": [
+      "libc"
+    ],
+    "process": [
+      "libc",
+      "procfs"
+    ],
+    "push": [
+      "reqwest",
+      "libc",
+      "protobuf"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1691,
+    "login": "lucab"
+  },
+  "publishedAt": "2022-09-08T07:44:25.070473Z",
+  "dependencies": [
+    "cfg-if",
+    "criterion",
+    "fnv",
+    "getopts",
+    "hyper",
+    "lazy_static",
+    "memchr",
+    "parking_lot",
+    "thiserror",
+    "tokio",
+    "libc",
+    "procfs",
+    "protobuf",
+    "protobuf-codegen-pure",
+    "reqwest"
+  ]
+}

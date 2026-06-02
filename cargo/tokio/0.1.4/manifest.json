@@ -1,0 +1,44 @@
+{
+  "name": "tokio",
+  "version": "0.1.4",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "65bd27f59c223e7c9e406bcdadb453e143bcf1242e162ae6c0f0eb6d14487306",
+  "features": {
+    "default": [],
+    "unstable-futures": [
+      "futures2",
+      "tokio-reactor/unstable-futures",
+      "tokio-threadpool/unstable-futures",
+      "tokio-executor/unstable-futures",
+      "tokio-tcp/unstable-futures",
+      "tokio-udp/unstable-futures"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-03-23T17:56:41.805921Z",
+  "dependencies": [
+    "bytes",
+    "env_logger",
+    "flate2",
+    "futures",
+    "futures-cpupool",
+    "http",
+    "httparse",
+    "libc",
+    "mio",
+    "num_cpus",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "time",
+    "tokio-executor",
+    "tokio-io",
+    "tokio-reactor",
+    "tokio-tcp",
+    "tokio-threadpool",
+    "tokio-udp",
+    "futures2"
+  ]
+}

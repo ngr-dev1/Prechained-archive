@@ -1,0 +1,30 @@
+{
+  "name": "openssl",
+  "version": "0.10.12",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "5e2e79eede055813a3ac52fb3915caf8e1c9da2dec1587871aec9f6f7b48508d",
+  "features": {
+    "v101": [],
+    "v102": [],
+    "v110": [],
+    "v111": [],
+    "vendored": [
+      "openssl-sys/vendored"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-09-14T02:23:29.327596Z",
+  "dependencies": [
+    "bitflags",
+    "cfg-if",
+    "data-encoding",
+    "foreign-types",
+    "hex",
+    "lazy_static",
+    "libc",
+    "openssl-sys",
+    "tempdir"
+  ]
+}

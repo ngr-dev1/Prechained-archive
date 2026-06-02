@@ -1,0 +1,45 @@
+{
+  "name": "num",
+  "version": "0.1.42",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "4703ad64153382334aa8db57c637364c322d3372e097840c72000dabdcf6156e",
+  "features": {
+    "bigint": [
+      "num-bigint"
+    ],
+    "complex": [
+      "num-complex"
+    ],
+    "default": [
+      "bigint",
+      "complex",
+      "rational",
+      "rustc-serialize"
+    ],
+    "rational": [
+      "num-rational"
+    ],
+    "rustc-serialize": [
+      "num-bigint/rustc-serialize",
+      "num-complex/rustc-serialize",
+      "num-rational/rustc-serialize"
+    ],
+    "serde": [
+      "num-bigint/serde",
+      "num-complex/serde",
+      "num-rational/serde"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-02-09T07:22:49.732966Z",
+  "dependencies": [
+    "num-integer",
+    "num-iter",
+    "num-traits",
+    "num-bigint",
+    "num-complex",
+    "num-rational"
+  ]
+}

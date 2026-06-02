@@ -1,0 +1,36 @@
+{
+  "name": "flate2",
+  "version": "1.0.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "deeb50cf96fc0af4df37de3710eaaee665c4e45b3b7566a60d68bef92dda2e94",
+  "features": {
+    "default": [
+      "miniz-sys"
+    ],
+    "rust_backend": [
+      "miniz_oxide_c_api"
+    ],
+    "tokio": [
+      "tokio-io",
+      "futures"
+    ],
+    "zlib": [
+      "libz-sys"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-11-29T20:27:56.456562Z",
+  "dependencies": [
+    "libc",
+    "quickcheck",
+    "rand",
+    "tokio-core",
+    "futures",
+    "libz-sys",
+    "miniz-sys",
+    "miniz_oxide_c_api",
+    "tokio-io"
+  ]
+}

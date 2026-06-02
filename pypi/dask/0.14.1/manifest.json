@@ -1,0 +1,41 @@
+{
+  "name": "dask",
+  "version": "0.14.1",
+  "ecosystem": "pypi",
+  "summary": "Parallel PyData with Task Scheduling",
+  "license": "BSD",
+  "author": "Matthew Rocklin",
+  "author_email": "mrocklin@gmail.com",
+  "requires_python": "",
+  "requires_dist": [
+    "numpy; extra == 'array'",
+    "toolz (>=0.7.3); extra == 'array'",
+    "cloudpickle (>=0.2.1); extra == 'bag'",
+    "partd (>=0.3.7); extra == 'bag'",
+    "toolz (>=0.7.3); extra == 'bag'",
+    "cloudpickle (>=0.2.1); extra == 'complete'",
+    "distributed (>=1.16); extra == 'complete'",
+    "numpy; extra == 'complete'",
+    "pandas (>=0.19.0); extra == 'complete'",
+    "partd (>=0.3.7); extra == 'complete'",
+    "s3fs (>=0.0.8); extra == 'complete'",
+    "toolz (>=0.7.3); extra == 'complete'",
+    "cloudpickle (>=0.2.1); extra == 'dataframe'",
+    "numpy; extra == 'dataframe'",
+    "pandas (>=0.19.0); extra == 'dataframe'",
+    "partd (>=0.3.7); extra == 'dataframe'",
+    "toolz (>=0.7.3); extra == 'dataframe'",
+    "toolz (>=0.7.3); extra == 'delayed'",
+    "distributed (>=1.16); extra == 'distributed'",
+    "s3fs (>=0.0.8); extra == 'distributed'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2017-03-22T15:15:34",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/ae/4e/ecb4430a42b49d65e9ae53548fd672578201709d3e0c1fba91b8d4f4a016/dask-0.14.1-py2.py3-none-any.whl",
+    "sha256": "560b4cd0f273b9a3123dfe82cb81c7245bc9546489f0552c28d35dd4b9f11d1b",
+    "size": 463097,
+    "filename": "dask-0.14.1-py2.py3-none-any.whl"
+  }
+}

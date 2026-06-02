@@ -1,0 +1,64 @@
+{
+  "name": "opentelemetry",
+  "version": "0.11.1",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "a5128a508e473b4e4465795c218ec8d9cafdd89e14bf2e9106ab487a41950cec",
+  "features": {
+    "default": [
+      "trace"
+    ],
+    "metrics": [
+      "thiserror",
+      "dashmap",
+      "fnv"
+    ],
+    "serialize": [
+      "serde",
+      "bincode"
+    ],
+    "testing": [
+      "trace",
+      "metrics",
+      "tokio/full"
+    ],
+    "trace": [
+      "rand",
+      "pin-project",
+      "async-trait",
+      "regex",
+      "percent-encoding",
+      "thiserror"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66511,
+    "login": "jtescher"
+  },
+  "publishedAt": "2020-12-29T22:57:26.598536Z",
+  "dependencies": [
+    "criterion",
+    "futures",
+    "js-sys",
+    "lazy_static",
+    "rand_distr",
+    "tokio",
+    "async-std",
+    "async-trait",
+    "bincode",
+    "dashmap",
+    "fnv",
+    "http",
+    "percent-encoding",
+    "pin-project",
+    "rand",
+    "regex",
+    "reqwest",
+    "serde",
+    "surf",
+    "thiserror",
+    "tokio",
+    "tonic"
+  ]
+}

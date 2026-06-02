@@ -1,0 +1,29 @@
+{
+  "name": "dashmap",
+  "version": "5.1.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "c0834a35a3fce649144119e18da2a4d8ed12ef3862f47183fd46f625d072d96c",
+  "features": {
+    "default": [
+      "send_guard"
+    ],
+    "raw-api": [],
+    "send_guard": [
+      "parking_lot/send_guard"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 19646,
+    "login": "xacrimon"
+  },
+  "publishedAt": "2022-02-06T16:54:15.633230Z",
+  "dependencies": [
+    "cfg-if",
+    "num_cpus",
+    "parking_lot",
+    "rayon",
+    "serde"
+  ]
+}

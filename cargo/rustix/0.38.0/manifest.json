@@ -1,0 +1,122 @@
+{
+  "name": "rustix",
+  "version": "0.38.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "a8865954e9c990b996e5b366fad94b8d467ae530daf5f8496edd7cf75e76987d",
+  "features": {
+    "all-apis": [
+      "event",
+      "fs",
+      "io_uring",
+      "mm",
+      "net",
+      "param",
+      "pipe",
+      "process",
+      "procfs",
+      "pty",
+      "rand",
+      "runtime",
+      "system",
+      "stdio",
+      "termios",
+      "thread",
+      "time"
+    ],
+    "default": [
+      "std",
+      "use-libc-auxv"
+    ],
+    "event": [],
+    "fs": [],
+    "io_uring": [
+      "fs",
+      "net",
+      "linux-raw-sys/io_uring"
+    ],
+    "linux_4_11": [],
+    "linux_latest": [
+      "linux_4_11"
+    ],
+    "mm": [],
+    "net": [
+      "linux-raw-sys/net",
+      "linux-raw-sys/netlink",
+      "linux-raw-sys/if_ether"
+    ],
+    "param": [
+      "fs"
+    ],
+    "pipe": [],
+    "process": [
+      "linux-raw-sys/prctl"
+    ],
+    "procfs": [
+      "once_cell",
+      "itoa",
+      "fs"
+    ],
+    "pty": [
+      "itoa",
+      "fs"
+    ],
+    "rand": [],
+    "runtime": [
+      "linux-raw-sys/prctl"
+    ],
+    "rustc-dep-of-std": [
+      "core",
+      "alloc",
+      "compiler_builtins",
+      "linux-raw-sys/rustc-dep-of-std",
+      "bitflags/rustc-dep-of-std"
+    ],
+    "std": [],
+    "stdio": [],
+    "system": [
+      "linux-raw-sys/system"
+    ],
+    "termios": [],
+    "thread": [
+      "linux-raw-sys/prctl"
+    ],
+    "time": [],
+    "use-libc": [
+      "libc_errno",
+      "libc"
+    ],
+    "use-libc-auxv": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode"
+  },
+  "publishedAt": "2023-06-28T14:08:00.382503Z",
+  "dependencies": [
+    "bitflags",
+    "criterion",
+    "ctor",
+    "errno",
+    "errno",
+    "errno",
+    "flate2",
+    "libc",
+    "libc",
+    "linux-raw-sys",
+    "linux-raw-sys",
+    "memoffset",
+    "serial_test",
+    "tempfile",
+    "windows-sys",
+    "cc",
+    "compiler_builtins",
+    "errno",
+    "itoa",
+    "libc",
+    "once_cell",
+    "rustc-std-workspace-alloc",
+    "rustc-std-workspace-core"
+  ]
+}

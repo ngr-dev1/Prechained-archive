@@ -1,0 +1,52 @@
+{
+  "name": "tide",
+  "version": "0.5.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "72e70ad580efd2c3516f7a23450c33c3e30b8590df876b5e7a50171082ec4f62",
+  "features": {
+    "default": [
+      "hyper-server"
+    ],
+    "docs": [
+      "unstable"
+    ],
+    "hyper-server": [
+      "http-service-hyper"
+    ],
+    "unstable": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3824,
+    "login": "yoshuawuyts"
+  },
+  "publishedAt": "2019-12-20T15:27:45.203091Z",
+  "dependencies": [
+    "async-std",
+    "async-std",
+    "basic-cookies",
+    "bytes",
+    "futures",
+    "futures-fs",
+    "futures-util",
+    "http",
+    "http-service",
+    "http-service-mock",
+    "juniper",
+    "log",
+    "mime",
+    "mime",
+    "mime_guess",
+    "percent-encoding",
+    "pin-project-lite",
+    "route-recognizer",
+    "serde",
+    "serde",
+    "serde_json",
+    "serde_qs",
+    "structopt",
+    "surf",
+    "http-service-hyper"
+  ]
+}

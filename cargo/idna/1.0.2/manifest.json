@@ -1,0 +1,37 @@
+{
+  "name": "idna",
+  "version": "1.0.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "bd69211b9b519e98303c015e21a007e293db403b6c85b9b124e133d25e242cdd",
+  "features": {
+    "alloc": [],
+    "compiled_data": [
+      "icu_normalizer/compiled_data",
+      "icu_properties/compiled_data"
+    ],
+    "default": [
+      "std",
+      "compiled_data"
+    ],
+    "std": [
+      "alloc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1139,
+    "login": "Manishearth"
+  },
+  "publishedAt": "2024-07-01T20:13:58.739359Z",
+  "dependencies": [
+    "assert_matches",
+    "bencher",
+    "icu_normalizer",
+    "icu_properties",
+    "serde_json",
+    "smallvec",
+    "tester",
+    "utf8_iter"
+  ]
+}

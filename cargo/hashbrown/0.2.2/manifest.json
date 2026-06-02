@@ -1,0 +1,35 @@
+{
+  "name": "hashbrown",
+  "version": "0.2.2",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "61e4900fa4e80b3d15c78a08ec8a08433246063fa7577e7b2c6426b3b21b1f79",
+  "features": {
+    "default": [],
+    "nightly": [],
+    "rustc-dep-of-std": [
+      "nightly",
+      "core",
+      "compiler_builtins",
+      "alloc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2915,
+    "login": "Amanieu"
+  },
+  "publishedAt": "2019-04-16T12:44:58.526019Z",
+  "dependencies": [
+    "lazy_static",
+    "rand",
+    "rayon",
+    "rustc-hash",
+    "serde_test",
+    "compiler_builtins",
+    "rayon",
+    "rustc-std-workspace-alloc",
+    "rustc-std-workspace-core",
+    "serde"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "name": "rustix",
+  "version": "0.37.24",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "4279d76516df406a8bd37e7dff53fd37d1a093f997a3c34a5c21658c126db06d",
+  "features": {
+    "all-apis": [
+      "fs",
+      "io_uring",
+      "mm",
+      "net",
+      "param",
+      "process",
+      "procfs",
+      "pty",
+      "rand",
+      "runtime",
+      "termios",
+      "thread",
+      "time"
+    ],
+    "all-impls": [
+      "os_pipe",
+      "fs-err"
+    ],
+    "default": [
+      "std",
+      "use-libc-auxv"
+    ],
+    "fs": [],
+    "fs-err": [
+      "io-lifetimes/fs-err"
+    ],
+    "io_uring": [
+      "fs",
+      "net"
+    ],
+    "linux_4_11": [],
+    "linux_latest": [
+      "linux_4_11"
+    ],
+    "mm": [],
+    "net": [],
+    "os_pipe": [
+      "io-lifetimes/os_pipe"
+    ],
+    "param": [
+      "fs"
+    ],
+    "process": [],
+    "procfs": [
+      "once_cell",
+      "itoa",
+      "fs"
+    ],
+    "pty": [
+      "itoa",
+      "fs"
+    ],
+    "rand": [],
+    "runtime": [],
+    "rustc-dep-of-std": [
+      "core",
+      "alloc",
+      "compiler_builtins",
+      "linux-raw-sys/rustc-dep-of-std",
+      "bitflags/rustc-dep-of-std"
+    ],
+    "std": [
+      "io-lifetimes"
+    ],
+    "termios": [],
+    "thread": [],
+    "time": [],
+    "use-libc": [
+      "libc_errno",
+      "libc"
+    ],
+    "use-libc-auxv": [
+      "libc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode"
+  },
+  "publishedAt": "2023-09-29T15:33:50.700764Z",
+  "dependencies": [
+    "bitflags",
+    "ctor",
+    "errno",
+    "errno",
+    "errno",
+    "flate2",
+    "io-lifetimes",
+    "libc",
+    "libc",
+    "linux-raw-sys",
+    "linux-raw-sys",
+    "memoffset",
+    "tempfile",
+    "windows-sys",
+    "cc",
+    "compiler_builtins",
+    "errno",
+    "io-lifetimes",
+    "itoa",
+    "libc",
+    "once_cell",
+    "rustc-std-workspace-alloc",
+    "rustc-std-workspace-core"
+  ]
+}

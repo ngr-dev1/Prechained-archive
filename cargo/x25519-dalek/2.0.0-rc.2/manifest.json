@@ -1,0 +1,50 @@
+{
+  "name": "x25519-dalek",
+  "version": "2.0.0-rc.2",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "fabd6e16dd08033932fc3265ad4510cc2eab24656058a6dcb107ffe274abcc95",
+  "features": {
+    "alloc": [
+      "curve25519-dalek/alloc",
+      "serde?/alloc",
+      "zeroize?/alloc"
+    ],
+    "default": [
+      "alloc",
+      "precomputed-tables",
+      "zeroize"
+    ],
+    "getrandom": [
+      "rand_core/getrandom"
+    ],
+    "precomputed-tables": [
+      "curve25519-dalek/precomputed-tables"
+    ],
+    "reusable_secrets": [],
+    "serde": [
+      "dep:serde",
+      "curve25519-dalek/serde"
+    ],
+    "static_secrets": [],
+    "zeroize": [
+      "dep:zeroize",
+      "curve25519-dalek/zeroize"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 6979,
+    "login": "rozbb"
+  },
+  "publishedAt": "2023-03-31T18:02:07.716874Z",
+  "dependencies": [
+    "bincode",
+    "criterion",
+    "curve25519-dalek",
+    "rand_core",
+    "rand_core",
+    "serde",
+    "zeroize"
+  ]
+}

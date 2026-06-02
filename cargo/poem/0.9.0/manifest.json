@@ -1,0 +1,79 @@
+{
+  "name": "poem",
+  "version": "0.9.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "d41f2c9679c08bf906dd152b62cc67d63cbcd64710587b76badf8443e88f7584",
+  "features": {
+    "compression": [
+      "async-compression",
+      "typed-headers"
+    ],
+    "cookie": [
+      "libcookie",
+      "chrono",
+      "time"
+    ],
+    "default": [],
+    "multipart": [
+      "multer"
+    ],
+    "sse": [],
+    "tls": [
+      "tokio-rustls"
+    ],
+    "tower-compat": [
+      "tower"
+    ],
+    "websocket": [
+      "tokio-tungstenite"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66052,
+    "login": "sunli829"
+  },
+  "publishedAt": "2021-10-08T02:33:03.563558Z",
+  "dependencies": [
+    "anyhow",
+    "askama",
+    "async-trait",
+    "base64",
+    "bytes",
+    "futures-util",
+    "http",
+    "hyper",
+    "mime",
+    "mime_guess",
+    "nom",
+    "once_cell",
+    "parking_lot",
+    "percent-encoding",
+    "pin-project-lite",
+    "poem-derive",
+    "regex",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "sha1",
+    "smallvec",
+    "thiserror",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tracing",
+    "webpki",
+    "async-compression",
+    "chrono",
+    "cookie",
+    "multer",
+    "tempfile",
+    "time",
+    "tokio-rustls",
+    "tokio-tungstenite",
+    "tower",
+    "typed-headers"
+  ]
+}

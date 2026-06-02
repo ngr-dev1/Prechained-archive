@@ -1,0 +1,147 @@
+{
+  "name": "axum-extra",
+  "version": "0.10.3",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "9963ff19f40c6102c76756ef0a46004c0d58957d87259fc9208ff8441c12ab96",
+  "features": {
+    "__private_docs": [
+      "axum/json",
+      "dep:serde",
+      "dep:tower"
+    ],
+    "async-read-body": [
+      "dep:tokio-util",
+      "tokio-util?/io",
+      "dep:tokio"
+    ],
+    "async-stream": [],
+    "attachment": [
+      "dep:tracing"
+    ],
+    "cookie": [
+      "dep:cookie"
+    ],
+    "cookie-key-expansion": [
+      "cookie",
+      "cookie?/key-expansion"
+    ],
+    "cookie-private": [
+      "cookie",
+      "cookie?/private"
+    ],
+    "cookie-signed": [
+      "cookie",
+      "cookie?/signed"
+    ],
+    "default": [
+      "tracing"
+    ],
+    "erased-json": [
+      "dep:serde_json",
+      "dep:typed-json"
+    ],
+    "error-response": [
+      "dep:tracing",
+      "tracing/std"
+    ],
+    "file-stream": [
+      "dep:tokio-util",
+      "tokio-util?/io",
+      "dep:tokio",
+      "tokio?/fs",
+      "tokio?/io-util"
+    ],
+    "form": [
+      "dep:form_urlencoded",
+      "dep:serde_html_form",
+      "dep:serde_path_to_error"
+    ],
+    "json-deserializer": [
+      "dep:serde_json",
+      "dep:serde_path_to_error"
+    ],
+    "json-lines": [
+      "dep:serde_json",
+      "dep:tokio-util",
+      "dep:tokio-stream",
+      "tokio-util?/io",
+      "tokio-stream?/io-util",
+      "dep:tokio"
+    ],
+    "multipart": [
+      "dep:multer",
+      "dep:fastrand"
+    ],
+    "protobuf": [
+      "dep:prost"
+    ],
+    "query": [
+      "dep:form_urlencoded",
+      "dep:serde_html_form",
+      "dep:serde_path_to_error"
+    ],
+    "scheme": [],
+    "tracing": [
+      "axum-core/tracing",
+      "axum/tracing",
+      "dep:tracing"
+    ],
+    "typed-header": [
+      "dep:headers"
+    ],
+    "typed-routing": [
+      "dep:axum-macros",
+      "dep:percent-encoding",
+      "dep:serde_html_form",
+      "dep:form_urlencoded"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6913,
+    "login": "jplatte"
+  },
+  "publishedAt": "2025-09-30T12:52:42.150942Z",
+  "dependencies": [
+    "axum",
+    "axum-core",
+    "bytes",
+    "futures-util",
+    "http",
+    "http-body",
+    "http-body-util",
+    "hyper",
+    "mime",
+    "pin-project-lite",
+    "reqwest",
+    "rustversion",
+    "serde",
+    "serde_core",
+    "serde_json",
+    "tokio",
+    "tower",
+    "tower-http",
+    "tower-layer",
+    "tower-service",
+    "tracing-subscriber",
+    "axum-macros",
+    "cookie",
+    "fastrand",
+    "form_urlencoded",
+    "headers",
+    "multer",
+    "percent-encoding",
+    "prost",
+    "serde",
+    "serde_html_form",
+    "serde_json",
+    "serde_path_to_error",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tower",
+    "tracing",
+    "typed-json"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "pg",
+  "version": "8.15.5",
+  "ecosystem": "npm",
+  "description": "PostgreSQL client - pure javascript & libpq with the same API",
+  "license": "MIT",
+  "dependencies": {
+    "pgpass": "1.x",
+    "pg-pool": "^3.9.5",
+    "pg-types": "^2.1.0",
+    "pg-protocol": "^1.9.5",
+    "pg-cloudflare": "^1.2.5",
+    "pg-connection-string": "^2.8.5"
+  },
+  "devDependencies": {
+    "co": "4.6.0",
+    "async": "2.6.4",
+    "vitest": "~3.0.9",
+    "workerd": "^1.20230419.0",
+    "bluebird": "3.7.2",
+    "wrangler": "^3.x",
+    "typescript": "^4.0.3",
+    "pg-copy-streams": "0.3.0",
+    "@cloudflare/workers-types": "^4.20230404.0",
+    "@cloudflare/vitest-pool-workers": "0.8.12"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "brianc",
+      "email": "brian.m.carlson@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Brian Carlson",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "publishedAt": "2025-04-23T18:48:57.505Z",
+  "dist": {
+    "integrity": "sha512-EpAhHFQc+aH9VfeffWIVC+XXk6lmAhS9W1FxtxcPXs94yxhrI1I6w/zkWfIOII/OkBv3Be04X3xMOj0kQ78l6w==",
+    "shasum": "2480970166f36ea0eb2dbbe17c01d6a2783cac94",
+    "tarball": "https://registry.npmjs.org/pg/-/pg-8.15.5.tgz",
+    "fileCount": 22,
+    "unpackedSize": 87939
+  },
+  "_npmUser": {
+    "name": "brianc",
+    "email": "brian.m.carlson@gmail.com"
+  }
+}

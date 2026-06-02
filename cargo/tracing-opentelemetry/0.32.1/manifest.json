@@ -1,0 +1,45 @@
+{
+  "name": "tracing-opentelemetry",
+  "version": "0.32.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "1ac28f2d093c6c477eaa76b23525478f38de514fa9aeb1285738d4b97a9552fc",
+  "features": {
+    "default": [
+      "tracing-log",
+      "metrics"
+    ],
+    "metrics": [
+      "opentelemetry/metrics",
+      "smallvec"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 275256,
+    "login": "mladedav"
+  },
+  "publishedAt": "2026-01-12T11:14:06.016220Z",
+  "dependencies": [
+    "criterion",
+    "js-sys",
+    "opentelemetry",
+    "opentelemetry",
+    "opentelemetry-otlp",
+    "opentelemetry-semantic-conventions",
+    "opentelemetry-stdout",
+    "opentelemetry_sdk",
+    "pprof",
+    "tokio",
+    "tracing",
+    "tracing",
+    "tracing-core",
+    "tracing-error",
+    "tracing-subscriber",
+    "tracing-subscriber",
+    "web-time",
+    "lazy_static",
+    "smallvec",
+    "tracing-log"
+  ]
+}

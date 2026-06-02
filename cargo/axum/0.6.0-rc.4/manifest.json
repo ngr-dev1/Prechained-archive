@@ -1,0 +1,113 @@
+{
+  "name": "axum",
+  "version": "0.6.0-rc.4",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "11ce1fe515f70a98649f95d9434e8ad2ce8d581b5c9763a15470da5f6ef2e481",
+  "features": {
+    "__private_docs": [
+      "tower/full",
+      "tower-http/full"
+    ],
+    "default": [
+      "form",
+      "http1",
+      "json",
+      "matched-path",
+      "original-uri",
+      "query",
+      "tokio",
+      "tower-log"
+    ],
+    "form": [
+      "dep:serde_urlencoded"
+    ],
+    "http1": [
+      "hyper/http1"
+    ],
+    "http2": [
+      "hyper/http2"
+    ],
+    "json": [
+      "dep:serde_json",
+      "dep:serde_path_to_error"
+    ],
+    "macros": [
+      "dep:axum-macros"
+    ],
+    "matched-path": [],
+    "multipart": [
+      "dep:multer"
+    ],
+    "original-uri": [],
+    "query": [
+      "dep:serde_urlencoded"
+    ],
+    "tokio": [
+      "dep:tokio",
+      "hyper/server",
+      "hyper/tcp",
+      "tower/make"
+    ],
+    "tower-log": [
+      "tower/log"
+    ],
+    "ws": [
+      "tokio",
+      "dep:tokio-tungstenite",
+      "dep:sha-1",
+      "dep:base64"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2022-11-09T12:50:18.357892Z",
+  "dependencies": [
+    "anyhow",
+    "async-trait",
+    "axum-core",
+    "bitflags",
+    "bytes",
+    "futures",
+    "futures-util",
+    "http",
+    "http-body",
+    "hyper",
+    "itoa",
+    "matchit",
+    "memchr",
+    "mime",
+    "percent-encoding",
+    "pin-project-lite",
+    "quickcheck",
+    "quickcheck_macros",
+    "reqwest",
+    "serde",
+    "serde",
+    "serde_json",
+    "sync_wrapper",
+    "tokio",
+    "tokio-stream",
+    "tower",
+    "tower",
+    "tower-http",
+    "tower-http",
+    "tower-layer",
+    "tower-service",
+    "tracing",
+    "uuid",
+    "axum-macros",
+    "base64",
+    "headers",
+    "multer",
+    "serde_json",
+    "serde_path_to_error",
+    "serde_urlencoded",
+    "sha-1",
+    "tokio",
+    "tokio-tungstenite"
+  ]
+}

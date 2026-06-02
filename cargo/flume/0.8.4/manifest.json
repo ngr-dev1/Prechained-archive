@@ -1,0 +1,38 @@
+{
+  "name": "flume",
+  "version": "0.8.4",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "21f39cf120a8b2e25f325d4ca7637f9cae8e3dcc9134b7811a3c35e0353f5518",
+  "features": {
+    "async": [
+      "futures"
+    ],
+    "default": [
+      "async",
+      "select",
+      "eventual-fairness"
+    ],
+    "eventual-fairness": [
+      "async",
+      "rand"
+    ],
+    "select": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 21853,
+    "login": "zesterer"
+  },
+  "publishedAt": "2020-09-02T15:16:28.280753Z",
+  "dependencies": [
+    "async-std",
+    "criterion",
+    "crossbeam-channel",
+    "crossbeam-utils",
+    "rand",
+    "spinning_top",
+    "futures",
+    "rand"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "LanguageExt",
+  "version": "1.5.0",
+  "ecosystem": "nuget",
+  "description": "Use and abuse the features of C#, which, if you squint, can look like extensions to the language itself.  This package is a functional 'toolkit' and also solves some of the annoyances with C#, namely:\n\n            * Poor tuple support\n            * Null reference problem\n            * Lack of lambda and expression inference\n            * Void isn't a real type\n            * Mutable lists, dictionaries, sets, queues, etc.\n            * The awful 'out' parameter\n\n        The library very heavily focusses on correctness, to give you the tools needed to write safe declarative code.\n\n        Features:\n\n            Powerful 'prelude' which you include by `using static LanguageExt.Prelude` (in C# 6) that covers many of the basic functional language core library functions and types (from `using LanguageExt`):\n\n                Pattern matching\n                Lambda type-inference: `var fn = fun( (int x, int y) => x + y );`\n                `Option<T>`, `OptionUnsafe<T>`, `Either<L,R>`, `EitherUnsafe<L,R>` and `TryOption<T>` monads (probably the most complete implementations you'll find in the .NET world)\n                `tuple(a,b,...)` - `Tuple` construction without typing `Tuple.Create(a,b,...)` as well as `map` to project the `Item1..ItemN` properties onto named values.\n                `List` - immutable list \n                `Map` - immutable map                                                \n                `Set` - immutable set\n                `memo` - Memoization with auto-cache purging using weak-references\n                `Writer` monad\n                `Reader` monad\n                `State` monad\n                Partial application\n                Currying\n                Higher kinded type\n                Extension methods and replacement functions for dealing with `out` (Int32.TryParse, IDictionary.TryGetValue, etc.)",
+  "licenseExpression": null,
+  "authors": "Paul Louth",
+  "tags": [
+    "C#",
+    "Functional",
+    "Language",
+    "Extension",
+    "Monad",
+    "Option",
+    "Either",
+    "Reader",
+    "Writer",
+    "State",
+    "List",
+    "Set",
+    "Map",
+    "Queue",
+    "Memo",
+    "Memoization",
+    "Immutable",
+    "Lambda",
+    "Pattern",
+    "Matching",
+    "Tuple"
+  ],
+  "repositoryUrl": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    "System.Collections.Immutable",
+    "Rx-Main"
+  ],
+  "publishedAt": "1900-01-01T00:00:00+00:00",
+  "listed": false,
+  "packageHash": null
+}

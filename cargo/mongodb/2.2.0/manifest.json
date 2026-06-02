@@ -1,0 +1,121 @@
+{
+  "name": "mongodb",
+  "version": "2.2.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "13527df8ea2d7aa1bdb4f79681b39d9640adaf77591ae107da1bba6f6ad4c600",
+  "features": {
+    "async-std-runtime": [
+      "async-std",
+      "async-std/attributes",
+      "async-std-resolver",
+      "tokio-util/compat"
+    ],
+    "aws-auth": [
+      "reqwest"
+    ],
+    "bson-chrono-0_4": [
+      "bson/chrono-0_4"
+    ],
+    "bson-serde_with": [
+      "bson/serde_with"
+    ],
+    "bson-uuid-0_8": [
+      "bson/uuid-0_8"
+    ],
+    "default": [
+      "tokio-runtime"
+    ],
+    "openssl-tls": [
+      "openssl",
+      "openssl-probe",
+      "tokio-openssl"
+    ],
+    "snappy-compression": [
+      "snap"
+    ],
+    "sync": [
+      "async-std-runtime"
+    ],
+    "tokio-runtime": [
+      "tokio/macros",
+      "tokio/net",
+      "tokio/rt",
+      "tokio/time",
+      "serde_bytes"
+    ],
+    "tokio-sync": [
+      "tokio-runtime"
+    ],
+    "zlib-compression": [
+      "flate2"
+    ],
+    "zstd-compression": [
+      "zstd"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 103590,
+    "login": "mongo-rust-driver"
+  },
+  "publishedAt": "2022-04-14T18:13:50.716436Z",
+  "dependencies": [
+    "approx",
+    "async-trait",
+    "base64",
+    "bitflags",
+    "bson",
+    "chrono",
+    "derivative",
+    "derive_more",
+    "function_name",
+    "futures",
+    "futures-core",
+    "futures-executor",
+    "futures-io",
+    "futures-util",
+    "hex",
+    "hmac",
+    "home",
+    "lazy_static",
+    "md-5",
+    "os_info",
+    "pbkdf2",
+    "percent-encoding",
+    "pretty_assertions",
+    "rand",
+    "rustc_version_runtime",
+    "rustls",
+    "rustls-pemfile",
+    "semver",
+    "serde",
+    "serde_json",
+    "serde_with",
+    "sha-1",
+    "sha2",
+    "socket2",
+    "stringprep",
+    "strsim",
+    "take_mut",
+    "thiserror",
+    "tokio",
+    "tokio-rustls",
+    "tokio-util",
+    "trust-dns-proto",
+    "trust-dns-resolver",
+    "typed-builder",
+    "uuid",
+    "webpki-roots",
+    "async-std",
+    "async-std-resolver",
+    "flate2",
+    "openssl",
+    "openssl-probe",
+    "reqwest",
+    "serde_bytes",
+    "snap",
+    "tokio-openssl",
+    "zstd"
+  ]
+}

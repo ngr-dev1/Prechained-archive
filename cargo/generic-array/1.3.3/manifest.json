@@ -1,0 +1,36 @@
+{
+  "name": "generic-array",
+  "version": "1.3.3",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "c42bb3faf529935fbba0684910e1a71ecd271d618549d58f430b878619b7f4cf",
+  "features": {
+    "alloc": [],
+    "compat-0_14": [
+      "dep:generic_array-0_14"
+    ],
+    "internals": [],
+    "serde": [
+      "dep:serde_core"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5704,
+    "login": "novacrazy"
+  },
+  "publishedAt": "2025-10-12T22:21:14.559276Z",
+  "dependencies": [
+    "bincode",
+    "criterion",
+    "rand",
+    "rustversion",
+    "serde_json",
+    "typenum",
+    "const-default",
+    "faster-hex",
+    "generic-array",
+    "serde_core",
+    "zeroize"
+  ]
+}

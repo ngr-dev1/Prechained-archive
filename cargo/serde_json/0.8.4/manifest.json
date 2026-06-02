@@ -1,0 +1,27 @@
+{
+  "name": "serde_json",
+  "version": "0.8.4",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "3f7d3c184d35801fb8b32b46a7d58d57dbcc150b0eb2b46a1eb79645e8ecfd5b",
+  "features": {
+    "preserve_order": [
+      "linked-hash-map",
+      "linked-hash-map/serde_impl"
+    ],
+    "unstable-testing": [
+      "clippy"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-12-07T05:13:39.697550Z",
+  "dependencies": [
+    "dtoa",
+    "itoa",
+    "num-traits",
+    "serde",
+    "clippy",
+    "linked-hash-map"
+  ]
+}

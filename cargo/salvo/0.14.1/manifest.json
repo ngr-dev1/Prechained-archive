@@ -1,0 +1,84 @@
+{
+  "name": "salvo",
+  "version": "0.14.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "3b60d93db277dbccb45d2193d6afc9e20dd4f3021d3f3d3e964de34be021718a",
+  "features": {
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic_auth": [
+      "salvo_extra/basic_auth"
+    ],
+    "compression": [
+      "salvo_extra/compression"
+    ],
+    "cors": [
+      "salvo_extra/cors"
+    ],
+    "csrf": [
+      "salvo_extra/csrf"
+    ],
+    "default": [],
+    "extra": [
+      "basic_auth",
+      "jwt_auth",
+      "compression",
+      "cors",
+      "csrf",
+      "proxy",
+      "serve",
+      "sse",
+      "ws",
+      "size_limiter"
+    ],
+    "full": [
+      "extra",
+      "tls",
+      "anyhow"
+    ],
+    "jwt_auth": [
+      "salvo_extra/jwt_auth"
+    ],
+    "proxy": [
+      "salvo_extra/proxy"
+    ],
+    "serve": [
+      "salvo_extra/serve"
+    ],
+    "size_limiter": [
+      "salvo_extra/size_limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "tls": [
+      "salvo_core/tls"
+    ],
+    "ws": [
+      "salvo_extra/ws"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn"
+  },
+  "publishedAt": "2021-11-05T15:40:31.660775Z",
+  "dependencies": [
+    "futures-util",
+    "hyper",
+    "once_cell",
+    "salvo_core",
+    "serde",
+    "serde_derive",
+    "tokio",
+    "tokio-stream",
+    "tower",
+    "tracing",
+    "tracing-log",
+    "tracing-subscriber",
+    "salvo_extra"
+  ]
+}

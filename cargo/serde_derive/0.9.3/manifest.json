@@ -1,0 +1,23 @@
+{
+  "name": "serde_derive",
+  "version": "0.9.3",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "20f23a0d90dab811698a1b8eb6db9e7e2bcaee1db1c122fc0a87ba32f94556d2",
+  "features": {
+    "unstable": [],
+    "unstable-testing": [
+      "clippy",
+      "serde_codegen_internals/unstable-testing"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-01-31T01:50:41.980185Z",
+  "dependencies": [
+    "quote",
+    "serde_codegen_internals",
+    "syn",
+    "clippy"
+  ]
+}

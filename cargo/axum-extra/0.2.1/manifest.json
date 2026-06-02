@@ -1,0 +1,53 @@
+{
+  "name": "axum-extra",
+  "version": "0.2.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "bb752c1940e365de8be991c909da4af5e07fe84afaaa8c57abd957f1555d8665",
+  "features": {
+    "cookie": [
+      "cookie-lib"
+    ],
+    "default": [],
+    "erased-json": [
+      "serde_json",
+      "serde"
+    ],
+    "spa": [
+      "tower-http/fs"
+    ],
+    "typed-routing": [
+      "axum-macros",
+      "serde",
+      "percent-encoding"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2022-04-03T18:18:36.711660Z",
+  "dependencies": [
+    "axum",
+    "axum",
+    "bytes",
+    "http",
+    "hyper",
+    "mime",
+    "pin-project-lite",
+    "reqwest",
+    "serde",
+    "tokio",
+    "tower",
+    "tower",
+    "tower-http",
+    "tower-layer",
+    "tower-service",
+    "axum-macros",
+    "cookie",
+    "percent-encoding",
+    "serde",
+    "serde_json"
+  ]
+}

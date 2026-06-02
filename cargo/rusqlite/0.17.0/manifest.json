@@ -1,0 +1,81 @@
+{
+  "name": "rusqlite",
+  "version": "0.17.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "f8ef7411f02f83d4ce1b9c6c043013ed141f01aa1a77c665fb6d72042a3705cf",
+  "features": {
+    "array": [
+      "vtab"
+    ],
+    "backup": [
+      "libsqlite3-sys/min_sqlite_version_3_6_23"
+    ],
+    "blob": [
+      "libsqlite3-sys/min_sqlite_version_3_7_7"
+    ],
+    "buildtime_bindgen": [
+      "libsqlite3-sys/buildtime_bindgen"
+    ],
+    "bundled": [
+      "libsqlite3-sys/bundled"
+    ],
+    "csvtab": [
+      "csv",
+      "vtab"
+    ],
+    "functions": [
+      "libsqlite3-sys/min_sqlite_version_3_7_7"
+    ],
+    "hooks": [],
+    "i128_blob": [
+      "byteorder"
+    ],
+    "limits": [],
+    "load_extension": [],
+    "session": [
+      "libsqlite3-sys/session",
+      "hooks"
+    ],
+    "sqlcipher": [
+      "libsqlite3-sys/sqlcipher"
+    ],
+    "trace": [
+      "libsqlite3-sys/min_sqlite_version_3_6_23"
+    ],
+    "unlock_notify": [
+      "libsqlite3-sys/unlock_notify"
+    ],
+    "vtab": [
+      "libsqlite3-sys/min_sqlite_version_3_7_7",
+      "lazy_static"
+    ],
+    "vtab_v3": [
+      "vtab"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5062,
+    "login": "gwenn"
+  },
+  "publishedAt": "2019-03-10T13:24:23.980993Z",
+  "dependencies": [
+    "bitflags",
+    "fallible-iterator",
+    "fallible-streaming-iterator",
+    "lazy_static",
+    "libsqlite3-sys",
+    "lru-cache",
+    "memchr",
+    "regex",
+    "tempdir",
+    "time",
+    "byteorder",
+    "chrono",
+    "csv",
+    "lazy_static",
+    "serde_json",
+    "url"
+  ]
+}

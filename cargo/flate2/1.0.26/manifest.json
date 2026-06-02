@@ -1,0 +1,55 @@
+{
+  "name": "flate2",
+  "version": "1.0.26",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "3b9429470923de8e8cbd4d2dc513535400b4b3fef0319fb5c4e1f520a7bef743",
+  "features": {
+    "any_zlib": [],
+    "cloudflare_zlib": [
+      "any_zlib",
+      "cloudflare-zlib-sys"
+    ],
+    "default": [
+      "rust_backend"
+    ],
+    "miniz-sys": [
+      "rust_backend"
+    ],
+    "rust_backend": [
+      "miniz_oxide"
+    ],
+    "zlib": [
+      "any_zlib",
+      "libz-sys"
+    ],
+    "zlib-default": [
+      "any_zlib",
+      "libz-sys/default"
+    ],
+    "zlib-ng": [
+      "any_zlib",
+      "libz-ng-sys"
+    ],
+    "zlib-ng-compat": [
+      "zlib",
+      "libz-sys/zlib-ng"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4333,
+    "login": "joshtriplett"
+  },
+  "publishedAt": "2023-04-28T14:00:46.813247Z",
+  "dependencies": [
+    "crc32fast",
+    "miniz_oxide",
+    "quickcheck",
+    "rand",
+    "cloudflare-zlib-sys",
+    "libz-ng-sys",
+    "libz-sys",
+    "miniz_oxide"
+  ]
+}

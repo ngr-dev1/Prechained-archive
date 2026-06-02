@@ -1,0 +1,79 @@
+{
+  "name": "vimeo/psalm",
+  "version": "5.7.3",
+  "ecosystem": "packagist",
+  "description": "A static analysis tool for finding errors in PHP applications",
+  "license": [
+    "MIT"
+  ],
+  "type": "library",
+  "require": {
+    "php": "^7.4 || ~8.0.0 || ~8.1.0 || ~8.2.0",
+    "ext-simplexml": "*",
+    "ext-ctype": "*",
+    "ext-dom": "*",
+    "ext-json": "*",
+    "ext-libxml": "*",
+    "ext-mbstring": "*",
+    "ext-tokenizer": "*",
+    "amphp/amp": "^2.4.2",
+    "amphp/byte-stream": "^1.5",
+    "composer/package-versions-deprecated": "^1.10.0",
+    "composer/semver": "^1.4 || ^2.0 || ^3.0",
+    "composer/xdebug-handler": "^2.0 || ^3.0",
+    "dnoegel/php-xdg-base-dir": "^0.1.1",
+    "felixfbecker/advanced-json-rpc": "^3.1",
+    "felixfbecker/language-server-protocol": "^1.5.2",
+    "fidry/cpu-core-counter": "^0.4.1 || ^0.5.1",
+    "netresearch/jsonmapper": "^1.0 || ^2.0 || ^3.0 || ^4.0",
+    "nikic/php-parser": "^4.13",
+    "sebastian/diff": "^4.0 || ^5.0",
+    "spatie/array-to-xml": "^2.17.0 || ^3.0",
+    "symfony/console": "^4.1.6 || ^5.0 || ^6.0",
+    "symfony/filesystem": "^5.4 || ^6.0"
+  },
+  "require_dev": {},
+  "dist": {
+    "url": "https://api.github.com/repos/vimeo/psalm/zipball/471a8c6a1d4f0dcf91fdb34a3109adb204012fb3",
+    "type": "zip",
+    "shasum": "",
+    "reference": "471a8c6a1d4f0dcf91fdb34a3109adb204012fb3"
+  },
+  "source": {
+    "url": "https://github.com/vimeo/psalm.git",
+    "type": "git",
+    "reference": "471a8c6a1d4f0dcf91fdb34a3109adb204012fb3"
+  },
+  "authors": [
+    {
+      "name": "Matthew Brown"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "jakeoliver",
+      "avatar_url": "https://www.gravatar.com/avatar/a1d113cc4b130d352d113ac3c5dcfd8c26600e3ff91cb11c56af287e226a9df4?d=identicon"
+    },
+    {
+      "name": "muglug",
+      "avatar_url": "https://www.gravatar.com/avatar/37a992956f2ceb043547091360fe71dacdd2b227d5450e7022b2a53660ba4e44?d=identicon"
+    },
+    {
+      "name": "weirdan",
+      "avatar_url": "https://www.gravatar.com/avatar/819d5d9fe8f78d00cc5dd7972cbb9e4f049c9bff7186e0e401f3191b3f137885?d=identicon"
+    },
+    {
+      "name": "orklah",
+      "avatar_url": "https://www.gravatar.com/avatar/e260f2252ede6d70aea471f0c0e0b0cf81f48c2edc3b22ff08abe1a74316fcca?d=identicon"
+    }
+  ],
+  "is_dev_branch": false,
+  "branch_alias": {
+    "dev-1.x": "1.x-dev",
+    "dev-2.x": "2.x-dev",
+    "dev-3.x": "3.x-dev",
+    "dev-4.x": "4.x-dev",
+    "dev-master": "5.x-dev"
+  },
+  "publishedAt": "2023-02-20T22:34:36+00:00"
+}

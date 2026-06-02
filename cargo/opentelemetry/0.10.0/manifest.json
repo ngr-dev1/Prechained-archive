@@ -1,0 +1,57 @@
+{
+  "name": "opentelemetry",
+  "version": "0.10.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "e260f0ef133e1043b95143f83cfc8f6be023cf4b46a526da0212039b45392679",
+  "features": {
+    "default": [
+      "trace"
+    ],
+    "metrics": [
+      "thiserror",
+      "dashmap",
+      "fnv"
+    ],
+    "serialize": [
+      "serde",
+      "bincode"
+    ],
+    "trace": [
+      "rand",
+      "pin-project",
+      "async-trait",
+      "regex",
+      "percent-encoding"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66511,
+    "login": "jtescher"
+  },
+  "publishedAt": "2020-11-10T01:43:58.239926Z",
+  "dependencies": [
+    "criterion",
+    "futures",
+    "lazy_static",
+    "rand_distr",
+    "tokio",
+    "async-std",
+    "async-trait",
+    "bincode",
+    "dashmap",
+    "fnv",
+    "http",
+    "percent-encoding",
+    "pin-project",
+    "rand",
+    "regex",
+    "reqwest",
+    "serde",
+    "surf",
+    "thiserror",
+    "tokio",
+    "tonic"
+  ]
+}

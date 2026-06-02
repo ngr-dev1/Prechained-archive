@@ -1,0 +1,63 @@
+{
+  "name": "tailwindcss",
+  "version": "0.6.2",
+  "ecosystem": "npm",
+  "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "postcss": "^6.0.9",
+    "fs-extra": "^4.0.2",
+    "commander": "^2.11.0",
+    "css.escape": "^1.5.1",
+    "postcss-js": "^1.0.1",
+    "perfectionist": "^2.4.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-functions": "^3.0.0",
+    "postcss-selector-parser": "^3.1.1"
+  },
+  "devDependencies": {
+    "nsp": "^3.2.1",
+    "jest": "^20.0.4",
+    "eslint": "^4.10.0",
+    "rimraf": "^2.6.1",
+    "prettier": "^1.7.4",
+    "babel-cli": "^6.6.5",
+    "clean-css": "^4.1.9",
+    "babel-core": "^6.7.2",
+    "babel-jest": "^20.0.3",
+    "autoprefixer": "^7.1.6",
+    "babel-preset-env": "^1.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint-config-postcss": "^2.0.2",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-plugin-prettier": "^2.3.1"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "npm run babelify && babel-node src/build.js"
+  },
+  "maintainers": [
+    {
+      "name": "adamwathan",
+      "email": "adam@adamwathan.me"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2018-07-11T16:35:41.754Z",
+  "dist": {
+    "integrity": "sha512-Fy3/W6V6C0fyGdfvMgAMxpO7N863sVXq07pqWSmWBcYbncl4UZxGqDdRULce6LxTX2C39Hmj/S8FJKXkmWv+PQ==",
+    "shasum": "f56ab4251935da4e44e346aea6fcf07eb6516d7c",
+    "tarball": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-0.6.2.tgz",
+    "fileCount": 112,
+    "unpackedSize": 2039116
+  },
+  "_npmUser": {
+    "name": "adamwathan",
+    "email": "adam@adamwathan.me"
+  }
+}

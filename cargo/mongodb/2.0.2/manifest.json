@@ -1,0 +1,95 @@
+{
+  "name": "mongodb",
+  "version": "2.0.2",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "a2ac4ac0fb3a154a59e47cf202e41060e8af93d16b84434cea0755a845da9bd1",
+  "features": {
+    "async-std-runtime": [
+      "async-std",
+      "async-std/attributes",
+      "async-std-resolver",
+      "tokio-util/compat"
+    ],
+    "aws-auth": [
+      "reqwest"
+    ],
+    "bson-chrono-0_4": [
+      "bson/chrono-0_4"
+    ],
+    "bson-uuid-0_8": [
+      "bson/uuid-0_8"
+    ],
+    "default": [
+      "tokio-runtime"
+    ],
+    "sync": [
+      "async-std-runtime"
+    ],
+    "tokio-runtime": [
+      "tokio/macros",
+      "tokio/net",
+      "tokio/rt",
+      "tokio/time",
+      "serde_bytes"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 103590,
+    "login": "mongo-rust-driver"
+  },
+  "publishedAt": "2021-11-12T21:08:15.888540Z",
+  "dependencies": [
+    "approx",
+    "async-trait",
+    "base64",
+    "bitflags",
+    "bson",
+    "chrono",
+    "derivative",
+    "derive_more",
+    "function_name",
+    "futures",
+    "futures-core",
+    "futures-executor",
+    "futures-io",
+    "futures-util",
+    "hex",
+    "hmac",
+    "home",
+    "lazy_static",
+    "md-5",
+    "os_info",
+    "pbkdf2",
+    "percent-encoding",
+    "pretty_assertions",
+    "rand",
+    "rustls",
+    "semver",
+    "serde",
+    "serde_json",
+    "serde_with",
+    "sha-1",
+    "sha2",
+    "socket2",
+    "stringprep",
+    "strsim",
+    "take_mut",
+    "thiserror",
+    "tokio",
+    "tokio-rustls",
+    "tokio-util",
+    "trust-dns-proto",
+    "trust-dns-resolver",
+    "typed-builder",
+    "uuid",
+    "version_check",
+    "webpki",
+    "webpki-roots",
+    "async-std",
+    "async-std-resolver",
+    "reqwest",
+    "serde_bytes"
+  ]
+}

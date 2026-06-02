@@ -1,0 +1,41 @@
+{
+  "name": "js-sys",
+  "version": "0.3.95",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "2964e92d1d9dc3364cae4d718d93f227e3abb088e747d92e0395bfdedf1c12ca",
+  "features": {
+    "default": [
+      "std",
+      "unsafe-eval"
+    ],
+    "futures": [
+      "dep:cfg-if",
+      "dep:futures-util"
+    ],
+    "futures-core-03-stream": [
+      "futures",
+      "dep:futures-core"
+    ],
+    "std": [
+      "wasm-bindgen/std"
+    ],
+    "unsafe-eval": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 145038,
+    "login": "guybedford"
+  },
+  "publishedAt": "2026-04-10T16:58:20.491366Z",
+  "dependencies": [
+    "futures-channel",
+    "futures-lite",
+    "half",
+    "once_cell",
+    "wasm-bindgen",
+    "cfg-if",
+    "futures-core",
+    "futures-util"
+  ]
+}

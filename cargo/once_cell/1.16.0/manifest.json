@@ -1,0 +1,45 @@
+{
+  "name": "once_cell",
+  "version": "1.16.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "86f0b0d4bf799edbc74508c1e8bf170ff5f41238e5f8225603ca7caaae2b7860",
+  "features": {
+    "alloc": [
+      "race"
+    ],
+    "atomic-polyfill": [
+      "critical-section"
+    ],
+    "critical-section": [
+      "critical_section",
+      "atomic_polyfill"
+    ],
+    "default": [
+      "std"
+    ],
+    "parking_lot": [
+      "parking_lot_core"
+    ],
+    "race": [],
+    "std": [
+      "alloc"
+    ],
+    "unstable": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2699,
+    "login": "matklad"
+  },
+  "publishedAt": "2022-10-29T09:07:19.543668Z",
+  "dependencies": [
+    "critical-section",
+    "crossbeam-utils",
+    "lazy_static",
+    "regex",
+    "atomic-polyfill",
+    "critical-section",
+    "parking_lot_core"
+  ]
+}

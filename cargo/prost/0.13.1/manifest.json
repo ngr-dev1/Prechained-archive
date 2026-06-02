@@ -1,0 +1,34 @@
+{
+  "name": "prost",
+  "version": "0.13.1",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "e13db3d3fde688c61e2446b4d843bc27a7e8af269a69440c0308021dc92333cc",
+  "features": {
+    "default": [
+      "derive",
+      "std"
+    ],
+    "derive": [
+      "dep:prost-derive"
+    ],
+    "no-recursion-limit": [],
+    "prost-derive": [
+      "derive"
+    ],
+    "std": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3959,
+    "login": "LucioFranco"
+  },
+  "publishedAt": "2024-07-09T13:30:44.190203Z",
+  "dependencies": [
+    "bytes",
+    "criterion",
+    "proptest",
+    "rand",
+    "prost-derive"
+  ]
+}

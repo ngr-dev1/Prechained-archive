@@ -1,0 +1,54 @@
+{
+  "name": "tracing-subscriber",
+  "version": "0.1.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "90f01ec88a73a6da1127f03dc93e9745aacbeba16e5f33cfb91c7639f75932df",
+  "features": {
+    "ansi": [
+      "fmt",
+      "ansi_term"
+    ],
+    "default": [
+      "env-filter",
+      "smallvec",
+      "fmt",
+      "ansi",
+      "chrono",
+      "tracing-log"
+    ],
+    "env-filter": [
+      "matchers",
+      "regex",
+      "lazy_static"
+    ],
+    "filter": [
+      "env-filter"
+    ],
+    "fmt": [
+      "owning_ref"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1249,
+    "login": "hawkw"
+  },
+  "publishedAt": "2019-09-13T21:12:37.440812Z",
+  "dependencies": [
+    "criterion",
+    "log",
+    "tracing",
+    "tracing-core",
+    "tracing-log",
+    "ansi_term",
+    "chrono",
+    "lazy_static",
+    "matchers",
+    "owning_ref",
+    "parking_lot",
+    "regex",
+    "smallvec",
+    "tracing-log"
+  ]
+}

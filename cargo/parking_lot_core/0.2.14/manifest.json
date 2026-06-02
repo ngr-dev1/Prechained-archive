@@ -1,0 +1,27 @@
+{
+  "name": "parking_lot_core",
+  "version": "0.2.14",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "4db1a8ccf734a7bce794cc19b3df06ed87ab2f3907036b693c68f56b4d4537fa",
+  "features": {
+    "deadlock_detection": [
+      "petgraph",
+      "thread-id",
+      "backtrace"
+    ],
+    "nightly": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-04-27T03:41:52.241663Z",
+  "dependencies": [
+    "libc",
+    "rand",
+    "smallvec",
+    "winapi",
+    "backtrace",
+    "petgraph",
+    "thread-id"
+  ]
+}

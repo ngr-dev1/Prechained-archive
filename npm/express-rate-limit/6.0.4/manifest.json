@@ -1,0 +1,57 @@
+{
+  "name": "express-rate-limit",
+  "version": "6.0.4",
+  "ecosystem": "npm",
+  "description": "Basic IP rate-limiting middleware for Express. Use to limit repeated requests to public APIs and/or endpoints such as password reset.",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "xo": "^0.47.0",
+    "jest": "^27.4.3",
+    "husky": "^7.0.4",
+    "del-cli": "^4.0.1",
+    "esbuild": "^0.14.8",
+    "express": "^4.17.1",
+    "ts-jest": "^27.1.1",
+    "ts-node": "^10.4.0",
+    "cross-env": "^7.0.3",
+    "supertest": "^6.1.6",
+    "typescript": "^4.5.2",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.11.17",
+    "lint-staged": "^12.1.2",
+    "npm-run-all": "^4.1.5",
+    "@jest/globals": "^27.4.2",
+    "@types/express": "^4.17.13",
+    "@types/supertest": "^2.0.11",
+    "dts-bundle-generator": "^6.2.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "run-s compile && husky install config/husky"
+  },
+  "maintainers": [
+    {
+      "name": "nfriedly",
+      "email": "nathan@nfriedly.com"
+    }
+  ],
+  "author": {
+    "url": "http://nfriedly.com/",
+    "name": "Nathan Friedly"
+  },
+  "publishedAt": "2022-01-02T13:52:44.656Z",
+  "dist": {
+    "integrity": "sha512-TratTfxxTAFb6ZUAxPIigqhcS0e7ql9XDTorjD+SihV5ua5h6agoKyr45iKM6m5OzTppesh9o/RCuvf5eTiwCw==",
+    "shasum": "1f3d663e8d640be1c8c5e1ad2fb55a7d7a7b118c",
+    "tarball": "https://registry.npmjs.org/express-rate-limit/-/express-rate-limit-6.0.4.tgz",
+    "fileCount": 8,
+    "unpackedSize": 48903
+  },
+  "_npmUser": {
+    "name": "nfriedly",
+    "email": "nathan@nfriedly.com"
+  }
+}

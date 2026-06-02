@@ -1,0 +1,87 @@
+{
+  "name": "leptos",
+  "version": "0.4.10",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "65154cd0fc2f505a1676b870d5c055dec9dafe4d6081358ef1d7e357d6f222c5",
+  "features": {
+    "csr": [
+      "leptos_dom/csr",
+      "leptos_macro/csr",
+      "leptos_reactive/csr",
+      "leptos_server/csr"
+    ],
+    "default": [
+      "serde"
+    ],
+    "default-tls": [
+      "leptos_server/default-tls",
+      "server_fn/default-tls"
+    ],
+    "hydrate": [
+      "leptos_dom/hydrate",
+      "leptos_macro/hydrate",
+      "leptos_reactive/hydrate",
+      "leptos_server/hydrate"
+    ],
+    "miniserde": [
+      "leptos_reactive/miniserde"
+    ],
+    "nightly": [
+      "leptos_dom/nightly",
+      "leptos_macro/nightly",
+      "leptos_reactive/nightly",
+      "leptos_server/nightly"
+    ],
+    "nonce": [
+      "leptos_dom/nonce"
+    ],
+    "rkyv": [
+      "leptos_reactive/rkyv"
+    ],
+    "rustls": [
+      "leptos_server/rustls",
+      "server_fn/rustls"
+    ],
+    "serde": [
+      "leptos_reactive/serde"
+    ],
+    "serde-lite": [
+      "leptos_reactive/serde-lite"
+    ],
+    "ssr": [
+      "leptos_dom/ssr",
+      "leptos_macro/ssr",
+      "leptos_reactive/ssr",
+      "leptos_server/ssr",
+      "server_fn/ssr"
+    ],
+    "template_macro": [
+      "leptos_dom/web",
+      "web-sys",
+      "wasm-bindgen"
+    ],
+    "tracing": [
+      "leptos_macro/tracing"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 130155,
+    "login": "gbj"
+  },
+  "publishedAt": "2023-08-23T16:29:44.045229Z",
+  "dependencies": [
+    "cfg-if",
+    "leptos_config",
+    "leptos_dom",
+    "leptos_macro",
+    "leptos_reactive",
+    "leptos_server",
+    "server_fn",
+    "tracing",
+    "typed-builder",
+    "wasm-bindgen",
+    "web-sys"
+  ]
+}

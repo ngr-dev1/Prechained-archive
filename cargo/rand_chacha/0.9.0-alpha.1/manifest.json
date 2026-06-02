@@ -1,0 +1,32 @@
+{
+  "name": "rand_chacha",
+  "version": "0.9.0-alpha.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "78674ef918c19451dbd250f8201f8619b494f64c9aa6f3adb28fd8a0f1f6da46",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "serde1": [
+      "serde"
+    ],
+    "simd": [],
+    "std": [
+      "ppv-lite86/std",
+      "rand_core/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1234,
+    "login": "dhardy"
+  },
+  "publishedAt": "2024-03-18T19:12:11.689477Z",
+  "dependencies": [
+    "ppv-lite86",
+    "rand_core",
+    "serde_json",
+    "serde"
+  ]
+}

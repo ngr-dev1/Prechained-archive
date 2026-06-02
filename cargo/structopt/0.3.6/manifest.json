@@ -1,0 +1,51 @@
+{
+  "name": "structopt",
+  "version": "0.3.6",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "df55a89a335d771b9183c06afc6ed9f8e7593cffbd06ddc15f22d843ee3edda5",
+  "features": {
+    "color": [
+      "clap/color"
+    ],
+    "debug": [
+      "clap/debug"
+    ],
+    "default": [
+      "clap/default"
+    ],
+    "doc": [
+      "clap/doc"
+    ],
+    "lints": [
+      "clap/lints"
+    ],
+    "no_cargo": [
+      "clap/no_cargo"
+    ],
+    "paw": [
+      "structopt-derive/paw"
+    ],
+    "suggestions": [
+      "clap/suggestions"
+    ],
+    "wrap_help": [
+      "clap/wrap_help"
+    ],
+    "yaml": [
+      "clap/yaml"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 527,
+    "login": "TeXitoi"
+  },
+  "publishedAt": "2019-12-22T21:09:47.450850Z",
+  "dependencies": [
+    "clap",
+    "rustversion",
+    "structopt-derive",
+    "trybuild"
+  ]
+}

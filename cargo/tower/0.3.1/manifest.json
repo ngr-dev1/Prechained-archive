@@ -1,0 +1,38 @@
+{
+  "name": "tower",
+  "version": "0.3.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "fd3169017c090b7a28fce80abaad0ab4f5566423677c9331bb320af7e49cfe62",
+  "features": {
+    "default": [
+      "full",
+      "log"
+    ],
+    "full": [],
+    "log": [
+      "tower-buffer/log"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3989,
+    "login": "jonhoo"
+  },
+  "publishedAt": "2020-01-18T03:53:45.739372Z",
+  "dependencies": [
+    "futures-core",
+    "futures-util",
+    "tokio",
+    "tower-buffer",
+    "tower-discover",
+    "tower-layer",
+    "tower-limit",
+    "tower-load-shed",
+    "tower-retry",
+    "tower-service",
+    "tower-test",
+    "tower-timeout",
+    "tower-util"
+  ]
+}

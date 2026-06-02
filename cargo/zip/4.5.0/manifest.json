@@ -1,0 +1,112 @@
+{
+  "name": "zip",
+  "version": "4.5.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "8835eb39822904d39cb19465de1159e05d371973f0c6df3a365ad50565ddc8b9",
+  "features": {
+    "_all-features": [],
+    "_deflate-any": [],
+    "aes-crypto": [
+      "dep:aes",
+      "dep:constant_time_eq",
+      "hmac",
+      "pbkdf2",
+      "sha1",
+      "getrandom",
+      "zeroize"
+    ],
+    "chrono": [
+      "dep:chrono"
+    ],
+    "default": [
+      "aes-crypto",
+      "bzip2",
+      "deflate64",
+      "deflate",
+      "lzma-static",
+      "ppmd",
+      "time",
+      "zstd",
+      "xz"
+    ],
+    "deflate": [
+      "deflate-zopfli",
+      "deflate-flate2-zlib-rs"
+    ],
+    "deflate-flate2": [
+      "_deflate-any",
+      "dep:flate2"
+    ],
+    "deflate-flate2-zlib": [
+      "deflate-flate2",
+      "flate2/zlib"
+    ],
+    "deflate-flate2-zlib-rs": [
+      "deflate-flate2",
+      "flate2/zlib-rs"
+    ],
+    "deflate-zopfli": [
+      "dep:zopfli",
+      "_deflate-any"
+    ],
+    "jiff-02": [
+      "dep:jiff"
+    ],
+    "lzma": [
+      "dep:liblzma"
+    ],
+    "lzma-static": [
+      "lzma",
+      "liblzma/static"
+    ],
+    "nt-time": [
+      "dep:nt-time"
+    ],
+    "ppmd": [
+      "dep:ppmd-rust"
+    ],
+    "unreserved": [],
+    "xz": [
+      "dep:liblzma"
+    ],
+    "xz-static": [
+      "xz",
+      "liblzma/static"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2025-08-21T22:39:31.420248Z",
+  "dependencies": [
+    "anyhow",
+    "arbitrary",
+    "bencher",
+    "clap",
+    "crc32fast",
+    "getrandom",
+    "indexmap",
+    "memchr",
+    "tempfile",
+    "time",
+    "walkdir",
+    "aes",
+    "bzip2",
+    "chrono",
+    "constant_time_eq",
+    "deflate64",
+    "flate2",
+    "getrandom",
+    "hmac",
+    "jiff",
+    "liblzma",
+    "nt-time",
+    "pbkdf2",
+    "ppmd-rust",
+    "sha1",
+    "time",
+    "zeroize",
+    "zopfli",
+    "zstd"
+  ]
+}

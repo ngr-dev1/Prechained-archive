@@ -1,0 +1,76 @@
+{
+  "name": "dioxus",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "211de31ad8099f594b35d2c78b4a235f8275016ca9b5c05c884ff56f91183986",
+  "features": {
+    "ayatana": [
+      "dioxus-desktop/ayatana"
+    ],
+    "default": [
+      "macro",
+      "hooks",
+      "html"
+    ],
+    "desktop": [
+      "dioxus-desktop"
+    ],
+    "hooks": [
+      "dioxus-hooks"
+    ],
+    "html": [
+      "dioxus-html"
+    ],
+    "macro": [
+      "dioxus-core-macro"
+    ],
+    "router": [
+      "dioxus-router"
+    ],
+    "ssr": [
+      "dioxus-ssr"
+    ],
+    "tui": [
+      "dioxus-tui"
+    ],
+    "web": [
+      "dioxus-web",
+      "dioxus-router/web"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 55668,
+    "login": "jkelleyrtp"
+  },
+  "publishedAt": "2022-03-09T19:23:45.534482Z",
+  "dependencies": [
+    "anyhow",
+    "criterion",
+    "dioxus-core",
+    "env_logger",
+    "fern",
+    "futures-util",
+    "im-rc",
+    "log",
+    "num-format",
+    "rand",
+    "reqwest",
+    "separator",
+    "serde",
+    "serde_json",
+    "thiserror",
+    "tokio",
+    "dioxus-core-macro",
+    "dioxus-desktop",
+    "dioxus-hooks",
+    "dioxus-html",
+    "dioxus-interpreter-js",
+    "dioxus-router",
+    "dioxus-ssr",
+    "dioxus-tui",
+    "dioxus-web",
+    "fermi"
+  ]
+}

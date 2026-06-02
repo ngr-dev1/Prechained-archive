@@ -1,0 +1,84 @@
+{
+  "name": "sqlx-mysql",
+  "version": "0.9.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "90b8020fe17c5f2c245bfa2505d7ef59c5604839527c740266ad2214acebea27",
+  "features": {
+    "any": [
+      "sqlx-core/any"
+    ],
+    "bigdecimal": [
+      "dep:bigdecimal",
+      "sqlx-core/bigdecimal"
+    ],
+    "chrono": [
+      "dep:chrono",
+      "sqlx-core/chrono"
+    ],
+    "default": [],
+    "json": [
+      "sqlx-core/json",
+      "serde"
+    ],
+    "migrate": [
+      "sqlx-core/migrate",
+      "dep:crc"
+    ],
+    "offline": [
+      "sqlx-core/offline",
+      "serde/derive",
+      "bitflags/serde"
+    ],
+    "rsa": [
+      "dep:rand",
+      "dep:rsa"
+    ],
+    "rust_decimal": [
+      "dep:rust_decimal",
+      "rust_decimal/maths",
+      "sqlx-core/rust_decimal"
+    ],
+    "time": [
+      "dep:time",
+      "sqlx-core/time"
+    ],
+    "uuid": [
+      "dep:uuid",
+      "sqlx-core/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 127,
+    "login": "abonander"
+  },
+  "publishedAt": "2026-05-21T17:33:45.946246Z",
+  "dependencies": [
+    "bitflags",
+    "byteorder",
+    "bytes",
+    "digest",
+    "dotenvy",
+    "either",
+    "futures-core",
+    "futures-util",
+    "generic-array",
+    "log",
+    "percent-encoding",
+    "sha1",
+    "sha2",
+    "sqlx-core",
+    "thiserror",
+    "tracing",
+    "bigdecimal",
+    "chrono",
+    "crc",
+    "rand",
+    "rsa",
+    "rust_decimal",
+    "serde",
+    "time",
+    "uuid"
+  ]
+}

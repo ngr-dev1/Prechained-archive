@@ -1,0 +1,40 @@
+{
+  "name": "rocket",
+  "version": "0.4.1",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "55b83fcf219c8b4980220231d5dd9eae167bdc63449fdab0a04b6c8b8cd361a8",
+  "features": {
+    "default": [
+      "private-cookies"
+    ],
+    "private-cookies": [
+      "rocket_http/private-cookies"
+    ],
+    "tls": [
+      "rocket_http/tls"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3864,
+    "login": "SergioBenitez"
+  },
+  "publishedAt": "2019-05-12T00:02:30.232820Z",
+  "dependencies": [
+    "atty",
+    "base64",
+    "log",
+    "memchr",
+    "num_cpus",
+    "pear",
+    "rocket_codegen",
+    "rocket_http",
+    "state",
+    "time",
+    "toml",
+    "version_check",
+    "yansi",
+    "yansi"
+  ]
+}

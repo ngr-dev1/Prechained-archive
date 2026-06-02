@@ -1,0 +1,63 @@
+{
+  "name": "leptos",
+  "version": "0.0.17",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "8c2f1e59f202835e5039fb4dd6b1a6ec23f3ddae6f49dd0e47c3835300f22628",
+  "features": {
+    "csr": [
+      "leptos_core/csr",
+      "leptos_dom/csr",
+      "leptos_macro/csr",
+      "leptos_reactive/csr",
+      "leptos_server/csr"
+    ],
+    "default": [
+      "csr",
+      "serde"
+    ],
+    "hydrate": [
+      "leptos_core/hydrate",
+      "leptos_dom/hydrate",
+      "leptos_macro/hydrate",
+      "leptos_reactive/hydrate",
+      "leptos_server/hydrate"
+    ],
+    "miniserde": [
+      "leptos_reactive/miniserde"
+    ],
+    "serde": [
+      "leptos_reactive/serde"
+    ],
+    "serde-lite": [
+      "leptos_reactive/serde-lite"
+    ],
+    "ssr": [
+      "leptos_core/ssr",
+      "leptos_dom/ssr",
+      "leptos_macro/ssr",
+      "leptos_reactive/ssr",
+      "leptos_server/ssr"
+    ],
+    "stable": [
+      "leptos_core/stable",
+      "leptos_dom/stable",
+      "leptos_macro/stable",
+      "leptos_reactive/stable",
+      "leptos_server/stable"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 130155,
+    "login": "gbj"
+  },
+  "publishedAt": "2022-11-18T20:39:09.674371Z",
+  "dependencies": [
+    "leptos_core",
+    "leptos_dom",
+    "leptos_macro",
+    "leptos_reactive",
+    "leptos_server"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "futures-core",
+  "version": "0.2.0-beta",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "90a83c1b1c895acbb7165f0057f6772523ca6df210730f74955c27449b5411cc",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "nightly": [
+      "pin-api/nightly"
+    ],
+    "std": [
+      "either/use_std",
+      "pin-api/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-03-20T22:51:29.677242Z",
+  "dependencies": [
+    "pin-api",
+    "either"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "cc",
+  "version": "1.1.36",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "baee610e9452a8f6f0a1b6194ec09ff9e2d85dea54432acdae41aa0761c95d70",
+  "features": {
+    "jobserver": [],
+    "parallel": [
+      "dep:libc",
+      "dep:jobserver"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 55123,
+    "login": "rust-lang-owner"
+  },
+  "publishedAt": "2024-11-05T21:33:24.798468Z",
+  "dependencies": [
+    "shlex",
+    "tempfile",
+    "jobserver",
+    "libc"
+  ]
+}

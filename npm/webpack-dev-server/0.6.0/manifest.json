@@ -1,0 +1,43 @@
+{
+  "name": "webpack-dev-server",
+  "version": "0.6.0",
+  "ecosystem": "npm",
+  "description": "Serves a webpack app. Updates the browser on changes.",
+  "license": "MIT",
+  "dependencies": {
+    "express": "3.0.x",
+    "webpack": "0.6.x",
+    "optimist": "0.3.x",
+    "socket.io": "0.9.x",
+    "stream-cache": "0.0.x",
+    "webpack-dev-middleware": "0.6.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "node node_modules/webpack/bin/webpack client/live.js client/live.bundle.js --colors",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "sokra",
+      "email": "tobias.koppers@googlemail.com"
+    }
+  ],
+  "author": {
+    "name": "Tobias Koppers @sokra"
+  },
+  "publishedAt": "2012-09-18T15:45:16.603Z",
+  "dist": {
+    "integrity": "sha512-JVNlDvea4zrn+LqlVMurCtV6BbhGsIgDnaGBDXIUC0GNLcYONW9LNypPu1Pz3moVIM+RgS4GtgqSUVUAHOIYQA==",
+    "shasum": "857e51f0aa42248e8d9d68901768960c48955544",
+    "tarball": "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-0.6.0.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "sokra",
+    "email": "tobias.koppers@googlemail.com"
+  }
+}

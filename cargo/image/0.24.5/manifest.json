@@ -1,0 +1,95 @@
+{
+  "name": "image",
+  "version": "0.24.5",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "69b7ea949b537b0fd0af141fff8c77690f2ce96f4f41f042ccb6c69c6c965945",
+  "features": {
+    "avif": [
+      "avif-encoder"
+    ],
+    "avif-decoder": [
+      "mp4parse",
+      "dcv-color-primitives",
+      "dav1d"
+    ],
+    "avif-encoder": [
+      "ravif",
+      "rgb"
+    ],
+    "benchmarks": [],
+    "bmp": [],
+    "dds": [
+      "dxt"
+    ],
+    "default": [
+      "gif",
+      "jpeg",
+      "ico",
+      "png",
+      "pnm",
+      "tga",
+      "tiff",
+      "webp",
+      "bmp",
+      "hdr",
+      "dxt",
+      "dds",
+      "farbfeld",
+      "jpeg_rayon",
+      "openexr"
+    ],
+    "dxt": [],
+    "farbfeld": [],
+    "hdr": [
+      "scoped_threadpool"
+    ],
+    "ico": [
+      "bmp",
+      "png"
+    ],
+    "jpeg_rayon": [
+      "jpeg/rayon"
+    ],
+    "openexr": [
+      "exr"
+    ],
+    "pnm": [],
+    "tga": [],
+    "webp": [],
+    "webp-encoder": [
+      "libwebp"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 11453,
+    "login": "HeroicKatora"
+  },
+  "publishedAt": "2022-11-11T19:40:06.849026Z",
+  "dependencies": [
+    "bytemuck",
+    "byteorder",
+    "color_quant",
+    "crc32fast",
+    "criterion",
+    "glob",
+    "jpeg-decoder",
+    "num-complex",
+    "num-rational",
+    "num-traits",
+    "quickcheck",
+    "dav1d",
+    "dcv-color-primitives",
+    "exr",
+    "gif",
+    "jpeg-decoder",
+    "mp4parse",
+    "png",
+    "ravif",
+    "rgb",
+    "scoped_threadpool",
+    "tiff",
+    "webp"
+  ]
+}

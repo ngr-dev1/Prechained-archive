@@ -1,0 +1,67 @@
+{
+  "name": "hifitime",
+  "version": "4.2.1",
+  "ecosystem": "cargo",
+  "license": "MPL-2.0",
+  "checksum": "8ca4780c17998a6d7089dac984f76aa860324dbf7451f11cf915d7f199846bec",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "lts": [
+      "std",
+      "ureq",
+      "openssl",
+      "ut1"
+    ],
+    "python": [
+      "std",
+      "pyo3/extension-module",
+      "ut1",
+      "lts"
+    ],
+    "std": [
+      "serde",
+      "serde_derive",
+      "web-time",
+      "snafu/std",
+      "snafu/backtrace"
+    ],
+    "ut1": [
+      "std",
+      "ureq",
+      "tabled",
+      "openssl"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 13962,
+    "login": "ChristopherRabotin"
+  },
+  "publishedAt": "2025-10-01T17:18:00.759531Z",
+  "dependencies": [
+    "criterion",
+    "iai",
+    "js-sys",
+    "js-sys",
+    "js-sys",
+    "lexical-core",
+    "num-traits",
+    "serde_json",
+    "snafu",
+    "wasm-bindgen",
+    "wasm-bindgen",
+    "wasm-bindgen",
+    "web-sys",
+    "web-sys",
+    "web-sys",
+    "openssl",
+    "pyo3",
+    "serde",
+    "serde_derive",
+    "tabled",
+    "ureq",
+    "web-time"
+  ]
+}

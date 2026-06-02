@@ -1,0 +1,70 @@
+{
+  "name": "p256",
+  "version": "0.7.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "80ed4d2ed5431a58ac484ec62e9e9ff7611a92a3cc073e9e3e5c4b063d7f12cc",
+  "features": {
+    "arithmetic": [
+      "elliptic-curve/arithmetic"
+    ],
+    "default": [
+      "arithmetic",
+      "pkcs8",
+      "std"
+    ],
+    "digest": [
+      "elliptic-curve/digest",
+      "ecdsa-core/digest"
+    ],
+    "ecdh": [
+      "elliptic-curve/ecdh",
+      "zeroize"
+    ],
+    "ecdsa": [
+      "arithmetic",
+      "ecdsa-core/sign",
+      "ecdsa-core/verify",
+      "sha256",
+      "zeroize"
+    ],
+    "pem": [
+      "elliptic-curve/pem",
+      "pkcs8"
+    ],
+    "pkcs8": [
+      "elliptic-curve/pkcs8",
+      "zeroize"
+    ],
+    "sha256": [
+      "digest",
+      "ecdsa-core/hazmat",
+      "sha2"
+    ],
+    "std": [
+      "elliptic-curve/std"
+    ],
+    "test-vectors": [
+      "hex-literal"
+    ],
+    "zeroize": [
+      "elliptic-curve/zeroize"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2020-12-17T05:17:15.439658Z",
+  "dependencies": [
+    "ecdsa",
+    "elliptic-curve",
+    "hex-literal",
+    "proptest",
+    "rand_core",
+    "ecdsa",
+    "hex-literal",
+    "sha2"
+  ]
+}

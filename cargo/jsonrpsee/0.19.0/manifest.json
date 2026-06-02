@@ -1,0 +1,93 @@
+{
+  "name": "jsonrpsee",
+  "version": "0.19.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "e5f3783308bddc49d0218307f66a09330c106fbd792c58bac5c8dc294fdd0f98",
+  "features": {
+    "async-client": [
+      "jsonrpsee-core/async-client"
+    ],
+    "async-wasm-client": [
+      "jsonrpsee-core/async-wasm-client"
+    ],
+    "client": [
+      "http-client",
+      "ws-client",
+      "wasm-client",
+      "client-ws-transport-native-tls",
+      "client-ws-transport-webpki-tls",
+      "client-web-transport",
+      "async-client",
+      "async-wasm-client",
+      "client-core"
+    ],
+    "client-core": [
+      "jsonrpsee-core/client"
+    ],
+    "client-web-transport": [
+      "jsonrpsee-client-transport/web"
+    ],
+    "client-ws-transport-native-tls": [
+      "jsonrpsee-client-transport/ws",
+      "jsonrpsee-client-transport/native-tls"
+    ],
+    "client-ws-transport-no-tls": [
+      "jsonrpsee-client-transport/ws"
+    ],
+    "client-ws-transport-webpki-tls": [
+      "jsonrpsee-client-transport/ws",
+      "jsonrpsee-client-transport/webpki-tls"
+    ],
+    "full": [
+      "client",
+      "server",
+      "macros"
+    ],
+    "http-client": [
+      "jsonrpsee-http-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core/client"
+    ],
+    "macros": [
+      "jsonrpsee-proc-macros",
+      "jsonrpsee-types",
+      "tracing"
+    ],
+    "server": [
+      "jsonrpsee-server",
+      "server-core",
+      "jsonrpsee-types"
+    ],
+    "server-core": [
+      "jsonrpsee-core/server"
+    ],
+    "wasm-client": [
+      "jsonrpsee-wasm-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core/client"
+    ],
+    "ws-client": [
+      "jsonrpsee-ws-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core/client"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 148081,
+    "login": "lexnv"
+  },
+  "publishedAt": "2023-07-24T10:42:59.732554Z",
+  "dependencies": [
+    "jsonrpsee-client-transport",
+    "jsonrpsee-core",
+    "jsonrpsee-http-client",
+    "jsonrpsee-proc-macros",
+    "jsonrpsee-server",
+    "jsonrpsee-types",
+    "jsonrpsee-wasm-client",
+    "jsonrpsee-ws-client",
+    "tracing"
+  ]
+}

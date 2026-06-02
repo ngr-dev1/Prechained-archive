@@ -1,0 +1,51 @@
+{
+  "name": "sqlite3",
+  "version": "2.1.1",
+  "ecosystem": "npm",
+  "description": "Asynchronous, non-blocking SQLite3 bindings",
+  "dependencies": {},
+  "devDependencies": {
+    "step": "0.0.4"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": "node-waf clean || true; node-waf configure build",
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "kkaefer",
+      "email": "kkaefer@gmail.com"
+    },
+    {
+      "name": "yhahn",
+      "email": "young@developmentseed.org"
+    },
+    {
+      "name": "tmcw",
+      "email": "macwright@gmail.com"
+    },
+    {
+      "name": "springmeyer",
+      "email": "dane@dbsgeo.com"
+    }
+  ],
+  "author": {
+    "url": "http://developmentseed.org/",
+    "name": "Development Seed",
+    "email": "info@developmentseed.org"
+  },
+  "publishedAt": "2011-11-08T13:30:32.202Z",
+  "dist": {
+    "integrity": "sha512-3fsL4ZW2601Q7p4M1eBXYrmcrnJ15QLNcfqbB/4fB6oDbY0VsHcMKBTqILycikof4ctx2dX28nzH2qi3R997mA==",
+    "shasum": "31cb74d383ac165cdf78a36b6e9bba3655d95d87",
+    "tarball": "https://registry.npmjs.org/sqlite3/-/sqlite3-2.1.1.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "kkaefer",
+    "email": "kkaefer@gmail.com"
+  }
+}

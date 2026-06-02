@@ -1,0 +1,142 @@
+{
+  "name": "poem",
+  "version": "1.2.27",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "e0521e54164887bd0390ebdb8c8d953fd2228c08a7b12097fc2832b3676bad01",
+  "features": {
+    "compression": [
+      "async-compression",
+      "typed-headers"
+    ],
+    "cookie": [
+      "libcookie",
+      "chrono",
+      "time"
+    ],
+    "csrf": [
+      "cookie",
+      "base64",
+      "libcsrf"
+    ],
+    "default": [],
+    "i18n": [
+      "fluent",
+      "fluent-langneg",
+      "fluent-syntax",
+      "unic-langid",
+      "intl-memoizer"
+    ],
+    "multipart": [
+      "multer"
+    ],
+    "native-tls": [
+      "tokio-native-tls"
+    ],
+    "opentelemetry": [
+      "libopentelemetry",
+      "opentelemetry-http",
+      "opentelemetry-semantic-conventions"
+    ],
+    "prometheus": [
+      "libopentelemetry",
+      "opentelemetry-prometheus",
+      "libprometheus"
+    ],
+    "redis-session": [
+      "session",
+      "redis"
+    ],
+    "rustls": [
+      "tokio-rustls"
+    ],
+    "session": [
+      "cookie",
+      "rand",
+      "priority-queue"
+    ],
+    "sse": [],
+    "static-files": [
+      "httpdate"
+    ],
+    "tempfile": [
+      "libtempfile"
+    ],
+    "test": [
+      "sse",
+      "sse-codec",
+      "tokio-util/compat"
+    ],
+    "tower-compat": [
+      "tower"
+    ],
+    "websocket": [
+      "tokio-tungstenite",
+      "sha1",
+      "base64"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66052,
+    "login": "sunli829"
+  },
+  "publishedAt": "2022-01-08T01:17:08.965649Z",
+  "dependencies": [
+    "async-stream",
+    "async-trait",
+    "bytes",
+    "futures-util",
+    "headers",
+    "http",
+    "hyper",
+    "mime",
+    "mime_guess",
+    "parking_lot",
+    "percent-encoding",
+    "pin-project-lite",
+    "poem-derive",
+    "regex",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "smallvec",
+    "thiserror",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tracing",
+    "webpki",
+    "anyhow",
+    "async-compression",
+    "base64",
+    "chrono",
+    "cookie",
+    "csrf",
+    "fluent",
+    "fluent-langneg",
+    "fluent-syntax",
+    "httpdate",
+    "intl-memoizer",
+    "multer",
+    "opentelemetry",
+    "opentelemetry-http",
+    "opentelemetry-prometheus",
+    "opentelemetry-semantic-conventions",
+    "priority-queue",
+    "prometheus",
+    "rand",
+    "redis",
+    "sha1",
+    "sse-codec",
+    "tempfile",
+    "time",
+    "tokio-native-tls",
+    "tokio-rustls",
+    "tokio-tungstenite",
+    "tower",
+    "typed-headers",
+    "unic-langid"
+  ]
+}

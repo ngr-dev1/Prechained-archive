@@ -1,0 +1,42 @@
+{
+  "name": "Microsoft.Data.SqlClient",
+  "version": "1.1.0",
+  "ecosystem": "nuget",
+  "description": "Provides the data provider for SQL Server. These classes provide access to versions of SQL Server and encapsulate database-specific protocols, including tabular data stream (TDS)\n\nCommonly Used Types:\nMicrosoft.Data.SqlClient.SqlConnection\nMicrosoft.Data.SqlClient.SqlException\nMicrosoft.Data.SqlClient.SqlParameter\nMicrosoft.Data.SqlClient.SqlDataReader\nMicrosoft.Data.SqlClient.SqlCommand\nMicrosoft.Data.SqlClient.SqlTransaction\nMicrosoft.Data.SqlClient.SqlParameterCollection\nMicrosoft.Data.SqlClient.SqlClientFactory\n\nWhen running on Windows, this library has a dependency on Microsoft.Data.SqlClient.SNI on .NET Framework and runtime.native.System.Data.SqlClient.sni on .NET Core, which requires the Microsoft Visual C++ Redistributable to be installed:\nhttps://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads\n\nWhen using NuGet 3.x this package requires at least version 3.4.",
+  "licenseExpression": "MIT",
+  "authors": "Microsoft",
+  "tags": [
+    "sqlclient",
+    "microsoft.data.sqlclient"
+  ],
+  "repositoryUrl": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    "System.Data.Common",
+    "Microsoft.Data.SqlClient.sni",
+    "Microsoft.Identity.Client",
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+    "Microsoft.IdentityModel.JsonWebTokens",
+    "Microsoft.Win32.Registry",
+    "runtime.native.System.Data.SqlClient.sni",
+    "System.Security.Principal.Windows",
+    "System.Text.Encoding.CodePages",
+    "System.Configuration.ConfigurationManager",
+    "System.Runtime.Caching",
+    "Microsoft.Identity.Client",
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+    "Microsoft.IdentityModel.JsonWebTokens",
+    "Microsoft.Win32.Registry",
+    "runtime.native.System.Data.SqlClient.sni",
+    "System.Buffers",
+    "System.Diagnostics.DiagnosticSource",
+    "System.Memory",
+    "System.Security.Principal.Windows",
+    "System.Text.Encoding.CodePages",
+    "System.Configuration.ConfigurationManager",
+    "Microsoft.Identity.Client"
+  ],
+  "publishedAt": "2019-11-20T22:39:54.187+00:00",
+  "listed": true,
+  "packageHash": null
+}

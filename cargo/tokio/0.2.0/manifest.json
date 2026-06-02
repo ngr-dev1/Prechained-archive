@@ -1,0 +1,127 @@
+{
+  "name": "tokio",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "b5f74af90f3137ddcda0750d904390b289793c40fce7b6e94600b367533205d8",
+  "features": {
+    "blocking": [
+      "rt-core"
+    ],
+    "default": [],
+    "dns": [
+      "rt-core"
+    ],
+    "fs": [
+      "rt-core"
+    ],
+    "full": [
+      "blocking",
+      "dns",
+      "fs",
+      "io-driver",
+      "io-util",
+      "io-std",
+      "macros",
+      "net",
+      "process",
+      "rt-core",
+      "rt-threaded",
+      "signal",
+      "stream",
+      "sync",
+      "time"
+    ],
+    "io-driver": [
+      "mio",
+      "lazy_static"
+    ],
+    "io-std": [
+      "rt-core"
+    ],
+    "io-util": [
+      "memchr"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "dns",
+      "tcp",
+      "udp",
+      "uds"
+    ],
+    "process": [
+      "io-driver",
+      "libc",
+      "mio-named-pipes",
+      "signal",
+      "winapi/consoleapi",
+      "winapi/minwindef",
+      "winapi/threadpoollegacyapiset",
+      "winapi/winerror"
+    ],
+    "rt-core": [],
+    "rt-threaded": [
+      "num_cpus",
+      "rt-core"
+    ],
+    "signal": [
+      "io-driver",
+      "lazy_static",
+      "libc",
+      "mio-uds",
+      "signal-hook-registry",
+      "winapi/consoleapi",
+      "winapi/minwindef"
+    ],
+    "stream": [
+      "futures-core"
+    ],
+    "sync": [
+      "fnv"
+    ],
+    "tcp": [
+      "io-driver"
+    ],
+    "test-util": [],
+    "time": [
+      "slab"
+    ],
+    "udp": [
+      "io-driver"
+    ],
+    "uds": [
+      "io-driver",
+      "mio-uds",
+      "libc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 10,
+    "login": "carllerche"
+  },
+  "publishedAt": "2019-11-26T17:21:53.520103Z",
+  "dependencies": [
+    "bytes",
+    "futures",
+    "loom",
+    "pin-project-lite",
+    "proptest",
+    "tempfile",
+    "fnv",
+    "futures-core",
+    "lazy_static",
+    "libc",
+    "memchr",
+    "mio",
+    "mio-named-pipes",
+    "mio-uds",
+    "num_cpus",
+    "signal-hook-registry",
+    "slab",
+    "tokio-macros",
+    "winapi"
+  ]
+}

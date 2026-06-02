@@ -1,0 +1,35 @@
+{
+  "name": "smallvec",
+  "version": "1.13.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67",
+  "features": {
+    "const_generics": [],
+    "const_new": [
+      "const_generics"
+    ],
+    "debugger_visualizer": [],
+    "drain_filter": [],
+    "drain_keep_rest": [
+      "drain_filter"
+    ],
+    "may_dangle": [],
+    "specialization": [],
+    "union": [],
+    "write": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2017,
+    "login": "mbrubeck"
+  },
+  "publishedAt": "2024-03-20T20:32:49.777322Z",
+  "dependencies": [
+    "bincode",
+    "debugger_test",
+    "debugger_test_parser",
+    "arbitrary",
+    "serde"
+  ]
+}

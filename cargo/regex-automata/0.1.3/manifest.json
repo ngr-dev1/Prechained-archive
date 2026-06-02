@@ -1,0 +1,30 @@
+{
+  "name": "regex-automata",
+  "version": "0.1.3",
+  "ecosystem": "cargo",
+  "license": "Unlicense/MIT",
+  "checksum": "75d96d5e784d59ba9aea5173651d0877260805145ebac65ab19585312976a76a",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": [
+      "regex-syntax",
+      "utf8-ranges"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2019-01-06T16:15:18.478015Z",
+  "dependencies": [
+    "byteorder",
+    "lazy_static",
+    "regex",
+    "serde",
+    "serde_bytes",
+    "serde_derive",
+    "toml",
+    "regex-syntax",
+    "utf8-ranges"
+  ]
+}

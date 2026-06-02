@@ -1,0 +1,21 @@
+{
+  "name": "Flurl",
+  "version": "0.1.0",
+  "ecosystem": "nuget",
+  "description": "A fluent URL builder. Example:\n\nvar url = \"http://www.some-api.com\"\n\t.AppendPathSegment(\"endpoint\")\n\t.SetQueryParams(new {\n\t\tapi_key = ConfigurationManager.AppSettings[\"SomeApiKey\"],\n\t\tmax_results = 20,\n\t\tq = \"Don't worry, I'll get encoded!\"\n\t});",
+  "licenseExpression": null,
+  "authors": "Todd Menier",
+  "tags": [
+    "fluent",
+    "url",
+    "uri",
+    "querystring",
+    "builder"
+  ],
+  "repositoryUrl": null,
+  "repositoryCommit": null,
+  "dependencies": [],
+  "publishedAt": "2014-02-21T04:40:15.483+00:00",
+  "listed": true,
+  "packageHash": null
+}

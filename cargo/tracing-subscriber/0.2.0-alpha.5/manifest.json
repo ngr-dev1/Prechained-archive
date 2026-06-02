@@ -1,0 +1,63 @@
+{
+  "name": "tracing-subscriber",
+  "version": "0.2.0-alpha.5",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "4055f329d81a5948a02fb203bc51ab3579541cdca746631b0a3a8a7204d9ec96",
+  "features": {
+    "ansi": [
+      "fmt",
+      "ansi_term"
+    ],
+    "default": [
+      "env-filter",
+      "smallvec",
+      "fmt",
+      "ansi",
+      "chrono",
+      "tracing-log",
+      "json"
+    ],
+    "env-filter": [
+      "matchers",
+      "regex",
+      "lazy_static"
+    ],
+    "fmt": [
+      "registry"
+    ],
+    "json": [
+      "tracing-serde",
+      "serde",
+      "serde_json"
+    ],
+    "registry": [
+      "sharded-slab"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5671,
+    "login": "davidbarsky"
+  },
+  "publishedAt": "2020-01-31T23:12:45.618398Z",
+  "dependencies": [
+    "criterion",
+    "log",
+    "tracing",
+    "tracing-core",
+    "tracing-log",
+    "ansi_term",
+    "chrono",
+    "lazy_static",
+    "matchers",
+    "parking_lot",
+    "regex",
+    "serde",
+    "serde_json",
+    "sharded-slab",
+    "smallvec",
+    "tracing-log",
+    "tracing-serde"
+  ]
+}

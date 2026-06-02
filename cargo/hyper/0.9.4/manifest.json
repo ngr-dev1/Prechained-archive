@@ -1,0 +1,45 @@
+{
+  "name": "hyper",
+  "version": "0.9.4",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "1de4c43f31e70d9b944de88fc2f66854e6b33d296948dcf0e6b039a7f4507651",
+  "features": {
+    "default": [
+      "ssl"
+    ],
+    "nightly": [],
+    "serde-serialization": [
+      "serde",
+      "mime/serde"
+    ],
+    "ssl": [
+      "openssl",
+      "openssl-verify",
+      "cookie/secure"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-05-09T22:32:27.496119Z",
+  "dependencies": [
+    "cookie",
+    "env_logger",
+    "httparse",
+    "language-tags",
+    "log",
+    "mime",
+    "num_cpus",
+    "rustc-serialize",
+    "solicit",
+    "time",
+    "traitobject",
+    "typeable",
+    "unicase",
+    "url",
+    "openssl",
+    "openssl-verify",
+    "security-framework",
+    "serde"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "nom",
+  "version": "4.1.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "9c349f68f25f596b9f44cf0e7c69752a5c633b0550c3ff849518bfba0233774a",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "regexp": [
+      "regex"
+    ],
+    "regexp_macros": [
+      "regexp",
+      "lazy_static"
+    ],
+    "std": [
+      "alloc",
+      "memchr/use_std"
+    ],
+    "verbose-errors": [
+      "alloc"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-10-14T14:10:46.286895Z",
+  "dependencies": [
+    "memchr",
+    "lazy_static",
+    "regex"
+  ]
+}

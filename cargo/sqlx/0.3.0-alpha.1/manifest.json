@@ -1,0 +1,65 @@
+{
+  "name": "sqlx",
+  "version": "0.3.0-alpha.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "282229cac488d05c391e8f23b35014ce3c8ea1e95e2e8d2b7fb41cffab03d7d4",
+  "features": {
+    "chrono": [
+      "sqlx-core/chrono",
+      "sqlx-macros/chrono"
+    ],
+    "default": [
+      "macros",
+      "runtime-async-std"
+    ],
+    "macros": [
+      "sqlx-macros"
+    ],
+    "mysql": [
+      "sqlx-core/mysql",
+      "sqlx-macros/mysql"
+    ],
+    "postgres": [
+      "sqlx-core/postgres",
+      "sqlx-macros/postgres"
+    ],
+    "runtime-async-std": [
+      "sqlx-core/runtime-async-std",
+      "sqlx-macros/runtime-async-std"
+    ],
+    "runtime-tokio": [
+      "sqlx-core/runtime-tokio",
+      "sqlx-macros/runtime-tokio"
+    ],
+    "sqlite": [
+      "sqlx-core/sqlite",
+      "sqlx-macros/sqlite"
+    ],
+    "tls": [
+      "sqlx-core/tls"
+    ],
+    "uuid": [
+      "sqlx-core/uuid",
+      "sqlx-macros/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5691,
+    "login": "mehcode"
+  },
+  "publishedAt": "2020-03-19T00:01:29.965865Z",
+  "dependencies": [
+    "anyhow",
+    "async-std",
+    "dotenv",
+    "env_logger",
+    "futures",
+    "paste",
+    "sqlx-core",
+    "tokio",
+    "trybuild",
+    "sqlx-macros"
+  ]
+}

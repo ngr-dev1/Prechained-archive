@@ -1,0 +1,65 @@
+{
+  "name": "zstd",
+  "version": "0.12.4",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "1a27595e173641171fc74a1232b7b1c7a7cb6e18222c11e9dfb9888fa424c53c",
+  "features": {
+    "arrays": [
+      "zstd-safe/arrays"
+    ],
+    "bindgen": [
+      "zstd-safe/bindgen"
+    ],
+    "debug": [
+      "zstd-safe/debug"
+    ],
+    "default": [
+      "legacy",
+      "arrays",
+      "zdict_builder"
+    ],
+    "doc-cfg": [],
+    "experimental": [
+      "zstd-safe/experimental"
+    ],
+    "fat-lto": [
+      "zstd-safe/fat-lto"
+    ],
+    "legacy": [
+      "zstd-safe/legacy"
+    ],
+    "no_asm": [
+      "zstd-safe/no_asm"
+    ],
+    "pkg-config": [
+      "zstd-safe/pkg-config"
+    ],
+    "thin": [
+      "zstd-safe/thin"
+    ],
+    "thin-lto": [
+      "zstd-safe/thin-lto"
+    ],
+    "wasm": [],
+    "zdict_builder": [
+      "zstd-safe/zdict_builder"
+    ],
+    "zstdmt": [
+      "zstd-safe/zstdmt"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3203,
+    "login": "gyscos"
+  },
+  "publishedAt": "2023-07-19T13:44:36.967564Z",
+  "dependencies": [
+    "clap",
+    "humansize",
+    "partial-io",
+    "walkdir",
+    "zstd-safe"
+  ]
+}

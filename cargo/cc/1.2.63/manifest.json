@@ -1,0 +1,24 @@
+{
+  "name": "cc",
+  "version": "1.2.63",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "556e016178bb5662a08681bbe0f00f8e17631781a4dfc8c45e466e4b185ec27f",
+  "features": {
+    "jobserver": [],
+    "parallel": [
+      "dep:libc",
+      "dep:jobserver"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2026-05-29T08:54:00.586183Z",
+  "dependencies": [
+    "find-msvc-tools",
+    "shlex",
+    "tempfile",
+    "jobserver",
+    "libc"
+  ]
+}

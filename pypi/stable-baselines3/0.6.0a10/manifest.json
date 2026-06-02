@@ -1,0 +1,40 @@
+{
+  "name": "stable-baselines3",
+  "version": "0.6.0a10",
+  "ecosystem": "pypi",
+  "summary": "Pytorch version of Stable Baselines, implementations of reinforcement learning algorithms.",
+  "license": "MIT",
+  "author": "Antonin Raffin",
+  "author_email": "antonin.raffin@dlr.de",
+  "requires_python": "",
+  "requires_dist": [
+    "gym (>=0.17)",
+    "numpy",
+    "torch (>=1.4.0)",
+    "cloudpickle",
+    "pandas",
+    "matplotlib",
+    "sphinx ; extra == 'docs'",
+    "sphinx-autobuild ; extra == 'docs'",
+    "sphinx-rtd-theme ; extra == 'docs'",
+    "sphinxcontrib.spelling ; extra == 'docs'",
+    "opencv-python ; extra == 'extra'",
+    "atari-py (~=0.2.0) ; extra == 'extra'",
+    "pillow ; extra == 'extra'",
+    "pytest ; extra == 'tests'",
+    "pytest-cov ; extra == 'tests'",
+    "pytest-env ; extra == 'tests'",
+    "pytest-xdist ; extra == 'tests'",
+    "pytype ; extra == 'tests'",
+    "flake8 (>=3.8) ; extra == 'tests'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2020-05-24T14:49:59",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/50/d4/1771784efd5838cf1f37de530be438ff69fa57d85078ee407501ab6ecdae/stable_baselines3-0.6.0a10-py3-none-any.whl",
+    "sha256": "0f4e05f443609a7a5a1b997de5d22e15e09fb9e271ade7e0a474103280d222ff",
+    "size": 103211,
+    "filename": "stable_baselines3-0.6.0a10-py3-none-any.whl"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "name": "actix-web",
+  "version": "0.5.5",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "9aae48d2d7f27485dc9846aff2dafd91d5c3064c12d42fdfc070cbf129a77404",
+  "features": {
+    "alpn": [
+      "openssl",
+      "tokio-openssl"
+    ],
+    "brotli": [
+      "brotli2"
+    ],
+    "default": [
+      "session",
+      "brotli",
+      "flate2-c"
+    ],
+    "flate2-c": [
+      "flate2/miniz-sys"
+    ],
+    "flate2-rust": [
+      "flate2/rust_backend"
+    ],
+    "session": [
+      "cookie/secure"
+    ],
+    "tls": [
+      "native-tls",
+      "tokio-tls"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-04-24T16:53:55.044627Z",
+  "dependencies": [
+    "actix",
+    "base64",
+    "bitflags",
+    "byteorder",
+    "bytes",
+    "cookie",
+    "encoding",
+    "env_logger",
+    "failure",
+    "flate2",
+    "futures",
+    "futures-cpupool",
+    "h2",
+    "http",
+    "http-range",
+    "httparse",
+    "language-tags",
+    "lazy_static",
+    "libc",
+    "log",
+    "mime",
+    "mime_guess",
+    "mio",
+    "net2",
+    "num_cpus",
+    "percent-encoding",
+    "rand",
+    "regex",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_urlencoded",
+    "sha1",
+    "smallvec",
+    "time",
+    "tokio-core",
+    "tokio-io",
+    "url",
+    "version_check",
+    "brotli2",
+    "native-tls",
+    "openssl",
+    "tokio-openssl",
+    "tokio-tls"
+  ]
+}

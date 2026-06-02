@@ -1,0 +1,69 @@
+{
+  "name": "hyper",
+  "version": "0.13.0-alpha.4",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "2d05aa523087ac0b9d8b93dd80d5d482a697308ed3b0dca7b0667511a7fa7cdc",
+  "features": {
+    "__internal_flaky_tests": [],
+    "__internal_happy_eyeballs_tests": [],
+    "default": [
+      "__internal_flaky_tests",
+      "runtime"
+    ],
+    "nightly": [],
+    "runtime": [
+      "tcp",
+      "tokio"
+    ],
+    "tcp": [
+      "net2",
+      "tokio-executor/blocking",
+      "tokio-net",
+      "tokio-timer"
+    ],
+    "unstable-stream": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2019-10-01T18:45:51.763305Z",
+  "dependencies": [
+    "bytes",
+    "futures-channel-preview",
+    "futures-core-preview",
+    "futures-util-preview",
+    "h2",
+    "http",
+    "http-body",
+    "httparse",
+    "iovec",
+    "itoa",
+    "log",
+    "matches",
+    "num_cpus",
+    "pin-project",
+    "pretty_env_logger",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "spmc",
+    "time",
+    "tokio",
+    "tokio-executor",
+    "tokio-fs",
+    "tokio-io",
+    "tokio-sync",
+    "tokio-test",
+    "tower-make",
+    "tower-service",
+    "url",
+    "want",
+    "net2",
+    "tokio",
+    "tokio-net",
+    "tokio-timer"
+  ]
+}

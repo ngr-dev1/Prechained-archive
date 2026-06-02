@@ -1,0 +1,58 @@
+{
+  "name": "rand",
+  "version": "0.6.3",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "b65e163105a6284f841bd23100a015895f54340e88a5ffc9ca7b8b33827cfce0",
+  "features": {
+    "alloc": [
+      "rand_core/alloc"
+    ],
+    "default": [
+      "std",
+      "rand_os"
+    ],
+    "i128_support": [],
+    "nightly": [
+      "simd_support"
+    ],
+    "serde1": [
+      "rand_core/serde1",
+      "rand_isaac/serde1",
+      "rand_xorshift/serde1"
+    ],
+    "simd_support": [
+      "packed_simd"
+    ],
+    "std": [
+      "rand_core/std",
+      "alloc",
+      "rand_os"
+    ],
+    "stdweb": [
+      "rand_os/stdweb"
+    ],
+    "wasm-bindgen": [
+      "rand_os/wasm-bindgen"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2019-01-04T17:25:53.393514Z",
+  "dependencies": [
+    "autocfg",
+    "average",
+    "libc",
+    "rand_chacha",
+    "rand_core",
+    "rand_hc",
+    "rand_isaac",
+    "rand_pcg",
+    "rand_xorshift",
+    "rand_xoshiro",
+    "winapi",
+    "log",
+    "packed_simd",
+    "rand_os"
+  ]
+}

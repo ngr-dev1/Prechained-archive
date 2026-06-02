@@ -1,0 +1,31 @@
+{
+  "name": "getrandom",
+  "version": "0.1.10",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "6171a6cc63fbabbe27c2b5ee268e8b7fe5dc1eb0dd2dfad537c1dfed6f69117e",
+  "features": {
+    "dummy": [],
+    "rustc-dep-of-std": [
+      "compiler_builtins",
+      "core"
+    ],
+    "std": []
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 5059,
+    "login": "newpavlov"
+  },
+  "publishedAt": "2019-08-17T23:29:41.377985Z",
+  "dependencies": [
+    "cfg-if",
+    "libc",
+    "wasi",
+    "compiler_builtins",
+    "log",
+    "rustc-std-workspace-core",
+    "stdweb",
+    "wasm-bindgen"
+  ]
+}

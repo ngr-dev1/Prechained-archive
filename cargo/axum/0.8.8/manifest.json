@@ -1,0 +1,142 @@
+{
+  "name": "axum",
+  "version": "0.8.8",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "8b52af3cb4058c895d37317bb27508dccc8e5f2d39454016b297bf4a400597b8",
+  "features": {
+    "__private": [
+      "tokio",
+      "http1",
+      "dep:reqwest"
+    ],
+    "__private_docs": [
+      "axum-core/__private_docs",
+      "tower/full",
+      "dep:serde",
+      "dep:tower-http"
+    ],
+    "default": [
+      "form",
+      "http1",
+      "json",
+      "matched-path",
+      "original-uri",
+      "query",
+      "tokio",
+      "tower-log",
+      "tracing"
+    ],
+    "form": [
+      "dep:form_urlencoded",
+      "dep:serde_urlencoded",
+      "dep:serde_path_to_error"
+    ],
+    "http1": [
+      "dep:hyper",
+      "hyper?/http1",
+      "hyper-util?/http1"
+    ],
+    "http2": [
+      "dep:hyper",
+      "hyper?/http2",
+      "hyper-util?/http2"
+    ],
+    "json": [
+      "dep:serde_json",
+      "dep:serde_path_to_error"
+    ],
+    "macros": [
+      "dep:axum-macros"
+    ],
+    "matched-path": [],
+    "multipart": [
+      "dep:multer"
+    ],
+    "original-uri": [],
+    "query": [
+      "dep:form_urlencoded",
+      "dep:serde_urlencoded",
+      "dep:serde_path_to_error"
+    ],
+    "tokio": [
+      "dep:hyper-util",
+      "dep:tokio",
+      "tokio/net",
+      "tokio/rt",
+      "tower/make",
+      "tokio/macros"
+    ],
+    "tower-log": [
+      "tower/log"
+    ],
+    "tracing": [
+      "dep:tracing",
+      "axum-core/tracing"
+    ],
+    "ws": [
+      "dep:hyper",
+      "tokio",
+      "dep:tokio-tungstenite",
+      "dep:sha1",
+      "dep:base64"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6913,
+    "login": "jplatte"
+  },
+  "publishedAt": "2025-12-20T16:27:24.614743Z",
+  "dependencies": [
+    "anyhow",
+    "axum-core",
+    "bytes",
+    "futures-util",
+    "http",
+    "http-body",
+    "http-body-util",
+    "hyper",
+    "itoa",
+    "matchit",
+    "memchr",
+    "mime",
+    "percent-encoding",
+    "pin-project-lite",
+    "quickcheck",
+    "quickcheck_macros",
+    "reqwest",
+    "serde",
+    "serde_core",
+    "serde_json",
+    "sync_wrapper",
+    "time",
+    "tokio",
+    "tokio-stream",
+    "tokio-tungstenite",
+    "tower",
+    "tower",
+    "tower-http",
+    "tower-layer",
+    "tower-service",
+    "tracing",
+    "tracing-subscriber",
+    "uuid",
+    "axum-macros",
+    "base64",
+    "form_urlencoded",
+    "hyper",
+    "hyper-util",
+    "multer",
+    "reqwest",
+    "serde",
+    "serde_json",
+    "serde_path_to_error",
+    "serde_urlencoded",
+    "sha1",
+    "tokio",
+    "tokio-tungstenite",
+    "tower-http",
+    "tracing"
+  ]
+}

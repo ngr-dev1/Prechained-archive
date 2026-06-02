@@ -1,0 +1,55 @@
+{
+  "name": "phpunit/php-code-coverage",
+  "version": "9.2.32",
+  "ecosystem": "packagist",
+  "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.3",
+    "ext-dom": "*",
+    "ext-libxml": "*",
+    "ext-xmlwriter": "*",
+    "nikic/php-parser": "^4.19.1 || ^5.1.0",
+    "phpunit/php-file-iterator": "^3.0.6",
+    "phpunit/php-text-template": "^2.0.4",
+    "sebastian/code-unit-reverse-lookup": "^2.0.3",
+    "sebastian/complexity": "^2.0.3",
+    "sebastian/environment": "^5.1.5",
+    "sebastian/lines-of-code": "^1.0.4",
+    "sebastian/version": "^3.0.2",
+    "theseer/tokenizer": "^1.2.3"
+  },
+  "require_dev": {},
+  "dist": {
+    "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/85402a822d1ecf1db1096959413d35e1c37cf1a5",
+    "type": "zip",
+    "shasum": "",
+    "reference": "85402a822d1ecf1db1096959413d35e1c37cf1a5"
+  },
+  "source": {
+    "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+    "type": "git",
+    "reference": "85402a822d1ecf1db1096959413d35e1c37cf1a5"
+  },
+  "authors": [
+    {
+      "name": "Sebastian Bergmann",
+      "email": "sebastian@phpunit.de",
+      "role": "lead"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "sebastian",
+      "avatar_url": "https://www.gravatar.com/avatar/530b5fe1cf95b1bf700765b288676ddec76b73aee9cf8813a2bdbb2eb5abe067?d=identicon"
+    }
+  ],
+  "is_dev_branch": false,
+  "branch_alias": {
+    "dev-main": "9.2.x-dev"
+  },
+  "publishedAt": "2024-08-22T04:23:01+00:00"
+}

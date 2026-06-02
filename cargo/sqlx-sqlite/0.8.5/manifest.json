@@ -1,0 +1,76 @@
+{
+  "name": "sqlx-sqlite",
+  "version": "0.8.5",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "c26083e9a520e8eb87a06b12347679b142dc2ea29e6e409f805644a7a979a5bc",
+  "features": {
+    "any": [
+      "sqlx-core/any"
+    ],
+    "bundled": [
+      "libsqlite3-sys/bundled"
+    ],
+    "chrono": [
+      "dep:chrono",
+      "sqlx-core/chrono"
+    ],
+    "json": [
+      "sqlx-core/json",
+      "serde"
+    ],
+    "migrate": [
+      "sqlx-core/migrate"
+    ],
+    "offline": [
+      "sqlx-core/offline",
+      "serde"
+    ],
+    "preupdate-hook": [
+      "libsqlite3-sys/preupdate_hook"
+    ],
+    "regexp": [
+      "dep:regex"
+    ],
+    "time": [
+      "dep:time",
+      "sqlx-core/time"
+    ],
+    "unbundled": [
+      "libsqlite3-sys/buildtime_bindgen"
+    ],
+    "uuid": [
+      "dep:uuid",
+      "sqlx-core/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 127,
+    "login": "abonander"
+  },
+  "publishedAt": "2025-04-15T22:12:04.083839Z",
+  "dependencies": [
+    "atoi",
+    "flume",
+    "futures-channel",
+    "futures-core",
+    "futures-executor",
+    "futures-intrusive",
+    "futures-util",
+    "libsqlite3-sys",
+    "log",
+    "percent-encoding",
+    "serde_urlencoded",
+    "sqlx",
+    "sqlx-core",
+    "thiserror",
+    "tracing",
+    "url",
+    "chrono",
+    "regex",
+    "serde",
+    "time",
+    "uuid"
+  ]
+}

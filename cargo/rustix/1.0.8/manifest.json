@@ -1,0 +1,131 @@
+{
+  "name": "rustix",
+  "version": "1.0.8",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "11181fbabf243db407ef8df94a6ce0b2f9a733bd8be4ad02b4eda9602296cac8",
+  "features": {
+    "all-apis": [
+      "event",
+      "fs",
+      "io_uring",
+      "mm",
+      "mount",
+      "net",
+      "param",
+      "pipe",
+      "process",
+      "pty",
+      "rand",
+      "runtime",
+      "shm",
+      "stdio",
+      "system",
+      "termios",
+      "thread",
+      "time"
+    ],
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "event": [],
+    "fs": [],
+    "io_uring": [
+      "event",
+      "fs",
+      "net",
+      "thread",
+      "linux-raw-sys/io_uring"
+    ],
+    "linux_4_11": [],
+    "linux_5_1": [
+      "linux_4_11"
+    ],
+    "linux_5_11": [
+      "linux_5_1"
+    ],
+    "linux_latest": [
+      "linux_5_11"
+    ],
+    "mm": [],
+    "mount": [],
+    "net": [
+      "linux-raw-sys/net",
+      "linux-raw-sys/netlink",
+      "linux-raw-sys/if_ether",
+      "linux-raw-sys/xdp"
+    ],
+    "param": [],
+    "pipe": [],
+    "process": [
+      "linux-raw-sys/prctl"
+    ],
+    "pty": [
+      "fs"
+    ],
+    "rand": [],
+    "runtime": [
+      "linux-raw-sys/prctl"
+    ],
+    "rustc-dep-of-std": [
+      "core",
+      "rustc-std-workspace-alloc",
+      "linux-raw-sys/rustc-dep-of-std",
+      "bitflags/rustc-dep-of-std"
+    ],
+    "shm": [
+      "fs"
+    ],
+    "std": [
+      "bitflags/std",
+      "alloc",
+      "libc?/std",
+      "libc_errno?/std"
+    ],
+    "stdio": [],
+    "system": [
+      "linux-raw-sys/system"
+    ],
+    "termios": [],
+    "thread": [
+      "linux-raw-sys/prctl"
+    ],
+    "time": [],
+    "try_close": [],
+    "use-explicitly-provided-auxv": [],
+    "use-libc": [
+      "libc_errno",
+      "libc"
+    ],
+    "use-libc-auxv": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode"
+  },
+  "publishedAt": "2025-07-15T15:14:34.264345Z",
+  "dependencies": [
+    "bitflags",
+    "criterion",
+    "errno",
+    "errno",
+    "errno",
+    "flate2",
+    "libc",
+    "libc",
+    "linux-raw-sys",
+    "linux-raw-sys",
+    "memoffset",
+    "once_cell",
+    "serial_test",
+    "static_assertions",
+    "tempfile",
+    "windows-sys",
+    "errno",
+    "libc",
+    "rustc-std-workspace-alloc",
+    "rustc-std-workspace-core"
+  ]
+}

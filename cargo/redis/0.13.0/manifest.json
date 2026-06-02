@@ -1,0 +1,47 @@
+{
+  "name": "redis",
+  "version": "0.13.0",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "9bb1079bc5692c03e1479bb7086ac870ac2aaf7115b5e72d314c01368f1a747e",
+  "features": {
+    "default": [
+      "executor",
+      "geospatial"
+    ],
+    "executor": [
+      "tokio-executor"
+    ],
+    "geospatial": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 48,
+    "login": "badboy"
+  },
+  "publishedAt": "2019-10-14T19:12:19.784712Z",
+  "dependencies": [
+    "assert_approx_eq",
+    "bytes",
+    "combine",
+    "criterion",
+    "dtoa",
+    "fnv",
+    "futures",
+    "itoa",
+    "net2",
+    "partial-io",
+    "percent-encoding",
+    "quickcheck",
+    "rand",
+    "sha1",
+    "tokio",
+    "tokio-codec",
+    "tokio-io",
+    "tokio-sync",
+    "tokio-tcp",
+    "tokio-uds",
+    "url",
+    "tokio-executor"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "uuid",
+  "version": "0.6.5",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "e1436e58182935dcd9ce0add9ea0b558e8a87befe01c1a301e6020aeb0876363",
+  "features": {
+    "const_fn": [
+      "nightly"
+    ],
+    "default": [
+      "std"
+    ],
+    "nightly": [],
+    "std": [],
+    "u128": [
+      "byteorder"
+    ],
+    "use_std": [
+      "std"
+    ],
+    "v1": [],
+    "v3": [
+      "md5",
+      "rand"
+    ],
+    "v4": [
+      "rand"
+    ],
+    "v5": [
+      "sha1",
+      "rand"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-05-24T13:59:29.672258Z",
+  "dependencies": [
+    "cfg-if",
+    "serde_test",
+    "byteorder",
+    "md5",
+    "rand",
+    "serde",
+    "sha1",
+    "slog"
+  ]
+}

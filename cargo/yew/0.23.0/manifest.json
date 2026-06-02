@@ -1,0 +1,60 @@
+{
+  "name": "yew",
+  "version": "0.23.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "2c154fadfa97eabdd3f3b79345ceeb9c05ee8f13f76d3d881d17fba618bf558d",
+  "features": {
+    "csr": [],
+    "default": [],
+    "hydration": [
+      "csr",
+      "dep:bincode"
+    ],
+    "not_browser_env": [],
+    "serde": [
+      "implicit-clone/serde"
+    ],
+    "ssr": [
+      "dep:html-escape",
+      "dep:base64ct",
+      "dep:bincode"
+    ],
+    "test": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 98285,
+    "login": "siku2"
+  },
+  "publishedAt": "2026-03-10T11:49:00.296931Z",
+  "dependencies": [
+    "console_error_panic_hook",
+    "futures",
+    "gloo",
+    "gloo",
+    "implicit-clone",
+    "indexmap",
+    "js-sys",
+    "rustversion",
+    "serde",
+    "slab",
+    "thiserror",
+    "tokio",
+    "tokio",
+    "tokio",
+    "tokise",
+    "tracing",
+    "trybuild",
+    "wasm-bindgen",
+    "wasm-bindgen-futures",
+    "wasm-bindgen-futures",
+    "wasm-bindgen-test",
+    "web-sys",
+    "web-sys",
+    "yew-macro",
+    "base64ct",
+    "bincode",
+    "html-escape"
+  ]
+}

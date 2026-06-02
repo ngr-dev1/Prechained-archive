@@ -1,0 +1,40 @@
+{
+  "name": "indexmap",
+  "version": "2.12.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "6717a8d2a5a929a1a2eb43a12812498ed141a0bcfb7e8f7844fbdbe4303bba9f",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "serde": [
+      "dep:serde_core",
+      "dep:serde"
+    ],
+    "std": [],
+    "test_debug": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 539,
+    "login": "cuviper"
+  },
+  "publishedAt": "2025-10-17T22:39:03.270428Z",
+  "dependencies": [
+    "equivalent",
+    "fastrand",
+    "fnv",
+    "hashbrown",
+    "itertools",
+    "quickcheck",
+    "serde",
+    "arbitrary",
+    "borsh",
+    "quickcheck",
+    "rayon",
+    "serde",
+    "serde_core",
+    "sval"
+  ]
+}

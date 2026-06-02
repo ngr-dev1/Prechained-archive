@@ -1,0 +1,70 @@
+{
+  "name": "opentelemetry",
+  "version": "0.13.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "b91cea1dfd50064e52db033179952d18c770cbc5dfefc8eba45d619357ba3914",
+  "features": {
+    "default": [
+      "trace"
+    ],
+    "metrics": [
+      "dashmap",
+      "fnv"
+    ],
+    "rt-async-std": [
+      "async-std"
+    ],
+    "rt-tokio": [
+      "tokio",
+      "tokio-stream"
+    ],
+    "rt-tokio-current-thread": [
+      "tokio",
+      "tokio-stream"
+    ],
+    "serialize": [
+      "serde"
+    ],
+    "testing": [
+      "trace",
+      "metrics",
+      "rt-async-std",
+      "rt-tokio",
+      "rt-tokio-current-thread"
+    ],
+    "trace": [
+      "rand",
+      "pin-project",
+      "async-trait",
+      "percent-encoding"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66511,
+    "login": "jtescher"
+  },
+  "publishedAt": "2021-03-24T02:15:16.213215Z",
+  "dependencies": [
+    "bincode",
+    "criterion",
+    "futures",
+    "js-sys",
+    "lazy_static",
+    "rand_distr",
+    "thiserror",
+    "tokio",
+    "tokio-stream",
+    "async-std",
+    "async-trait",
+    "dashmap",
+    "fnv",
+    "percent-encoding",
+    "pin-project",
+    "rand",
+    "serde",
+    "tokio",
+    "tokio-stream"
+  ]
+}

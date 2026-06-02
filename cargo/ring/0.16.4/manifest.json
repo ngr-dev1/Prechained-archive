@@ -1,0 +1,40 @@
+{
+  "name": "ring",
+  "version": "0.16.4",
+  "ecosystem": "cargo",
+  "license": "non-standard",
+  "checksum": "ad6dd5dddb3f15c5e558950b3c71fec9260521dd90355167237f55e84a4a0c45",
+  "features": {
+    "alloc": [],
+    "default": [
+      "alloc",
+      "dev_urandom_fallback"
+    ],
+    "dev_urandom_fallback": [
+      "lazy_static"
+    ],
+    "internal_benches": [],
+    "slow_tests": [],
+    "std": [
+      "alloc"
+    ],
+    "test_logging": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2342,
+    "login": "briansmith"
+  },
+  "publishedAt": "2019-07-25T03:58:43.672135Z",
+  "dependencies": [
+    "cc",
+    "libc",
+    "libc",
+    "spin",
+    "untrusted",
+    "wasm-bindgen-test",
+    "web-sys",
+    "winapi",
+    "lazy_static"
+  ]
+}

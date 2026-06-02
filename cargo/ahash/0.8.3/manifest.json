@@ -1,0 +1,49 @@
+{
+  "name": "ahash",
+  "version": "0.8.3",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "2c99f64d1e06488f620f932677e24bc6e2897582980441ae90a671415bd7ec2f",
+  "features": {
+    "atomic-polyfill": [
+      "dep:atomic-polyfill",
+      "once_cell/atomic-polyfill"
+    ],
+    "compile-time-rng": [
+      "const-random"
+    ],
+    "default": [
+      "std",
+      "runtime-rng"
+    ],
+    "no-rng": [],
+    "runtime-rng": [
+      "getrandom"
+    ],
+    "std": []
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 25353,
+    "login": "tkaitchuck"
+  },
+  "publishedAt": "2023-01-24T20:34:02.056436Z",
+  "dependencies": [
+    "cfg-if",
+    "criterion",
+    "fnv",
+    "fxhash",
+    "hashbrown",
+    "hex",
+    "no-panic",
+    "once_cell",
+    "rand",
+    "seahash",
+    "serde_json",
+    "version_check",
+    "atomic-polyfill",
+    "const-random",
+    "getrandom",
+    "serde"
+  ]
+}

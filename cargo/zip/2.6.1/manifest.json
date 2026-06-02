@@ -1,0 +1,109 @@
+{
+  "name": "zip",
+  "version": "2.6.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "1dcb24d0152526ae49b9b96c1dcf71850ca1e0b882e4e28ed898a93c41334744",
+  "features": {
+    "_all-features": [],
+    "_deflate-any": [],
+    "aes-crypto": [
+      "aes",
+      "constant_time_eq",
+      "hmac",
+      "pbkdf2",
+      "sha1",
+      "getrandom",
+      "zeroize"
+    ],
+    "chrono": [
+      "chrono/default"
+    ],
+    "default": [
+      "aes-crypto",
+      "bzip2",
+      "deflate64",
+      "deflate",
+      "lzma",
+      "time",
+      "zstd",
+      "xz"
+    ],
+    "deflate": [
+      "flate2/rust_backend",
+      "deflate-zopfli",
+      "deflate-flate2"
+    ],
+    "deflate-flate2": [
+      "_deflate-any"
+    ],
+    "deflate-miniz": [
+      "deflate",
+      "deflate-flate2"
+    ],
+    "deflate-zlib": [
+      "flate2/zlib",
+      "deflate-flate2"
+    ],
+    "deflate-zlib-ng": [
+      "flate2/zlib-ng",
+      "deflate-flate2"
+    ],
+    "deflate-zopfli": [
+      "zopfli",
+      "_deflate-any"
+    ],
+    "jiff-02": [
+      "dep:jiff"
+    ],
+    "lzma": [
+      "lzma-rs/stream"
+    ],
+    "nt-time": [
+      "dep:nt-time"
+    ],
+    "unreserved": [],
+    "xz": [
+      "dep:xz2"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 209322,
+    "login": "Pr0methean"
+  },
+  "publishedAt": "2025-04-04T21:03:36.067591Z",
+  "dependencies": [
+    "anyhow",
+    "arbitrary",
+    "bencher",
+    "clap",
+    "crc32fast",
+    "crossbeam-utils",
+    "getrandom",
+    "indexmap",
+    "memchr",
+    "tempfile",
+    "time",
+    "walkdir",
+    "aes",
+    "bzip2",
+    "chrono",
+    "constant_time_eq",
+    "deflate64",
+    "flate2",
+    "getrandom",
+    "hmac",
+    "jiff",
+    "lzma-rs",
+    "nt-time",
+    "pbkdf2",
+    "proc-macro2",
+    "sha1",
+    "time",
+    "xz2",
+    "zeroize",
+    "zopfli",
+    "zstd"
+  ]
+}

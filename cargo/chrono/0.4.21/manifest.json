@@ -1,0 +1,60 @@
+{
+  "name": "chrono",
+  "version": "0.4.21",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "3f725f340c3854e3cb3ab736dc21f0cca183303acea3b3ffec30f141503ac8eb",
+  "features": {
+    "__doctest": [],
+    "__internal_bench": [
+      "criterion"
+    ],
+    "alloc": [],
+    "clock": [
+      "std",
+      "winapi",
+      "iana-time-zone"
+    ],
+    "default": [
+      "clock",
+      "std",
+      "oldtime"
+    ],
+    "libc": [],
+    "oldtime": [
+      "time"
+    ],
+    "std": [],
+    "unstable-locales": [
+      "pure-rust-locales",
+      "alloc"
+    ],
+    "wasmbind": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4556,
+    "login": "djc"
+  },
+  "publishedAt": "2022-08-09T15:01:00.442644Z",
+  "dependencies": [
+    "bincode",
+    "doc-comment",
+    "js-sys",
+    "num-integer",
+    "num-iter",
+    "num-traits",
+    "serde_derive",
+    "serde_json",
+    "wasm-bindgen",
+    "wasm-bindgen-test",
+    "criterion",
+    "iana-time-zone",
+    "pure-rust-locales",
+    "rkyv",
+    "rustc-serialize",
+    "serde",
+    "time",
+    "winapi"
+  ]
+}

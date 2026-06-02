@@ -1,0 +1,116 @@
+{
+  "name": "actix-web",
+  "version": "0.7.16",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "9c1ae55616ff06c1d011c4e7f16f443b825df72aaf1c75e97cdc43a4ab83a602",
+  "features": {
+    "alpn": [
+      "openssl",
+      "tokio-openssl",
+      "actix-net/ssl"
+    ],
+    "brotli": [
+      "brotli2"
+    ],
+    "cell": [
+      "actix-net/cell"
+    ],
+    "default": [
+      "session",
+      "brotli",
+      "flate2-c",
+      "cell"
+    ],
+    "flate2-c": [
+      "flate2/miniz-sys"
+    ],
+    "flate2-rust": [
+      "flate2/rust_backend"
+    ],
+    "rust-tls": [
+      "rustls",
+      "tokio-rustls",
+      "webpki",
+      "webpki-roots",
+      "actix-net/rust-tls"
+    ],
+    "session": [
+      "cookie/secure"
+    ],
+    "ssl": [
+      "openssl",
+      "tokio-openssl",
+      "actix-net/ssl"
+    ],
+    "tls": [
+      "native-tls",
+      "tokio-tls",
+      "actix-net/tls"
+    ],
+    "uds": [
+      "tokio-uds"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-12-11T18:07:55.969121Z",
+  "dependencies": [
+    "actix",
+    "actix-net",
+    "askama_escape",
+    "base64",
+    "bitflags",
+    "byteorder",
+    "bytes",
+    "cookie",
+    "encoding",
+    "env_logger",
+    "failure",
+    "futures",
+    "futures-cpupool",
+    "h2",
+    "http",
+    "httparse",
+    "language-tags",
+    "lazy_static",
+    "lazycell",
+    "log",
+    "mime",
+    "mime_guess",
+    "mio",
+    "net2",
+    "num_cpus",
+    "parking_lot",
+    "percent-encoding",
+    "rand",
+    "regex",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_urlencoded",
+    "sha1",
+    "slab",
+    "smallvec",
+    "time",
+    "tokio",
+    "tokio-current-thread",
+    "tokio-io",
+    "tokio-reactor",
+    "tokio-tcp",
+    "tokio-timer",
+    "url",
+    "version_check",
+    "brotli2",
+    "flate2",
+    "native-tls",
+    "openssl",
+    "rustls",
+    "tokio-openssl",
+    "tokio-rustls",
+    "tokio-tls",
+    "tokio-uds",
+    "webpki",
+    "webpki-roots"
+  ]
+}

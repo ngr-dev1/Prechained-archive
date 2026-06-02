@@ -1,0 +1,33 @@
+{
+  "name": "quickcheck",
+  "version": "0.9.1",
+  "ecosystem": "cargo",
+  "license": "Unlicense/MIT",
+  "checksum": "e8d919c9f3bcfb9113365035dbba19aee3bf89b129b77085feaaf8a06819b5b1",
+  "features": {
+    "default": [
+      "regex",
+      "use_logging"
+    ],
+    "regex": [
+      "env_logger/regex"
+    ],
+    "unstable": [],
+    "use_logging": [
+      "log",
+      "env_logger"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 189,
+    "login": "BurntSushi"
+  },
+  "publishedAt": "2020-01-11T02:27:08.046326Z",
+  "dependencies": [
+    "rand",
+    "rand_core",
+    "env_logger",
+    "log"
+  ]
+}

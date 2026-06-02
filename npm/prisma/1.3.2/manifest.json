@@ -1,0 +1,66 @@
+{
+  "name": "prisma",
+  "version": "1.3.2",
+  "ecosystem": "npm",
+  "description": "Prisma is an open-source database toolkit. It includes a JavaScript/TypeScript ORM for Node.js, migrations and a modern GUI to view and edit the data in your database. You can use Prisma in new projects or add it to an existing one.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "semver": "^5.4.1",
+    "fs-extra": "^5.0.0",
+    "prisma-cli-core": "1.0.22",
+    "prisma-cli-engine": "1.0.20",
+    "source-map-support": "^0.4.18"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "rimraf": "^2.6.1",
+    "tslint": "^5.6.0",
+    "prettier": "^1.10.2",
+    "typescript": "^2.4.2",
+    "@types/node": "^8.0.22",
+    "lint-staged": "^4.0.3",
+    "@types/fs-extra": "^5.0.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "tslint-config-prettier": "^1.3.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "prisma init-prisma || echo \"\"",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "erran",
+      "email": "me@errancarey.com"
+    },
+    {
+      "name": "schickling",
+      "email": "schickling.j@gmail.com"
+    },
+    {
+      "name": "timsuchanek",
+      "email": "tim.suchanek@gmail.com"
+    },
+    {
+      "name": "tquetano-r7",
+      "email": "tony_quetano@rapid7.com"
+    }
+  ],
+  "author": {
+    "name": "Tim Suchanek",
+    "email": "tim@graph.cool"
+  },
+  "publishedAt": "2018-02-28T18:49:11.739Z",
+  "dist": {
+    "integrity": "sha512-XLjuxARfwjqpY8/qvITKJGdLClmUniq9/AzcYGAwTcwaWnGMfIdcsxrtnV/6XHHKaORbqQ6X4wi74Ec2lbPclQ==",
+    "shasum": "9e6f6bc15e32b1e96ef39169dc49e4a0720dcc02",
+    "tarball": "https://registry.npmjs.org/prisma/-/prisma-1.3.2.tgz",
+    "fileCount": 5,
+    "unpackedSize": 9261
+  },
+  "_npmUser": {
+    "name": "timsuchanek",
+    "email": "tim.suchanek@gmail.com"
+  }
+}

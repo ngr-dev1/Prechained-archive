@@ -1,0 +1,23 @@
+{
+  "name": "zstd",
+  "version": "0.4.6",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "328b045a0ed670b4e7aaa695dfb450c2e5aae8ca3b4d47d2fe60e961511b0c3f",
+  "features": {
+    "default": [
+      "legacy"
+    ],
+    "legacy": [
+      "zstd-sys/legacy"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-03-24T19:53:29.651049Z",
+  "dependencies": [
+    "clap",
+    "libc",
+    "zstd-sys"
+  ]
+}

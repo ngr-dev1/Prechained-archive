@@ -1,0 +1,52 @@
+{
+  "name": "ws",
+  "version": "0.4.32",
+  "ecosystem": "npm",
+  "description": "Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js",
+  "dependencies": {
+    "nan": "~1.0.0",
+    "options": ">=0.0.5",
+    "commander": "~2.1.0",
+    "tinycolor": "0.x"
+  },
+  "devDependencies": {
+    "ansi": "latest",
+    "mocha": "1.12.0",
+    "should": "1.2.x",
+    "benchmark": "0.3.x",
+    "expect.js": "0.2.x"
+  },
+  "scripts": {
+    "install": "(node-gyp rebuild 2> builderror.log) || (exit 0)",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "einaros",
+      "email": "einaros@gmail.com"
+    },
+    {
+      "name": "V1",
+      "email": "info@3rd-Eden.com"
+    }
+  ],
+  "author": {
+    "url": "http://2x.io",
+    "name": "Einar Otto Stangvik",
+    "email": "einaros@gmail.com"
+  },
+  "publishedAt": "2014-08-06T11:23:54.914Z",
+  "dist": {
+    "integrity": "sha512-htqsS0U9Z9lb3ITjidQkRvkLdVhQePrMeu475yEfOWkAYvJ6dSjQp1tOH6ugaddzX5b7sQjMPNtY71eTzrV/kA==",
+    "shasum": "787a6154414f3c99ed83c5772153b20feb0cec32",
+    "tarball": "https://registry.npmjs.org/ws/-/ws-0.4.32.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "V1",
+    "email": "info@3rd-Eden.com"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "argon2",
+  "version": "0.13.0",
+  "ecosystem": "npm",
+  "description": "An Argon2 library for Node",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.4.0",
+    "bindings": "^1.2.1",
+    "any-promise": "^1.3.0"
+  },
+  "devDependencies": {
+    "xo": "^0.16.0",
+    "ava": "^0.16.0",
+    "nyc": "^8.0.0",
+    "sandra": "^0.1.0",
+    "babel-cli": "^6.11.4",
+    "babel-register": "^6.11.6",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "ranisalt",
+      "email": "ranisalt@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Ranieri Althoff",
+    "email": "ranisalt+argon2@gmail.com"
+  },
+  "publishedAt": "2016-09-01T23:36:41.545Z",
+  "dist": {
+    "integrity": "sha512-F7X3urV0dqxqWbMiXmUkAincfex3B6Ivf/4nxZD4JvzI8agVEy2oSAw/M+w6WR5C6RgpfXhbHXu6b5g1k6OHjg==",
+    "shasum": "48821a6361d3ec1a0aa19c939e1cdfc8e8dbf1d4",
+    "tarball": "https://registry.npmjs.org/argon2/-/argon2-0.13.0.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "ranisalt",
+    "email": "ranisalt@gmail.com"
+  }
+}

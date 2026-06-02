@@ -1,0 +1,38 @@
+{
+  "name": "scrypt",
+  "version": "0.4.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "3437654bbbe34054a268b3859fe41f871215069b39f0aef78808d85c37100696",
+  "features": {
+    "default": [
+      "include_simple",
+      "thread_rng",
+      "std"
+    ],
+    "include_simple": [
+      "rand_core",
+      "base64",
+      "subtle"
+    ],
+    "std": [],
+    "thread_rng": [
+      "rand"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5059,
+    "login": "newpavlov"
+  },
+  "publishedAt": "2020-08-24T22:22:27.830715Z",
+  "dependencies": [
+    "hmac",
+    "pbkdf2",
+    "sha2",
+    "base64",
+    "rand",
+    "rand_core",
+    "subtle"
+  ]
+}

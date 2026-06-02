@@ -1,0 +1,48 @@
+{
+  "name": "lru-cache",
+  "version": "11.5.0",
+  "ecosystem": "npm",
+  "description": "A cache object that deletes the least-recently-used items.",
+  "license": "BlueOak-1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "^21.7.4",
+    "tshy": "^4.1.2",
+    "marked": "^4.2.12",
+    "mkdirp": "^3.0.1",
+    "oxlint": "^1.65.0",
+    "esbuild": "^0.28.0",
+    "typedoc": "^0.28.19",
+    "prettier": "^3.8.3",
+    "benchmark": "^2.1.4",
+    "oxlint-tsgolint": "^0.22.1"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tshy && bash scripts/build.sh"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me"
+  },
+  "publishedAt": "2026-05-19T23:13:36.156Z",
+  "dist": {
+    "integrity": "sha512-5YgH9UJd7wVb9hIouI2adWpgqrrICkt070Dnj8EUY1+B4B2P9eRLPAkAAo6NICA7CEhOIeBHl46u9zSNpNu7zA==",
+    "shasum": "14117229fd25bc9c67936e32de90ca047488c97a",
+    "tarball": "https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.0.tgz",
+    "fileCount": 89,
+    "unpackedSize": 2731388
+  },
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  }
+}

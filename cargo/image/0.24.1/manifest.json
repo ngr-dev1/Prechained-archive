@@ -1,0 +1,91 @@
+{
+  "name": "image",
+  "version": "0.24.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "db207d030ae38f1eb6f240d5a1c1c88ff422aa005d10f8c6c6fc5e75286ab30e",
+  "features": {
+    "avif": [
+      "avif-encoder"
+    ],
+    "avif-decoder": [
+      "mp4parse",
+      "dcv-color-primitives",
+      "dav1d"
+    ],
+    "avif-encoder": [
+      "ravif",
+      "rgb"
+    ],
+    "benchmarks": [],
+    "bmp": [],
+    "dds": [
+      "dxt"
+    ],
+    "default": [
+      "gif",
+      "jpeg",
+      "ico",
+      "png",
+      "pnm",
+      "tga",
+      "tiff",
+      "webp",
+      "bmp",
+      "hdr",
+      "dxt",
+      "dds",
+      "farbfeld",
+      "jpeg_rayon",
+      "openexr"
+    ],
+    "dxt": [],
+    "farbfeld": [],
+    "hdr": [
+      "scoped_threadpool"
+    ],
+    "ico": [
+      "bmp",
+      "png"
+    ],
+    "jpeg_rayon": [
+      "jpeg/rayon"
+    ],
+    "openexr": [
+      "exr"
+    ],
+    "pnm": [],
+    "tga": [],
+    "webp": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5862,
+    "login": "fintelia"
+  },
+  "publishedAt": "2022-02-20T18:12:40.248447Z",
+  "dependencies": [
+    "bytemuck",
+    "byteorder",
+    "color_quant",
+    "crc32fast",
+    "criterion",
+    "glob",
+    "num-complex",
+    "num-iter",
+    "num-rational",
+    "num-traits",
+    "quickcheck",
+    "dav1d",
+    "dcv-color-primitives",
+    "exr",
+    "gif",
+    "jpeg-decoder",
+    "mp4parse",
+    "png",
+    "ravif",
+    "rgb",
+    "scoped_threadpool",
+    "tiff"
+  ]
+}

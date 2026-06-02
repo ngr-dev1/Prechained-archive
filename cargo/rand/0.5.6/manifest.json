@@ -1,0 +1,47 @@
+{
+  "name": "rand",
+  "version": "0.5.6",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "c618c47cd3ebd209790115ab837de41425723956ad3ce2e6a7f09890947cacb9",
+  "features": {
+    "alloc": [
+      "rand_core/alloc"
+    ],
+    "default": [
+      "std"
+    ],
+    "i128_support": [],
+    "nightly": [
+      "i128_support"
+    ],
+    "serde1": [
+      "serde",
+      "serde_derive",
+      "rand_core/serde1"
+    ],
+    "std": [
+      "rand_core/std",
+      "alloc",
+      "libc",
+      "winapi",
+      "cloudabi",
+      "fuchsia-cprng"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2019-01-26T10:20:14.558184Z",
+  "dependencies": [
+    "bincode",
+    "rand_core",
+    "cloudabi",
+    "fuchsia-cprng",
+    "libc",
+    "log",
+    "serde",
+    "serde_derive",
+    "stdweb",
+    "winapi"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "tokio-util",
+  "version": "0.3.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "af67cdce2b40f8dffb0ee04c853a24217b5d0d3e358f0f5ccc0b5332174ed9a8",
+  "features": {
+    "codec": [
+      "tokio/stream"
+    ],
+    "compat": [
+      "futures-io"
+    ],
+    "default": [],
+    "full": [
+      "codec",
+      "udp",
+      "compat"
+    ],
+    "udp": [
+      "tokio/udp"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3959,
+    "login": "LucioFranco"
+  },
+  "publishedAt": "2020-03-04T23:44:54.502328Z",
+  "dependencies": [
+    "bytes",
+    "futures",
+    "futures-core",
+    "futures-sink",
+    "log",
+    "pin-project-lite",
+    "tokio",
+    "tokio",
+    "tokio-test",
+    "futures-io"
+  ]
+}

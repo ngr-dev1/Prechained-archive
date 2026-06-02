@@ -1,0 +1,58 @@
+{
+  "name": "rustls",
+  "version": "0.24.0-dev.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR ISC OR MIT",
+  "checksum": "d99552b8a20dd0e79f6c4af553583fa7e1a77acb86ef40eb3392cc7b30f373db",
+  "features": {
+    "brotli": [
+      "dep:brotli",
+      "dep:brotli-decompressor",
+      "std"
+    ],
+    "default": [
+      "log",
+      "std",
+      "webpki"
+    ],
+    "log": [
+      "dep:log"
+    ],
+    "std": [
+      "pki-types/std",
+      "once_cell/std"
+    ],
+    "webpki": [
+      "dep:webpki"
+    ],
+    "zlib": [
+      "dep:zlib-rs"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4556,
+    "login": "djc"
+  },
+  "publishedAt": "2026-01-28T20:21:54.642293Z",
+  "dependencies": [
+    "bencher",
+    "env_logger",
+    "graviola",
+    "log",
+    "macro_rules_attribute",
+    "once_cell",
+    "rcgen",
+    "rustls-pki-types",
+    "subtle",
+    "time",
+    "webpki-roots",
+    "zeroize",
+    "brotli",
+    "brotli-decompressor",
+    "hashbrown",
+    "log",
+    "rustls-webpki",
+    "zlib-rs"
+  ]
+}

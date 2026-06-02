@@ -1,0 +1,39 @@
+{
+  "name": "torch",
+  "version": "2.0.0",
+  "ecosystem": "pypi",
+  "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "BSD-3",
+  "author": "PyTorch Team",
+  "author_email": "packages@pytorch.org",
+  "requires_python": ">=3.8.0",
+  "requires_dist": [
+    "filelock",
+    "typing-extensions",
+    "sympy",
+    "networkx",
+    "jinja2",
+    "nvidia-cuda-nvrtc-cu11 (==11.7.99) ; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+    "nvidia-cuda-runtime-cu11 (==11.7.99) ; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+    "nvidia-cuda-cupti-cu11 (==11.7.101) ; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+    "nvidia-cudnn-cu11 (==8.5.0.96) ; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+    "nvidia-cublas-cu11 (==11.10.3.66) ; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+    "nvidia-cufft-cu11 (==10.9.0.58) ; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+    "nvidia-curand-cu11 (==10.2.10.91) ; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+    "nvidia-cusolver-cu11 (==11.4.0.1) ; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+    "nvidia-cusparse-cu11 (==11.7.4.91) ; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+    "nvidia-nccl-cu11 (==2.14.3) ; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+    "nvidia-nvtx-cu11 (==11.7.91) ; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+    "triton (==2.0.0) ; platform_system == \"Linux\" and platform_machine == \"x86_64\"",
+    "opt-einsum (>=3.3) ; extra == 'opt-einsum'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2023-03-17T22:43:08",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/9f/cd/670e5e178db87065ee60f60fb35b040abbb819a1f686a91d9ff799fc5048/torch-2.0.0-1-cp310-cp310-manylinux2014_aarch64.whl",
+    "sha256": "c9090bda7d2eeeecd74f51b721420dbeb44f838d4536cc1b284e879417e3064a",
+    "size": 74256435,
+    "filename": "torch-2.0.0-1-cp310-cp310-manylinux2014_aarch64.whl"
+  }
+}

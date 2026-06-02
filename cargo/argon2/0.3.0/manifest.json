@@ -1,0 +1,41 @@
+{
+  "name": "argon2",
+  "version": "0.3.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "d805bb12b532be9ce066df7913311f43716b41d8d780e9322113e8a6ae7c41ab",
+  "features": {
+    "alloc": [],
+    "default": [
+      "alloc",
+      "password-hash",
+      "rand"
+    ],
+    "parallel": [
+      "rayon",
+      "std"
+    ],
+    "rand": [
+      "password-hash/rand_core"
+    ],
+    "std": [
+      "alloc",
+      "password-hash/std"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2021-08-28T00:06:05.204108Z",
+  "dependencies": [
+    "base64ct",
+    "blake2",
+    "hex-literal",
+    "password-hash",
+    "password-hash",
+    "rayon",
+    "zeroize"
+  ]
+}

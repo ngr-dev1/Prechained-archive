@@ -1,0 +1,34 @@
+{
+  "name": "futures-channel",
+  "version": "0.3.17",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "5da6ba8c3bb3c165d3c7319fc1cc8304facf1fb8db99c5de877183c08a273888",
+  "features": {
+    "alloc": [
+      "futures-core/alloc"
+    ],
+    "cfg-target-has-atomic": [],
+    "default": [
+      "std"
+    ],
+    "sink": [
+      "futures-sink"
+    ],
+    "std": [
+      "alloc",
+      "futures-core/std"
+    ],
+    "unstable": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 33035,
+    "login": "taiki-e"
+  },
+  "publishedAt": "2021-08-30T10:32:58.894073Z",
+  "dependencies": [
+    "futures-core",
+    "futures-sink"
+  ]
+}

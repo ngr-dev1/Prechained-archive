@@ -1,0 +1,39 @@
+{
+  "name": "tokio-rustls",
+  "version": "0.23.4",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "c43ee83903113e03984cb9e5cebe6c04a5116269e900e3ddba8f068a62adda59",
+  "features": {
+    "dangerous_configuration": [
+      "rustls/dangerous_configuration"
+    ],
+    "default": [
+      "logging",
+      "tls12"
+    ],
+    "early-data": [],
+    "logging": [
+      "rustls/logging"
+    ],
+    "tls12": [
+      "rustls/tls12"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4286,
+    "login": "quininer"
+  },
+  "publishedAt": "2022-05-04T16:04:33.368519Z",
+  "dependencies": [
+    "futures-util",
+    "lazy_static",
+    "rustls",
+    "rustls-pemfile",
+    "tokio",
+    "tokio",
+    "webpki",
+    "webpki-roots"
+  ]
+}

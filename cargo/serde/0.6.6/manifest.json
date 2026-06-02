@@ -1,0 +1,30 @@
+{
+  "name": "serde",
+  "version": "0.6.6",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "dc6b43c62f340c279a3608c1e6ed7b144b1e08ee74fac2a372500dc5d576af25",
+  "features": {
+    "nightly": [],
+    "num-bigint": [
+      "num/bigint"
+    ],
+    "num-complex": [
+      "num/complex"
+    ],
+    "num-impls": [
+      "num-bigint",
+      "num-complex",
+      "num-rational"
+    ],
+    "num-rational": [
+      "num/rational"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2015-12-08T14:58:19.326231Z",
+  "dependencies": [
+    "num"
+  ]
+}

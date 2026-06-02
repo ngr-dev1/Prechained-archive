@@ -1,0 +1,98 @@
+{
+  "name": "tonic",
+  "version": "0.8.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "498f271adc46acce75d66f639e4d35b31b2394c295c82496727dafa16d465dd2",
+  "features": {
+    "channel": [
+      "h2",
+      "hyper",
+      "tokio",
+      "tower",
+      "tracing-futures",
+      "tokio/macros",
+      "tokio/time",
+      "hyper-timeout"
+    ],
+    "codegen": [
+      "async-trait"
+    ],
+    "default": [
+      "transport",
+      "codegen",
+      "prost"
+    ],
+    "gzip": [
+      "flate2"
+    ],
+    "prost": [
+      "prost1",
+      "prost-derive"
+    ],
+    "tls": [
+      "rustls-pemfile",
+      "transport",
+      "tokio-rustls"
+    ],
+    "tls-roots": [
+      "tls-roots-common",
+      "rustls-native-certs"
+    ],
+    "tls-roots-common": [
+      "tls"
+    ],
+    "tls-webpki-roots": [
+      "tls-roots-common",
+      "webpki-roots"
+    ],
+    "transport": [
+      "axum",
+      "channel"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3959,
+    "login": "LucioFranco"
+  },
+  "publishedAt": "2022-07-29T20:39:51.912176Z",
+  "dependencies": [
+    "async-stream",
+    "base64",
+    "bencher",
+    "bytes",
+    "futures-core",
+    "futures-util",
+    "http",
+    "http-body",
+    "percent-encoding",
+    "pin-project",
+    "quickcheck",
+    "quickcheck_macros",
+    "rand",
+    "static_assertions",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tower",
+    "tower-layer",
+    "tower-service",
+    "tracing",
+    "async-trait",
+    "axum",
+    "flate2",
+    "h2",
+    "hyper",
+    "hyper-timeout",
+    "prost",
+    "prost-derive",
+    "rustls-native-certs",
+    "rustls-pemfile",
+    "tokio",
+    "tokio-rustls",
+    "tower",
+    "tracing-futures",
+    "webpki-roots"
+  ]
+}

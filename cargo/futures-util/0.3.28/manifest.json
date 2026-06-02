@@ -1,0 +1,83 @@
+{
+  "name": "futures-util",
+  "version": "0.3.28",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "26b01e40b772d54cf6c6d721c1d1abd0647a0106a12ecaa1c186273392a69533",
+  "features": {
+    "alloc": [
+      "futures-core/alloc",
+      "futures-task/alloc"
+    ],
+    "async-await": [],
+    "async-await-macro": [
+      "async-await",
+      "futures-macro"
+    ],
+    "bilock": [],
+    "cfg-target-has-atomic": [],
+    "channel": [
+      "std",
+      "futures-channel"
+    ],
+    "compat": [
+      "std",
+      "futures_01"
+    ],
+    "default": [
+      "std",
+      "async-await",
+      "async-await-macro"
+    ],
+    "io": [
+      "std",
+      "futures-io",
+      "memchr"
+    ],
+    "io-compat": [
+      "io",
+      "compat",
+      "tokio-io"
+    ],
+    "portable-atomic": [
+      "futures-core/portable-atomic"
+    ],
+    "sink": [
+      "futures-sink"
+    ],
+    "std": [
+      "alloc",
+      "futures-core/std",
+      "futures-task/std",
+      "slab"
+    ],
+    "unstable": [
+      "futures-core/unstable",
+      "futures-task/unstable"
+    ],
+    "write-all-vectored": [
+      "io"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 33035,
+    "login": "taiki-e"
+  },
+  "publishedAt": "2023-03-30T17:17:27.139438Z",
+  "dependencies": [
+    "futures-core",
+    "futures-task",
+    "pin-project-lite",
+    "pin-utils",
+    "tokio",
+    "futures",
+    "futures-channel",
+    "futures-io",
+    "futures-macro",
+    "futures-sink",
+    "memchr",
+    "slab",
+    "tokio-io"
+  ]
+}

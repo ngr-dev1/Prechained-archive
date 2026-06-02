@@ -1,0 +1,31 @@
+{
+  "name": "serde",
+  "version": "0.8.0-rc1",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "3f9a04b6d4db26a181c955f4539e94024e5a4730a174f3d7a8f4bcfd328183d1",
+  "features": {
+    "alloc": [
+      "nightly"
+    ],
+    "collections": [
+      "alloc"
+    ],
+    "default": [
+      "std"
+    ],
+    "nightly": [],
+    "nightly-testing": [
+      "clippy",
+      "nightly",
+      "std"
+    ],
+    "std": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-07-17T18:48:35.381095Z",
+  "dependencies": [
+    "clippy"
+  ]
+}

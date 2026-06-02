@@ -1,0 +1,76 @@
+{
+  "name": "toml",
+  "version": "0.9.8",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "f0dc8b1fb61449e27716ec0e1bdf0f6b8f3e8f6b05391e8497b8b6d7804ea6d8",
+  "features": {
+    "debug": [
+      "std",
+      "toml_parser?/debug",
+      "dep:anstream",
+      "dep:anstyle"
+    ],
+    "default": [
+      "std",
+      "serde",
+      "parse",
+      "display"
+    ],
+    "display": [
+      "dep:toml_writer"
+    ],
+    "fast_hash": [
+      "preserve_order",
+      "dep:foldhash"
+    ],
+    "parse": [
+      "dep:toml_parser",
+      "dep:winnow"
+    ],
+    "preserve_order": [
+      "dep:indexmap",
+      "std"
+    ],
+    "serde": [
+      "dep:serde_core",
+      "toml_datetime/serde",
+      "serde_spanned/serde"
+    ],
+    "std": [
+      "indexmap?/std",
+      "serde_core?/std",
+      "toml_parser?/std",
+      "toml_writer?/std",
+      "toml_datetime/std",
+      "serde_spanned/std"
+    ],
+    "unbounded": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6743,
+    "login": "epage"
+  },
+  "publishedAt": "2025-10-09T21:45:39.652543Z",
+  "dependencies": [
+    "itertools",
+    "serde",
+    "serde-untagged",
+    "serde_json",
+    "serde_spanned",
+    "snapbox",
+    "toml-test-data",
+    "toml-test-harness",
+    "toml_datetime",
+    "walkdir",
+    "anstream",
+    "anstyle",
+    "foldhash",
+    "indexmap",
+    "serde_core",
+    "toml_parser",
+    "toml_writer",
+    "winnow"
+  ]
+}

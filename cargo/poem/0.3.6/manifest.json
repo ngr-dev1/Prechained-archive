@@ -1,0 +1,61 @@
+{
+  "name": "poem",
+  "version": "0.3.6",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "a569ca5685bee8528099bf402ffb3734b333dc432763d627ea8d2cc104dc38c8",
+  "features": {
+    "compression": [
+      "async-compression"
+    ],
+    "default": [],
+    "multipart": [
+      "multer"
+    ],
+    "sse": [],
+    "tls": [
+      "tokio-rustls"
+    ],
+    "websocket": [
+      "tokio-tungstenite"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66052,
+    "login": "sunli829"
+  },
+  "publishedAt": "2021-08-24T03:28:10.163312Z",
+  "dependencies": [
+    "askama",
+    "async-graphql",
+    "async-trait",
+    "base64",
+    "bytes",
+    "cookie",
+    "derive_more",
+    "futures-util",
+    "http",
+    "hyper",
+    "mime",
+    "parking_lot",
+    "poem-derive",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "sha1",
+    "slab",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tracing-subscriber",
+    "async-compression",
+    "multer",
+    "tempfile",
+    "tokio-rustls",
+    "tokio-tungstenite",
+    "tracing",
+    "typed-headers"
+  ]
+}

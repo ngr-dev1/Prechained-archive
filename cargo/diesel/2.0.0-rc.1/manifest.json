@@ -1,0 +1,121 @@
+{
+  "name": "diesel",
+  "version": "2.0.0-rc.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "876a12f2d98c35d1dfaf74083664be5bb71606b72f4756f3792cdb1ddb192b46",
+  "features": {
+    "128-column-tables": [
+      "64-column-tables",
+      "diesel_derives/128-column-tables"
+    ],
+    "32-column-tables": [
+      "diesel_derives/32-column-tables"
+    ],
+    "64-column-tables": [
+      "32-column-tables",
+      "diesel_derives/64-column-tables"
+    ],
+    "default": [
+      "with-deprecated",
+      "32-column-tables"
+    ],
+    "extras": [
+      "chrono",
+      "serde_json",
+      "uuid",
+      "network-address",
+      "numeric",
+      "r2d2"
+    ],
+    "huge-tables": [
+      "64-column-tables"
+    ],
+    "i-implement-a-third-party-backend-and-opt-into-breaking-changes": [],
+    "ipnet-address": [
+      "ipnet",
+      "libc"
+    ],
+    "large-tables": [
+      "32-column-tables"
+    ],
+    "mysql": [
+      "mysqlclient-sys",
+      "url",
+      "percent-encoding",
+      "bitflags",
+      "mysql_backend"
+    ],
+    "mysql_backend": [
+      "diesel_derives/mysql",
+      "byteorder"
+    ],
+    "network-address": [
+      "ipnetwork",
+      "libc"
+    ],
+    "numeric": [
+      "num-bigint",
+      "bigdecimal",
+      "num-traits",
+      "num-integer"
+    ],
+    "postgres": [
+      "pq-sys",
+      "postgres_backend"
+    ],
+    "postgres_backend": [
+      "diesel_derives/postgres",
+      "bitflags",
+      "byteorder",
+      "itoa"
+    ],
+    "returning_clauses_for_sqlite_3_35": [],
+    "sqlite": [
+      "libsqlite3-sys",
+      "diesel_derives/sqlite"
+    ],
+    "unstable": [
+      "diesel_derives/nightly"
+    ],
+    "with-deprecated": [
+      "diesel_derives/with-deprecated"
+    ],
+    "without-deprecated": [
+      "diesel_derives/without-deprecated"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4568,
+    "login": "weiznich"
+  },
+  "publishedAt": "2022-07-22T07:57:21.356322Z",
+  "dependencies": [
+    "cfg-if",
+    "diesel_derives",
+    "dotenvy",
+    "ipnetwork",
+    "quickcheck",
+    "bigdecimal",
+    "bitflags",
+    "byteorder",
+    "chrono",
+    "ipnet",
+    "ipnetwork",
+    "itoa",
+    "libc",
+    "libsqlite3-sys",
+    "mysqlclient-sys",
+    "num-bigint",
+    "num-integer",
+    "num-traits",
+    "percent-encoding",
+    "pq-sys",
+    "quickcheck",
+    "r2d2",
+    "serde_json",
+    "url",
+    "uuid"
+  ]
+}

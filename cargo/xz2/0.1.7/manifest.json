@@ -1,0 +1,30 @@
+{
+  "name": "xz2",
+  "version": "0.1.7",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "388c44dc09d76f1536602ead6d325eb532f5c122f17782bd57fb47baeeb767e2",
+  "features": {
+    "static": [
+      "lzma-sys/static"
+    ],
+    "tokio": [
+      "tokio-io",
+      "futures"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1,
+    "login": "alexcrichton"
+  },
+  "publishedAt": "2022-06-06T17:07:19.438302Z",
+  "dependencies": [
+    "lzma-sys",
+    "quickcheck",
+    "rand",
+    "tokio-core",
+    "futures",
+    "tokio-io"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "winnow",
+  "version": "0.4.7",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "ca0ace3845f0d96209f0375e6d367e3eb87eb65d27d445bdc9f1843a26f39448",
+  "features": {
+    "alloc": [],
+    "debug": [
+      "dep:anstyle",
+      "dep:is-terminal",
+      "dep:terminal_size",
+      "dep:anstyle-stream"
+    ],
+    "default": [
+      "std"
+    ],
+    "simd": [
+      "dep:memchr"
+    ],
+    "std": [
+      "alloc",
+      "memchr?/std"
+    ],
+    "unstable-doc": [
+      "alloc",
+      "std",
+      "simd"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6743,
+    "login": "epage"
+  },
+  "publishedAt": "2023-06-14T20:26:39.906052Z",
+  "dependencies": [
+    "circular",
+    "criterion",
+    "doc-comment",
+    "escargot",
+    "lexopt",
+    "proptest",
+    "snapbox",
+    "term-transcript",
+    "anstyle",
+    "anstyle-stream",
+    "is-terminal",
+    "memchr",
+    "terminal_size"
+  ]
+}

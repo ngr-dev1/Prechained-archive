@@ -1,0 +1,32 @@
+{
+  "name": "brotli",
+  "version": "1.1.0",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause/MIT",
+  "checksum": "f0a6e4c7adaca5eabd3e0c0f4fa2139e697d34a9c17836b1585a531e7018fcc3",
+  "features": {
+    "benchmark": [
+      "brotli-decompressor/benchmark"
+    ],
+    "disable-timer": [
+      "brotli-decompressor/disable-timer"
+    ],
+    "external-literal-probability": [],
+    "float64": [],
+    "no-stdlib": [
+      "alloc-no-stdlib/no-stdlib",
+      "brotli-decompressor/no-stdlib"
+    ],
+    "seccomp": [
+      "brotli-decompressor/seccomp"
+    ],
+    "vector_scratch_space": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-12-28T07:07:36.112465Z",
+  "dependencies": [
+    "alloc-no-stdlib",
+    "brotli-decompressor"
+  ]
+}

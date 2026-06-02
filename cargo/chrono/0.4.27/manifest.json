@@ -1,0 +1,69 @@
+{
+  "name": "chrono",
+  "version": "0.4.27",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "f56b4c72906975ca04becb8a30e102dfecddd0c06181e3e95ddc444be28881f8",
+  "features": {
+    "__doctest": [],
+    "__internal_bench": [
+      "criterion"
+    ],
+    "alloc": [],
+    "clock": [
+      "std",
+      "winapi",
+      "iana-time-zone",
+      "android-tzdata"
+    ],
+    "default": [
+      "clock",
+      "std",
+      "oldtime",
+      "wasmbind"
+    ],
+    "libc": [],
+    "oldtime": [
+      "time"
+    ],
+    "std": [],
+    "unstable-locales": [
+      "pure-rust-locales",
+      "alloc"
+    ],
+    "wasmbind": [
+      "wasm-bindgen",
+      "js-sys"
+    ],
+    "winapi": [
+      "windows-targets"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4556,
+    "login": "djc"
+  },
+  "publishedAt": "2023-08-29T13:51:25.520623Z",
+  "dependencies": [
+    "bincode",
+    "doc-comment",
+    "num-traits",
+    "serde_derive",
+    "serde_json",
+    "wasm-bindgen-test",
+    "windows-bindgen",
+    "android-tzdata",
+    "arbitrary",
+    "criterion",
+    "iana-time-zone",
+    "js-sys",
+    "pure-rust-locales",
+    "rkyv",
+    "rustc-serialize",
+    "serde",
+    "time",
+    "wasm-bindgen",
+    "windows-targets"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "JetBrains.Annotations",
+  "version": "2020.1.0",
+  "ecosystem": "nuget",
+  "description": "ReSharper Annotations help reduce false positive warnings, explicitly declare purity and nullability in your code, deal with implicit usages of members, support special semantics of APIs in ASP.NET and XAML frameworks and otherwise increase accuracy of ReSharper code inspections.\n\nAll usages of ReSharper Annotations attributes are erased from metadata by default, which means no actual binary reference to 'JetBrains.Annotations.dll' assembly is produced. If you need to preserve these attributes in metadata, just define 'JETBRAINS_ANNOTATIONS' conditional compilation symbol in your projects.",
+  "licenseExpression": "MIT",
+  "authors": "JetBrains",
+  "tags": [
+    "jetbrains",
+    "resharper",
+    "annotations",
+    "canbenull",
+    "notnull"
+  ],
+  "repositoryUrl": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    "System.Runtime"
+  ],
+  "publishedAt": "2020-04-07T09:50:49.207+00:00",
+  "listed": true,
+  "packageHash": null
+}

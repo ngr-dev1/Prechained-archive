@@ -1,0 +1,145 @@
+{
+  "name": "sea-query",
+  "version": "1.0.0-rc.28",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "c3a37d87aeb80f3ecf4507cee9dfec3e18409b704e361565e7888ae4c4227ee3",
+  "features": {
+    "all-features": [
+      "all-types",
+      "attr",
+      "audit",
+      "backend-mysql",
+      "backend-postgres",
+      "backend-sqlite",
+      "derive",
+      "hashable-value",
+      "serde",
+      "sqlx-utils",
+      "thread-safe"
+    ],
+    "all-types": [
+      "postgres-array",
+      "postgres-interval",
+      "postgres-vector",
+      "postgres-range",
+      "with-chrono",
+      "with-json",
+      "with-rust_decimal",
+      "with-bigdecimal",
+      "with-uuid",
+      "with-time",
+      "with-jiff",
+      "with-ipnetwork",
+      "with-mac_address"
+    ],
+    "attr": [
+      "sea-query-derive"
+    ],
+    "audit": [],
+    "backend-mysql": [],
+    "backend-postgres": [],
+    "backend-sqlite": [],
+    "default": [
+      "derive",
+      "audit",
+      "backend-mysql",
+      "backend-postgres",
+      "backend-sqlite",
+      "itoa"
+    ],
+    "derive": [
+      "sea-query-derive"
+    ],
+    "hashable-value": [
+      "ordered-float"
+    ],
+    "itoa": [
+      "dep:itoa"
+    ],
+    "option-more-parentheses": [],
+    "option-sqlite-exact-column-type": [],
+    "postgres-array": [],
+    "postgres-interval": [],
+    "postgres-range": [
+      "sea-query-postgres-types/range"
+    ],
+    "postgres-vector": [
+      "pgvector"
+    ],
+    "sea-orm": [
+      "sea-query-derive"
+    ],
+    "serde": [
+      "dep:serde",
+      "chrono?/serde",
+      "time?/serde",
+      "jiff?/serde",
+      "uuid?/serde",
+      "bigdecimal?/serde",
+      "rust_decimal?/serde",
+      "ipnetwork?/serde",
+      "mac_address?/serde",
+      "pgvector?/serde",
+      "sea-query-postgres-types?/serde"
+    ],
+    "sqlx-utils": [
+      "derive"
+    ],
+    "tests-cfg": [],
+    "thread-safe": [],
+    "with-bigdecimal": [
+      "bigdecimal"
+    ],
+    "with-chrono": [
+      "chrono"
+    ],
+    "with-ipnetwork": [
+      "ipnetwork"
+    ],
+    "with-jiff": [
+      "jiff"
+    ],
+    "with-json": [
+      "serde_json"
+    ],
+    "with-mac_address": [
+      "mac_address"
+    ],
+    "with-rust_decimal": [
+      "rust_decimal"
+    ],
+    "with-time": [
+      "time"
+    ],
+    "with-uuid": [
+      "uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 103782,
+    "login": "tyt2y3"
+  },
+  "publishedAt": "2025-12-29T19:35:19.927903Z",
+  "dependencies": [
+    "criterion",
+    "inherent",
+    "pretty_assertions",
+    "bigdecimal",
+    "chrono",
+    "ipnetwork",
+    "itoa",
+    "jiff",
+    "mac_address",
+    "ordered-float",
+    "pgvector",
+    "rust_decimal",
+    "sea-query-derive",
+    "sea-query-postgres-types",
+    "serde",
+    "serde_json",
+    "time",
+    "uuid"
+  ]
+}

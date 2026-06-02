@@ -1,0 +1,129 @@
+{
+  "name": "tower-http",
+  "version": "0.1.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "0b7b56efe69aa0ad2b5da6b942e57ea9f6fe683b7a314d4ff48662e2c8838de1",
+  "features": {
+    "add-extension": [],
+    "auth": [
+      "base64"
+    ],
+    "compression": [
+      "tokio-util",
+      "tokio"
+    ],
+    "compression-br": [
+      "async-compression/brotli",
+      "compression"
+    ],
+    "compression-deflate": [
+      "async-compression/zlib",
+      "compression"
+    ],
+    "compression-full": [
+      "compression-br",
+      "compression-deflate",
+      "compression-gzip"
+    ],
+    "compression-gzip": [
+      "async-compression/gzip",
+      "compression"
+    ],
+    "decompression": [
+      "tokio-util",
+      "tokio"
+    ],
+    "decompression-br": [
+      "async-compression/brotli",
+      "decompression"
+    ],
+    "decompression-deflate": [
+      "async-compression/zlib",
+      "decompression"
+    ],
+    "decompression-full": [
+      "decompression-br",
+      "decompression-deflate",
+      "decompression-gzip"
+    ],
+    "decompression-gzip": [
+      "async-compression/gzip",
+      "decompression"
+    ],
+    "default": [],
+    "follow-redirect": [
+      "iri-string",
+      "tower/util"
+    ],
+    "fs": [
+      "tokio/fs",
+      "tokio-util/io",
+      "mime_guess",
+      "mime"
+    ],
+    "full": [
+      "add-extension",
+      "auth",
+      "compression",
+      "compression-full",
+      "decompression-full",
+      "follow-redirect",
+      "fs",
+      "map-request-body",
+      "map-response-body",
+      "metrics",
+      "propagate-header",
+      "redirect",
+      "sensitive-headers",
+      "set-header",
+      "trace"
+    ],
+    "map-request-body": [],
+    "map-response-body": [],
+    "metrics": [
+      "tokio/time"
+    ],
+    "propagate-header": [],
+    "redirect": [],
+    "sensitive-headers": [],
+    "set-header": [],
+    "trace": [
+      "tracing"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2021-07-02T12:39:02.405875Z",
+  "dependencies": [
+    "bytes",
+    "bytes",
+    "flate2",
+    "futures",
+    "futures-core",
+    "futures-util",
+    "http",
+    "http-body",
+    "hyper",
+    "once_cell",
+    "pin-project",
+    "tokio",
+    "tower",
+    "tower-layer",
+    "tower-service",
+    "tracing-subscriber",
+    "async-compression",
+    "base64",
+    "hyper",
+    "iri-string",
+    "mime",
+    "mime_guess",
+    "tokio",
+    "tokio-util",
+    "tower",
+    "tracing"
+  ]
+}

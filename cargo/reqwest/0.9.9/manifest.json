@@ -1,0 +1,71 @@
+{
+  "name": "reqwest",
+  "version": "0.9.9",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "09d6e187a58d923ee132fcda141c94e716bcfe301c2ea2bef5c81536e0085376",
+  "features": {
+    "default": [
+      "default-tls"
+    ],
+    "default-tls": [
+      "hyper-tls",
+      "native-tls",
+      "tls"
+    ],
+    "default-tls-vendored": [
+      "default-tls",
+      "native-tls/vendored"
+    ],
+    "hyper-011": [
+      "hyper-old-types"
+    ],
+    "rustls-tls": [
+      "hyper-rustls",
+      "tokio-rustls",
+      "webpki-roots",
+      "rustls",
+      "tls"
+    ],
+    "tls": [],
+    "trust-dns": [
+      "trust-dns-resolver"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2019-01-23T20:24:02.688735Z",
+  "dependencies": [
+    "base64",
+    "bytes",
+    "encoding_rs",
+    "env_logger",
+    "futures",
+    "http",
+    "hyper",
+    "libflate",
+    "log",
+    "mime",
+    "mime_guess",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_urlencoded",
+    "tokio",
+    "tokio-executor",
+    "tokio-io",
+    "tokio-tcp",
+    "tokio-threadpool",
+    "tokio-timer",
+    "url",
+    "uuid",
+    "hyper-old-types",
+    "hyper-rustls",
+    "hyper-tls",
+    "native-tls",
+    "rustls",
+    "tokio-rustls",
+    "trust-dns-resolver",
+    "webpki-roots"
+  ]
+}

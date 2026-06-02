@@ -1,0 +1,44 @@
+{
+  "name": "pest",
+  "version": "2.7.13",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "fdbef9d1d47087a895abd220ed25eb4ad973a5e26f6a4367b038c25e28dfc2d9",
+  "features": {
+    "const_prec_climber": [],
+    "default": [
+      "std",
+      "memchr"
+    ],
+    "miette-error": [
+      "std",
+      "pretty-print",
+      "dep:miette",
+      "dep:thiserror"
+    ],
+    "pretty-print": [
+      "dep:serde",
+      "dep:serde_json"
+    ],
+    "std": [
+      "ucd-trie/std",
+      "dep:thiserror"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 95892,
+    "login": "tomtau"
+  },
+  "publishedAt": "2024-09-19T13:08:01.516302Z",
+  "dependencies": [
+    "criterion",
+    "miette",
+    "ucd-trie",
+    "memchr",
+    "miette",
+    "serde",
+    "serde_json",
+    "thiserror"
+  ]
+}

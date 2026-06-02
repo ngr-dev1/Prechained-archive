@@ -1,0 +1,27 @@
+{
+  "name": "logos",
+  "version": "0.9.7",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "f494e22d293fa05db60b3fd95fb30e9409feb5672b56ce6f250f99d9fbae6b93",
+  "features": {
+    "default": [
+      "export_derive",
+      "std"
+    ],
+    "export_derive": [
+      "logos-derive"
+    ],
+    "nul_term_source": [
+      "toolshed"
+    ],
+    "std": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-12-15T11:37:15.161265Z",
+  "dependencies": [
+    "logos-derive",
+    "toolshed"
+  ]
+}

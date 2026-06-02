@@ -1,0 +1,47 @@
+{
+  "name": "amqprs",
+  "version": "1.7.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "d4173302f657e24f1b914edc992549077ec7f4971599e1aea42a01b17eb6e079",
+  "features": {
+    "compliance_assert": [],
+    "default": [],
+    "tls": [
+      "tokio-rustls",
+      "rustls-pemfile",
+      "webpki-roots",
+      "rustls-pki-types",
+      "rustls-webpki"
+    ],
+    "traces": [
+      "tracing"
+    ],
+    "urispec": [
+      "uriparse"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 184137,
+    "login": "gftea"
+  },
+  "publishedAt": "2024-08-03T18:53:48.661588Z",
+  "dependencies": [
+    "amqp_serde",
+    "async-trait",
+    "bytes",
+    "serde",
+    "serde_bytes",
+    "tokio",
+    "tracing",
+    "tracing-subscriber",
+    "rustls-pemfile",
+    "rustls-pki-types",
+    "rustls-webpki",
+    "tokio-rustls",
+    "tracing",
+    "uriparse",
+    "webpki-roots"
+  ]
+}

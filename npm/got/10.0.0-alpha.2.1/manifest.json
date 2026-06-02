@@ -1,0 +1,83 @@
+{
+  "name": "got",
+  "version": "10.0.0-alpha.2.1",
+  "ecosystem": "npm",
+  "description": "Human-friendly and powerful HTTP request library for Node.js",
+  "license": "MIT",
+  "dependencies": {
+    "duplexer3": "^0.1.4",
+    "type-fest": "^0.8.0",
+    "get-stream": "^5.0.0",
+    "p-cancelable": "^2.0.0",
+    "responselike": "^1.0.2",
+    "lowercase-keys": "^2.0.0",
+    "mimic-response": "^2.0.0",
+    "@sindresorhus/is": "^1.0.0",
+    "cacheable-lookup": "^0.2.1",
+    "cacheable-request": "^6.1.0",
+    "to-readable-stream": "^2.0.0",
+    "@types/tough-cookie": "^2.3.5",
+    "decompress-response": "^4.2.0",
+    "@szmarczak/http-timer": "^2.0.0",
+    "@types/cacheable-request": "^6.0.1"
+  },
+  "devDependencies": {
+    "np": "^5.0.3",
+    "xo": "^0.24.0",
+    "ava": "^2.4.0",
+    "nyc": "^14.0.0",
+    "keyv": "^3.1.0",
+    "nock": "^11.3.4",
+    "delay": "^4.3.0",
+    "lolex": "^4.2.0",
+    "sinon": "^7.4.2",
+    "tempy": "^0.3.0",
+    "del-cli": "^3.0.0",
+    "p-event": "^4.0.0",
+    "ts-node": "^8.4.1",
+    "get-port": "^5.0.0",
+    "coveralls": "^3.0.4",
+    "form-data": "^2.5.1",
+    "proxyquire": "^2.0.1",
+    "typescript": "3.4.4",
+    "@types/node": "^12.7.5",
+    "slow-stream": "0.0.4",
+    "@types/sinon": "^7.0.13",
+    "tough-cookie": "^3.0.0",
+    "@types/duplexer3": "^0.1.0",
+    "create-test-server": "^3.0.1",
+    "@sindresorhus/tsconfig": "^0.4.0",
+    "@typescript-eslint/parser": "^1.10.2",
+    "eslint-config-xo-typescript": "^0.14.0",
+    "@typescript-eslint/eslint-plugin": "^1.10.2"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    },
+    {
+      "name": "szmarczak",
+      "email": "sz.marczak@gmail.com"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2019-09-23T14:44:35.047Z",
+  "dist": {
+    "integrity": "sha512-xAiFuGzxUuJl84zESTi+MA/92Dn7tbN4CAsz2SUIwAVgLZ0SscS3Q72w0/Q1Qwy35guYd8utWel6ip4VUkx5Zg==",
+    "shasum": "d047db7a2ef50f3f7a10c824b84c07f55b297cd6",
+    "tarball": "https://registry.npmjs.org/got/-/got-10.0.0-alpha.2.1.tgz",
+    "fileCount": 4,
+    "unpackedSize": 60075
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  }
+}

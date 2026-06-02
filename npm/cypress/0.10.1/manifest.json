@@ -1,0 +1,64 @@
+{
+  "name": "cypress",
+  "version": "0.10.1",
+  "ecosystem": "npm",
+  "description": "Cypress is a next generation front end testing tool built for the modern web",
+  "license": "MIT",
+  "dependencies": {
+    "xvfb": "github:cypress-io/node-xvfb",
+    "chalk": "^1.1.0",
+    "yauzl": "^2.4.1",
+    "lodash": "^3.10.0",
+    "asciify": "^1.3.5",
+    "request": "^2.60.0",
+    "bluebird": "3.3.4",
+    "fs-extra": "^0.22.1",
+    "progress": "^1.1.8",
+    "through2": "^2.0.0",
+    "commander": "^2.8.1",
+    "extract-zip": "1.5.0",
+    "home-or-tmp": "^2.0.0",
+    "coffee-script": "^1.9.3",
+    "human-interval": "^0.1.5",
+    "update-notifier": "^0.5.0",
+    "request-progress": "^0.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "nock": "^2.9.1",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4",
+    "mockery": "^1.4.0",
+    "mock-spawn": "^0.2.6",
+    "proxyquire": "^1.6.0",
+    "sinon-chai": "^2.8.0",
+    "sinon-as-promised": "^4.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "coffee ./lib/deprecation.coffee",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "brian-mann",
+      "email": "brian.mann86@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Brian Mann"
+  },
+  "publishedAt": "2016-03-26T18:13:27.853Z",
+  "dist": {
+    "integrity": "sha512-On9djwLerJOV/Cfoakl1zR7cWCpZ1Oltx+e0UPpVRQuzQ/WDZhlnxnu7JRDFIXH4dlpMK7gBd3xKg1+c3ThTow==",
+    "shasum": "f4d013455919928d5a37c14b15f7895e2fa948a2",
+    "tarball": "https://registry.npmjs.org/cypress/-/cypress-0.10.1.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "brian-mann",
+    "email": "brian.mann86@gmail.com"
+  }
+}

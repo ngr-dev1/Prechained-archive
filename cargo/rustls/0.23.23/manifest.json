@@ -1,0 +1,89 @@
+{
+  "name": "rustls",
+  "version": "0.23.23",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR ISC OR MIT",
+  "checksum": "47796c98c480fce5406ef69d1c76378375492c3b0a0de587be0c1d9feb12f395",
+  "features": {
+    "aws-lc-rs": [
+      "aws_lc_rs"
+    ],
+    "aws_lc_rs": [
+      "dep:aws-lc-rs",
+      "webpki/aws_lc_rs"
+    ],
+    "brotli": [
+      "dep:brotli",
+      "dep:brotli-decompressor",
+      "std"
+    ],
+    "custom-provider": [],
+    "default": [
+      "aws_lc_rs",
+      "logging",
+      "std",
+      "tls12"
+    ],
+    "fips": [
+      "aws_lc_rs",
+      "aws-lc-rs?/fips"
+    ],
+    "logging": [
+      "log"
+    ],
+    "prefer-post-quantum": [
+      "aws_lc_rs"
+    ],
+    "read_buf": [
+      "rustversion",
+      "std"
+    ],
+    "ring": [
+      "dep:ring",
+      "webpki/ring"
+    ],
+    "std": [
+      "webpki/std",
+      "pki-types/std",
+      "once_cell/std"
+    ],
+    "tls12": [],
+    "zlib": [
+      "dep:zlib-rs"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4556,
+    "login": "djc"
+  },
+  "publishedAt": "2025-02-11T16:09:23.219796Z",
+  "dependencies": [
+    "base64",
+    "bencher",
+    "env_logger",
+    "hex",
+    "log",
+    "macro_rules_attribute",
+    "num-bigint",
+    "once_cell",
+    "rcgen",
+    "rustls-pki-types",
+    "rustls-webpki",
+    "serde",
+    "serde_json",
+    "subtle",
+    "time",
+    "webpki-roots",
+    "x509-parser",
+    "zeroize",
+    "aws-lc-rs",
+    "brotli",
+    "brotli-decompressor",
+    "hashbrown",
+    "log",
+    "ring",
+    "rustversion",
+    "zlib-rs"
+  ]
+}

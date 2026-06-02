@@ -1,0 +1,55 @@
+{
+  "name": "sqlite3",
+  "version": "3.1.2",
+  "ecosystem": "npm",
+  "description": "Asynchronous, non-blocking SQLite3 bindings",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "nan": "~2.2.0",
+    "node-pre-gyp": "~0.6.18"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.3",
+    "aws-sdk": "~2.1.26"
+  },
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "kkaefer",
+      "email": "kkaefer@gmail.com"
+    },
+    {
+      "name": "yhahn",
+      "email": "young@developmentseed.org"
+    },
+    {
+      "name": "tmcw",
+      "email": "macwright@gmail.com"
+    },
+    {
+      "name": "springmeyer",
+      "email": "dane@dbsgeo.com"
+    }
+  ],
+  "author": {
+    "url": "https://mapbox.com/",
+    "name": "MapBox"
+  },
+  "publishedAt": "2016-03-21T22:31:43.469Z",
+  "dist": {
+    "integrity": "sha512-OdU8jw9LhgsvBUgB/t1tQuOx9zHTuPeg7LW+BORp1uzdxl7iZ02503aKhwV0hheXr/TC38ZVRYMgR/klVKEP0w==",
+    "shasum": "394b2d3163924521ab0c9ff099d1022b0520395d",
+    "tarball": "https://registry.npmjs.org/sqlite3/-/sqlite3-3.1.2.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "springmeyer",
+    "email": "dane@mapbox.com"
+  }
+}

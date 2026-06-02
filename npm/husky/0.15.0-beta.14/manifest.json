@@ -1,0 +1,62 @@
+{
+  "name": "husky",
+  "version": "0.15.0-beta.14",
+  "ecosystem": "npm",
+  "description": "Modern native Git hooks",
+  "license": "MIT",
+  "dependencies": {
+    "pupa": "^1.0.0",
+    "execa": "^0.8.0",
+    "is-ci": "^1.0.10",
+    "slash": "^1.0.0",
+    "pkg-dir": "^2.0.0",
+    "read-pkg": "^3.0.0",
+    "run-node": "^0.1.1",
+    "cosmiconfig": "^3.0.0"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "crlf": "^1.1.1",
+    "jest": "^21.2.1",
+    "tempy": "^0.2.1",
+    "mkdirp": "^0.5.1",
+    "pkg-ok": "^1.1.0",
+    "tslint": "^5.8.0",
+    "del-cli": "^1.1.0",
+    "prettier": "^1.8.2",
+    "cross-env": "^5.1.1",
+    "typescript": "^2.6.1",
+    "@types/jest": "^21.1.8",
+    "@types/node": "^8.0.53",
+    "tslint-config-prettier": "^1.6.0",
+    "tslint-plugin-prettier": "^1.3.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "node lib/installer/bin install",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "typicode",
+      "email": "typicode@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Typicode",
+    "email": "typicode@gmail.com"
+  },
+  "publishedAt": "2017-11-28T19:32:02.728Z",
+  "dist": {
+    "integrity": "sha512-fmJgRabazH2Up64PAun8knBgp9F2uEDFOZi5ibdMxLIc909UfiQtfcj2rnBKcpCPg6DngAw+9KPnMXQfoIr1cQ==",
+    "shasum": "ffb83530fb66dbc0c8c64e1333a3561acdc4f0c9",
+    "tarball": "https://registry.npmjs.org/husky/-/husky-0.15.0-beta.14.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "typicode",
+    "email": "typicode@gmail.com"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "sqlx-sqlite",
+  "version": "0.8.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "d5b2cf34a45953bfd3daaf3db0f7a7878ab9b7a6b91b422d24a7a9e4c857b680",
+  "features": {
+    "any": [
+      "sqlx-core/any"
+    ],
+    "chrono": [
+      "dep:chrono",
+      "sqlx-core/chrono"
+    ],
+    "json": [
+      "sqlx-core/json",
+      "serde"
+    ],
+    "migrate": [
+      "sqlx-core/migrate"
+    ],
+    "offline": [
+      "sqlx-core/offline",
+      "serde"
+    ],
+    "regexp": [
+      "dep:regex"
+    ],
+    "time": [
+      "dep:time",
+      "sqlx-core/time"
+    ],
+    "uuid": [
+      "dep:uuid",
+      "sqlx-core/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 127,
+    "login": "abonander"
+  },
+  "publishedAt": "2024-09-03T21:16:34.564648Z",
+  "dependencies": [
+    "atoi",
+    "flume",
+    "futures-channel",
+    "futures-core",
+    "futures-executor",
+    "futures-intrusive",
+    "futures-util",
+    "libsqlite3-sys",
+    "log",
+    "percent-encoding",
+    "serde_urlencoded",
+    "sqlx",
+    "sqlx-core",
+    "tracing",
+    "url",
+    "chrono",
+    "regex",
+    "serde",
+    "time",
+    "uuid"
+  ]
+}

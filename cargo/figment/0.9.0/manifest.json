@@ -1,0 +1,48 @@
+{
+  "name": "figment",
+  "version": "0.9.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "41c1e1c32cd9d3d89899f138abd45d69d149254f3012e9ee232fb24d0616903d",
+  "features": {
+    "env": [
+      "pear",
+      "parse-value"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "magic": [
+      "serde/derive"
+    ],
+    "parse-value": [
+      "pear"
+    ],
+    "test": [
+      "tempfile",
+      "parking_lot"
+    ],
+    "yaml": [
+      "serde_yaml"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3864,
+    "login": "SergioBenitez"
+  },
+  "publishedAt": "2020-10-12T21:06:14.266460Z",
+  "dependencies": [
+    "parking_lot",
+    "serde",
+    "tempfile",
+    "uncased",
+    "version_check",
+    "parking_lot",
+    "pear",
+    "serde_json",
+    "serde_yaml",
+    "tempfile",
+    "toml"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "name": "rustix",
+  "version": "0.35.6",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "ef258c11e17f5c01979a10543a30a4e12faef6aab217a74266e747eefa3aed88",
+  "features": {
+    "all-apis": [
+      "fs",
+      "io_uring",
+      "mm",
+      "net",
+      "param",
+      "process",
+      "procfs",
+      "rand",
+      "runtime",
+      "termios",
+      "thread",
+      "time"
+    ],
+    "all-impls": [
+      "async-std",
+      "tokio",
+      "os_pipe",
+      "socket2",
+      "mio",
+      "fs-err"
+    ],
+    "async-std": [
+      "io-lifetimes/async-std"
+    ],
+    "default": [
+      "std"
+    ],
+    "fs": [],
+    "fs-err": [
+      "io-lifetimes/fs-err"
+    ],
+    "io_uring": [
+      "linux-raw-sys",
+      "fs",
+      "net"
+    ],
+    "mio": [
+      "io-lifetimes/mio"
+    ],
+    "mm": [
+      "linux-raw-sys"
+    ],
+    "net": [],
+    "os_pipe": [
+      "io-lifetimes/os_pipe"
+    ],
+    "param": [],
+    "process": [],
+    "procfs": [
+      "once_cell",
+      "itoa"
+    ],
+    "rand": [],
+    "runtime": [],
+    "rustc-dep-of-std": [
+      "core",
+      "alloc",
+      "compiler_builtins",
+      "linux-raw-sys/rustc-dep-of-std",
+      "bitflags/rustc-dep-of-std"
+    ],
+    "socket2": [
+      "io-lifetimes/socket2"
+    ],
+    "std": [
+      "io-lifetimes"
+    ],
+    "termios": [],
+    "thread": [],
+    "time": [],
+    "tokio": [
+      "io-lifetimes/tokio"
+    ],
+    "use-libc": [
+      "libc_errno",
+      "libc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode"
+  },
+  "publishedAt": "2022-06-15T23:38:47.049090Z",
+  "dependencies": [
+    "bitflags",
+    "criterion",
+    "ctor",
+    "errno",
+    "errno",
+    "io-lifetimes",
+    "libc",
+    "libc",
+    "linux-raw-sys",
+    "memoffset",
+    "serial_test",
+    "tempfile",
+    "windows-sys",
+    "cc",
+    "compiler_builtins",
+    "errno",
+    "io-lifetimes",
+    "itoa",
+    "libc",
+    "linux-raw-sys",
+    "once_cell",
+    "rustc-std-workspace-alloc",
+    "rustc-std-workspace-core"
+  ]
+}

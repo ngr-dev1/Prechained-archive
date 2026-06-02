@@ -1,0 +1,42 @@
+{
+  "name": "tokio-tungstenite",
+  "version": "0.5.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "524aba50c4479e904f4f9ff48cd874e593173c8424803694d83289c205ece91a",
+  "features": {
+    "connect": [
+      "tokio-dns-unofficial",
+      "tokio-core",
+      "stream"
+    ],
+    "default": [
+      "connect",
+      "tls"
+    ],
+    "stream": [
+      "bytes"
+    ],
+    "tls": [
+      "tokio-tls",
+      "native-tls",
+      "stream",
+      "tungstenite/tls"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-12-27T19:57:50.031309Z",
+  "dependencies": [
+    "futures",
+    "tokio-core",
+    "tokio-io",
+    "tungstenite",
+    "url",
+    "bytes",
+    "native-tls",
+    "tokio-core",
+    "tokio-dns-unofficial",
+    "tokio-tls"
+  ]
+}

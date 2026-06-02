@@ -1,0 +1,40 @@
+{
+  "name": "chrono-tz",
+  "version": "0.10.3",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "efdce149c370f133a071ca8ef6ea340b7b88748ab0810097a9e2976eaa34b4f3",
+  "features": {
+    "case-insensitive": [
+      "dep:uncased",
+      "chrono-tz-build/case-insensitive",
+      "phf/uncased"
+    ],
+    "default": [
+      "std"
+    ],
+    "filter-by-regex": [
+      "chrono-tz-build/filter-by-regex"
+    ],
+    "serde": [
+      "dep:serde"
+    ],
+    "std": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4556,
+    "login": "djc"
+  },
+  "publishedAt": "2025-03-24T09:44:13.409151Z",
+  "dependencies": [
+    "chrono",
+    "chrono",
+    "chrono-tz-build",
+    "phf",
+    "serde_test",
+    "arbitrary",
+    "serde",
+    "uncased"
+  ]
+}

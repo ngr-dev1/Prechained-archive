@@ -1,0 +1,36 @@
+{
+  "name": "scrypt",
+  "version": "0.6.5",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "19230d10daad7f163d8c1fc8edf84fbe52ac71c2ebe5adf3f763aa1557b843e3",
+  "features": {
+    "default": [
+      "simple",
+      "std"
+    ],
+    "simple": [
+      "password-hash",
+      "base64ct"
+    ],
+    "std": [
+      "password-hash/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2021-03-27T14:52:35.177666Z",
+  "dependencies": [
+    "hmac",
+    "password-hash",
+    "pbkdf2",
+    "rand_core",
+    "salsa20",
+    "sha2",
+    "base64ct",
+    "password-hash"
+  ]
+}

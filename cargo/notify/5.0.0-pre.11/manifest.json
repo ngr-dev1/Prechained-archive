@@ -1,0 +1,46 @@
+{
+  "name": "notify",
+  "version": "5.0.0-pre.11",
+  "ecosystem": "cargo",
+  "license": "CC0-1.0 OR Artistic-2.0",
+  "checksum": "c614e7ed2b1cf82ec99aeffd8cf6225ef5021b9951148eb161393c394855032c",
+  "features": {
+    "default": [
+      "macos_fsevent"
+    ],
+    "macos_fsevent": [
+      "fsevent-sys"
+    ],
+    "macos_kqueue": [
+      "kqueue",
+      "mio"
+    ],
+    "manual_tests": [],
+    "timing_tests": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 18031,
+    "login": "0xpr03"
+  },
+  "publishedAt": "2021-07-23T23:28:39.974270Z",
+  "dependencies": [
+    "bitflags",
+    "crossbeam-channel",
+    "filetime",
+    "futures",
+    "inotify",
+    "kqueue",
+    "libc",
+    "mio",
+    "mio",
+    "serde_json",
+    "tempfile",
+    "walkdir",
+    "winapi",
+    "fsevent-sys",
+    "kqueue",
+    "mio",
+    "serde"
+  ]
+}

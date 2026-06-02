@@ -1,0 +1,106 @@
+{
+  "name": "leptos",
+  "version": "0.7.0-beta2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "14fd1fb08131fa72610b2a19f0684eb1782a8bab88333b04b9e262402d18136c",
+  "features": {
+    "csr": [
+      "leptos_macro/csr",
+      "reactive_graph/effects"
+    ],
+    "default-tls": [
+      "server_fn/default-tls"
+    ],
+    "delegation": [
+      "tachys/delegation"
+    ],
+    "experimental-islands": [
+      "leptos_macro/experimental-islands",
+      "dep:serde_json"
+    ],
+    "hydrate": [
+      "leptos_macro/hydrate",
+      "hydration",
+      "tachys/hydrate",
+      "reactive_graph/effects"
+    ],
+    "hydration": [
+      "reactive_graph/hydration",
+      "leptos_server/hydration",
+      "hydration_context/browser"
+    ],
+    "nightly": [
+      "leptos_macro/nightly",
+      "reactive_graph/nightly",
+      "tachys/nightly"
+    ],
+    "nonce": [
+      "base64",
+      "rand"
+    ],
+    "rkyv": [
+      "server_fn/rkyv"
+    ],
+    "rustls": [
+      "server_fn/rustls"
+    ],
+    "spin": [
+      "leptos-spin-macro"
+    ],
+    "ssr": [
+      "leptos_macro/ssr",
+      "leptos_server/ssr",
+      "server_fn/ssr",
+      "hydration",
+      "tachys/ssr"
+    ],
+    "trace-component-props": [
+      "leptos_macro/trace-component-props"
+    ],
+    "tracing": [
+      "reactive_graph/tracing",
+      "tachys/tracing"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 130155,
+    "login": "gbj"
+  },
+  "publishedAt": "2024-08-15T00:35:02.390557Z",
+  "dependencies": [
+    "any_spawner",
+    "cfg-if",
+    "either_of",
+    "futures",
+    "hydration_context",
+    "leptos_config",
+    "leptos_dom",
+    "leptos_hot_reload",
+    "leptos_macro",
+    "leptos_server",
+    "oco_ref",
+    "or_poisoned",
+    "paste",
+    "reactive_graph",
+    "rustc-hash",
+    "send_wrapper",
+    "serde",
+    "serde_qs",
+    "server_fn",
+    "slotmap",
+    "tachys",
+    "thiserror",
+    "throw_error",
+    "tracing",
+    "typed-builder",
+    "typed-builder-macro",
+    "wasm-bindgen",
+    "web-sys",
+    "base64",
+    "leptos-spin-macro",
+    "rand",
+    "serde_json"
+  ]
+}

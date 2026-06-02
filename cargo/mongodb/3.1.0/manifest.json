@@ -1,0 +1,142 @@
+{
+  "name": "mongodb",
+  "version": "3.1.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "c857d71f918b38221baf2fdff7207fec9984b4504901544772b1edf0302d669f",
+  "features": {
+    "aws-auth": [
+      "dep:reqwest"
+    ],
+    "azure-kms": [
+      "dep:reqwest"
+    ],
+    "azure-oidc": [
+      "dep:reqwest"
+    ],
+    "compat-3-0-0": [],
+    "default": [
+      "compat-3-0-0",
+      "rustls-tls",
+      "dns-resolver"
+    ],
+    "dns-resolver": [
+      "dep:hickory-resolver",
+      "dep:hickory-proto"
+    ],
+    "gcp-kms": [
+      "dep:reqwest"
+    ],
+    "gcp-oidc": [
+      "dep:reqwest"
+    ],
+    "in-use-encryption-unstable": [
+      "dep:mongocrypt",
+      "dep:rayon",
+      "dep:num_cpus"
+    ],
+    "openssl-tls": [
+      "dep:openssl",
+      "dep:openssl-probe",
+      "dep:tokio-openssl"
+    ],
+    "rustls-tls": [
+      "dep:rustls",
+      "dep:rustls-pemfile",
+      "dep:tokio-rustls"
+    ],
+    "snappy-compression": [
+      "dep:snap"
+    ],
+    "sync": [],
+    "tracing-unstable": [
+      "dep:tracing",
+      "dep:log"
+    ],
+    "zlib-compression": [
+      "dep:flate2"
+    ],
+    "zstd-compression": [
+      "dep:zstd"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 103590,
+    "login": "mongo-rust-driver"
+  },
+  "publishedAt": "2024-08-30T15:38:51.673871Z",
+  "dependencies": [
+    "anyhow",
+    "approx",
+    "async-trait",
+    "backtrace",
+    "base64",
+    "bitflags",
+    "bson",
+    "chrono",
+    "ctrlc",
+    "derivative",
+    "derive_more",
+    "function_name",
+    "futures",
+    "futures-core",
+    "futures-executor",
+    "futures-io",
+    "futures-util",
+    "hex",
+    "hex",
+    "hmac",
+    "home",
+    "lambda_runtime",
+    "md-5",
+    "mongodb-internal-macros",
+    "once_cell",
+    "pbkdf2",
+    "percent-encoding",
+    "pretty_assertions",
+    "rand",
+    "regex",
+    "rustc_version_runtime",
+    "semver",
+    "serde",
+    "serde",
+    "serde-hex",
+    "serde_bytes",
+    "serde_json",
+    "serde_path_to_error",
+    "serde_with",
+    "sha-1",
+    "sha2",
+    "socket2",
+    "stringprep",
+    "strsim",
+    "take_mut",
+    "thiserror",
+    "time",
+    "tokio",
+    "tokio",
+    "tokio-util",
+    "tracing-subscriber",
+    "typed-builder",
+    "uuid",
+    "webpki-roots",
+    "flate2",
+    "hickory-proto",
+    "hickory-resolver",
+    "log",
+    "mongocrypt",
+    "num_cpus",
+    "openssl",
+    "openssl-probe",
+    "rayon",
+    "reqwest",
+    "rustls",
+    "rustls-pemfile",
+    "snap",
+    "tokio-openssl",
+    "tokio-rustls",
+    "tracing",
+    "zstd"
+  ]
+}

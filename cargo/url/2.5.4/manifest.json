@@ -1,0 +1,35 @@
+{
+  "name": "url",
+  "version": "2.5.4",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "32f8b686cadd1473f4bd0117a5d28d36b1ade384ea9b5069a1c40aefed7fda60",
+  "features": {
+    "debugger_visualizer": [],
+    "default": [
+      "std"
+    ],
+    "expose_internals": [],
+    "std": [
+      "idna/std",
+      "percent-encoding/std",
+      "form_urlencoded/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 72883,
+    "login": "valenting"
+  },
+  "publishedAt": "2024-11-22T19:49:19.984539Z",
+  "dependencies": [
+    "bencher",
+    "form_urlencoded",
+    "idna",
+    "percent-encoding",
+    "serde",
+    "serde_json",
+    "wasm-bindgen-test",
+    "serde"
+  ]
+}

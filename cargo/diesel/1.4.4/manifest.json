@@ -1,0 +1,109 @@
+{
+  "name": "diesel",
+  "version": "1.4.4",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "33d7ca63eb2efea87a7f56a283acc49e2ce4b2bd54adf7465dc1d81fef13d8fc",
+  "features": {
+    "128-column-tables": [
+      "64-column-tables"
+    ],
+    "32-column-tables": [],
+    "64-column-tables": [
+      "32-column-tables"
+    ],
+    "default": [
+      "with-deprecated",
+      "32-column-tables"
+    ],
+    "deprecated-time": [
+      "time"
+    ],
+    "extras": [
+      "chrono",
+      "serde_json",
+      "uuid",
+      "deprecated-time",
+      "network-address",
+      "numeric",
+      "r2d2"
+    ],
+    "huge-tables": [
+      "64-column-tables"
+    ],
+    "large-tables": [
+      "32-column-tables"
+    ],
+    "mysql": [
+      "mysqlclient-sys",
+      "url",
+      "percent-encoding",
+      "diesel_derives/mysql"
+    ],
+    "network-address": [
+      "ipnetwork",
+      "libc"
+    ],
+    "numeric": [
+      "num-bigint",
+      "bigdecimal",
+      "num-traits",
+      "num-integer"
+    ],
+    "postgres": [
+      "pq-sys",
+      "bitflags",
+      "diesel_derives/postgres"
+    ],
+    "sqlite": [
+      "libsqlite3-sys",
+      "diesel_derives/sqlite"
+    ],
+    "unstable": [
+      "diesel_derives/nightly"
+    ],
+    "with-deprecated": [],
+    "x128-column-tables": [
+      "128-column-tables"
+    ],
+    "x32-column-tables": [
+      "32-column-tables"
+    ],
+    "x64-column-tables": [
+      "64-column-tables"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4568,
+    "login": "weiznich"
+  },
+  "publishedAt": "2020-03-23T10:01:30.591728Z",
+  "dependencies": [
+    "byteorder",
+    "cfg-if",
+    "diesel_derives",
+    "dotenv",
+    "quickcheck",
+    "tempdir",
+    "bigdecimal",
+    "bitflags",
+    "chrono",
+    "ipnetwork",
+    "libc",
+    "libsqlite3-sys",
+    "mysqlclient-sys",
+    "num-bigint",
+    "num-integer",
+    "num-traits",
+    "percent-encoding",
+    "pq-sys",
+    "quickcheck",
+    "r2d2",
+    "serde_json",
+    "time",
+    "url",
+    "uuid",
+    "uuid"
+  ]
+}

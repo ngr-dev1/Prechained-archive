@@ -1,0 +1,158 @@
+{
+  "name": "mongodb",
+  "version": "2.8.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "46c30763a5c6c52079602be44fa360ca3bfacee55fca73f4734aecd23706a7f2",
+  "features": {
+    "async-std-runtime": [
+      "async-executor",
+      "async-std",
+      "async-std/attributes",
+      "async-std/unstable",
+      "async-std-resolver",
+      "tokio-util/compat"
+    ],
+    "aws-auth": [
+      "reqwest"
+    ],
+    "azure-kms": [
+      "reqwest"
+    ],
+    "bson-chrono-0_4": [
+      "bson/chrono-0_4"
+    ],
+    "bson-serde_with": [
+      "bson/serde_with"
+    ],
+    "bson-uuid-0_8": [
+      "bson/uuid-0_8"
+    ],
+    "bson-uuid-1": [
+      "bson/uuid-1"
+    ],
+    "default": [
+      "tokio-runtime"
+    ],
+    "gcp-kms": [
+      "reqwest"
+    ],
+    "in-use-encryption-unstable": [
+      "mongocrypt",
+      "rayon",
+      "num_cpus"
+    ],
+    "openssl-tls": [
+      "openssl",
+      "openssl-probe",
+      "tokio-openssl"
+    ],
+    "snappy-compression": [
+      "snap"
+    ],
+    "sync": [
+      "async-std-runtime"
+    ],
+    "tokio-runtime": [
+      "tokio/macros",
+      "tokio/net",
+      "tokio/process",
+      "tokio/rt",
+      "tokio/time",
+      "serde_bytes"
+    ],
+    "tokio-sync": [
+      "tokio-runtime"
+    ],
+    "tracing-unstable": [
+      "tracing",
+      "log"
+    ],
+    "zlib-compression": [
+      "flate2"
+    ],
+    "zstd-compression": [
+      "zstd"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 103590,
+    "login": "mongo-rust-driver"
+  },
+  "publishedAt": "2023-12-11T19:24:40.547691Z",
+  "dependencies": [
+    "anyhow",
+    "approx",
+    "async-trait",
+    "backtrace",
+    "base64",
+    "bitflags",
+    "bson",
+    "chrono",
+    "ctrlc",
+    "derivative",
+    "derive_more",
+    "function_name",
+    "futures",
+    "futures-core",
+    "futures-executor",
+    "futures-io",
+    "futures-util",
+    "hex",
+    "hex",
+    "hmac",
+    "home",
+    "lambda_runtime",
+    "lazy_static",
+    "md-5",
+    "pbkdf2",
+    "percent-encoding",
+    "pretty_assertions",
+    "rand",
+    "regex",
+    "rustc_version_runtime",
+    "rustls",
+    "rustls-pemfile",
+    "semver",
+    "serde",
+    "serde",
+    "serde-hex",
+    "serde_json",
+    "serde_with",
+    "sha-1",
+    "sha2",
+    "socket2",
+    "stringprep",
+    "strsim",
+    "take_mut",
+    "thiserror",
+    "time",
+    "tokio",
+    "tokio",
+    "tokio-rustls",
+    "tokio-util",
+    "tracing-subscriber",
+    "trust-dns-proto",
+    "trust-dns-resolver",
+    "typed-builder",
+    "uuid",
+    "webpki-roots",
+    "async-executor",
+    "async-std",
+    "async-std-resolver",
+    "flate2",
+    "log",
+    "mongocrypt",
+    "num_cpus",
+    "openssl",
+    "openssl-probe",
+    "rayon",
+    "reqwest",
+    "serde_bytes",
+    "snap",
+    "tokio-openssl",
+    "tracing",
+    "zstd"
+  ]
+}

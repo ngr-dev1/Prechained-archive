@@ -1,0 +1,64 @@
+{
+  "name": "pbkdf2",
+  "version": "0.13.0-rc.9",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "c8dfa4e14084d963d35bfb4cdb38712cde78dcf83054c0e8b9b8e899150f374e",
+  "features": {
+    "alloc": [
+      "mcf?/alloc",
+      "password-hash?/alloc"
+    ],
+    "default": [
+      "hmac"
+    ],
+    "getrandom": [
+      "password-hash/getrandom"
+    ],
+    "kdf": [
+      "sha2",
+      "dep:kdf"
+    ],
+    "mcf": [
+      "sha2",
+      "password-hash",
+      "dep:mcf"
+    ],
+    "phc": [
+      "password-hash/phc",
+      "sha2"
+    ],
+    "rand_core": [
+      "password-hash/rand_core"
+    ],
+    "sha1": [
+      "hmac",
+      "dep:sha1"
+    ],
+    "sha2": [
+      "hmac",
+      "dep:sha2"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2026-02-03T01:13:40.715148Z",
+  "dependencies": [
+    "belt-hash",
+    "digest",
+    "hex-literal",
+    "hmac",
+    "sha1",
+    "sha2",
+    "streebog",
+    "hmac",
+    "kdf",
+    "mcf",
+    "password-hash",
+    "sha1",
+    "sha2"
+  ]
+}

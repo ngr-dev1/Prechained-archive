@@ -1,0 +1,39 @@
+{
+  "name": "deadpool",
+  "version": "0.12.3",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "0be2b1d1d6ec8d846f05e137292d0b89133caf95ef33695424c09568bdd39b1b",
+  "features": {
+    "default": [
+      "managed",
+      "unmanaged"
+    ],
+    "managed": [],
+    "rt_async-std_1": [
+      "deadpool-runtime/async-std_1"
+    ],
+    "rt_tokio_1": [
+      "deadpool-runtime/tokio_1"
+    ],
+    "unmanaged": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 7070,
+    "login": "bikeshedder"
+  },
+  "publishedAt": "2025-09-02T10:18:59.944098Z",
+  "dependencies": [
+    "async-std",
+    "config",
+    "criterion",
+    "deadpool-runtime",
+    "itertools",
+    "lazy_static",
+    "num_cpus",
+    "tokio",
+    "tokio",
+    "serde"
+  ]
+}

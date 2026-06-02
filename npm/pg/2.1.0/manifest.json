@@ -1,0 +1,43 @@
+{
+  "name": "pg",
+  "version": "2.1.0",
+  "ecosystem": "npm",
+  "description": "PostgreSQL client - pure javascript & libpq with the same API",
+  "dependencies": {
+    "ref": "0.1.3",
+    "generic-pool": "2.0.3",
+    "buffer-writer": "1.0.0"
+  },
+  "devDependencies": {
+    "jshint": "1.1.0",
+    "semver": "~1.1.4"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild || (exit 0)",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "brianc",
+      "email": "brian.m.carlson@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Brian Carlson",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "publishedAt": "2013-07-10T04:29:56.136Z",
+  "dist": {
+    "integrity": "sha512-1Wehge2M91A3wYYkWy3FBrcb5U9iyog0qihLyGaSpI1L8J6z7O8XmNm7tG1/dskwi7x74TF7pnej0veA6tHSkA==",
+    "shasum": "ea7ee6792006cc94d21b21787697b116566cbcc6",
+    "tarball": "https://registry.npmjs.org/pg/-/pg-2.1.0.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "brianc",
+    "email": "brian.m.carlson@gmail.com"
+  }
+}

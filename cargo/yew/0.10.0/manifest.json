@@ -1,0 +1,59 @@
+{
+  "name": "yew",
+  "version": "0.10.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "bffcd1ee6e1a83d51a19944dab22a14e59ddee622ec9ae2ddc4a1a64246eb050",
+  "features": {
+    "agent": [],
+    "cbor": [
+      "serde_cbor"
+    ],
+    "default": [
+      "services",
+      "agent"
+    ],
+    "doc_test": [],
+    "msgpack": [
+      "rmp-serde"
+    ],
+    "services": [],
+    "wasm_test": [],
+    "web_test": [],
+    "yaml": [
+      "serde_yaml"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 48163,
+    "login": "jstarry"
+  },
+  "publishedAt": "2019-11-11T05:49:23.573155Z",
+  "dependencies": [
+    "anymap",
+    "bincode",
+    "failure",
+    "http",
+    "indexmap",
+    "log",
+    "proc-macro-hack",
+    "proc-macro-nested",
+    "rustversion",
+    "ryu",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "slab",
+    "stdweb",
+    "trybuild",
+    "wasm-bindgen",
+    "wasm-bindgen-futures",
+    "wasm-bindgen-test",
+    "yew-macro",
+    "rmp-serde",
+    "serde_cbor",
+    "serde_yaml",
+    "toml"
+  ]
+}

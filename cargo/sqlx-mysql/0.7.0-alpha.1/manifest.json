@@ -1,0 +1,71 @@
+{
+  "name": "sqlx-mysql",
+  "version": "0.7.0-alpha.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "469486f37520e3e0442a8db23c828f5ee78e329b449745e71eaa68dda02a4642",
+  "features": {
+    "any": [
+      "sqlx-core/any"
+    ],
+    "json": [
+      "sqlx-core/json",
+      "serde"
+    ],
+    "migrate": [
+      "sqlx-core/migrate"
+    ],
+    "offline": [
+      "sqlx-core/offline",
+      "serde/derive"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 127,
+    "login": "abonander"
+  },
+  "publishedAt": "2023-02-22T00:42:04.825544Z",
+  "dependencies": [
+    "atoi",
+    "base64",
+    "bitflags",
+    "byteorder",
+    "bytes",
+    "crc",
+    "digest",
+    "dirs",
+    "dotenvy",
+    "either",
+    "futures-channel",
+    "futures-core",
+    "futures-io",
+    "futures-util",
+    "generic-array",
+    "hex",
+    "hkdf",
+    "hmac",
+    "itoa",
+    "log",
+    "md-5",
+    "memchr",
+    "once_cell",
+    "percent-encoding",
+    "rand",
+    "rsa",
+    "sha1",
+    "sha2",
+    "smallvec",
+    "sqlx-core",
+    "stringprep",
+    "thiserror",
+    "tracing",
+    "whoami",
+    "bigdecimal",
+    "chrono",
+    "rust_decimal",
+    "serde",
+    "time",
+    "uuid"
+  ]
+}

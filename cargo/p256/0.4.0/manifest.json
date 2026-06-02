@@ -1,0 +1,61 @@
+{
+  "name": "p256",
+  "version": "0.4.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "0558e813a58d71908bd44790f930b7ef50366d0b5df65b740ac1e1660768a0cb",
+  "features": {
+    "arithmetic": [],
+    "default": [
+      "arithmetic",
+      "std"
+    ],
+    "ecdh": [
+      "elliptic-curve/ecdh",
+      "rand",
+      "zeroize"
+    ],
+    "ecdsa": [
+      "arithmetic",
+      "ecdsa-core/signer",
+      "ecdsa-core/verifier",
+      "rand",
+      "sha256",
+      "zeroize"
+    ],
+    "oid": [
+      "elliptic-curve/oid"
+    ],
+    "rand": [
+      "elliptic-curve/rand"
+    ],
+    "sha256": [
+      "ecdsa-core/digest",
+      "ecdsa-core/hazmat",
+      "sha2"
+    ],
+    "std": [
+      "elliptic-curve/std"
+    ],
+    "test-vectors": [],
+    "zeroize": [
+      "elliptic-curve/zeroize"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2020-08-11T03:51:30.584601Z",
+  "dependencies": [
+    "ecdsa",
+    "elliptic-curve",
+    "hex",
+    "hex-literal",
+    "proptest",
+    "rand_core",
+    "ecdsa",
+    "sha2"
+  ]
+}

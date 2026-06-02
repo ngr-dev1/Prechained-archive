@@ -1,0 +1,105 @@
+{
+  "name": "poem",
+  "version": "1.0.14",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "6cb84a8507f521c4597f497f8b41c0f5bc6cf169dd9e751e8ca3a1185deab10f",
+  "features": {
+    "compression": [
+      "async-compression",
+      "typed-headers"
+    ],
+    "cookie": [
+      "libcookie",
+      "chrono",
+      "time"
+    ],
+    "default": [],
+    "multipart": [
+      "multer"
+    ],
+    "opentelemetry": [
+      "libopentelemetry",
+      "opentelemetry-http",
+      "opentelemetry-semantic-conventions"
+    ],
+    "prometheus": [
+      "libopentelemetry",
+      "opentelemetry-prometheus",
+      "libprometheus"
+    ],
+    "redis-session": [
+      "session",
+      "redis"
+    ],
+    "session": [
+      "cookie",
+      "rand"
+    ],
+    "sse": [],
+    "tempfile": [
+      "libtempfile"
+    ],
+    "tls": [
+      "tokio-rustls"
+    ],
+    "tower-compat": [
+      "tower"
+    ],
+    "websocket": [
+      "tokio-tungstenite"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66052,
+    "login": "sunli829"
+  },
+  "publishedAt": "2021-10-29T10:39:07.904635Z",
+  "dependencies": [
+    "askama",
+    "async-trait",
+    "base64",
+    "bytes",
+    "futures-util",
+    "headers",
+    "http",
+    "hyper",
+    "mime",
+    "mime_guess",
+    "nom",
+    "parking_lot",
+    "percent-encoding",
+    "pin-project-lite",
+    "poem-derive",
+    "regex",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "sha1",
+    "smallvec",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tracing",
+    "webpki",
+    "async-compression",
+    "chrono",
+    "cookie",
+    "multer",
+    "opentelemetry",
+    "opentelemetry-http",
+    "opentelemetry-prometheus",
+    "opentelemetry-semantic-conventions",
+    "prometheus",
+    "rand",
+    "redis",
+    "tempfile",
+    "time",
+    "tokio-rustls",
+    "tokio-tungstenite",
+    "tower",
+    "typed-headers"
+  ]
+}

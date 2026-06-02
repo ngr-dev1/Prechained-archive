@@ -1,0 +1,80 @@
+{
+  "name": "lapin",
+  "version": "3.4.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "afc2955e62b2c6aec73bdfa0306da5c7a627dc1af98be2a155fef82242ef500e",
+  "features": {
+    "codegen": [
+      "codegen-internal",
+      "amq-protocol/codegen"
+    ],
+    "codegen-internal": [
+      "dep:amq-protocol-codegen",
+      "dep:serde_json"
+    ],
+    "default": [
+      "rustls",
+      "default-runtime"
+    ],
+    "default-runtime": [
+      "dep:async-global-executor-trait",
+      "dep:async-reactor-trait"
+    ],
+    "hickory-dns": [
+      "amq-protocol/hickory-dns"
+    ],
+    "native-tls": [
+      "amq-protocol/native-tls"
+    ],
+    "openssl": [
+      "amq-protocol/openssl"
+    ],
+    "rustls": [
+      "amq-protocol/rustls"
+    ],
+    "rustls--aws_lc_rs": [
+      "amq-protocol/rustls--aws_lc_rs"
+    ],
+    "rustls--ring": [
+      "amq-protocol/rustls--ring"
+    ],
+    "rustls-native-certs": [
+      "amq-protocol/rustls-native-certs"
+    ],
+    "rustls-webpki-roots-certs": [
+      "amq-protocol/rustls-webpki-roots-certs"
+    ],
+    "unstable": [],
+    "vendored-openssl": [
+      "amq-protocol/vendored-openssl"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1926,
+    "login": "Keruspe"
+  },
+  "publishedAt": "2025-09-02T21:36:37.056638Z",
+  "dependencies": [
+    "amq-protocol",
+    "async-global-executor",
+    "async-trait",
+    "executor-trait",
+    "flume",
+    "futures-core",
+    "futures-io",
+    "futures-lite",
+    "reactor-trait",
+    "serde_json",
+    "tokio",
+    "tokio-executor-trait",
+    "tokio-reactor-trait",
+    "tracing",
+    "tracing-subscriber",
+    "amq-protocol-codegen",
+    "async-global-executor-trait",
+    "async-reactor-trait",
+    "serde_json"
+  ]
+}

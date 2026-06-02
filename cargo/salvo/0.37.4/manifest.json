@@ -1,0 +1,131 @@
+{
+  "name": "salvo",
+  "version": "0.37.4",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "344f4d0588dbe2dd4be10d4413a4592877e0d044cb4495da29cae830828c4937",
+  "features": {
+    "acme": [
+      "salvo_core/acme"
+    ],
+    "affix": [
+      "salvo_extra/affix"
+    ],
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic-auth": [
+      "salvo_extra/basic-auth"
+    ],
+    "cache": [
+      "dep:salvo-cache"
+    ],
+    "caching-headers": [
+      "salvo_extra/caching-headers"
+    ],
+    "compression": [
+      "salvo_extra/compression"
+    ],
+    "cookie": [
+      "salvo_core/cookie"
+    ],
+    "cors": [
+      "dep:salvo-cors"
+    ],
+    "csrf": [
+      "dep:salvo-csrf"
+    ],
+    "default": [
+      "test",
+      "cookie"
+    ],
+    "flash": [
+      "dep:salvo-flash"
+    ],
+    "force-https": [
+      "salvo_extra/force-https"
+    ],
+    "full": [
+      "test",
+      "cookie",
+      "rustls",
+      "native-tls",
+      "openssl",
+      "unix",
+      "acme",
+      "anyhow",
+      "cache",
+      "cors",
+      "csrf",
+      "flash",
+      "rate-limiter",
+      "session",
+      "serve-static"
+    ],
+    "jwt-auth": [
+      "salvo_extra/jwt-auth"
+    ],
+    "logging": [
+      "salvo_extra/logging"
+    ],
+    "native-tls": [
+      "salvo_core/native-tls"
+    ],
+    "openssl": [
+      "salvo_core/openssl"
+    ],
+    "proxy": [
+      "salvo_extra/proxy"
+    ],
+    "rate-limiter": [
+      "dep:salvo-rate-limiter"
+    ],
+    "rustls": [
+      "salvo_core/rustls"
+    ],
+    "serve-static": [
+      "dep:salvo-static"
+    ],
+    "session": [
+      "dep:salvo-session"
+    ],
+    "size-limiter": [
+      "salvo_extra/size-limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "test": [
+      "salvo_core/test"
+    ],
+    "timeout": [
+      "salvo_extra/timeout"
+    ],
+    "trailing-slash": [
+      "salvo_extra/trailing-slash"
+    ],
+    "unix": [
+      "salvo_core/unix"
+    ],
+    "ws": [
+      "salvo_extra/ws"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn"
+  },
+  "publishedAt": "2022-11-07T00:02:30.754853Z",
+  "dependencies": [
+    "salvo_core",
+    "salvo-cache",
+    "salvo-cors",
+    "salvo-csrf",
+    "salvo-flash",
+    "salvo-rate-limiter",
+    "salvo-session",
+    "salvo-static",
+    "salvo_extra"
+  ]
+}

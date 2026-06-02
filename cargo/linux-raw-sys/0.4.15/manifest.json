@@ -1,0 +1,53 @@
+{
+  "name": "linux-raw-sys",
+  "version": "0.4.15",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "d26c52dbd32dccf2d10cac7725f8eae5296885fb5703b261f7d0a0739ec807ab",
+  "features": {
+    "bootparam": [],
+    "btrfs": [],
+    "default": [
+      "std",
+      "general",
+      "errno"
+    ],
+    "elf": [],
+    "elf_uapi": [],
+    "errno": [],
+    "general": [],
+    "if_arp": [],
+    "if_ether": [],
+    "if_packet": [],
+    "io_uring": [],
+    "ioctl": [],
+    "landlock": [],
+    "loop_device": [],
+    "mempolicy": [],
+    "net": [],
+    "netlink": [],
+    "no_std": [],
+    "prctl": [],
+    "ptrace": [],
+    "rustc-dep-of-std": [
+      "core",
+      "compiler_builtins",
+      "no_std"
+    ],
+    "std": [],
+    "system": [],
+    "xdp": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode"
+  },
+  "publishedAt": "2025-01-08T00:37:56.538364Z",
+  "dependencies": [
+    "libc",
+    "static_assertions",
+    "compiler_builtins",
+    "rustc-std-workspace-core"
+  ]
+}

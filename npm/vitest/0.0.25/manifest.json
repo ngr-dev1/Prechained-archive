@@ -1,0 +1,66 @@
+{
+  "name": "vitest",
+  "version": "0.0.25",
+  "ecosystem": "npm",
+  "description": "Next generation testing framework powered by Vite",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "sade": "^1.7.4",
+    "jsdom": "^19.0.0",
+    "listr": "^0.14.3",
+    "sinon": "^12.0.1",
+    "find-up": "^6.2.0",
+    "fast-glob": "^3.2.7",
+    "jest-util": "^27.4.2",
+    "picocolors": "^1.0.0",
+    "sinon-chai": "^3.7.0",
+    "@types/chai": "^4.2.22",
+    "jest-snapshot": "^27.4.2",
+    "@jest/test-result": "^27.4.2",
+    "@types/sinon-chai": "^3.2.6"
+  },
+  "devDependencies": {
+    "esno": "^0.12.1",
+    "vite": "^2.6.14",
+    "bumpp": "^7.1.1",
+    "eslint": "^8.4.0",
+    "rimraf": "^3.0.2",
+    "@antfu/ni": "^0.11.0",
+    "typescript": "^4.5.2",
+    "@types/node": "^16.11.11",
+    "@types/sade": "^1.7.3",
+    "@types/jsdom": "^16.2.13",
+    "@types/listr": "^0.14.4",
+    "@types/sinon": "^10.0.6",
+    "@antfu/eslint-config": "^0.12.1"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "esmo scripts/generate-types.ts"
+  },
+  "maintainers": [
+    {
+      "name": "antfu",
+      "email": "anthonyfu117@hotmail.com"
+    }
+  ],
+  "author": {
+    "name": "Anthony Fu",
+    "email": "anthonyfu117@hotmail.com"
+  },
+  "publishedAt": "2021-12-06T17:07:44.722Z",
+  "dist": {
+    "integrity": "sha512-VL8ztjyi2Hg6cCUSpDP7DzcF5J1T1la2U6bpDKuWmvdawloYNrxEdsndnnYsvSiS8Pz6FsJILVtqcsimBYtsbw==",
+    "shasum": "0ff6294d411f82e0d8e4a7dfd24d68b61ffe315d",
+    "tarball": "https://registry.npmjs.org/vitest/-/vitest-0.0.25.tgz",
+    "fileCount": 57,
+    "unpackedSize": 67227
+  },
+  "_npmUser": {
+    "name": "antfu",
+    "email": "anthonyfu117@hotmail.com"
+  }
+}

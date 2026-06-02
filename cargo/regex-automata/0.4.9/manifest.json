@@ -1,0 +1,145 @@
+{
+  "name": "regex-automata",
+  "version": "0.4.9",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "809e8dc61f6de73b46c85f4c96486310fe304c434cfa43669d7b40f711150908",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std",
+      "syntax",
+      "perf",
+      "unicode",
+      "meta",
+      "nfa",
+      "dfa",
+      "hybrid"
+    ],
+    "dfa": [
+      "dfa-build",
+      "dfa-search",
+      "dfa-onepass"
+    ],
+    "dfa-build": [
+      "nfa-thompson",
+      "dfa-search"
+    ],
+    "dfa-onepass": [
+      "nfa-thompson"
+    ],
+    "dfa-search": [],
+    "hybrid": [
+      "alloc",
+      "nfa-thompson"
+    ],
+    "internal-instrument": [
+      "internal-instrument-pikevm"
+    ],
+    "internal-instrument-pikevm": [
+      "logging",
+      "std"
+    ],
+    "logging": [
+      "dep:log",
+      "aho-corasick?/logging",
+      "memchr?/logging"
+    ],
+    "meta": [
+      "syntax",
+      "nfa-pikevm"
+    ],
+    "nfa": [
+      "nfa-thompson",
+      "nfa-pikevm",
+      "nfa-backtrack"
+    ],
+    "nfa-backtrack": [
+      "nfa-thompson"
+    ],
+    "nfa-pikevm": [
+      "nfa-thompson"
+    ],
+    "nfa-thompson": [
+      "alloc"
+    ],
+    "perf": [
+      "perf-inline",
+      "perf-literal"
+    ],
+    "perf-inline": [],
+    "perf-literal": [
+      "perf-literal-substring",
+      "perf-literal-multisubstring"
+    ],
+    "perf-literal-multisubstring": [
+      "std",
+      "dep:aho-corasick"
+    ],
+    "perf-literal-substring": [
+      "aho-corasick?/perf-literal",
+      "dep:memchr"
+    ],
+    "std": [
+      "regex-syntax?/std",
+      "memchr?/std",
+      "aho-corasick?/std",
+      "alloc"
+    ],
+    "syntax": [
+      "dep:regex-syntax",
+      "alloc"
+    ],
+    "unicode": [
+      "unicode-age",
+      "unicode-bool",
+      "unicode-case",
+      "unicode-gencat",
+      "unicode-perl",
+      "unicode-script",
+      "unicode-segment",
+      "unicode-word-boundary",
+      "regex-syntax?/unicode"
+    ],
+    "unicode-age": [
+      "regex-syntax?/unicode-age"
+    ],
+    "unicode-bool": [
+      "regex-syntax?/unicode-bool"
+    ],
+    "unicode-case": [
+      "regex-syntax?/unicode-case"
+    ],
+    "unicode-gencat": [
+      "regex-syntax?/unicode-gencat"
+    ],
+    "unicode-perl": [
+      "regex-syntax?/unicode-perl"
+    ],
+    "unicode-script": [
+      "regex-syntax?/unicode-script"
+    ],
+    "unicode-segment": [
+      "regex-syntax?/unicode-segment"
+    ],
+    "unicode-word-boundary": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 189,
+    "login": "BurntSushi"
+  },
+  "publishedAt": "2024-11-11T15:16:26.004200Z",
+  "dependencies": [
+    "anyhow",
+    "bstr",
+    "doc-comment",
+    "env_logger",
+    "quickcheck",
+    "regex-test",
+    "aho-corasick",
+    "log",
+    "memchr",
+    "regex-syntax"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "tracing-subscriber",
+  "version": "0.1.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "212bb971821fbcde8729dabb3f41b306ebc9db991acdc9cc82e79fa42f86aaa1",
+  "features": {
+    "ansi": [
+      "fmt",
+      "ansi_term"
+    ],
+    "default": [
+      "filter",
+      "smallvec",
+      "fmt",
+      "ansi",
+      "chrono",
+      "tracing-log"
+    ],
+    "filter": [
+      "matchers",
+      "regex",
+      "lazy_static"
+    ],
+    "fmt": [
+      "owning_ref",
+      "parking_lot"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1249,
+    "login": "hawkw"
+  },
+  "publishedAt": "2019-09-04T23:40:03.503784Z",
+  "dependencies": [
+    "crossbeam-utils",
+    "tracing",
+    "tracing-core",
+    "ansi_term",
+    "chrono",
+    "lazy_static",
+    "matchers",
+    "owning_ref",
+    "parking_lot",
+    "regex",
+    "smallvec",
+    "tracing-log"
+  ]
+}

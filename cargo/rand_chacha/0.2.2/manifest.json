@@ -1,0 +1,27 @@
+{
+  "name": "rand_chacha",
+  "version": "0.2.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "f4c8ed856279c9737206bf725bf36935d8666ead7aa69b52be55af369d193402",
+  "features": {
+    "default": [
+      "std",
+      "simd"
+    ],
+    "simd": [],
+    "std": [
+      "ppv-lite86/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1234,
+    "login": "dhardy"
+  },
+  "publishedAt": "2020-03-10T10:48:56.508906Z",
+  "dependencies": [
+    "ppv-lite86",
+    "rand_core"
+  ]
+}

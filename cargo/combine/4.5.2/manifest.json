@@ -1,0 +1,78 @@
+{
+  "name": "combine",
+  "version": "4.5.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "cc4369b5e4c0cddf64ad8981c0111e7df4f7078f4d6ba98fb31f2e17c4c57b7e",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "futures-03": [
+      "pin-project",
+      "std",
+      "futures-io-03",
+      "futures-util-03",
+      "pin-project-lite"
+    ],
+    "mp4": [],
+    "pin-project": [
+      "pin-project-lite"
+    ],
+    "std": [
+      "memchr/use_std",
+      "bytes"
+    ],
+    "tokio": [
+      "tokio-dep",
+      "futures-util-03",
+      "pin-project-lite"
+    ],
+    "tokio-02": [
+      "pin-project",
+      "std",
+      "tokio-02-dep",
+      "futures-util-03",
+      "pin-project-lite",
+      "bytes_05"
+    ],
+    "tokio-03": [
+      "pin-project",
+      "std",
+      "tokio-03-dep",
+      "futures-util-03",
+      "pin-project-lite"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 987,
+    "login": "Marwes"
+  },
+  "publishedAt": "2021-01-07T09:11:12.133642Z",
+  "dependencies": [
+    "async-std",
+    "bytes",
+    "bytes",
+    "criterion",
+    "futures",
+    "memchr",
+    "once_cell",
+    "partial-io",
+    "quick-error",
+    "quickcheck",
+    "tokio",
+    "tokio",
+    "tokio",
+    "tokio-util",
+    "bytes",
+    "bytes",
+    "futures-io",
+    "futures-util",
+    "pin-project-lite",
+    "regex",
+    "tokio",
+    "tokio",
+    "tokio"
+  ]
+}

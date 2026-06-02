@@ -1,0 +1,39 @@
+{
+  "name": "apscheduler",
+  "version": "3.10.0",
+  "ecosystem": "pypi",
+  "summary": "In-process task scheduler with Cron-like capabilities",
+  "license": "MIT",
+  "author": "Alex Grönholm",
+  "author_email": "apscheduler@nextday.fi",
+  "requires_python": ">=3.6",
+  "requires_dist": [
+    "setuptools (>=0.7)",
+    "six (>=1.4.0)",
+    "pytz",
+    "tzlocal (!=3.*,>=2.0)",
+    "sphinx ; extra == 'doc'",
+    "sphinx-rtd-theme ; extra == 'doc'",
+    "gevent ; extra == 'gevent'",
+    "pymongo (>=3.0) ; extra == 'mongodb'",
+    "redis (>=3.0) ; extra == 'redis'",
+    "rethinkdb (>=2.4.0) ; extra == 'rethinkdb'",
+    "sqlalchemy (>=1.4) ; extra == 'sqlalchemy'",
+    "pytest ; extra == 'testing'",
+    "pytest-asyncio ; extra == 'testing'",
+    "pytest-cov ; extra == 'testing'",
+    "pytest-tornado5 ; extra == 'testing'",
+    "tornado (>=4.3) ; extra == 'tornado'",
+    "twisted ; extra == 'twisted'",
+    "kazoo ; extra == 'zookeeper'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2023-01-31T22:38:37",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/0a/82/e8b6e7e2dfea46bd649ecaf8771fb6552232394fc9adf5c7f10655a87b95/APScheduler-3.10.0-py3-none-any.whl",
+    "sha256": "575299f20073c60a2cc9d4fa5906024cdde33c5c0ce6087c4e3c14be3b50fdd4",
+    "size": 59235,
+    "filename": "APScheduler-3.10.0-py3-none-any.whl"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "zstd",
+  "version": "0.4.12",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "1b3b2581a1118ac1bc5cf760e54ffd3843dc20555acf9ad85797d4736b307dc9",
+  "features": {
+    "bindgen": [
+      "zstd-safe/bindgen"
+    ],
+    "default": [
+      "legacy"
+    ],
+    "legacy": [
+      "zstd-safe/legacy"
+    ],
+    "tokio": [
+      "tokio-io",
+      "futures",
+      "partial-io/quickcheck",
+      "partial-io/tokio"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-07-05T00:16:29.501903Z",
+  "dependencies": [
+    "clap",
+    "libc",
+    "partial-io",
+    "quickcheck",
+    "zstd-safe",
+    "futures",
+    "tokio-io"
+  ]
+}

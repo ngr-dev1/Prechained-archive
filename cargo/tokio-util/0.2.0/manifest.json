@@ -1,0 +1,35 @@
+{
+  "name": "tokio-util",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "571da51182ec208780505a32528fc5512a8fe1443ab960b3f2f3ef093cd16930",
+  "features": {
+    "codec": [],
+    "default": [],
+    "full": [
+      "codec",
+      "udp"
+    ],
+    "udp": [
+      "tokio/udp"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 10,
+    "login": "carllerche"
+  },
+  "publishedAt": "2019-11-26T17:23:18.728734Z",
+  "dependencies": [
+    "bytes",
+    "futures",
+    "futures-core",
+    "futures-sink",
+    "log",
+    "pin-project-lite",
+    "tokio",
+    "tokio",
+    "tokio-test"
+  ]
+}

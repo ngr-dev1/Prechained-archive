@@ -1,0 +1,92 @@
+{
+  "name": "chumsky",
+  "version": "0.13.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "e0d2bfadce76f963d776feff99db6dc33783829539258314776383b33e2a00f8",
+  "features": {
+    "_test_stable": [
+      "std",
+      "stacker",
+      "memoization",
+      "extension",
+      "pratt",
+      "either",
+      "regex",
+      "serde",
+      "bytes"
+    ],
+    "bytes": [
+      "dep:bytes"
+    ],
+    "debug": [
+      "unstable",
+      "nightly",
+      "dep:railroad"
+    ],
+    "default": [
+      "std",
+      "stacker"
+    ],
+    "docsrs": [],
+    "either": [
+      "dep:either"
+    ],
+    "extension": [],
+    "lexical-numbers": [
+      "lexical",
+      "unstable"
+    ],
+    "memoization": [],
+    "nightly": [],
+    "pratt": [],
+    "regex": [
+      "dep:regex-automata"
+    ],
+    "serde": [
+      "dep:serde"
+    ],
+    "stacker": [
+      "dep:stacker",
+      "std"
+    ],
+    "std": [
+      "regex-automata?/std",
+      "serde?/std"
+    ],
+    "unstable": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 21853,
+    "login": "zesterer"
+  },
+  "publishedAt": "2026-05-06T07:32:21.225789Z",
+  "dependencies": [
+    "ariadne",
+    "ciborium",
+    "criterion",
+    "hashbrown",
+    "lasso",
+    "logos",
+    "nom",
+    "nom",
+    "pest",
+    "pest_derive",
+    "pom",
+    "pprof",
+    "serde_json",
+    "slotmap",
+    "sn",
+    "unicode-ident",
+    "unicode-segmentation",
+    "winnow",
+    "bytes",
+    "either",
+    "lexical",
+    "railroad",
+    "regex-automata",
+    "serde",
+    "stacker"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "linux-raw-sys",
+  "version": "0.0.28",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "687387ff42ec7ea4f2149035a5675fedb675d26f98db90a1846ac63d3addb5f5",
+  "features": {
+    "default": [
+      "std",
+      "general",
+      "errno"
+    ],
+    "errno": [],
+    "general": [],
+    "netlink": [],
+    "no_std": [
+      "cty"
+    ],
+    "std": [],
+    "v2_6_32": [],
+    "v3_10": [],
+    "v3_2": [],
+    "v4_2": [],
+    "v4_20": [],
+    "v4_4": [],
+    "v5_11": [],
+    "v5_4": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode"
+  },
+  "publishedAt": "2021-09-20T12:56:09.314087Z",
+  "dependencies": [
+    "cty"
+  ]
+}

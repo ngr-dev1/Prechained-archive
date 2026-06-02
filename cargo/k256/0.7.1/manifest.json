@@ -1,0 +1,83 @@
+{
+  "name": "k256",
+  "version": "0.7.1",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "e443f962f64bcd3753b09e9d6c3733986a81e49b2a36c3c2faaedbe2c3a8e7dd",
+  "features": {
+    "arithmetic": [
+      "elliptic-curve/arithmetic"
+    ],
+    "default": [
+      "arithmetic",
+      "pkcs8",
+      "std"
+    ],
+    "digest": [
+      "elliptic-curve/digest",
+      "ecdsa-core/digest"
+    ],
+    "ecdh": [
+      "elliptic-curve/ecdh",
+      "zeroize"
+    ],
+    "ecdsa": [
+      "arithmetic",
+      "digest",
+      "ecdsa-core/sign",
+      "ecdsa-core/verify",
+      "zeroize"
+    ],
+    "expose-field": [
+      "arithmetic"
+    ],
+    "field-montgomery": [],
+    "force-32-bit": [],
+    "keccak256": [
+      "digest",
+      "sha3"
+    ],
+    "pem": [
+      "elliptic-curve/pem",
+      "pkcs8"
+    ],
+    "pkcs8": [
+      "elliptic-curve/pkcs8",
+      "zeroize"
+    ],
+    "sha256": [
+      "digest",
+      "sha2"
+    ],
+    "std": [
+      "elliptic-curve/std"
+    ],
+    "test-vectors": [
+      "hex-literal"
+    ],
+    "zeroize": [
+      "elliptic-curve/zeroize"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2020-12-17T06:10:29.258022Z",
+  "dependencies": [
+    "cfg-if",
+    "criterion",
+    "ecdsa",
+    "elliptic-curve",
+    "hex-literal",
+    "num-bigint",
+    "num-traits",
+    "proptest",
+    "rand_core",
+    "ecdsa",
+    "hex-literal",
+    "sha2",
+    "sha3"
+  ]
+}

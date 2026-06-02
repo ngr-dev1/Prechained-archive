@@ -1,0 +1,112 @@
+{
+  "name": "actix-web",
+  "version": "4.1.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "a27e8fe9ba4ae613c21f677c2cfaf0696c3744030c6f485b34634e502d6bb379",
+  "features": {
+    "__compress": [],
+    "compress-brotli": [
+      "actix-http/compress-brotli",
+      "__compress"
+    ],
+    "compress-gzip": [
+      "actix-http/compress-gzip",
+      "__compress"
+    ],
+    "compress-zstd": [
+      "actix-http/compress-zstd",
+      "__compress"
+    ],
+    "cookies": [
+      "cookie"
+    ],
+    "default": [
+      "macros",
+      "compress-brotli",
+      "compress-gzip",
+      "compress-zstd",
+      "cookies"
+    ],
+    "experimental-io-uring": [
+      "actix-server/io-uring"
+    ],
+    "macros": [
+      "actix-macros",
+      "actix-web-codegen"
+    ],
+    "openssl": [
+      "actix-http/openssl",
+      "actix-tls/accept",
+      "actix-tls/openssl"
+    ],
+    "rustls": [
+      "actix-http/rustls",
+      "actix-tls/accept",
+      "actix-tls/rustls"
+    ],
+    "secure-cookies": [
+      "cookies",
+      "cookie/secure"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 51017,
+    "login": "JohnTitor"
+  },
+  "publishedAt": "2022-06-11T15:53:53.259061Z",
+  "dependencies": [
+    "actix-codec",
+    "actix-files",
+    "actix-http",
+    "actix-router",
+    "actix-rt",
+    "actix-server",
+    "actix-service",
+    "actix-test",
+    "actix-utils",
+    "ahash",
+    "awc",
+    "brotli",
+    "bytes",
+    "bytestring",
+    "cfg-if",
+    "const-str",
+    "criterion",
+    "derive_more",
+    "encoding_rs",
+    "env_logger",
+    "flate2",
+    "futures-core",
+    "futures-util",
+    "futures-util",
+    "itoa",
+    "language-tags",
+    "log",
+    "mime",
+    "once_cell",
+    "openssl",
+    "pin-project-lite",
+    "rand",
+    "rcgen",
+    "regex",
+    "rustls",
+    "rustls-pemfile",
+    "serde",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "smallvec",
+    "socket2",
+    "static_assertions",
+    "time",
+    "tokio",
+    "url",
+    "zstd",
+    "actix-macros",
+    "actix-tls",
+    "actix-web-codegen",
+    "cookie"
+  ]
+}

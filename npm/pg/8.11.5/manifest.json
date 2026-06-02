@@ -1,0 +1,53 @@
+{
+  "name": "pg",
+  "version": "8.11.5",
+  "ecosystem": "npm",
+  "description": "PostgreSQL client - pure javascript & libpq with the same API",
+  "license": "MIT",
+  "dependencies": {
+    "pgpass": "1.x",
+    "pg-pool": "^3.6.2",
+    "pg-types": "^2.1.0",
+    "pg-protocol": "^1.6.1",
+    "pg-cloudflare": "^1.1.1",
+    "pg-connection-string": "^2.6.4"
+  },
+  "devDependencies": {
+    "co": "4.6.0",
+    "async": "2.6.4",
+    "workerd": "^1.20230419.0",
+    "bluebird": "3.5.2",
+    "wrangler": "^2.16.0",
+    "typescript": "^4.0.3",
+    "pg-copy-streams": "0.3.0",
+    "@cloudflare/workers-types": "^4.20230404.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "brianc",
+      "email": "brian.m.carlson@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Brian Carlson",
+    "email": "brian.m.carlson@gmail.com"
+  },
+  "publishedAt": "2024-04-02T20:28:38.739Z",
+  "dist": {
+    "integrity": "sha512-jqgNHSKL5cbDjFlHyYsCXmQDrfIX/3RsNwYqpd4N0Kt8niLuNoRNH+aazv6cOd43gPh9Y4DjQCtb+X0MH0Hvnw==",
+    "shasum": "e722b0a5f1ed92931c31758ebec3ddf878dd4128",
+    "tarball": "https://registry.npmjs.org/pg/-/pg-8.11.5.tgz",
+    "fileCount": 20,
+    "unpackedSize": 77392
+  },
+  "_npmUser": {
+    "name": "brianc",
+    "email": "brian.m.carlson@gmail.com"
+  }
+}

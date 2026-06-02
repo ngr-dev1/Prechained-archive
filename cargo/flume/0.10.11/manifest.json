@@ -1,0 +1,46 @@
+{
+  "name": "flume",
+  "version": "0.10.11",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "0b279436a715a9de95dcd26b151db590a71961cc06e54918b24fe0dd5b7d3fc4",
+  "features": {
+    "async": [
+      "futures-sink",
+      "futures-core",
+      "pin-project"
+    ],
+    "default": [
+      "async",
+      "select",
+      "eventual-fairness"
+    ],
+    "eventual-fairness": [
+      "async",
+      "nanorand"
+    ],
+    "select": [],
+    "spin": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 21853,
+    "login": "zesterer"
+  },
+  "publishedAt": "2022-02-14T07:58:44.284442Z",
+  "dependencies": [
+    "async-std",
+    "criterion",
+    "crossbeam-channel",
+    "crossbeam-utils",
+    "futures",
+    "rand",
+    "spin",
+    "tokio",
+    "waker-fn",
+    "futures-core",
+    "futures-sink",
+    "nanorand",
+    "pin-project"
+  ]
+}

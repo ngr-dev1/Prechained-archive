@@ -1,0 +1,51 @@
+{
+  "name": "kafka",
+  "version": "0.10.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "2054ba4edcb4dcda4209e138c7e88caf26d4a325b3db76fbdb6ca5eecc23e426",
+  "features": {
+    "default": [
+      "snappy",
+      "gzip",
+      "security"
+    ],
+    "gzip": [
+      "flate2"
+    ],
+    "integration_tests": [],
+    "nightly": [],
+    "security": [
+      "openssl",
+      "openssl-sys"
+    ],
+    "snappy": [
+      "snap"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 128959,
+    "login": "johnward"
+  },
+  "publishedAt": "2023-09-24T21:42:09.112081Z",
+  "dependencies": [
+    "anyhow",
+    "byteorder",
+    "crc",
+    "fnv",
+    "getopts",
+    "lazy_static",
+    "rand",
+    "ref_slice",
+    "thiserror",
+    "time",
+    "tracing",
+    "tracing-subscriber",
+    "twox-hash",
+    "flate2",
+    "openssl",
+    "openssl-sys",
+    "snap"
+  ]
+}

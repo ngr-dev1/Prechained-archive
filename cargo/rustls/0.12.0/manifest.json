@@ -1,0 +1,36 @@
+{
+  "name": "rustls",
+  "version": "0.12.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/ISC/MIT",
+  "checksum": "ab72e4883a4fc9fd5cd462a51c55d79f6a7b5c9483e8d73a2b7bca0b18430bcd",
+  "features": {
+    "dangerous_configuration": [],
+    "default": [
+      "logging"
+    ],
+    "logging": [
+      "log"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-01-06T22:52:21.294228Z",
+  "dependencies": [
+    "base64",
+    "ct-logs",
+    "docopt",
+    "env_logger",
+    "log",
+    "mio",
+    "regex",
+    "ring",
+    "sct",
+    "serde",
+    "serde_derive",
+    "untrusted",
+    "webpki",
+    "webpki-roots",
+    "log"
+  ]
+}

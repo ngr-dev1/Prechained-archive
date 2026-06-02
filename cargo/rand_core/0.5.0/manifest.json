@@ -1,0 +1,30 @@
+{
+  "name": "rand_core",
+  "version": "0.5.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "615e683324e75af5d43d8f7a39ffe3ee4a9dc42c5c701167a71dc59c3a493aca",
+  "features": {
+    "alloc": [],
+    "serde1": [
+      "serde",
+      "serde_derive"
+    ],
+    "std": [
+      "alloc",
+      "getrandom",
+      "getrandom/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1234,
+    "login": "dhardy"
+  },
+  "publishedAt": "2019-06-06T15:51:23.297168Z",
+  "dependencies": [
+    "getrandom",
+    "serde",
+    "serde_derive"
+  ]
+}

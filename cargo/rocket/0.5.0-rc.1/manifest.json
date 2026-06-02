@@ -1,0 +1,70 @@
+{
+  "name": "rocket",
+  "version": "0.5.0-rc.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "0a71c18c42a0eb15bf3816831caf0dad11e7966f2a41aaf486a701979c4dd1f2",
+  "features": {
+    "default": [],
+    "json": [
+      "serde_json",
+      "tokio/io-util"
+    ],
+    "msgpack": [
+      "rmp-serde",
+      "tokio/io-util"
+    ],
+    "secrets": [
+      "rocket_http/private-cookies"
+    ],
+    "tls": [
+      "rocket_http/tls"
+    ],
+    "uuid": [
+      "uuid_",
+      "rocket_http/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3864,
+    "login": "SergioBenitez"
+  },
+  "publishedAt": "2021-06-09T16:56:57.815737Z",
+  "dependencies": [
+    "async-stream",
+    "async-trait",
+    "atomic",
+    "atty",
+    "binascii",
+    "bytes",
+    "either",
+    "figment",
+    "futures",
+    "indexmap",
+    "log",
+    "memchr",
+    "multer",
+    "num_cpus",
+    "parking_lot",
+    "pin-project-lite",
+    "rand",
+    "ref-cast",
+    "rocket_codegen",
+    "rocket_http",
+    "serde",
+    "state",
+    "tempfile",
+    "time",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "ubyte",
+    "version_check",
+    "yansi",
+    "yansi",
+    "rmp-serde",
+    "serde_json",
+    "uuid"
+  ]
+}

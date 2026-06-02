@@ -1,0 +1,65 @@
+{
+  "name": "lapin",
+  "version": "2.0.0-alpha.4",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "5364221a8ea824706c9be49c85c0fc705631403ca618ed2b141a9f86a0fa6e9b",
+  "features": {
+    "codegen": [
+      "codegen-internal",
+      "amq-protocol/codegen"
+    ],
+    "codegen-internal": [
+      "amq-protocol-codegen",
+      "serde_json"
+    ],
+    "default": [
+      "rustls"
+    ],
+    "native-tls": [
+      "amq-protocol/native-tls"
+    ],
+    "openssl": [
+      "amq-protocol/openssl"
+    ],
+    "rustls": [
+      "rustls-native-certs"
+    ],
+    "rustls-native-certs": [
+      "amq-protocol/rustls-native-certs"
+    ],
+    "rustls-webpki-roots-certs": [
+      "amq-protocol/rustls-webpki-roots-certs"
+    ],
+    "vendored-openssl": [
+      "amq-protocol/vendored-openssl"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1926,
+    "login": "Keruspe"
+  },
+  "publishedAt": "2021-05-06T21:46:34.725584Z",
+  "dependencies": [
+    "amq-protocol",
+    "async-global-executor",
+    "async-global-executor-trait",
+    "async-reactor-trait",
+    "async-trait",
+    "executor-trait",
+    "flume",
+    "futures-lite",
+    "parking_lot",
+    "pinky-swear",
+    "reactor-trait",
+    "serde",
+    "serde_json",
+    "tracing",
+    "tracing-subscriber",
+    "waker-fn",
+    "waker-fn",
+    "amq-protocol-codegen",
+    "serde_json"
+  ]
+}

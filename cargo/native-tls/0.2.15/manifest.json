@@ -1,0 +1,34 @@
+{
+  "name": "native-tls",
+  "version": "0.2.15",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "6cdede44f9a69cab2899a2049e2c3bd49bf911a157f6a3353d4a91c61abbce44",
+  "features": {
+    "alpn": [
+      "security-framework/alpn"
+    ],
+    "vendored": [
+      "openssl/vendored"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 988,
+    "login": "kornelski"
+  },
+  "publishedAt": "2026-02-12T18:52:26.619492Z",
+  "dependencies": [
+    "libc",
+    "log",
+    "openssl",
+    "openssl-probe",
+    "openssl-sys",
+    "schannel",
+    "security-framework",
+    "security-framework-sys",
+    "tempfile",
+    "tempfile",
+    "test-cert-gen"
+  ]
+}

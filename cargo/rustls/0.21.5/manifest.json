@@ -1,0 +1,42 @@
+{
+  "name": "rustls",
+  "version": "0.21.5",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR ISC OR MIT",
+  "checksum": "79ea77c539259495ce8ca47f53e66ae0330a8819f67e23ac96ca02f50e7b7d36",
+  "features": {
+    "dangerous_configuration": [],
+    "default": [
+      "logging",
+      "tls12"
+    ],
+    "logging": [
+      "log"
+    ],
+    "quic": [],
+    "read_buf": [
+      "rustversion"
+    ],
+    "secret_extraction": [],
+    "tls12": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 209038,
+    "login": "cpu"
+  },
+  "publishedAt": "2023-07-10T18:49:54.370533Z",
+  "dependencies": [
+    "base64",
+    "bencher",
+    "env_logger",
+    "log",
+    "ring",
+    "rustls-pemfile",
+    "rustls-webpki",
+    "sct",
+    "webpki-roots",
+    "log",
+    "rustversion"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "name": "actix-web",
+  "version": "1.0.5",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "0147b2fd52ced64145c8370af627f12f098222a1c6ba67d021e21cd0d806f574",
+  "features": {
+    "brotli": [
+      "actix-http/brotli"
+    ],
+    "client": [
+      "awc"
+    ],
+    "default": [
+      "brotli",
+      "flate2-zlib",
+      "client",
+      "fail"
+    ],
+    "fail": [
+      "actix-http/fail"
+    ],
+    "flate2-rust": [
+      "actix-http/flate2-rust"
+    ],
+    "flate2-zlib": [
+      "actix-http/flate2-zlib"
+    ],
+    "rust-tls": [
+      "rustls",
+      "actix-server/rust-tls"
+    ],
+    "secure-cookies": [
+      "actix-http/secure-cookies"
+    ],
+    "ssl": [
+      "openssl",
+      "actix-server/ssl",
+      "awc/ssl"
+    ],
+    "uds": [
+      "actix-server/uds"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 7201,
+    "login": "fafhrd91"
+  },
+  "publishedAt": "2019-07-18T11:54:48.958234Z",
+  "dependencies": [
+    "actix",
+    "actix-codec",
+    "actix-http",
+    "actix-http",
+    "actix-http-test",
+    "actix-router",
+    "actix-rt",
+    "actix-server",
+    "actix-server-config",
+    "actix-service",
+    "actix-threadpool",
+    "actix-utils",
+    "actix-web-codegen",
+    "brotli2",
+    "bytes",
+    "derive_more",
+    "encoding_rs",
+    "env_logger",
+    "flate2",
+    "futures",
+    "hashbrown",
+    "log",
+    "mime",
+    "net2",
+    "parking_lot",
+    "rand",
+    "regex",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_urlencoded",
+    "time",
+    "tokio-timer",
+    "url",
+    "awc",
+    "openssl",
+    "rustls"
+  ]
+}

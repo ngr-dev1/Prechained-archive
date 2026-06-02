@@ -1,0 +1,60 @@
+{
+  "name": "sharp",
+  "version": "0.30.7",
+  "ecosystem": "npm",
+  "description": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, GIF, AVIF and TIFF images",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "color": "^4.2.3",
+    "semver": "^7.3.7",
+    "tar-fs": "^2.1.1",
+    "simple-get": "^4.0.1",
+    "detect-libc": "^2.0.1",
+    "tunnel-agent": "^0.6.0",
+    "node-addon-api": "^5.0.0",
+    "prebuild-install": "^7.1.1"
+  },
+  "devDependencies": {
+    "cc": "^3.0.1",
+    "icc": "^2.0.0",
+    "nyc": "^15.1.0",
+    "async": "^3.2.4",
+    "mocha": "^10.0.0",
+    "rimraf": "^3.0.2",
+    "mock-fs": "^5.1.2",
+    "prebuild": "^11.0.3",
+    "exif-reader": "^1.0.3",
+    "semistandard": "^16.0.1",
+    "documentation": "^13.2.5",
+    "decompress-zip": "^0.3.3",
+    "license-checker": "^25.0.1"
+  },
+  "scripts": {
+    "install": "(node install/libvips && node install/dll-copy && prebuild-install) || (node install/can-compile && node-gyp rebuild && node install/dll-copy)",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "lovell",
+      "email": "npm@lovell.info"
+    }
+  ],
+  "author": {
+    "name": "Lovell Fuller",
+    "email": "npm@lovell.info"
+  },
+  "publishedAt": "2022-06-22T16:11:20.815Z",
+  "dist": {
+    "integrity": "sha512-G+MY2YW33jgflKPTXXptVO28HvNOo9G3j0MybYAHeEmby+QuD2U98dT6ueht9cv/XDqZspSpIhoSW+BAKJ7Hig==",
+    "shasum": "7862bda98804fdd1f0d5659c85e3324b90d94c7c",
+    "tarball": "https://registry.npmjs.org/sharp/-/sharp-0.30.7.tgz",
+    "fileCount": 40,
+    "unpackedSize": 493438
+  },
+  "_npmUser": {
+    "name": "lovell",
+    "email": "npm@lovell.info"
+  }
+}

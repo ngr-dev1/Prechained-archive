@@ -1,0 +1,28 @@
+{
+  "name": "rand_core",
+  "version": "0.9.0-alpha.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "cc89dffba8377c5ec847d12bb41492bda235dba31a25e8b695cd0fe6589eb8c9",
+  "features": {
+    "alloc": [],
+    "serde1": [
+      "serde"
+    ],
+    "std": [
+      "alloc",
+      "getrandom?/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1234,
+    "login": "dhardy"
+  },
+  "publishedAt": "2024-03-18T19:11:42.171057Z",
+  "dependencies": [
+    "zerocopy",
+    "getrandom",
+    "serde"
+  ]
+}

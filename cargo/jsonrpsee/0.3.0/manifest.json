@@ -1,0 +1,45 @@
+{
+  "name": "jsonrpsee",
+  "version": "0.3.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "df3ce56cf17299f8255af7ac35f666d8f7774eaeafc4864028c95e0147aebd83",
+  "features": {
+    "client": [
+      "http-client",
+      "ws-client",
+      "types"
+    ],
+    "full": [
+      "client",
+      "server",
+      "macros",
+      "utils"
+    ],
+    "macros": [
+      "proc-macros",
+      "types"
+    ],
+    "server": [
+      "http-server",
+      "ws-server",
+      "utils",
+      "types"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 11797,
+    "login": "dvdplm"
+  },
+  "publishedAt": "2021-07-12T19:19:54.004739Z",
+  "dependencies": [
+    "jsonrpsee-http-client",
+    "jsonrpsee-http-server",
+    "jsonrpsee-proc-macros",
+    "jsonrpsee-types",
+    "jsonrpsee-utils",
+    "jsonrpsee-ws-client",
+    "jsonrpsee-ws-server"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "warp",
+  "version": "0.4.3",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "c0a808122a8a77eecdabaefd88ddb1913c4be5ea1465399f63ba64c7aa705fea",
+  "features": {
+    "compression": [
+      "compression-brotli",
+      "compression-gzip"
+    ],
+    "compression-brotli": [
+      "async-compression/brotli"
+    ],
+    "compression-gzip": [
+      "async-compression/deflate",
+      "async-compression/gzip"
+    ],
+    "default": [],
+    "multipart": [
+      "dep:multer"
+    ],
+    "server": [
+      "dep:hyper",
+      "dep:hyper-util",
+      "tokio/net"
+    ],
+    "test": [
+      "server",
+      "hyper/client",
+      "hyper/http1",
+      "dep:futures-channel"
+    ],
+    "websocket": [
+      "dep:hyper",
+      "dep:tokio-tungstenite",
+      "hyper-util/tokio"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2026-05-04T19:33:48.290142Z",
+  "dependencies": [
+    "bytes",
+    "futures-util",
+    "handlebars",
+    "headers",
+    "http",
+    "http-body",
+    "http-body-util",
+    "log",
+    "mime",
+    "mime_guess",
+    "percent-encoding",
+    "pin-project",
+    "pretty_env_logger",
+    "scoped-tls",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_urlencoded",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tower-service",
+    "tracing",
+    "tracing-log",
+    "tracing-subscriber",
+    "async-compression",
+    "futures-channel",
+    "hyper",
+    "hyper-util",
+    "multer",
+    "tokio-tungstenite"
+  ]
+}

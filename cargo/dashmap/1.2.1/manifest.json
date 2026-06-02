@@ -1,0 +1,35 @@
+{
+  "name": "dashmap",
+  "version": "1.2.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "362b44f82af5d682357335094c5eecba8875215c30b011161c5143e33e998fde",
+  "features": {
+    "async": [
+      "futures"
+    ],
+    "default": [
+      "async"
+    ],
+    "nightly": [
+      "parking_lot/nightly",
+      "hashbrown/nightly"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 19646,
+    "login": "xacrimon"
+  },
+  "publishedAt": "2019-12-06T15:30:44.085692Z",
+  "dependencies": [
+    "ahash",
+    "hashbrown",
+    "num_cpus",
+    "owning_ref",
+    "parking_lot",
+    "slab",
+    "stable_deref_trait",
+    "futures"
+  ]
+}

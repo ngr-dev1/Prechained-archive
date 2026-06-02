@@ -1,0 +1,30 @@
+{
+  "name": "arrayvec",
+  "version": "0.4.2",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "21d05247d0ce9c50156398593448df5c96616439217563a64d279a0489078427",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "serde-1": [
+      "serde"
+    ],
+    "std": [
+      "odds/std",
+      "nodrop/std"
+    ],
+    "use_union": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-09-24T16:11:27.981166Z",
+  "dependencies": [
+    "matches",
+    "nodrop",
+    "odds",
+    "serde_test",
+    "serde"
+  ]
+}

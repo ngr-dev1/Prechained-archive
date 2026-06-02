@@ -1,0 +1,46 @@
+{
+  "name": "mio",
+  "version": "0.7.12",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "84f7475b9d5f08bf64b8d9ef6ca9776a138a8f49681a26c0cfb19639376502f9",
+  "features": {
+    "default": [],
+    "extra-docs": [],
+    "net": [],
+    "os-ext": [
+      "os-poll"
+    ],
+    "os-poll": [],
+    "os-util": [
+      "os-ext"
+    ],
+    "pipe": [
+      "os-ext"
+    ],
+    "tcp": [
+      "net"
+    ],
+    "udp": [
+      "net"
+    ],
+    "uds": [
+      "net"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 6025,
+    "login": "Thomasdezeeuw"
+  },
+  "publishedAt": "2021-06-12T18:45:43.584283Z",
+  "dependencies": [
+    "env_logger",
+    "libc",
+    "log",
+    "miow",
+    "ntapi",
+    "rand",
+    "winapi"
+  ]
+}

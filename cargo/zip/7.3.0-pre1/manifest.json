@@ -1,0 +1,139 @@
+{
+  "name": "zip",
+  "version": "7.3.0-pre1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "75f6b8c6560e43b8498c0943551fb5e3fbdbe3d27ad0777b0ba262391b2f043d",
+  "features": {
+    "_all-features": [],
+    "_arbitrary": [
+      "dep:arbitrary"
+    ],
+    "_bzip2_any": [],
+    "_deflate-any": [],
+    "aes-crypto": [
+      "dep:aes",
+      "dep:constant_time_eq",
+      "dep:generic-array",
+      "getrandom/std",
+      "dep:hmac",
+      "dep:pbkdf2",
+      "dep:sha1",
+      "dep:zeroize"
+    ],
+    "bzip2": [
+      "dep:bzip2",
+      "bzip2/default",
+      "_bzip2_any"
+    ],
+    "bzip2-rs": [
+      "dep:bzip2",
+      "bzip2/bzip2-sys",
+      "_bzip2_any"
+    ],
+    "chrono": [
+      "dep:chrono"
+    ],
+    "default": [
+      "aes-crypto",
+      "bzip2",
+      "deflate64",
+      "deflate",
+      "lzma",
+      "ppmd",
+      "time",
+      "zstd",
+      "xz"
+    ],
+    "deflate": [
+      "deflate-zopfli",
+      "deflate-flate2-zlib-rs"
+    ],
+    "deflate-flate2": [
+      "_deflate-any",
+      "dep:flate2"
+    ],
+    "deflate-flate2-zlib": [
+      "deflate-flate2",
+      "flate2/zlib"
+    ],
+    "deflate-flate2-zlib-ng": [
+      "deflate-flate2",
+      "flate2/zlib-ng"
+    ],
+    "deflate-flate2-zlib-ng-compat": [
+      "deflate-flate2",
+      "flate2/zlib-ng-compat"
+    ],
+    "deflate-flate2-zlib-rs": [
+      "deflate-flate2",
+      "flate2/zlib-rs"
+    ],
+    "deflate-zopfli": [
+      "dep:zopfli",
+      "_deflate-any"
+    ],
+    "jiff-02": [
+      "dep:jiff"
+    ],
+    "legacy-zip": [
+      "bitstream-io"
+    ],
+    "lzma": [
+      "dep:lzma-rust2"
+    ],
+    "nt-time": [
+      "dep:nt-time"
+    ],
+    "ppmd": [
+      "dep:ppmd-rust"
+    ],
+    "unreserved": [],
+    "xz": [
+      "dep:lzma-rust2"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2026-01-27T21:43:26.990993Z",
+  "dependencies": [
+    "bencher",
+    "clap",
+    "crc32fast",
+    "getrandom",
+    "getrandom",
+    "getrandom",
+    "indexmap",
+    "memchr",
+    "rayon",
+    "tempfile",
+    "time",
+    "typed-path",
+    "walkdir",
+    "wasm-bindgen-test",
+    "aes",
+    "arbitrary",
+    "bitstream-io",
+    "bzip2",
+    "chrono",
+    "constant_time_eq",
+    "deflate64",
+    "flate2",
+    "generic-array",
+    "getrandom",
+    "getrandom",
+    "hmac",
+    "jiff",
+    "lzma-rust2",
+    "nt-time",
+    "pbkdf2",
+    "ppmd-rust",
+    "sha1",
+    "time",
+    "time",
+    "time",
+    "zeroize",
+    "zopfli",
+    "zstd"
+  ]
+}

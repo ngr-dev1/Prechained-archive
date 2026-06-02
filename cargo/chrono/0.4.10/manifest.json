@@ -1,0 +1,47 @@
+{
+  "name": "chrono",
+  "version": "0.4.10",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "31850b4a4d6bae316f7a09e691c944c28299298837edc0a03f755618c23cbc01",
+  "features": {
+    "alloc": [],
+    "bench": [
+      "std"
+    ],
+    "clock": [
+      "time",
+      "std"
+    ],
+    "default": [
+      "clock",
+      "std"
+    ],
+    "std": [],
+    "wasmbind": [
+      "wasm-bindgen",
+      "js-sys"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3082,
+    "login": "quodlibetor"
+  },
+  "publishedAt": "2019-11-24T18:03:06.155651Z",
+  "dependencies": [
+    "bincode",
+    "doc-comment",
+    "num-integer",
+    "num-iter",
+    "num-traits",
+    "serde_derive",
+    "serde_json",
+    "wasm-bindgen-test",
+    "js-sys",
+    "rustc-serialize",
+    "serde",
+    "time",
+    "wasm-bindgen"
+  ]
+}

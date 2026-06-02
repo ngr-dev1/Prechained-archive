@@ -1,0 +1,73 @@
+{
+  "name": "rdkafka",
+  "version": "0.23.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "43c48f1689bcf33bdab14999e23f541cad54bacddd1233039237947781f659ca",
+  "features": {
+    "cmake-build": [
+      "rdkafka-sys/cmake-build"
+    ],
+    "cmake_build": [
+      "rdkafka-sys/cmake_build"
+    ],
+    "default": [
+      "libz"
+    ],
+    "dynamic_linking": [
+      "rdkafka-sys/dynamic_linking"
+    ],
+    "external-lz4": [
+      "rdkafka-sys/external-lz4"
+    ],
+    "external_lz4": [
+      "rdkafka-sys/external_lz4"
+    ],
+    "gssapi": [
+      "rdkafka-sys/gssapi"
+    ],
+    "libz": [
+      "rdkafka-sys/libz"
+    ],
+    "libz-static": [
+      "rdkafka-sys/libz-static"
+    ],
+    "sasl": [
+      "rdkafka-sys/sasl"
+    ],
+    "ssl": [
+      "rdkafka-sys/ssl"
+    ],
+    "ssl-vendored": [
+      "rdkafka-sys/ssl-vendored"
+    ],
+    "zstd": [
+      "rdkafka-sys/zstd"
+    ],
+    "zstd-pkg-config": [
+      "rdkafka-sys/zstd-pkg-config"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5192,
+    "login": "fede1024"
+  },
+  "publishedAt": "2020-01-10T08:29:36.969624Z",
+  "dependencies": [
+    "backoff",
+    "chrono",
+    "clap",
+    "env_logger",
+    "futures",
+    "libc",
+    "log",
+    "rand",
+    "rdkafka-sys",
+    "regex",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "tokio"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "openssl",
+  "version": "0.10.39",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "28f3916d46d9d813a62d7b7d2724d7b14785ac999fb623d990ee4603f9122742",
+  "features": {
+    "bindgen": [
+      "ffi/bindgen"
+    ],
+    "v101": [],
+    "v102": [],
+    "v110": [],
+    "v111": [],
+    "vendored": [
+      "ffi/vendored"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5,
+    "login": "sfackler"
+  },
+  "publishedAt": "2022-05-03T01:11:47.178867Z",
+  "dependencies": [
+    "bitflags",
+    "cfg-if",
+    "foreign-types",
+    "hex",
+    "libc",
+    "once_cell",
+    "openssl-macros",
+    "openssl-sys"
+  ]
+}

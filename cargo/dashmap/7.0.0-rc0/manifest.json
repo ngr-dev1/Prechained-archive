@@ -1,0 +1,41 @@
+{
+  "name": "dashmap",
+  "version": "7.0.0-rc0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "e9ab7095ba53ab5c2482bff3094c030f5f125f80330531aec9817a340a428396",
+  "features": {
+    "all": [
+      "raw-api",
+      "typesize",
+      "serde",
+      "rayon",
+      "arbitrary"
+    ],
+    "inline-more": [
+      "hashbrown/inline-more"
+    ],
+    "raw-api": [],
+    "typesize": [
+      "dep:typesize"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 19646,
+    "login": "xacrimon"
+  },
+  "publishedAt": "2025-02-13T16:44:59.542240Z",
+  "dependencies": [
+    "cfg-if",
+    "crossbeam-utils",
+    "equivalent",
+    "hashbrown",
+    "lock_api",
+    "parking_lot_core",
+    "arbitrary",
+    "rayon",
+    "serde",
+    "typesize"
+  ]
+}

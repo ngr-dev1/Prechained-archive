@@ -1,0 +1,79 @@
+{
+  "name": "config",
+  "version": "0.15.6",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "e329294a796e9b22329669c1f433a746983f9e324e07f4ef135be81bb2262de4",
+  "features": {
+    "async": [
+      "async-trait"
+    ],
+    "convert-case": [
+      "convert_case"
+    ],
+    "default": [
+      "toml",
+      "json",
+      "yaml",
+      "ini",
+      "ron",
+      "json5",
+      "convert-case",
+      "async"
+    ],
+    "ini": [
+      "rust-ini"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "json5": [
+      "json5_rs",
+      "serde/derive"
+    ],
+    "preserve_order": [
+      "indexmap",
+      "toml?/preserve_order",
+      "serde_json?/preserve_order",
+      "ron?/indexmap"
+    ],
+    "toml": [
+      "dep:toml"
+    ],
+    "yaml": [
+      "yaml-rust2"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6743,
+    "login": "epage"
+  },
+  "publishedAt": "2025-01-14T21:24:20.873511Z",
+  "dependencies": [
+    "chrono",
+    "float-cmp",
+    "futures",
+    "glob",
+    "log",
+    "notify",
+    "pathdiff",
+    "reqwest",
+    "serde",
+    "serde_derive",
+    "snapbox",
+    "temp-env",
+    "tokio",
+    "warp",
+    "winnow",
+    "async-trait",
+    "convert_case",
+    "indexmap",
+    "json5",
+    "ron",
+    "rust-ini",
+    "serde_json",
+    "toml",
+    "yaml-rust2"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ignore",
+  "version": "0.3.1",
+  "ecosystem": "cargo",
+  "license": "Unlicense/MIT",
+  "checksum": "bb2f0238094bd1b41800fb6eb9b16fdd5e9832ed6053ed91409f0cd5bf28dcfd",
+  "features": {
+    "simd-accel": [
+      "globset/simd-accel"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-10-22T15:15:33.234689Z",
+  "dependencies": [
+    "crossbeam",
+    "globset",
+    "lazy_static",
+    "log",
+    "memchr",
+    "regex",
+    "same-file",
+    "tempdir",
+    "thread_local",
+    "walkdir"
+  ]
+}

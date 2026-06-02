@@ -1,0 +1,104 @@
+{
+  "name": "tokio",
+  "version": "0.2.0-alpha.6",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "1f17f5d6ab0f35c1506678b28fb1798bdf74fcb737e9843c7b17b73e426eba38",
+  "features": {
+    "codec": [
+      "io",
+      "tokio-codec",
+      "bytes"
+    ],
+    "default": [
+      "codec",
+      "fs",
+      "io",
+      "net",
+      "rt-full",
+      "sync",
+      "timer"
+    ],
+    "fs": [
+      "tokio-fs"
+    ],
+    "io": [
+      "tokio-io"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "tcp",
+      "udp",
+      "uds"
+    ],
+    "process": [
+      "io",
+      "tokio-net/process"
+    ],
+    "rt-current-thread": [
+      "timer",
+      "tokio-net",
+      "tokio-executor/current-thread"
+    ],
+    "rt-full": [
+      "macros",
+      "num_cpus",
+      "net",
+      "sync",
+      "timer",
+      "tokio-executor/current-thread",
+      "tokio-executor/threadpool",
+      "tracing-core"
+    ],
+    "signal": [
+      "tokio-net/signal"
+    ],
+    "sync": [
+      "tokio-sync"
+    ],
+    "tcp": [
+      "io",
+      "tokio-net/tcp"
+    ],
+    "timer": [
+      "tokio-timer"
+    ],
+    "tracing": [
+      "tracing-core"
+    ],
+    "udp": [
+      "io",
+      "tokio-net/udp"
+    ],
+    "uds": [
+      "io",
+      "tokio-net/uds"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3959,
+    "login": "LucioFranco"
+  },
+  "publishedAt": "2019-10-01T00:49:11.181139Z",
+  "dependencies": [
+    "futures-core-preview",
+    "futures-sink-preview",
+    "futures-util-preview",
+    "bytes",
+    "num_cpus",
+    "tokio-codec",
+    "tokio-executor",
+    "tokio-executor",
+    "tokio-fs",
+    "tokio-io",
+    "tokio-macros",
+    "tokio-net",
+    "tokio-net",
+    "tokio-sync",
+    "tokio-timer",
+    "tracing-core"
+  ]
+}

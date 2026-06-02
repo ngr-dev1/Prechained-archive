@@ -1,0 +1,59 @@
+{
+  "name": "openssl",
+  "version": "0.7.1",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "f067c2c75fa5b56cb584b7e1abe4901218a9138cd8d1e1f9e17baa0e2f7d1beb",
+  "features": {
+    "aes_ctr": [
+      "openssl-sys/aes_ctr"
+    ],
+    "aes_xts": [
+      "openssl-sys/aes_xts"
+    ],
+    "alpn": [
+      "openssl-sys/alpn"
+    ],
+    "dtlsv1": [
+      "openssl-sys/dtlsv1"
+    ],
+    "dtlsv1_2": [
+      "openssl-sys/dtlsv1_2"
+    ],
+    "ecdh_auto": [
+      "openssl-sys-extras/ecdh_auto"
+    ],
+    "npn": [
+      "openssl-sys/npn"
+    ],
+    "rfc5114": [
+      "openssl-sys/rfc5114"
+    ],
+    "sslv2": [
+      "openssl-sys/sslv2"
+    ],
+    "sslv3": [
+      "openssl-sys/sslv3"
+    ],
+    "tlsv1_1": [
+      "openssl-sys/tlsv1_1"
+    ],
+    "tlsv1_2": [
+      "openssl-sys/tlsv1_2"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2015-11-29T00:20:51.072658Z",
+  "dependencies": [
+    "bitflags",
+    "lazy_static",
+    "libc",
+    "net2",
+    "openssl-sys",
+    "openssl-sys-extras",
+    "rustc-serialize",
+    "winapi",
+    "ws2_32-sys"
+  ]
+}

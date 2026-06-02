@@ -1,0 +1,90 @@
+{
+  "name": "clap",
+  "version": "3.0.0-rc.5",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "9d358d5dcd274692e60df775bd452f66341a49ab90cc6cc1084c4350a3f914d9",
+  "features": {
+    "cargo": [
+      "lazy_static"
+    ],
+    "color": [
+      "atty",
+      "termcolor"
+    ],
+    "debug": [
+      "clap_derive/debug",
+      "backtrace"
+    ],
+    "default": [
+      "std",
+      "color",
+      "suggestions"
+    ],
+    "derive": [
+      "clap_derive",
+      "lazy_static"
+    ],
+    "env": [],
+    "std": [
+      "indexmap/std"
+    ],
+    "suggestions": [
+      "strsim"
+    ],
+    "unicode": [
+      "textwrap/unicode-width",
+      "unicase"
+    ],
+    "unstable-doc": [
+      "derive",
+      "cargo",
+      "wrap_help",
+      "yaml",
+      "env",
+      "unicode",
+      "regex",
+      "unstable-replace",
+      "unstable-multicall",
+      "unstable-grouped"
+    ],
+    "unstable-grouped": [],
+    "unstable-multicall": [],
+    "unstable-replace": [],
+    "wrap_help": [
+      "terminal_size",
+      "textwrap/terminal_size"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6743,
+    "login": "epage"
+  },
+  "publishedAt": "2021-12-15T17:03:02.452595Z",
+  "dependencies": [
+    "bitflags",
+    "criterion",
+    "indexmap",
+    "lazy_static",
+    "os_str_bytes",
+    "regex",
+    "rustversion",
+    "textwrap",
+    "trybuild",
+    "trycmd",
+    "atty",
+    "backtrace",
+    "clap_derive",
+    "lazy_static",
+    "regex",
+    "strsim",
+    "termcolor",
+    "terminal_size",
+    "unicase",
+    "yaml-rust"
+  ]
+}

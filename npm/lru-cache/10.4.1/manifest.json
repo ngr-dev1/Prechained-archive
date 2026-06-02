@@ -1,0 +1,51 @@
+{
+  "name": "lru-cache",
+  "version": "10.4.1",
+  "ecosystem": "npm",
+  "description": "A cache object that deletes the least-recently-used items.",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "^20.0.3",
+    "tshy": "^2.0.0",
+    "tslib": "^2.4.0",
+    "marked": "^4.2.12",
+    "mkdirp": "^2.1.5",
+    "esbuild": "^0.17.11",
+    "typedoc": "^0.25.3",
+    "prettier": "^2.6.2",
+    "benchmark": "^2.1.4",
+    "@types/tap": "^15.0.6",
+    "typescript": "^5.2.2",
+    "@types/node": "^20.2.5",
+    "eslint-config-prettier": "^8.5.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tshy && bash fixup.sh"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me"
+  },
+  "publishedAt": "2024-07-08T21:53:13.080Z",
+  "dist": {
+    "integrity": "sha512-8h/JsUc/2+Dm9RPJnBAmObGnUqTMmsIKThxixMLOkrebSihRhTV0wLD/8BSk6OU6Pbj8hiDTbsI3fLjBJSlhDg==",
+    "shasum": "da9a9cb51aec89fda9b485f5a12b2fdb8f6dbe88",
+    "tarball": "https://registry.npmjs.org/lru-cache/-/lru-cache-10.4.1.tgz",
+    "fileCount": 17,
+    "unpackedSize": 804340
+  },
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  }
+}

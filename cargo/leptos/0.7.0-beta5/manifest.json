@@ -1,0 +1,112 @@
+{
+  "name": "leptos",
+  "version": "0.7.0-beta5",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "dce271592769bc3aaece4b23228176fe2862b24666a6ad1d49639af9e3081f93",
+  "features": {
+    "csr": [
+      "leptos_macro/csr",
+      "reactive_graph/effects"
+    ],
+    "default-tls": [
+      "server_fn/default-tls"
+    ],
+    "delegation": [
+      "tachys/delegation"
+    ],
+    "experimental-islands": [
+      "leptos_macro/experimental-islands",
+      "dep:serde_json"
+    ],
+    "hydrate": [
+      "leptos_macro/hydrate",
+      "hydration",
+      "tachys/hydrate",
+      "reactive_graph/effects"
+    ],
+    "hydration": [
+      "reactive_graph/hydration",
+      "leptos_server/hydration",
+      "hydration_context/browser",
+      "leptos_dom/hydration"
+    ],
+    "nightly": [
+      "leptos_macro/nightly",
+      "reactive_graph/nightly",
+      "tachys/nightly"
+    ],
+    "nonce": [
+      "base64",
+      "rand"
+    ],
+    "rkyv": [
+      "server_fn/rkyv"
+    ],
+    "rustls": [
+      "server_fn/rustls"
+    ],
+    "spin": [
+      "leptos-spin-macro"
+    ],
+    "ssr": [
+      "leptos_macro/ssr",
+      "leptos_server/ssr",
+      "server_fn/ssr",
+      "hydration",
+      "tachys/ssr"
+    ],
+    "trace-component-props": [
+      "leptos_macro/trace-component-props",
+      "leptos_dom/trace-component-props"
+    ],
+    "tracing": [
+      "dep:tracing",
+      "reactive_graph/tracing",
+      "tachys/tracing",
+      "leptos_macro/tracing",
+      "leptos_dom/tracing",
+      "leptos_server/tracing"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 130155,
+    "login": "gbj"
+  },
+  "publishedAt": "2024-09-08T23:44:15.773060Z",
+  "dependencies": [
+    "any_spawner",
+    "cfg-if",
+    "either_of",
+    "futures",
+    "hydration_context",
+    "leptos_config",
+    "leptos_dom",
+    "leptos_hot_reload",
+    "leptos_macro",
+    "leptos_server",
+    "oco_ref",
+    "or_poisoned",
+    "paste",
+    "reactive_graph",
+    "rustc-hash",
+    "send_wrapper",
+    "serde",
+    "serde_qs",
+    "server_fn",
+    "slotmap",
+    "tachys",
+    "thiserror",
+    "throw_error",
+    "typed-builder",
+    "typed-builder-macro",
+    "wasm-bindgen",
+    "web-sys",
+    "base64",
+    "leptos-spin-macro",
+    "rand",
+    "serde_json",
+    "tracing"
+  ]
+}

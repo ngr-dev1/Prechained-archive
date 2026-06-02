@@ -1,0 +1,87 @@
+{
+  "name": "azure_core",
+  "version": "0.34.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "688882dc4a96b0ea158299d590fad91c471eced6403fd9a9ea1992c14397f25f",
+  "features": {
+    "debug": [
+      "typespec_client_core/debug"
+    ],
+    "decimal": [
+      "typespec_client_core/decimal"
+    ],
+    "default": [
+      "reqwest",
+      "reqwest_deflate",
+      "reqwest_gzip",
+      "reqwest_native_tls",
+      "tokio"
+    ],
+    "hmac_openssl": [
+      "dep:openssl"
+    ],
+    "hmac_rust": [
+      "dep:sha2",
+      "dep:hmac"
+    ],
+    "reqwest": [
+      "typespec_client_core/reqwest"
+    ],
+    "reqwest_deflate": [
+      "reqwest",
+      "typespec_client_core/reqwest_deflate"
+    ],
+    "reqwest_gzip": [
+      "reqwest",
+      "typespec_client_core/reqwest_gzip"
+    ],
+    "reqwest_native_tls": [
+      "reqwest",
+      "typespec_client_core/reqwest_native_tls"
+    ],
+    "test": [
+      "typespec_client_core/test"
+    ],
+    "tokio": [
+      "dep:tokio",
+      "typespec_client_core/tokio"
+    ],
+    "xml": [
+      "typespec_client_core/xml"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 342983,
+    "login": "microsoft-oss-releases"
+  },
+  "publishedAt": "2026-04-08T00:11:03.703157Z",
+  "dependencies": [
+    "async-lock",
+    "async-trait",
+    "azure_core_macros",
+    "bytes",
+    "criterion",
+    "futures",
+    "http",
+    "include-file",
+    "json-patch",
+    "pin-project",
+    "reqwest",
+    "rustc_version",
+    "serde",
+    "serde_json",
+    "thiserror",
+    "tokio",
+    "tracing",
+    "tracing-subscriber",
+    "typespec",
+    "typespec_client_core",
+    "ureq",
+    "hmac",
+    "openssl",
+    "sha2",
+    "tokio"
+  ]
+}

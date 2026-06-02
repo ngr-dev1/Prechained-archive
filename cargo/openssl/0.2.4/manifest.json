@@ -1,0 +1,27 @@
+{
+  "name": "openssl",
+  "version": "0.2.4",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "b769f99843f47b0d06b2d1704a73b4faf6ee5e6c0adc3d87143dc3086a518f37",
+  "features": {
+    "aes_xts": [
+      "openssl-sys/aes_xts"
+    ],
+    "sslv2": [
+      "openssl-sys/sslv2"
+    ],
+    "tlsv1_1": [
+      "openssl-sys/tlsv1_1"
+    ],
+    "tlsv1_2": [
+      "openssl-sys/tlsv1_2"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2014-12-15T17:26:38.562669Z",
+  "dependencies": [
+    "openssl-sys"
+  ]
+}

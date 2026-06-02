@@ -1,0 +1,95 @@
+{
+  "name": "clap",
+  "version": "4.5.17",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "3e5a21b8495e732f1b3c364c9949b201ca7bae518c502c80256c96ad79eaf6ac",
+  "features": {
+    "cargo": [
+      "clap_builder/cargo"
+    ],
+    "color": [
+      "clap_builder/color"
+    ],
+    "debug": [
+      "clap_builder/debug",
+      "clap_derive?/debug"
+    ],
+    "default": [
+      "std",
+      "color",
+      "help",
+      "usage",
+      "error-context",
+      "suggestions"
+    ],
+    "deprecated": [
+      "clap_builder/deprecated",
+      "clap_derive?/deprecated"
+    ],
+    "derive": [
+      "dep:clap_derive"
+    ],
+    "env": [
+      "clap_builder/env"
+    ],
+    "error-context": [
+      "clap_builder/error-context"
+    ],
+    "help": [
+      "clap_builder/help"
+    ],
+    "std": [
+      "clap_builder/std"
+    ],
+    "string": [
+      "clap_builder/string"
+    ],
+    "suggestions": [
+      "clap_builder/suggestions"
+    ],
+    "unicode": [
+      "clap_builder/unicode"
+    ],
+    "unstable-derive-ui-tests": [],
+    "unstable-doc": [
+      "clap_builder/unstable-doc",
+      "derive"
+    ],
+    "unstable-ext": [
+      "clap_builder/unstable-ext"
+    ],
+    "unstable-styles": [
+      "clap_builder/unstable-styles"
+    ],
+    "unstable-v5": [
+      "clap_builder/unstable-v5",
+      "clap_derive?/unstable-v5",
+      "deprecated"
+    ],
+    "usage": [
+      "clap_builder/usage"
+    ],
+    "wrap_help": [
+      "clap_builder/wrap_help"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6743,
+    "login": "epage"
+  },
+  "publishedAt": "2024-09-04T19:16:41.355243Z",
+  "dependencies": [
+    "automod",
+    "clap-cargo",
+    "clap_builder",
+    "humantime",
+    "rustversion",
+    "shlex",
+    "snapbox",
+    "trybuild",
+    "trycmd",
+    "clap_derive"
+  ]
+}

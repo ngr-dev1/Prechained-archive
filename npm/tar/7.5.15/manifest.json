@@ -1,0 +1,57 @@
+{
+  "name": "tar",
+  "version": "7.5.15",
+  "ecosystem": "npm",
+  "description": "tar for node",
+  "license": "BlueOak-1.0.0",
+  "dependencies": {
+    "chownr": "^3.0.0",
+    "yallist": "^5.0.0",
+    "minipass": "^7.1.2",
+    "minizlib": "^3.1.0",
+    "@isaacs/fs-minipass": "^4.0.0"
+  },
+  "devDependencies": {
+    "tap": "^21.6.2",
+    "nock": "^13.5.4",
+    "tshy": "^3.3.2",
+    "chmodr": "^2.0.2",
+    "oxlint": "^1.57.0",
+    "rimraf": "^6.1.2",
+    "esbuild": "^0.27.4",
+    "typedoc": "^0.28.18",
+    "prettier": "^3.8.1",
+    "mutate-fs": "^2.1.1",
+    "@types/node": "^25.5.0",
+    "end-of-stream": "^1.4.3",
+    "events-to-array": "^2.0.3",
+    "oxlint-tsgolint": "^0.17.3"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tshy && bash scripts/build.sh"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "name": "Isaac Z. Schlueter"
+  },
+  "publishedAt": "2026-05-07T17:40:17.594Z",
+  "dist": {
+    "integrity": "sha512-dzGK0boVlC4W5QFuQN1EFSl3bIDYsk7Tj40U6eIBnK2k/8ml7TZ5agbI5j5+qnoVcAA+rNtBml8SEiLxZpNqRQ==",
+    "shasum": "afe6d1316cddf614a566e3813e42fe01aed46fee",
+    "tarball": "https://registry.npmjs.org/tar/-/tar-7.5.15.tgz",
+    "fileCount": 249,
+    "unpackedSize": 2256849
+  },
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  }
+}

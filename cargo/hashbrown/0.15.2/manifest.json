@@ -1,0 +1,57 @@
+{
+  "name": "hashbrown",
+  "version": "0.15.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "bf151400ff0baff5465007dd2f3e717f3fe502074ca563069ce3a6629d07b289",
+  "features": {
+    "default": [
+      "default-hasher",
+      "inline-more",
+      "allocator-api2",
+      "equivalent",
+      "raw-entry"
+    ],
+    "default-hasher": [
+      "dep:foldhash"
+    ],
+    "inline-more": [],
+    "nightly": [
+      "allocator-api2?/nightly",
+      "bumpalo/allocator_api"
+    ],
+    "raw-entry": [],
+    "rustc-dep-of-std": [
+      "nightly",
+      "core",
+      "compiler_builtins",
+      "alloc",
+      "rustc-internal-api",
+      "raw-entry"
+    ],
+    "rustc-internal-api": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2915,
+    "login": "Amanieu"
+  },
+  "publishedAt": "2024-11-25T00:36:20.789854Z",
+  "dependencies": [
+    "bumpalo",
+    "doc-comment",
+    "fnv",
+    "lazy_static",
+    "rand",
+    "rayon",
+    "serde_test",
+    "allocator-api2",
+    "compiler_builtins",
+    "equivalent",
+    "foldhash",
+    "rayon",
+    "rustc-std-workspace-alloc",
+    "rustc-std-workspace-core",
+    "serde"
+  ]
+}

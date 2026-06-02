@@ -1,0 +1,90 @@
+{
+  "name": "jsonrpsee",
+  "version": "0.25.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "291b976aa36da54e190f05e4e18f007d34946a73430f48628d1df8934678f33f",
+  "features": {
+    "async-client": [
+      "jsonrpsee-core/async-client"
+    ],
+    "async-wasm-client": [
+      "jsonrpsee-core/async-wasm-client"
+    ],
+    "client": [
+      "http-client",
+      "ws-client",
+      "wasm-client",
+      "client-ws-transport-tls",
+      "client-web-transport",
+      "async-client",
+      "async-wasm-client",
+      "client-core"
+    ],
+    "client-core": [
+      "jsonrpsee-core/client"
+    ],
+    "client-web-transport": [
+      "jsonrpsee-client-transport/web"
+    ],
+    "client-ws-transport-no-tls": [
+      "jsonrpsee-client-transport/ws"
+    ],
+    "client-ws-transport-tls": [
+      "jsonrpsee-client-transport/ws",
+      "jsonrpsee-client-transport/tls-rustls-platform-verifier"
+    ],
+    "full": [
+      "client",
+      "server",
+      "macros"
+    ],
+    "http-client": [
+      "jsonrpsee-http-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core/client"
+    ],
+    "macros": [
+      "jsonrpsee-proc-macros",
+      "jsonrpsee-types",
+      "tracing"
+    ],
+    "server": [
+      "jsonrpsee-server",
+      "server-core",
+      "jsonrpsee-types",
+      "tokio"
+    ],
+    "server-core": [
+      "jsonrpsee-core/server"
+    ],
+    "wasm-client": [
+      "jsonrpsee-wasm-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core/client"
+    ],
+    "ws-client": [
+      "jsonrpsee-ws-client",
+      "jsonrpsee-types",
+      "jsonrpsee-core/client"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 18452,
+    "login": "niklasad1"
+  },
+  "publishedAt": "2025-04-24T13:00:33.195602Z",
+  "dependencies": [
+    "jsonrpsee-client-transport",
+    "jsonrpsee-core",
+    "jsonrpsee-http-client",
+    "jsonrpsee-proc-macros",
+    "jsonrpsee-server",
+    "jsonrpsee-types",
+    "jsonrpsee-wasm-client",
+    "jsonrpsee-ws-client",
+    "tokio",
+    "tracing"
+  ]
+}

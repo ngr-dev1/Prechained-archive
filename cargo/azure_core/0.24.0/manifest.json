@@ -1,0 +1,76 @@
+{
+  "name": "azure_core",
+  "version": "0.24.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "0f5e6bcc9dfd4587f3132818b6922b9157f00a4df7fd7bf76395ddf37f58983d",
+  "features": {
+    "azurite_workaround": [],
+    "debug": [
+      "typespec_client_core/debug"
+    ],
+    "default": [
+      "reqwest",
+      "reqwest_deflate",
+      "reqwest_gzip"
+    ],
+    "hmac_openssl": [
+      "dep:openssl"
+    ],
+    "hmac_rust": [
+      "dep:sha2",
+      "dep:hmac"
+    ],
+    "reqwest": [
+      "typespec_client_core/reqwest"
+    ],
+    "reqwest_deflate": [
+      "typespec_client_core/reqwest_deflate"
+    ],
+    "reqwest_gzip": [
+      "typespec_client_core/reqwest_gzip"
+    ],
+    "reqwest_rustls": [
+      "typespec_client_core/reqwest_rustls"
+    ],
+    "test": [
+      "typespec_client_core/test"
+    ],
+    "tokio": [
+      "dep:tokio",
+      "tokio/process",
+      "typespec_client_core/tokio"
+    ],
+    "xml": [
+      "typespec_client_core/xml"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 313465,
+    "login": "azure-sdk"
+  },
+  "publishedAt": "2025-05-02T23:01:38.552521Z",
+  "dependencies": [
+    "async-lock",
+    "async-trait",
+    "bytes",
+    "criterion",
+    "futures",
+    "pin-project",
+    "rustc_version",
+    "serde",
+    "serde_json",
+    "thiserror",
+    "time",
+    "tokio",
+    "tracing",
+    "tracing-subscriber",
+    "typespec",
+    "typespec_client_core",
+    "hmac",
+    "openssl",
+    "sha2",
+    "tokio"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "mio",
+  "version": "0.8.10",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "8f3d0b296e374a4e6f3c7b0a1f5a51d748a0d34c85e7dc48fc3fa9a87657fe09",
+  "features": {
+    "default": [
+      "log"
+    ],
+    "net": [],
+    "os-ext": [
+      "os-poll",
+      "windows-sys/Win32_System_Pipes",
+      "windows-sys/Win32_Security"
+    ],
+    "os-poll": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6025,
+    "login": "Thomasdezeeuw"
+  },
+  "publishedAt": "2023-12-06T12:34:27.369357Z",
+  "dependencies": [
+    "env_logger",
+    "libc",
+    "libc",
+    "rand",
+    "wasi",
+    "windows-sys",
+    "log"
+  ]
+}

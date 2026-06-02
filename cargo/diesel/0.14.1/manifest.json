@@ -1,0 +1,79 @@
+{
+  "name": "diesel",
+  "version": "0.14.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "8dfbfd2fe603bbe350a9929d8a3e51918bae9d57c3fddbcece8e24afb37125a8",
+  "features": {
+    "default": [
+      "with-deprecated"
+    ],
+    "deprecated-time": [
+      "time"
+    ],
+    "extras": [
+      "chrono",
+      "serde_json",
+      "uuid",
+      "deprecated-time",
+      "network-address",
+      "numeric"
+    ],
+    "huge-tables": [
+      "large-tables"
+    ],
+    "large-tables": [],
+    "lint": [
+      "clippy"
+    ],
+    "mysql": [
+      "mysqlclient-sys",
+      "url"
+    ],
+    "network-address": [
+      "ipnetwork",
+      "libc"
+    ],
+    "numeric": [
+      "num-bigint",
+      "bigdecimal",
+      "num-traits",
+      "num-integer"
+    ],
+    "postgres": [
+      "pq-sys"
+    ],
+    "sqlite": [
+      "libsqlite3-sys"
+    ],
+    "unstable": [],
+    "with-deprecated": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-07-10T15:46:43.450478Z",
+  "dependencies": [
+    "byteorder",
+    "cfg-if",
+    "diesel_codegen",
+    "dotenv",
+    "quickcheck",
+    "tempdir",
+    "bigdecimal",
+    "chrono",
+    "clippy",
+    "ipnetwork",
+    "libc",
+    "libsqlite3-sys",
+    "mysqlclient-sys",
+    "num-bigint",
+    "num-integer",
+    "num-traits",
+    "pq-sys",
+    "quickcheck",
+    "serde_json",
+    "time",
+    "url",
+    "uuid"
+  ]
+}

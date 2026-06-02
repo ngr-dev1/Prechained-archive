@@ -1,0 +1,42 @@
+{
+  "name": "serde_json",
+  "version": "1.0.50",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "78a7a12c167809363ec3bd7329fc0a3369056996de43c4b37ef3cd54a6ce4867",
+  "features": {
+    "alloc": [
+      "serde/alloc"
+    ],
+    "arbitrary_precision": [],
+    "default": [
+      "std"
+    ],
+    "preserve_order": [
+      "indexmap"
+    ],
+    "raw_value": [],
+    "std": [
+      "serde/std"
+    ],
+    "unbounded_depth": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3618,
+    "login": "dtolnay"
+  },
+  "publishedAt": "2020-03-28T18:31:48.553169Z",
+  "dependencies": [
+    "automod",
+    "itoa",
+    "rustversion",
+    "ryu",
+    "serde",
+    "serde_bytes",
+    "serde_derive",
+    "serde_stacker",
+    "trybuild",
+    "indexmap"
+  ]
+}

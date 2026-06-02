@@ -1,0 +1,30 @@
+{
+  "name": "anyio",
+  "version": "1.0.0b1",
+  "ecosystem": "pypi",
+  "summary": "High level compatibility layer for multiple asynchronous event loop implementations",
+  "license": "MIT",
+  "author": "Alex Grönholm",
+  "author_email": "alex.gronholm@nextday.fi",
+  "requires_python": ">= 3.5.3",
+  "requires_dist": [
+    "async-generator",
+    "sniffio",
+    "curio (>=0.9); extra == 'curio'",
+    "sphinx-rtd-theme; extra == 'doc'",
+    "sphinx-autodoc-typehints (>=1.2.0); extra == 'doc'",
+    "sphinxcontrib-asyncio (>=0.2.0); extra == 'doc'",
+    "pytest (>=3.7.2); extra == 'test'",
+    "pytest-cov; extra == 'test'",
+    "trio (>=0.9); extra == 'trio'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2018-11-18T22:54:49",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/ed/27/e1e2095985829626a46d2d7dea4888b336547c691006723adb7567dc680e/anyio-1.0.0b1-py3-none-any.whl",
+    "sha256": "9bd4a9ec060d6fe275d26a686a661fde2aa1306d2a7142a012c2cf2bb73a7eed",
+    "size": 26166,
+    "filename": "anyio-1.0.0b1-py3-none-any.whl"
+  }
+}

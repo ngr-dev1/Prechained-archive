@@ -1,0 +1,58 @@
+{
+  "name": "uuid",
+  "version": "0.7.3",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "600ef8213e9f8a0ac1f876e470e90780ae0478eabce7f76aff41b0f4ef0fd5c0",
+  "features": {
+    "const_fn": [
+      "nightly"
+    ],
+    "default": [
+      "std"
+    ],
+    "guid": [
+      "winapi"
+    ],
+    "nightly": [],
+    "std": [],
+    "stdweb": [
+      "rand/stdweb"
+    ],
+    "u128": [
+      "byteorder"
+    ],
+    "v1": [],
+    "v3": [
+      "md5"
+    ],
+    "v4": [
+      "rand"
+    ],
+    "v5": [
+      "sha1"
+    ],
+    "wasm-bindgen": [
+      "rand/wasm-bindgen"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6097,
+    "login": "kinggoesgaming"
+  },
+  "publishedAt": "2019-03-25T02:54:35.681341Z",
+  "dependencies": [
+    "bincode",
+    "serde_derive",
+    "serde_json",
+    "serde_test",
+    "byteorder",
+    "md5",
+    "rand",
+    "serde",
+    "sha1",
+    "slog",
+    "winapi"
+  ]
+}

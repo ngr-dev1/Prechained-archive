@@ -1,0 +1,83 @@
+{
+  "name": "reqwest",
+  "version": "0.9.20",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "0f6d896143a583047512e59ac54a215cb203c29cc941917343edea3be8df9c78",
+  "features": {
+    "default": [
+      "default-tls"
+    ],
+    "default-tls": [
+      "hyper-tls",
+      "native-tls",
+      "tls"
+    ],
+    "default-tls-vendored": [
+      "default-tls",
+      "native-tls/vendored"
+    ],
+    "hyper-011": [
+      "hyper-old-types"
+    ],
+    "rustls-tls": [
+      "hyper-rustls",
+      "tokio-rustls",
+      "webpki-roots",
+      "rustls",
+      "tls"
+    ],
+    "tls": [],
+    "trust-dns": [
+      "trust-dns-resolver"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2019-08-20T21:22:50.920849Z",
+  "dependencies": [
+    "base64",
+    "bytes",
+    "bytes",
+    "cookie",
+    "cookie_store",
+    "doc-comment",
+    "encoding_rs",
+    "env_logger",
+    "flate2",
+    "futures",
+    "http",
+    "hyper",
+    "libflate",
+    "log",
+    "mime",
+    "mime_guess",
+    "serde",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "time",
+    "tokio",
+    "tokio",
+    "tokio-executor",
+    "tokio-io",
+    "tokio-tcp",
+    "tokio-threadpool",
+    "tokio-timer",
+    "url",
+    "uuid",
+    "winreg",
+    "hyper-old-types",
+    "hyper-rustls",
+    "hyper-tls",
+    "native-tls",
+    "rustls",
+    "socks",
+    "tokio-rustls",
+    "trust-dns-resolver",
+    "webpki-roots"
+  ]
+}

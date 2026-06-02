@@ -1,0 +1,165 @@
+{
+  "name": "reqwest",
+  "version": "0.11.15",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "0ba30cc2c0cd02af1222ed216ba659cdb2f879dfe3181852fe7c50b1d0005949",
+  "features": {
+    "__internal_proxy_sys_no_cache": [],
+    "__rustls": [
+      "hyper-rustls",
+      "tokio-rustls",
+      "rustls",
+      "__tls",
+      "rustls-pemfile"
+    ],
+    "__tls": [],
+    "blocking": [
+      "futures-util/io",
+      "tokio/rt-multi-thread",
+      "tokio/sync"
+    ],
+    "brotli": [
+      "async-compression",
+      "async-compression/brotli",
+      "tokio-util"
+    ],
+    "cookies": [
+      "cookie_crate",
+      "cookie_store"
+    ],
+    "default": [
+      "default-tls"
+    ],
+    "default-tls": [
+      "hyper-tls",
+      "native-tls-crate",
+      "__tls",
+      "tokio-native-tls"
+    ],
+    "deflate": [
+      "async-compression",
+      "async-compression/zlib",
+      "tokio-util"
+    ],
+    "gzip": [
+      "async-compression",
+      "async-compression/gzip",
+      "tokio-util"
+    ],
+    "http3": [
+      "rustls-tls",
+      "h3",
+      "h3-quinn",
+      "quinn",
+      "futures-channel"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "multipart": [
+      "mime_guess"
+    ],
+    "native-tls": [
+      "default-tls"
+    ],
+    "native-tls-alpn": [
+      "native-tls",
+      "native-tls-crate/alpn"
+    ],
+    "native-tls-vendored": [
+      "native-tls",
+      "native-tls-crate/vendored"
+    ],
+    "rustls-tls": [
+      "rustls-tls-webpki-roots"
+    ],
+    "rustls-tls-manual-roots": [
+      "__rustls"
+    ],
+    "rustls-tls-native-roots": [
+      "rustls-native-certs",
+      "__rustls"
+    ],
+    "rustls-tls-webpki-roots": [
+      "webpki-roots",
+      "__rustls"
+    ],
+    "socks": [
+      "tokio-socks"
+    ],
+    "stream": [
+      "tokio/fs",
+      "tokio-util",
+      "wasm-streams"
+    ],
+    "trust-dns": [
+      "trust-dns-resolver"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2023-03-20T16:05:41.407122Z",
+  "dependencies": [
+    "base64",
+    "brotli",
+    "bytes",
+    "doc-comment",
+    "encoding_rs",
+    "env_logger",
+    "futures-core",
+    "futures-util",
+    "h2",
+    "http",
+    "http-body",
+    "hyper",
+    "hyper",
+    "ipnet",
+    "js-sys",
+    "libflate",
+    "log",
+    "mime",
+    "once_cell",
+    "percent-encoding",
+    "pin-project-lite",
+    "serde",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "tokio",
+    "tokio",
+    "tower-service",
+    "url",
+    "wasm-bindgen",
+    "wasm-bindgen",
+    "wasm-bindgen-futures",
+    "wasm-bindgen-test",
+    "web-sys",
+    "winreg",
+    "async-compression",
+    "cookie",
+    "cookie_store",
+    "futures-channel",
+    "h3",
+    "h3-quinn",
+    "hyper-rustls",
+    "hyper-tls",
+    "mime_guess",
+    "native-tls",
+    "quinn",
+    "rustls",
+    "rustls-native-certs",
+    "rustls-pemfile",
+    "serde_json",
+    "tokio-native-tls",
+    "tokio-rustls",
+    "tokio-socks",
+    "tokio-util",
+    "trust-dns-resolver",
+    "wasm-streams",
+    "webpki-roots"
+  ]
+}

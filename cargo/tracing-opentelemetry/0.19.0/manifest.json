@@ -1,0 +1,39 @@
+{
+  "name": "tracing-opentelemetry",
+  "version": "0.19.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "00a39dcf9bfc1742fa4d6215253b33a6e474be78275884c216fc2a06267b3600",
+  "features": {
+    "default": [
+      "tracing-log",
+      "metrics"
+    ],
+    "metrics": [
+      "opentelemetry/metrics"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66511,
+    "login": "jtescher"
+  },
+  "publishedAt": "2023-05-23T21:00:57.987469Z",
+  "dependencies": [
+    "async-trait",
+    "criterion",
+    "futures-util",
+    "once_cell",
+    "opentelemetry",
+    "opentelemetry-jaeger",
+    "tokio",
+    "tokio-stream",
+    "tracing",
+    "tracing",
+    "tracing-core",
+    "tracing-subscriber",
+    "async-trait",
+    "thiserror",
+    "tracing-log"
+  ]
+}

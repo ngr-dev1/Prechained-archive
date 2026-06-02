@@ -1,0 +1,30 @@
+{
+  "name": "url",
+  "version": "0.2.37",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "8418be6f06480ae5242d656575a7f369b0cd0ee992e8e8f4a6610f64b3a6d911",
+  "features": {
+    "heap_size": [
+      "heapsize",
+      "heapsize_plugin"
+    ],
+    "query_encoding": [
+      "encoding"
+    ],
+    "serde_serialization": [
+      "serde"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2015-08-13T14:56:34.654839Z",
+  "dependencies": [
+    "matches",
+    "rustc-serialize",
+    "encoding",
+    "heapsize",
+    "heapsize_plugin",
+    "serde"
+  ]
+}

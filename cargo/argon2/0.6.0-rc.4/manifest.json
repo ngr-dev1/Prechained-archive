@@ -1,0 +1,51 @@
+{
+  "name": "argon2",
+  "version": "0.6.0-rc.4",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "2318b1fbcb6d8ebe255091dce62990be001b47711191a9400225de50a208fec8",
+  "features": {
+    "alloc": [
+      "password-hash?/alloc"
+    ],
+    "default": [
+      "alloc",
+      "getrandom",
+      "simple"
+    ],
+    "getrandom": [
+      "simple",
+      "phc/getrandom"
+    ],
+    "parallel": [
+      "dep:rayon"
+    ],
+    "simple": [
+      "password-hash",
+      "phc"
+    ],
+    "std": [
+      "alloc",
+      "base64ct/std"
+    ],
+    "zeroize": [
+      "dep:zeroize"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2025-12-10T02:24:17.559555Z",
+  "dependencies": [
+    "base64ct",
+    "blake2",
+    "cpufeatures",
+    "hex-literal",
+    "password-hash",
+    "phc",
+    "rayon",
+    "zeroize"
+  ]
+}

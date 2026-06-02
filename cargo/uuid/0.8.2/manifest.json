@@ -1,0 +1,52 @@
+{
+  "name": "uuid",
+  "version": "0.8.2",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "bc5cf98d8186244414c848017f0e2676b3fcb46807f6668a97dfe67359a3c4b7",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "guid": [
+      "winapi"
+    ],
+    "std": [],
+    "stdweb": [
+      "getrandom",
+      "getrandom/js"
+    ],
+    "v1": [],
+    "v3": [
+      "md5"
+    ],
+    "v4": [
+      "getrandom"
+    ],
+    "v5": [
+      "sha1"
+    ],
+    "wasm-bindgen": [
+      "getrandom",
+      "getrandom/js"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3204,
+    "login": "KodrAus"
+  },
+  "publishedAt": "2021-01-11T06:19:16.143992Z",
+  "dependencies": [
+    "bincode",
+    "serde_derive",
+    "serde_json",
+    "serde_test",
+    "getrandom",
+    "md5",
+    "serde",
+    "sha1",
+    "slog",
+    "winapi"
+  ]
+}

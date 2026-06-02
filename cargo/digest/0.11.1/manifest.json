@@ -1,0 +1,48 @@
+{
+  "name": "digest",
+  "version": "0.11.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "285743a676ccb6b3e116bc14cc69319b957867930ae9c4822f8e0f54509d7243",
+  "features": {
+    "alloc": [],
+    "block-api": [
+      "dep:block-buffer"
+    ],
+    "default": [
+      "block-api"
+    ],
+    "dev": [
+      "blobby"
+    ],
+    "getrandom": [
+      "common/getrandom",
+      "rand_core"
+    ],
+    "mac": [
+      "dep:ctutils"
+    ],
+    "oid": [
+      "dep:const-oid"
+    ],
+    "rand_core": [
+      "common/rand_core"
+    ],
+    "zeroize": [
+      "dep:zeroize",
+      "block-buffer?/zeroize"
+    ]
+  },
+  "yanked": true,
+  "published_by": null,
+  "publishedAt": "2026-02-25T15:11:45.195474Z",
+  "dependencies": [
+    "crypto-common",
+    "sha2",
+    "blobby",
+    "block-buffer",
+    "const-oid",
+    "ctutils",
+    "zeroize"
+  ]
+}

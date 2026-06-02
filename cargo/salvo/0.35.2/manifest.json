@@ -1,0 +1,109 @@
+{
+  "name": "salvo",
+  "version": "0.35.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "13a02e2c237fad8003c720e6e604f6b146e9bec9b18efbbb1edf4d1f207e706e",
+  "features": {
+    "acme": [
+      "salvo_core/acme"
+    ],
+    "affix": [
+      "salvo_extra/affix"
+    ],
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic-auth": [
+      "salvo_extra/basic-auth"
+    ],
+    "caching-headers": [
+      "salvo_extra/caching-headers"
+    ],
+    "compression": [
+      "salvo_extra/compression"
+    ],
+    "cookie": [
+      "salvo_core/cookie"
+    ],
+    "cors": [
+      "salvo_extra/cors"
+    ],
+    "csrf": [
+      "salvo_extra/csrf"
+    ],
+    "default": [
+      "test",
+      "cookie"
+    ],
+    "extra": [
+      "salvo_extra/full"
+    ],
+    "force-https": [
+      "salvo_extra/force-https"
+    ],
+    "full": [
+      "test",
+      "cookie",
+      "rustls",
+      "native-tls",
+      "openssl",
+      "unix",
+      "acme",
+      "anyhow",
+      "extra"
+    ],
+    "jwt-auth": [
+      "salvo_extra/jwt-auth"
+    ],
+    "logging": [
+      "salvo_extra/logging"
+    ],
+    "native-tls": [
+      "salvo_core/native-tls"
+    ],
+    "openssl": [
+      "salvo_core/openssl"
+    ],
+    "proxy": [
+      "salvo_extra/proxy"
+    ],
+    "rustls": [
+      "salvo_core/rustls"
+    ],
+    "serve-static": [
+      "salvo_extra/serve-static"
+    ],
+    "size-limiter": [
+      "salvo_extra/size-limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "test": [
+      "salvo_core/test"
+    ],
+    "timeout": [
+      "salvo_extra/timeout"
+    ],
+    "trailing-slash": [
+      "salvo_extra/trailing-slash"
+    ],
+    "unix": [
+      "salvo_core/unix"
+    ],
+    "ws": [
+      "salvo_extra/ws"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn"
+  },
+  "publishedAt": "2022-09-22T01:23:01.837807Z",
+  "dependencies": [
+    "salvo_core",
+    "salvo_extra"
+  ]
+}

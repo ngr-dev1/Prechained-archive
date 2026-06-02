@@ -1,0 +1,83 @@
+{
+  "name": "sanitize-html",
+  "version": "1.16.2",
+  "ecosystem": "npm",
+  "description": "Clean up user-submitted HTML, preserving allowlisted elements and allowlisted attributes on a per-element basis",
+  "license": "MIT",
+  "dependencies": {
+    "xtend": "^4.0.0",
+    "srcset": "^1.0.0",
+    "postcss": "^6.0.14",
+    "htmlparser2": "^3.9.0",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.mergewith": "^4.6.0",
+    "lodash.escaperegexp": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "babelify": "^8.0.0",
+    "babel-cli": "^6.26.0",
+    "uglify-js": "^2.6.2",
+    "browserify": "^13.0.1",
+    "babel-preset-env": "^1.6.1"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "make clean && make all"
+  },
+  "maintainers": [
+    {
+      "name": "mtthwmnc",
+      "email": "matthew.mance@gmail.com"
+    },
+    {
+      "name": "jimmyh",
+      "email": "jimmy@punkave.com"
+    },
+    {
+      "name": "bgantick",
+      "email": "bgantick@gmail.com"
+    },
+    {
+      "name": "grdunn",
+      "email": "grdunn@gmail.com"
+    },
+    {
+      "name": "austinstarin",
+      "email": "austin@punkave.com"
+    },
+    {
+      "name": "boutell",
+      "email": "tom@punkave.com"
+    },
+    {
+      "name": "colpanik",
+      "email": "kerry@punkave.com"
+    },
+    {
+      "name": "alexgilbert",
+      "email": "alex@punkave.com"
+    },
+    {
+      "name": "stuartromanek",
+      "email": "stuart@punkave.com"
+    }
+  ],
+  "author": {
+    "name": "P'unk Avenue LLC"
+  },
+  "publishedAt": "2017-12-12T15:46:48.308Z",
+  "dist": {
+    "integrity": "sha512-LXP7XYEnaNtGevZKo2efYr34pKbC6XUkDSwosip6NZQUZ8s2Xxy8OPKPdGL9eYLL4Z58CPQy7Rxprs5myQKFVw==",
+    "shasum": "a4d55e88b23276028ee21c2dcace710463455568",
+    "tarball": "https://registry.npmjs.org/sanitize-html/-/sanitize-html-1.16.2.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "boutell",
+    "email": "tom@punkave.com"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "sha2",
+  "version": "0.11.0-rc.3",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "19d43dc0354d88b791216bb5c1bfbb60c0814460cc653ae0ebd71f286d0bd927",
+  "features": {
+    "alloc": [
+      "digest/alloc"
+    ],
+    "default": [
+      "alloc",
+      "oid"
+    ],
+    "oid": [
+      "digest/oid"
+    ],
+    "zeroize": [
+      "digest/zeroize"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2025-11-05T17:32:14.175790Z",
+  "dependencies": [
+    "base16ct",
+    "cfg-if",
+    "cpufeatures",
+    "digest",
+    "digest",
+    "hex-literal"
+  ]
+}

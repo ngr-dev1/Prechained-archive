@@ -1,0 +1,32 @@
+{
+  "name": "openssl",
+  "version": "0.10.27",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "e176a45fedd4c990e26580847a525e39e16ec32ac78957dbf62ded31b3abfd6f",
+  "features": {
+    "v101": [],
+    "v102": [],
+    "v110": [],
+    "v111": [],
+    "vendored": [
+      "openssl-sys/vendored"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5,
+    "login": "sfackler"
+  },
+  "publishedAt": "2020-01-29T23:40:19.505547Z",
+  "dependencies": [
+    "bitflags",
+    "cfg-if",
+    "foreign-types",
+    "hex",
+    "lazy_static",
+    "libc",
+    "openssl-sys",
+    "tempdir"
+  ]
+}

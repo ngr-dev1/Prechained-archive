@@ -1,0 +1,86 @@
+{
+  "name": "rdkafka",
+  "version": "0.26.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "af78bc431a82ef178c4ad6db537eb9cc25715a8591d27acc30455ee7227a76f4",
+  "features": {
+    "cmake-build": [
+      "rdkafka-sys/cmake-build"
+    ],
+    "cmake_build": [
+      "rdkafka-sys/cmake_build"
+    ],
+    "default": [
+      "libz",
+      "tokio"
+    ],
+    "dynamic-linking": [
+      "rdkafka-sys/dynamic-linking"
+    ],
+    "dynamic_linking": [
+      "rdkafka-sys/dynamic_linking"
+    ],
+    "external-lz4": [
+      "rdkafka-sys/external-lz4"
+    ],
+    "external_lz4": [
+      "rdkafka-sys/external_lz4"
+    ],
+    "gssapi": [
+      "rdkafka-sys/gssapi"
+    ],
+    "gssapi-vendored": [
+      "rdkafka-sys/gssapi-vendored"
+    ],
+    "libz": [
+      "rdkafka-sys/libz"
+    ],
+    "libz-static": [
+      "rdkafka-sys/libz-static"
+    ],
+    "sasl": [
+      "rdkafka-sys/sasl"
+    ],
+    "ssl": [
+      "rdkafka-sys/ssl"
+    ],
+    "ssl-vendored": [
+      "rdkafka-sys/ssl-vendored"
+    ],
+    "zstd": [
+      "rdkafka-sys/zstd"
+    ],
+    "zstd-pkg-config": [
+      "rdkafka-sys/zstd-pkg-config"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 56185,
+    "login": "benesch"
+  },
+  "publishedAt": "2021-03-16T21:22:51.684041Z",
+  "dependencies": [
+    "async-std",
+    "backoff",
+    "chrono",
+    "clap",
+    "env_logger",
+    "futures",
+    "hdrhistogram",
+    "libc",
+    "log",
+    "maplit",
+    "rand",
+    "rdkafka-sys",
+    "regex",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "slab",
+    "smol",
+    "tokio",
+    "tokio"
+  ]
+}

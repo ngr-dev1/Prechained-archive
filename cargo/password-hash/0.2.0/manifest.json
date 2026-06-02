@@ -1,0 +1,26 @@
+{
+  "name": "password-hash",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "7561a874264c351c35ccde0da29a98dea5f2483357c049673319c7f3446d14da",
+  "features": {
+    "alloc": [
+      "base64ct/alloc"
+    ],
+    "std": [
+      "alloc",
+      "base64ct/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2021-04-29T15:03:41.628871Z",
+  "dependencies": [
+    "base64ct",
+    "rand_core"
+  ]
+}

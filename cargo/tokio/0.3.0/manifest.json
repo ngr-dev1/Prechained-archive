@@ -1,0 +1,100 @@
+{
+  "name": "tokio",
+  "version": "0.3.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "7137dbb0abee577362ccdc7df21605cfcbb949243aeab47dac9ea6ef7d830e21",
+  "features": {
+    "default": [],
+    "fs": [],
+    "full": [
+      "fs",
+      "io-util",
+      "io-std",
+      "macros",
+      "net",
+      "parking_lot",
+      "process",
+      "rt",
+      "rt-multi-thread",
+      "signal",
+      "stream",
+      "sync",
+      "time"
+    ],
+    "io-std": [],
+    "io-util": [
+      "memchr"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "lazy_static",
+      "libc",
+      "mio/os-poll",
+      "mio/tcp",
+      "mio/udp",
+      "mio/uds"
+    ],
+    "process": [
+      "lazy_static",
+      "libc",
+      "mio/os-poll",
+      "mio/os-util",
+      "mio/uds",
+      "signal-hook-registry",
+      "winapi/threadpoollegacyapiset"
+    ],
+    "rt": [
+      "slab"
+    ],
+    "rt-multi-thread": [
+      "num_cpus",
+      "rt"
+    ],
+    "signal": [
+      "lazy_static",
+      "libc",
+      "mio/os-poll",
+      "mio/uds",
+      "signal-hook-registry",
+      "winapi/consoleapi"
+    ],
+    "stream": [
+      "futures-core"
+    ],
+    "sync": [
+      "fnv"
+    ],
+    "test-util": [],
+    "time": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 10,
+    "login": "carllerche"
+  },
+  "publishedAt": "2020-10-15T16:24:41.738266Z",
+  "dependencies": [
+    "bytes",
+    "futures",
+    "loom",
+    "pin-project-lite",
+    "proptest",
+    "tempfile",
+    "fnv",
+    "futures-core",
+    "lazy_static",
+    "libc",
+    "memchr",
+    "mio",
+    "num_cpus",
+    "parking_lot",
+    "signal-hook-registry",
+    "slab",
+    "tokio-macros",
+    "tracing",
+    "winapi"
+  ]
+}

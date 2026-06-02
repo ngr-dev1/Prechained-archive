@@ -1,0 +1,68 @@
+{
+  "name": "ed25519-dalek",
+  "version": "1.0.0-pre.3",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "978710b352437433c97b2bff193f2fb1dfd58a093f863dd95e225a19baa599a2",
+  "features": {
+    "alloc": [
+      "curve25519-dalek/alloc",
+      "rand/alloc"
+    ],
+    "asm": [
+      "sha2/asm"
+    ],
+    "batch": [
+      "merlin",
+      "rand"
+    ],
+    "batch_deterministic": [
+      "merlin",
+      "rand",
+      "rand_core"
+    ],
+    "default": [
+      "std",
+      "u64_backend"
+    ],
+    "legacy_compatibility": [],
+    "nightly": [
+      "curve25519-dalek/nightly",
+      "clear_on_drop/nightly",
+      "rand/nightly"
+    ],
+    "simd_backend": [
+      "curve25519-dalek/simd_backend"
+    ],
+    "std": [
+      "curve25519-dalek/std",
+      "sha2/std",
+      "rand/std"
+    ],
+    "u32_backend": [
+      "curve25519-dalek/u32_backend"
+    ],
+    "u64_backend": [
+      "curve25519-dalek/u64_backend"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5289,
+    "login": "isislovecruft"
+  },
+  "publishedAt": "2019-12-09T20:47:16.124515Z",
+  "dependencies": [
+    "bincode",
+    "clear_on_drop",
+    "criterion",
+    "curve25519-dalek",
+    "hex",
+    "rand",
+    "sha2",
+    "merlin",
+    "rand",
+    "rand_core",
+    "serde"
+  ]
+}

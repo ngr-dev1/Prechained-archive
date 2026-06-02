@@ -1,0 +1,86 @@
+{
+  "name": "hyper",
+  "version": "1.10.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "55281c53a1894c864990125767da440a4e630446785086f52523b20033b74498",
+  "features": {
+    "capi": [],
+    "client": [
+      "dep:want",
+      "dep:pin-project-lite",
+      "dep:smallvec"
+    ],
+    "default": [],
+    "ffi": [
+      "dep:http-body-util",
+      "dep:futures-util"
+    ],
+    "full": [
+      "client",
+      "http1",
+      "http2",
+      "server"
+    ],
+    "http1": [
+      "dep:atomic-waker",
+      "dep:futures-channel",
+      "dep:futures-core",
+      "dep:httparse",
+      "dep:itoa"
+    ],
+    "http2": [
+      "dep:futures-channel",
+      "dep:futures-core",
+      "dep:h2"
+    ],
+    "nightly": [],
+    "server": [
+      "dep:httpdate",
+      "dep:pin-project-lite",
+      "dep:smallvec"
+    ],
+    "tracing": [
+      "dep:tracing"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2026-05-29T17:38:43.261166Z",
+  "dependencies": [
+    "bytes",
+    "form_urlencoded",
+    "futures-channel",
+    "futures-util",
+    "http",
+    "http-body",
+    "http-body-util",
+    "pin-project-lite",
+    "pretty_env_logger",
+    "serde",
+    "serde_json",
+    "spmc",
+    "tokio",
+    "tokio",
+    "tokio-test",
+    "tokio-util",
+    "tracing",
+    "tracing-subscriber",
+    "atomic-waker",
+    "futures-channel",
+    "futures-core",
+    "futures-util",
+    "h2",
+    "http-body-util",
+    "httparse",
+    "httpdate",
+    "itoa",
+    "pin-project-lite",
+    "smallvec",
+    "tracing",
+    "want"
+  ]
+}

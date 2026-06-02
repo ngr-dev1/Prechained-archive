@@ -1,0 +1,172 @@
+{
+  "name": "sqlx",
+  "version": "0.5.10",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "692749de69603d81e016212199d73a2e14ee20e2def7d7914919e8db5d4d48b9",
+  "features": {
+    "_rt-actix": [],
+    "_rt-async-std": [],
+    "_rt-tokio": [],
+    "all": [
+      "tls",
+      "all-databases",
+      "all-types"
+    ],
+    "all-databases": [
+      "mysql",
+      "sqlite",
+      "postgres",
+      "mssql",
+      "any"
+    ],
+    "all-types": [
+      "bigdecimal",
+      "decimal",
+      "json",
+      "time",
+      "chrono",
+      "ipnetwork",
+      "mac_address",
+      "uuid",
+      "bit-vec",
+      "bstr",
+      "git2"
+    ],
+    "any": [
+      "sqlx-core/any"
+    ],
+    "bigdecimal": [
+      "sqlx-core/bigdecimal",
+      "sqlx-macros/bigdecimal"
+    ],
+    "bit-vec": [
+      "sqlx-core/bit-vec",
+      "sqlx-macros/bit-vec"
+    ],
+    "bstr": [
+      "sqlx-core/bstr"
+    ],
+    "chrono": [
+      "sqlx-core/chrono",
+      "sqlx-macros/chrono"
+    ],
+    "decimal": [
+      "sqlx-core/decimal",
+      "sqlx-macros/decimal"
+    ],
+    "default": [
+      "macros",
+      "migrate"
+    ],
+    "git2": [
+      "sqlx-core/git2"
+    ],
+    "ipnetwork": [
+      "sqlx-core/ipnetwork",
+      "sqlx-macros/ipnetwork"
+    ],
+    "json": [
+      "sqlx-core/json",
+      "sqlx-macros/json"
+    ],
+    "mac_address": [
+      "sqlx-core/mac_address",
+      "sqlx-macros/mac_address"
+    ],
+    "macros": [
+      "sqlx-macros"
+    ],
+    "migrate": [
+      "sqlx-macros/migrate",
+      "sqlx-core/migrate"
+    ],
+    "mssql": [
+      "sqlx-core/mssql",
+      "sqlx-macros/mssql"
+    ],
+    "mysql": [
+      "sqlx-core/mysql",
+      "sqlx-macros/mysql"
+    ],
+    "offline": [
+      "sqlx-macros/offline",
+      "sqlx-core/offline"
+    ],
+    "postgres": [
+      "sqlx-core/postgres",
+      "sqlx-macros/postgres"
+    ],
+    "runtime-actix": [],
+    "runtime-actix-native-tls": [
+      "sqlx-core/runtime-actix-native-tls",
+      "sqlx-macros/runtime-actix-native-tls",
+      "_rt-actix"
+    ],
+    "runtime-actix-rustls": [
+      "sqlx-core/runtime-actix-rustls",
+      "sqlx-macros/runtime-actix-rustls",
+      "_rt-actix"
+    ],
+    "runtime-async-std": [],
+    "runtime-async-std-native-tls": [
+      "sqlx-core/runtime-async-std-native-tls",
+      "sqlx-macros/runtime-async-std-native-tls",
+      "_rt-async-std"
+    ],
+    "runtime-async-std-rustls": [
+      "sqlx-core/runtime-async-std-rustls",
+      "sqlx-macros/runtime-async-std-rustls",
+      "_rt-async-std"
+    ],
+    "runtime-tokio": [],
+    "runtime-tokio-native-tls": [
+      "sqlx-core/runtime-tokio-native-tls",
+      "sqlx-macros/runtime-tokio-native-tls",
+      "_rt-tokio"
+    ],
+    "runtime-tokio-rustls": [
+      "sqlx-core/runtime-tokio-rustls",
+      "sqlx-macros/runtime-tokio-rustls",
+      "_rt-tokio"
+    ],
+    "sqlite": [
+      "sqlx-core/sqlite",
+      "sqlx-macros/sqlite"
+    ],
+    "time": [
+      "sqlx-core/time",
+      "sqlx-macros/time"
+    ],
+    "tls": [],
+    "uuid": [
+      "sqlx-core/uuid",
+      "sqlx-macros/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 127,
+    "login": "abonander"
+  },
+  "publishedAt": "2021-12-30T01:30:52.391064Z",
+  "dependencies": [
+    "anyhow",
+    "async-std",
+    "dotenv",
+    "env_logger",
+    "futures",
+    "hex",
+    "paste",
+    "rand",
+    "rand_xoshiro",
+    "serde",
+    "serde_json",
+    "sqlx-core",
+    "time",
+    "tokio",
+    "trybuild",
+    "url",
+    "sqlx-macros"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "kanal",
+  "version": "0.1.0-pre1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "bec74d6fb49fafe0f1c3c168a9e793e363a5a2be763c52c564c76bc45b5c22fb",
+  "features": {
+    "async": [],
+    "async_short_sync": [],
+    "default": [
+      "async",
+      "async_short_sync"
+    ],
+    "sync": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 50055,
+    "login": "fereidani"
+  },
+  "publishedAt": "2022-10-16T13:58:28.517296Z",
+  "dependencies": [
+    "crossbeam",
+    "lock_api",
+    "pin-project-lite",
+    "tokio"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "rimraf",
+  "version": "4.3.1",
+  "ecosystem": "npm",
+  "description": "A deep deletion module for node (like `rm -rf`)",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^9.2.0"
+  },
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "tap": "^16.3.4",
+    "mkdirp": "1",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.23.21",
+    "prettier": "^2.8.2",
+    "@types/tap": "^15.0.7",
+    "typescript": "^4.9.3",
+    "@types/node": "^18.11.9",
+    "eslint-config-prettier": "^8.6.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tsc -p tsconfig.json && tsc -p tsconfig-esm.json"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "url": "http://blog.izs.me/",
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me"
+  },
+  "publishedAt": "2023-03-06T16:38:28.918Z",
+  "dist": {
+    "integrity": "sha512-GfHJHBzFQra23IxDzIdBqhOWfbtdgS1/dCHrDy+yvhpoJY5TdwdT28oWaHWfRpKFDLd3GZnGTx6Mlt4+anbsxQ==",
+    "shasum": "ccb3525e39100478acb334fae6d23029b87912ea",
+    "tarball": "https://registry.npmjs.org/rimraf/-/rimraf-4.3.1.tgz",
+    "fileCount": 141,
+    "unpackedSize": 206285
+  },
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  }
+}

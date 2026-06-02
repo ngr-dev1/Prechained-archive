@@ -1,0 +1,42 @@
+{
+  "name": "attrs",
+  "version": "23.1.0",
+  "ecosystem": "pypi",
+  "summary": "Classes Without Boilerplate",
+  "license": "",
+  "author": "",
+  "author_email": "Hynek Schlawack <hs@ox.cx>",
+  "requires_python": ">=3.7",
+  "requires_dist": [
+    "importlib-metadata; python_version < '3.8'",
+    "attrs[tests]; extra == 'cov'",
+    "coverage[toml]>=5.3; extra == 'cov'",
+    "attrs[docs,tests]; extra == 'dev'",
+    "pre-commit; extra == 'dev'",
+    "furo; extra == 'docs'",
+    "myst-parser; extra == 'docs'",
+    "sphinx; extra == 'docs'",
+    "sphinx-notfound-page; extra == 'docs'",
+    "sphinxcontrib-towncrier; extra == 'docs'",
+    "towncrier; extra == 'docs'",
+    "zope-interface; extra == 'docs'",
+    "attrs[tests-no-zope]; extra == 'tests'",
+    "zope-interface; extra == 'tests'",
+    "cloudpickle; platform_python_implementation == 'CPython' and extra == 'tests-no-zope'",
+    "hypothesis; extra == 'tests-no-zope'",
+    "mypy>=1.1.1; platform_python_implementation == 'CPython' and extra == 'tests-no-zope'",
+    "pympler; extra == 'tests-no-zope'",
+    "pytest-mypy-plugins; platform_python_implementation == 'CPython' and python_version < '3.11' and extra == 'tests-no-zope'",
+    "pytest-xdist[psutil]; extra == 'tests-no-zope'",
+    "pytest>=4.3.0; extra == 'tests-no-zope'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2023-04-16T10:48:16",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/f0/eb/fcb708c7bf5056045e9e98f62b93bd7467eb718b0202e7698eb11d66416c/attrs-23.1.0-py3-none-any.whl",
+    "sha256": "1f28b4522cdc2fb4256ac1a020c78acf9cba2c6b461ccd2c126f3aa8e8335d04",
+    "size": 61160,
+    "filename": "attrs-23.1.0-py3-none-any.whl"
+  }
+}

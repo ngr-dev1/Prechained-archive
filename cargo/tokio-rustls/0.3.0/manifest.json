@@ -1,0 +1,25 @@
+{
+  "name": "tokio-rustls",
+  "version": "0.3.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "f9d8c7dec37690602a63fd2ca0b7c6eb0f37d979f57006b4256f98d23ed506c8",
+  "features": {
+    "danger": [
+      "rustls/dangerous_configuration"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-08-13T05:07:31.565622Z",
+  "dependencies": [
+    "clap",
+    "futures",
+    "rustls",
+    "tokio-core",
+    "tokio-file-unix",
+    "tokio-io",
+    "webpki-roots",
+    "tokio-proto"
+  ]
+}

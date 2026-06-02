@@ -1,0 +1,35 @@
+{
+  "name": "bcrypt",
+  "version": "0.17.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "abaf6da45c74385272ddf00e1ac074c7d8a6c1a1dda376902bd6a427522a8b2c",
+  "features": {
+    "alloc": [
+      "base64/alloc",
+      "getrandom"
+    ],
+    "default": [
+      "std",
+      "zeroize"
+    ],
+    "std": [
+      "getrandom/std",
+      "base64/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2876,
+    "login": "Keats"
+  },
+  "publishedAt": "2025-08-18T13:48:59.567800Z",
+  "dependencies": [
+    "base64",
+    "blowfish",
+    "quickcheck",
+    "subtle",
+    "getrandom",
+    "zeroize"
+  ]
+}

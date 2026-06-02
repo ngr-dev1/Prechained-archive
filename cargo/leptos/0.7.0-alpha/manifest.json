@@ -1,0 +1,110 @@
+{
+  "name": "leptos",
+  "version": "0.7.0-alpha",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "4a48ca209817900f38f4d43a35194fd041b5c09b7a8e62b8daf747ab01fcab7d",
+  "features": {
+    "csr": [
+      "leptos_macro/csr",
+      "reactive_graph/effects"
+    ],
+    "default-tls": [
+      "leptos_server/default-tls",
+      "server_fn/default-tls"
+    ],
+    "delegation": [
+      "tachys/delegation"
+    ],
+    "experimental-islands": [
+      "leptos_dom/experimental-islands",
+      "leptos_macro/experimental-islands",
+      "dep:serde_json"
+    ],
+    "hydrate": [
+      "leptos_macro/hydrate",
+      "hydration",
+      "tachys/hydrate",
+      "reactive_graph/effects"
+    ],
+    "hydration": [
+      "reactive_graph/hydration",
+      "leptos_server/hydration",
+      "hydration_context/browser"
+    ],
+    "nightly": [
+      "leptos_dom/nightly",
+      "leptos_macro/nightly",
+      "tachys/nightly"
+    ],
+    "nonce": [
+      "base64",
+      "leptos_dom/nonce",
+      "rand"
+    ],
+    "rkyv": [
+      "server_fn/rkyv"
+    ],
+    "rustls": [
+      "leptos_server/rustls",
+      "server_fn/rustls"
+    ],
+    "spin": [
+      "leptos-spin-macro"
+    ],
+    "ssr": [
+      "leptos_macro/ssr",
+      "leptos_server/ssr",
+      "server_fn/ssr",
+      "hydration",
+      "tachys/ssr"
+    ],
+    "trace-component-props": [
+      "leptos_dom/trace-component-props",
+      "leptos_macro/trace-component-props"
+    ],
+    "tracing": [
+      "reactive_graph/tracing",
+      "tachys/tracing"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 130155,
+    "login": "gbj"
+  },
+  "publishedAt": "2024-06-28T19:55:00.704623Z",
+  "dependencies": [
+    "any_spawner",
+    "cfg-if",
+    "either_of",
+    "futures",
+    "hydration_context",
+    "leptos_config",
+    "leptos_dom",
+    "leptos_macro",
+    "leptos_server",
+    "oco_ref",
+    "or_poisoned",
+    "paste",
+    "reactive_graph",
+    "rustc-hash",
+    "send_wrapper",
+    "serde",
+    "serde_qs",
+    "server_fn",
+    "slotmap",
+    "tachys",
+    "thiserror",
+    "throw_error",
+    "tracing",
+    "typed-builder",
+    "typed-builder-macro",
+    "wasm-bindgen",
+    "web-sys",
+    "base64",
+    "leptos-spin-macro",
+    "rand",
+    "serde_json"
+  ]
+}

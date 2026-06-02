@@ -1,0 +1,28 @@
+{
+  "name": "tempfile",
+  "version": "3.19.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "488960f40a3fd53d72c2a29a58722561dee8afdd175bd88e3db4677d7b2ba600",
+  "features": {
+    "default": [
+      "getrandom"
+    ],
+    "nightly": [],
+    "unstable-windows-keep-open-tempfile": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 280,
+    "login": "Stebalien"
+  },
+  "publishedAt": "2025-03-14T00:32:30.377775Z",
+  "dependencies": [
+    "doc-comment",
+    "fastrand",
+    "once_cell",
+    "rustix",
+    "windows-sys",
+    "getrandom"
+  ]
+}

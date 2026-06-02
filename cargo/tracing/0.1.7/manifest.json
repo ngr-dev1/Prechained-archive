@@ -1,0 +1,46 @@
+{
+  "name": "tracing",
+  "version": "0.1.7",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "daf7242674182d697eab1fa8677346230bc46719f4968314c499b46605bcc080",
+  "features": {
+    "async-await": [],
+    "default": [
+      "std"
+    ],
+    "max_level_debug": [],
+    "max_level_error": [],
+    "max_level_info": [],
+    "max_level_off": [],
+    "max_level_trace": [],
+    "max_level_warn": [],
+    "release_max_level_debug": [],
+    "release_max_level_error": [],
+    "release_max_level_info": [],
+    "release_max_level_off": [],
+    "release_max_level_trace": [],
+    "release_max_level_warn": [],
+    "std": [
+      "tracing-core/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1249,
+    "login": "hawkw"
+  },
+  "publishedAt": "2019-08-30T22:17:07.067425Z",
+  "dependencies": [
+    "ansi_term",
+    "cfg-if",
+    "criterion",
+    "futures",
+    "humantime",
+    "log",
+    "spin",
+    "tracing-attributes",
+    "tracing-core",
+    "log"
+  ]
+}

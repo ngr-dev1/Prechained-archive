@@ -1,0 +1,86 @@
+{
+  "name": "openssl",
+  "version": "0.8.3",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "b11754cb6c81bb9e62faaf0eb6d94dde2aab0928c04db5078b74242880f35eb1",
+  "features": {
+    "aes_ctr": [
+      "openssl-sys/aes_ctr"
+    ],
+    "aes_xts": [
+      "openssl-sys/aes_xts"
+    ],
+    "alpn": [
+      "openssl-sys/alpn"
+    ],
+    "c_helpers": [
+      "gcc"
+    ],
+    "dh_from_params": [
+      "c_helpers"
+    ],
+    "dtlsv1": [
+      "openssl-sys/dtlsv1"
+    ],
+    "dtlsv1_2": [
+      "openssl-sys/dtlsv1_2"
+    ],
+    "ecdh_auto": [
+      "openssl-sys/ecdh_auto"
+    ],
+    "hmac": [
+      "c_helpers"
+    ],
+    "hmac_clone": [
+      "openssl-sys/hmac_clone"
+    ],
+    "npn": [
+      "openssl-sys/npn"
+    ],
+    "pkcs5_pbkdf2_hmac": [
+      "openssl-sys/pkcs5_pbkdf2_hmac"
+    ],
+    "rfc5114": [
+      "openssl-sys/rfc5114"
+    ],
+    "ssl_context_clone": [
+      "c_helpers"
+    ],
+    "sslv2": [
+      "openssl-sys/sslv2"
+    ],
+    "sslv3": [
+      "openssl-sys/sslv3"
+    ],
+    "tlsv1_1": [
+      "openssl-sys/tlsv1_1"
+    ],
+    "tlsv1_2": [
+      "openssl-sys/tlsv1_2"
+    ],
+    "x509_clone": [
+      "c_helpers"
+    ],
+    "x509_expiry": [
+      "c_helpers"
+    ],
+    "x509_generator_request": [
+      "c_helpers"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-09-09T16:20:41.489550Z",
+  "dependencies": [
+    "bitflags",
+    "lazy_static",
+    "libc",
+    "net2",
+    "openssl-sys",
+    "rustc-serialize",
+    "winapi",
+    "ws2_32-sys",
+    "gcc"
+  ]
+}

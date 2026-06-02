@@ -1,0 +1,30 @@
+{
+  "name": "rand",
+  "version": "0.4.6",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "552840b97013b1a26992c11eac34bdd778e464601a4c2054b5f0bff7c6761293",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "i128_support": [],
+    "nightly": [
+      "i128_support"
+    ],
+    "std": [
+      "libc"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2019-01-26T10:21:14.395663Z",
+  "dependencies": [
+    "fuchsia-cprng",
+    "rand_core",
+    "rdrand",
+    "winapi",
+    "libc"
+  ]
+}

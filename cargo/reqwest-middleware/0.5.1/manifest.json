@@ -1,0 +1,48 @@
+{
+  "name": "reqwest-middleware",
+  "version": "0.5.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "199dda04a536b532d0cc04d7979e39b1c763ea749bf91507017069c00b96056f",
+  "features": {
+    "charset": [
+      "reqwest/charset"
+    ],
+    "form": [
+      "reqwest/form",
+      "dep:serde"
+    ],
+    "http2": [
+      "reqwest/http2"
+    ],
+    "json": [
+      "reqwest/json",
+      "dep:serde"
+    ],
+    "multipart": [
+      "reqwest/multipart"
+    ],
+    "query": [
+      "reqwest/query",
+      "dep:serde"
+    ],
+    "rustls": [
+      "reqwest/rustls"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2026-02-05T17:29:52.594578Z",
+  "dependencies": [
+    "anyhow",
+    "async-trait",
+    "http",
+    "reqwest",
+    "reqwest",
+    "thiserror",
+    "tokio",
+    "tower-service",
+    "wiremock",
+    "serde"
+  ]
+}

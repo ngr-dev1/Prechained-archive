@@ -1,0 +1,36 @@
+{
+  "name": "console",
+  "version": "0.14.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "3993e6445baa160675931ec041a5e03ca84b9c6e32a056150d3aa2bdda0a1f45",
+  "features": {
+    "ansi-parsing": [
+      "regex"
+    ],
+    "default": [
+      "unicode-width",
+      "ansi-parsing"
+    ],
+    "windows-console-colors": [
+      "ansi-parsing",
+      "winapi-util"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 26168,
+    "login": "pksunkara"
+  },
+  "publishedAt": "2021-03-15T00:33:40.181959Z",
+  "dependencies": [
+    "encode_unicode",
+    "lazy_static",
+    "libc",
+    "terminal_size",
+    "winapi",
+    "regex",
+    "unicode-width",
+    "winapi-util"
+  ]
+}

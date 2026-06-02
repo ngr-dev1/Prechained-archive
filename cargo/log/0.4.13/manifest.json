@@ -1,0 +1,44 @@
+{
+  "name": "log",
+  "version": "0.4.13",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "fcf3805d4480bb5b86070dcfeb9e2cb2ebc148adb753c5cca5f884d1d65a42b2",
+  "features": {
+    "kv_unstable": [],
+    "kv_unstable_std": [
+      "kv_unstable",
+      "std"
+    ],
+    "kv_unstable_sval": [
+      "kv_unstable",
+      "sval/fmt"
+    ],
+    "max_level_debug": [],
+    "max_level_error": [],
+    "max_level_info": [],
+    "max_level_off": [],
+    "max_level_trace": [],
+    "max_level_warn": [],
+    "release_max_level_debug": [],
+    "release_max_level_error": [],
+    "release_max_level_info": [],
+    "release_max_level_off": [],
+    "release_max_level_trace": [],
+    "release_max_level_warn": [],
+    "std": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3204,
+    "login": "KodrAus"
+  },
+  "publishedAt": "2021-01-11T10:17:42.908063Z",
+  "dependencies": [
+    "cfg-if",
+    "serde_test",
+    "sval",
+    "serde",
+    "sval"
+  ]
+}

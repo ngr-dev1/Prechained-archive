@@ -1,0 +1,94 @@
+{
+  "name": "futures",
+  "version": "0.3.5",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "1e05b85ec287aac0dc34db7d4a569323df697f9c55b99b15d6b4ef8cde49f613",
+  "features": {
+    "alloc": [
+      "futures-core/alloc",
+      "futures-task/alloc",
+      "futures-sink/alloc",
+      "futures-channel/alloc",
+      "futures-util/alloc"
+    ],
+    "async-await": [
+      "futures-util/async-await",
+      "futures-util/async-await-macro"
+    ],
+    "bilock": [
+      "futures-util/bilock"
+    ],
+    "cfg-target-has-atomic": [
+      "futures-core/cfg-target-has-atomic",
+      "futures-task/cfg-target-has-atomic",
+      "futures-channel/cfg-target-has-atomic",
+      "futures-util/cfg-target-has-atomic"
+    ],
+    "compat": [
+      "std",
+      "futures-util/compat"
+    ],
+    "default": [
+      "std",
+      "async-await",
+      "executor"
+    ],
+    "executor": [
+      "std",
+      "futures-executor/std"
+    ],
+    "io-compat": [
+      "compat",
+      "futures-util/io-compat"
+    ],
+    "read-initializer": [
+      "futures-io/read-initializer",
+      "futures-util/read-initializer"
+    ],
+    "std": [
+      "alloc",
+      "futures-core/std",
+      "futures-task/std",
+      "futures-io/std",
+      "futures-sink/std",
+      "futures-util/std",
+      "futures-util/io",
+      "futures-util/channel"
+    ],
+    "thread-pool": [
+      "executor",
+      "futures-executor/thread-pool"
+    ],
+    "unstable": [
+      "futures-core/unstable",
+      "futures-task/unstable",
+      "futures-channel/unstable",
+      "futures-io/unstable",
+      "futures-util/unstable"
+    ],
+    "write-all-vectored": [
+      "futures-util/write-all-vectored"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 5149,
+    "login": "cramertj"
+  },
+  "publishedAt": "2020-05-08T23:26:34.821233Z",
+  "dependencies": [
+    "assert_matches",
+    "futures-channel",
+    "futures-core",
+    "futures-executor",
+    "futures-io",
+    "futures-sink",
+    "futures-task",
+    "futures-test",
+    "futures-util",
+    "pin-utils",
+    "tokio",
+    "futures-executor"
+  ]
+}

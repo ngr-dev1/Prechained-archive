@@ -1,0 +1,27 @@
+{
+  "name": "rand_core",
+  "version": "0.2.1",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "edecf0f94da5551fc9b492093e30b041a891657db7940ee221f9d2f66e82eef2",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "serde1": [
+      "serde",
+      "serde_derive"
+    ],
+    "std": [
+      "alloc"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-06-08T07:48:17.067003Z",
+  "dependencies": [
+    "serde",
+    "serde_derive"
+  ]
+}

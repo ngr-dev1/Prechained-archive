@@ -1,0 +1,99 @@
+{
+  "name": "salvo",
+  "version": "0.18.5",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "e6bf47c31c615ea37642306684f7cef8fa34c69a67ed22c651644b1ee8d115dd",
+  "features": {
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic-auth": [
+      "salvo_extra/basic-auth"
+    ],
+    "compression": [
+      "salvo_extra/compression"
+    ],
+    "cors": [
+      "salvo_extra/cors"
+    ],
+    "csrf": [
+      "salvo_extra/csrf"
+    ],
+    "default": [],
+    "extra": [
+      "basic-auth",
+      "jwt-auth",
+      "compression",
+      "cors",
+      "csrf",
+      "proxy",
+      "serve",
+      "sse",
+      "ws",
+      "size-limiter",
+      "logging"
+    ],
+    "full": [
+      "extra",
+      "rustls",
+      "native-tls",
+      "unix",
+      "anyhow"
+    ],
+    "jwt-auth": [
+      "salvo_extra/jwt-auth"
+    ],
+    "logging": [
+      "salvo_extra/logging"
+    ],
+    "native-tls": [
+      "salvo_core/native-tls"
+    ],
+    "proxy": [
+      "salvo_extra/proxy"
+    ],
+    "rustls": [
+      "salvo_core/rustls"
+    ],
+    "serve": [
+      "salvo_extra/serve"
+    ],
+    "size-limiter": [
+      "salvo_extra/size-limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "unix": [
+      "salvo_core/unix"
+    ],
+    "ws": [
+      "salvo_extra/ws"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn"
+  },
+  "publishedAt": "2022-04-15T08:49:04.888798Z",
+  "dependencies": [
+    "async-stream",
+    "chrono",
+    "futures-util",
+    "hyper",
+    "jsonwebtoken",
+    "once_cell",
+    "salvo_core",
+    "serde",
+    "serde_derive",
+    "tokio",
+    "tokio-stream",
+    "tower",
+    "tracing",
+    "tracing-log",
+    "tracing-subscriber",
+    "salvo_extra"
+  ]
+}

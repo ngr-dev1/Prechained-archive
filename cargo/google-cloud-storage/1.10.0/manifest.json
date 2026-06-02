@@ -1,0 +1,72 @@
+{
+  "name": "google-cloud-storage",
+  "version": "1.10.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "f85a4e9a65a2f2c3a1d05c1c3b9deb0177a25488128616a3a96195ab5fa41bef",
+  "features": {
+    "default": [
+      "default-rustls-provider"
+    ],
+    "default-rustls-provider": [
+      "google-cloud-auth/default-rustls-provider"
+    ],
+    "unstable-stream": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 400971,
+    "login": "JoeWang1127"
+  },
+  "publishedAt": "2026-03-26T21:15:36.965160Z",
+  "dependencies": [
+    "anyhow",
+    "async-trait",
+    "base64",
+    "bytes",
+    "chrono",
+    "crc32c",
+    "flate2",
+    "futures",
+    "google-cloud-auth",
+    "google-cloud-gax",
+    "google-cloud-gax-internal",
+    "google-cloud-iam-v1",
+    "google-cloud-longrunning",
+    "google-cloud-lro",
+    "google-cloud-rpc",
+    "google-cloud-type",
+    "google-cloud-wkt",
+    "hex",
+    "http",
+    "http-body",
+    "http-body-util",
+    "httptest",
+    "hyper",
+    "md5",
+    "mockall",
+    "multer",
+    "pastey",
+    "percent-encoding",
+    "pin-project",
+    "pretty_assertions",
+    "prost",
+    "prost-types",
+    "scoped-env",
+    "serde",
+    "serde_json",
+    "serde_with",
+    "serial_test",
+    "sha2",
+    "static_assertions",
+    "tempfile",
+    "test-case",
+    "thiserror",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tracing",
+    "url",
+    "uuid"
+  ]
+}

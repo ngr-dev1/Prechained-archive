@@ -1,0 +1,26 @@
+{
+  "name": "NUnit3TestAdapter",
+  "version": "6.0.0",
+  "ecosystem": "nuget",
+  "description": "The NUnit3 TestAdapter for Visual Studio, all versions from 2012 and onwards, and DotNet (incl. .Net core), versions .net framework 4.6.2 or higher, .net 8 or higher.\n\n      Note that this package ONLY contains the adapter, not the NUnit framework.\n      For VS 2017 and forward, you should add this package to every test project in your solution. (Earlier versions only require a single adapter package per solution.)",
+  "licenseExpression": "MIT",
+  "authors": "Charlie Poole, Terje Sandstrom",
+  "tags": [
+    "test",
+    "visualstudio",
+    "testadapter",
+    "nunit",
+    "nunit3",
+    "dotnet"
+  ],
+  "repositoryUrl": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    "Microsoft.Testing.Extensions.VSTestBridge",
+    "Microsoft.Testing.Platform.MSBuild",
+    "Microsoft.Extensions.DependencyModel"
+  ],
+  "publishedAt": "2025-12-06T20:19:02.173+00:00",
+  "listed": true,
+  "packageHash": null
+}

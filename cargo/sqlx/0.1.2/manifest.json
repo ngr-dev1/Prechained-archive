@@ -1,0 +1,47 @@
+{
+  "name": "sqlx",
+  "version": "0.1.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "f2b4f9d8b77fe80357660997b8325c0aa47dbc1d7e5fbdf6af2fd188ae075a3d",
+  "features": {
+    "chrono": [
+      "sqlx-core/chrono",
+      "sqlx-macros/chrono"
+    ],
+    "default": [
+      "macros"
+    ],
+    "macros": [
+      "sqlx-macros",
+      "proc-macro-hack"
+    ],
+    "mysql": [
+      "sqlx-core/mysql",
+      "sqlx-macros/mysql"
+    ],
+    "postgres": [
+      "sqlx-core/postgres",
+      "sqlx-macros/postgres"
+    ],
+    "uuid": [
+      "sqlx-core/uuid",
+      "sqlx-macros/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5691,
+    "login": "mehcode"
+  },
+  "publishedAt": "2020-01-04T06:13:01.566942Z",
+  "dependencies": [
+    "anyhow",
+    "async-std",
+    "dotenv",
+    "futures",
+    "sqlx-core",
+    "proc-macro-hack",
+    "sqlx-macros"
+  ]
+}

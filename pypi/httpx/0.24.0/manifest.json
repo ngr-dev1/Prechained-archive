@@ -1,0 +1,32 @@
+{
+  "name": "httpx",
+  "version": "0.24.0",
+  "ecosystem": "pypi",
+  "summary": "The next generation HTTP client.",
+  "license": "",
+  "author": "",
+  "author_email": "Tom Christie <tom@tomchristie.com>",
+  "requires_python": ">=3.7",
+  "requires_dist": [
+    "certifi",
+    "httpcore<0.18.0,>=0.15.0",
+    "idna",
+    "sniffio",
+    "brotli; platform_python_implementation == 'CPython' and extra == 'brotli'",
+    "brotlicffi; platform_python_implementation != 'CPython' and extra == 'brotli'",
+    "click==8.*; extra == 'cli'",
+    "pygments==2.*; extra == 'cli'",
+    "rich<14,>=10; extra == 'cli'",
+    "h2<5,>=3; extra == 'http2'",
+    "socksio==1.*; extra == 'socks'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2023-04-11T10:01:39",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/4e/c1/692013f1e6115a061a14f6c7d05947515a1eb7b85ef6e9bf0ffbf0e92738/httpx-0.24.0-py3-none-any.whl",
+    "sha256": "447556b50c1921c351ea54b4fe79d91b724ed2b027462ab9a329465d147d5a4e",
+    "size": 75282,
+    "filename": "httpx-0.24.0-py3-none-any.whl"
+  }
+}

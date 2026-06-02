@@ -1,0 +1,173 @@
+{
+  "name": "sea-orm",
+  "version": "0.12.0-rc.4",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "3e9de4ff5b381b6ebdd7eb1f21dff20e7f417ce0095a3b03e00046057cc29266",
+  "features": {
+    "debug-print": [],
+    "default": [
+      "macros",
+      "with-json",
+      "with-chrono",
+      "with-rust_decimal",
+      "with-bigdecimal",
+      "with-uuid",
+      "with-time"
+    ],
+    "macros": [
+      "sea-orm-macros/derive",
+      "sea-query/derive"
+    ],
+    "mock": [],
+    "postgres-array": [
+      "sea-query/postgres-array",
+      "sea-query-binder?/postgres-array",
+      "sea-orm-macros/postgres-array"
+    ],
+    "runtime-actix": [],
+    "runtime-actix-native-tls": [
+      "sqlx?/runtime-actix-native-tls",
+      "sea-query-binder?/runtime-actix-native-tls",
+      "runtime-actix"
+    ],
+    "runtime-actix-rustls": [
+      "sqlx?/runtime-actix-rustls",
+      "sea-query-binder?/runtime-actix-rustls",
+      "runtime-actix"
+    ],
+    "runtime-async-std": [],
+    "runtime-async-std-native-tls": [
+      "sqlx?/runtime-async-std-native-tls",
+      "sea-query-binder?/runtime-async-std-native-tls",
+      "runtime-async-std"
+    ],
+    "runtime-async-std-rustls": [
+      "sqlx?/runtime-async-std-rustls",
+      "sea-query-binder?/runtime-async-std-rustls",
+      "runtime-async-std"
+    ],
+    "runtime-tokio": [],
+    "runtime-tokio-native-tls": [
+      "sqlx?/runtime-tokio-native-tls",
+      "sea-query-binder?/runtime-tokio-native-tls",
+      "runtime-tokio"
+    ],
+    "runtime-tokio-rustls": [
+      "sqlx?/runtime-tokio-rustls",
+      "sea-query-binder?/runtime-tokio-rustls",
+      "runtime-tokio"
+    ],
+    "sea-orm-internal": [],
+    "seaography": [
+      "sea-orm-macros/seaography"
+    ],
+    "sqlx-all": [
+      "sqlx-mysql",
+      "sqlx-postgres",
+      "sqlx-sqlite"
+    ],
+    "sqlx-dep": [],
+    "sqlx-mysql": [
+      "sqlx-dep",
+      "sea-query-binder/sqlx-mysql",
+      "sqlx/mysql"
+    ],
+    "sqlx-postgres": [
+      "sqlx-dep",
+      "sea-query-binder/sqlx-postgres",
+      "sqlx/postgres",
+      "postgres-array"
+    ],
+    "sqlx-sqlite": [
+      "sqlx-dep",
+      "sea-query-binder/sqlx-sqlite",
+      "sqlx/sqlite"
+    ],
+    "tests-cfg": [
+      "serde/derive"
+    ],
+    "with-bigdecimal": [
+      "bigdecimal",
+      "sea-query/with-bigdecimal",
+      "sea-query-binder?/with-bigdecimal",
+      "sqlx?/bigdecimal"
+    ],
+    "with-chrono": [
+      "chrono",
+      "sea-query/with-chrono",
+      "sea-query-binder?/with-chrono",
+      "sqlx?/chrono"
+    ],
+    "with-json": [
+      "serde_json",
+      "sea-query/with-json",
+      "chrono?/serde",
+      "time?/serde",
+      "uuid?/serde",
+      "sea-query-binder?/with-json",
+      "sqlx?/json"
+    ],
+    "with-rust_decimal": [
+      "rust_decimal",
+      "sea-query/with-rust_decimal",
+      "sea-query-binder?/with-rust_decimal",
+      "sqlx?/decimal"
+    ],
+    "with-time": [
+      "time",
+      "sea-query/with-time",
+      "sea-query-binder?/with-time",
+      "sqlx?/time"
+    ],
+    "with-uuid": [
+      "uuid",
+      "sea-query/with-uuid",
+      "sea-query-binder?/with-uuid",
+      "sqlx?/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 103782,
+    "login": "tyt2y3"
+  },
+  "publishedAt": "2023-07-07T17:09:55.026137Z",
+  "dependencies": [
+    "actix-rt",
+    "arraystring",
+    "async-std",
+    "async-stream",
+    "async-trait",
+    "dotenv",
+    "futures",
+    "futures",
+    "log",
+    "maplit",
+    "once_cell",
+    "ouroboros",
+    "pretty_assertions",
+    "rust_decimal_macros",
+    "sea-orm-macros",
+    "sea-query",
+    "serde",
+    "smol",
+    "smol-potat",
+    "strum",
+    "thiserror",
+    "time",
+    "tokio",
+    "tracing",
+    "tracing-subscriber",
+    "url",
+    "uuid",
+    "bigdecimal",
+    "chrono",
+    "rust_decimal",
+    "sea-query-binder",
+    "serde_json",
+    "sqlx",
+    "time",
+    "uuid"
+  ]
+}

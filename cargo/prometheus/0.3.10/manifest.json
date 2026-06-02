@@ -1,0 +1,42 @@
+{
+  "name": "prometheus",
+  "version": "0.3.10",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "c601a15017b4fc969845b0b0aa9a44388d3cb1a181c2738b8918b0679dfebf81",
+  "features": {
+    "default": [],
+    "dev": [
+      "clippy"
+    ],
+    "nightly": [
+      "libc",
+      "spin/unstable"
+    ],
+    "process": [
+      "libc",
+      "procinfo"
+    ],
+    "push": [
+      "hyper",
+      "libc"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-01-26T06:45:55.836802Z",
+  "dependencies": [
+    "cfg-if",
+    "fnv",
+    "getopts",
+    "hyper",
+    "lazy_static",
+    "protobuf",
+    "quick-error",
+    "spin",
+    "clippy",
+    "hyper",
+    "libc",
+    "procinfo"
+  ]
+}

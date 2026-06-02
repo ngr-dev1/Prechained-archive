@@ -1,0 +1,34 @@
+{
+  "name": "clap",
+  "version": "1.2.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "64a42f09f8c58c59010047573f3f2f002455a548932c6e7a42b4ff4133203474",
+  "features": {
+    "color": [
+      "ansi_term"
+    ],
+    "debug": [],
+    "default": [
+      "suggestions",
+      "color"
+    ],
+    "lints": [
+      "clippy"
+    ],
+    "suggestions": [
+      "strsim"
+    ],
+    "unstable": [
+      "lints"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2015-08-15T00:34:40.487288Z",
+  "dependencies": [
+    "ansi_term",
+    "clippy",
+    "strsim"
+  ]
+}

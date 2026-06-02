@@ -1,0 +1,39 @@
+{
+  "name": "pbkdf2",
+  "version": "0.2.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "ce5cfdb4424a73f39143f205d68dc2f1e3a06143bed5e627eae0cb26cc5dcc94",
+  "features": {
+    "default": [
+      "include_simple"
+    ],
+    "include_simple": [
+      "sha2",
+      "hmac",
+      "rand",
+      "base64",
+      "constant_time_eq"
+    ],
+    "parallel": [
+      "rayon"
+    ]
+  },
+  "yanked": true,
+  "published_by": null,
+  "publishedAt": "2018-08-15T21:34:14.407028Z",
+  "dependencies": [
+    "byte-tools",
+    "crypto-mac",
+    "generic-array",
+    "hmac",
+    "sha-1",
+    "sha2",
+    "base64",
+    "constant_time_eq",
+    "hmac",
+    "rand",
+    "rayon",
+    "sha2"
+  ]
+}

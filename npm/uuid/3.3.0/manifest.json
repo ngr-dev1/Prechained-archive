@@ -1,0 +1,50 @@
+{
+  "name": "uuid",
+  "version": "3.3.0",
+  "ecosystem": "npm",
+  "description": "RFC9562 UUIDs",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "0.14.3",
+    "mocha": "5.2.0",
+    "runmd": "1.0.1",
+    "eslint": "4.19.1",
+    "@commitlint/cli": "7.0.0",
+    "standard-version": "4.4.0",
+    "@commitlint/config-conventional": "7.0.1"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "runmd --output=README.md README_js.md"
+  },
+  "maintainers": [
+    {
+      "name": "broofa",
+      "email": "robert@broofa.com"
+    },
+    {
+      "name": "defunctzombie",
+      "email": "shtylman@gmail.com"
+    },
+    {
+      "name": "vvo",
+      "email": "vincent.voyer@gmail.com"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2018-06-26T13:23:39.426Z",
+  "dist": {
+    "integrity": "sha512-ijO9N2xY/YaOqQ5yz5c4sy2ZjWmA6AR6zASb/gdpeKZ8+948CxwfMW9RrKVk5may6ev8c0/Xguu32e2Llelpqw==",
+    "shasum": "b237147804881d7b86f40a7ff8f590f15c37de32",
+    "tarball": "https://registry.npmjs.org/uuid/-/uuid-3.3.0.tgz",
+    "fileCount": 21,
+    "unpackedSize": 44057
+  },
+  "_npmUser": {
+    "name": "broofa",
+    "email": "robert@broofa.com"
+  }
+}

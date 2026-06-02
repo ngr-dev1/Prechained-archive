@@ -1,0 +1,75 @@
+{
+  "name": "async-nats",
+  "version": "0.35.1",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "ab8df97cb8fc4a884af29ab383e9292ea0939cfcdd7d2a17179086dc6c427e7f",
+  "features": {
+    "aws-lc-rs": [
+      "dep:aws-lc-rs",
+      "tokio-rustls/aws-lc-rs"
+    ],
+    "compatibility_tests": [],
+    "default": [
+      "server_2_10",
+      "ring"
+    ],
+    "experimental": [
+      "service"
+    ],
+    "fips": [
+      "aws-lc-rs",
+      "tokio-rustls/fips"
+    ],
+    "ring": [
+      "dep:ring",
+      "tokio-rustls/ring"
+    ],
+    "server_2_10": [],
+    "service": [],
+    "slow_tests": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 146568,
+    "login": "Jarema"
+  },
+  "publishedAt": "2024-05-14T06:12:11.238956Z",
+  "dependencies": [
+    "base64",
+    "bytes",
+    "criterion",
+    "futures",
+    "futures",
+    "jsonschema",
+    "memchr",
+    "nkeys",
+    "nuid",
+    "num",
+    "once_cell",
+    "portable-atomic",
+    "rand",
+    "rand",
+    "regex",
+    "reqwest",
+    "ring",
+    "rustls-native-certs",
+    "rustls-pemfile",
+    "rustls-webpki",
+    "serde",
+    "serde_json",
+    "serde_nanos",
+    "serde_repr",
+    "thiserror",
+    "time",
+    "tokio",
+    "tokio",
+    "tokio-rustls",
+    "tracing",
+    "tracing-subscriber",
+    "tryhard",
+    "url",
+    "aws-lc-rs",
+    "ring"
+  ]
+}

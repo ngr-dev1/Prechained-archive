@@ -1,0 +1,88 @@
+{
+  "name": "azure_core",
+  "version": "0.29.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "83109d31929525ba26a3ae075debce56c714214689f65bc8e7e2292eed21d748",
+  "features": {
+    "azurite_workaround": [],
+    "debug": [
+      "typespec_client_core/debug"
+    ],
+    "decimal": [
+      "typespec_client_core/decimal"
+    ],
+    "default": [
+      "reqwest",
+      "reqwest_deflate",
+      "reqwest_gzip",
+      "reqwest_native_tls"
+    ],
+    "hmac_openssl": [
+      "dep:openssl"
+    ],
+    "hmac_rust": [
+      "dep:sha2",
+      "dep:hmac"
+    ],
+    "reqwest": [
+      "typespec_client_core/reqwest"
+    ],
+    "reqwest_deflate": [
+      "reqwest",
+      "typespec_client_core/reqwest_deflate"
+    ],
+    "reqwest_gzip": [
+      "reqwest",
+      "typespec_client_core/reqwest_gzip"
+    ],
+    "reqwest_native_tls": [
+      "reqwest",
+      "typespec_client_core/reqwest_native_tls"
+    ],
+    "test": [
+      "typespec_client_core/test"
+    ],
+    "tokio": [
+      "dep:tokio",
+      "typespec_client_core/tokio"
+    ],
+    "wasm_bindgen": [
+      "typespec_client_core/wasm_bindgen"
+    ],
+    "xml": [
+      "typespec_client_core/xml"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 313465,
+    "login": "azure-sdk"
+  },
+  "publishedAt": "2025-10-03T18:02:18.244474Z",
+  "dependencies": [
+    "async-lock",
+    "async-trait",
+    "azure_core_macros",
+    "bytes",
+    "criterion",
+    "futures",
+    "http",
+    "pin-project",
+    "reqwest",
+    "rustc_version",
+    "serde",
+    "serde_json",
+    "thiserror",
+    "tokio",
+    "tracing",
+    "tracing-subscriber",
+    "typespec",
+    "typespec_client_core",
+    "ureq",
+    "hmac",
+    "openssl",
+    "sha2",
+    "tokio"
+  ]
+}

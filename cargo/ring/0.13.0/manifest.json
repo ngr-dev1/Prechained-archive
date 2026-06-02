@@ -1,0 +1,30 @@
+{
+  "name": "ring",
+  "version": "0.13.0",
+  "ecosystem": "cargo",
+  "license": "non-standard",
+  "checksum": "d20ab75675c41bb3b86f42e7fabf57a21d0395f1cc6d9ae6bc99e1fc6b361977",
+  "features": {
+    "default": [
+      "use_heap",
+      "dev_urandom_fallback"
+    ],
+    "dev_urandom_fallback": [],
+    "internal_benches": [],
+    "rsa_signing": [
+      "use_heap"
+    ],
+    "slow_tests": [],
+    "test_logging": [],
+    "use_heap": []
+  },
+  "yanked": true,
+  "published_by": null,
+  "publishedAt": "2018-07-13T19:00:16.898086Z",
+  "dependencies": [
+    "cc",
+    "lazy_static",
+    "libc",
+    "untrusted"
+  ]
+}

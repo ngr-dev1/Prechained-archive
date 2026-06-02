@@ -1,0 +1,31 @@
+{
+  "name": "responses",
+  "version": "0.10.11",
+  "ecosystem": "pypi",
+  "summary": "A utility library for mocking out the `requests` Python library.",
+  "license": "Apache 2.0",
+  "author": "David Cramer",
+  "author_email": null,
+  "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+  "requires_dist": [
+    "requests (>=2.0)",
+    "six",
+    "mock ; python_version < \"3.3\"",
+    "cookies ; python_version < \"3.4\"",
+    "coverage (<5.0.0,>=3.7.1) ; extra == 'tests'",
+    "pytest-cov ; extra == 'tests'",
+    "pytest-localserver ; extra == 'tests'",
+    "flake8 ; extra == 'tests'",
+    "pytest (<5.0,>=4.6) ; (python_version < \"3.5\") and extra == 'tests'",
+    "pytest ; (python_version >= \"3.5\") and extra == 'tests'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2020-02-25T02:59:29",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/d3/ab/d36ba96cc7e09ae337c9c7d52ab1cdce769802ff39a0295cce42ddaa5103/responses-0.10.11-py2.py3-none-any.whl",
+    "sha256": "859a7f8495a069ce835620bb4bb111688f593a6f8873a3335a99c31a5aef9a9a",
+    "size": 15050,
+    "filename": "responses-0.10.11-py2.py3-none-any.whl"
+  }
+}

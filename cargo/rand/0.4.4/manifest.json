@@ -1,0 +1,30 @@
+{
+  "name": "rand",
+  "version": "0.4.4",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "34106854203c08f04b364c9c683bfe657e9214b082a5eda8e6c3ebfdec3ce02c",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "i128_support": [],
+    "nightly": [
+      "i128_support"
+    ],
+    "std": [
+      "libc"
+    ]
+  },
+  "yanked": true,
+  "published_by": null,
+  "publishedAt": "2019-01-08T12:39:19.894769Z",
+  "dependencies": [
+    "fuchsia-zircon",
+    "rand_core",
+    "rdrand",
+    "winapi",
+    "libc"
+  ]
+}

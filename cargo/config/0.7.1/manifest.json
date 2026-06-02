@@ -1,0 +1,39 @@
+{
+  "name": "config",
+  "version": "0.7.1",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "9a76184b44d7a617432e862745268655d510f7acb45a2dc370d1acbac2c5e056",
+  "features": {
+    "default": [
+      "toml",
+      "json",
+      "yaml",
+      "hjson"
+    ],
+    "hjson": [
+      "serde-hjson"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-01-26T16:57:56.027311Z",
+  "dependencies": [
+    "chrono",
+    "float-cmp",
+    "lazy_static",
+    "nom",
+    "serde",
+    "serde_derive",
+    "serde-hjson",
+    "serde_json",
+    "toml",
+    "yaml-rust"
+  ]
+}

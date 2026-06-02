@@ -1,0 +1,172 @@
+{
+  "name": "dioxus",
+  "version": "0.7.5",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "a44c550c06b6785e16258ad620d5b559f5bbcbcc50e3c18c08aa6af2604a4c32",
+  "features": {
+    "asset": [
+      "dep:manganis",
+      "dep:dioxus-asset-resolver"
+    ],
+    "cli-config": [
+      "dep:dioxus-cli-config"
+    ],
+    "default": [
+      "launch",
+      "devtools",
+      "logger",
+      "lib"
+    ],
+    "desktop": [
+      "dep:dioxus-desktop",
+      "dioxus-config-macro/desktop"
+    ],
+    "devtools": [
+      "dep:dioxus-devtools",
+      "dioxus-web?/devtools"
+    ],
+    "document": [
+      "dioxus-web?/document",
+      "dep:dioxus-document",
+      "dep:dioxus-history"
+    ],
+    "fullstack": [
+      "dep:dioxus-fullstack",
+      "dioxus-config-macro/fullstack",
+      "dep:serde",
+      "dioxus-web?/document",
+      "dioxus-web?/hydrate",
+      "dioxus-server?/document",
+      "dioxus-web?/devtools",
+      "dioxus-web?/mounted",
+      "dioxus-web?/document"
+    ],
+    "hooks": [
+      "dep:dioxus-hooks"
+    ],
+    "html": [
+      "dep:dioxus-html"
+    ],
+    "launch": [
+      "dep:dioxus-config-macro"
+    ],
+    "lib": [
+      "macro",
+      "html",
+      "signals",
+      "hooks",
+      "mounted",
+      "document",
+      "asset",
+      "warnings",
+      "cli-config"
+    ],
+    "liveview": [
+      "dep:dioxus-liveview",
+      "dioxus-config-macro/liveview"
+    ],
+    "logger": [
+      "dep:dioxus-logger"
+    ],
+    "macro": [
+      "dep:dioxus-core-macro"
+    ],
+    "minimal": [
+      "macro",
+      "html",
+      "signals",
+      "hooks",
+      "launch"
+    ],
+    "mobile": [
+      "dep:dioxus-desktop",
+      "dioxus-config-macro/mobile"
+    ],
+    "mounted": [
+      "dioxus-web?/mounted"
+    ],
+    "native": [
+      "dep:dioxus-native",
+      "dioxus-config-macro/native"
+    ],
+    "router": [
+      "dep:dioxus-router"
+    ],
+    "server": [
+      "dep:dioxus-server",
+      "dioxus-fullstack?/server",
+      "dep:dioxus-fullstack-macro",
+      "ssr",
+      "dioxus-liveview?/axum"
+    ],
+    "signals": [
+      "dep:dioxus-signals",
+      "dep:dioxus-stores"
+    ],
+    "ssr": [
+      "dep:dioxus-ssr",
+      "dioxus-config-macro/ssr"
+    ],
+    "third-party-renderer": [],
+    "warnings": [
+      "dep:warnings"
+    ],
+    "wasm-split": [
+      "dep:wasm-splitter",
+      "dioxus-config-macros/wasm-split"
+    ],
+    "web": [
+      "dep:dioxus-web",
+      "dioxus-fullstack?/web",
+      "dioxus-config-macro/web",
+      "dep:dioxus-cli-config",
+      "dioxus-cli-config?/web",
+      "dioxus-asset-resolver?/web"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 55668,
+    "login": "jkelleyrtp"
+  },
+  "publishedAt": "2026-04-07T18:21:19.951211Z",
+  "dependencies": [
+    "criterion",
+    "dioxus",
+    "dioxus-config-macros",
+    "dioxus-core",
+    "env_logger",
+    "futures-util",
+    "rand",
+    "subsecond",
+    "thiserror",
+    "tokio",
+    "tracing",
+    "dioxus-asset-resolver",
+    "dioxus-cli-config",
+    "dioxus-config-macro",
+    "dioxus-core-macro",
+    "dioxus-desktop",
+    "dioxus-devtools",
+    "dioxus-document",
+    "dioxus-fullstack",
+    "dioxus-fullstack-macro",
+    "dioxus-history",
+    "dioxus-hooks",
+    "dioxus-html",
+    "dioxus-liveview",
+    "dioxus-logger",
+    "dioxus-native",
+    "dioxus-router",
+    "dioxus-server",
+    "dioxus-signals",
+    "dioxus-ssr",
+    "dioxus-stores",
+    "dioxus-web",
+    "manganis",
+    "serde",
+    "warnings",
+    "wasm-splitter"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "actix-multipart",
+  "version": "0.6.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "dee489e3c01eae4d1c35b03c4493f71cb40d93f66b14558feb1b1a807671cc4e",
+  "features": {
+    "default": [
+      "tempfile",
+      "derive"
+    ],
+    "derive": [
+      "actix-multipart-derive"
+    ],
+    "tempfile": [
+      "tempfile-dep",
+      "tokio/fs"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 56903,
+    "login": "robjtede"
+  },
+  "publishedAt": "2023-02-26T21:55:13.798660Z",
+  "dependencies": [
+    "actix-utils",
+    "actix-web",
+    "bytes",
+    "derive_more",
+    "futures-core",
+    "futures-util",
+    "httparse",
+    "local-waker",
+    "log",
+    "memchr",
+    "mime",
+    "serde",
+    "serde_json",
+    "serde_plain",
+    "tokio",
+    "actix-multipart-derive",
+    "tempfile"
+  ]
+}

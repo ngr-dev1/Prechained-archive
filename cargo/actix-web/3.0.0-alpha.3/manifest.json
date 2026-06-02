@@ -1,0 +1,77 @@
+{
+  "name": "actix-web",
+  "version": "3.0.0-alpha.3",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "8bd6df56ec5f9a1a0d8335f156f36e1e8f76dbd736fa0cc0f6bc3a69be1e6124",
+  "features": {
+    "compress": [
+      "actix-http/compress",
+      "awc/compress"
+    ],
+    "default": [
+      "compress"
+    ],
+    "openssl": [
+      "actix-tls/openssl",
+      "awc/openssl",
+      "open-ssl"
+    ],
+    "rustls": [
+      "actix-tls/rustls",
+      "awc/rustls",
+      "rust-tls"
+    ],
+    "secure-cookies": [
+      "actix-http/secure-cookies"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 51017,
+    "login": "JohnTitor"
+  },
+  "publishedAt": "2020-05-21T10:35:30.348965Z",
+  "dependencies": [
+    "actix",
+    "actix-codec",
+    "actix-http",
+    "actix-macros",
+    "actix-router",
+    "actix-rt",
+    "actix-server",
+    "actix-service",
+    "actix-testing",
+    "actix-threadpool",
+    "actix-tls",
+    "actix-utils",
+    "actix-web-codegen",
+    "awc",
+    "brotli2",
+    "bytes",
+    "criterion",
+    "derive_more",
+    "encoding_rs",
+    "env_logger",
+    "flate2",
+    "futures-channel",
+    "futures-core",
+    "futures-util",
+    "fxhash",
+    "log",
+    "mime",
+    "pin-project",
+    "rand",
+    "regex",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_urlencoded",
+    "socket2",
+    "time",
+    "tinyvec",
+    "url",
+    "openssl",
+    "rustls"
+  ]
+}

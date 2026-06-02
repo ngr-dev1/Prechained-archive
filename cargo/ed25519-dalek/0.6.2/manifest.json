@@ -1,0 +1,45 @@
+{
+  "name": "ed25519-dalek",
+  "version": "0.6.2",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "8c41e632ff8f30d88fbeb2cf7bfd250feafa8c37527efbd4e1c9abbd1365c881",
+  "features": {
+    "asm": [
+      "sha2/asm"
+    ],
+    "bench": [],
+    "default": [
+      "std"
+    ],
+    "nightly": [
+      "curve25519-dalek/nightly",
+      "subtle/nightly"
+    ],
+    "std": [
+      "rand",
+      "subtle/std",
+      "curve25519-dalek/std",
+      "failure/std"
+    ],
+    "yolocrypto": [
+      "curve25519-dalek/yolocrypto"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-03-26T02:40:09.357762Z",
+  "dependencies": [
+    "bincode",
+    "curve25519-dalek",
+    "digest",
+    "failure",
+    "generic-array",
+    "hex",
+    "sha2",
+    "subtle",
+    "rand",
+    "serde",
+    "sha2"
+  ]
+}

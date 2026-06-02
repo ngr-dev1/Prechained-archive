@@ -1,0 +1,36 @@
+{
+  "name": "zip",
+  "version": "0.4.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "36b9e08fb518a65cf7e08a1e482573eb87a2f4f8c6619316612a3c1f162fe822",
+  "features": {
+    "default": [
+      "bzip2",
+      "deflate"
+    ],
+    "deflate": [
+      "flate2",
+      "flate2/rust_backend"
+    ],
+    "deflate-miniz": [
+      "flate2",
+      "flate2/miniz-sys"
+    ],
+    "deflate-zlib": [
+      "flate2",
+      "flate2/zlib"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-06-22T13:28:56.660544Z",
+  "dependencies": [
+    "msdos_time",
+    "podio",
+    "time",
+    "walkdir",
+    "bzip2",
+    "flate2"
+  ]
+}

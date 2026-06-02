@@ -1,0 +1,100 @@
+{
+  "name": "derive_more",
+  "version": "0.99.18",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "5f33878137e4dafd7fa914ad4e259e18a4e8e532b9617a2d0150262bf53abfce",
+  "features": {
+    "add": [],
+    "add_assign": [],
+    "as_mut": [],
+    "as_ref": [],
+    "constructor": [],
+    "default": [
+      "add_assign",
+      "add",
+      "as_mut",
+      "as_ref",
+      "constructor",
+      "deref",
+      "deref_mut",
+      "display",
+      "error",
+      "from",
+      "from_str",
+      "index",
+      "index_mut",
+      "into",
+      "into_iterator",
+      "iterator",
+      "mul_assign",
+      "mul",
+      "not",
+      "sum",
+      "try_into",
+      "is_variant",
+      "unwrap"
+    ],
+    "deref": [],
+    "deref_mut": [],
+    "display": [
+      "syn/extra-traits"
+    ],
+    "error": [
+      "syn/extra-traits"
+    ],
+    "from": [
+      "syn/extra-traits"
+    ],
+    "from_str": [],
+    "generate-parsing-rs": [
+      "peg"
+    ],
+    "index": [],
+    "index_mut": [],
+    "into": [
+      "syn/extra-traits"
+    ],
+    "into_iterator": [],
+    "is_variant": [
+      "convert_case"
+    ],
+    "iterator": [],
+    "mul": [
+      "syn/extra-traits"
+    ],
+    "mul_assign": [
+      "syn/extra-traits"
+    ],
+    "nightly": [],
+    "not": [
+      "syn/extra-traits"
+    ],
+    "sum": [],
+    "testing-helpers": [
+      "rustc_version"
+    ],
+    "track-caller": [],
+    "try_into": [
+      "syn/extra-traits"
+    ],
+    "unwrap": [
+      "convert_case",
+      "rustc_version"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3797,
+    "login": "JelteF"
+  },
+  "publishedAt": "2024-06-15T12:19:48.874182Z",
+  "dependencies": [
+    "proc-macro2",
+    "quote",
+    "syn",
+    "convert_case",
+    "peg",
+    "rustc_version"
+  ]
+}

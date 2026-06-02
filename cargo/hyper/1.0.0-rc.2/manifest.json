@@ -1,0 +1,64 @@
+{
+  "name": "hyper",
+  "version": "1.0.0-rc.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "289cfdbf735dea222b0ec6a10224b4d9552c7662bb451d4589cbfda3d407d1a3",
+  "features": {
+    "client": [],
+    "default": [],
+    "ffi": [
+      "libc",
+      "http-body-util"
+    ],
+    "full": [
+      "client",
+      "http1",
+      "http2",
+      "server"
+    ],
+    "http1": [],
+    "http2": [
+      "h2"
+    ],
+    "nightly": [],
+    "server": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2022-12-29T20:01:49.622019Z",
+  "dependencies": [
+    "bytes",
+    "futures-channel",
+    "futures-core",
+    "futures-util",
+    "futures-util",
+    "http",
+    "http-body",
+    "http-body-util",
+    "httparse",
+    "httpdate",
+    "itoa",
+    "matches",
+    "num_cpus",
+    "pin-project-lite",
+    "pretty_env_logger",
+    "serde",
+    "serde_json",
+    "spmc",
+    "tokio",
+    "tokio",
+    "tokio-test",
+    "tokio-util",
+    "tracing",
+    "url",
+    "want",
+    "h2",
+    "http-body-util",
+    "libc",
+    "socket2"
+  ]
+}

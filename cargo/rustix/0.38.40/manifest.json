@@ -1,0 +1,144 @@
+{
+  "name": "rustix",
+  "version": "0.38.40",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+  "checksum": "99e4ea3e1cdc4b559b8e5650f9c8e5998e3e5c1343b4eaf034565f32318d63c0",
+  "features": {
+    "all-apis": [
+      "event",
+      "fs",
+      "io_uring",
+      "mm",
+      "mount",
+      "net",
+      "param",
+      "pipe",
+      "process",
+      "procfs",
+      "pty",
+      "rand",
+      "runtime",
+      "shm",
+      "stdio",
+      "system",
+      "termios",
+      "thread",
+      "time"
+    ],
+    "alloc": [],
+    "cc": [],
+    "default": [
+      "std",
+      "use-libc-auxv"
+    ],
+    "event": [],
+    "fs": [],
+    "io_uring": [
+      "event",
+      "fs",
+      "net",
+      "linux-raw-sys/io_uring"
+    ],
+    "libc-extra-traits": [
+      "libc?/extra_traits"
+    ],
+    "linux_4_11": [],
+    "linux_latest": [
+      "linux_4_11"
+    ],
+    "mm": [],
+    "mount": [],
+    "net": [
+      "linux-raw-sys/net",
+      "linux-raw-sys/netlink",
+      "linux-raw-sys/if_ether",
+      "linux-raw-sys/xdp"
+    ],
+    "param": [
+      "fs"
+    ],
+    "pipe": [],
+    "process": [
+      "linux-raw-sys/prctl"
+    ],
+    "procfs": [
+      "once_cell",
+      "itoa",
+      "fs"
+    ],
+    "pty": [
+      "itoa",
+      "fs"
+    ],
+    "rand": [],
+    "runtime": [
+      "linux-raw-sys/prctl"
+    ],
+    "rustc-dep-of-std": [
+      "core",
+      "rustc-std-workspace-alloc",
+      "compiler_builtins",
+      "linux-raw-sys/rustc-dep-of-std",
+      "bitflags/rustc-dep-of-std",
+      "compiler_builtins?/rustc-dep-of-std"
+    ],
+    "shm": [
+      "fs"
+    ],
+    "std": [
+      "bitflags/std",
+      "alloc",
+      "libc?/std",
+      "libc_errno?/std",
+      "libc-extra-traits"
+    ],
+    "stdio": [],
+    "system": [
+      "linux-raw-sys/system"
+    ],
+    "termios": [],
+    "thread": [
+      "linux-raw-sys/prctl"
+    ],
+    "time": [],
+    "try_close": [],
+    "use-explicitly-provided-auxv": [],
+    "use-libc": [
+      "libc_errno",
+      "libc",
+      "libc-extra-traits"
+    ],
+    "use-libc-auxv": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6825,
+    "login": "sunfishcode"
+  },
+  "publishedAt": "2024-11-10T15:54:42.207017Z",
+  "dependencies": [
+    "bitflags",
+    "criterion",
+    "errno",
+    "errno",
+    "errno",
+    "flate2",
+    "libc",
+    "libc",
+    "linux-raw-sys",
+    "linux-raw-sys",
+    "memoffset",
+    "serial_test",
+    "static_assertions",
+    "tempfile",
+    "windows-sys",
+    "compiler_builtins",
+    "errno",
+    "itoa",
+    "libc",
+    "once_cell",
+    "rustc-std-workspace-alloc",
+    "rustc-std-workspace-core"
+  ]
+}

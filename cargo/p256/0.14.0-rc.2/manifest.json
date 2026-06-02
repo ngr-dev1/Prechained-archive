@@ -1,0 +1,111 @@
+{
+  "name": "p256",
+  "version": "0.14.0-rc.2",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "627b64d2b280c7509b62060609926b1bbf8e5123b2b89dd99c6ee7a520d34260",
+  "features": {
+    "alloc": [
+      "ecdsa-core?/alloc",
+      "elliptic-curve/alloc",
+      "primeorder?/alloc"
+    ],
+    "arithmetic": [
+      "dep:primefield",
+      "dep:primeorder",
+      "elliptic-curve/arithmetic"
+    ],
+    "bits": [
+      "arithmetic",
+      "elliptic-curve/bits"
+    ],
+    "default": [
+      "arithmetic",
+      "ecdsa",
+      "pem",
+      "std"
+    ],
+    "digest": [
+      "ecdsa-core/digest",
+      "ecdsa-core/hazmat"
+    ],
+    "ecdh": [
+      "arithmetic",
+      "elliptic-curve/ecdh"
+    ],
+    "ecdsa": [
+      "arithmetic",
+      "ecdsa-core/algorithm",
+      "sha256"
+    ],
+    "expose-field": [
+      "arithmetic"
+    ],
+    "getrandom": [
+      "elliptic-curve/getrandom"
+    ],
+    "group-digest": [
+      "hash2curve",
+      "sha2"
+    ],
+    "hash2curve": [
+      "arithmetic",
+      "dep:hash2curve",
+      "primeorder/hash2curve"
+    ],
+    "oprf": [
+      "group-digest"
+    ],
+    "pem": [
+      "elliptic-curve/pem",
+      "ecdsa-core/pem",
+      "pkcs8"
+    ],
+    "pkcs8": [
+      "ecdsa-core?/pkcs8",
+      "elliptic-curve/pkcs8"
+    ],
+    "serde": [
+      "ecdsa-core?/serde",
+      "elliptic-curve/serde",
+      "primeorder?/serde",
+      "serdect"
+    ],
+    "sha256": [
+      "digest",
+      "sha2"
+    ],
+    "std": [
+      "alloc",
+      "ecdsa-core?/std",
+      "elliptic-curve/std",
+      "getrandom"
+    ],
+    "test-vectors": [
+      "dep:hex-literal"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2025-12-30T05:26:26.642071Z",
+  "dependencies": [
+    "criterion",
+    "ecdsa",
+    "elliptic-curve",
+    "getrandom",
+    "hex-literal",
+    "primefield",
+    "primeorder",
+    "proptest",
+    "ecdsa",
+    "hash2curve",
+    "hex-literal",
+    "primefield",
+    "primeorder",
+    "serdect",
+    "sha2"
+  ]
+}

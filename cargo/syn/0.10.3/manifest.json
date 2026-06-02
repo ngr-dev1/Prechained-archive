@@ -1,0 +1,44 @@
+{
+  "name": "syn",
+  "version": "0.10.3",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "94e7d81ecd16d39f16193af05b8d5a0111b9d8d2f3f78f31760f327a247da777",
+  "features": {
+    "aster": [],
+    "default": [
+      "parsing",
+      "printing"
+    ],
+    "expand": [
+      "full",
+      "parsing",
+      "printing"
+    ],
+    "full": [],
+    "parsing": [
+      "unicode-xid"
+    ],
+    "pretty": [
+      "syntex_syntax"
+    ],
+    "printing": [
+      "quote"
+    ],
+    "visit": []
+  },
+  "yanked": true,
+  "published_by": null,
+  "publishedAt": "2016-11-11T01:24:58.212677Z",
+  "dependencies": [
+    "syntex_pos",
+    "syntex_syntax",
+    "tempdir",
+    "time",
+    "walkdir",
+    "clippy",
+    "quote",
+    "syntex_syntax",
+    "unicode-xid"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "rdkafka",
+  "version": "0.12.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "4569d6088919c4b6de9b2dcdd8b3c769d6c46fac9baa8cdeea7266aa7c9ccfe8",
+  "features": {
+    "default": [],
+    "sasl": [
+      "rdkafka-sys/sasl",
+      "ssl"
+    ],
+    "ssl": [
+      "rdkafka-sys/ssl"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-07-24T21:04:51.589984Z",
+  "dependencies": [
+    "chrono",
+    "clap",
+    "env_logger",
+    "errno",
+    "futures",
+    "futures-cpupool",
+    "libc",
+    "log",
+    "rand",
+    "rdkafka-sys",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "tokio-core"
+  ]
+}

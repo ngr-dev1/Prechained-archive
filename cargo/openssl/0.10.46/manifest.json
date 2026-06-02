@@ -1,0 +1,39 @@
+{
+  "name": "openssl",
+  "version": "0.10.46",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "fd2523381e46256e40930512c7fd25562b9eae4812cb52078f155e87217c9d1e",
+  "features": {
+    "bindgen": [
+      "ffi/bindgen"
+    ],
+    "default": [],
+    "unstable_boringssl": [
+      "ffi/unstable_boringssl"
+    ],
+    "v101": [],
+    "v102": [],
+    "v110": [],
+    "v111": [],
+    "vendored": [
+      "ffi/vendored"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5,
+    "login": "sfackler"
+  },
+  "publishedAt": "2023-03-15T01:21:36.262129Z",
+  "dependencies": [
+    "bitflags",
+    "cfg-if",
+    "foreign-types",
+    "hex",
+    "libc",
+    "once_cell",
+    "openssl-macros",
+    "openssl-sys"
+  ]
+}

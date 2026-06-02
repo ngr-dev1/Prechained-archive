@@ -1,0 +1,39 @@
+{
+  "name": "digest",
+  "version": "0.10.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "8549e6bfdecd113b7e221fe60b433087f6957387a20f8118ebca9b12af19143d",
+  "features": {
+    "alloc": [],
+    "core-api": [
+      "block-buffer"
+    ],
+    "default": [
+      "core-api"
+    ],
+    "dev": [
+      "blobby"
+    ],
+    "mac": [
+      "subtle"
+    ],
+    "std": [
+      "alloc",
+      "crypto-common/std"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 5059,
+    "login": "newpavlov"
+  },
+  "publishedAt": "2021-12-07T19:12:02.604023Z",
+  "dependencies": [
+    "crypto-common",
+    "generic-array",
+    "blobby",
+    "block-buffer",
+    "subtle"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "argon2",
+  "version": "0.19.1",
+  "ecosystem": "npm",
+  "description": "An Argon2 library for Node",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.10.0",
+    "bindings": "^1.3.0",
+    "@phc/format": "^0.4.2",
+    "any-promise": "^1.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "sandra": "^0.3.0",
+    "typescript": "^2.1.5",
+    "@types/node": "^10.0.3"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "ranisalt",
+      "email": "ranisalt@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Ranieri Althoff",
+    "email": "ranisalt+argon2@gmail.com"
+  },
+  "publishedAt": "2018-05-10T03:57:37.866Z",
+  "dist": {
+    "integrity": "sha512-zqSybJ2rXoXRaysWlH5jS+FN8Ba26bWQGISplaVjFY+S3ucNyHGPNrNp7BR1sfTL5CRECLUMgknahcUUwXlGrw==",
+    "shasum": "2729980734f37d35e81621c6d343e6ed750fa093",
+    "tarball": "https://registry.npmjs.org/argon2/-/argon2-0.19.1.tgz",
+    "fileCount": 34,
+    "unpackedSize": 316064
+  },
+  "_npmUser": {
+    "name": "ranisalt",
+    "email": "ranisalt@gmail.com"
+  }
+}

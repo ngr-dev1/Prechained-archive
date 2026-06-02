@@ -1,0 +1,42 @@
+{
+  "name": "url",
+  "version": "2.5.8",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "ff67a8a4397373c3ef660812acab3268222035010ab8680ec4215f38ba3d0eed",
+  "features": {
+    "debugger_visualizer": [],
+    "default": [
+      "std"
+    ],
+    "expose_internals": [],
+    "serde": [
+      "dep:serde",
+      "dep:serde_derive"
+    ],
+    "std": [
+      "idna/std",
+      "percent-encoding/std",
+      "form_urlencoded/std",
+      "serde?/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1139,
+    "login": "Manishearth"
+  },
+  "publishedAt": "2026-01-05T22:14:31.414927Z",
+  "dependencies": [
+    "bencher",
+    "form_urlencoded",
+    "idna",
+    "percent-encoding",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "wasm-bindgen-test",
+    "serde",
+    "serde_derive"
+  ]
+}

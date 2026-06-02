@@ -1,0 +1,37 @@
+{
+  "name": "kafka",
+  "version": "0.4.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "f8efe2eef8bfd4c0996319db849b5d6e278debc5e491e654504511171144a605",
+  "features": {
+    "default": [
+      "snappy",
+      "gzip",
+      "security"
+    ],
+    "gzip": [
+      "flate2"
+    ],
+    "nightly": [],
+    "security": [
+      "openssl"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-08-04T04:55:12.098897Z",
+  "dependencies": [
+    "byteorder",
+    "crc",
+    "env_logger",
+    "fnv",
+    "getopts",
+    "log",
+    "ref_slice",
+    "time",
+    "flate2",
+    "openssl",
+    "snappy"
+  ]
+}

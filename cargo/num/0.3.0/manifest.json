@@ -1,0 +1,52 @@
+{
+  "name": "num",
+  "version": "0.3.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "ab3e176191bc4faad357e3122c4747aa098ac880e88b168f106386128736cf4a",
+  "features": {
+    "alloc": [
+      "num-bigint",
+      "num-rational/num-bigint"
+    ],
+    "default": [
+      "std"
+    ],
+    "libm": [
+      "num-complex/libm",
+      "num-traits/libm"
+    ],
+    "rand": [
+      "num-bigint/rand",
+      "num-complex/rand"
+    ],
+    "serde": [
+      "num-bigint/serde",
+      "num-complex/serde",
+      "num-rational/serde"
+    ],
+    "std": [
+      "num-bigint/std",
+      "num-complex/std",
+      "num-integer/std",
+      "num-iter/std",
+      "num-rational/std",
+      "num-rational/num-bigint-std",
+      "num-traits/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 539,
+    "login": "cuviper"
+  },
+  "publishedAt": "2020-06-13T23:11:27.248124Z",
+  "dependencies": [
+    "num-complex",
+    "num-integer",
+    "num-iter",
+    "num-rational",
+    "num-traits",
+    "num-bigint"
+  ]
+}

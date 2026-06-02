@@ -1,0 +1,27 @@
+{
+  "name": "lock_api",
+  "version": "0.4.12",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "07af8b9cdd281b7915f413fa73f29ebd5d55d0d3f0155584dade1ff18cea1b17",
+  "features": {
+    "arc_lock": [],
+    "atomic_usize": [],
+    "default": [
+      "atomic_usize"
+    ],
+    "nightly": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2915,
+    "login": "Amanieu"
+  },
+  "publishedAt": "2024-04-25T23:01:49.287895Z",
+  "dependencies": [
+    "autocfg",
+    "scopeguard",
+    "owning_ref",
+    "serde"
+  ]
+}

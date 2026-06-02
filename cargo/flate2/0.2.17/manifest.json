@@ -1,0 +1,25 @@
+{
+  "name": "flate2",
+  "version": "0.2.17",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "d4e4d0c15ef829cbc1b7cda651746be19cceeb238be7b1049227b14891df9e25",
+  "features": {
+    "default": [
+      "miniz-sys"
+    ],
+    "zlib": [
+      "libz-sys"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-01-20T19:15:51.159061Z",
+  "dependencies": [
+    "libc",
+    "quickcheck",
+    "rand",
+    "libz-sys",
+    "miniz-sys"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "uuid",
+  "version": "1.4.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "d023da39d1fde5a8a3fe1f3e01ca9632ada0a63e9797de55a879d6e2236277be",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "fast-rng": [
+      "rng",
+      "rand"
+    ],
+    "js": [
+      "wasm-bindgen",
+      "getrandom",
+      "getrandom/js"
+    ],
+    "macro-diagnostics": [
+      "uuid-macro-internal"
+    ],
+    "md5": [
+      "md-5"
+    ],
+    "rng": [
+      "getrandom"
+    ],
+    "sha1": [
+      "sha1_smol"
+    ],
+    "std": [],
+    "v1": [
+      "atomic"
+    ],
+    "v3": [
+      "md5"
+    ],
+    "v4": [
+      "rng"
+    ],
+    "v5": [
+      "sha1"
+    ],
+    "v6": [
+      "atomic"
+    ],
+    "v7": [
+      "atomic",
+      "rng"
+    ],
+    "v8": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3204,
+    "login": "KodrAus"
+  },
+  "publishedAt": "2023-06-27T05:10:57.111676Z",
+  "dependencies": [
+    "bincode",
+    "rustversion",
+    "serde_derive",
+    "serde_json",
+    "serde_test",
+    "trybuild",
+    "wasm-bindgen",
+    "wasm-bindgen-test",
+    "windows-sys",
+    "arbitrary",
+    "atomic",
+    "borsh",
+    "getrandom",
+    "md-5",
+    "rand",
+    "serde",
+    "sha1_smol",
+    "slog",
+    "uuid-macro-internal",
+    "wasm-bindgen",
+    "zerocopy"
+  ]
+}

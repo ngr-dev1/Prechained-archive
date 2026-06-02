@@ -1,0 +1,34 @@
+{
+  "name": "opentelemetry-prometheus",
+  "version": "0.29.1",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "098a71a4430bb712be6130ed777335d2e5b19bc8566de5f2edddfce906def6ab",
+  "features": {
+    "default": [
+      "internal-logs"
+    ],
+    "internal-logs": [
+      "tracing"
+    ],
+    "prometheus-encoding": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 250714,
+    "login": "cijothomas"
+  },
+  "publishedAt": "2025-04-11T05:20:49.563592Z",
+  "dependencies": [
+    "http-body-util",
+    "hyper",
+    "hyper-util",
+    "once_cell",
+    "opentelemetry",
+    "opentelemetry-semantic-conventions",
+    "opentelemetry_sdk",
+    "prometheus",
+    "tokio",
+    "tracing"
+  ]
+}

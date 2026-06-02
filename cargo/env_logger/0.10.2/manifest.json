@@ -1,0 +1,40 @@
+{
+  "name": "env_logger",
+  "version": "0.10.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "4cd405aab171cb85d6735e5c8d9db038c17d3ca007a4d2c25f337935c3d90580",
+  "features": {
+    "auto-color": [
+      "dep:is-terminal",
+      "color"
+    ],
+    "color": [
+      "dep:termcolor"
+    ],
+    "default": [
+      "auto-color",
+      "humantime",
+      "regex"
+    ],
+    "humantime": [
+      "dep:humantime"
+    ],
+    "regex": [
+      "dep:regex"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6743,
+    "login": "epage"
+  },
+  "publishedAt": "2024-01-18T01:46:46.982987Z",
+  "dependencies": [
+    "log",
+    "humantime",
+    "is-terminal",
+    "regex",
+    "termcolor"
+  ]
+}

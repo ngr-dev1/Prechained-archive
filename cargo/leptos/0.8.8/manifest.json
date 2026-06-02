@@ -1,0 +1,126 @@
+{
+  "name": "leptos",
+  "version": "0.8.8",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "b7a8710b4908a0e7b693113b906e4cf1bc87123b685404d090cdcd3e220bcab4",
+  "features": {
+    "csr": [
+      "leptos_macro/csr",
+      "reactive_graph/effects",
+      "getrandom?/wasm_js"
+    ],
+    "default-tls": [
+      "server_fn/default-tls"
+    ],
+    "delegation": [
+      "tachys/delegation"
+    ],
+    "hydrate": [
+      "leptos_macro/hydrate",
+      "hydration",
+      "tachys/hydrate",
+      "reactive_graph/effects",
+      "getrandom?/wasm_js"
+    ],
+    "hydration": [
+      "reactive_graph/hydration",
+      "leptos_server/hydration",
+      "hydration_context/browser",
+      "leptos_dom/hydration"
+    ],
+    "islands": [
+      "leptos_macro/islands"
+    ],
+    "islands-router": [
+      "tachys/mark_branches"
+    ],
+    "nightly": [
+      "leptos_macro/nightly",
+      "reactive_graph/nightly",
+      "tachys/nightly"
+    ],
+    "nonce": [
+      "base64",
+      "rand",
+      "dep:getrandom"
+    ],
+    "rkyv": [
+      "server_fn/rkyv",
+      "leptos_server/rkyv"
+    ],
+    "rustls": [
+      "server_fn/rustls"
+    ],
+    "spin": [
+      "leptos-spin-macro"
+    ],
+    "ssr": [
+      "leptos_macro/ssr",
+      "leptos_server/ssr",
+      "server_fn/ssr",
+      "hydration",
+      "tachys/ssr"
+    ],
+    "trace-component-props": [
+      "leptos_macro/trace-component-props",
+      "leptos_dom/trace-component-props"
+    ],
+    "tracing": [
+      "dep:tracing",
+      "reactive_graph/tracing",
+      "tachys/tracing",
+      "leptos_macro/tracing",
+      "leptos_dom/tracing",
+      "leptos_server/tracing"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 130155,
+    "login": "gbj"
+  },
+  "publishedAt": "2025-08-26T21:12:09.128471Z",
+  "dependencies": [
+    "any_spawner",
+    "any_spawner",
+    "cfg-if",
+    "either_of",
+    "futures",
+    "hydration_context",
+    "leptos_config",
+    "leptos_dom",
+    "leptos_hot_reload",
+    "leptos_macro",
+    "leptos_macro",
+    "leptos_server",
+    "oco_ref",
+    "or_poisoned",
+    "paste",
+    "reactive_graph",
+    "rustc-hash",
+    "rustc_version",
+    "send_wrapper",
+    "serde",
+    "serde_json",
+    "serde_qs",
+    "server_fn",
+    "slotmap",
+    "tachys",
+    "thiserror",
+    "throw_error",
+    "tokio",
+    "tokio-test",
+    "typed-builder",
+    "typed-builder-macro",
+    "wasm-bindgen",
+    "wasm-bindgen-futures",
+    "wasm_split_helpers",
+    "web-sys",
+    "base64",
+    "getrandom",
+    "leptos-spin-macro",
+    "rand",
+    "tracing"
+  ]
+}

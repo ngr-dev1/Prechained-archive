@@ -1,0 +1,129 @@
+{
+  "name": "rusqlite",
+  "version": "0.23.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "45d0fd62e1df63d254714e6cb40d0a0e82e7a1623e7a27f679d851af092ae58b",
+  "features": {
+    "array": [
+      "vtab"
+    ],
+    "backup": [
+      "libsqlite3-sys/min_sqlite_version_3_6_23"
+    ],
+    "blob": [
+      "libsqlite3-sys/min_sqlite_version_3_7_7"
+    ],
+    "buildtime_bindgen": [
+      "libsqlite3-sys/buildtime_bindgen"
+    ],
+    "bundled": [
+      "libsqlite3-sys/bundled",
+      "modern_sqlite"
+    ],
+    "bundled-full": [
+      "array",
+      "backup",
+      "blob",
+      "bundled",
+      "chrono",
+      "collation",
+      "csvtab",
+      "extra_check",
+      "functions",
+      "hooks",
+      "i128_blob",
+      "limits",
+      "load_extension",
+      "serde_json",
+      "series",
+      "trace",
+      "unlock_notify",
+      "url",
+      "uuid",
+      "vtab",
+      "window"
+    ],
+    "bundled-windows": [
+      "libsqlite3-sys/bundled-windows"
+    ],
+    "collation": [],
+    "csvtab": [
+      "csv",
+      "vtab"
+    ],
+    "extra_check": [],
+    "functions": [
+      "libsqlite3-sys/min_sqlite_version_3_7_7"
+    ],
+    "hooks": [],
+    "i128_blob": [
+      "byteorder"
+    ],
+    "in_gecko": [
+      "modern_sqlite",
+      "libsqlite3-sys/in_gecko"
+    ],
+    "limits": [],
+    "load_extension": [],
+    "modern_sqlite": [
+      "libsqlite3-sys/bundled_bindings"
+    ],
+    "series": [
+      "vtab"
+    ],
+    "session": [
+      "libsqlite3-sys/session",
+      "hooks"
+    ],
+    "sqlcipher": [
+      "libsqlite3-sys/sqlcipher"
+    ],
+    "trace": [
+      "libsqlite3-sys/min_sqlite_version_3_6_23"
+    ],
+    "unlock_notify": [
+      "libsqlite3-sys/unlock_notify"
+    ],
+    "vtab": [
+      "libsqlite3-sys/min_sqlite_version_3_7_7",
+      "lazy_static"
+    ],
+    "window": [
+      "functions"
+    ],
+    "with-asan": [
+      "libsqlite3-sys/with-asan"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4357,
+    "login": "thomcc"
+  },
+  "publishedAt": "2020-04-23T22:06:17.386921Z",
+  "dependencies": [
+    "bencher",
+    "bitflags",
+    "doc-comment",
+    "fallible-iterator",
+    "fallible-streaming-iterator",
+    "lazy_static",
+    "libsqlite3-sys",
+    "lru-cache",
+    "memchr",
+    "regex",
+    "smallvec",
+    "tempfile",
+    "time",
+    "unicase",
+    "uuid",
+    "byteorder",
+    "chrono",
+    "csv",
+    "lazy_static",
+    "serde_json",
+    "url",
+    "uuid"
+  ]
+}

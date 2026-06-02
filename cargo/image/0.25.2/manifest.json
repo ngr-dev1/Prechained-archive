@@ -1,0 +1,113 @@
+{
+  "name": "image",
+  "version": "0.25.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "99314c8a2152b8ddb211f924cdae532d8c5e4c8bb54728e12fff1b0cd5963a10",
+  "features": {
+    "avif": [
+      "dep:ravif",
+      "dep:rgb"
+    ],
+    "avif-native": [
+      "dep:mp4parse",
+      "dep:dcv-color-primitives",
+      "dep:dav1d"
+    ],
+    "benchmarks": [],
+    "bmp": [],
+    "color_quant": [
+      "dep:color_quant"
+    ],
+    "dds": [],
+    "default": [
+      "rayon",
+      "default-formats"
+    ],
+    "default-formats": [
+      "avif",
+      "bmp",
+      "dds",
+      "exr",
+      "ff",
+      "gif",
+      "hdr",
+      "ico",
+      "jpeg",
+      "png",
+      "pnm",
+      "qoi",
+      "tga",
+      "tiff",
+      "webp"
+    ],
+    "exr": [
+      "dep:exr"
+    ],
+    "ff": [],
+    "gif": [
+      "dep:gif",
+      "dep:color_quant"
+    ],
+    "hdr": [],
+    "ico": [
+      "bmp",
+      "png"
+    ],
+    "jpeg": [
+      "dep:zune-core",
+      "dep:zune-jpeg"
+    ],
+    "nasm": [
+      "ravif?/asm"
+    ],
+    "png": [
+      "dep:png"
+    ],
+    "pnm": [],
+    "qoi": [
+      "dep:qoi"
+    ],
+    "rayon": [
+      "dep:rayon"
+    ],
+    "tga": [],
+    "tiff": [
+      "dep:tiff"
+    ],
+    "webp": [
+      "dep:image-webp"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 11453,
+    "login": "HeroicKatora"
+  },
+  "publishedAt": "2024-07-21T17:56:11.206774Z",
+  "dependencies": [
+    "bytemuck",
+    "byteorder-lite",
+    "crc32fast",
+    "criterion",
+    "glob",
+    "num-complex",
+    "num-traits",
+    "quickcheck",
+    "color_quant",
+    "dav1d",
+    "dcv-color-primitives",
+    "exr",
+    "gif",
+    "image-webp",
+    "mp4parse",
+    "png",
+    "qoi",
+    "ravif",
+    "rayon",
+    "rgb",
+    "tiff",
+    "zune-core",
+    "zune-jpeg"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "hifitime",
+  "version": "3.8.1",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "a4d20b8d5d165d63c97e51d153904951255388e72b22318f938f34d857cacbb9",
+  "features": {
+    "asn1der": [
+      "der"
+    ],
+    "default": [
+      "std"
+    ],
+    "python": [
+      "std",
+      "asn1der",
+      "pyo3",
+      "ut1"
+    ],
+    "std": [
+      "serde",
+      "serde_derive"
+    ],
+    "ut1": [
+      "std",
+      "reqwest",
+      "tabled",
+      "openssl"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 13962,
+    "login": "ChristopherRabotin"
+  },
+  "publishedAt": "2023-05-27T14:23:36.031207Z",
+  "dependencies": [
+    "criterion",
+    "iai",
+    "lexical-core",
+    "num-traits",
+    "serde_json",
+    "der",
+    "openssl",
+    "pyo3",
+    "reqwest",
+    "serde",
+    "serde_derive",
+    "tabled"
+  ]
+}

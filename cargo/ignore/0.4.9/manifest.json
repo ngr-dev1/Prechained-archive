@@ -1,0 +1,31 @@
+{
+  "name": "ignore",
+  "version": "0.4.9",
+  "ecosystem": "cargo",
+  "license": "Unlicense/MIT",
+  "checksum": "5d66819194c2b95fe5549e0dd76a9ab811740cb8b57e187e6c60ccf992faf19b",
+  "features": {
+    "simd-accel": [
+      "globset/simd-accel"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 189,
+    "login": "BurntSushi"
+  },
+  "publishedAt": "2019-08-01T21:48:53.089342Z",
+  "dependencies": [
+    "crossbeam-channel",
+    "globset",
+    "lazy_static",
+    "log",
+    "memchr",
+    "regex",
+    "same-file",
+    "tempfile",
+    "thread_local",
+    "walkdir",
+    "winapi-util"
+  ]
+}

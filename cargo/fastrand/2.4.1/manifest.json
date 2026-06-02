@@ -1,0 +1,34 @@
+{
+  "name": "fastrand",
+  "version": "2.4.1",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "9f1f227452a390804cdb637b74a86990f2a7d7ba4b7d5693aac9b4dd6defd8d6",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "js": [
+      "std",
+      "getrandom"
+    ],
+    "std": [
+      "alloc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 33035,
+    "login": "taiki-e"
+  },
+  "publishedAt": "2026-04-07T00:22:06.835758Z",
+  "dependencies": [
+    "getrandom",
+    "getrandom",
+    "rand",
+    "wasm-bindgen-test",
+    "wyhash",
+    "getrandom"
+  ]
+}

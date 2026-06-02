@@ -1,0 +1,46 @@
+{
+  "name": "bincode",
+  "version": "2.0.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "36eaf5d7b090263e8150820482d5d93cd964a81e4019913c972f4edcc6edb740",
+  "features": {
+    "alloc": [
+      "serde?/alloc"
+    ],
+    "default": [
+      "std",
+      "derive"
+    ],
+    "derive": [
+      "bincode_derive"
+    ],
+    "std": [
+      "alloc",
+      "serde?/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3672,
+    "login": "ZoeyR"
+  },
+  "publishedAt": "2025-03-10T18:28:08.334006Z",
+  "dependencies": [
+    "bincode",
+    "bumpalo",
+    "chrono",
+    "criterion",
+    "glam",
+    "ouroboros",
+    "rand",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "tempfile",
+    "unty",
+    "uuid",
+    "bincode_derive",
+    "serde"
+  ]
+}

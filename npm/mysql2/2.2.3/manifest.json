@@ -1,0 +1,74 @@
+{
+  "name": "mysql2",
+  "version": "2.2.3",
+  "ecosystem": "npm",
+  "description": "fast mysql driver. Implements core protocol, prepared statements, ssl and compression in native JS",
+  "license": "MIT",
+  "dependencies": {
+    "long": "^4.0.0",
+    "denque": "^1.4.1",
+    "lru-cache": "^6.0.0",
+    "seq-queue": "^0.0.5",
+    "sqlstring": "^2.3.2",
+    "iconv-lite": "^0.6.2",
+    "@types/mysql": "github:types/mysql",
+    "generate-function": "^2.3.1",
+    "named-placeholders": "^1.1.2"
+  },
+  "devDependencies": {
+    "urun": "0.0.8",
+    "husky": "^3.0.4",
+    "utest": "0.0.8",
+    "eslint": "^6.2.2",
+    "prettier": "^2.0.5",
+    "progress": "^2.0.3",
+    "portfinder": "^1.0.28",
+    "typescript": "^3.6.3",
+    "assert-diff": "^3.0.0",
+    "lint-staged": "^10.0.3",
+    "prettier-markdown": "^0.1.6",
+    "error-stack-parser": "^2.0.3",
+    "is-async-supported": "^1.2.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-markdown": "^1.0.0",
+    "@typescript-eslint/parser": "^2.3.2",
+    "eslint-plugin-async-await": "0.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.2"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "sidorares",
+      "email": "sidorares@yandex.com"
+    },
+    {
+      "name": "iarna",
+      "email": "me@re-becca.org"
+    },
+    {
+      "name": "sushantdhiman",
+      "email": "sushantdhiman@outlook.com"
+    }
+  ],
+  "author": {
+    "name": "Andrey Sidorov",
+    "email": "sidorares@yandex.ru"
+  },
+  "publishedAt": "2020-09-21T04:01:56.948Z",
+  "dist": {
+    "integrity": "sha512-9Ue/r6EFLeia5wLEf6kI3EHGijCAsYnpR7aCFzOY2ASi2N3b/jmskKw1ZHeCoqryg553X5U+upJwC2qKyEDoAg==",
+    "shasum": "5505b87c2919ae499d14fd8886ef2b68b3d51dc5",
+    "tarball": "https://registry.npmjs.org/mysql2/-/mysql2-2.2.3.tgz",
+    "fileCount": 76,
+    "unpackedSize": 438041
+  },
+  "_npmUser": {
+    "name": "sidorares",
+    "email": "sidorares@yandex.com"
+  }
+}

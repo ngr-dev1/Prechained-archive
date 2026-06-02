@@ -1,0 +1,145 @@
+{
+  "name": "dioxus",
+  "version": "0.6.0-alpha.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "5378dd1f4551e8a57ed9c65cd74e61298dee73dfb0bb79319bd89cbf9761efc6",
+  "features": {
+    "asset": [
+      "dep:manganis"
+    ],
+    "axum": [
+      "dioxus-fullstack?/axum",
+      "dioxus-fullstack?/server",
+      "dioxus-static-site-generation?/server",
+      "ssr",
+      "dioxus-liveview?/axum",
+      "dep:axum"
+    ],
+    "default": [
+      "macro",
+      "html",
+      "hot-reload",
+      "signals",
+      "hooks",
+      "launch",
+      "mounted",
+      "file_engine",
+      "document",
+      "asset"
+    ],
+    "desktop": [
+      "dep:dioxus-desktop",
+      "dioxus-fullstack?/desktop",
+      "dioxus-config-macro/desktop"
+    ],
+    "document": [
+      "dioxus-web?/document",
+      "dioxus-html?/document"
+    ],
+    "file_engine": [
+      "dioxus-web?/file_engine"
+    ],
+    "fullstack": [
+      "dep:dioxus-fullstack",
+      "dioxus-config-macro/fullstack",
+      "dep:serde",
+      "dioxus-router?/fullstack"
+    ],
+    "hooks": [
+      "dep:dioxus-hooks"
+    ],
+    "hot-reload": [
+      "dep:dioxus-hot-reload",
+      "dioxus-web?/hot_reload",
+      "dioxus-fullstack?/hot-reload"
+    ],
+    "html": [
+      "dep:dioxus-html"
+    ],
+    "launch": [
+      "dep:dioxus-config-macro"
+    ],
+    "liveview": [
+      "dep:dioxus-liveview",
+      "dioxus-config-macro/liveview",
+      "dioxus-router?/liveview"
+    ],
+    "macro": [
+      "dep:dioxus-core-macro"
+    ],
+    "minimal": [
+      "macro",
+      "html",
+      "signals",
+      "hooks",
+      "launch"
+    ],
+    "mobile": [
+      "dep:dioxus-mobile",
+      "dioxus-fullstack?/mobile",
+      "dioxus-config-macro/mobile"
+    ],
+    "mounted": [
+      "dioxus-web?/mounted",
+      "dioxus-html?/mounted"
+    ],
+    "router": [
+      "dep:dioxus-router"
+    ],
+    "signals": [
+      "dep:dioxus-signals"
+    ],
+    "ssr": [
+      "dep:dioxus-ssr",
+      "dioxus-router?/ssr",
+      "dioxus-config-macro/ssr"
+    ],
+    "static-generation": [
+      "dep:dioxus-static-site-generation",
+      "dioxus-config-macro/static-generation"
+    ],
+    "third-party-renderer": [],
+    "web": [
+      "dep:dioxus-web",
+      "dioxus-fullstack?/web",
+      "dioxus-static-site-generation?/web",
+      "dioxus-config-macro/web",
+      "dioxus-router?/web"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 55668,
+    "login": "jkelleyrtp"
+  },
+  "publishedAt": "2024-08-01T04:07:12.482756Z",
+  "dependencies": [
+    "criterion",
+    "dioxus",
+    "dioxus-core",
+    "env_logger",
+    "futures-util",
+    "rand",
+    "thiserror",
+    "tokio",
+    "tracing",
+    "axum",
+    "dioxus-config-macro",
+    "dioxus-core-macro",
+    "dioxus-desktop",
+    "dioxus-fullstack",
+    "dioxus-hooks",
+    "dioxus-hot-reload",
+    "dioxus-html",
+    "dioxus-liveview",
+    "dioxus-mobile",
+    "dioxus-router",
+    "dioxus-signals",
+    "dioxus-ssr",
+    "dioxus-static-site-generation",
+    "dioxus-web",
+    "manganis",
+    "serde"
+  ]
+}

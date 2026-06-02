@@ -1,0 +1,42 @@
+{
+  "name": "proptest",
+  "version": "0.7.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "a3ff101e7a7be1104b3d71f194bc10a3fa338e89b3539444cfde6fdb3aae94a1",
+  "features": {
+    "alloc": [
+      "hashmap_core"
+    ],
+    "default": [
+      "std"
+    ],
+    "nightly": [
+      "lazy_static/spin_no_std"
+    ],
+    "std": [
+      "rand/std",
+      "bit-set/std",
+      "quick-error",
+      "regex-syntax",
+      "num-traits/std"
+    ],
+    "unstable": [
+      "rand/i128_support"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-05-03T01:56:34.165449Z",
+  "dependencies": [
+    "bit-set",
+    "bitflags",
+    "lazy_static",
+    "num-traits",
+    "rand",
+    "regex",
+    "hashmap_core",
+    "quick-error",
+    "regex-syntax"
+  ]
+}

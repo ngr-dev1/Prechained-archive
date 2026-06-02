@@ -1,0 +1,42 @@
+{
+  "name": "ring",
+  "version": "0.17.0-alpha.10",
+  "ecosystem": "cargo",
+  "license": "non-standard",
+  "checksum": "55ae9a4d2975bdd8254d7bcdd2261be62b42b8920f903ec682b08cdc11b87af2",
+  "features": {
+    "alloc": [],
+    "default": [
+      "alloc",
+      "dev_urandom_fallback"
+    ],
+    "dev_urandom_fallback": [
+      "once_cell"
+    ],
+    "internal_benches": [],
+    "slow_tests": [],
+    "std": [
+      "alloc"
+    ],
+    "test_logging": [],
+    "wasm32_c": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2342,
+    "login": "briansmith"
+  },
+  "publishedAt": "2021-05-04T21:59:25.298113Z",
+  "dependencies": [
+    "cc",
+    "libc",
+    "libc",
+    "once_cell",
+    "spin",
+    "untrusted",
+    "wasm-bindgen-test",
+    "web-sys",
+    "winapi",
+    "once_cell"
+  ]
+}

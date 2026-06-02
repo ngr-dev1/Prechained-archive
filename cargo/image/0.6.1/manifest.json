@@ -1,0 +1,47 @@
+{
+  "name": "image",
+  "version": "0.6.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "71a877c12ccf2470fc678107d7850afa1156d5a95b113b20d022fbc65f7ce237",
+  "features": {
+    "bmp": [],
+    "default": [
+      "gif_codec",
+      "jpeg",
+      "ico",
+      "png_codec",
+      "ppm",
+      "tga",
+      "tiff",
+      "webp",
+      "bmp"
+    ],
+    "gif_codec": [
+      "gif"
+    ],
+    "ico": [
+      "bmp",
+      "png_codec"
+    ],
+    "jpeg": [],
+    "png_codec": [
+      "png"
+    ],
+    "ppm": [],
+    "tga": [],
+    "tiff": [],
+    "webp": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-01-05T20:07:22.998945Z",
+  "dependencies": [
+    "byteorder",
+    "enum_primitive",
+    "glob",
+    "num",
+    "gif",
+    "png"
+  ]
+}

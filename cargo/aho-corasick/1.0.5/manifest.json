@@ -1,0 +1,33 @@
+{
+  "name": "aho-corasick",
+  "version": "1.0.5",
+  "ecosystem": "cargo",
+  "license": "Unlicense OR MIT",
+  "checksum": "0c378d78423fdad8089616f827526ee33c19f2fddbd5de1629152c9593ba4783",
+  "features": {
+    "default": [
+      "std",
+      "perf-literal"
+    ],
+    "logging": [
+      "dep:log"
+    ],
+    "perf-literal": [
+      "dep:memchr"
+    ],
+    "std": [
+      "memchr?/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 189,
+    "login": "BurntSushi"
+  },
+  "publishedAt": "2023-08-29T18:01:55.552480Z",
+  "dependencies": [
+    "doc-comment",
+    "log",
+    "memchr"
+  ]
+}

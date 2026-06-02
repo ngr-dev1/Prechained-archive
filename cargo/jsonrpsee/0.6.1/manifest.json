@@ -1,0 +1,61 @@
+{
+  "name": "jsonrpsee",
+  "version": "0.6.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "ceafa2f3d8cb796bf63364691fb875b079814064306cfd4cb067f95f800a673f",
+  "features": {
+    "client": [
+      "http-client",
+      "ws-client"
+    ],
+    "full": [
+      "client",
+      "server",
+      "macros"
+    ],
+    "http-client": [
+      "jsonrpsee-http-client",
+      "jsonrpsee-types",
+      "jsonrpsee-utils/client"
+    ],
+    "http-server": [
+      "jsonrpsee-http-server",
+      "jsonrpsee-types",
+      "jsonrpsee-utils"
+    ],
+    "macros": [
+      "jsonrpsee-proc-macros",
+      "jsonrpsee-types"
+    ],
+    "server": [
+      "http-server",
+      "ws-server"
+    ],
+    "ws-client": [
+      "jsonrpsee-ws-client",
+      "jsonrpsee-types",
+      "jsonrpsee-utils/client"
+    ],
+    "ws-server": [
+      "jsonrpsee-ws-server",
+      "jsonrpsee-types",
+      "jsonrpsee-utils"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 18452,
+    "login": "niklasad1"
+  },
+  "publishedAt": "2021-12-07T17:02:50.407741Z",
+  "dependencies": [
+    "jsonrpsee-http-client",
+    "jsonrpsee-http-server",
+    "jsonrpsee-proc-macros",
+    "jsonrpsee-types",
+    "jsonrpsee-utils",
+    "jsonrpsee-ws-client",
+    "jsonrpsee-ws-server"
+  ]
+}

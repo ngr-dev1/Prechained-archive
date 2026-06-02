@@ -1,0 +1,26 @@
+{
+  "name": "memchr",
+  "version": "2.1.0",
+  "ecosystem": "cargo",
+  "license": "Unlicense/MIT",
+  "checksum": "4b3629fe9fdbff6daa6c33b90f7c08355c1aca05a3d01fa8063b822fcf185f3b",
+  "features": {
+    "default": [
+      "use_std",
+      "libc"
+    ],
+    "use_std": [
+      "libc",
+      "libc/use_std"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-09-17T23:54:03.186524Z",
+  "dependencies": [
+    "cfg-if",
+    "quickcheck",
+    "version_check",
+    "libc"
+  ]
+}

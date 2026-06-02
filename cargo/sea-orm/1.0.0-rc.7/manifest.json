@@ -1,0 +1,183 @@
+{
+  "name": "sea-orm",
+  "version": "1.0.0-rc.7",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "c0181d6247d8d8a916c16c08ba530e05010c73cab140c2fd07e252bca9c423f9",
+  "features": {
+    "debug-print": [],
+    "default": [
+      "macros",
+      "with-json",
+      "with-chrono",
+      "with-rust_decimal",
+      "with-bigdecimal",
+      "with-uuid",
+      "with-time"
+    ],
+    "json-array": [
+      "postgres-array"
+    ],
+    "macros": [
+      "sea-orm-macros/derive"
+    ],
+    "mock": [],
+    "postgres-array": [
+      "sea-query/postgres-array",
+      "sea-query-binder?/postgres-array",
+      "sea-orm-macros/postgres-array"
+    ],
+    "proxy": [
+      "serde_json",
+      "serde/derive"
+    ],
+    "runtime-actix": [],
+    "runtime-actix-native-tls": [
+      "sqlx?/runtime-tokio-native-tls",
+      "sea-query-binder?/runtime-actix-native-tls",
+      "runtime-actix"
+    ],
+    "runtime-actix-rustls": [
+      "sqlx?/runtime-tokio-rustls",
+      "sea-query-binder?/runtime-actix-rustls",
+      "runtime-actix"
+    ],
+    "runtime-async-std": [
+      "sqlx?/runtime-async-std"
+    ],
+    "runtime-async-std-native-tls": [
+      "sqlx?/runtime-async-std-native-tls",
+      "sea-query-binder?/runtime-async-std-native-tls",
+      "runtime-async-std"
+    ],
+    "runtime-async-std-rustls": [
+      "sqlx?/runtime-async-std-rustls",
+      "sea-query-binder?/runtime-async-std-rustls",
+      "runtime-async-std"
+    ],
+    "runtime-tokio": [
+      "sqlx?/runtime-tokio"
+    ],
+    "runtime-tokio-native-tls": [
+      "sqlx?/runtime-tokio-native-tls",
+      "sea-query-binder?/runtime-tokio-native-tls",
+      "runtime-tokio"
+    ],
+    "runtime-tokio-rustls": [
+      "sqlx?/runtime-tokio-rustls",
+      "sea-query-binder?/runtime-tokio-rustls",
+      "runtime-tokio"
+    ],
+    "sea-orm-internal": [],
+    "seaography": [
+      "sea-orm-macros/seaography"
+    ],
+    "sqlite-use-returning-for-3_35": [],
+    "sqlx-all": [
+      "sqlx-mysql",
+      "sqlx-postgres",
+      "sqlx-sqlite"
+    ],
+    "sqlx-dep": [],
+    "sqlx-mysql": [
+      "sqlx-dep",
+      "sea-query-binder/sqlx-mysql",
+      "sqlx/mysql"
+    ],
+    "sqlx-postgres": [
+      "sqlx-dep",
+      "sea-query-binder/sqlx-postgres",
+      "sqlx/postgres",
+      "postgres-array"
+    ],
+    "sqlx-sqlite": [
+      "sqlx-dep",
+      "sea-query-binder/sqlx-sqlite",
+      "sqlx/sqlite"
+    ],
+    "tests-cfg": [
+      "serde/derive"
+    ],
+    "with-bigdecimal": [
+      "bigdecimal",
+      "sea-query/with-bigdecimal",
+      "sea-query-binder?/with-bigdecimal",
+      "sqlx?/bigdecimal"
+    ],
+    "with-chrono": [
+      "chrono",
+      "sea-query/with-chrono",
+      "sea-query-binder?/with-chrono",
+      "sqlx?/chrono"
+    ],
+    "with-json": [
+      "serde_json",
+      "sea-query/with-json",
+      "chrono?/serde",
+      "time?/serde",
+      "uuid?/serde",
+      "sea-query-binder?/with-json",
+      "sqlx?/json"
+    ],
+    "with-rust_decimal": [
+      "rust_decimal",
+      "sea-query/with-rust_decimal",
+      "sea-query-binder?/with-rust_decimal",
+      "sqlx?/rust_decimal"
+    ],
+    "with-time": [
+      "time",
+      "sea-query/with-time",
+      "sea-query-binder?/with-time",
+      "sqlx?/time"
+    ],
+    "with-uuid": [
+      "uuid",
+      "sea-query/with-uuid",
+      "sea-query-binder?/with-uuid",
+      "sqlx?/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 107279,
+    "login": "billy1624"
+  },
+  "publishedAt": "2024-06-25T03:54:45.432035Z",
+  "dependencies": [
+    "actix-rt",
+    "arraystring",
+    "async-std",
+    "async-stream",
+    "async-trait",
+    "dotenv",
+    "futures",
+    "futures",
+    "log",
+    "maplit",
+    "once_cell",
+    "ouroboros",
+    "pretty_assertions",
+    "sea-orm-macros",
+    "sea-query",
+    "serde",
+    "smol",
+    "smol-potat",
+    "strum",
+    "thiserror",
+    "time",
+    "tokio",
+    "tracing",
+    "tracing-subscriber",
+    "url",
+    "uuid",
+    "bigdecimal",
+    "chrono",
+    "rust_decimal",
+    "sea-query-binder",
+    "serde_json",
+    "sqlx",
+    "time",
+    "uuid"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "ml5",
+  "version": "0.20.0-alpha.1",
+  "ecosystem": "npm",
+  "description": "A friendly machine learning library for the web.",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "webpack-merge": "^5.9.0",
+    "@mediapipe/pose": "^0.5.1675469404",
+    "@mediapipe/hands": "^0.4.1675469240",
+    "@tensorflow/tfjs": "^4.2.0",
+    "@mediapipe/face_mesh": "^0.4.1633559619",
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "@mediapipe/selfie_segmentation": "~0.1.0",
+    "@tensorflow-models/pose-detection": "^2.1.0",
+    "@tensorflow-models/body-segmentation": "^1.0.1",
+    "@tensorflow-models/hand-pose-detection": "^2.0.0",
+    "@tensorflow-models/face-landmarks-detection": "1.0.5"
+  },
+  "devDependencies": {
+    "webpack": "^5.76.1",
+    "prettier": "2.8.8",
+    "webpack-cli": "^5.0.1",
+    "patch-package": "^8.0.0",
+    "webpack-dev-server": "^4.15.1",
+    "html-webpack-plugin": "^5.5.3",
+    "postinstall-postinstall": "^2.1.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "patch-package",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "bomanimc",
+      "email": "bomanimc@gmail.com"
+    },
+    {
+      "name": "yining",
+      "email": "yining@nyu.edu"
+    },
+    {
+      "name": "shiffman",
+      "email": "daniel@shiffman.net"
+    },
+    {
+      "name": "joeyklee",
+      "email": "jsphknglee@gmail.com"
+    },
+    {
+      "name": "ziyuan-linn",
+      "email": "zl4140@nyu.edu"
+    }
+  ],
+  "author": {
+    "name": "ml5"
+  },
+  "publishedAt": "2023-10-12T20:40:44.096Z",
+  "dist": {
+    "integrity": "sha512-/KC7+7oSz0ssuVwibZ90dhfJxOr+N2ZvtJs7P4Cd6WCpUY9eydpwL35tDAts85h7jkl6b7Ta4JA1UyeGgaVDkA==",
+    "shasum": "77cb9a65ea53ebfb1ac04e45aa10bbf5173658aa",
+    "tarball": "https://registry.npmjs.org/ml5/-/ml5-0.20.0-alpha.1.tgz",
+    "fileCount": 7,
+    "unpackedSize": 27896584
+  },
+  "_npmUser": {
+    "name": "shiffman",
+    "email": "daniel@shiffman.net"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "tailwindcss",
+  "version": "1.8.7",
+  "ecosystem": "npm",
+  "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+  "license": "MIT",
+  "dependencies": {
+    "bytes": "^3.0.0",
+    "chalk": "^3.0.0 || ^4.0.0",
+    "color": "^3.1.2",
+    "lodash": "^4.17.20",
+    "postcss": "^7.0.11",
+    "resolve": "^1.14.2",
+    "fs-extra": "^8.0.0",
+    "detective": "^5.2.0",
+    "html-tags": "^3.1.0",
+    "node-emoji": "^1.8.1",
+    "postcss-js": "^2.0.0",
+    "object-hash": "^2.0.3",
+    "autoprefixer": "^9.4.5",
+    "browserslist": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "pretty-hrtime": "^1.0.3",
+    "postcss-nested": "^4.1.1",
+    "reduce-css-calc": "^2.1.6",
+    "postcss-functions": "^3.0.0",
+    "postcss-value-parser": "^4.1.0",
+    "postcss-selector-parser": "^6.0.0",
+    "@fullhuman/postcss-purgecss": "^2.1.2"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "eslint": "^6.0.1",
+    "rimraf": "^3.0.0",
+    "prettier": "^1.7.4",
+    "clean-css": "^4.1.9",
+    "@babel/cli": "^7.0.0",
+    "babel-jest": "^26.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "eslint-config-postcss": "^2.0.2",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.0.1"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "npm run babelify && babel-node scripts/build.js"
+  },
+  "maintainers": [
+    {
+      "name": "malfaitrobin",
+      "email": "malfait.robin@gmail.com"
+    },
+    {
+      "name": "adamwathan",
+      "email": "adam@adamwathan.me"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2020-09-10T18:46:45.981Z",
+  "dist": {
+    "integrity": "sha512-KN5PjI8jobOj+ScJFgG0tbHZBYrb6rwNlm0kEPGusg+ItEVIUDlW/uppP10jKTLiPKrHHx0tfnZTMIyJkujrEQ==",
+    "shasum": "0c0ee990d3cfeb8f6705d894c4c85aaa70fba032",
+    "tarball": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-1.8.7.tgz",
+    "fileCount": 197,
+    "unpackedSize": 18869258
+  },
+  "_npmUser": {
+    "name": "adamwathan",
+    "email": "adam@adamwathan.me"
+  }
+}

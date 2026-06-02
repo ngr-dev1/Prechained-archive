@@ -1,0 +1,27 @@
+{
+  "name": "zip",
+  "version": "0.3.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "113044b5ff6736fbe41b2e2f270346ef7bbcb93ca7430ab3c669e9f75207aa32",
+  "features": {
+    "default": [
+      "bzip2",
+      "deflate"
+    ],
+    "deflate": [
+      "flate2"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-04-20T12:00:07.073157Z",
+  "dependencies": [
+    "msdos_time",
+    "podio",
+    "time",
+    "walkdir",
+    "bzip2",
+    "flate2"
+  ]
+}

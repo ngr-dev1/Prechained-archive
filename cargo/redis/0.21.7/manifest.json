@@ -1,0 +1,102 @@
+{
+  "name": "redis",
+  "version": "0.21.7",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "152f3863635cbb76b73bc247845781098302c6c9ad2060e1a9a7de56840346b6",
+  "features": {
+    "acl": [],
+    "aio": [
+      "bytes",
+      "pin-project-lite",
+      "futures-util",
+      "futures-util/alloc",
+      "futures-util/sink",
+      "tokio/io-util",
+      "tokio-util",
+      "tokio-util/codec",
+      "tokio/sync",
+      "combine/tokio"
+    ],
+    "async-std-comp": [
+      "aio",
+      "async-std"
+    ],
+    "async-std-tls-comp": [
+      "async-std-comp",
+      "async-native-tls",
+      "tls"
+    ],
+    "cluster": [
+      "crc16",
+      "rand"
+    ],
+    "connection-manager": [
+      "arc-swap",
+      "futures",
+      "aio"
+    ],
+    "default": [
+      "acl",
+      "streams",
+      "geospatial",
+      "script"
+    ],
+    "geospatial": [],
+    "script": [
+      "sha1"
+    ],
+    "streams": [],
+    "tls": [
+      "native-tls"
+    ],
+    "tokio-comp": [
+      "aio",
+      "tokio",
+      "tokio/net"
+    ],
+    "tokio-native-tls-comp": [
+      "tls",
+      "tokio-native-tls"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 173569,
+    "login": "jaymell"
+  },
+  "publishedAt": "2022-12-12T17:07:33.357248Z",
+  "dependencies": [
+    "assert_approx_eq",
+    "async-trait",
+    "combine",
+    "criterion",
+    "fnv",
+    "futures",
+    "itoa",
+    "partial-io",
+    "percent-encoding",
+    "quickcheck",
+    "rand",
+    "ryu",
+    "socket2",
+    "tempfile",
+    "tokio",
+    "url",
+    "arc-swap",
+    "async-native-tls",
+    "async-std",
+    "bytes",
+    "crc16",
+    "futures",
+    "futures-util",
+    "native-tls",
+    "pin-project-lite",
+    "r2d2",
+    "rand",
+    "sha1",
+    "tokio",
+    "tokio-native-tls",
+    "tokio-util"
+  ]
+}

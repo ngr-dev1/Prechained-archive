@@ -1,0 +1,33 @@
+{
+  "name": "console",
+  "version": "0.10.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "dc793ef09b7887e63ed19f24b348be53b9c7e89e3feed4e0794c0b9f9d0c8344",
+  "features": {
+    "ansi-parsing": [
+      "regex"
+    ],
+    "default": [
+      "unicode-width",
+      "ansi-parsing"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 26168,
+    "login": "pksunkara"
+  },
+  "publishedAt": "2020-04-27T21:58:58.973879Z",
+  "dependencies": [
+    "clicolors-control",
+    "encode_unicode",
+    "lazy_static",
+    "libc",
+    "terminal_size",
+    "termios",
+    "winapi",
+    "regex",
+    "unicode-width"
+  ]
+}

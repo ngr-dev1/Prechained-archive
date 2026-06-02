@@ -1,0 +1,44 @@
+{
+  "name": "futures",
+  "version": "0.2.3-docs-yank.2",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "ba68c89b7d50b1032ee642fb8e45bdba700c8f427815b258c7dd0535d921f633",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "nightly": [
+      "futures-core-preview/nightly",
+      "futures-stable-preview/nightly",
+      "futures-async-runtime-preview/nightly",
+      "futures-macro-async-preview",
+      "futures-macro-await-preview",
+      "futures-macro-async-preview/nightly"
+    ],
+    "std": [
+      "futures-core-preview/std",
+      "futures-executor-preview/std",
+      "futures-io-preview/std",
+      "futures-sink-preview/std",
+      "futures-stable-preview/std",
+      "futures-util-preview/std",
+      "futures-async-runtime-preview/std"
+    ]
+  },
+  "yanked": true,
+  "published_by": null,
+  "publishedAt": "2018-10-03T20:12:32.444635Z",
+  "dependencies": [
+    "futures-async-runtime-preview",
+    "futures-channel-preview",
+    "futures-core-preview",
+    "futures-executor-preview",
+    "futures-io-preview",
+    "futures-sink-preview",
+    "futures-stable-preview",
+    "futures-util-preview",
+    "futures-macro-async-preview",
+    "futures-macro-await-preview"
+  ]
+}

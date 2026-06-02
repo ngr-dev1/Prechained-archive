@@ -1,0 +1,112 @@
+{
+  "name": "dioxus",
+  "version": "0.5.0-alpha.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "1539a0f310428385205bf9af0376f7497d1dfb5cfb06e2170a8917c66c985e3b",
+  "features": {
+    "axum": [
+      "dioxus-fullstack?/axum",
+      "dioxus-fullstack?/server",
+      "ssr",
+      "dioxus-liveview?/axum"
+    ],
+    "default": [
+      "macro",
+      "html",
+      "hot-reload",
+      "signals",
+      "hooks",
+      "launch"
+    ],
+    "desktop": [
+      "dioxus-desktop",
+      "dioxus-fullstack?/desktop",
+      "dioxus-config-macro/desktop"
+    ],
+    "fullstack": [
+      "dioxus-fullstack",
+      "dioxus-config-macro/fullstack",
+      "serde",
+      "dioxus-router?/fullstack"
+    ],
+    "hooks": [
+      "dioxus-hooks"
+    ],
+    "hot-reload": [
+      "dioxus-hot-reload"
+    ],
+    "html": [
+      "dioxus-html"
+    ],
+    "launch": [
+      "dioxus-config-macro"
+    ],
+    "liveview": [
+      "dioxus-liveview",
+      "dioxus-config-macro/liveview",
+      "dioxus-router?/liveview"
+    ],
+    "macro": [
+      "dioxus-core-macro"
+    ],
+    "mobile": [
+      "dioxus-mobile",
+      "dioxus-fullstack?/mobile",
+      "dioxus-config-macro/mobile"
+    ],
+    "router": [
+      "dioxus-router"
+    ],
+    "signals": [
+      "dioxus-signals"
+    ],
+    "ssr": [
+      "dioxus-ssr",
+      "dioxus-router?/ssr",
+      "dioxus-config-macro/ssr"
+    ],
+    "third-party-renderer": [],
+    "tui": [
+      "dioxus-tui",
+      "dioxus-config-macro/tui"
+    ],
+    "web": [
+      "dioxus-web",
+      "dioxus-fullstack?/web",
+      "dioxus-config-macro/web",
+      "dioxus-router?/web"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 55668,
+    "login": "jkelleyrtp"
+  },
+  "publishedAt": "2024-02-23T00:49:53.368405Z",
+  "dependencies": [
+    "criterion",
+    "dioxus-core",
+    "env_logger",
+    "futures-util",
+    "rand",
+    "thiserror",
+    "tokio",
+    "tracing",
+    "dioxus-config-macro",
+    "dioxus-core-macro",
+    "dioxus-desktop",
+    "dioxus-fullstack",
+    "dioxus-hooks",
+    "dioxus-hot-reload",
+    "dioxus-html",
+    "dioxus-liveview",
+    "dioxus-mobile",
+    "dioxus-router",
+    "dioxus-signals",
+    "dioxus-ssr",
+    "dioxus-tui",
+    "dioxus-web",
+    "serde"
+  ]
+}

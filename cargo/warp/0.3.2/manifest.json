@@ -1,0 +1,70 @@
+{
+  "name": "warp",
+  "version": "0.3.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "3cef4e1e9114a4b7f1ac799f16ce71c14de5778500c5450ec6b7b920c55b587e",
+  "features": {
+    "compression": [
+      "compression-brotli",
+      "compression-gzip"
+    ],
+    "compression-brotli": [
+      "async-compression/brotli"
+    ],
+    "compression-gzip": [
+      "async-compression/deflate",
+      "async-compression/gzip"
+    ],
+    "default": [
+      "multipart",
+      "websocket"
+    ],
+    "tls": [
+      "tokio-rustls"
+    ],
+    "websocket": [
+      "tokio-tungstenite"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2021-11-09T18:07:55.391758Z",
+  "dependencies": [
+    "bytes",
+    "futures-channel",
+    "futures-util",
+    "handlebars",
+    "headers",
+    "http",
+    "hyper",
+    "listenfd",
+    "log",
+    "mime",
+    "mime_guess",
+    "percent-encoding",
+    "pin-project",
+    "pretty_env_logger",
+    "scoped-tls",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_urlencoded",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-stream",
+    "tokio-util",
+    "tower-service",
+    "tracing",
+    "tracing-log",
+    "tracing-subscriber",
+    "async-compression",
+    "multipart",
+    "tokio-rustls",
+    "tokio-tungstenite"
+  ]
+}

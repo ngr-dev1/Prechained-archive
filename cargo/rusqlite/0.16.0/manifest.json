@@ -1,0 +1,70 @@
+{
+  "name": "rusqlite",
+  "version": "0.16.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "6381ddfe91dbb659b4b132168da15985bc84162378cf4fcdc4eb99c857d063e2",
+  "features": {
+    "array": [
+      "vtab"
+    ],
+    "backup": [
+      "libsqlite3-sys/min_sqlite_version_3_6_23"
+    ],
+    "blob": [
+      "libsqlite3-sys/min_sqlite_version_3_7_7"
+    ],
+    "buildtime_bindgen": [
+      "libsqlite3-sys/buildtime_bindgen"
+    ],
+    "bundled": [
+      "libsqlite3-sys/bundled"
+    ],
+    "csvtab": [
+      "csv",
+      "vtab"
+    ],
+    "functions": [
+      "libsqlite3-sys/min_sqlite_version_3_7_7"
+    ],
+    "hooks": [],
+    "i128_blob": [
+      "byteorder"
+    ],
+    "limits": [],
+    "load_extension": [],
+    "sqlcipher": [
+      "libsqlite3-sys/sqlcipher"
+    ],
+    "trace": [
+      "libsqlite3-sys/min_sqlite_version_3_6_23"
+    ],
+    "unlock_notify": [
+      "libsqlite3-sys/unlock_notify"
+    ],
+    "vtab": [
+      "libsqlite3-sys/min_sqlite_version_3_7_7",
+      "lazy_static"
+    ],
+    "vtab_v3": [
+      "vtab"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-12-16T17:18:38.592674Z",
+  "dependencies": [
+    "bitflags",
+    "lazy_static",
+    "libsqlite3-sys",
+    "lru-cache",
+    "regex",
+    "tempdir",
+    "time",
+    "byteorder",
+    "chrono",
+    "csv",
+    "lazy_static",
+    "serde_json"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "rocket",
+  "version": "0.5.0-rc.3",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "58734f7401ae5cfd129685b48f61182331745b357b96f2367f01aebaf1cc9cc9",
+  "features": {
+    "default": [
+      "http2"
+    ],
+    "http2": [
+      "rocket_http/http2"
+    ],
+    "json": [
+      "serde_json",
+      "tokio/io-util"
+    ],
+    "msgpack": [
+      "rmp-serde",
+      "tokio/io-util"
+    ],
+    "mtls": [
+      "rocket_http/mtls",
+      "tls"
+    ],
+    "secrets": [
+      "rocket_http/private-cookies"
+    ],
+    "tls": [
+      "rocket_http/tls"
+    ],
+    "uuid": [
+      "uuid_",
+      "rocket_http/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3864,
+    "login": "SergioBenitez"
+  },
+  "publishedAt": "2023-03-24T00:50:35.046518Z",
+  "dependencies": [
+    "async-stream",
+    "async-trait",
+    "atomic",
+    "binascii",
+    "bytes",
+    "either",
+    "figment",
+    "figment",
+    "futures",
+    "indexmap",
+    "is-terminal",
+    "log",
+    "memchr",
+    "multer",
+    "num_cpus",
+    "parking_lot",
+    "pin-project-lite",
+    "pretty_assertions",
+    "rand",
+    "ref-cast",
+    "rocket_codegen",
+    "rocket_http",
+    "serde",
+    "state",
+    "tempfile",
+    "time",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "ubyte",
+    "version_check",
+    "yansi",
+    "rmp-serde",
+    "serde_json",
+    "uuid"
+  ]
+}

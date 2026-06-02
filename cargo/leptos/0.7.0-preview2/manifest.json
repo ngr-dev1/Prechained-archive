@@ -1,0 +1,124 @@
+{
+  "name": "leptos",
+  "version": "0.7.0-preview2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "cb7b8fb5d1c64723a3fefe88409a2f8a783e35643b08526db66a430bbf6f29bb",
+  "features": {
+    "csr": [
+      "leptos_macro/csr",
+      "leptos_reactive/csr"
+    ],
+    "default": [
+      "serde"
+    ],
+    "default-tls": [
+      "leptos_server/default-tls",
+      "server_fn/default-tls"
+    ],
+    "delegation": [
+      "tachys/delegation"
+    ],
+    "experimental-islands": [
+      "leptos_dom/experimental-islands",
+      "leptos_macro/experimental-islands",
+      "leptos_reactive/experimental-islands",
+      "dep:serde_json"
+    ],
+    "hydrate": [
+      "leptos_macro/hydrate",
+      "leptos_reactive/hydrate",
+      "hydration",
+      "tachys/hydrate"
+    ],
+    "hydration": [
+      "leptos_server/hydration",
+      "hydration_context/browser"
+    ],
+    "miniserde": [
+      "leptos_reactive/miniserde"
+    ],
+    "nightly": [
+      "leptos_dom/nightly",
+      "leptos_macro/nightly",
+      "leptos_reactive/nightly",
+      "tachys/nightly"
+    ],
+    "nonce": [
+      "base64",
+      "leptos_dom/nonce",
+      "rand"
+    ],
+    "rkyv": [
+      "leptos_reactive/rkyv"
+    ],
+    "rustls": [
+      "leptos_server/rustls",
+      "server_fn/rustls"
+    ],
+    "serde": [
+      "leptos_reactive/serde"
+    ],
+    "serde-lite": [
+      "leptos_reactive/serde-lite"
+    ],
+    "spin": [
+      "leptos_reactive/spin",
+      "leptos-spin-macro"
+    ],
+    "ssr": [
+      "leptos_macro/ssr",
+      "leptos_reactive/ssr",
+      "leptos_server/ssr",
+      "server_fn/ssr",
+      "hydration",
+      "tachys/ssr"
+    ],
+    "trace-component-props": [
+      "leptos_dom/trace-component-props",
+      "leptos_macro/trace-component-props"
+    ],
+    "tracing": [
+      "reactive_graph/tracing"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 130155,
+    "login": "gbj"
+  },
+  "publishedAt": "2024-04-29T00:57:26.721592Z",
+  "dependencies": [
+    "any_spawner",
+    "cfg-if",
+    "either_of",
+    "futures",
+    "hydration_context",
+    "leptos_config",
+    "leptos_dom",
+    "leptos_macro",
+    "leptos_reactive",
+    "leptos_server",
+    "oco_ref",
+    "or_poisoned",
+    "paste",
+    "reactive_graph",
+    "rustc-hash",
+    "serde",
+    "serde_qs",
+    "server_fn",
+    "slotmap",
+    "tachys",
+    "thiserror",
+    "throw_error",
+    "tracing",
+    "typed-builder",
+    "typed-builder-macro",
+    "wasm-bindgen",
+    "web-sys",
+    "base64",
+    "leptos-spin-macro",
+    "rand",
+    "serde_json"
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "name": "reqwest",
+  "version": "0.12.17",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "c3f27698fc5799d2a281528a908bd874973953ca2e7bc2311637e10c263c723b",
+  "features": {
+    "__rustls": [
+      "dep:hyper-rustls",
+      "dep:tokio-rustls",
+      "dep:rustls",
+      "__tls"
+    ],
+    "__rustls-ring": [
+      "hyper-rustls?/ring",
+      "tokio-rustls?/ring",
+      "rustls?/ring",
+      "quinn?/ring"
+    ],
+    "__tls": [
+      "dep:rustls-pki-types",
+      "tokio/io-util"
+    ],
+    "blocking": [
+      "dep:futures-channel",
+      "futures-channel?/sink",
+      "dep:futures-util",
+      "futures-util?/io",
+      "futures-util?/sink",
+      "tokio/sync"
+    ],
+    "brotli": [
+      "dep:async-compression",
+      "async-compression?/brotli",
+      "dep:futures-util",
+      "dep:tokio-util"
+    ],
+    "charset": [
+      "dep:encoding_rs"
+    ],
+    "cookies": [
+      "dep:cookie_crate",
+      "dep:cookie_store"
+    ],
+    "default": [
+      "default-tls",
+      "charset",
+      "http2",
+      "system-proxy"
+    ],
+    "default-tls": [
+      "dep:hyper-tls",
+      "dep:native-tls-crate",
+      "__tls",
+      "dep:tokio-native-tls"
+    ],
+    "deflate": [
+      "dep:async-compression",
+      "async-compression?/zlib",
+      "dep:futures-util",
+      "dep:tokio-util"
+    ],
+    "gzip": [
+      "dep:async-compression",
+      "async-compression?/gzip",
+      "dep:futures-util",
+      "dep:tokio-util"
+    ],
+    "hickory-dns": [
+      "dep:hickory-resolver"
+    ],
+    "http2": [
+      "h2",
+      "hyper/http2",
+      "hyper-util/http2",
+      "hyper-rustls?/http2"
+    ],
+    "http3": [
+      "rustls-tls-manual-roots",
+      "dep:h3",
+      "dep:h3-quinn",
+      "dep:quinn",
+      "dep:slab",
+      "dep:futures-channel",
+      "tokio/macros"
+    ],
+    "json": [
+      "dep:serde_json"
+    ],
+    "macos-system-configuration": [
+      "system-proxy"
+    ],
+    "multipart": [
+      "dep:mime_guess",
+      "dep:futures-util"
+    ],
+    "native-tls": [
+      "default-tls"
+    ],
+    "native-tls-alpn": [
+      "native-tls",
+      "native-tls-crate?/alpn",
+      "hyper-tls?/alpn"
+    ],
+    "native-tls-vendored": [
+      "native-tls",
+      "native-tls-crate?/vendored"
+    ],
+    "rustls-tls": [
+      "rustls-tls-webpki-roots"
+    ],
+    "rustls-tls-manual-roots": [
+      "rustls-tls-manual-roots-no-provider",
+      "__rustls-ring"
+    ],
+    "rustls-tls-manual-roots-no-provider": [
+      "__rustls"
+    ],
+    "rustls-tls-native-roots": [
+      "rustls-tls-native-roots-no-provider",
+      "__rustls-ring"
+    ],
+    "rustls-tls-native-roots-no-provider": [
+      "dep:rustls-native-certs",
+      "hyper-rustls?/native-tokio",
+      "__rustls"
+    ],
+    "rustls-tls-no-provider": [
+      "rustls-tls-manual-roots-no-provider"
+    ],
+    "rustls-tls-webpki-roots": [
+      "rustls-tls-webpki-roots-no-provider",
+      "__rustls-ring"
+    ],
+    "rustls-tls-webpki-roots-no-provider": [
+      "dep:webpki-roots",
+      "hyper-rustls?/webpki-tokio",
+      "__rustls"
+    ],
+    "socks": [
+      "dep:tokio-socks"
+    ],
+    "stream": [
+      "tokio/fs",
+      "dep:futures-util",
+      "dep:tokio-util",
+      "dep:wasm-streams"
+    ],
+    "system-proxy": [
+      "hyper-util/client-proxy-system"
+    ],
+    "trust-dns": [],
+    "zstd": [
+      "dep:async-compression",
+      "async-compression?/zstd",
+      "dep:futures-util",
+      "dep:tokio-util"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2025-05-28T12:55:47.508726Z",
+  "dependencies": [
+    "base64",
+    "brotli",
+    "bytes",
+    "doc-comment",
+    "env_logger",
+    "flate2",
+    "futures-core",
+    "futures-util",
+    "http",
+    "http-body",
+    "http-body-util",
+    "hyper",
+    "hyper",
+    "hyper-util",
+    "hyper-util",
+    "ipnet",
+    "js-sys",
+    "libc",
+    "log",
+    "mime",
+    "num_cpus",
+    "once_cell",
+    "percent-encoding",
+    "pin-project-lite",
+    "serde",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "sync_wrapper",
+    "tokio",
+    "tokio",
+    "tower",
+    "tower",
+    "tower-http",
+    "tower-service",
+    "url",
+    "wasm-bindgen",
+    "wasm-bindgen",
+    "wasm-bindgen-futures",
+    "wasm-bindgen-test",
+    "web-sys",
+    "zstd",
+    "async-compression",
+    "cookie",
+    "cookie_store",
+    "encoding_rs",
+    "futures-channel",
+    "futures-util",
+    "h2",
+    "h3",
+    "h3-quinn",
+    "hickory-resolver",
+    "hyper-rustls",
+    "hyper-tls",
+    "mime_guess",
+    "native-tls",
+    "quinn",
+    "rustls",
+    "rustls-native-certs",
+    "rustls-pki-types",
+    "serde_json",
+    "slab",
+    "tokio-native-tls",
+    "tokio-rustls",
+    "tokio-socks",
+    "tokio-util",
+    "wasm-streams",
+    "webpki-roots"
+  ]
+}

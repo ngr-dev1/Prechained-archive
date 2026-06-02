@@ -1,0 +1,32 @@
+{
+  "name": "libc",
+  "version": "0.2.156",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "a5f43f184355eefb8d17fc948dbecf6c13be3c141f20d834ae842193a448c72a",
+  "features": {
+    "align": [],
+    "const-extern-fn": [],
+    "default": [
+      "std"
+    ],
+    "extra_traits": [],
+    "rustc-dep-of-std": [
+      "align",
+      "rustc-std-workspace-core"
+    ],
+    "std": [],
+    "use_std": [
+      "std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 55123,
+    "login": "rust-lang-owner"
+  },
+  "publishedAt": "2024-08-15T19:59:35.599410Z",
+  "dependencies": [
+    "rustc-std-workspace-core"
+  ]
+}

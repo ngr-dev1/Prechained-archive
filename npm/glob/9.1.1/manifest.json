@@ -1,0 +1,55 @@
+{
+  "name": "glob",
+  "version": "9.1.1",
+  "ecosystem": "npm",
+  "description": "the most correct and second fastest glob implementation in JavaScript",
+  "license": "ISC",
+  "dependencies": {
+    "minipass": "^4.2.4",
+    "minimatch": "^7.4.1",
+    "fs.realpath": "^1.0.0",
+    "path-scurry": "^1.5.0"
+  },
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "tap": "^16.3.4",
+    "mkdirp": "^2.0.0",
+    "rimraf": "^4.1.1",
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.23.24",
+    "prettier": "^2.8.3",
+    "@types/tap": "^15.0.7",
+    "typescript": "^4.9.4",
+    "@types/node": "^18.11.18",
+    "eslint-config-prettier": "^8.6.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tsc -p tsconfig.json && tsc -p tsconfig-esm.json"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "url": "http://blog.izs.me/",
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me"
+  },
+  "publishedAt": "2023-03-01T18:49:22.450Z",
+  "dist": {
+    "integrity": "sha512-f2Mu4JC8LeBYqRXFRfWe0tLBSRPVl4HOkIDvtB7ppVb6+IPXhSSPhoxjY40kpg3dzv0KfK4QYcEXYwDEQ4530A==",
+    "shasum": "e7932b6842507a36cbdc34ec3453ee9279f27b4e",
+    "tarball": "https://registry.npmjs.org/glob/-/glob-9.1.1.tgz",
+    "fileCount": 50,
+    "unpackedSize": 252964
+  },
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  }
+}

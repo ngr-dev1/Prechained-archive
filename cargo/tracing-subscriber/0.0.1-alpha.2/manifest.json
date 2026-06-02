@@ -1,0 +1,34 @@
+{
+  "name": "tracing-subscriber",
+  "version": "0.0.1-alpha.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "d00a4e1771dca8725b0e1630397d85eff67ac7632c999877562b65304dea04c6",
+  "features": {
+    "default": [
+      "filter",
+      "smallvec"
+    ],
+    "filter": [
+      "matchers",
+      "regex",
+      "lazy_static"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1249,
+    "login": "hawkw"
+  },
+  "publishedAt": "2019-08-06T00:29:14.659447Z",
+  "dependencies": [
+    "crossbeam-utils",
+    "tracing",
+    "tracing-core",
+    "tracing-fmt",
+    "lazy_static",
+    "matchers",
+    "regex",
+    "smallvec"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "name": "futures-util",
+  "version": "0.3.11",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "cad5e82786df758d407932aded1235e24d8e2eb438b6adafd37930c2462fb5d1",
+  "features": {
+    "alloc": [
+      "futures-core/alloc",
+      "futures-task/alloc"
+    ],
+    "async-await": [],
+    "async-await-macro": [
+      "async-await",
+      "futures-macro",
+      "proc-macro-hack",
+      "proc-macro-nested"
+    ],
+    "bilock": [],
+    "cfg-target-has-atomic": [
+      "futures-core/cfg-target-has-atomic",
+      "futures-task/cfg-target-has-atomic"
+    ],
+    "channel": [
+      "std",
+      "futures-channel"
+    ],
+    "compat": [
+      "std",
+      "futures_01"
+    ],
+    "default": [
+      "std",
+      "async-await",
+      "async-await-macro"
+    ],
+    "io": [
+      "std",
+      "futures-io",
+      "memchr"
+    ],
+    "io-compat": [
+      "io",
+      "compat",
+      "tokio-io"
+    ],
+    "read-initializer": [
+      "io",
+      "futures-io/read-initializer",
+      "futures-io/unstable"
+    ],
+    "sink": [
+      "futures-sink"
+    ],
+    "std": [
+      "alloc",
+      "futures-core/std",
+      "futures-task/std",
+      "slab"
+    ],
+    "unstable": [
+      "futures-core/unstable",
+      "futures-task/unstable"
+    ],
+    "write-all-vectored": [
+      "io"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 33035,
+    "login": "taiki-e"
+  },
+  "publishedAt": "2021-01-14T18:38:15.767225Z",
+  "dependencies": [
+    "futures-core",
+    "futures-task",
+    "pin-project-lite",
+    "pin-utils",
+    "tokio",
+    "futures",
+    "futures-channel",
+    "futures-io",
+    "futures-macro",
+    "futures-sink",
+    "memchr",
+    "proc-macro-hack",
+    "proc-macro-nested",
+    "slab",
+    "tokio-io"
+  ]
+}

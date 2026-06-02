@@ -1,0 +1,70 @@
+{
+  "name": "clap",
+  "version": "3.0.0-beta.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "860643c53f980f0d38a5e25dfab6c3c93b2cb3aa1fe192643d17a293c6c41936",
+  "features": {
+    "cargo": [],
+    "color": [
+      "atty",
+      "termcolor"
+    ],
+    "debug": [
+      "clap_derive/debug"
+    ],
+    "default": [
+      "suggestions",
+      "color",
+      "derive",
+      "std",
+      "cargo"
+    ],
+    "derive": [
+      "clap_derive",
+      "lazy_static"
+    ],
+    "doc": [
+      "yaml"
+    ],
+    "std": [],
+    "suggestions": [
+      "strsim"
+    ],
+    "unstable": [
+      "clap_derive/unstable"
+    ],
+    "wrap_help": [
+      "term_size",
+      "textwrap/term_size"
+    ],
+    "yaml": [
+      "yaml-rust"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 26168,
+    "login": "pksunkara"
+  },
+  "publishedAt": "2020-05-03T07:52:00.506755Z",
+  "dependencies": [
+    "bitflags",
+    "criterion",
+    "indexmap",
+    "lazy_static",
+    "os_str_bytes",
+    "regex",
+    "textwrap",
+    "unicode-width",
+    "vec_map",
+    "version-sync",
+    "atty",
+    "clap_derive",
+    "lazy_static",
+    "strsim",
+    "term_size",
+    "termcolor",
+    "yaml-rust"
+  ]
+}

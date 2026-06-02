@@ -1,0 +1,89 @@
+{
+  "name": "futures",
+  "version": "0.3.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b6f16056ecbb57525ff698bb955162d0cd03bee84e6241c27ff75c08d8ca5987",
+  "features": {
+    "alloc": [
+      "futures-core/alloc",
+      "futures-task/alloc",
+      "futures-sink/alloc",
+      "futures-channel/alloc",
+      "futures-util/alloc"
+    ],
+    "async-await": [
+      "futures-util/async-await",
+      "futures-util/async-await-macro"
+    ],
+    "bilock": [
+      "futures-util/bilock"
+    ],
+    "cfg-target-has-atomic": [
+      "futures-core/cfg-target-has-atomic",
+      "futures-task/cfg-target-has-atomic",
+      "futures-channel/cfg-target-has-atomic",
+      "futures-util/cfg-target-has-atomic"
+    ],
+    "compat": [
+      "std",
+      "futures-util/compat"
+    ],
+    "default": [
+      "std",
+      "async-await",
+      "executor"
+    ],
+    "executor": [
+      "std",
+      "futures-executor/std"
+    ],
+    "io-compat": [
+      "compat",
+      "futures-util/io-compat"
+    ],
+    "read-initializer": [
+      "futures-io/read-initializer",
+      "futures-util/read-initializer"
+    ],
+    "std": [
+      "alloc",
+      "futures-core/std",
+      "futures-task/std",
+      "futures-io/std",
+      "futures-sink/std",
+      "futures-util/std",
+      "futures-util/io",
+      "futures-util/channel"
+    ],
+    "thread-pool": [
+      "executor",
+      "futures-executor/thread-pool"
+    ],
+    "unstable": [
+      "futures-core/unstable",
+      "futures-task/unstable",
+      "futures-channel/unstable",
+      "futures-io/unstable",
+      "futures-util/unstable"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 5149,
+    "login": "cramertj"
+  },
+  "publishedAt": "2019-11-07T18:32:48.976340Z",
+  "dependencies": [
+    "assert_matches",
+    "futures-channel",
+    "futures-core",
+    "futures-io",
+    "futures-sink",
+    "futures-task",
+    "futures-util",
+    "pin-utils",
+    "tokio",
+    "futures-executor"
+  ]
+}

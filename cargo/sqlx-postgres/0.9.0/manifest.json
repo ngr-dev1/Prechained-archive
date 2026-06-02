@@ -1,0 +1,109 @@
+{
+  "name": "sqlx-postgres",
+  "version": "0.9.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "87a2bdd6e83f6b3ea525ca9fee568030508b58355a43d0b2c1674d5f79dcd65e",
+  "features": {
+    "any": [
+      "sqlx-core/any"
+    ],
+    "bigdecimal": [
+      "dep:bigdecimal",
+      "dep:num-bigint",
+      "sqlx-core/bigdecimal"
+    ],
+    "bit-vec": [
+      "dep:bit-vec",
+      "sqlx-core/bit-vec"
+    ],
+    "chrono": [
+      "dep:chrono",
+      "sqlx-core/chrono"
+    ],
+    "ipnet": [
+      "dep:ipnet",
+      "sqlx-core/ipnet"
+    ],
+    "ipnetwork": [
+      "dep:ipnetwork",
+      "sqlx-core/ipnetwork"
+    ],
+    "json": [
+      "dep:serde",
+      "dep:serde_json",
+      "sqlx-core/json"
+    ],
+    "mac_address": [
+      "dep:mac_address",
+      "sqlx-core/mac_address"
+    ],
+    "migrate": [
+      "sqlx-core/migrate",
+      "dep:crc"
+    ],
+    "offline": [
+      "json",
+      "sqlx-core/offline",
+      "smallvec/serde"
+    ],
+    "rust_decimal": [
+      "dep:rust_decimal",
+      "rust_decimal/maths",
+      "sqlx-core/rust_decimal"
+    ],
+    "time": [
+      "dep:time",
+      "sqlx-core/time"
+    ],
+    "uuid": [
+      "dep:uuid",
+      "sqlx-core/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 127,
+    "login": "abonander"
+  },
+  "publishedAt": "2026-05-21T17:34:06.907340Z",
+  "dependencies": [
+    "atoi",
+    "base64",
+    "bitflags",
+    "byteorder",
+    "dotenvy",
+    "etcetera",
+    "futures-channel",
+    "futures-core",
+    "futures-util",
+    "hex",
+    "hkdf",
+    "hmac",
+    "itoa",
+    "log",
+    "md-5",
+    "memchr",
+    "rand",
+    "sha2",
+    "smallvec",
+    "sqlx-core",
+    "stringprep",
+    "thiserror",
+    "tracing",
+    "whoami",
+    "bigdecimal",
+    "bit-vec",
+    "chrono",
+    "crc",
+    "ipnet",
+    "ipnetwork",
+    "mac_address",
+    "num-bigint",
+    "rust_decimal",
+    "serde",
+    "serde_json",
+    "time",
+    "uuid"
+  ]
+}

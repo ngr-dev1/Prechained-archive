@@ -1,0 +1,100 @@
+{
+  "name": "axum-extra",
+  "version": "0.5.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "51227033e4d3acad15c879092ac8a228532707b5db5ff2628f638334f63e1b7a",
+  "features": {
+    "async-read-body": [
+      "dep:tokio-util",
+      "tokio-util?/io"
+    ],
+    "cookie": [
+      "dep:cookie"
+    ],
+    "cookie-key-expansion": [
+      "cookie",
+      "cookie?/key-expansion"
+    ],
+    "cookie-private": [
+      "cookie",
+      "cookie?/private"
+    ],
+    "cookie-signed": [
+      "cookie",
+      "cookie?/signed"
+    ],
+    "default": [],
+    "erased-json": [
+      "dep:serde_json",
+      "dep:serde"
+    ],
+    "form": [
+      "dep:serde",
+      "dep:serde_html_form"
+    ],
+    "json-lines": [
+      "dep:serde_json",
+      "dep:serde",
+      "dep:tokio-util",
+      "dep:tokio-stream",
+      "tokio-util?/io",
+      "tokio-stream?/io-util"
+    ],
+    "protobuf": [
+      "dep:prost"
+    ],
+    "query": [
+      "dep:serde",
+      "dep:serde_html_form"
+    ],
+    "spa": [
+      "tower-http/fs"
+    ],
+    "typed-routing": [
+      "dep:axum-macros",
+      "dep:serde",
+      "dep:percent-encoding",
+      "dep:serde_html_form",
+      "dep:form_urlencoded"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2023-02-12T11:43:00.676286Z",
+  "dependencies": [
+    "axum",
+    "axum",
+    "bytes",
+    "futures",
+    "futures-util",
+    "http",
+    "hyper",
+    "mime",
+    "pin-project-lite",
+    "reqwest",
+    "serde",
+    "serde_json",
+    "tokio",
+    "tokio",
+    "tower",
+    "tower",
+    "tower-http",
+    "tower-http",
+    "tower-layer",
+    "tower-service",
+    "axum-macros",
+    "cookie",
+    "form_urlencoded",
+    "percent-encoding",
+    "prost",
+    "serde",
+    "serde_html_form",
+    "serde_json",
+    "tokio-stream",
+    "tokio-util"
+  ]
+}

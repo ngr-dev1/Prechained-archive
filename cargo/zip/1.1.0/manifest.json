@@ -1,0 +1,79 @@
+{
+  "name": "zip",
+  "version": "1.1.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "f21968e6da56f847a155a89581ba846507afa14854e041f3053edb6ddd19f807",
+  "features": {
+    "aes-crypto": [
+      "aes",
+      "constant_time_eq",
+      "hmac",
+      "pbkdf2",
+      "sha1"
+    ],
+    "chrono": [
+      "chrono/default"
+    ],
+    "default": [
+      "aes-crypto",
+      "bzip2",
+      "deflate",
+      "deflate64",
+      "deflate-zlib-ng",
+      "deflate-zopfli",
+      "lzma",
+      "time",
+      "zstd"
+    ],
+    "deflate": [
+      "flate2/rust_backend"
+    ],
+    "deflate-miniz": [
+      "flate2/default"
+    ],
+    "deflate-zlib": [
+      "flate2/zlib"
+    ],
+    "deflate-zlib-ng": [
+      "flate2/zlib-ng"
+    ],
+    "deflate-zopfli": [
+      "zopfli"
+    ],
+    "lzma": [
+      "lzma-rs/stream"
+    ],
+    "unreserved": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 209322,
+    "login": "Pr0methean"
+  },
+  "publishedAt": "2024-04-20T18:21:26.639585Z",
+  "dependencies": [
+    "anyhow",
+    "arbitrary",
+    "bencher",
+    "byteorder",
+    "crc32fast",
+    "crossbeam-utils",
+    "getrandom",
+    "time",
+    "walkdir",
+    "aes",
+    "bzip2",
+    "chrono",
+    "constant_time_eq",
+    "deflate64",
+    "flate2",
+    "hmac",
+    "lzma-rs",
+    "pbkdf2",
+    "sha1",
+    "time",
+    "zopfli",
+    "zstd"
+  ]
+}

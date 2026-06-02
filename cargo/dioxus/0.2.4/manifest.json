@@ -1,0 +1,86 @@
+{
+  "name": "dioxus",
+  "version": "0.2.4",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "211119e0c96d2d0221ce1886b94aed18c41f7f9ccb23d0dc80fff5e919b2a1a2",
+  "features": {
+    "ayatana": [
+      "dioxus-desktop/ayatana"
+    ],
+    "default": [
+      "macro",
+      "hooks",
+      "html"
+    ],
+    "desktop": [
+      "dioxus-desktop"
+    ],
+    "hooks": [
+      "dioxus-hooks"
+    ],
+    "html": [
+      "dioxus-html"
+    ],
+    "liveview": [
+      "dioxus-liveview"
+    ],
+    "macro": [
+      "dioxus-core-macro"
+    ],
+    "native-core": [
+      "dioxus-native-core",
+      "dioxus-native-core-macro"
+    ],
+    "router": [
+      "dioxus-router"
+    ],
+    "ssr": [
+      "dioxus-ssr"
+    ],
+    "tui": [
+      "dioxus-tui"
+    ],
+    "web": [
+      "dioxus-web",
+      "dioxus-router/web"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 55668,
+    "login": "jkelleyrtp"
+  },
+  "publishedAt": "2022-05-03T04:06:04.975142Z",
+  "dependencies": [
+    "anyhow",
+    "criterion",
+    "dioxus-core",
+    "env_logger",
+    "fern",
+    "futures-util",
+    "im-rc",
+    "log",
+    "num-format",
+    "rand",
+    "reqwest",
+    "separator",
+    "serde",
+    "serde_json",
+    "thiserror",
+    "tokio",
+    "dioxus-core-macro",
+    "dioxus-desktop",
+    "dioxus-hooks",
+    "dioxus-html",
+    "dioxus-interpreter-js",
+    "dioxus-liveview",
+    "dioxus-native-core",
+    "dioxus-native-core-macro",
+    "dioxus-router",
+    "dioxus-ssr",
+    "dioxus-tui",
+    "dioxus-web",
+    "fermi"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "pyjwt",
+  "version": "2.0.0a1",
+  "ecosystem": "pypi",
+  "summary": "JSON Web Token implementation in Python",
+  "license": "MIT",
+  "author": "Jose Padilla",
+  "author_email": "hello@jpadilla.com",
+  "requires_python": ">=3.5",
+  "requires_dist": [
+    "cryptography (<4.0.0,>=2.6) ; extra == 'crypto'",
+    "sphinx ; extra == 'dev'",
+    "sphinx-rtd-theme ; extra == 'dev'",
+    "zope.interface ; extra == 'dev'",
+    "cryptography (<4.0.0,>=2.6) ; extra == 'dev'",
+    "pytest (<7.0.0,>=6.0.0) ; extra == 'dev'",
+    "coverage[toml] (==5.0.4) ; extra == 'dev'",
+    "requests ; extra == 'dev'",
+    "mypy ; extra == 'dev'",
+    "pre-commit ; extra == 'dev'",
+    "sphinx ; extra == 'docs'",
+    "sphinx-rtd-theme ; extra == 'docs'",
+    "zope.interface ; extra == 'docs'",
+    "requests ; extra == 'jwks_client'",
+    "pytest (<7.0.0,>=6.0.0) ; extra == 'tests'",
+    "coverage[toml] (==5.0.4) ; extra == 'tests'",
+    "requests-mock (<2.0.0,>=1.7.0) ; extra == 'tests'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2020-11-02T12:52:01",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/bf/08/982c35c71dcacbe00fb43715ffd27a795fcfa101d625d546d82d024cf0b6/PyJWT-2.0.0a1-py3-none-any.whl",
+    "sha256": "d138fde3bf7faf3d44dfe880effe29358c23b5162790ab16703f0469ba17a2ab",
+    "size": 16395,
+    "filename": "PyJWT-2.0.0a1-py3-none-any.whl"
+  }
+}

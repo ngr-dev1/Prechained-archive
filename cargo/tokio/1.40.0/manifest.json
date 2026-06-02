@@ -1,0 +1,108 @@
+{
+  "name": "tokio",
+  "version": "1.40.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "e2b070231665d27ad9ec9b8df639893f46727666c6767db40317fbe920a5d998",
+  "features": {
+    "default": [],
+    "fs": [],
+    "full": [
+      "fs",
+      "io-util",
+      "io-std",
+      "macros",
+      "net",
+      "parking_lot",
+      "process",
+      "rt",
+      "rt-multi-thread",
+      "signal",
+      "sync",
+      "time"
+    ],
+    "io-std": [],
+    "io-util": [
+      "bytes"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "socket2",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_Security",
+      "windows-sys/Win32_Storage_FileSystem",
+      "windows-sys/Win32_System_Pipes",
+      "windows-sys/Win32_System_SystemServices"
+    ],
+    "process": [
+      "bytes",
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "signal-hook-registry",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_System_Threading",
+      "windows-sys/Win32_System_WindowsProgramming"
+    ],
+    "rt": [],
+    "rt-multi-thread": [
+      "rt"
+    ],
+    "signal": [
+      "libc",
+      "mio/os-poll",
+      "mio/net",
+      "mio/os-ext",
+      "signal-hook-registry",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_System_Console"
+    ],
+    "sync": [],
+    "test-util": [
+      "rt",
+      "sync",
+      "time"
+    ],
+    "time": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6741,
+    "login": "Darksonn"
+  },
+  "publishedAt": "2024-08-30T08:04:01.709235Z",
+  "dependencies": [
+    "async-stream",
+    "backtrace",
+    "futures",
+    "libc",
+    "loom",
+    "mio-aio",
+    "mockall",
+    "nix",
+    "pin-project-lite",
+    "rand",
+    "socket2",
+    "tempfile",
+    "tokio-stream",
+    "tokio-test",
+    "wasm-bindgen-test",
+    "windows-sys",
+    "bytes",
+    "libc",
+    "mio",
+    "parking_lot",
+    "signal-hook-registry",
+    "socket2",
+    "tokio-macros",
+    "tracing",
+    "windows-sys"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "opentelemetry",
+  "version": "0.32.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "b0142c63252a9e054e68a4c61a5778f7b14f576274d593f8ce883d191a099682",
+  "features": {
+    "default": [
+      "trace",
+      "metrics",
+      "logs",
+      "internal-logs",
+      "futures"
+    ],
+    "experimental_metrics_bound_instruments": [
+      "metrics"
+    ],
+    "futures": [
+      "futures-core",
+      "futures-sink",
+      "pin-project-lite"
+    ],
+    "internal-logs": [
+      "tracing"
+    ],
+    "logs": [],
+    "metrics": [],
+    "testing": [
+      "trace"
+    ],
+    "trace": [
+      "futures",
+      "thiserror"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 250714,
+    "login": "cijothomas"
+  },
+  "publishedAt": "2026-05-08T23:40:55.498197Z",
+  "dependencies": [
+    "criterion",
+    "js-sys",
+    "rand",
+    "tokio",
+    "futures-core",
+    "futures-sink",
+    "pin-project-lite",
+    "thiserror",
+    "tracing"
+  ]
+}

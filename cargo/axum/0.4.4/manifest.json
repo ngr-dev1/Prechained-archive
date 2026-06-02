@@ -1,0 +1,81 @@
+{
+  "name": "axum",
+  "version": "0.4.4",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "310a147401c66e79fc78636e4db63ac68cd6acb9ece056de806ea173a15bce32",
+  "features": {
+    "default": [
+      "http1",
+      "json",
+      "tower-log"
+    ],
+    "http1": [
+      "hyper/http1"
+    ],
+    "http2": [
+      "hyper/http2"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "multipart": [
+      "multer"
+    ],
+    "tower-log": [
+      "tower/log"
+    ],
+    "ws": [
+      "tokio-tungstenite",
+      "sha-1",
+      "base64"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2022-01-13T13:03:09.593077Z",
+  "dependencies": [
+    "anyhow",
+    "async-trait",
+    "axum-core",
+    "bitflags",
+    "bytes",
+    "futures",
+    "futures-util",
+    "http",
+    "http-body",
+    "hyper",
+    "matchit",
+    "memchr",
+    "mime",
+    "percent-encoding",
+    "pin-project-lite",
+    "reqwest",
+    "serde",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "sync_wrapper",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tower",
+    "tower",
+    "tower-http",
+    "tower-http",
+    "tower-layer",
+    "tower-service",
+    "tracing",
+    "uuid",
+    "base64",
+    "headers",
+    "multer",
+    "serde_json",
+    "sha-1",
+    "tokio-tungstenite"
+  ]
+}

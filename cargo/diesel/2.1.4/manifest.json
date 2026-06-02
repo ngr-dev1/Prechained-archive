@@ -1,0 +1,138 @@
+{
+  "name": "diesel",
+  "version": "2.1.4",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "62c6fcf842f17f8c78ecf7c81d75c5ce84436b41ee07e03f490fbb5f5a8731d8",
+  "features": {
+    "128-column-tables": [
+      "64-column-tables",
+      "diesel_derives/128-column-tables"
+    ],
+    "32-column-tables": [
+      "diesel_derives/32-column-tables"
+    ],
+    "64-column-tables": [
+      "32-column-tables",
+      "diesel_derives/64-column-tables"
+    ],
+    "chrono": [
+      "diesel_derives/chrono",
+      "dep:chrono"
+    ],
+    "default": [
+      "with-deprecated",
+      "32-column-tables"
+    ],
+    "extras": [
+      "chrono",
+      "time",
+      "serde_json",
+      "uuid",
+      "network-address",
+      "numeric",
+      "r2d2"
+    ],
+    "huge-tables": [
+      "64-column-tables"
+    ],
+    "i-implement-a-third-party-backend-and-opt-into-breaking-changes": [],
+    "ipnet-address": [
+      "ipnet",
+      "libc"
+    ],
+    "large-tables": [
+      "32-column-tables"
+    ],
+    "mysql": [
+      "mysqlclient-sys",
+      "url",
+      "percent-encoding",
+      "bitflags",
+      "mysql_backend"
+    ],
+    "mysql_backend": [
+      "diesel_derives/mysql",
+      "byteorder"
+    ],
+    "network-address": [
+      "ipnetwork",
+      "libc"
+    ],
+    "nightly-error-messages": [],
+    "numeric": [
+      "num-bigint",
+      "bigdecimal",
+      "num-traits",
+      "num-integer"
+    ],
+    "postgres": [
+      "pq-sys",
+      "postgres_backend"
+    ],
+    "postgres_backend": [
+      "diesel_derives/postgres",
+      "bitflags",
+      "byteorder",
+      "itoa"
+    ],
+    "r2d2": [
+      "diesel_derives/r2d2",
+      "dep:r2d2"
+    ],
+    "returning_clauses_for_sqlite_3_35": [],
+    "sqlite": [
+      "libsqlite3-sys",
+      "diesel_derives/sqlite",
+      "time?/formatting",
+      "time?/parsing"
+    ],
+    "time": [
+      "diesel_derives/time",
+      "dep:time"
+    ],
+    "unstable": [
+      "diesel_derives/nightly"
+    ],
+    "with-deprecated": [
+      "diesel_derives/with-deprecated"
+    ],
+    "without-deprecated": [
+      "diesel_derives/without-deprecated"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4568,
+    "login": "weiznich"
+  },
+  "publishedAt": "2023-11-14T15:03:19.481292Z",
+  "dependencies": [
+    "cfg-if",
+    "diesel_derives",
+    "dotenvy",
+    "ipnetwork",
+    "quickcheck",
+    "bigdecimal",
+    "bitflags",
+    "byteorder",
+    "chrono",
+    "ipnet",
+    "ipnetwork",
+    "itoa",
+    "libc",
+    "libsqlite3-sys",
+    "mysqlclient-sys",
+    "num-bigint",
+    "num-integer",
+    "num-traits",
+    "percent-encoding",
+    "pq-sys",
+    "quickcheck",
+    "r2d2",
+    "serde_json",
+    "time",
+    "url",
+    "uuid"
+  ]
+}

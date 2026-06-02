@@ -1,0 +1,182 @@
+{
+  "name": "tower-http",
+  "version": "0.4.3",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "55ae70283aba8d2a8b411c695c437fe25b8b5e44e23e780662002fc72fb47a82",
+  "features": {
+    "add-extension": [],
+    "auth": [
+      "base64",
+      "validate-request"
+    ],
+    "catch-panic": [
+      "tracing",
+      "futures-util/std"
+    ],
+    "compression-br": [
+      "async-compression/brotli",
+      "tokio-util",
+      "tokio"
+    ],
+    "compression-deflate": [
+      "async-compression/zlib",
+      "tokio-util",
+      "tokio"
+    ],
+    "compression-full": [
+      "compression-br",
+      "compression-deflate",
+      "compression-gzip",
+      "compression-zstd"
+    ],
+    "compression-gzip": [
+      "async-compression/gzip",
+      "tokio-util",
+      "tokio"
+    ],
+    "compression-zstd": [
+      "async-compression/zstd",
+      "tokio-util",
+      "tokio"
+    ],
+    "cors": [],
+    "decompression-br": [
+      "async-compression/brotli",
+      "tokio-util",
+      "tokio"
+    ],
+    "decompression-deflate": [
+      "async-compression/zlib",
+      "tokio-util",
+      "tokio"
+    ],
+    "decompression-full": [
+      "decompression-br",
+      "decompression-deflate",
+      "decompression-gzip",
+      "decompression-zstd"
+    ],
+    "decompression-gzip": [
+      "async-compression/gzip",
+      "tokio-util",
+      "tokio"
+    ],
+    "decompression-zstd": [
+      "async-compression/zstd",
+      "tokio-util",
+      "tokio"
+    ],
+    "default": [],
+    "follow-redirect": [
+      "iri-string",
+      "tower/util"
+    ],
+    "fs": [
+      "tokio/fs",
+      "tokio-util/io",
+      "tokio/io-util",
+      "mime_guess",
+      "mime",
+      "percent-encoding",
+      "httpdate",
+      "set-status",
+      "futures-util/alloc",
+      "tracing"
+    ],
+    "full": [
+      "add-extension",
+      "auth",
+      "catch-panic",
+      "compression-full",
+      "cors",
+      "decompression-full",
+      "follow-redirect",
+      "fs",
+      "limit",
+      "map-request-body",
+      "map-response-body",
+      "metrics",
+      "normalize-path",
+      "propagate-header",
+      "redirect",
+      "request-id",
+      "sensitive-headers",
+      "set-header",
+      "set-status",
+      "timeout",
+      "trace",
+      "util",
+      "validate-request"
+    ],
+    "limit": [],
+    "map-request-body": [],
+    "map-response-body": [],
+    "metrics": [
+      "tokio/time"
+    ],
+    "normalize-path": [],
+    "propagate-header": [],
+    "redirect": [],
+    "request-id": [
+      "uuid"
+    ],
+    "sensitive-headers": [],
+    "set-header": [],
+    "set-status": [],
+    "timeout": [
+      "tokio/time"
+    ],
+    "trace": [
+      "tracing"
+    ],
+    "util": [
+      "tower"
+    ],
+    "validate-request": [
+      "mime"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2023-07-20T14:01:27.055821Z",
+  "dependencies": [
+    "bitflags",
+    "brotli",
+    "bytes",
+    "bytes",
+    "flate2",
+    "futures",
+    "futures-core",
+    "futures-util",
+    "http",
+    "http-body",
+    "http-range-header",
+    "hyper",
+    "once_cell",
+    "pin-project-lite",
+    "serde_json",
+    "tokio",
+    "tower",
+    "tower-layer",
+    "tower-service",
+    "tracing-subscriber",
+    "uuid",
+    "zstd",
+    "async-compression",
+    "base64",
+    "httpdate",
+    "iri-string",
+    "mime",
+    "mime_guess",
+    "percent-encoding",
+    "tokio",
+    "tokio-util",
+    "tower",
+    "tracing",
+    "uuid"
+  ]
+}

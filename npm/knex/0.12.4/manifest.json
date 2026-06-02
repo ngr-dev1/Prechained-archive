@@ -1,0 +1,105 @@
+{
+  "name": "knex",
+  "version": "0.12.4",
+  "ecosystem": "npm",
+  "description": "A batteries-included SQL query & schema builder for PostgresSQL, MySQL, CockroachDB, MSSQL and SQLite3",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "debug": "^2.1.3",
+    "lodash": "^4.6.0",
+    "mkdirp": "^0.5.0",
+    "liftoff": "~2.2.0",
+    "tildify": "~1.0.0",
+    "v8flags": "^2.0.2",
+    "bluebird": "^3.4.6",
+    "inherits": "~2.0.1",
+    "minimist": "~1.1.0",
+    "commander": "^2.2.0",
+    "interpret": "^0.6.5",
+    "node-uuid": "^1.4.7",
+    "generic-pool": "^2.4.2",
+    "babel-runtime": "^6.11.6",
+    "readable-stream": "^1.1.12",
+    "pg-connection-string": "^0.1.3"
+  },
+  "devDependencies": {
+    "pg": "^6.1.0",
+    "chai": "^3.5.0",
+    "tape": "^4.0.0",
+    "async": "^0.9.0",
+    "mocha": "^3.1.2",
+    "mysql": "^2.6.2",
+    "sinon": "^1.10.0",
+    "eslint": "2.2.0",
+    "mysql2": "^1.1.1",
+    "rimraf": "2.x",
+    "sqlite3": "^3.0.5",
+    "through": "^2.3.4",
+    "istanbul": "^0.4.5",
+    "mariasql": "^0.2.3",
+    "tap-spec": "^4.0.0",
+    "babel-cli": "^6.11.4",
+    "coveralls": "~2.11.1",
+    "JSONStream": "^1.0.3",
+    "sinon-chai": "^2.5.0",
+    "json-loader": "^0.5.4",
+    "babel-eslint": "^5.0.0",
+    "pg-query-stream": "^1.0.0",
+    "source-map-support": "^0.4.0",
+    "babel-plugin-lodash": "^3.2.6",
+    "babel-preset-es2015": "^6.13.2",
+    "eslint-plugin-import": "^1.8.0",
+    "babel-preset-es2015-loose": "^8.0.0",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-plugin-add-module-exports": "^0.2.1"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "node ./scripts/build.js lib \"npm run build\"",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "elhigu",
+      "email": "mikael.lepisto@vincit.com"
+    },
+    {
+      "name": "rhys-vdw",
+      "email": "rhys.vdw@gmail.com"
+    },
+    {
+      "name": "tgriesser",
+      "email": "tgriesser10@gmail.com"
+    },
+    {
+      "name": "tjwebb",
+      "email": "me@traviswebb.com"
+    },
+    {
+      "name": "tkellen",
+      "email": "tyler@sleekcode.net"
+    },
+    {
+      "name": "wubzz",
+      "email": "wubzz94@hotmail.com"
+    }
+  ],
+  "author": {
+    "url": "https://github.com/tgriesser",
+    "name": "Tim Griesser"
+  },
+  "publishedAt": "2016-10-12T05:08:04.821Z",
+  "dist": {
+    "integrity": "sha512-cVc9xkN6Crx/mqkXquEMXy8/ExxOy25SJUGDL/yqNzLsTTJqEUDGVeL04ZAErD8W/pHalKmszZdFR3/ZzbgO1Q==",
+    "shasum": "0510084ac459a32244c331cd91e212663df825ea",
+    "tarball": "https://registry.npmjs.org/knex/-/knex-0.12.4.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "tgriesser",
+    "email": "tgriesser10@gmail.com"
+  }
+}

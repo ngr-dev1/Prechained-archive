@@ -1,0 +1,61 @@
+{
+  "name": "blake3",
+  "version": "1.5.0",
+  "ecosystem": "cargo",
+  "license": "CC0-1.0 OR Apache-2.0",
+  "checksum": "0231f06152bf547e9c2b5194f247cd97aacf6dcd8b15d8e5ec0663f64580da87",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "mmap": [
+      "std",
+      "dep:memmap2"
+    ],
+    "neon": [],
+    "no_avx2": [],
+    "no_avx512": [],
+    "no_neon": [],
+    "no_sse2": [],
+    "no_sse41": [],
+    "prefer_intrinsics": [],
+    "pure": [],
+    "rayon": [
+      "dep:rayon",
+      "std"
+    ],
+    "std": [],
+    "traits-preview": [
+      "digest"
+    ],
+    "zeroize": [
+      "dep:zeroize",
+      "arrayvec/zeroize"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3589,
+    "login": "oconnor663"
+  },
+  "publishedAt": "2023-09-21T03:37:47.359298Z",
+  "dependencies": [
+    "arrayref",
+    "arrayvec",
+    "cc",
+    "cfg-if",
+    "constant_time_eq",
+    "hex",
+    "hmac",
+    "page_size",
+    "rand",
+    "rand_chacha",
+    "serde_json",
+    "tempfile",
+    "digest",
+    "memmap2",
+    "rayon",
+    "serde",
+    "zeroize"
+  ]
+}

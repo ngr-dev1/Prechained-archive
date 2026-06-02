@@ -1,0 +1,33 @@
+{
+  "name": "httpx",
+  "version": "0.21.2",
+  "ecosystem": "pypi",
+  "summary": "The next generation HTTP client.",
+  "license": "BSD",
+  "author": "Tom Christie",
+  "author_email": "tom@tomchristie.com",
+  "requires_python": ">=3.6",
+  "requires_dist": [
+    "certifi",
+    "charset-normalizer",
+    "sniffio",
+    "rfc3986[idna2008] (<2,>=1.3)",
+    "httpcore (<0.15.0,>=0.14.0)",
+    "async-generator ; python_version < \"3.7\"",
+    "brotlicffi ; (platform_python_implementation != \"CPython\") and extra == 'brotli'",
+    "brotli ; (platform_python_implementation == \"CPython\") and extra == 'brotli'",
+    "click (==8.*) ; extra == 'cli'",
+    "rich (==10.*) ; extra == 'cli'",
+    "pygments (==2.*) ; extra == 'cli'",
+    "h2 (<5,>=3) ; extra == 'http2'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2022-01-05T16:25:52",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/21/84/113b12970f4574fd1237d2770641873ff6a78f87a1a7b5d783137f2e658d/httpx-0.21.2-py3-none-any.whl",
+    "sha256": "6d88b1208f0996ee99c7a1e38fcfbdc66891c8fc583673337152681ac23585f6",
+    "size": 83734,
+    "filename": "httpx-0.21.2-py3-none-any.whl"
+  }
+}

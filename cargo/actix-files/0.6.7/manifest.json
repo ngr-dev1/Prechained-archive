@@ -1,0 +1,43 @@
+{
+  "name": "actix-files",
+  "version": "0.6.7",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "22c8b5536deb14cd9c3e505bd0e3366e1a12383b659c92f2b4fa4d323d583599",
+  "features": {
+    "experimental-io-uring": [
+      "actix-web/experimental-io-uring",
+      "tokio-uring"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 56903,
+    "login": "robjtede"
+  },
+  "publishedAt": "2025-08-29T21:45:47.181861Z",
+  "dependencies": [
+    "actix-http",
+    "actix-rt",
+    "actix-service",
+    "actix-test",
+    "actix-utils",
+    "actix-web",
+    "actix-web",
+    "bitflags",
+    "bytes",
+    "derive_more",
+    "env_logger",
+    "futures-core",
+    "http-range",
+    "log",
+    "mime",
+    "mime_guess",
+    "percent-encoding",
+    "pin-project-lite",
+    "tempfile",
+    "v_htmlescape",
+    "actix-server",
+    "tokio-uring"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "syn",
+  "version": "0.4.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "c897cfff3e6081686fe074a9cebc8230a27078e6fe363d2fb34d73198101fc07",
+  "features": {
+    "default": [
+      "parsing",
+      "printing"
+    ],
+    "parsing": [
+      "nom"
+    ],
+    "printing": [
+      "quote"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-09-07T15:22:40.491981Z",
+  "dependencies": [
+    "nom",
+    "quote"
+  ]
+}

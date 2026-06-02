@@ -1,0 +1,32 @@
+{
+  "name": "idna",
+  "version": "0.5.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "634d9b1461af396cad843f47fdba5597a4f9e6ddd4bfb6ff5d85028c25cb12f6",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std"
+    ],
+    "std": [
+      "alloc",
+      "unicode-bidi/std",
+      "unicode-normalization/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 72883,
+    "login": "valenting"
+  },
+  "publishedAt": "2023-11-22T19:10:00.706240Z",
+  "dependencies": [
+    "assert_matches",
+    "bencher",
+    "serde_json",
+    "tester",
+    "unicode-bidi",
+    "unicode-normalization"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "bcrypt",
+  "version": "0.8.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "e2cab630912253fb9dc92c0e2fabd0a7b51f5a5a4007177cfa31e517015b7204",
+  "features": {
+    "alloc": [
+      "base64/alloc"
+    ],
+    "default": [
+      "std"
+    ],
+    "std": [
+      "base64/std",
+      "byteorder/std"
+    ],
+    "stdweb": [
+      "getrandom/stdweb"
+    ],
+    "wasm-bindgen": [
+      "getrandom/wasm-bindgen"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2876,
+    "login": "Keats"
+  },
+  "publishedAt": "2020-08-08T06:46:41.113173Z",
+  "dependencies": [
+    "base64",
+    "blowfish",
+    "byteorder",
+    "getrandom",
+    "quickcheck"
+  ]
+}

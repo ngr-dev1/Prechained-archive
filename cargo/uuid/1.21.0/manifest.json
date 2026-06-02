@@ -1,0 +1,106 @@
+{
+  "name": "uuid",
+  "version": "1.21.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "b672338555252d43fd2240c714dc444b8c6fb0a5c5335e65a07bba7742735ddb",
+  "features": {
+    "atomic": [
+      "dep:atomic"
+    ],
+    "borsh": [
+      "dep:borsh",
+      "dep:borsh-derive"
+    ],
+    "default": [
+      "std"
+    ],
+    "fast-rng": [
+      "rng",
+      "dep:rand"
+    ],
+    "js": [
+      "dep:wasm-bindgen",
+      "dep:js-sys"
+    ],
+    "macro-diagnostics": [],
+    "md5": [
+      "dep:md-5"
+    ],
+    "rng": [
+      "dep:getrandom"
+    ],
+    "rng-getrandom": [
+      "rng",
+      "dep:getrandom",
+      "uuid-rng-internal-lib",
+      "uuid-rng-internal-lib/getrandom"
+    ],
+    "rng-rand": [
+      "rng",
+      "dep:rand",
+      "uuid-rng-internal-lib",
+      "uuid-rng-internal-lib/rand"
+    ],
+    "serde": [
+      "dep:serde_core"
+    ],
+    "sha1": [
+      "dep:sha1_smol"
+    ],
+    "std": [
+      "wasm-bindgen?/std",
+      "js-sys?/std"
+    ],
+    "v1": [
+      "atomic"
+    ],
+    "v3": [
+      "md5"
+    ],
+    "v4": [
+      "rng"
+    ],
+    "v5": [
+      "sha1"
+    ],
+    "v6": [
+      "atomic"
+    ],
+    "v7": [
+      "rng"
+    ],
+    "v8": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3204,
+    "login": "KodrAus"
+  },
+  "publishedAt": "2026-02-14T00:39:01.375334Z",
+  "dependencies": [
+    "rustversion",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "serde_test",
+    "trybuild",
+    "wasm-bindgen",
+    "wasm-bindgen-test",
+    "arbitrary",
+    "atomic",
+    "borsh",
+    "borsh-derive",
+    "bytemuck",
+    "getrandom",
+    "js-sys",
+    "md-5",
+    "rand",
+    "serde_core",
+    "sha1_smol",
+    "slog",
+    "uuid-rng-internal",
+    "wasm-bindgen",
+    "zerocopy"
+  ]
+}

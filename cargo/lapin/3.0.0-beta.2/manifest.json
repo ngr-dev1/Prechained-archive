@@ -1,0 +1,80 @@
+{
+  "name": "lapin",
+  "version": "3.0.0-beta.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "b745b7375c3f8d81307371ca5b6700726599ce358d5e88aa7808f2cd8432bc82",
+  "features": {
+    "codegen": [
+      "codegen-internal",
+      "amq-protocol/codegen"
+    ],
+    "codegen-internal": [
+      "dep:amq-protocol-codegen",
+      "dep:serde_json"
+    ],
+    "default": [
+      "rustls",
+      "default-runtime"
+    ],
+    "default-runtime": [
+      "dep:async-global-executor-trait",
+      "dep:async-reactor-trait"
+    ],
+    "native-tls": [
+      "amq-protocol/native-tls"
+    ],
+    "openssl": [
+      "amq-protocol/openssl"
+    ],
+    "rustls": [
+      "amq-protocol/rustls"
+    ],
+    "rustls--aws_lc_rs": [
+      "amq-protocol/rustls--aws_lc_rs"
+    ],
+    "rustls--ring": [
+      "amq-protocol/rustls--ring"
+    ],
+    "rustls-native-certs": [
+      "amq-protocol/rustls-native-certs"
+    ],
+    "rustls-webpki-roots-certs": [
+      "amq-protocol/rustls-webpki-roots-certs"
+    ],
+    "unstable": [],
+    "vendored-openssl": [
+      "amq-protocol/vendored-openssl"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1926,
+    "login": "Keruspe"
+  },
+  "publishedAt": "2025-03-17T18:57:54.016210Z",
+  "dependencies": [
+    "amq-protocol",
+    "async-global-executor",
+    "async-trait",
+    "executor-trait",
+    "flume",
+    "futures-core",
+    "futures-io",
+    "futures-lite",
+    "reactor-trait",
+    "serde",
+    "serde_json",
+    "tokio",
+    "tokio-executor-trait",
+    "tokio-reactor-trait",
+    "tracing",
+    "tracing-subscriber",
+    "waker-fn",
+    "waker-fn",
+    "amq-protocol-codegen",
+    "async-global-executor-trait",
+    "async-reactor-trait",
+    "serde_json"
+  ]
+}

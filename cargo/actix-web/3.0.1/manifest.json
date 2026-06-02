@@ -1,0 +1,70 @@
+{
+  "name": "actix-web",
+  "version": "3.0.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "cd7fc56022da91a4dc00ccae7d7bb82e539749ca36df181695f4efdf5d413b2e",
+  "features": {
+    "compress": [
+      "actix-http/compress",
+      "awc/compress"
+    ],
+    "default": [
+      "compress"
+    ],
+    "openssl": [
+      "actix-tls/openssl",
+      "awc/openssl",
+      "open-ssl"
+    ],
+    "rustls": [
+      "actix-tls/rustls",
+      "awc/rustls",
+      "rust-tls"
+    ],
+    "secure-cookies": [
+      "actix-http/secure-cookies"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 56903,
+    "login": "robjtede"
+  },
+  "publishedAt": "2020-09-13T02:27:50.085470Z",
+  "dependencies": [
+    "actix-codec",
+    "actix-http",
+    "actix-macros",
+    "actix-router",
+    "actix-rt",
+    "actix-server",
+    "actix-service",
+    "actix-testing",
+    "actix-threadpool",
+    "actix-tls",
+    "actix-utils",
+    "actix-web-codegen",
+    "awc",
+    "bytes",
+    "derive_more",
+    "encoding_rs",
+    "futures-channel",
+    "futures-core",
+    "futures-util",
+    "fxhash",
+    "log",
+    "mime",
+    "pin-project",
+    "regex",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "socket2",
+    "time",
+    "tinyvec",
+    "url",
+    "openssl",
+    "rustls"
+  ]
+}

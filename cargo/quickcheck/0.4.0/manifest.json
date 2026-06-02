@@ -1,0 +1,25 @@
+{
+  "name": "quickcheck",
+  "version": "0.4.0",
+  "ecosystem": "cargo",
+  "license": "Unlicense/MIT",
+  "checksum": "32f17b21936cb2d1f11ffa6dff6ca237d22ee316976f1ed014bc863bd9e18ca6",
+  "features": {
+    "default": [
+      "use_logging"
+    ],
+    "unstable": [],
+    "use_logging": [
+      "log",
+      "env_logger"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-10-27T23:31:25.514871Z",
+  "dependencies": [
+    "rand",
+    "env_logger",
+    "log"
+  ]
+}

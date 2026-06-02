@@ -1,0 +1,44 @@
+{
+  "name": "lapin",
+  "version": "0.28.3",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "5c9054d1fc8d4b5a9d67aa003fbbd26b33f89357fb60940a518c75021796f601",
+  "features": {
+    "default": [
+      "native-tls"
+    ],
+    "futures": [
+      "futures-core"
+    ],
+    "native-tls": [
+      "amq-protocol/native-tls"
+    ],
+    "openssl": [
+      "amq-protocol/openssl"
+    ],
+    "rustls": [
+      "amq-protocol/rustls"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1926,
+    "login": "Keruspe"
+  },
+  "publishedAt": "2019-11-21T20:48:00.041874Z",
+  "dependencies": [
+    "amq-protocol",
+    "amq-protocol-codegen",
+    "crossbeam-channel",
+    "env_logger",
+    "futures-executor",
+    "futures-util",
+    "log",
+    "mio",
+    "parking_lot",
+    "serde_json",
+    "tcp-stream",
+    "futures-core"
+  ]
+}

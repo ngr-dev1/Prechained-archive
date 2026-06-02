@@ -1,0 +1,109 @@
+{
+  "name": "redis",
+  "version": "0.17.0",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "95357caf2640abc54651b93c98a8df4fe1ccbf44b8e601ccdf43d5c1451f29ac",
+  "features": {
+    "acl": [],
+    "aio": [
+      "bytes",
+      "pin-project-lite",
+      "futures-util",
+      "futures-util/sink",
+      "tokio/sync",
+      "tokio/stream",
+      "tokio/tcp",
+      "tokio/uds",
+      "tokio/io-util",
+      "tokio-util",
+      "tokio-util/codec",
+      "combine/tokio-02"
+    ],
+    "async-std-comp": [
+      "aio",
+      "async-std"
+    ],
+    "async-std-tls-comp": [
+      "async-std-comp",
+      "async-native-tls",
+      "tls"
+    ],
+    "cluster": [
+      "crc16",
+      "rand"
+    ],
+    "connection-manager": [
+      "tokio-rt-core",
+      "arc-swap",
+      "futures"
+    ],
+    "default": [
+      "acl",
+      "streams",
+      "geospatial",
+      "tokio-comp",
+      "async-std-comp",
+      "script"
+    ],
+    "geospatial": [],
+    "script": [
+      "sha1"
+    ],
+    "streams": [],
+    "tls": [
+      "native-tls"
+    ],
+    "tokio-comp": [
+      "aio",
+      "tokio"
+    ],
+    "tokio-rt-core": [
+      "tokio-comp",
+      "tokio/rt-core"
+    ],
+    "tokio-tls-comp": [
+      "tls",
+      "tokio-tls"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 48,
+    "login": "badboy"
+  },
+  "publishedAt": "2020-07-29T10:23:38.520921Z",
+  "dependencies": [
+    "assert_approx_eq",
+    "async-trait",
+    "combine",
+    "criterion",
+    "dtoa",
+    "fnv",
+    "futures",
+    "itoa",
+    "net2",
+    "partial-io",
+    "percent-encoding",
+    "quickcheck",
+    "rand",
+    "tempdir",
+    "tokio",
+    "url",
+    "arc-swap",
+    "async-native-tls",
+    "async-std",
+    "bytes",
+    "crc16",
+    "futures",
+    "futures-util",
+    "native-tls",
+    "pin-project-lite",
+    "r2d2",
+    "rand",
+    "sha1",
+    "tokio",
+    "tokio-tls",
+    "tokio-util"
+  ]
+}

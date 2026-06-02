@@ -1,0 +1,125 @@
+{
+  "name": "tokio",
+  "version": "1.21.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "89797afd69d206ccd11fb0ea560a44bbb87731d020670e79416d442919257d42",
+  "features": {
+    "default": [],
+    "fs": [],
+    "full": [
+      "fs",
+      "io-util",
+      "io-std",
+      "macros",
+      "net",
+      "parking_lot",
+      "process",
+      "rt",
+      "rt-multi-thread",
+      "signal",
+      "sync",
+      "time"
+    ],
+    "io-std": [],
+    "io-util": [
+      "memchr",
+      "bytes"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "winapi/fileapi",
+      "winapi/handleapi",
+      "winapi/namedpipeapi",
+      "winapi/winbase",
+      "winapi/winnt",
+      "winapi/minwindef",
+      "winapi/accctrl",
+      "winapi/aclapi"
+    ],
+    "process": [
+      "bytes",
+      "once_cell",
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "signal-hook-registry",
+      "winapi/handleapi",
+      "winapi/minwindef",
+      "winapi/processthreadsapi",
+      "winapi/threadpoollegacyapiset",
+      "winapi/winbase",
+      "winapi/winnt"
+    ],
+    "rt": [
+      "once_cell"
+    ],
+    "rt-multi-thread": [
+      "num_cpus",
+      "rt"
+    ],
+    "signal": [
+      "once_cell",
+      "libc",
+      "mio/os-poll",
+      "mio/net",
+      "mio/os-ext",
+      "signal-hook-registry",
+      "winapi/consoleapi",
+      "winapi/wincon",
+      "winapi/minwindef"
+    ],
+    "stats": [],
+    "sync": [],
+    "test-util": [
+      "rt",
+      "sync",
+      "time"
+    ],
+    "time": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6741,
+    "login": "Darksonn"
+  },
+  "publishedAt": "2022-09-02T11:52:55.010375Z",
+  "dependencies": [
+    "async-stream",
+    "autocfg",
+    "futures",
+    "libc",
+    "loom",
+    "mio-aio",
+    "mockall",
+    "nix",
+    "ntapi",
+    "pin-project-lite",
+    "proptest",
+    "rand",
+    "socket2",
+    "socket2",
+    "tempfile",
+    "tokio-stream",
+    "tokio-test",
+    "wasm-bindgen-test",
+    "bytes",
+    "libc",
+    "memchr",
+    "mio",
+    "num_cpus",
+    "once_cell",
+    "parking_lot",
+    "signal-hook-registry",
+    "tokio-macros",
+    "tracing",
+    "winapi"
+  ]
+}

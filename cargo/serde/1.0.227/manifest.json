@@ -1,0 +1,37 @@
+{
+  "name": "serde",
+  "version": "1.0.227",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "80ece43fc6fbed4eb5392ab50c07334d3e577cbf40997ee896fe7af40bba4245",
+  "features": {
+    "alloc": [
+      "serde_core/alloc"
+    ],
+    "default": [
+      "std"
+    ],
+    "derive": [
+      "serde_derive"
+    ],
+    "rc": [
+      "serde_core/rc"
+    ],
+    "std": [
+      "serde_core/std"
+    ],
+    "unstable": [
+      "serde_core/unstable"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3618,
+    "login": "dtolnay"
+  },
+  "publishedAt": "2025-09-25T23:43:08.742811Z",
+  "dependencies": [
+    "serde_core",
+    "serde_derive"
+  ]
+}

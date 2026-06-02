@@ -2,7 +2,6 @@
   "name": "clap",
   "version": "4.3.13",
   "ecosystem": "cargo",
-  "description": "A simple to use, efficient, and full-featured Command Line Argument Parser",
   "license": "MIT OR Apache-2.0",
   "checksum": "b6ae2dba3ed8190620ef7ae248b97e425a12f2a82cf1fec7dbf44b7c54e0c4d5",
   "features": {
@@ -72,7 +71,23 @@
       "clap_builder/wrap_help"
     ]
   },
-  "downloads": 5339,
-  "captured_at": "2026-05-22T22:04:43.556Z",
-  "captured_by": "prechained.com"
+  "yanked": false,
+  "published_by": {
+    "id": 6743,
+    "login": "epage"
+  },
+  "publishedAt": "2023-07-17T15:27:05.364024Z",
+  "dependencies": [
+    "clap_builder",
+    "humantime",
+    "rustversion",
+    "shlex",
+    "snapbox",
+    "static_assertions",
+    "trybuild",
+    "trycmd",
+    "unic-emoji-char",
+    "clap_derive",
+    "once_cell"
+  ]
 }

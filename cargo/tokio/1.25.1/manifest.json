@@ -1,0 +1,114 @@
+{
+  "name": "tokio",
+  "version": "1.25.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "d78819ab9e79e14aefb149593f15c07239d0cea924cb44e1259e1bec643619e6",
+  "features": {
+    "default": [],
+    "fs": [],
+    "full": [
+      "fs",
+      "io-util",
+      "io-std",
+      "macros",
+      "net",
+      "parking_lot",
+      "process",
+      "rt",
+      "rt-multi-thread",
+      "signal",
+      "sync",
+      "time"
+    ],
+    "io-std": [],
+    "io-util": [
+      "memchr",
+      "bytes"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "socket2",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_Security",
+      "windows-sys/Win32_Storage_FileSystem",
+      "windows-sys/Win32_System_Pipes",
+      "windows-sys/Win32_System_SystemServices"
+    ],
+    "process": [
+      "bytes",
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "signal-hook-registry",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_System_Threading",
+      "windows-sys/Win32_System_WindowsProgramming"
+    ],
+    "rt": [],
+    "rt-multi-thread": [
+      "num_cpus",
+      "rt"
+    ],
+    "signal": [
+      "libc",
+      "mio/os-poll",
+      "mio/net",
+      "mio/os-ext",
+      "signal-hook-registry",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_System_Console"
+    ],
+    "stats": [],
+    "sync": [],
+    "test-util": [
+      "rt",
+      "sync",
+      "time"
+    ],
+    "time": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6741,
+    "login": "Darksonn"
+  },
+  "publishedAt": "2023-05-27T21:18:59.224089Z",
+  "dependencies": [
+    "async-stream",
+    "autocfg",
+    "futures",
+    "libc",
+    "loom",
+    "mio-aio",
+    "mockall",
+    "nix",
+    "pin-project-lite",
+    "proptest",
+    "rand",
+    "socket2",
+    "tempfile",
+    "tokio-stream",
+    "tokio-test",
+    "wasm-bindgen-test",
+    "windows-sys",
+    "bytes",
+    "libc",
+    "memchr",
+    "mio",
+    "num_cpus",
+    "parking_lot",
+    "signal-hook-registry",
+    "socket2",
+    "tokio-macros",
+    "tracing",
+    "windows-sys"
+  ]
+}

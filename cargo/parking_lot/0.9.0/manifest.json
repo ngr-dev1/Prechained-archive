@@ -1,0 +1,37 @@
+{
+  "name": "parking_lot",
+  "version": "0.9.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "f842b1982eb6c2fe34036a4fbfb06dd185a3f5c8edfaacdf7d1ea10b07de6252",
+  "features": {
+    "deadlock_detection": [
+      "parking_lot_core/deadlock_detection"
+    ],
+    "default": [],
+    "nightly": [
+      "parking_lot_core/nightly",
+      "lock_api/nightly"
+    ],
+    "owning_ref": [
+      "lock_api/owning_ref"
+    ],
+    "serde": [
+      "lock_api/serde"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 2915,
+    "login": "Amanieu"
+  },
+  "publishedAt": "2019-07-14T12:56:10.492259Z",
+  "dependencies": [
+    "bincode",
+    "lazy_static",
+    "lock_api",
+    "parking_lot_core",
+    "rand",
+    "rustc_version"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "tokio-stream",
+  "version": "0.1.11",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "d660770404473ccd7bc9f8b28494a811bc18542b915c0855c51e8f419d5223ce",
+  "features": {
+    "default": [
+      "time"
+    ],
+    "fs": [
+      "tokio/fs"
+    ],
+    "io-util": [
+      "tokio/io-util"
+    ],
+    "net": [
+      "tokio/net"
+    ],
+    "signal": [
+      "tokio/signal"
+    ],
+    "sync": [
+      "tokio/sync",
+      "tokio-util"
+    ],
+    "time": [
+      "tokio/time"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6741,
+    "login": "Darksonn"
+  },
+  "publishedAt": "2022-10-11T14:50:00.551097Z",
+  "dependencies": [
+    "async-stream",
+    "futures",
+    "futures-core",
+    "parking_lot",
+    "pin-project-lite",
+    "proptest",
+    "tokio",
+    "tokio",
+    "tokio-util"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "nom",
+  "version": "6.1.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "e7413f999671bd4745a7b624bd370a569fb6bc574b23c83a3c5ed2e453f3d5e2",
+  "features": {
+    "alloc": [
+      "bitvec/alloc",
+      "funty"
+    ],
+    "default": [
+      "std",
+      "bitvec",
+      "lexical"
+    ],
+    "docsrs": [],
+    "lexical": [
+      "lexical-core"
+    ],
+    "regexp": [
+      "regex"
+    ],
+    "std": [
+      "alloc",
+      "bitvec/std",
+      "memchr/use_std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 959,
+    "login": "Geal"
+  },
+  "publishedAt": "2021-02-15T09:43:27.266318Z",
+  "dependencies": [
+    "criterion",
+    "doc-comment",
+    "jemallocator",
+    "memchr",
+    "version_check",
+    "bitvec",
+    "funty",
+    "lazy_static",
+    "lexical-core",
+    "regex"
+  ]
+}

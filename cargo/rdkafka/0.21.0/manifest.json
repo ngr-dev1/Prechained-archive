@@ -1,0 +1,46 @@
+{
+  "name": "rdkafka",
+  "version": "0.21.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "114f717d2c6a4d5f19099bb6b7422d0b9fbdb179cd5790631dcfda16a26ea6f5",
+  "features": {
+    "cmake_build": [
+      "rdkafka-sys/cmake_build"
+    ],
+    "default": [],
+    "dynamic_linking": [
+      "rdkafka-sys/dynamic_linking"
+    ],
+    "external_lz4": [
+      "rdkafka-sys/external_lz4"
+    ],
+    "sasl": [
+      "rdkafka-sys/sasl",
+      "ssl"
+    ],
+    "ssl": [
+      "rdkafka-sys/ssl"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 21795,
+    "login": "flavray"
+  },
+  "publishedAt": "2019-04-26T08:23:47.348868Z",
+  "dependencies": [
+    "chrono",
+    "clap",
+    "env_logger",
+    "futures",
+    "libc",
+    "log",
+    "rand",
+    "rdkafka-sys",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "tokio"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "name": "tokio",
+  "version": "0.2.24",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "099837d3464c16a808060bb3f02263b412f6fafcb5d01c533d309985fbeebe48",
+  "features": {
+    "blocking": [
+      "rt-core"
+    ],
+    "default": [],
+    "dns": [
+      "rt-core"
+    ],
+    "fs": [
+      "rt-core",
+      "io-util"
+    ],
+    "full": [
+      "blocking",
+      "dns",
+      "fs",
+      "io-driver",
+      "io-util",
+      "io-std",
+      "macros",
+      "net",
+      "process",
+      "rt-core",
+      "rt-util",
+      "rt-threaded",
+      "signal",
+      "stream",
+      "sync",
+      "time"
+    ],
+    "io-driver": [
+      "mio",
+      "lazy_static"
+    ],
+    "io-std": [
+      "rt-core"
+    ],
+    "io-util": [
+      "memchr"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "dns",
+      "tcp",
+      "udp",
+      "uds"
+    ],
+    "process": [
+      "io-driver",
+      "libc",
+      "mio-named-pipes",
+      "signal",
+      "winapi/consoleapi",
+      "winapi/minwindef",
+      "winapi/threadpoollegacyapiset",
+      "winapi/winerror"
+    ],
+    "rt-core": [
+      "slab"
+    ],
+    "rt-threaded": [
+      "num_cpus",
+      "rt-core"
+    ],
+    "rt-util": [],
+    "signal": [
+      "io-driver",
+      "lazy_static",
+      "libc",
+      "mio-uds",
+      "signal-hook-registry",
+      "winapi/consoleapi",
+      "winapi/minwindef"
+    ],
+    "stream": [
+      "futures-core"
+    ],
+    "sync": [
+      "fnv"
+    ],
+    "tcp": [
+      "io-driver",
+      "iovec"
+    ],
+    "test-util": [],
+    "time": [
+      "slab"
+    ],
+    "udp": [
+      "io-driver"
+    ],
+    "uds": [
+      "io-driver",
+      "mio-uds",
+      "libc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3959,
+    "login": "LucioFranco"
+  },
+  "publishedAt": "2020-12-09T16:58:45.845509Z",
+  "dependencies": [
+    "bytes",
+    "futures",
+    "futures-test",
+    "loom",
+    "pin-project-lite",
+    "proptest",
+    "tempfile",
+    "tokio-test",
+    "fnv",
+    "futures-core",
+    "iovec",
+    "lazy_static",
+    "libc",
+    "memchr",
+    "mio",
+    "mio-named-pipes",
+    "mio-uds",
+    "num_cpus",
+    "parking_lot",
+    "signal-hook-registry",
+    "slab",
+    "tokio-macros",
+    "tracing",
+    "winapi"
+  ]
+}

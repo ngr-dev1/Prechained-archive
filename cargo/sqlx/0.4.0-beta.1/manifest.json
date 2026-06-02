@@ -1,0 +1,128 @@
+{
+  "name": "sqlx",
+  "version": "0.4.0-beta.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "8cb7b012f28c74075d6b11172ba1874f4376a255509462eaf2ef25068b31729f",
+  "features": {
+    "all": [
+      "tls",
+      "all-databases",
+      "all-types"
+    ],
+    "all-databases": [
+      "mysql",
+      "sqlite",
+      "postgres",
+      "mssql",
+      "any"
+    ],
+    "all-types": [
+      "bigdecimal",
+      "decimal",
+      "json",
+      "time",
+      "chrono",
+      "ipnetwork",
+      "uuid"
+    ],
+    "any": [
+      "sqlx-core/any"
+    ],
+    "bigdecimal": [
+      "sqlx-core/bigdecimal",
+      "sqlx-macros/bigdecimal"
+    ],
+    "chrono": [
+      "sqlx-core/chrono",
+      "sqlx-macros/chrono"
+    ],
+    "decimal": [
+      "sqlx-core/decimal",
+      "sqlx-macros/decimal"
+    ],
+    "default": [
+      "macros",
+      "runtime-async-std",
+      "migrate"
+    ],
+    "ipnetwork": [
+      "sqlx-core/ipnetwork",
+      "sqlx-macros/ipnetwork"
+    ],
+    "json": [
+      "sqlx-core/json",
+      "sqlx-macros/json"
+    ],
+    "macros": [
+      "sqlx-macros"
+    ],
+    "migrate": [
+      "sqlx-macros/migrate",
+      "sqlx-core/migrate"
+    ],
+    "mssql": [
+      "sqlx-core/mssql",
+      "sqlx-macros/mssql"
+    ],
+    "mysql": [
+      "sqlx-core/mysql",
+      "sqlx-macros/mysql"
+    ],
+    "offline": [
+      "sqlx-macros/offline",
+      "sqlx-core/offline"
+    ],
+    "postgres": [
+      "sqlx-core/postgres",
+      "sqlx-macros/postgres"
+    ],
+    "runtime-actix": [
+      "sqlx-core/runtime-actix",
+      "sqlx-macros/runtime-actix"
+    ],
+    "runtime-async-std": [
+      "sqlx-core/runtime-async-std",
+      "sqlx-macros/runtime-async-std"
+    ],
+    "runtime-tokio": [
+      "sqlx-core/runtime-tokio",
+      "sqlx-macros/runtime-tokio"
+    ],
+    "sqlite": [
+      "sqlx-core/sqlite",
+      "sqlx-macros/sqlite"
+    ],
+    "time": [
+      "sqlx-core/time",
+      "sqlx-macros/time"
+    ],
+    "tls": [],
+    "uuid": [
+      "sqlx-core/uuid",
+      "sqlx-macros/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5691,
+    "login": "mehcode"
+  },
+  "publishedAt": "2020-07-27T08:47:29.638612Z",
+  "dependencies": [
+    "anyhow",
+    "async-std",
+    "dotenv",
+    "env_logger",
+    "futures",
+    "paste",
+    "serde",
+    "serde_json",
+    "sqlx-core",
+    "time",
+    "tokio",
+    "trybuild",
+    "url",
+    "sqlx-macros"
+  ]
+}

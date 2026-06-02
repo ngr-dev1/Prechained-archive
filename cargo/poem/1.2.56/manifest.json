@@ -1,0 +1,151 @@
+{
+  "name": "poem",
+  "version": "1.2.56",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "d02a637b83cd85d28a35f5e07645f7312078d048ed28ec43cbdf20317776f3ed",
+  "features": {
+    "compression": [
+      "async-compression",
+      "typed-headers"
+    ],
+    "cookie": [
+      "libcookie",
+      "chrono",
+      "time"
+    ],
+    "csrf": [
+      "cookie",
+      "base64",
+      "libcsrf"
+    ],
+    "default": [],
+    "i18n": [
+      "fluent",
+      "fluent-langneg",
+      "fluent-syntax",
+      "unic-langid",
+      "intl-memoizer"
+    ],
+    "multipart": [
+      "multer",
+      "mime"
+    ],
+    "native-tls": [
+      "tokio-native-tls"
+    ],
+    "opentelemetry": [
+      "libopentelemetry",
+      "opentelemetry-http",
+      "opentelemetry-semantic-conventions"
+    ],
+    "prometheus": [
+      "libopentelemetry",
+      "opentelemetry-prometheus",
+      "libprometheus"
+    ],
+    "redis-session": [
+      "session",
+      "redis"
+    ],
+    "rustls": [
+      "tokio-rustls",
+      "rustls-pemfile"
+    ],
+    "session": [
+      "cookie",
+      "rand",
+      "priority-queue"
+    ],
+    "sse": [],
+    "static-files": [
+      "httpdate",
+      "mime",
+      "mime_guess",
+      "tokio/io-util",
+      "tokio/fs"
+    ],
+    "tempfile": [
+      "libtempfile",
+      "tokio/fs"
+    ],
+    "test": [
+      "sse",
+      "sse-codec",
+      "tokio-util/compat",
+      "mime"
+    ],
+    "tower-compat": [
+      "tower"
+    ],
+    "websocket": [
+      "tokio-tungstenite",
+      "sha1",
+      "base64"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66052,
+    "login": "sunli829"
+  },
+  "publishedAt": "2022-02-10T06:42:59.190611Z",
+  "dependencies": [
+    "async-stream",
+    "async-trait",
+    "bytes",
+    "futures-util",
+    "headers",
+    "http",
+    "hyper",
+    "parking_lot",
+    "percent-encoding",
+    "pin-project-lite",
+    "poem-derive",
+    "regex",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "smallvec",
+    "thiserror",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tracing",
+    "anyhow",
+    "async-compression",
+    "base64",
+    "chrono",
+    "cookie",
+    "csrf",
+    "eyre",
+    "fluent",
+    "fluent-langneg",
+    "fluent-syntax",
+    "httpdate",
+    "intl-memoizer",
+    "mime",
+    "mime_guess",
+    "multer",
+    "opentelemetry",
+    "opentelemetry-http",
+    "opentelemetry-prometheus",
+    "opentelemetry-semantic-conventions",
+    "priority-queue",
+    "prometheus",
+    "rand",
+    "redis",
+    "rustls-pemfile",
+    "sha1",
+    "sse-codec",
+    "tempfile",
+    "time",
+    "tokio-native-tls",
+    "tokio-rustls",
+    "tokio-tungstenite",
+    "tower",
+    "typed-headers",
+    "unic-langid"
+  ]
+}

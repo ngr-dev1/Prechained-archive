@@ -1,0 +1,74 @@
+{
+  "name": "csv-parser",
+  "version": "2.0.0-beta.0",
+  "ecosystem": "npm",
+  "description": "Streaming CSV parser that aims for maximum speed as well as compatibility with the csv-spectrum test suite",
+  "license": "MIT",
+  "dependencies": {
+    "ndjson": "^1.4.0",
+    "minimist": "^1.2.0",
+    "buffer-from": "^1.0.0",
+    "buffer-alloc": "^1.1.0",
+    "generate-function": "^1.0.1",
+    "generate-object-property": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "bops": "^0.1.1",
+    "chalk": "^2.4.1",
+    "husky": "^0.14.3",
+    "eslint": "^5.4.0",
+    "globby": "^8.0.1",
+    "time-span": "^2.0.0",
+    "pre-commit": "^1.2.2",
+    "strip-ansi": "^4.0.0",
+    "text-table": "^0.2.0",
+    "lint-staged": "^7.2.0",
+    "csv-spectrum": "^1.0.0",
+    "concat-stream": "^1.4.5",
+    "loud-rejection": "^1.6.0",
+    "@commitlint/cli": "^7.0.0",
+    "standard-version": "^4.4.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "@commitlint/config-conventional": "^7.0.1"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "mafintosh",
+      "email": "mathiasbuus@gmail.com"
+    },
+    {
+      "name": "maxogden",
+      "email": "max@maxogden.com"
+    },
+    {
+      "name": "shellscape",
+      "email": "andrew@shellscape.org"
+    }
+  ],
+  "author": {
+    "name": "mafintosh"
+  },
+  "publishedAt": "2018-08-22T13:33:33.155Z",
+  "dist": {
+    "integrity": "sha512-+/mid0H8rNrhOvuNBsnlcDJ86ElbU4oNF0hKlTIs41ddvLOcSXa2V1vtEAZ9otL4dN8yS37/AmWNYQWObOPJ6Q==",
+    "shasum": "2ed11d89cf1f1f949f57ff7a25521e563b16d408",
+    "tarball": "https://registry.npmjs.org/csv-parser/-/csv-parser-2.0.0-beta.0.tgz",
+    "fileCount": 5,
+    "unpackedSize": 19243
+  },
+  "_npmUser": {
+    "name": "shellscape",
+    "email": "andrew@shellscape.org"
+  }
+}

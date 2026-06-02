@@ -1,0 +1,27 @@
+{
+  "name": "rand_chacha",
+  "version": "0.2.1",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "03a2a90da8c7523f554344f921aa97283eadf6ac484a6d2a7d0212fa7f8d6853",
+  "features": {
+    "default": [
+      "std",
+      "simd"
+    ],
+    "simd": [],
+    "std": [
+      "c2-chacha/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1234,
+    "login": "dhardy"
+  },
+  "publishedAt": "2019-07-25T14:53:00.935569Z",
+  "dependencies": [
+    "c2-chacha",
+    "rand_core"
+  ]
+}

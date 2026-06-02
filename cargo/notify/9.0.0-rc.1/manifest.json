@@ -1,0 +1,56 @@
+{
+  "name": "notify",
+  "version": "9.0.0-rc.1",
+  "ecosystem": "cargo",
+  "license": "CC0-1.0",
+  "checksum": "6d1f660da45085290c8c3cfde8e99b5992afd363f574e25d61692c27814e7a16",
+  "features": {
+    "default": [
+      "macos_fsevent"
+    ],
+    "macos_fsevent": [
+      "objc2-core-foundation",
+      "objc2-core-services"
+    ],
+    "macos_kqueue": [
+      "kqueue",
+      "mio"
+    ],
+    "serde": [
+      "notify-types/serde"
+    ],
+    "serialization-compat-6": [
+      "notify-types/serialization-compat-6"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 51017,
+    "login": "JohnTitor"
+  },
+  "publishedAt": "2026-01-25T08:28:48.114334Z",
+  "dependencies": [
+    "bitflags",
+    "inotify",
+    "insta",
+    "kqueue",
+    "libc",
+    "log",
+    "mio",
+    "mio",
+    "nix",
+    "notify-types",
+    "pretty_assertions",
+    "serde_json",
+    "tempfile",
+    "trash",
+    "walkdir",
+    "windows-sys",
+    "crossbeam-channel",
+    "flume",
+    "kqueue",
+    "mio",
+    "objc2-core-foundation",
+    "objc2-core-services"
+  ]
+}

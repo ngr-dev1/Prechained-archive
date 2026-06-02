@@ -1,0 +1,40 @@
+{
+  "name": "zip",
+  "version": "0.5.10",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "5a8977234acab718eb2820494b2f96cbb16004c19dddf88b7445b27381450997",
+  "features": {
+    "default": [
+      "bzip2",
+      "deflate",
+      "time"
+    ],
+    "deflate": [
+      "flate2/rust_backend"
+    ],
+    "deflate-miniz": [
+      "flate2/default"
+    ],
+    "deflate-zlib": [
+      "flate2/zlib"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 84480,
+    "login": "Plecra"
+  },
+  "publishedAt": "2021-02-14T12:38:49.080076Z",
+  "dependencies": [
+    "bencher",
+    "byteorder",
+    "crc32fast",
+    "rand",
+    "thiserror",
+    "walkdir",
+    "bzip2",
+    "flate2",
+    "time"
+  ]
+}

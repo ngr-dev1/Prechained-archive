@@ -1,0 +1,33 @@
+{
+  "name": "anyio",
+  "version": "1.4.0",
+  "ecosystem": "pypi",
+  "summary": "High level compatibility layer for multiple asynchronous event loop implementations",
+  "license": "MIT",
+  "author": "Alex Grönholm",
+  "author_email": "alex.gronholm@nextday.fi",
+  "requires_python": ">=3.5.3",
+  "requires_dist": [
+    "async-generator",
+    "idna (>=2.8)",
+    "sniffio (>=1.1)",
+    "curio (==0.9) ; (python_version == \"3.5.*\") and extra == 'curio'",
+    "curio (>=0.9) ; (python_version >= \"3.6\") and extra == 'curio'",
+    "sphinx-rtd-theme ; extra == 'doc'",
+    "sphinx-autodoc-typehints (>=1.2.0) ; extra == 'doc'",
+    "coverage (>=4.5) ; extra == 'test'",
+    "hypothesis (>=4.0) ; extra == 'test'",
+    "pytest (>=3.7.2) ; extra == 'test'",
+    "uvloop ; (platform_python_implementation == \"CPython\" and platform_system != \"Windows\") and extra == 'test'",
+    "trio (>=0.12) ; extra == 'trio'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2020-07-06T09:49:50",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/c3/5f/ad80678e9ed82f8c4236a108b203b1aeb05f8d5de66b9b7bbed8e3255eaf/anyio-1.4.0-py3-none-any.whl",
+    "sha256": "9ee67e8131853f42957e214d4531cee6f2b66dda164a298d9686a768b7161a4f",
+    "size": 36800,
+    "filename": "anyio-1.4.0-py3-none-any.whl"
+  }
+}

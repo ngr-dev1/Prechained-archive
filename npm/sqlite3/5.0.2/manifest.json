@@ -1,0 +1,70 @@
+{
+  "name": "sqlite3",
+  "version": "5.0.2",
+  "ecosystem": "npm",
+  "description": "Asynchronous, non-blocking SQLite3 bindings",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "node-gyp": "3.x",
+    "node-pre-gyp": "^0.11.0",
+    "node-addon-api": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "eslint": "3.5.0",
+    "aws-sdk": "2.x",
+    "@mapbox/cloudfriend": "^1.9.0"
+  },
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "springmeyer",
+      "email": "dane@mapbox.com"
+    },
+    {
+      "name": "kkaefer",
+      "email": "mail@kkaefer.com"
+    },
+    {
+      "name": "tmcw",
+      "email": "tom@macwright.com"
+    },
+    {
+      "name": "yhahn",
+      "email": "young@mapbox.com"
+    },
+    {
+      "name": "mapsam",
+      "email": "sam@mapbox.com"
+    },
+    {
+      "name": "zmully",
+      "email": "mully@mapbox.com"
+    },
+    {
+      "name": "kewde_",
+      "email": "kewde@particl.io"
+    }
+  ],
+  "author": {
+    "url": "https://mapbox.com/",
+    "name": "MapBox"
+  },
+  "publishedAt": "2021-02-15T21:08:36.117Z",
+  "dist": {
+    "integrity": "sha512-1SdTNo+BVU211Xj1csWa8lV6KM0CtucDwRyA0VHl91wEH1Mgh7RxUpI4rVvG7OhHrzCSGaVyW5g8vKvlrk9DJA==",
+    "shasum": "00924adcc001c17686e0a6643b6cbbc2d3965083",
+    "tarball": "https://registry.npmjs.org/sqlite3/-/sqlite3-5.0.2.tgz",
+    "fileCount": 32,
+    "unpackedSize": 3088618
+  },
+  "_npmUser": {
+    "name": "kewde_",
+    "email": "kewde@particl.io"
+  }
+}

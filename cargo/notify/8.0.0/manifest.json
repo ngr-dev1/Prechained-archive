@@ -1,0 +1,52 @@
+{
+  "name": "notify",
+  "version": "8.0.0",
+  "ecosystem": "cargo",
+  "license": "CC0-1.0",
+  "checksum": "2fee8403b3d66ac7b26aee6e40a897d85dc5ce26f44da36b8b73e987cc52e943",
+  "features": {
+    "default": [
+      "macos_fsevent"
+    ],
+    "macos_fsevent": [
+      "fsevent-sys"
+    ],
+    "macos_kqueue": [
+      "kqueue",
+      "mio"
+    ],
+    "serde": [
+      "notify-types/serde"
+    ],
+    "serialization-compat-6": [
+      "notify-types/serialization-compat-6"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5649,
+    "login": "dfaust"
+  },
+  "publishedAt": "2025-01-10T14:34:44.890868Z",
+  "dependencies": [
+    "bitflags",
+    "filetime",
+    "inotify",
+    "insta",
+    "kqueue",
+    "libc",
+    "log",
+    "mio",
+    "mio",
+    "nix",
+    "notify-types",
+    "serde_json",
+    "tempfile",
+    "walkdir",
+    "windows-sys",
+    "crossbeam-channel",
+    "fsevent-sys",
+    "kqueue",
+    "mio"
+  ]
+}

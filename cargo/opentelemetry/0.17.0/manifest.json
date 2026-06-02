@@ -1,0 +1,74 @@
+{
+  "name": "opentelemetry",
+  "version": "0.17.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "6105e89802af13fdf48c49d7646d3b533a70e536d818aae7e78ba0433d01acb8",
+  "features": {
+    "default": [
+      "trace"
+    ],
+    "metrics": [
+      "dashmap",
+      "fnv"
+    ],
+    "rt-async-std": [
+      "async-std"
+    ],
+    "rt-tokio": [
+      "tokio",
+      "tokio-stream"
+    ],
+    "rt-tokio-current-thread": [
+      "tokio",
+      "tokio-stream"
+    ],
+    "serialize": [
+      "serde"
+    ],
+    "testing": [
+      "trace",
+      "metrics",
+      "rt-async-std",
+      "rt-tokio",
+      "rt-tokio-current-thread",
+      "tokio/macros",
+      "tokio/rt-multi-thread"
+    ],
+    "trace": [
+      "crossbeam-channel",
+      "rand",
+      "pin-project",
+      "async-trait",
+      "percent-encoding"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66511,
+    "login": "jtescher"
+  },
+  "publishedAt": "2022-01-22T16:54:28.708158Z",
+  "dependencies": [
+    "bincode",
+    "criterion",
+    "futures-channel",
+    "futures-executor",
+    "futures-util",
+    "js-sys",
+    "lazy_static",
+    "rand_distr",
+    "thiserror",
+    "async-std",
+    "async-trait",
+    "crossbeam-channel",
+    "dashmap",
+    "fnv",
+    "percent-encoding",
+    "pin-project",
+    "rand",
+    "serde",
+    "tokio",
+    "tokio-stream"
+  ]
+}

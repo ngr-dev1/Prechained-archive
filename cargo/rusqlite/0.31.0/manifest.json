@@ -1,0 +1,139 @@
+{
+  "name": "rusqlite",
+  "version": "0.31.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "b838eba278d213a8beaf485bd313fd580ca4505a00d5871caeb1457c55322cae",
+  "features": {
+    "array": [
+      "vtab"
+    ],
+    "backup": [],
+    "blob": [],
+    "buildtime_bindgen": [
+      "libsqlite3-sys/buildtime_bindgen"
+    ],
+    "bundled": [
+      "libsqlite3-sys/bundled",
+      "modern_sqlite"
+    ],
+    "bundled-full": [
+      "modern-full",
+      "bundled"
+    ],
+    "bundled-sqlcipher": [
+      "libsqlite3-sys/bundled-sqlcipher",
+      "bundled"
+    ],
+    "bundled-sqlcipher-vendored-openssl": [
+      "libsqlite3-sys/bundled-sqlcipher-vendored-openssl",
+      "bundled-sqlcipher"
+    ],
+    "bundled-windows": [
+      "libsqlite3-sys/bundled-windows"
+    ],
+    "collation": [],
+    "column_decltype": [],
+    "csvtab": [
+      "csv",
+      "vtab"
+    ],
+    "extra_check": [],
+    "functions": [],
+    "hooks": [],
+    "i128_blob": [],
+    "in_gecko": [
+      "modern_sqlite",
+      "libsqlite3-sys/in_gecko"
+    ],
+    "limits": [],
+    "load_extension": [],
+    "loadable_extension": [
+      "libsqlite3-sys/loadable_extension"
+    ],
+    "modern-full": [
+      "array",
+      "backup",
+      "blob",
+      "modern_sqlite",
+      "chrono",
+      "collation",
+      "column_decltype",
+      "csvtab",
+      "extra_check",
+      "functions",
+      "hooks",
+      "i128_blob",
+      "limits",
+      "load_extension",
+      "serde_json",
+      "series",
+      "time",
+      "trace",
+      "unlock_notify",
+      "url",
+      "uuid",
+      "vtab",
+      "window"
+    ],
+    "modern_sqlite": [
+      "libsqlite3-sys/bundled_bindings"
+    ],
+    "release_memory": [],
+    "serialize": [
+      "modern_sqlite"
+    ],
+    "series": [
+      "vtab"
+    ],
+    "session": [
+      "libsqlite3-sys/session",
+      "hooks"
+    ],
+    "sqlcipher": [
+      "libsqlite3-sys/sqlcipher"
+    ],
+    "trace": [],
+    "unlock_notify": [
+      "libsqlite3-sys/unlock_notify"
+    ],
+    "vtab": [],
+    "wasm32-wasi-vfs": [
+      "libsqlite3-sys/wasm32-wasi-vfs"
+    ],
+    "window": [
+      "functions"
+    ],
+    "with-asan": [
+      "libsqlite3-sys/with-asan"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5062,
+    "login": "gwenn"
+  },
+  "publishedAt": "2024-02-17T08:58:41.549607Z",
+  "dependencies": [
+    "bencher",
+    "bitflags",
+    "doc-comment",
+    "fallible-iterator",
+    "fallible-streaming-iterator",
+    "hashlink",
+    "lazy_static",
+    "libsqlite3-sys",
+    "regex",
+    "smallvec",
+    "tempfile",
+    "unicase",
+    "uuid",
+    "chrono",
+    "csv",
+    "rusqlite-macros",
+    "serde_json",
+    "time",
+    "url",
+    "uuid"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "acme",
+  "version": "0.10.1",
+  "ecosystem": "pypi",
+  "summary": "ACME protocol implementation in Python",
+  "license": "Apache License 2.0",
+  "author": "Certbot Project",
+  "author_email": "client-dev@letsencrypt.org",
+  "requires_python": "",
+  "requires_dist": [
+    "cryptography (>=0.8)",
+    "PyOpenSSL (>=0.13)",
+    "pyrfc3339",
+    "pytz",
+    "requests[security] (>=2.4.1)",
+    "setuptools (>=1.0)",
+    "six",
+    "mock",
+    "nose; extra == 'dev'",
+    "pep8; extra == 'dev'",
+    "tox; extra == 'dev'",
+    "dnspython (>=1.12); extra == 'dns'",
+    "Sphinx (>=1.0); extra == 'docs'",
+    "sphinx-rtd-theme; extra == 'docs'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2017-01-14T00:50:20",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/e0/c6/abdbd9c4c3cf5488d7b09421000951ff7430a552400db1a64698e37e0361/acme-0.10.1-py2.py3-none-any.whl",
+    "sha256": "1dd5124078bc44739065409f3be51765608a90994c83460578c2680c582c1026",
+    "size": 97122,
+    "filename": "acme-0.10.1-py2.py3-none-any.whl"
+  }
+}

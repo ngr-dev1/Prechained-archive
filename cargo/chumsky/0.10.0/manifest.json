@@ -1,0 +1,90 @@
+{
+  "name": "chumsky",
+  "version": "0.10.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "fb7314158bb843d046a78540774db3d78518f5150ea7109e9c8da864d45a738c",
+  "features": {
+    "_test_stable": [
+      "std",
+      "stacker",
+      "memoization",
+      "extension",
+      "sync"
+    ],
+    "bytes": [
+      "dep:bytes"
+    ],
+    "default": [
+      "std",
+      "stacker"
+    ],
+    "docsrs": [
+      "dep:vergen-gix"
+    ],
+    "either": [
+      "dep:either"
+    ],
+    "extension": [],
+    "lexical-numbers": [
+      "lexical",
+      "unstable"
+    ],
+    "memoization": [],
+    "nightly": [],
+    "pratt": [
+      "unstable"
+    ],
+    "regex": [
+      "dep:regex-automata"
+    ],
+    "serde": [
+      "dep:serde"
+    ],
+    "stacker": [
+      "dep:stacker",
+      "std"
+    ],
+    "std": [
+      "regex-automata?/std",
+      "serde?/std"
+    ],
+    "sync": [
+      "spin"
+    ],
+    "unstable": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 21853,
+    "login": "zesterer"
+  },
+  "publishedAt": "2025-03-22T18:02:56.576964Z",
+  "dependencies": [
+    "ariadne",
+    "ciborium",
+    "criterion",
+    "hashbrown",
+    "lasso",
+    "logos",
+    "nom",
+    "pest",
+    "pest_derive",
+    "pom",
+    "pprof",
+    "serde_json",
+    "slotmap",
+    "sn",
+    "unicode-ident",
+    "unicode-segmentation",
+    "winnow",
+    "bytes",
+    "either",
+    "lexical",
+    "regex-automata",
+    "serde",
+    "spin",
+    "stacker",
+    "vergen-gix"
+  ]
+}

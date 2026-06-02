@@ -1,0 +1,41 @@
+{
+  "name": "dask",
+  "version": "0.10.2",
+  "ecosystem": "pypi",
+  "summary": "Minimal task scheduling abstraction",
+  "license": "BSD",
+  "author": "Matthew Rocklin",
+  "author_email": "mrocklin@gmail.com",
+  "requires_python": "",
+  "requires_dist": [
+    "numpy; extra == 'array'",
+    "toolz (>=0.7.2); extra == 'array'",
+    "cloudpickle (>=0.2.1); extra == 'bag'",
+    "partd (>=0.3.5); extra == 'bag'",
+    "toolz (>=0.7.2); extra == 'bag'",
+    "cloudpickle (>=0.2.1); extra == 'complete'",
+    "distributed (>=1.10); extra == 'complete'",
+    "numpy; extra == 'complete'",
+    "pandas (>=0.18.0); extra == 'complete'",
+    "partd (>=0.3.5); extra == 'complete'",
+    "s3fs; extra == 'complete'",
+    "toolz (>=0.7.2); extra == 'complete'",
+    "cloudpickle (>=0.2.1); extra == 'dataframe'",
+    "numpy; extra == 'dataframe'",
+    "pandas (>=0.18.0); extra == 'dataframe'",
+    "partd (>=0.3.5); extra == 'dataframe'",
+    "toolz (>=0.7.2); extra == 'dataframe'",
+    "distributed (>=1.10); extra == 'distributed'",
+    "s3fs; extra == 'distributed'",
+    "toolz (>=0.7.2); extra == 'imperative'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2016-07-26T20:19:57",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/02/cb/6c7344ed66f3dc5c52dbcdea4d681a911a2101268080a621cb0a9698bf95/dask-0.10.2-py2.py3-none-any.whl",
+    "sha256": "88b5c6ddfa5a2d5d9838f0c170377adab5cd36573a65bdfd4a067da86912ec8e",
+    "size": 349265,
+    "filename": "dask-0.10.2-py2.py3-none-any.whl"
+  }
+}

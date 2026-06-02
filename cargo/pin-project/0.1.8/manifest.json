@@ -1,0 +1,26 @@
+{
+  "name": "pin-project",
+  "version": "0.1.8",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "9aa58482e9a951a0b4e3c1e5a4e0859af724cb5efbd6839d87827a41d6bf3b7a",
+  "features": {
+    "default": [
+      "project_attr",
+      "unsafe_fields"
+    ],
+    "project_attr": [
+      "syn/visit-mut"
+    ],
+    "unsafe_fields": [],
+    "unsafe_variants": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2019-02-02T13:30:06.297450Z",
+  "dependencies": [
+    "proc-macro2",
+    "quote",
+    "syn"
+  ]
+}

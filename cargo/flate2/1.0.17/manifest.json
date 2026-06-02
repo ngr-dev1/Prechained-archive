@@ -1,0 +1,56 @@
+{
+  "name": "flate2",
+  "version": "1.0.17",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "766d0e77a2c1502169d4a93ff3b8c15a71fd946cd0126309752104e5f3c46d94",
+  "features": {
+    "any_zlib": [],
+    "cloudflare_zlib": [
+      "any_zlib",
+      "cloudflare-zlib-sys"
+    ],
+    "default": [
+      "rust_backend"
+    ],
+    "rust_backend": [
+      "miniz_oxide"
+    ],
+    "tokio": [
+      "tokio-io",
+      "futures"
+    ],
+    "zlib": [
+      "any_zlib",
+      "libz-sys"
+    ],
+    "zlib-ng-compat": [
+      "zlib",
+      "libz-sys/zlib-ng"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1,
+    "login": "alexcrichton"
+  },
+  "publishedAt": "2020-08-18T22:52:55.720535Z",
+  "dependencies": [
+    "cfg-if",
+    "crc32fast",
+    "futures",
+    "libc",
+    "miniz_oxide",
+    "quickcheck",
+    "rand",
+    "tokio-io",
+    "tokio-tcp",
+    "tokio-threadpool",
+    "cloudflare-zlib-sys",
+    "futures",
+    "libz-sys",
+    "miniz-sys",
+    "miniz_oxide",
+    "tokio-io"
+  ]
+}

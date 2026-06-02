@@ -1,0 +1,68 @@
+{
+  "name": "uuid",
+  "version": "1.0.0-alpha.1",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "bb3ab47baa004111b323696c6eaa2752e7356f7f77cf6b6dc7a2087368ce1ca4",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "fast-rng": [
+      "rng",
+      "rand"
+    ],
+    "js": [
+      "getrandom",
+      "getrandom/js"
+    ],
+    "macro-diagnostics": [
+      "uuid-macro-internal"
+    ],
+    "rng": [
+      "getrandom"
+    ],
+    "std": [],
+    "v1": [
+      "atomic"
+    ],
+    "v3": [
+      "md-5"
+    ],
+    "v4": [
+      "rng"
+    ],
+    "v5": [
+      "sha-1"
+    ],
+    "zerocopy-unstable": [
+      "zerocopy"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3204,
+    "login": "KodrAus"
+  },
+  "publishedAt": "2021-11-18T02:15:16.111070Z",
+  "dependencies": [
+    "bincode",
+    "serde_derive",
+    "serde_json",
+    "serde_test",
+    "trybuild",
+    "wasm-bindgen",
+    "wasm-bindgen-test",
+    "winapi",
+    "arbitrary",
+    "atomic",
+    "getrandom",
+    "md-5",
+    "rand",
+    "serde",
+    "sha-1",
+    "slog",
+    "uuid-macro-internal",
+    "zerocopy"
+  ]
+}

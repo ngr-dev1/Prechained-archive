@@ -1,0 +1,30 @@
+{
+  "name": "scrypt",
+  "version": "0.1.2",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "8570c5e2fa69cb29d492fd4e9974b6b5facb5a888e1c6da630d4a3cd7ebfef4a",
+  "features": {
+    "default": [
+      "include_simple"
+    ],
+    "include_simple": [
+      "rand",
+      "base64",
+      "constant_time_eq"
+    ]
+  },
+  "yanked": true,
+  "published_by": null,
+  "publishedAt": "2018-08-30T23:46:11.504149Z",
+  "dependencies": [
+    "byte-tools",
+    "byteorder",
+    "hmac",
+    "pbkdf2",
+    "sha2",
+    "base64",
+    "constant_time_eq",
+    "rand"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pyjwt",
+  "version": "2.0.1",
+  "ecosystem": "pypi",
+  "summary": "JSON Web Token implementation in Python",
+  "license": "MIT",
+  "author": "Jose Padilla",
+  "author_email": "hello@jpadilla.com",
+  "requires_python": ">=3.6",
+  "requires_dist": [
+    "cryptography (<4.0.0,>=3.3.1) ; extra == 'crypto'",
+    "sphinx ; extra == 'dev'",
+    "sphinx-rtd-theme ; extra == 'dev'",
+    "zope.interface ; extra == 'dev'",
+    "cryptography (<4.0.0,>=3.3.1) ; extra == 'dev'",
+    "pytest (<7.0.0,>=6.0.0) ; extra == 'dev'",
+    "coverage[toml] (==5.0.4) ; extra == 'dev'",
+    "mypy ; extra == 'dev'",
+    "pre-commit ; extra == 'dev'",
+    "sphinx ; extra == 'docs'",
+    "sphinx-rtd-theme ; extra == 'docs'",
+    "zope.interface ; extra == 'docs'",
+    "pytest (<7.0.0,>=6.0.0) ; extra == 'tests'",
+    "coverage[toml] (==5.0.4) ; extra == 'tests'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2021-01-17T17:57:18",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/b4/9b/8850f99027ed029af6828199cc87179eaccbbf1f9e6e373e7f0177d32dad/PyJWT-2.0.1-py3-none-any.whl",
+    "sha256": "b70b15f89dc69b993d8a8d32c299032d5355c82f9b5b7e851d1a6d706dffe847",
+    "size": 15991,
+    "filename": "PyJWT-2.0.1-py3-none-any.whl"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "rdkafka",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "d30b56da997324dddfefcc5c2d68e64f6cd00045420097333687569509b4f4ab",
+  "features": {
+    "default": [
+      "zlib"
+    ],
+    "sasl": [
+      "librdkafka-sys/sasl",
+      "ssl"
+    ],
+    "ssl": [
+      "librdkafka-sys/ssl"
+    ],
+    "zlib": [
+      "librdkafka-sys/zlib"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-11-20T22:31:58.886092Z",
+  "dependencies": [
+    "clap",
+    "env_logger",
+    "errno",
+    "futures",
+    "libc",
+    "librdkafka-sys",
+    "log"
+  ]
+}

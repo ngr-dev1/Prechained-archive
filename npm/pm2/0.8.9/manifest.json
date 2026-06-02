@@ -1,0 +1,58 @@
+{
+  "name": "pm2",
+  "version": "0.8.9",
+  "ecosystem": "npm",
+  "description": "Production process manager for Node.JS applications with a built-in load balancer.",
+  "license": "AGPLv3",
+  "dependencies": {
+    "axon": "1.0.0",
+    "cron": "1.0.1",
+    "async": "0.7.0",
+    "debug": "*",
+    "colors": "0.6.2",
+    "chokidar": "~0.8.2",
+    "pidusage": "0.0.4",
+    "cli-table": "0.3.0",
+    "commander": "2.2.0",
+    "pm2-axon-rpc": "0.0.2",
+    "coffee-script": "1.7.0",
+    "eventemitter2": "0.4.13",
+    "pm2-interface": "0.1.3",
+    "pm2-multimeter": "0.1.2",
+    "json-stringify-safe": "*"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "should": "1.x",
+    "better-assert": "*"
+  },
+  "scripts": {
+    "install": "node scripts/install.js",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "tknew",
+      "email": "strzelewicz.alexandre@gmail.com"
+    }
+  ],
+  "author": {
+    "url": "http://pm2.io",
+    "name": "Strzelewicz Alexandre",
+    "email": "as@unitech.io"
+  },
+  "publishedAt": "2014-05-16T15:27:59.884Z",
+  "dist": {
+    "integrity": "sha512-uunTQlfex2iqgX/FoCr+D91BbOAel25nn8Efd6Nz8VoFtKpdN6nTDjw4tdHIRZOoLOxgVYwPXcodKvfeEEYAlA==",
+    "shasum": "4a4d003888dea7ad5aac436f705f81a5002d8e3e",
+    "tarball": "https://registry.npmjs.org/pm2/-/pm2-0.8.9.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "tknew",
+    "email": "strzelewicz.alexandre@gmail.com"
+  }
+}

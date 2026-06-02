@@ -1,0 +1,43 @@
+{
+  "name": "opentelemetry",
+  "version": "0.19.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "5f4b8347cc26099d3aeee044065ecc3ae11469796b4d65d065a23a584ed92a6f",
+  "features": {
+    "default": [
+      "trace"
+    ],
+    "metrics": [
+      "opentelemetry_api/metrics",
+      "opentelemetry_sdk/metrics"
+    ],
+    "rt-async-std": [
+      "opentelemetry_sdk/rt-async-std"
+    ],
+    "rt-tokio": [
+      "opentelemetry_sdk/rt-tokio"
+    ],
+    "rt-tokio-current-thread": [
+      "opentelemetry_sdk/rt-tokio-current-thread"
+    ],
+    "testing": [
+      "opentelemetry_api/testing",
+      "opentelemetry_sdk/testing"
+    ],
+    "trace": [
+      "opentelemetry_api/trace",
+      "opentelemetry_sdk/trace"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66511,
+    "login": "jtescher"
+  },
+  "publishedAt": "2023-03-26T03:13:41.461204Z",
+  "dependencies": [
+    "opentelemetry_api",
+    "opentelemetry_sdk"
+  ]
+}

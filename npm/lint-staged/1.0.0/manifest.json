@@ -1,0 +1,50 @@
+{
+  "name": "lint-staged",
+  "version": "1.0.0",
+  "ecosystem": "npm",
+  "description": "Lint files staged by git",
+  "license": "MIT",
+  "dependencies": {
+    "ora": "^0.2.3",
+    "which": "^1.2.9",
+    "npm-run": "^3.0.0",
+    "minimatch": "^3.0.0",
+    "strip-eof": "^1.0.0",
+    "object-assign": "^4.1.0",
+    "staged-git-files": "0.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "npmpub": "^3.1.0",
+    "pre-commit": "^1.1.3",
+    "eslint-config-es5": "^0.5.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "echo \"lint-staged installed! Do not forget to install linters!\" && exit 0",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "okonet",
+      "email": "andrey@okonet.ru"
+    }
+  ],
+  "author": {
+    "name": "Andrey Okonetchnikov",
+    "email": "andrey@okonet.ru"
+  },
+  "publishedAt": "2016-06-07T10:33:14.122Z",
+  "dist": {
+    "integrity": "sha512-Xcwjn9ejIVtsywgCfOhlmHRTlIuEjsNAqH1jbbLFIJtHFciKIC/jprSAf3FeLMUGWyvBAYFdpcCOM9Lcn2f5Ng==",
+    "shasum": "7d14c9e2f376a5f24f9a9f9142e31cb422e3cf3c",
+    "tarball": "https://registry.npmjs.org/lint-staged/-/lint-staged-1.0.0.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "okonet",
+    "email": "andrey@okonet.ru"
+  }
+}

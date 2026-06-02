@@ -1,0 +1,44 @@
+{
+  "name": "tinyvec",
+  "version": "1.6.1",
+  "ecosystem": "cargo",
+  "license": "Zlib OR Apache-2.0 OR MIT",
+  "checksum": "c55115c6fbe2d2bef26eb09ad74bde02d8255476fc0c7b515ef09fbb35742d82",
+  "features": {
+    "alloc": [
+      "tinyvec_macros"
+    ],
+    "debugger_visualizer": [],
+    "default": [],
+    "experimental_write_impl": [],
+    "grab_spare_slice": [],
+    "nightly_slice_partition_dedup": [],
+    "real_blackbox": [
+      "criterion/real_blackbox"
+    ],
+    "rustc_1_40": [],
+    "rustc_1_55": [],
+    "rustc_1_57": [
+      "rustc_1_55"
+    ],
+    "std": [
+      "alloc"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 7211,
+    "login": "Lokathor"
+  },
+  "publishedAt": "2024-06-25T05:09:17.323561Z",
+  "dependencies": [
+    "criterion",
+    "debugger_test",
+    "debugger_test_parser",
+    "serde_test",
+    "smallvec",
+    "arbitrary",
+    "serde",
+    "tinyvec_macros"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "crossbeam",
+  "version": "0.8.3",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "6eb9105919ca8e40d437fc9cbb8f1975d916f1bd28afe795a48aae32a2cc8920",
+  "features": {
+    "alloc": [
+      "crossbeam-epoch/alloc",
+      "crossbeam-queue/alloc"
+    ],
+    "default": [
+      "std"
+    ],
+    "nightly": [
+      "crossbeam-epoch/nightly",
+      "crossbeam-utils/nightly",
+      "crossbeam-queue/nightly"
+    ],
+    "std": [
+      "alloc",
+      "crossbeam-channel/std",
+      "crossbeam-deque/std",
+      "crossbeam-epoch/std",
+      "crossbeam-queue/std",
+      "crossbeam-utils/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 33035,
+    "login": "taiki-e"
+  },
+  "publishedAt": "2023-12-24T06:28:41.638979Z",
+  "dependencies": [
+    "cfg-if",
+    "crossbeam-utils",
+    "rand",
+    "crossbeam-channel",
+    "crossbeam-deque",
+    "crossbeam-epoch",
+    "crossbeam-queue"
+  ]
+}

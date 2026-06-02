@@ -1,0 +1,154 @@
+{
+  "name": "diesel",
+  "version": "2.2.9",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "34d3950690ba3a6910126162b47e775e203006d4242a15de912bec6c0a695153",
+  "features": {
+    "128-column-tables": [
+      "64-column-tables",
+      "diesel_derives/128-column-tables"
+    ],
+    "32-column-tables": [
+      "diesel_derives/32-column-tables"
+    ],
+    "64-column-tables": [
+      "32-column-tables",
+      "diesel_derives/64-column-tables"
+    ],
+    "__with_asan_tests": [
+      "libsqlite3-sys?/bundled",
+      "libsqlite3-sys?/with-asan",
+      "pq-sys?/bundled",
+      "pq-src?/with-asan",
+      "mysqlclient-sys?/bundled",
+      "mysqlclient-src?/with-asan"
+    ],
+    "chrono": [
+      "diesel_derives/chrono",
+      "dep:chrono"
+    ],
+    "default": [
+      "with-deprecated",
+      "32-column-tables"
+    ],
+    "extras": [
+      "chrono",
+      "time",
+      "serde_json",
+      "uuid",
+      "network-address",
+      "numeric",
+      "r2d2"
+    ],
+    "huge-tables": [
+      "64-column-tables"
+    ],
+    "i-implement-a-third-party-backend-and-opt-into-breaking-changes": [],
+    "ipnet-address": [
+      "dep:ipnet",
+      "dep:libc"
+    ],
+    "large-tables": [
+      "32-column-tables"
+    ],
+    "mysql": [
+      "dep:mysqlclient-sys",
+      "dep:url",
+      "dep:percent-encoding",
+      "dep:bitflags",
+      "mysql_backend"
+    ],
+    "mysql_backend": [
+      "diesel_derives/mysql",
+      "dep:byteorder"
+    ],
+    "network-address": [
+      "dep:ipnetwork",
+      "dep:libc"
+    ],
+    "numeric": [
+      "dep:num-bigint",
+      "dep:bigdecimal",
+      "dep:num-traits",
+      "dep:num-integer"
+    ],
+    "postgres": [
+      "dep:pq-sys",
+      "postgres_backend"
+    ],
+    "postgres_backend": [
+      "diesel_derives/postgres",
+      "dep:bitflags",
+      "dep:byteorder",
+      "dep:itoa"
+    ],
+    "r2d2": [
+      "diesel_derives/r2d2",
+      "dep:r2d2"
+    ],
+    "returning_clauses_for_sqlite_3_35": [],
+    "serde_json": [
+      "dep:serde_json"
+    ],
+    "sqlite": [
+      "dep:libsqlite3-sys",
+      "diesel_derives/sqlite",
+      "time?/formatting",
+      "time?/parsing"
+    ],
+    "time": [
+      "diesel_derives/time",
+      "dep:time"
+    ],
+    "unstable": [
+      "diesel_derives/nightly"
+    ],
+    "uuid": [
+      "dep:uuid"
+    ],
+    "with-deprecated": [
+      "diesel_derives/with-deprecated"
+    ],
+    "without-deprecated": [
+      "diesel_derives/without-deprecated"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 4568,
+    "login": "weiznich"
+  },
+  "publishedAt": "2025-04-04T11:26:56.727603Z",
+  "dependencies": [
+    "cfg-if",
+    "diesel_derives",
+    "dotenvy",
+    "ipnetwork",
+    "quickcheck",
+    "tempfile",
+    "bigdecimal",
+    "bitflags",
+    "byteorder",
+    "chrono",
+    "ipnet",
+    "ipnetwork",
+    "itoa",
+    "libc",
+    "libsqlite3-sys",
+    "mysqlclient-src",
+    "mysqlclient-sys",
+    "num-bigint",
+    "num-integer",
+    "num-traits",
+    "percent-encoding",
+    "pq-src",
+    "pq-sys",
+    "quickcheck",
+    "r2d2",
+    "serde_json",
+    "time",
+    "url",
+    "uuid"
+  ]
+}

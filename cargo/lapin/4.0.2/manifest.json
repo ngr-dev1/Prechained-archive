@@ -1,0 +1,89 @@
+{
+  "name": "lapin",
+  "version": "4.0.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "ad40a588e99e453af576467ea9d3f8dcbf0e31916dd770bae627ebbfeccd1c5d",
+  "features": {
+    "async-global-executor": [
+      "amq-protocol/async-global-executor",
+      "async-rs/async-global-executor",
+      "async-rs/async-io"
+    ],
+    "codegen": [
+      "codegen-internal",
+      "amq-protocol/codegen"
+    ],
+    "codegen-internal": [
+      "dep:amq-protocol-codegen",
+      "dep:serde_json"
+    ],
+    "default": [
+      "rustls",
+      "default-runtime"
+    ],
+    "default-runtime": [
+      "tokio"
+    ],
+    "hickory-dns": [
+      "amq-protocol/hickory-dns",
+      "async-rs/hickory-dns"
+    ],
+    "native-tls": [
+      "amq-protocol/native-tls"
+    ],
+    "openssl": [
+      "amq-protocol/openssl"
+    ],
+    "rustls": [
+      "amq-protocol/rustls"
+    ],
+    "rustls--aws_lc_rs": [
+      "amq-protocol/rustls--aws_lc_rs"
+    ],
+    "rustls--ring": [
+      "amq-protocol/rustls--ring"
+    ],
+    "rustls-native-certs": [
+      "amq-protocol/rustls-native-certs"
+    ],
+    "rustls-webpki-roots-certs": [
+      "amq-protocol/rustls-webpki-roots-certs"
+    ],
+    "smol": [
+      "amq-protocol/smol",
+      "async-rs/smol"
+    ],
+    "tokio": [
+      "amq-protocol/tokio",
+      "async-rs/tokio"
+    ],
+    "vendored-openssl": [
+      "amq-protocol/vendored-openssl"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1926,
+    "login": "Keruspe"
+  },
+  "publishedAt": "2026-02-20T15:53:20.136241Z",
+  "dependencies": [
+    "amq-protocol",
+    "async-rs",
+    "async-trait",
+    "backon",
+    "cfg-if",
+    "flume",
+    "futures-core",
+    "futures-io",
+    "futures-lite",
+    "serde_json",
+    "smol",
+    "tokio",
+    "tracing",
+    "tracing-subscriber",
+    "amq-protocol-codegen",
+    "serde_json"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "name": "poem",
+  "version": "1.0.22",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "46d05a932dc4dda2680cc6184e0233cb956159431f6e8a430a9a0e1b6dd21945",
+  "features": {
+    "compression": [
+      "async-compression",
+      "typed-headers"
+    ],
+    "cookie": [
+      "libcookie",
+      "chrono",
+      "time"
+    ],
+    "default": [],
+    "multipart": [
+      "multer"
+    ],
+    "opentelemetry": [
+      "libopentelemetry",
+      "opentelemetry-http",
+      "opentelemetry-semantic-conventions"
+    ],
+    "prometheus": [
+      "libopentelemetry",
+      "opentelemetry-prometheus",
+      "libprometheus"
+    ],
+    "redis-session": [
+      "session",
+      "redis"
+    ],
+    "session": [
+      "cookie",
+      "rand"
+    ],
+    "sse": [],
+    "staticfiles": [
+      "askama"
+    ],
+    "tempfile": [
+      "libtempfile"
+    ],
+    "template": [
+      "askama"
+    ],
+    "tls": [
+      "tokio-rustls"
+    ],
+    "tower-compat": [
+      "tower"
+    ],
+    "websocket": [
+      "tokio-tungstenite"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 66052,
+    "login": "sunli829"
+  },
+  "publishedAt": "2021-11-07T13:40:13.673377Z",
+  "dependencies": [
+    "async-stream",
+    "async-trait",
+    "base64",
+    "bytes",
+    "futures-util",
+    "headers",
+    "http",
+    "hyper",
+    "mime",
+    "mime_guess",
+    "nom",
+    "parking_lot",
+    "percent-encoding",
+    "pin-project-lite",
+    "poem-derive",
+    "regex",
+    "serde",
+    "serde_json",
+    "serde_urlencoded",
+    "sha1",
+    "smallvec",
+    "tokio",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tracing",
+    "webpki",
+    "askama",
+    "async-compression",
+    "chrono",
+    "cookie",
+    "multer",
+    "opentelemetry",
+    "opentelemetry-http",
+    "opentelemetry-prometheus",
+    "opentelemetry-semantic-conventions",
+    "prometheus",
+    "rand",
+    "redis",
+    "tempfile",
+    "time",
+    "tokio-rustls",
+    "tokio-tungstenite",
+    "tower",
+    "typed-headers"
+  ]
+}

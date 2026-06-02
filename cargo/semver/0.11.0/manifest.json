@@ -1,0 +1,27 @@
+{
+  "name": "semver",
+  "version": "0.11.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "f301af10236f6df4160f7c3f04eec6dbc70ace82d23326abad5edee88801c6b6",
+  "features": {
+    "ci": [
+      "serde",
+      "diesel/sqlite"
+    ],
+    "default": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 8,
+    "login": "steveklabnik"
+  },
+  "publishedAt": "2020-09-24T13:49:01.187635Z",
+  "dependencies": [
+    "semver-parser",
+    "serde_derive",
+    "serde_json",
+    "diesel",
+    "serde"
+  ]
+}

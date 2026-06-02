@@ -1,0 +1,125 @@
+{
+  "name": "tower",
+  "version": "0.4.4",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "5fd7b451959622e21de79261673d658a0944b835012c58c51878ea55957fb51a",
+  "features": {
+    "balance": [
+      "discover",
+      "load",
+      "ready-cache",
+      "make",
+      "rand",
+      "slab",
+      "tokio-stream"
+    ],
+    "buffer": [
+      "tokio/sync",
+      "tokio/rt",
+      "tokio-stream"
+    ],
+    "default": [
+      "log"
+    ],
+    "discover": [],
+    "filter": [
+      "futures-util"
+    ],
+    "full": [
+      "balance",
+      "buffer",
+      "discover",
+      "filter",
+      "hedge",
+      "limit",
+      "load",
+      "load-shed",
+      "make",
+      "ready-cache",
+      "reconnect",
+      "retry",
+      "spawn-ready",
+      "steer",
+      "timeout",
+      "util"
+    ],
+    "hedge": [
+      "util",
+      "filter",
+      "futures-util",
+      "hdrhistogram",
+      "tokio/time"
+    ],
+    "limit": [
+      "tokio/time",
+      "tokio/sync"
+    ],
+    "load": [
+      "tokio/time"
+    ],
+    "load-shed": [],
+    "log": [
+      "tracing/log"
+    ],
+    "make": [
+      "tokio/io-std"
+    ],
+    "ready-cache": [
+      "futures-util",
+      "indexmap",
+      "tokio/sync"
+    ],
+    "reconnect": [
+      "make",
+      "tokio/io-std"
+    ],
+    "retry": [
+      "tokio/time"
+    ],
+    "spawn-ready": [
+      "futures-util",
+      "tokio/sync",
+      "tokio/rt",
+      "util"
+    ],
+    "steer": [
+      "futures-util"
+    ],
+    "timeout": [
+      "tokio/time"
+    ],
+    "util": [
+      "futures-util"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2021-01-20T15:31:34.959846Z",
+  "dependencies": [
+    "futures",
+    "futures-core",
+    "hdrhistogram",
+    "http",
+    "pin-project",
+    "quickcheck",
+    "tokio",
+    "tokio-stream",
+    "tokio-test",
+    "tower-layer",
+    "tower-service",
+    "tower-test",
+    "tracing",
+    "tracing-subscriber",
+    "futures-util",
+    "hdrhistogram",
+    "indexmap",
+    "rand",
+    "slab",
+    "tokio",
+    "tokio-stream"
+  ]
+}

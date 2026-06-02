@@ -1,0 +1,41 @@
+{
+  "name": "openssl",
+  "version": "0.6.3",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0",
+  "checksum": "0b8ea24d912d9b07f8e3fbdd4d03ab8e8c0e9adf011c6d94b2bb5437823a28f0",
+  "features": {
+    "aes_xts": [
+      "openssl-sys/aes_xts"
+    ],
+    "dtlsv1": [
+      "openssl-sys/dtlsv1"
+    ],
+    "dtlsv1_2": [
+      "openssl-sys/dtlsv1_2"
+    ],
+    "npn": [
+      "openssl-sys/npn"
+    ],
+    "sslv2": [
+      "openssl-sys/sslv2"
+    ],
+    "tlsv1_1": [
+      "openssl-sys/tlsv1_1"
+    ],
+    "tlsv1_2": [
+      "openssl-sys/tlsv1_2"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2015-06-26T06:28:22.145634Z",
+  "dependencies": [
+    "bitflags",
+    "connected_socket",
+    "lazy_static",
+    "libc",
+    "openssl-sys",
+    "rustc-serialize"
+  ]
+}

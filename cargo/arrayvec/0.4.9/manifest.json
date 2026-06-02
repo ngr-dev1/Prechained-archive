@@ -1,0 +1,29 @@
+{
+  "name": "arrayvec",
+  "version": "0.4.9",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "d18513977c2d8261c448511c5c53dc66b26dfccbc3d4446672dea1e71a7d8a26",
+  "features": {
+    "array-sizes-129-255": [],
+    "array-sizes-33-128": [],
+    "default": [
+      "std"
+    ],
+    "serde-1": [
+      "serde"
+    ],
+    "std": [],
+    "use_union": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-12-16T17:04:02.092848Z",
+  "dependencies": [
+    "bencher",
+    "matches",
+    "nodrop",
+    "serde_test",
+    "serde"
+  ]
+}

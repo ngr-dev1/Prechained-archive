@@ -1,0 +1,54 @@
+{
+  "name": "ed25519-dalek",
+  "version": "0.9.0",
+  "ecosystem": "cargo",
+  "license": "BSD-3-Clause",
+  "checksum": "ee0a06258af904f33407bcc4579a7d491ff2e591a3ddd388e2c60483fc7af2b9",
+  "features": {
+    "alloc": [
+      "curve25519-dalek/alloc"
+    ],
+    "asm": [
+      "sha2/asm"
+    ],
+    "avx2_backend": [
+      "curve25519-dalek/avx2_backend"
+    ],
+    "default": [
+      "std",
+      "u64_backend"
+    ],
+    "nightly": [
+      "curve25519-dalek/nightly",
+      "rand/nightly",
+      "clear_on_drop/nightly"
+    ],
+    "std": [
+      "curve25519-dalek/std"
+    ],
+    "u32_backend": [
+      "curve25519-dalek/u32_backend"
+    ],
+    "u64_backend": [
+      "curve25519-dalek/u64_backend"
+    ],
+    "yolocrypto": [
+      "curve25519-dalek/yolocrypto"
+    ]
+  },
+  "yanked": true,
+  "published_by": null,
+  "publishedAt": "2019-01-17T23:16:17.429699Z",
+  "dependencies": [
+    "bincode",
+    "clear_on_drop",
+    "criterion",
+    "curve25519-dalek",
+    "failure",
+    "hex",
+    "rand",
+    "sha2",
+    "serde",
+    "sha2"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "JetBrains.Annotations",
+  "version": "2023.2.0-eap3",
+  "ecosystem": "nuget",
+  "description": "JetBrains.Annotations help reduce false positive warnings, explicitly declare purity and nullability in your code, deal with implicit usages of members, support special semantics of APIs in ASP.NET and XAML frameworks and otherwise increase accuracy of JetBrains Rider and ReSharper code inspections.\n\nAll usages of JetBrains.Annotations attributes are erased from metadata by default, which means no actual binary reference to 'JetBrains.Annotations.dll' assembly is produced. If you need to preserve these attributes in metadata, just define 'JETBRAINS_ANNOTATIONS' conditional compilation symbol in your projects.",
+  "licenseExpression": "MIT",
+  "authors": "JetBrains",
+  "tags": [
+    "jetbrains",
+    "resharper",
+    "rider",
+    "annotations",
+    "canbenull",
+    "notnull"
+  ],
+  "repositoryUrl": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    "System.Runtime"
+  ],
+  "publishedAt": "2023-05-11T11:27:52.63+00:00",
+  "listed": true,
+  "packageHash": null
+}

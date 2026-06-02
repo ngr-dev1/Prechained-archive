@@ -1,0 +1,32 @@
+{
+  "name": "p256",
+  "version": "0.3.0",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "a425ecb71515663b2735fd1e65bb638fd134c5ad23857eb197c2f157784476cf",
+  "features": {
+    "arithmetic": [
+      "subtle"
+    ],
+    "default": [
+      "arithmetic",
+      "std"
+    ],
+    "std": [
+      "elliptic-curve/std"
+    ],
+    "test-vectors": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2020-06-08T16:33:31.465648Z",
+  "dependencies": [
+    "elliptic-curve",
+    "hex",
+    "proptest",
+    "subtle"
+  ]
+}

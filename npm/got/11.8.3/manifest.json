@@ -1,0 +1,87 @@
+{
+  "name": "got",
+  "version": "11.8.3",
+  "ecosystem": "npm",
+  "description": "Human-friendly and powerful HTTP request library for Node.js",
+  "license": "MIT",
+  "dependencies": {
+    "p-cancelable": "^2.0.0",
+    "responselike": "^2.0.0",
+    "http2-wrapper": "^1.0.0-beta.5.2",
+    "lowercase-keys": "^2.0.0",
+    "@sindresorhus/is": "^4.0.0",
+    "cacheable-lookup": "^5.0.3",
+    "cacheable-request": "^7.0.2",
+    "@types/responselike": "^1.0.0",
+    "decompress-response": "^6.0.0",
+    "@szmarczak/http-timer": "^4.0.5",
+    "@types/cacheable-request": "^6.0.1"
+  },
+  "devDependencies": {
+    "np": "^6.4.0",
+    "xo": "^0.34.1",
+    "ava": "^3.11.1",
+    "nyc": "^15.1.0",
+    "pem": "^1.14.4",
+    "nock": "^13.0.4",
+    "pify": "^5.0.0",
+    "axios": "^0.20.0",
+    "delay": "^4.4.0",
+    "sinon": "^9.0.3",
+    "tempy": "^1.0.0",
+    "del-cli": "^3.0.1",
+    "express": "^4.17.1",
+    "p-event": "^4.2.0",
+    "benchmark": "^2.1.4",
+    "coveralls": "^3.1.0",
+    "form-data": "^3.0.0",
+    "@types/pem": "^1.9.5",
+    "get-stream": "^6.0.0",
+    "node-fetch": "^2.6.0",
+    "typescript": "4.0.3",
+    "@types/node": "^14.14.0",
+    "@types/pify": "^3.0.2",
+    "slow-stream": "0.0.4",
+    "@types/sinon": "^9.0.5",
+    "tough-cookie": "^4.0.0",
+    "@types/express": "^4.17.7",
+    "@types/request": "^2.48.5",
+    "@ava/typescript": "^1.1.1",
+    "@types/benchmark": "^1.0.33",
+    "@types/node-fetch": "^2.5.7",
+    "create-test-server": "^3.0.1",
+    "to-readable-stream": "^2.1.0",
+    "@types/tough-cookie": "^4.0.0",
+    "@sinonjs/fake-timers": "^6.0.1",
+    "@sindresorhus/tsconfig": "^0.7.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "sindresorhus",
+      "email": "sindresorhus@gmail.com"
+    },
+    {
+      "name": "szmarczak",
+      "email": "sz.marczak@gmail.com"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2021-11-18T05:02:21.821Z",
+  "dist": {
+    "integrity": "sha512-7gtQ5KiPh1RtGS9/Jbv1ofDpBFuq42gyfEib+ejaRBJuj/3tQFeR5+gw57e4ipaU8c/rCjvX6fkQz2lyDlGAOg==",
+    "shasum": "f496c8fdda5d729a90b4905d2b07dbd148170770",
+    "tarball": "https://registry.npmjs.org/got/-/got-11.8.3.tgz",
+    "fileCount": 49,
+    "unpackedSize": 268493
+  },
+  "_npmUser": {
+    "name": "sindresorhus",
+    "email": "sindresorhus@gmail.com"
+  }
+}

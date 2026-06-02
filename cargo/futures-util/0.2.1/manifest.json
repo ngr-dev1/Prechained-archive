@@ -1,0 +1,31 @@
+{
+  "name": "futures-util",
+  "version": "0.2.1",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "0cf12a3fc1ccaf1bc2901ec6e0ed6ed407a4f16eaa20dd838f40cabf5f7b31f1",
+  "features": {
+    "bench": [],
+    "default": [
+      "std",
+      "futures-core/either",
+      "futures-sink/either"
+    ],
+    "std": [
+      "futures-core/std",
+      "futures-io/std",
+      "futures-sink/std",
+      "either/use_std"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2018-04-19T18:58:36.349063Z",
+  "dependencies": [
+    "either",
+    "futures-channel",
+    "futures-core",
+    "futures-io",
+    "futures-sink"
+  ]
+}

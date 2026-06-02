@@ -1,0 +1,25 @@
+{
+  "name": "cookie",
+  "version": "0.2.3",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "86c9a8d35fce39e307ad632fc8a055119244767daf53b6d47c35f570eab9db41",
+  "features": {
+    "default": [
+      "secure"
+    ],
+    "secure": [
+      "openssl",
+      "rustc-serialize"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2016-04-21T22:06:33.515684Z",
+  "dependencies": [
+    "time",
+    "url",
+    "openssl",
+    "rustc-serialize"
+  ]
+}

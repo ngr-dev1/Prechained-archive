@@ -1,0 +1,24 @@
+{
+  "name": "parking_lot",
+  "version": "0.3.7",
+  "ecosystem": "cargo",
+  "license": "Apache-2.0/MIT",
+  "checksum": "3771b463ebf30418ef54378e647d01cc33123b2e7a4958b1cec284edc71054f6",
+  "features": {
+    "default": [
+      "owning_ref"
+    ],
+    "nightly": [
+      "parking_lot_core/nightly"
+    ]
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-02-02T13:31:04.943305Z",
+  "dependencies": [
+    "parking_lot_core",
+    "rand",
+    "thread-id",
+    "owning_ref"
+  ]
+}

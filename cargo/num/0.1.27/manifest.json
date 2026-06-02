@@ -1,0 +1,27 @@
+{
+  "name": "num",
+  "version": "0.1.27",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "4251ea00b7fa74610f0685b55495fcc86e4971b1951cb732b91d817f71bcae7c",
+  "features": {
+    "bigint": [
+      "rustc-serialize",
+      "rand"
+    ],
+    "complex": [],
+    "default": [
+      "complex",
+      "rational",
+      "bigint"
+    ],
+    "rational": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2015-08-19T17:16:35.586974Z",
+  "dependencies": [
+    "rand",
+    "rustc-serialize"
+  ]
+}

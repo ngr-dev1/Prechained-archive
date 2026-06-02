@@ -1,0 +1,46 @@
+{
+  "name": "actix",
+  "version": "0.11.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "5f61e6ef2dadbe1bd50f1cf2ab52d63b951686c25bc4de274c5e1f57cd2589f1",
+  "features": {
+    "default": [
+      "macros"
+    ],
+    "macros": [
+      "actix_derive"
+    ],
+    "mailbox_assert": [],
+    "resolver": [
+      "trust-dns-proto",
+      "trust-dns-resolver"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 56903,
+    "login": "robjtede"
+  },
+  "publishedAt": "2021-03-21T07:13:35.696374Z",
+  "dependencies": [
+    "actix-rt",
+    "bitflags",
+    "bytes",
+    "crossbeam-channel",
+    "futures-core",
+    "futures-sink",
+    "futures-task",
+    "futures-util",
+    "log",
+    "once_cell",
+    "parking_lot",
+    "pin-project-lite",
+    "smallvec",
+    "tokio",
+    "tokio-util",
+    "actix_derive",
+    "trust-dns-proto",
+    "trust-dns-resolver"
+  ]
+}

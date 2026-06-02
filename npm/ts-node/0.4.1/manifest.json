@@ -1,0 +1,56 @@
+{
+  "name": "ts-node",
+  "version": "0.4.1",
+  "ecosystem": "npm",
+  "description": "TypeScript execution environment and REPL for node.js, with source map support",
+  "license": "MIT",
+  "dependencies": {
+    "diff": "^2.1.1",
+    "chalk": "^1.1.1",
+    "xtend": "^4.0.0",
+    "arrify": "^1.0.0",
+    "minimist": "^1.2.0",
+    "tsconfig": "^2.1.1",
+    "make-error": "^1.0.2",
+    "source-map-support": "^0.3.2"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.1.0",
+    "typings": "0.0.11",
+    "istanbul": "^0.3.17",
+    "pre-commit": "^1.0.10",
+    "proxyquire": "^1.7.2",
+    "typescript": "^1.6.2",
+    "ntypescript": "^1.201507091536.1"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "typings install",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "blakeembrey",
+      "email": "hello@blakeembrey.com"
+    }
+  ],
+  "author": {
+    "url": "http://blakeembrey.me",
+    "name": "Blake Embrey",
+    "email": "hello@blakeembrey.com"
+  },
+  "publishedAt": "2015-11-02T17:46:33.646Z",
+  "dist": {
+    "integrity": "sha512-0JHRSzDLWFoioEASrTINC8QpAMjWTCgh7Pp3h75CP1VsFnzqtNEZ5PureAf74M9xSGdOybNaIayfWuUChIwExw==",
+    "shasum": "3baac2f97d5f30059587c17a73cca40acd931ea3",
+    "tarball": "https://registry.npmjs.org/ts-node/-/ts-node-0.4.1.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "blakeembrey",
+    "email": "hello@blakeembrey.com"
+  }
+}

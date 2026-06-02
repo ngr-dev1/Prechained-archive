@@ -1,0 +1,42 @@
+{
+  "name": "scrypt",
+  "version": "0.12.0-rc.6",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "7b2159e8b7c18b0d131f07810192788598e955bf21263096f3bf707ab6cd90fc",
+  "features": {
+    "alloc": [
+      "password-hash?/alloc"
+    ],
+    "default": [
+      "password-hash",
+      "rayon"
+    ],
+    "getrandom": [
+      "password-hash",
+      "password-hash/getrandom"
+    ],
+    "password-hash": [
+      "dep:password-hash"
+    ],
+    "rand_core": [
+      "password-hash/rand_core"
+    ],
+    "rayon": [
+      "dep:rayon"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri"
+  },
+  "publishedAt": "2025-12-13T22:29:54.330919Z",
+  "dependencies": [
+    "pbkdf2",
+    "salsa20",
+    "sha2",
+    "password-hash",
+    "rayon"
+  ]
+}

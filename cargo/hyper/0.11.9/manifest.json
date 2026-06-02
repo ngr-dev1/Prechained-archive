@@ -1,0 +1,43 @@
+{
+  "name": "hyper",
+  "version": "0.11.9",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "e0594792d2109069d0caffd176f674d770a84adf024c5bb48e686b1ee5ac7659",
+  "features": {
+    "compat": [
+      "http"
+    ],
+    "default": [
+      "server-proto"
+    ],
+    "nightly": [],
+    "raw_status": [],
+    "server-proto": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2017-12-10T03:05:12.164964Z",
+  "dependencies": [
+    "base64",
+    "bytes",
+    "futures",
+    "futures-cpupool",
+    "httparse",
+    "language-tags",
+    "log",
+    "mime",
+    "num_cpus",
+    "percent-encoding",
+    "pretty_env_logger",
+    "relay",
+    "spmc",
+    "time",
+    "tokio-core",
+    "tokio-io",
+    "tokio-proto",
+    "tokio-service",
+    "unicase",
+    "http"
+  ]
+}

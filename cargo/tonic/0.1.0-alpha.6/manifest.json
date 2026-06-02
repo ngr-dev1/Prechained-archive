@@ -1,0 +1,78 @@
+{
+  "name": "tonic",
+  "version": "0.1.0-alpha.6",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "95a6b2461ec6cd6d90c562b942893bd6fcbeb81def0348a26331629397be9d48",
+  "features": {
+    "codegen": [
+      "async-trait",
+      "prost",
+      "prost-derive"
+    ],
+    "default": [
+      "transport",
+      "codegen"
+    ],
+    "openssl": [
+      "openssl1",
+      "tokio-openssl",
+      "tls"
+    ],
+    "openssl-roots": [
+      "openssl-probe"
+    ],
+    "rustls": [
+      "tokio-rustls",
+      "tls"
+    ],
+    "rustls-roots": [
+      "rustls-native-certs"
+    ],
+    "tls": [],
+    "transport": [
+      "hyper",
+      "tokio",
+      "tower",
+      "tower-balance",
+      "tower-load"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 3959,
+    "login": "LucioFranco"
+  },
+  "publishedAt": "2019-11-10T16:42:02.866172Z",
+  "dependencies": [
+    "async-stream",
+    "base64",
+    "bytes",
+    "criterion",
+    "futures-core-preview",
+    "futures-util-preview",
+    "http",
+    "http-body",
+    "percent-encoding",
+    "pin-project",
+    "rand",
+    "static_assertions",
+    "tokio-codec",
+    "tower-make",
+    "tower-service",
+    "tracing",
+    "async-trait",
+    "hyper",
+    "openssl",
+    "openssl-probe",
+    "prost",
+    "prost-derive",
+    "rustls-native-certs",
+    "tokio",
+    "tokio-openssl",
+    "tokio-rustls",
+    "tower",
+    "tower-balance",
+    "tower-load"
+  ]
+}

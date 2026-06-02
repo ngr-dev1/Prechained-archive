@@ -1,0 +1,103 @@
+{
+  "name": "sqlx-sqlite",
+  "version": "0.9.0-alpha.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "fe2cd6cee87120b1e1dd31356b5589911995c777707e49f2750eec7c7fe43eef",
+  "features": {
+    "_unstable-all-sqlite-features": [
+      "deserialize",
+      "load-extension",
+      "preupdate-hook",
+      "unlock-notify"
+    ],
+    "_unstable-all-types": [
+      "json",
+      "chrono",
+      "time",
+      "uuid"
+    ],
+    "_unstable-docs": [
+      "bundled",
+      "any",
+      "_unstable-all-types",
+      "_unstable-all-sqlite-features"
+    ],
+    "any": [
+      "sqlx-core/any"
+    ],
+    "bigdecimal": [],
+    "bundled": [
+      "libsqlite3-sys/bundled"
+    ],
+    "chrono": [
+      "dep:chrono",
+      "sqlx-core/chrono"
+    ],
+    "deserialize": [],
+    "json": [
+      "sqlx-core/json",
+      "serde"
+    ],
+    "load-extension": [],
+    "migrate": [
+      "sqlx-core/migrate"
+    ],
+    "offline": [
+      "sqlx-core/offline",
+      "serde"
+    ],
+    "preupdate-hook": [
+      "libsqlite3-sys/preupdate_hook"
+    ],
+    "regexp": [
+      "dep:regex"
+    ],
+    "rust_decimal": [],
+    "sqlx-toml": [
+      "sqlx-core/sqlx-toml"
+    ],
+    "time": [
+      "dep:time",
+      "sqlx-core/time"
+    ],
+    "unbundled": [
+      "libsqlite3-sys/buildtime_bindgen"
+    ],
+    "unlock-notify": [
+      "libsqlite3-sys/unlock_notify"
+    ],
+    "uuid": [
+      "dep:uuid",
+      "sqlx-core/uuid"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 127,
+    "login": "abonander"
+  },
+  "publishedAt": "2025-10-15T02:09:20.484491Z",
+  "dependencies": [
+    "atoi",
+    "flume",
+    "futures-channel",
+    "futures-core",
+    "futures-executor",
+    "futures-intrusive",
+    "futures-util",
+    "libsqlite3-sys",
+    "log",
+    "percent-encoding",
+    "serde_urlencoded",
+    "sqlx-core",
+    "thiserror",
+    "tracing",
+    "url",
+    "chrono",
+    "regex",
+    "serde",
+    "time",
+    "uuid"
+  ]
+}

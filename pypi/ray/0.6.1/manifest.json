@@ -1,0 +1,40 @@
+{
+  "name": "ray",
+  "version": "0.6.1",
+  "ecosystem": "pypi",
+  "summary": "A system for parallel and distributed Python that unifies the ML ecosystem.",
+  "license": "Apache 2.0",
+  "author": "Ray Team",
+  "author_email": "ray-dev@googlegroups.com",
+  "requires_python": "",
+  "requires_dist": [
+    "numpy",
+    "filelock",
+    "funcsigs",
+    "click",
+    "colorama",
+    "pytest",
+    "pyyaml",
+    "redis",
+    "six (>=1.0.0)",
+    "flatbuffers",
+    "faulthandler",
+    "psutil ; extra == 'debug'",
+    "setproctitle ; extra == 'debug'",
+    "py-spy ; extra == 'debug'",
+    "pyyaml ; extra == 'rllib'",
+    "gym[atari] ; extra == 'rllib'",
+    "opencv-python ; extra == 'rllib'",
+    "lz4 ; extra == 'rllib'",
+    "scipy ; extra == 'rllib'"
+  ],
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2018-12-24T07:59:20",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/c5/d4/695447c74e8d180b033ca565f049757a4204cca5ef8c7e519f6bec3d490c/ray-0.6.1-cp27-cp27m-macosx_10_6_intel.whl",
+    "sha256": "8a40607353f88c85855f78796d371768f0c66b4a47b7f300055d86c679b44cf8",
+    "size": 10721986,
+    "filename": "ray-0.6.1-cp27-cp27m-macosx_10_6_intel.whl"
+  }
+}

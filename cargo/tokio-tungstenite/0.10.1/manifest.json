@@ -1,0 +1,41 @@
+{
+  "name": "tokio-tungstenite",
+  "version": "0.10.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "b8b8fe88007ebc363512449868d7da4389c9400072a3f666f212c7280082882a",
+  "features": {
+    "connect": [
+      "stream",
+      "tokio/net"
+    ],
+    "default": [
+      "connect"
+    ],
+    "stream": [],
+    "tls": [
+      "native-tls",
+      "tokio-tls",
+      "stream",
+      "tungstenite/tls"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6191,
+    "login": "agalakhov"
+  },
+  "publishedAt": "2020-01-31T04:08:07.586377Z",
+  "dependencies": [
+    "env_logger",
+    "futures",
+    "log",
+    "pin-project",
+    "tokio",
+    "tokio",
+    "tungstenite",
+    "url",
+    "native-tls",
+    "tokio-tls"
+  ]
+}

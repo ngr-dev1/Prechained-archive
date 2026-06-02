@@ -1,0 +1,30 @@
+{
+  "name": "rand_chacha",
+  "version": "0.2.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "e193067942ef6f485a349a113329140d0ab9e2168ce92274499bb0e9a4190d9d",
+  "features": {
+    "default": [
+      "std",
+      "simd"
+    ],
+    "simd": [
+      "c2-chacha/simd"
+    ],
+    "std": [
+      "c2-chacha/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1234,
+    "login": "dhardy"
+  },
+  "publishedAt": "2019-06-06T15:51:35.650514Z",
+  "dependencies": [
+    "autocfg",
+    "c2-chacha",
+    "rand_core"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "proptest",
+  "version": "0.9.0",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "2876d7bf780801d278b6886346eff87d91aa307cd790cc1209c789c4acfa1252",
+  "features": {
+    "alloc": [],
+    "atomic64bit": [],
+    "default": [
+      "std",
+      "fork",
+      "timeout",
+      "bit-set"
+    ],
+    "fork": [
+      "std",
+      "rusty-fork",
+      "tempfile"
+    ],
+    "std": [
+      "rand/std",
+      "byteorder/std",
+      "quick-error",
+      "regex-syntax",
+      "num-traits/std"
+    ],
+    "timeout": [
+      "fork",
+      "rusty-fork/timeout"
+    ],
+    "unstable": []
+  },
+  "yanked": false,
+  "published_by": null,
+  "publishedAt": "2019-02-04T05:43:10.926269Z",
+  "dependencies": [
+    "bitflags",
+    "byteorder",
+    "lazy_static",
+    "num-traits",
+    "rand",
+    "rand_xorshift",
+    "regex",
+    "bit-set",
+    "quick-error",
+    "regex-syntax",
+    "rusty-fork",
+    "tempfile"
+  ]
+}

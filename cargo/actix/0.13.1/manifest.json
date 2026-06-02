@@ -1,0 +1,42 @@
+{
+  "name": "actix",
+  "version": "0.13.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "cba56612922b907719d4a01cf11c8d5b458e7d3dba946d0435f20f58d6795ed2",
+  "features": {
+    "default": [
+      "macros"
+    ],
+    "macros": [
+      "actix-macros",
+      "actix_derive"
+    ],
+    "mailbox_assert": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 56903,
+    "login": "robjtede"
+  },
+  "publishedAt": "2023-08-30T13:49:20.610675Z",
+  "dependencies": [
+    "actix-rt",
+    "bitflags",
+    "bytes",
+    "crossbeam-channel",
+    "futures-core",
+    "futures-sink",
+    "futures-task",
+    "futures-util",
+    "log",
+    "once_cell",
+    "parking_lot",
+    "pin-project-lite",
+    "smallvec",
+    "tokio",
+    "tokio-util",
+    "actix-macros",
+    "actix_derive"
+  ]
+}

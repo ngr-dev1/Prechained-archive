@@ -1,0 +1,54 @@
+{
+  "name": "sqlite3",
+  "version": "3.0.1",
+  "ecosystem": "npm",
+  "description": "Asynchronous, non-blocking SQLite3 bindings",
+  "dependencies": {
+    "nan": "1.3.0",
+    "node-pre-gyp": "~0.5.27"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "aws-sdk": "~2.0.4"
+  },
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "kkaefer",
+      "email": "kkaefer@gmail.com"
+    },
+    {
+      "name": "yhahn",
+      "email": "young@developmentseed.org"
+    },
+    {
+      "name": "tmcw",
+      "email": "macwright@gmail.com"
+    },
+    {
+      "name": "springmeyer",
+      "email": "dane@dbsgeo.com"
+    }
+  ],
+  "author": {
+    "url": "https://mapbox.com/",
+    "name": "MapBox"
+  },
+  "publishedAt": "2014-09-29T18:01:53.933Z",
+  "dist": {
+    "integrity": "sha512-X5H3wupL3yFBKr7IQPJG88W6Ufe8BY8PAUsBcDfSYE0fwgWw4AKU9GzjsBWgKAbpdnPxWhZbx80qTzgUMSyI7g==",
+    "shasum": "cc51715dc2bee5d52ff3f597580806aea6470570",
+    "tarball": "https://registry.npmjs.org/sqlite3/-/sqlite3-3.0.1.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "yhahn",
+    "email": "young@developmentseed.org"
+  }
+}

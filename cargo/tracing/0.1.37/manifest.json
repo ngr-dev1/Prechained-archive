@@ -1,0 +1,54 @@
+{
+  "name": "tracing",
+  "version": "0.1.37",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "8ce8c33a8d48bd45d624a6e523445fd21ec13d3653cd51f681abf67418f54eb8",
+  "features": {
+    "async-await": [],
+    "attributes": [
+      "tracing-attributes"
+    ],
+    "default": [
+      "std",
+      "attributes"
+    ],
+    "log-always": [
+      "log"
+    ],
+    "max_level_debug": [],
+    "max_level_error": [],
+    "max_level_info": [],
+    "max_level_off": [],
+    "max_level_trace": [],
+    "max_level_warn": [],
+    "release_max_level_debug": [],
+    "release_max_level_error": [],
+    "release_max_level_info": [],
+    "release_max_level_off": [],
+    "release_max_level_trace": [],
+    "release_max_level_warn": [],
+    "std": [
+      "tracing-core/std"
+    ],
+    "valuable": [
+      "tracing-core/valuable"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 1249,
+    "login": "hawkw"
+  },
+  "publishedAt": "2022-10-06T19:39:27.292589Z",
+  "dependencies": [
+    "cfg-if",
+    "criterion",
+    "log",
+    "pin-project-lite",
+    "tracing-core",
+    "wasm-bindgen-test",
+    "log",
+    "tracing-attributes"
+  ]
+}

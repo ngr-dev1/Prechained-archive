@@ -1,0 +1,47 @@
+{
+  "name": "fancy-regex",
+  "version": "0.8.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "d95b4efe5be9104a4a18a9916e86654319895138be727b229820c39257c30dda",
+  "features": {
+    "default": [
+      "unicode",
+      "perf"
+    ],
+    "perf": [
+      "regex/perf"
+    ],
+    "perf-cache": [
+      "regex/perf-cache"
+    ],
+    "perf-dfa": [
+      "regex/perf-dfa"
+    ],
+    "perf-inline": [
+      "regex/perf-inline"
+    ],
+    "perf-literal": [
+      "regex/perf-literal"
+    ],
+    "track_caller": [],
+    "unicode": [
+      "regex/unicode"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 5997,
+    "login": "robinst"
+  },
+  "publishedAt": "2022-02-22T11:55:35.943147Z",
+  "dependencies": [
+    "bit-set",
+    "bitflags",
+    "criterion",
+    "half",
+    "matches",
+    "quickcheck",
+    "regex"
+  ]
+}

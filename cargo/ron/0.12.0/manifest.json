@@ -1,0 +1,46 @@
+{
+  "name": "ron",
+  "version": "0.12.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "fd490c5b18261893f14449cbd28cb9c0b637aebf161cd77900bfdedaff21ec32",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "indexmap": [
+      "std",
+      "dep:indexmap"
+    ],
+    "integer128": [],
+    "internal-span-substring-test": [
+      "unicode-segmentation"
+    ],
+    "std": [
+      "serde/std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 133457,
+    "login": "juntyr"
+  },
+  "publishedAt": "2025-11-12T10:28:56.832924Z",
+  "dependencies": [
+    "base64",
+    "bitflags",
+    "bytes",
+    "once_cell",
+    "option_set",
+    "serde",
+    "serde",
+    "serde_bytes",
+    "serde_derive",
+    "serde_json",
+    "typeid",
+    "typetag",
+    "unicode-ident",
+    "indexmap",
+    "unicode-segmentation"
+  ]
+}

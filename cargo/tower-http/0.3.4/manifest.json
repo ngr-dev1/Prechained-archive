@@ -1,0 +1,161 @@
+{
+  "name": "tower-http",
+  "version": "0.3.4",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "3c530c8675c1dbf98facee631536fa116b5fb6382d7dd6dc1b118d970eafe3ba",
+  "features": {
+    "add-extension": [],
+    "auth": [
+      "base64"
+    ],
+    "catch-panic": [
+      "tracing",
+      "futures-util/std"
+    ],
+    "compression-br": [
+      "async-compression/brotli",
+      "tokio-util",
+      "tokio"
+    ],
+    "compression-deflate": [
+      "async-compression/zlib",
+      "tokio-util",
+      "tokio"
+    ],
+    "compression-full": [
+      "compression-br",
+      "compression-deflate",
+      "compression-gzip"
+    ],
+    "compression-gzip": [
+      "async-compression/gzip",
+      "tokio-util",
+      "tokio"
+    ],
+    "cors": [],
+    "decompression-br": [
+      "async-compression/brotli",
+      "tokio-util",
+      "tokio"
+    ],
+    "decompression-deflate": [
+      "async-compression/zlib",
+      "tokio-util",
+      "tokio"
+    ],
+    "decompression-full": [
+      "decompression-br",
+      "decompression-deflate",
+      "decompression-gzip"
+    ],
+    "decompression-gzip": [
+      "async-compression/gzip",
+      "tokio-util",
+      "tokio"
+    ],
+    "default": [],
+    "follow-redirect": [
+      "iri-string",
+      "tower/util"
+    ],
+    "fs": [
+      "tokio/fs",
+      "tokio-util/io",
+      "tokio/io-util",
+      "mime_guess",
+      "mime",
+      "percent-encoding",
+      "httpdate",
+      "set-status",
+      "futures-util/alloc"
+    ],
+    "full": [
+      "add-extension",
+      "auth",
+      "catch-panic",
+      "compression-full",
+      "cors",
+      "decompression-full",
+      "follow-redirect",
+      "fs",
+      "limit",
+      "map-request-body",
+      "map-response-body",
+      "metrics",
+      "propagate-header",
+      "redirect",
+      "request-id",
+      "sensitive-headers",
+      "set-header",
+      "set-status",
+      "timeout",
+      "trace",
+      "util"
+    ],
+    "limit": [],
+    "map-request-body": [],
+    "map-response-body": [],
+    "metrics": [
+      "tokio/time"
+    ],
+    "propagate-header": [],
+    "redirect": [],
+    "request-id": [
+      "uuid"
+    ],
+    "sensitive-headers": [],
+    "set-header": [],
+    "set-status": [],
+    "timeout": [
+      "tokio/time"
+    ],
+    "trace": [
+      "tracing"
+    ],
+    "util": [
+      "tower"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2022-06-06T18:28:56.160490Z",
+  "dependencies": [
+    "bitflags",
+    "brotli",
+    "bytes",
+    "bytes",
+    "flate2",
+    "futures",
+    "futures-core",
+    "futures-util",
+    "http",
+    "http-body",
+    "http-range-header",
+    "hyper",
+    "once_cell",
+    "pin-project-lite",
+    "serde_json",
+    "tokio",
+    "tower",
+    "tower-layer",
+    "tower-service",
+    "tracing-subscriber",
+    "uuid",
+    "async-compression",
+    "base64",
+    "httpdate",
+    "iri-string",
+    "mime",
+    "mime_guess",
+    "percent-encoding",
+    "tokio",
+    "tokio-util",
+    "tower",
+    "tracing",
+    "uuid"
+  ]
+}

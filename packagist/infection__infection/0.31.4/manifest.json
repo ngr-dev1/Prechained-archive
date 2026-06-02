@@ -1,0 +1,110 @@
+{
+  "name": "infection/infection",
+  "version": "0.31.4",
+  "ecosystem": "packagist",
+  "description": "Infection is a Mutation Testing framework for PHP. The mutation adequacy score can be used to measure the effectiveness of a test set in terms of its ability to detect faults.",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "type": "library",
+  "require": {
+    "php": "^8.2",
+    "ext-dom": "*",
+    "ext-json": "*",
+    "ext-libxml": "*",
+    "ext-mbstring": "*",
+    "composer-runtime-api": "^2.0",
+    "colinodell/json5": "^3.0",
+    "composer/xdebug-handler": "^3.0",
+    "fidry/cpu-core-counter": "^1.0",
+    "infection/abstract-testframework-adapter": "^0.5.0",
+    "infection/extension-installer": "^0.1.0",
+    "infection/include-interceptor": "^0.2.5",
+    "infection/mutator": "^0.4",
+    "justinrainbow/json-schema": "^6.0",
+    "nikic/php-parser": "^5.3",
+    "ondram/ci-detector": "^4.1.0",
+    "sanmai/di-container": "^0.1.4",
+    "sanmai/duoclock": "^0.1.0",
+    "sanmai/later": "^0.1.7",
+    "sanmai/pipeline": "^7.0",
+    "sebastian/diff": "^4.0 || ^5.0 || ^6.0 || ^7.0",
+    "symfony/console": "^6.4 || ^7.0",
+    "symfony/filesystem": "^6.4 || ^7.0",
+    "symfony/finder": "^6.4 || ^7.0",
+    "symfony/process": "^6.4 || ^7.0",
+    "thecodingmachine/safe": "^v3.0",
+    "webmozart/assert": "^1.11"
+  },
+  "require_dev": {},
+  "dist": {
+    "url": "https://api.github.com/repos/infection/infection/zipball/fb06b33a6b0c22efc004d0ad369b18f984b77bb6",
+    "type": "zip",
+    "shasum": "",
+    "reference": "fb06b33a6b0c22efc004d0ad369b18f984b77bb6"
+  },
+  "source": {
+    "url": "https://github.com/infection/infection.git",
+    "type": "git",
+    "reference": "fb06b33a6b0c22efc004d0ad369b18f984b77bb6"
+  },
+  "authors": [
+    {
+      "name": "Maks Rafalko",
+      "email": "maks.rafalko@gmail.com",
+      "homepage": "https://twitter.com/maks_rafalko"
+    },
+    {
+      "name": "Oleg Zhulnev",
+      "homepage": "https://github.com/sidz"
+    },
+    {
+      "name": "Gert de Pagter",
+      "homepage": "https://github.com/BackEndTea"
+    },
+    {
+      "name": "Théo FIDRY",
+      "email": "theo.fidry@gmail.com",
+      "homepage": "https://twitter.com/tfidry"
+    },
+    {
+      "name": "Alexey Kopytko",
+      "email": "alexey@kopytko.com",
+      "homepage": "https://www.alexeykopytko.com"
+    },
+    {
+      "name": "Andreas Möller",
+      "email": "am@localheinz.com",
+      "homepage": "https://localheinz.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "localheinz",
+      "avatar_url": "https://www.gravatar.com/avatar/8cabc9efd157e2b47aa5aa9830180f5ebd07813cc3e93ff1a9993b2c3d264909?d=identicon"
+    },
+    {
+      "name": "borN_free",
+      "avatar_url": "https://www.gravatar.com/avatar/a0196ce472ed16a55b72aa7f9f9956bc6e68fa519abf975caffc9fcb5fa320df?d=identicon"
+    },
+    {
+      "name": "theofidry",
+      "avatar_url": "https://www.gravatar.com/avatar/6fbf458a1f05f8ac5a3c8f6c5426abe81084b7077b24955747b09c35f6c983be?d=identicon"
+    },
+    {
+      "name": "sanmai",
+      "avatar_url": "https://www.gravatar.com/avatar/edcb8dde95c71b1c97c3c91e57d3548795fa2014c657744fb878e2be3b5949fc?d=identicon"
+    },
+    {
+      "name": "BackEndTea",
+      "avatar_url": "https://www.gravatar.com/avatar/7472777959978078c70a919d0c71fef49501a5337ce57889a9dd9a7d830e41f8?d=identicon"
+    },
+    {
+      "name": "sidz",
+      "avatar_url": "https://www.gravatar.com/avatar/b3b2cc48ea2b385b395f877971403aa17ddd736234263ac9ab0b904b17ae50bd?d=identicon"
+    }
+  ],
+  "is_dev_branch": false,
+  "branch_alias": null,
+  "publishedAt": "2025-10-07T12:21:52+00:00"
+}

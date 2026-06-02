@@ -1,0 +1,65 @@
+{
+  "name": "phpspec/phpspec",
+  "version": "6.3.1",
+  "ecosystem": "packagist",
+  "description": "Specification-oriented BDD framework for PHP 7.1+",
+  "license": [
+    "MIT"
+  ],
+  "type": "library",
+  "require": {
+    "php": "^7.2 || 8.0.*",
+    "phpspec/prophecy": "^1.9",
+    "phpspec/php-diff": "^1.0.0",
+    "sebastian/exporter": "^1.0 || ^2.0 || ^3.0 || ^4.0",
+    "symfony/console": "^3.4 || ^4.0 || ^5.0",
+    "symfony/event-dispatcher": "^3.4 || ^4.0 || ^5.0",
+    "symfony/process": "^3.4 || ^4.0 || ^5.0",
+    "symfony/finder": "^3.4 || ^4.0 || ^5.0",
+    "symfony/yaml": "^3.4 || ^4.0 || ^5.0",
+    "doctrine/instantiator": "^1.0.5",
+    "ext-tokenizer": "*"
+  },
+  "require_dev": {},
+  "dist": {
+    "url": "https://api.github.com/repos/phpspec/phpspec/zipball/6f3de03e235ab817aff35cc76aceb09826c3c4f8",
+    "type": "zip",
+    "shasum": "",
+    "reference": "6f3de03e235ab817aff35cc76aceb09826c3c4f8"
+  },
+  "source": {
+    "url": "https://github.com/phpspec/phpspec.git",
+    "type": "git",
+    "reference": "6f3de03e235ab817aff35cc76aceb09826c3c4f8"
+  },
+  "authors": [
+    {
+      "name": "Konstantin Kudryashov",
+      "email": "ever.zet@gmail.com",
+      "homepage": "http://everzet.com"
+    },
+    {
+      "name": "Marcello Duarte",
+      "homepage": "http://marcelloduarte.net/"
+    },
+    {
+      "name": "Ciaran McNulty",
+      "homepage": "https://ciaranmcnulty.com/"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "md",
+      "avatar_url": "https://www.gravatar.com/avatar/126c34b4dff8d42336ea07ac5297bcc3ec0a0e306fd964a7497f02240da4b142?d=identicon"
+    },
+    {
+      "name": "ciaranmcnulty",
+      "avatar_url": "https://www.gravatar.com/avatar/e7c4612e19ba73b517d8c3e15890af6687f8a206eb56676c1714209534378429?d=identicon"
+    }
+  ],
+  "is_dev_branch": false,
+  "branch_alias": {
+    "dev-master": "6.3.x-dev"
+  },
+  "publishedAt": "2020-12-29T14:47:41+00:00"
+}

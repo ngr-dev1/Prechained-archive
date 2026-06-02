@@ -1,0 +1,104 @@
+{
+  "name": "serde_with",
+  "version": "3.2.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "1402f54f9a3b9e2efe71c1cea24e648acce55887983553eeb858cf3115acfd49",
+  "features": {
+    "alloc": [
+      "serde/alloc",
+      "base64?/alloc",
+      "chrono_0_4?/alloc",
+      "hex?/alloc",
+      "serde_json?/alloc",
+      "time_0_3?/alloc"
+    ],
+    "base64": [
+      "dep:base64",
+      "alloc"
+    ],
+    "chrono": [
+      "chrono_0_4"
+    ],
+    "chrono_0_4": [
+      "dep:chrono_0_4"
+    ],
+    "default": [
+      "std",
+      "macros"
+    ],
+    "guide": [
+      "dep:doc-comment",
+      "macros",
+      "std"
+    ],
+    "hex": [
+      "dep:hex",
+      "alloc"
+    ],
+    "indexmap": [
+      "indexmap_1"
+    ],
+    "indexmap_1": [
+      "dep:indexmap_1",
+      "alloc"
+    ],
+    "indexmap_2": [
+      "dep:indexmap_2",
+      "alloc"
+    ],
+    "json": [
+      "dep:serde_json",
+      "alloc"
+    ],
+    "macros": [
+      "dep:serde_with_macros"
+    ],
+    "std": [
+      "alloc",
+      "serde/std",
+      "chrono_0_4?/clock",
+      "chrono_0_4?/std",
+      "indexmap_1?/std",
+      "indexmap_2?/std",
+      "time_0_3?/serde-well-known",
+      "time_0_3?/std"
+    ],
+    "time_0_3": [
+      "dep:time_0_3"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 7676,
+    "login": "jonasbb"
+  },
+  "publishedAt": "2023-08-04T15:57:13.420288Z",
+  "dependencies": [
+    "expect-test",
+    "fnv",
+    "glob",
+    "mime",
+    "pretty_assertions",
+    "regex",
+    "rmp-serde",
+    "ron",
+    "rustversion",
+    "serde",
+    "serde-xml-rs",
+    "serde_json",
+    "serde_test",
+    "serde_yaml",
+    "version-sync",
+    "xml-rs",
+    "base64",
+    "chrono",
+    "doc-comment",
+    "hex",
+    "indexmap",
+    "indexmap",
+    "serde_json",
+    "serde_with_macros",
+    "time"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "mio",
+  "version": "0.8.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "ba272f85fa0b41fc91872be579b3bbe0f56b792aa361a380eb669469f68dafb2",
+  "features": {
+    "default": [],
+    "net": [],
+    "os-ext": [
+      "os-poll"
+    ],
+    "os-poll": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 6025,
+    "login": "Thomasdezeeuw"
+  },
+  "publishedAt": "2021-11-13T12:18:38.808889Z",
+  "dependencies": [
+    "env_logger",
+    "libc",
+    "log",
+    "miow",
+    "ntapi",
+    "rand",
+    "winapi"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "name": "tower",
+  "version": "0.4.8",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "f60422bc7fefa2f3ec70359b8ff1caff59d785877eb70595904605bcc412470f",
+  "features": {
+    "balance": [
+      "discover",
+      "load",
+      "ready-cache",
+      "make",
+      "rand",
+      "slab",
+      "tokio-stream"
+    ],
+    "buffer": [
+      "tokio/sync",
+      "tokio/rt",
+      "tokio-util",
+      "tracing"
+    ],
+    "default": [
+      "log"
+    ],
+    "discover": [],
+    "filter": [
+      "futures-util"
+    ],
+    "full": [
+      "balance",
+      "buffer",
+      "discover",
+      "filter",
+      "hedge",
+      "limit",
+      "load",
+      "load-shed",
+      "make",
+      "ready-cache",
+      "reconnect",
+      "retry",
+      "spawn-ready",
+      "steer",
+      "timeout",
+      "util"
+    ],
+    "hedge": [
+      "util",
+      "filter",
+      "futures-util",
+      "hdrhistogram",
+      "tokio/time",
+      "tracing"
+    ],
+    "limit": [
+      "tokio/time",
+      "tokio/sync",
+      "tokio-util",
+      "tracing"
+    ],
+    "load": [
+      "tokio/time",
+      "tracing"
+    ],
+    "load-shed": [],
+    "log": [
+      "tracing/log"
+    ],
+    "make": [
+      "tokio/io-std",
+      "futures-util"
+    ],
+    "ready-cache": [
+      "futures-util",
+      "indexmap",
+      "tokio/sync",
+      "tracing"
+    ],
+    "reconnect": [
+      "make",
+      "tokio/io-std",
+      "tracing"
+    ],
+    "retry": [
+      "tokio/time"
+    ],
+    "spawn-ready": [
+      "futures-util",
+      "tokio/sync",
+      "tokio/rt",
+      "util",
+      "tracing"
+    ],
+    "steer": [
+      "futures-util"
+    ],
+    "timeout": [
+      "tokio/time"
+    ],
+    "util": [
+      "futures-util"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2021-05-28T20:18:57.141721Z",
+  "dependencies": [
+    "futures",
+    "futures-core",
+    "hdrhistogram",
+    "http",
+    "pin-project",
+    "quickcheck",
+    "tokio",
+    "tokio-stream",
+    "tokio-test",
+    "tower-layer",
+    "tower-service",
+    "tower-test",
+    "tracing-subscriber",
+    "futures-util",
+    "hdrhistogram",
+    "indexmap",
+    "rand",
+    "slab",
+    "tokio",
+    "tokio-stream",
+    "tokio-util",
+    "tracing"
+  ]
+}

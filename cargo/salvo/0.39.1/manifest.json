@@ -1,0 +1,160 @@
+{
+  "name": "salvo",
+  "version": "0.39.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "6b6754df5225ec4b2473402ccd4dd05bfb0ca0c9376b586f2351dc1e3cca0f93",
+  "features": {
+    "acme": [
+      "salvo_core/acme"
+    ],
+    "affix": [
+      "salvo_extra/affix"
+    ],
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic-auth": [
+      "salvo_extra/basic-auth"
+    ],
+    "cache": [
+      "dep:salvo-cache"
+    ],
+    "caching-headers": [
+      "salvo_extra/caching-headers"
+    ],
+    "catch-panic": [
+      "salvo_extra/catch-panic"
+    ],
+    "compression": [
+      "salvo_extra/compression"
+    ],
+    "cookie": [
+      "salvo_core/cookie"
+    ],
+    "cors": [
+      "dep:salvo-cors"
+    ],
+    "csrf": [
+      "dep:salvo-csrf"
+    ],
+    "default": [
+      "test",
+      "http1",
+      "http2",
+      "quinn",
+      "cookie"
+    ],
+    "eyre": [
+      "salvo_core/eyre"
+    ],
+    "flash": [
+      "dep:salvo-flash"
+    ],
+    "force-https": [
+      "salvo_extra/force-https"
+    ],
+    "full": [
+      "test",
+      "cookie",
+      "rustls",
+      "native-tls",
+      "openssl",
+      "unix",
+      "anyhow",
+      "eyre",
+      "cache",
+      "cors",
+      "csrf",
+      "flash",
+      "rate-limiter",
+      "session",
+      "serve-static",
+      "otel",
+      "oapi"
+    ],
+    "http1": [
+      "salvo_core/http1"
+    ],
+    "http2": [
+      "salvo_core/http2"
+    ],
+    "jwt-auth": [
+      "salvo_extra/jwt-auth"
+    ],
+    "logging": [
+      "salvo_extra/logging"
+    ],
+    "native-tls": [
+      "salvo_core/native-tls"
+    ],
+    "oapi": [
+      "dep:salvo-oapi"
+    ],
+    "openssl": [
+      "salvo_core/openssl"
+    ],
+    "otel": [
+      "dep:salvo-otel"
+    ],
+    "proxy": [
+      "salvo-proxy"
+    ],
+    "quinn": [
+      "salvo_core/quinn"
+    ],
+    "rate-limiter": [
+      "dep:salvo-rate-limiter"
+    ],
+    "rustls": [
+      "salvo_core/rustls"
+    ],
+    "serve-static": [
+      "dep:salvo-serve-static"
+    ],
+    "session": [
+      "dep:salvo-session"
+    ],
+    "size-limiter": [
+      "salvo_extra/size-limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "test": [
+      "salvo_core/test"
+    ],
+    "timeout": [
+      "salvo_extra/timeout"
+    ],
+    "trailing-slash": [
+      "salvo_extra/trailing-slash"
+    ],
+    "unix": [
+      "salvo_core/unix"
+    ],
+    "ws": [
+      "salvo_extra/ws"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn"
+  },
+  "publishedAt": "2023-04-28T23:19:58.369568Z",
+  "dependencies": [
+    "salvo_core",
+    "salvo-cache",
+    "salvo-cors",
+    "salvo-csrf",
+    "salvo-flash",
+    "salvo-oapi",
+    "salvo-otel",
+    "salvo-proxy",
+    "salvo-rate-limiter",
+    "salvo-serve-static",
+    "salvo-session",
+    "salvo_extra"
+  ]
+}

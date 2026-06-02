@@ -1,0 +1,61 @@
+{
+  "name": "hyper",
+  "version": "0.13.1",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "8bf49cfb32edee45d890537d9057d1b02ed55f53b7b6a30bae83a38c9231749e",
+  "features": {
+    "__internal_happy_eyeballs_tests": [],
+    "default": [
+      "runtime",
+      "stream"
+    ],
+    "nightly": [],
+    "runtime": [
+      "tcp",
+      "tokio/rt-core"
+    ],
+    "stream": [],
+    "tcp": [
+      "net2",
+      "tokio/blocking",
+      "tokio/tcp",
+      "tokio/time"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2019-12-16T19:45:49.406299Z",
+  "dependencies": [
+    "bytes",
+    "futures-channel",
+    "futures-core",
+    "futures-util",
+    "futures-util",
+    "h2",
+    "http",
+    "http-body",
+    "httparse",
+    "itoa",
+    "log",
+    "matches",
+    "num_cpus",
+    "pin-project",
+    "pretty_env_logger",
+    "serde",
+    "serde_derive",
+    "serde_json",
+    "spmc",
+    "time",
+    "tokio",
+    "tokio",
+    "tokio-test",
+    "tower-service",
+    "url",
+    "want",
+    "net2"
+  ]
+}

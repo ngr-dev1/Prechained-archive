@@ -1,0 +1,54 @@
+{
+  "name": "tailwindcss",
+  "version": "0.1.4",
+  "ecosystem": "npm",
+  "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "nodemon": "^1.11.0",
+    "postcss": "^6.0.9",
+    "fs-extra": "^4.0.2",
+    "stylefmt": "^6.0.0",
+    "commander": "^2.11.0",
+    "postcss-functions": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "rimraf": "^2.6.1",
+    "babel-cli": "^6.6.5",
+    "clean-css": "^4.1.9",
+    "babel-core": "^6.7.2",
+    "babel-jest": "^20.0.3",
+    "autoprefixer": "^7.1.6",
+    "babel-preset-env": "^1.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "npm run babelify && babel-node src/build.js"
+  },
+  "maintainers": [
+    {
+      "name": "adamwathan",
+      "email": "adam@adamwathan.me"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2017-11-06T16:45:53.346Z",
+  "dist": {
+    "integrity": "sha512-V829ecx7uzPyT0NfZdsWRCy9W+VLzvsqkTUTl+pgqHCBbqd6J5c4Jw2MC7uLawSh+H0NwuSvOt5BCjXdoYbIuA==",
+    "shasum": "4a587cb9aa9ebf22108bf44e1535ad320f05aad6",
+    "tarball": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-0.1.4.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "adamwathan",
+    "email": "adam@adamwathan.me"
+  }
+}

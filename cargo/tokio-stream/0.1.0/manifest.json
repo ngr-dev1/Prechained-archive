@@ -1,0 +1,30 @@
+{
+  "name": "tokio-stream",
+  "version": "0.1.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "3f3be913b74b13210c8fe04b17ab833f5a124f45b93d0f99f59fff621f64392a",
+  "features": {
+    "default": [
+      "time"
+    ],
+    "time": [
+      "tokio/time"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 10,
+    "login": "carllerche"
+  },
+  "publishedAt": "2020-12-23T17:29:46.870751Z",
+  "dependencies": [
+    "async-stream",
+    "futures",
+    "futures-core",
+    "pin-project-lite",
+    "proptest",
+    "tokio",
+    "tokio"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "name": "tower-http",
+  "version": "0.1.2",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "6f70061b0592867f0a60e67a6e699da5fe000c88a360a5b92ebdba9d73b2238c",
+  "features": {
+    "add-extension": [],
+    "auth": [
+      "base64"
+    ],
+    "compression": [
+      "tokio-util",
+      "tokio"
+    ],
+    "compression-br": [
+      "async-compression/brotli",
+      "compression"
+    ],
+    "compression-deflate": [
+      "async-compression/zlib",
+      "compression"
+    ],
+    "compression-full": [
+      "compression-br",
+      "compression-deflate",
+      "compression-gzip"
+    ],
+    "compression-gzip": [
+      "async-compression/gzip",
+      "compression"
+    ],
+    "cors": [],
+    "decompression": [
+      "tokio-util",
+      "tokio"
+    ],
+    "decompression-br": [
+      "async-compression/brotli",
+      "decompression"
+    ],
+    "decompression-deflate": [
+      "async-compression/zlib",
+      "decompression"
+    ],
+    "decompression-full": [
+      "decompression-br",
+      "decompression-deflate",
+      "decompression-gzip"
+    ],
+    "decompression-gzip": [
+      "async-compression/gzip",
+      "decompression"
+    ],
+    "default": [],
+    "follow-redirect": [
+      "iri-string",
+      "tower/util"
+    ],
+    "fs": [
+      "tokio/fs",
+      "tokio-util/io",
+      "mime_guess",
+      "mime",
+      "percent-encoding"
+    ],
+    "full": [
+      "add-extension",
+      "auth",
+      "compression",
+      "compression-full",
+      "cors",
+      "decompression-full",
+      "follow-redirect",
+      "fs",
+      "map-request-body",
+      "map-response-body",
+      "metrics",
+      "propagate-header",
+      "redirect",
+      "sensitive-headers",
+      "set-header",
+      "trace"
+    ],
+    "map-request-body": [],
+    "map-response-body": [],
+    "metrics": [
+      "tokio/time"
+    ],
+    "propagate-header": [],
+    "redirect": [],
+    "sensitive-headers": [],
+    "set-header": [],
+    "trace": [
+      "tracing"
+    ]
+  },
+  "yanked": true,
+  "published_by": {
+    "id": 12432,
+    "login": "davidpdrsn"
+  },
+  "publishedAt": "2021-11-13T20:00:42.064205Z",
+  "dependencies": [
+    "bytes",
+    "bytes",
+    "flate2",
+    "futures",
+    "futures-core",
+    "futures-util",
+    "http",
+    "http-body",
+    "hyper",
+    "once_cell",
+    "pin-project",
+    "tokio",
+    "tower",
+    "tower-layer",
+    "tower-service",
+    "tracing-subscriber",
+    "async-compression",
+    "base64",
+    "hyper",
+    "iri-string",
+    "mime",
+    "mime_guess",
+    "percent-encoding",
+    "tokio",
+    "tokio-util",
+    "tower",
+    "tracing"
+  ]
+}

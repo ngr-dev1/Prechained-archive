@@ -1,0 +1,63 @@
+{
+  "name": "level",
+  "version": "5.0.0",
+  "ecosystem": "npm",
+  "description": "Universal abstract-level database for Node.js and browsers",
+  "license": "MIT",
+  "dependencies": {
+    "level-js": "^4.0.0",
+    "leveldown": "^5.0.0",
+    "level-packager": "^5.0.0",
+    "opencollective-postinstall": "^2.0.0"
+  },
+  "devDependencies": {
+    "nyc": "^13.2.0",
+    "tape": "^4.2.2",
+    "uuid": "^3.3.2",
+    "airtap": "^2.0.1",
+    "pinkie": "^2.0.4",
+    "hallmark": "^0.1.0",
+    "standard": "^12.0.0",
+    "coveralls": "^3.0.2",
+    "level-community": "^3.0.0",
+    "dependency-check": "^3.3.0",
+    "verify-travis-appveyor": "^3.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "opencollective-postinstall || exit 0",
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "juliangruber",
+      "email": "julian@juliangruber.com"
+    },
+    {
+      "name": "ralphtheninja",
+      "email": "ralphtheninja@riseup.net"
+    },
+    {
+      "name": "rvagg",
+      "email": "r@va.gg"
+    },
+    {
+      "name": "vweevers",
+      "email": "dev@vincentweevers.nl"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2019-03-29T10:07:51.134Z",
+  "dist": {
+    "integrity": "sha512-L7U56/Q9ULjA70XLIh6zyWczQPByBkUZcswLuAwJoZGldOyrApULAOHCLmST4BwxdIHczYIyiaC8mqzQ5ZXOxg==",
+    "shasum": "336b45c6d56878619d781ddaa4460ba6ab1333ea",
+    "tarball": "https://registry.npmjs.org/level/-/level-5.0.0.tgz",
+    "fileCount": 10,
+    "unpackedSize": 44231
+  },
+  "_npmUser": {
+    "name": "vweevers",
+    "email": "dev@vincentweevers.nl"
+  }
+}

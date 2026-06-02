@@ -1,0 +1,30 @@
+{
+  "name": "logos",
+  "version": "0.14.1",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "ff1ceb190eb9bdeecdd8f1ad6a71d6d632a50905948771718741b5461fb01e13",
+  "features": {
+    "debug": [
+      "logos-derive?/debug"
+    ],
+    "default": [
+      "export_derive",
+      "std"
+    ],
+    "export_derive": [
+      "logos-derive"
+    ],
+    "std": []
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 150564,
+    "login": "jeertmans"
+  },
+  "publishedAt": "2024-08-02T10:06:02.562987Z",
+  "dependencies": [
+    "ariadne",
+    "logos-derive"
+  ]
+}

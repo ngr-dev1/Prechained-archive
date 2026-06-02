@@ -1,0 +1,116 @@
+{
+  "name": "reqwest",
+  "version": "0.10.8",
+  "ecosystem": "cargo",
+  "license": "MIT/Apache-2.0",
+  "checksum": "e9eaa17ac5d7b838b7503d118fa16ad88f440498bf9ffe5424e621f93190d61e",
+  "features": {
+    "__internal_proxy_sys_no_cache": [],
+    "__tls": [],
+    "blocking": [
+      "futures-util/io",
+      "tokio/rt-threaded",
+      "tokio/rt-core",
+      "tokio/sync"
+    ],
+    "brotli": [
+      "async-compression",
+      "async-compression/brotli"
+    ],
+    "cookies": [
+      "cookie_crate",
+      "cookie_store",
+      "time"
+    ],
+    "default": [
+      "default-tls"
+    ],
+    "default-tls": [
+      "hyper-tls",
+      "native-tls-crate",
+      "__tls",
+      "tokio-tls"
+    ],
+    "gzip": [
+      "async-compression",
+      "async-compression/gzip"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "native-tls": [
+      "default-tls"
+    ],
+    "native-tls-vendored": [
+      "native-tls",
+      "native-tls-crate/vendored"
+    ],
+    "rustls-tls": [
+      "hyper-rustls",
+      "tokio-rustls",
+      "webpki-roots",
+      "rustls",
+      "__tls"
+    ],
+    "socks": [
+      "tokio-socks"
+    ],
+    "stream": [],
+    "trust-dns": [
+      "trust-dns-resolver"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar"
+  },
+  "publishedAt": "2020-08-25T16:33:01.468111Z",
+  "dependencies": [
+    "base64",
+    "brotli",
+    "bytes",
+    "doc-comment",
+    "encoding_rs",
+    "env_logger",
+    "futures-core",
+    "futures-util",
+    "http",
+    "http-body",
+    "hyper",
+    "hyper",
+    "ipnet",
+    "js-sys",
+    "lazy_static",
+    "libflate",
+    "log",
+    "mime",
+    "mime_guess",
+    "percent-encoding",
+    "pin-project-lite",
+    "serde",
+    "serde",
+    "serde_urlencoded",
+    "tokio",
+    "tokio",
+    "url",
+    "wasm-bindgen",
+    "wasm-bindgen-futures",
+    "web-sys",
+    "winreg",
+    "async-compression",
+    "cookie",
+    "cookie_store",
+    "hyper-rustls",
+    "hyper-tls",
+    "native-tls",
+    "rustls",
+    "serde_json",
+    "time",
+    "tokio-rustls",
+    "tokio-socks",
+    "tokio-tls",
+    "trust-dns-resolver",
+    "webpki-roots"
+  ]
+}

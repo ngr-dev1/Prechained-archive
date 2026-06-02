@@ -1,0 +1,52 @@
+{
+  "name": "tracing-opentelemetry",
+  "version": "0.32.0",
+  "ecosystem": "cargo",
+  "license": "MIT",
+  "checksum": "1e6e5658463dd88089aba75c7791e1d3120633b1bfde22478b28f625a9bb1b8e",
+  "features": {
+    "default": [
+      "tracing-log",
+      "metrics"
+    ],
+    "metrics": [
+      "opentelemetry/metrics",
+      "opentelemetry_sdk/metrics",
+      "smallvec"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 275256,
+    "login": "mladedav"
+  },
+  "publishedAt": "2025-09-30T18:05:26.072715Z",
+  "dependencies": [
+    "async-trait",
+    "criterion",
+    "futures-util",
+    "js-sys",
+    "opentelemetry",
+    "opentelemetry",
+    "opentelemetry-otlp",
+    "opentelemetry-semantic-conventions",
+    "opentelemetry-stdout",
+    "opentelemetry_sdk",
+    "opentelemetry_sdk",
+    "pprof",
+    "rustversion",
+    "thiserror",
+    "tokio",
+    "tokio-stream",
+    "tracing",
+    "tracing",
+    "tracing-core",
+    "tracing-error",
+    "tracing-subscriber",
+    "tracing-subscriber",
+    "web-time",
+    "lazy_static",
+    "smallvec",
+    "tracing-log"
+  ]
+}

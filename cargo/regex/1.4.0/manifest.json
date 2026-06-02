@@ -1,0 +1,84 @@
+{
+  "name": "regex",
+  "version": "1.4.0",
+  "ecosystem": "cargo",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "36f45b719a674bf4b828ff318906d6c133264c793eff7a41e30074a45b5099e2",
+  "features": {
+    "default": [
+      "std",
+      "perf",
+      "unicode",
+      "regex-syntax/default"
+    ],
+    "pattern": [],
+    "perf": [
+      "perf-cache",
+      "perf-dfa",
+      "perf-inline",
+      "perf-literal"
+    ],
+    "perf-cache": [
+      "thread_local"
+    ],
+    "perf-dfa": [],
+    "perf-inline": [],
+    "perf-literal": [
+      "aho-corasick",
+      "memchr"
+    ],
+    "std": [],
+    "unicode": [
+      "unicode-age",
+      "unicode-bool",
+      "unicode-case",
+      "unicode-gencat",
+      "unicode-perl",
+      "unicode-script",
+      "unicode-segment",
+      "regex-syntax/unicode"
+    ],
+    "unicode-age": [
+      "regex-syntax/unicode-age"
+    ],
+    "unicode-bool": [
+      "regex-syntax/unicode-bool"
+    ],
+    "unicode-case": [
+      "regex-syntax/unicode-case"
+    ],
+    "unicode-gencat": [
+      "regex-syntax/unicode-gencat"
+    ],
+    "unicode-perl": [
+      "regex-syntax/unicode-perl"
+    ],
+    "unicode-script": [
+      "regex-syntax/unicode-script"
+    ],
+    "unicode-segment": [
+      "regex-syntax/unicode-segment"
+    ],
+    "unstable": [
+      "pattern"
+    ],
+    "use_std": [
+      "std"
+    ]
+  },
+  "yanked": false,
+  "published_by": {
+    "id": 189,
+    "login": "BurntSushi"
+  },
+  "publishedAt": "2020-10-12T00:12:56.232638Z",
+  "dependencies": [
+    "lazy_static",
+    "quickcheck",
+    "rand",
+    "regex-syntax",
+    "aho-corasick",
+    "memchr",
+    "thread_local"
+  ]
+}

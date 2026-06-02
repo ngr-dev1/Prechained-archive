@@ -1,0 +1,47 @@
+{
+  "name": "ws",
+  "version": "0.4.27",
+  "ecosystem": "npm",
+  "description": "Simple to use, blazing fast and thoroughly tested websocket client and server for Node.js",
+  "dependencies": {
+    "options": ">=0.0.5",
+    "commander": "~0.6.1",
+    "tinycolor": "0.x"
+  },
+  "devDependencies": {
+    "ansi": "latest",
+    "mocha": "~1.2.1",
+    "should": "0.6.x",
+    "benchmark": "0.3.x",
+    "expect.js": "0.1.x"
+  },
+  "scripts": {
+    "install": "(node-gyp rebuild 2> builderror.log) || (exit 0)",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null
+  },
+  "maintainers": [
+    {
+      "name": "einaros",
+      "email": "einaros@gmail.com"
+    }
+  ],
+  "author": {
+    "url": "http://2x.io",
+    "name": "Einar Otto Stangvik",
+    "email": "einaros@gmail.com"
+  },
+  "publishedAt": "2013-06-27T20:01:33.222Z",
+  "dist": {
+    "integrity": "sha512-bvdv8O9FHpMbFmFk8fHTA12OCXSLJoP1DBBz8rY2EZs0I8NoSAquOgNVQJMLqmJGZ6DdFUi1Cx7t/NuRueLl3g==",
+    "shasum": "077d3a48b6e0b5a96f68f3b38a94ea1ec72c2555",
+    "tarball": "https://registry.npmjs.org/ws/-/ws-0.4.27.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "_npmUser": {
+    "name": "einaros",
+    "email": "einaros@gmail.com"
+  }
+}
