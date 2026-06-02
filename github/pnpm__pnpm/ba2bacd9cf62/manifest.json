@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "ba2bacd9cf628eaa3e8161354eca9de45b3ae981",
+  "tree_sha": "543455644397053385f230ca14bfcc6e4c19ccbb",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35327,
+  "watchers": 35327,
+  "forks": 1470,
+  "open_issues": 2359,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix(pacquet): dedupeDirectDeps default + per-importer workspace link resolution, with defaults contract test (#12128)\n\n* fix(config): default dedupeDirectDeps to false to match pnpm\n\npacquet defaulted `dedupe_direct_deps` to `true`, but pnpm's\nconfig-reader default is `false` (config/reader/src/index.ts:139,\n`'dedupe-direct-deps': false`). With the wrong default, a direct\ndependency that both the workspace root and a non-root importer\ndeclare gets dropped from the non-root importer's `node_modul",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-02T07:51:15Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-02T07:51:15Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "15e0576893932a41f59bd0b804a4a75d7502cce8"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-02T10:17:36Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 214875,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-02T10:17:43.759Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
