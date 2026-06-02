@@ -1,0 +1,146 @@
+{
+  "name": "NUnit3TestAdapter",
+  "version": "3.17.0",
+  "ecosystem": "nuget",
+  "description": "The NUnit3 TestAdapter for Visual Studio, all versions from 2012 and onwards, and DotNet (incl. .Net core).\n\n          Note that this package ONLY contains the adapter, not the NUnit framework.\n          For VS 2017 and forward, you should add this package to every test project in your solution. (Earlier versions only require a single adapter package per solution.)\n\n          Note that with this package you should not install the VSIX adapter package.",
+  "authors": "Charlie Poole, Terje Sandstrom",
+  "licenseExpression": null,
+  "licenseUrl": "https://www.nuget.org/packages/NUnit3TestAdapter/3.17.0/license",
+  "projectUrl": "https://github.com/nunit/docs/wiki/Visual-Studio-Test-Adapter",
+  "tags": [
+    "test",
+    "visualstudio",
+    "testadapter",
+    "nunit",
+    "nunit3",
+    "dotnet"
+  ],
+  "language": "en-US",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.DotNet.InternalAbstractions",
+      "range": "[1.0.0, )",
+      "targetFramework": ".NETCoreApp2.1"
+    },
+    {
+      "id": "System.ComponentModel.EventBasedAsync",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETCoreApp2.1"
+    },
+    {
+      "id": "System.ComponentModel.TypeConverter",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETCoreApp2.1"
+    },
+    {
+      "id": "System.Diagnostics.Process",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETCoreApp2.1"
+    },
+    {
+      "id": "System.Reflection",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETCoreApp2.1"
+    },
+    {
+      "id": "System.Runtime.InteropServices.RuntimeInformation",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETCoreApp2.1"
+    },
+    {
+      "id": "System.Threading.Thread",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETCoreApp2.1"
+    },
+    {
+      "id": "System.Xml.XmlDocument",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETCoreApp2.1"
+    },
+    {
+      "id": "System.Xml.XPath.XmlDocument",
+      "range": "[4.3.0, )",
+      "targetFramework": ".NETCoreApp2.1"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2020.07.11.19.13.19/nunit3testadapter.3.17.0.json#dependencygroup/.netcoreapp2.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2020.07.11.19.13.19/nunit3testadapter.3.17.0.json#dependencygroup/.netcoreapp2.1/microsoft.dotnet.internalabstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.DotNet.InternalAbstractions",
+          "range": "[1.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.dotnet.internalabstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2020.07.11.19.13.19/nunit3testadapter.3.17.0.json#dependencygroup/.netcoreapp2.1/system.componentmodel.eventbasedasync",
+          "@type": "PackageDependency",
+          "id": "System.ComponentModel.EventBasedAsync",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.componentmodel.eventbasedasync/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2020.07.11.19.13.19/nunit3testadapter.3.17.0.json#dependencygroup/.netcoreapp2.1/system.componentmodel.typeconverter",
+          "@type": "PackageDependency",
+          "id": "System.ComponentModel.TypeConverter",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.componentmodel.typeconverter/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2020.07.11.19.13.19/nunit3testadapter.3.17.0.json#dependencygroup/.netcoreapp2.1/system.diagnostics.process",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.Process",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.process/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2020.07.11.19.13.19/nunit3testadapter.3.17.0.json#dependencygroup/.netcoreapp2.1/system.reflection",
+          "@type": "PackageDependency",
+          "id": "System.Reflection",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.reflection/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2020.07.11.19.13.19/nunit3testadapter.3.17.0.json#dependencygroup/.netcoreapp2.1/system.runtime.interopservices.runtimeinformation",
+          "@type": "PackageDependency",
+          "id": "System.Runtime.InteropServices.RuntimeInformation",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.runtime.interopservices.runtimeinformation/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2020.07.11.19.13.19/nunit3testadapter.3.17.0.json#dependencygroup/.netcoreapp2.1/system.threading.thread",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Thread",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.thread/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2020.07.11.19.13.19/nunit3testadapter.3.17.0.json#dependencygroup/.netcoreapp2.1/system.xml.xmldocument",
+          "@type": "PackageDependency",
+          "id": "System.Xml.XmlDocument",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.xml.xmldocument/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2020.07.11.19.13.19/nunit3testadapter.3.17.0.json#dependencygroup/.netcoreapp2.1/system.xml.xpath.xmldocument",
+          "@type": "PackageDependency",
+          "id": "System.Xml.XPath.XmlDocument",
+          "range": "[4.3.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.xml.xpath.xmldocument/index.json"
+        }
+      ],
+      "targetFramework": ".NETCoreApp2.1"
+    }
+  ],
+  "publishedAt": "2020-07-11T19:10:58.077+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "packageHash": null,
+  "packageHashAlgorithm": null
+}
