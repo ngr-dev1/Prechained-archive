@@ -1,0 +1,49 @@
+{
+  "name": "io.grpc:grpc-stub",
+  "version": "1.60.0",
+  "ecosystem": "maven",
+  "groupId": "io.grpc",
+  "artifactId": "grpc-stub",
+  "description": "gRPC: Stub",
+  "url": "https://github.com/grpc/grpc-java",
+  "inceptionYear": null,
+  "licenses": [
+    {
+      "name": "Apache 2.0",
+      "url": "https://opensource.org/licenses/Apache-2.0"
+    }
+  ],
+  "developers": [
+    {
+      "id": "grpc.io",
+      "name": "gRPC Contributors",
+      "email": "grpc-io@googlegroups.com"
+    }
+  ],
+  "scm": {
+    "url": "https://github.com/grpc/grpc-java",
+    "connection": "scm:git:https://github.com/grpc/grpc-java.git"
+  },
+  "dependencies": [
+    {
+      "groupId": "io.grpc",
+      "artifactId": "grpc-api",
+      "version": "1.60.0",
+      "scope": "compile"
+    },
+    {
+      "groupId": "com.google.guava",
+      "artifactId": "guava",
+      "version": "32.0.1-android",
+      "scope": "compile"
+    },
+    {
+      "groupId": "com.google.errorprone",
+      "artifactId": "error_prone_annotations",
+      "version": "2.20.0",
+      "scope": "runtime"
+    }
+  ],
+  "centralUrl": "https://repo1.maven.org/maven2/io/grpc/grpc-stub/1.60.0/",
+  "publishedAt": null
+}
