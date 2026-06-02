@@ -1,0 +1,96 @@
+{
+  "name": "Serilog.Extensions.Hosting",
+  "version": "2.0.1-dev-00007",
+  "ecosystem": "nuget",
+  "description": "Serilog support for .NET Core logging in hosted services",
+  "authors": "Microsoft,Serilog Contributors",
+  "licenseExpression": null,
+  "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0",
+  "projectUrl": "https://github.com/serilog/serilog-extensions-hosting",
+  "tags": [
+    "serilog",
+    "aspnet",
+    "aspnetcore",
+    "hosting"
+  ],
+  "language": null,
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Serilog",
+      "range": "[2.5.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Serilog.Extensions.Logging",
+      "range": "[2.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2018.12.07.14.35.10/serilog.extensions.hosting.2.0.1-dev-00007.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.12.07.14.35.10/serilog.extensions.hosting.2.0.1-dev-00007.json#dependencygroup/.netstandard2.0/microsoft.extensions.dependencyinjection.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.12.07.14.35.10/serilog.extensions.hosting.2.0.1-dev-00007.json#dependencygroup/.netstandard2.0/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.12.07.14.35.10/serilog.extensions.hosting.2.0.1-dev-00007.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.12.07.14.35.10/serilog.extensions.hosting.2.0.1-dev-00007.json#dependencygroup/.netstandard2.0/serilog",
+          "@type": "PackageDependency",
+          "id": "Serilog",
+          "range": "[2.5.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2018.12.07.14.35.10/serilog.extensions.hosting.2.0.1-dev-00007.json#dependencygroup/.netstandard2.0/serilog.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Serilog.Extensions.Logging",
+          "range": "[2.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/serilog.extensions.logging/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2018-08-05T21:41:47.867+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "packageHash": null,
+  "packageHashAlgorithm": null
+}
