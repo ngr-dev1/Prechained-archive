@@ -1,0 +1,62 @@
+{
+  "name": "dask",
+  "version": "0.17.3",
+  "ecosystem": "pypi",
+  "summary": "Parallel PyData with Task Scheduling",
+  "license": "BSD",
+  "author": "Matthew Rocklin",
+  "author_email": "mrocklin@gmail.com",
+  "requires_python": null,
+  "requires_dist": [
+    "numpy (>=1.11.0); extra == 'array'",
+    "toolz (>=0.7.3); extra == 'array'",
+    "cloudpickle (>=0.2.1); extra == 'bag'",
+    "toolz (>=0.7.3); extra == 'bag'",
+    "partd (>=0.3.8); extra == 'bag'",
+    "cloudpickle (>=0.2.1); extra == 'complete'",
+    "distributed (>=1.21); extra == 'complete'",
+    "numpy (>=1.11.0); extra == 'complete'",
+    "pandas (>=0.19.0); extra == 'complete'",
+    "partd (>=0.3.8); extra == 'complete'",
+    "toolz (>=0.7.3); extra == 'complete'",
+    "numpy (>=1.11.0); extra == 'dataframe'",
+    "pandas (>=0.19.0); extra == 'dataframe'",
+    "toolz (>=0.7.3); extra == 'dataframe'",
+    "partd (>=0.3.8); extra == 'dataframe'",
+    "cloudpickle (>=0.2.1); extra == 'dataframe'",
+    "toolz (>=0.7.3); extra == 'delayed'",
+    "distributed (>=1.21); extra == 'distributed'"
+  ],
+  "keywords": "task-scheduling parallel numpy pandas pydata",
+  "classifiers": [],
+  "project_urls": {
+    "Homepage": "http://github.com/dask/dask/"
+  },
+  "yanked": false,
+  "yanked_reason": null,
+  "publishedAt": "2018-05-02T18:33:04",
+  "dist": {
+    "url": "https://files.pythonhosted.org/packages/12/c4/5317dc5347f784eba5a55c6939082ec6753b91844271c256430cc548443f/dask-0.17.3-py2.py3-none-any.whl",
+    "sha256": "4b7523481798623ad2905db63cc300be4a685033934355896670837dadeef82e",
+    "size": 598705,
+    "filename": "dask-0.17.3-py2.py3-none-any.whl"
+  },
+  "all_files": [
+    {
+      "filename": "dask-0.17.3-py2.py3-none-any.whl",
+      "packagetype": "bdist_wheel",
+      "sha256": "4b7523481798623ad2905db63cc300be4a685033934355896670837dadeef82e",
+      "size": 598705,
+      "upload_time": "2018-05-02T18:33:04",
+      "yanked": false
+    },
+    {
+      "filename": "dask-0.17.3.tar.gz",
+      "packagetype": "sdist",
+      "sha256": "a37322af5ef1b05ca342fdd6dab2bb956f584865b6995affbc7dbc393ac535fa",
+      "size": 2277230,
+      "upload_time": "2018-05-02T18:33:06",
+      "yanked": false
+    }
+  ]
+}
