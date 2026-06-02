@@ -1,0 +1,38 @@
+{
+  "name": "proc-macro2",
+  "version": "0.4.11",
+  "ecosystem": "cargo",
+  "description": "A substitute implementation of the compiler's `proc_macro` API to decouple token-based libraries from the procedural macro use case.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "762eea716b821300a86da08870a64b597304866ceb9f54a11d67b4cf56459c6a",
+  "features": {
+    "default": [
+      "proc-macro"
+    ],
+    "nightly": [
+      "proc-macro"
+    ],
+    "proc-macro": []
+  },
+  "downloads": 35001,
+  "yanked": false,
+  "repository": "https://github.com/dtolnay/proc-macro2",
+  "homepage": null,
+  "keywords": [
+    "macros",
+    "syn"
+  ],
+  "categories": [
+    "Procedural macro helpers"
+  ],
+  "dependencies": [
+    {
+      "name": "unicode-xid",
+      "req": "^0.1",
+      "kind": "normal",
+      "optional": false
+    }
+  ],
+  "published_by": null,
+  "publishedAt": "2018-08-12T07:05:05.759028Z"
+}
