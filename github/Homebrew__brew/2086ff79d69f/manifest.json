@@ -1,0 +1,55 @@
+{
+  "repo": "Homebrew/brew",
+  "commit_sha": "2086ff79d69f4b8a2505b4dd12e9f7a25850a33a",
+  "tree_sha": "6c01b9cc978312f1d6309c50a9361c3825f63e87",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "🍺 The missing package manager for macOS (or Linux)",
+  "license": "BSD-2-Clause",
+  "license_name": "BSD 2-Clause \"Simplified\" License",
+  "stars": 48260,
+  "watchers": 48260,
+  "forks": 11148,
+  "open_issues": 14,
+  "language": "Ruby",
+  "topics": [
+    "brew",
+    "homebrew",
+    "macos",
+    "package-manager",
+    "ruby"
+  ],
+  "commit_message": "Fix prof vernier child hangs\n\n- Avoid the `vernier` wrapper because it injects `RUBYOPT` into child\n  Ruby processes and can make nested Homebrew commands profile themselves.\n- Load a scoped fork and exec guard for `brew prof --vernier` so child and\n  replacement processes do not inherit active Vernier collector state.\n- Use spawn for `Utils.popen` while profiling to avoid its manual fork path.\n- Keep HTML profiler output from opening a browser unless stdout is a TTY.\n- Add regression coverage f",
+  "commit_author": {
+    "name": "Mike McQuaid",
+    "email": "mike@mikemcquaid.com",
+    "date": "2026-06-01T14:32:04Z"
+  },
+  "commit_committer": {
+    "name": "Mike McQuaid",
+    "email": "mike@mikemcquaid.com",
+    "date": "2026-06-01T16:58:54Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "3b3ede41c0868b7dadce4e867b8b170acfcb9fdc"
+  ],
+  "github_author_login": "MikeMcQuaid",
+  "github_committer_login": "MikeMcQuaid",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-01T20:09:15Z",
+  "created_at": "2016-03-06T05:08:38Z",
+  "homepage": "https://brew.sh",
+  "size_kb": 115625,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-02T07:07:25.854Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
