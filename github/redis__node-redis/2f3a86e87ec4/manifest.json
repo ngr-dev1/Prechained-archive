@@ -1,0 +1,55 @@
+{
+  "repo": "redis/node-redis",
+  "commit_sha": "2f3a86e87ec42e76f0c36bb048410c9e78c17405",
+  "tree_sha": "2a5732b278e67f07479c38639ccb6a151eaef1b2",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Redis Node.js client",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 17534,
+  "watchers": 17534,
+  "forks": 1956,
+  "open_issues": 247,
+  "language": "TypeScript",
+  "topics": [
+    "node-redis",
+    "nodejs",
+    "redis",
+    "redis-client",
+    "redis-cluster"
+  ],
+  "commit_message": "test(client): fix three flaky tests around socket/connect lifecycle (#3299)\n\n* test(client): fix flaky Socket socketTimeout test\n\nAttach a permanent error listener before connecting so the timeout\nevent cannot surface as an uncaught error during the handshake or in\nthe idle gap before the test body attached its listener. Drive the\ntest off the first emitted error via a one-shot promise gate instead\nof a fixed-duration `setTimeout`, and use `reconnectStrategy: false`\n+ `disableClientSetup` to mak",
+  "commit_author": {
+    "name": "Nikolay Karadzhov",
+    "email": "nkaradzhov89@gmail.com",
+    "date": "2026-06-02T08:40:56Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-02T08:40:56Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "cc446adf542cac6197c1522e273f085af266c3e5"
+  ],
+  "github_author_login": "nkaradzhov",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-02T09:45:47Z",
+  "created_at": "2010-09-14T02:05:09Z",
+  "homepage": "https://redis.js.org/",
+  "size_kb": 170258,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-02T09:47:40.207Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
