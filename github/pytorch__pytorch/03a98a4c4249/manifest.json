@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "03a98a4c42492be72cebba03e0f47ef5dda77fce",
+  "tree_sha": "71b37a7e6e45e2b63928c71a98407a60816996e4",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100323,
+  "watchers": 100323,
+  "forks": 27905,
+  "open_issues": 18293,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "[c10] Fix missing symbol exports for ValueError/NotImplementedError on Windows (#175340)\n\n## Summary\n\nOn Windows, when PyTorch is built with `clang-cl`, the constructors of `c10::Error` subclasses declared via `using Error::Error;` (and similar `using Base::Base;` patterns) are not emitted into `c10.dll`'s export table. This is an instance of the upstream clang-cl bug llvm/llvm-project#162640 — clang-cl does not emit `dllexport` symbols for inherited constructors, while MSVC does.\n\nAny DLL or ex",
+  "commit_author": {
+    "name": "Milica Stankovic",
+    "email": "milica.stankovic@amd.com",
+    "date": "2026-06-02T01:09:45Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-06-02T01:09:50Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "c42e39b73c4b6bab2e78f982765bd2029abc2a2a"
+  ],
+  "github_author_login": "mstankov-amd",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-02T02:04:15Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1373089,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-02T02:07:27.473Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
