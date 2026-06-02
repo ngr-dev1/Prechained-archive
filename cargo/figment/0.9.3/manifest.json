@@ -1,0 +1,122 @@
+{
+  "name": "figment",
+  "version": "0.9.3",
+  "ecosystem": "cargo",
+  "description": "A configuration library so con-free, it's unreal.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "1d408be17cf2638273745ed2b95853ba82819074b4ef58c14d72d47c7052c282",
+  "features": {
+    "env": [
+      "pear",
+      "parse-value"
+    ],
+    "json": [
+      "serde_json"
+    ],
+    "magic": [],
+    "parse-value": [
+      "pear"
+    ],
+    "test": [
+      "tempfile",
+      "parking_lot"
+    ],
+    "yaml": [
+      "serde_yaml"
+    ]
+  },
+  "downloads": 5872,
+  "yanked": false,
+  "repository": "https://github.com/SergioBenitez/Figment",
+  "homepage": null,
+  "keywords": [
+    "json",
+    "config",
+    "yaml",
+    "configuration",
+    "toml"
+  ],
+  "categories": [
+    "Configuration"
+  ],
+  "dependencies": [
+    {
+      "name": "parking_lot",
+      "req": "^0.11",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "serde",
+      "req": "^1.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "serde",
+      "req": "^1.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "tempfile",
+      "req": "^3",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "uncased",
+      "req": "^0.9.3",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "version_check",
+      "req": "^0.9",
+      "kind": "build",
+      "optional": false
+    },
+    {
+      "name": "parking_lot",
+      "req": "^0.11",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "pear",
+      "req": "^0.2",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "serde_json",
+      "req": "^1.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "serde_yaml",
+      "req": "^0.8",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "tempfile",
+      "req": "^3",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "toml",
+      "req": "^0.5",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": {
+    "id": 3864,
+    "login": "SergioBenitez",
+    "name": "Sergio Benitez"
+  },
+  "publishedAt": "2020-10-26T21:17:32.532784Z"
+}
