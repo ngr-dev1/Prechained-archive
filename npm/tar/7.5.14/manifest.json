@@ -1,0 +1,75 @@
+{
+  "name": "tar",
+  "version": "7.5.14",
+  "ecosystem": "npm",
+  "description": "tar for node",
+  "license": "BlueOak-1.0.0",
+  "dependencies": {
+    "chownr": "^3.0.0",
+    "yallist": "^5.0.0",
+    "minipass": "^7.1.2",
+    "minizlib": "^3.1.0",
+    "@isaacs/fs-minipass": "^4.0.0"
+  },
+  "devDependencies": {
+    "tap": "^21.6.2",
+    "nock": "^13.5.4",
+    "tshy": "^3.3.2",
+    "chmodr": "^2.0.2",
+    "oxlint": "^1.57.0",
+    "rimraf": "^6.1.2",
+    "esbuild": "^0.27.4",
+    "typedoc": "^0.28.18",
+    "prettier": "^3.8.1",
+    "mutate-fs": "^2.1.1",
+    "@types/node": "^25.5.0",
+    "end-of-stream": "^1.4.3",
+    "events-to-array": "^2.0.3",
+    "oxlint-tsgolint": "^0.17.3"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tshy && bash scripts/build.sh",
+    "prepublish": null,
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "name": "Isaac Z. Schlueter"
+  },
+  "publishedAt": "2026-05-05T23:34:59.162Z",
+  "dist": {
+    "integrity": "sha512-/7sHKgQO3JLP9ESlwTYUUftHUadOURUqq23xs1vjcnp8Vss6k0wCfzulyEtk5g91pjvnuriimGlyG7k6msrzRw==",
+    "shasum": "4a5021989e5f53a2bdaa2e25592873c1ee3b447c",
+    "tarball": "https://registry.npmjs.org/tar/-/tar-7.5.14.tgz",
+    "fileCount": 249,
+    "unpackedSize": 2253756
+  },
+  "repository": {
+    "url": "git+https://github.com/isaacs/node-tar.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/isaacs/node-tar#readme",
+  "bugs": {
+    "url": "https://github.com/isaacs/node-tar/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  },
+  "captured_at": "2026-06-02T22:05:06.903Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
