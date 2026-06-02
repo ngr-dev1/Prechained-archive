@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "862cb8fb254273306ab4fe1e465d5b06d04a48c1",
+  "tree_sha": "bf501afc014d5c5a338a8fa1770169bbf9971232",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100333,
+  "watchers": 100333,
+  "forks": 27913,
+  "open_issues": 18312,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "[Dynamo] Implement reversed() mirroring CPython semantics (#185179)\n\n`BuiltinVariable.call_reversed` previously eagerly unpacked the input\ninto a tuple, which returned the wrong python type, ignored\nuser-defined `__reversed__`, and forced a full materialization for\nsequences that should support lazy reverse iteration.\n\nThis rewrites the dispatch to mirror CPython's `builtin_reversed_impl`:\n\n1. Type-level `__reversed__` lookup via `inspect.getattr_static` (skips\n   descriptors and metaclass, hono",
+  "commit_author": {
+    "name": "Guilherme Leobas",
+    "email": "guilhermeleobas@gmail.com",
+    "date": "2026-06-02T00:53:43Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-06-02T14:29:48Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "6578ad55c85f53c677f28c46021b4e93483c482b"
+  ],
+  "github_author_login": "guilhermeleobas",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-02T14:55:43Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1375514,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-02T15:00:42.181Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
