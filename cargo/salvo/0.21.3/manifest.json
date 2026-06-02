@@ -1,0 +1,110 @@
+{
+  "name": "salvo",
+  "version": "0.21.3",
+  "ecosystem": "cargo",
+  "description": "Salvo is a powerful web framework that can make your work easier.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "6f6da23b9241476b2c2fc7d986a68a4a20d9379f4305b6fc0cfe2ebff5125ada",
+  "features": {
+    "acme": [
+      "salvo_core/acme"
+    ],
+    "anyhow": [
+      "salvo_core/anyhow"
+    ],
+    "basic-auth": [
+      "salvo_extra/basic-auth"
+    ],
+    "compression": [
+      "salvo_extra/compression"
+    ],
+    "cors": [
+      "salvo_extra/cors"
+    ],
+    "csrf": [
+      "salvo_extra/csrf"
+    ],
+    "default": [],
+    "extra": [
+      "salvo_extra/full"
+    ],
+    "full": [
+      "rustls",
+      "native-tls",
+      "unix",
+      "acme",
+      "anyhow",
+      "extra"
+    ],
+    "jwt-auth": [
+      "salvo_extra/jwt-auth"
+    ],
+    "logging": [
+      "salvo_extra/logging"
+    ],
+    "native-tls": [
+      "salvo_core/native-tls"
+    ],
+    "proxy": [
+      "salvo_extra/proxy"
+    ],
+    "rustls": [
+      "salvo_core/rustls"
+    ],
+    "serve-static": [
+      "salvo_extra/serve-static"
+    ],
+    "size-limiter": [
+      "salvo_extra/size-limiter"
+    ],
+    "sse": [
+      "salvo_extra/sse"
+    ],
+    "timeout": [
+      "salvo_extra/timeout"
+    ],
+    "unix": [
+      "salvo_core/unix"
+    ],
+    "ws": [
+      "salvo_extra/ws"
+    ]
+  },
+  "downloads": 2473,
+  "yanked": false,
+  "repository": "https://github.com/salvo-rs/salvo",
+  "homepage": "https://salvo.rs",
+  "keywords": [
+    "async",
+    "framework",
+    "http",
+    "server",
+    "web"
+  ],
+  "categories": [
+    "HTTP server",
+    "Network programming",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "salvo_core",
+      "req": "^0.21.3",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "salvo_extra",
+      "req": "^0.21.3",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": {
+    "id": 34514,
+    "login": "chrislearn",
+    "name": "Chrislearn Young"
+  },
+  "publishedAt": "2022-04-25T01:01:35.809424Z"
+}
