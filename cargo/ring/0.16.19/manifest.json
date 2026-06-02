@@ -1,0 +1,108 @@
+{
+  "name": "ring",
+  "version": "0.16.19",
+  "ecosystem": "cargo",
+  "description": "An experiment.",
+  "license": "non-standard",
+  "checksum": "024a1e66fea74c66c66624ee5622a7ff0e4b73a13b4f5c326ddb50c708944226",
+  "features": {
+    "alloc": [],
+    "default": [
+      "alloc",
+      "dev_urandom_fallback"
+    ],
+    "dev_urandom_fallback": [
+      "once_cell"
+    ],
+    "internal_benches": [],
+    "slow_tests": [],
+    "std": [
+      "alloc"
+    ],
+    "test_logging": [],
+    "wasm32_c": []
+  },
+  "downloads": 1381503,
+  "yanked": false,
+  "repository": "https://github.com/briansmith/ring",
+  "homepage": null,
+  "keywords": [
+    "crypto",
+    "cryptography",
+    "ecc",
+    "rand",
+    "rsa"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "cc",
+      "req": "^1.0.62",
+      "kind": "build",
+      "optional": false
+    },
+    {
+      "name": "libc",
+      "req": "^0.2.80",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "libc",
+      "req": "^0.2.69",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "once_cell",
+      "req": "^1.5.2",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "spin",
+      "req": "^0.5.2",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "untrusted",
+      "req": "^0.7.1",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "wasm-bindgen-test",
+      "req": "^0.3.18",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "web-sys",
+      "req": "^0.3.37",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "winapi",
+      "req": "^0.3.8",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "once_cell",
+      "req": "^1.5.2",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": {
+    "id": 2342,
+    "login": "briansmith",
+    "name": "Brian Smith"
+  },
+  "publishedAt": "2020-12-02T02:20:43.985541Z"
+}
