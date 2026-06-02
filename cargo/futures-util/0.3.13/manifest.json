@@ -1,0 +1,174 @@
+{
+  "name": "futures-util",
+  "version": "0.3.13",
+  "ecosystem": "cargo",
+  "description": "Common utilities and extension traits for the futures-rs library.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "1812c7ab8aedf8d6f2701a43e1243acdbcc2b36ab26e2ad421eb99ac963d96d1",
+  "features": {
+    "alloc": [
+      "futures-core/alloc",
+      "futures-task/alloc"
+    ],
+    "async-await": [],
+    "async-await-macro": [
+      "async-await",
+      "futures-macro",
+      "proc-macro-hack",
+      "proc-macro-nested"
+    ],
+    "bilock": [],
+    "cfg-target-has-atomic": [
+      "futures-core/cfg-target-has-atomic",
+      "futures-task/cfg-target-has-atomic"
+    ],
+    "channel": [
+      "std",
+      "futures-channel"
+    ],
+    "compat": [
+      "std",
+      "futures_01"
+    ],
+    "default": [
+      "std",
+      "async-await",
+      "async-await-macro"
+    ],
+    "io": [
+      "std",
+      "futures-io",
+      "memchr"
+    ],
+    "io-compat": [
+      "io",
+      "compat",
+      "tokio-io"
+    ],
+    "read-initializer": [
+      "io",
+      "futures-io/read-initializer",
+      "futures-io/unstable"
+    ],
+    "sink": [
+      "futures-sink"
+    ],
+    "std": [
+      "alloc",
+      "futures-core/std",
+      "futures-task/std",
+      "slab"
+    ],
+    "unstable": [
+      "futures-core/unstable",
+      "futures-task/unstable"
+    ],
+    "write-all-vectored": [
+      "io"
+    ]
+  },
+  "downloads": 3093774,
+  "yanked": true,
+  "repository": "https://github.com/rust-lang/futures-rs",
+  "homepage": "https://rust-lang.github.io/futures-rs",
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "futures-core",
+      "req": "^0.3.13",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "futures-task",
+      "req": "^0.3.13",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "pin-project-lite",
+      "req": "^0.2.4",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "pin-utils",
+      "req": "^0.1.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "tokio",
+      "req": "^0.1.11",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "futures",
+      "req": "^0.1.25",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "futures-channel",
+      "req": "^0.3.13",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "futures-io",
+      "req": "^0.3.13",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "futures-macro",
+      "req": "=0.3.13",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "futures-sink",
+      "req": "^0.3.13",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "memchr",
+      "req": "^2.2",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "proc-macro-hack",
+      "req": "^0.5.19",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "proc-macro-nested",
+      "req": "^0.1.2",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "slab",
+      "req": "^0.4.2",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "tokio-io",
+      "req": "^0.1.9",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": {
+    "id": 33035,
+    "login": "taiki-e",
+    "name": "Taiki Endo"
+  },
+  "publishedAt": "2021-02-23T03:56:32.375310Z"
+}
