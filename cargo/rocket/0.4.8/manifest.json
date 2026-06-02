@@ -1,0 +1,125 @@
+{
+  "name": "rocket",
+  "version": "0.4.8",
+  "ecosystem": "cargo",
+  "description": "Web framework with a focus on usability, security, extensibility, and speed.\n",
+  "license": "MIT/Apache-2.0",
+  "checksum": "864129cddfc12f5f411280837483d8b962d7b8dffc39b8639521ba3d665a8fca",
+  "features": {
+    "default": [
+      "private-cookies"
+    ],
+    "private-cookies": [
+      "rocket_http/private-cookies"
+    ],
+    "sse": [],
+    "tls": [
+      "rocket_http/tls"
+    ]
+  },
+  "downloads": 5724,
+  "yanked": false,
+  "repository": "https://github.com/rwf2/Rocket",
+  "homepage": "https://rocket.rs",
+  "keywords": [
+    "rocket",
+    "server",
+    "web",
+    "framework"
+  ],
+  "categories": [
+    "HTTP server"
+  ],
+  "dependencies": [
+    {
+      "name": "atty",
+      "req": "^0.2",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "base64",
+      "req": "^0.13",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "log",
+      "req": "^0.4",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "memchr",
+      "req": "^2",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "num_cpus",
+      "req": "^1.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "pear",
+      "req": "^0.1",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "rocket_codegen",
+      "req": "^0.4.8",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "rocket_http",
+      "req": "^0.4.8",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "state",
+      "req": "^0.4.1",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "time",
+      "req": "^0.1",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "toml",
+      "req": "^0.4.8",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "version_check",
+      "req": "^0.9.1",
+      "kind": "build",
+      "optional": false
+    },
+    {
+      "name": "yansi",
+      "req": "^0.5",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "yansi",
+      "req": "^0.5",
+      "kind": "build",
+      "optional": false
+    }
+  ],
+  "published_by": {
+    "id": 3864,
+    "login": "SergioBenitez",
+    "name": "Sergio Benitez"
+  },
+  "publishedAt": "2021-05-19T04:28:35.144098Z"
+}
