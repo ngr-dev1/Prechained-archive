@@ -1,0 +1,53 @@
+{
+  "repo": "spring-projects/spring-framework",
+  "commit_sha": "85a8868bae9a6ad95ff432156781bce2e3f5672c",
+  "tree_sha": "fa491c994f6270882acbedc5d786cec312ef0a4d",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Spring Framework",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 60005,
+  "watchers": 60005,
+  "forks": 38825,
+  "open_issues": 434,
+  "language": "Java",
+  "topics": [
+    "framework",
+    "spring",
+    "spring-framework"
+  ],
+  "commit_message": "Preserve generic type info in awaitEntity()\n\nawaitEntity() used T::class.java which erases generic type\ninformation (e.g. List<Foo> becomes just List). Use the\nreified toEntity<T>() extension instead, which preserves\nfull generic type via ParameterizedTypeReference.\n\nCloses gh-36834\nSigned-off-by: wushiyuanmaimob <wushiyuanwork@outlook.com>",
+  "commit_author": {
+    "name": "wushiyuanmaimob",
+    "email": "wushiyuanwork@outlook.com",
+    "date": "2026-05-25T09:45:36Z"
+  },
+  "commit_committer": {
+    "name": "Sébastien Deleuze",
+    "email": "sdeleuze@users.noreply.github.com",
+    "date": "2026-06-02T10:26:41Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "dd72b9eb4b5716c08d2026758d085b3cbab11912"
+  ],
+  "github_author_login": "wushiyuanmaimob",
+  "github_committer_login": "sdeleuze",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-02T10:27:20Z",
+  "created_at": "2010-12-08T04:04:45Z",
+  "homepage": "https://spring.io/projects/spring-framework",
+  "size_kb": 242347,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-02T13:37:24.747Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
