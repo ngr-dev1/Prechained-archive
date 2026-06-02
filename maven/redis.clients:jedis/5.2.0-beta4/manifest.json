@@ -1,0 +1,139 @@
+{
+  "name": "redis.clients:jedis",
+  "version": "5.2.0-beta4",
+  "ecosystem": "maven",
+  "groupId": "redis.clients",
+  "artifactId": "jedis",
+  "description": "Jedis is a blazingly small and sane Redis java client.",
+  "url": "https://github.com/redis/jedis",
+  "inceptionYear": null,
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://github.com/redis/jedis/blob/master/LICENSE"
+    }
+  ],
+  "developers": [],
+  "scm": {
+    "url": "https://github.com/redis/jedis",
+    "connection": "scm:git:git@github.com:redis/jedis.git"
+  },
+  "dependencies": [
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "version": "${slf4j.version}",
+      "scope": null
+    },
+    {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-pool2",
+      "version": "2.12.0",
+      "scope": null
+    },
+    {
+      "groupId": "org.json",
+      "artifactId": "json",
+      "version": "20240303",
+      "scope": null
+    },
+    {
+      "groupId": "com.google.code.gson",
+      "artifactId": "gson",
+      "version": "2.10.1",
+      "scope": null
+    },
+    {
+      "groupId": "com.google.guava",
+      "artifactId": "guava",
+      "version": "33.0.0-jre",
+      "scope": null
+    },
+    {
+      "groupId": "com.github.ben-manes.caffeine",
+      "artifactId": "caffeine",
+      "version": "2.9.3",
+      "scope": null
+    },
+    {
+      "groupId": "net.openhft",
+      "artifactId": "zero-allocation-hashing",
+      "version": "0.16",
+      "scope": "test"
+    },
+    {
+      "groupId": "com.kohlschutter.junixsocket",
+      "artifactId": "junixsocket-core",
+      "version": "2.9.1",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.locationtech.jts",
+      "artifactId": "jts-core",
+      "version": "1.19.0",
+      "scope": "test"
+    },
+    {
+      "groupId": "junit",
+      "artifactId": "junit",
+      "version": "4.13.2",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest",
+      "version": "2.2",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-simple",
+      "version": "${slf4j.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "org.mockito",
+      "artifactId": "mockito-inline",
+      "version": "4.11.0",
+      "scope": "test"
+    },
+    {
+      "groupId": "com.fasterxml.jackson.core",
+      "artifactId": "jackson-databind",
+      "version": "${jackson.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "com.fasterxml.jackson.datatype",
+      "artifactId": "jackson-datatype-jsr310",
+      "version": "${jackson.version}",
+      "scope": "test"
+    },
+    {
+      "groupId": "net.javacrumbs.json-unit",
+      "artifactId": "json-unit",
+      "version": "2.38.0",
+      "scope": "test"
+    },
+    {
+      "groupId": "io.github.resilience4j",
+      "artifactId": "resilience4j-all",
+      "version": "${resilience4j.version}",
+      "scope": null
+    },
+    {
+      "groupId": "io.github.resilience4j",
+      "artifactId": "resilience4j-circuitbreaker",
+      "version": "${resilience4j.version}",
+      "scope": null
+    },
+    {
+      "groupId": "io.github.resilience4j",
+      "artifactId": "resilience4j-retry",
+      "version": "${resilience4j.version}",
+      "scope": null
+    }
+  ],
+  "centralUrl": "https://repo1.maven.org/maven2/redis/clients/jedis/5.2.0-beta4/",
+  "publishedAt": null
+}
