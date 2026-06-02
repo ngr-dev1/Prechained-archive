@@ -1,0 +1,89 @@
+{
+  "name": "inquirer",
+  "version": "6.3.1",
+  "ecosystem": "npm",
+  "description": "A collection of common interactive command line user interfaces.",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^6.4.0",
+    "chalk": "^2.4.2",
+    "lodash": "^4.17.11",
+    "figures": "^2.0.0",
+    "through": "^2.3.6",
+    "cli-width": "^2.0.0",
+    "run-async": "^2.2.0",
+    "cli-cursor": "^2.1.0",
+    "strip-ansi": "^5.1.0",
+    "mute-stream": "0.0.7",
+    "ansi-escapes": "^3.2.0",
+    "string-width": "^2.1.0",
+    "external-editor": "^3.0.3"
+  },
+  "devDependencies": {
+    "nyc": "^13.1.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.0.0",
+    "sinon": "^7.1.1",
+    "cmdify": "^0.0.4",
+    "mockery": "^2.1.0",
+    "chalk-pipe": "^2.0.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "cp ../../README.md ."
+  },
+  "maintainers": [
+    {
+      "name": "danielchatfield",
+      "email": "chatfielddaniel@gmail.com"
+    },
+    {
+      "name": "mischah",
+      "email": "mail@michael-kuehnel.de"
+    },
+    {
+      "name": "sboudrias",
+      "email": "admin@simonboudrias.com"
+    }
+  ],
+  "author": {
+    "name": "Simon Boudrias",
+    "email": "admin@simonboudrias.com"
+  },
+  "publishedAt": "2019-04-14T09:40:47.725Z",
+  "dist": {
+    "integrity": "sha512-MmL624rfkFt4TG9y/Jvmt8vdmOo836U7Y0Hxr2aFk3RelZEGX4Igk0KabWrcaaZaTv9uzglOqWh1Vly+FAWAXA==",
+    "shasum": "7a413b5e7950811013a3db491c61d1f3b776e8e7",
+    "tarball": "https://registry.npmjs.org/inquirer/-/inquirer-6.3.1.tgz",
+    "fileCount": 25,
+    "unpackedSize": 77174
+  },
+  "repository": {
+    "url": "git+https://github.com/SBoudrias/Inquirer.js.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/SBoudrias/Inquirer.js#readme",
+  "bugs": {
+    "url": "https://github.com/SBoudrias/Inquirer.js/issues"
+  },
+  "keywords": [
+    "command",
+    "prompt",
+    "stdin",
+    "cli",
+    "tty",
+    "menu"
+  ],
+  "_npmUser": {
+    "name": "sboudrias",
+    "email": "admin@simonboudrias.com"
+  }
+}
