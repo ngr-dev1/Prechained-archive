@@ -1,0 +1,56 @@
+{
+  "repo": "sbomify/sbomify",
+  "commit_sha": "95ef160e5345027546ce1cc16ab85859c46f5436",
+  "tree_sha": "d40013ed2791d278a71a1782d70fb9da60634d58",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "sbomify is a product security artifact hub and a trust center.",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 52,
+  "watchers": 52,
+  "forks": 10,
+  "open_issues": 32,
+  "language": "Python",
+  "topics": [
+    "sbom",
+    "security",
+    "security-tools",
+    "software-bill-of-material",
+    "software-bill-of-materials",
+    "trust-center"
+  ],
+  "commit_message": "fix(oidc): enforce both-or-neither IDs at the DB; align defer docstring\n\nCopilot round 2:\n* Add a CheckConstraint (repository_id IS NULL) == (repository_owner_id IS\n  NULL) so a partial-pin can't exist, and tighten the conditional unique\n  constraints to test BOTH id columns (not just repository_id) — a half-pinned\n  row would never match an exchange and would land in the wrong branch.\n* Fix create_binding docstring: deferred pinning happens for EVERY non-malformed\n  GitHubResolveError (not_foun",
+  "commit_author": {
+    "name": "Rana Aurangzaib",
+    "email": "aurangzaib048@gmail.com",
+    "date": "2026-06-02T15:44:20Z"
+  },
+  "commit_committer": {
+    "name": "Rana Aurangzaib",
+    "email": "aurangzaib048@gmail.com",
+    "date": "2026-06-02T15:44:20Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "61615cf5097d2f85d97dab64b0aef8a8d4811c36"
+  ],
+  "github_author_login": "aurangzaib048",
+  "github_committer_login": "aurangzaib048",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-02T15:52:48Z",
+  "created_at": "2025-01-24T11:27:14Z",
+  "homepage": "https://sbomify.com",
+  "size_kb": 40006,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-02T22:27:27.905Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
