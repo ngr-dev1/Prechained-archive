@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "1082013bacb9e3ada5a33e61ac188345ef30a1d5",
+  "tree_sha": "c9169bfefc4a161f97055ab4b655217504d479a0",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100323,
+  "watchers": 100323,
+  "forks": 27908,
+  "open_issues": 18295,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "[xpu][fix] Fix test_bad_cast to expect BackendCompilerFailed on XPU (#185468)\n\nFixes https://github.com/intel/torch-xpu-ops/issues/2888\n\nFix by adding \"xpu\" to the device condition so XPU correctly expects BackendCompilerFailed, and remove the @skipIfXpu decorator since the test now passes on XPU.\n\nTest Plan:\n\n```\npython test/inductor/test_fp8.py TestFP8TypesXPU.test_bad_cast_xpu\n```\n\nAuthored by Claude.\n\nPull Request resolved: https://github.com/pytorch/pytorch/pull/185468\nApproved by: https://",
+  "commit_author": {
+    "name": "Stonepia",
+    "email": "tong.su@intel.com",
+    "date": "2026-06-02T06:48:22Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-06-02T06:48:26Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "dc7a86c7b3fe668ebc3a79612c6e9eabc1729e18"
+  ],
+  "github_author_login": "Stonepia",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-02T06:57:38Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1373119,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-02T06:57:39.753Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
