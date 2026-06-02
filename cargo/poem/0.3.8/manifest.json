@@ -1,0 +1,228 @@
+{
+  "name": "poem",
+  "version": "0.3.8",
+  "ecosystem": "cargo",
+  "description": "Poem is a full-featured and easy-to-use web framework with the Rust programming language.",
+  "license": "MIT/Apache-2.0",
+  "checksum": "02d44ea2aa288add39b9518b2f936ee107af0377aceb607d84515bcd7679b206",
+  "features": {
+    "compression": [
+      "async-compression"
+    ],
+    "default": [],
+    "multipart": [
+      "multer"
+    ],
+    "sse": [],
+    "tls": [
+      "tokio-rustls"
+    ],
+    "websocket": [
+      "tokio-tungstenite"
+    ]
+  },
+  "downloads": 2550,
+  "yanked": false,
+  "repository": "https://github.com/poem-web/poem",
+  "homepage": "https://github.com/poem-web/poem",
+  "keywords": [
+    "async",
+    "framework",
+    "http",
+    "web"
+  ],
+  "categories": [
+    "Network programming",
+    "HTTP server",
+    "Asynchronous",
+    "WebSocket"
+  ],
+  "dependencies": [
+    {
+      "name": "askama",
+      "req": "^0.10.5",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "async-graphql",
+      "req": "^2.9.10",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "async-trait",
+      "req": "^0.1.51",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "base64",
+      "req": "^0.13.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "bytes",
+      "req": "^1.0.1",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "cookie",
+      "req": "^0.15.1",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "derive_more",
+      "req": "^0.99.16",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "futures-util",
+      "req": "^0.3.16",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "http",
+      "req": "^0.2.4",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "hyper",
+      "req": "^0.14.11",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "mime",
+      "req": "^0.3.16",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "parking_lot",
+      "req": "^0.11.1",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "poem-derive",
+      "req": "^0.3.6",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "serde",
+      "req": "^1.0.127",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "serde_json",
+      "req": "^1.0.66",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "serde_urlencoded",
+      "req": "^0.7.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "sha1",
+      "req": "^0.6.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "slab",
+      "req": "^0.4.4",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "tokio",
+      "req": "^1.10.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "tokio",
+      "req": "^1.10.0",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "tokio-stream",
+      "req": "^0.1.7",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "tokio-util",
+      "req": "^0.6.7",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "tracing-subscriber",
+      "req": "^0.2.20",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "async-compression",
+      "req": "^0.3.8",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "multer",
+      "req": "^2.0.1",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "tempfile",
+      "req": "^3.2.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "tokio-rustls",
+      "req": "^0.22.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "tokio-tungstenite",
+      "req": "^0.15.0",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "tracing",
+      "req": "^0.1.26",
+      "kind": "normal",
+      "optional": true
+    },
+    {
+      "name": "typed-headers",
+      "req": "^0.2.0",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": {
+    "id": 66052,
+    "login": "sunli829",
+    "name": "Sunli"
+  },
+  "publishedAt": "2021-08-25T05:54:00.567414Z"
+}
