@@ -1,0 +1,72 @@
+{
+  "name": "tar",
+  "version": "7.4.3",
+  "ecosystem": "npm",
+  "description": "tar for node",
+  "license": "ISC",
+  "dependencies": {
+    "chownr": "^3.0.0",
+    "mkdirp": "^3.0.1",
+    "yallist": "^5.0.0",
+    "minipass": "^7.1.2",
+    "minizlib": "^3.0.1",
+    "@isaacs/fs-minipass": "^4.0.0"
+  },
+  "devDependencies": {
+    "tap": "^18.7.2",
+    "nock": "^13.5.4",
+    "tshy": "^1.13.1",
+    "chmodr": "^1.2.0",
+    "rimraf": "^5.0.5",
+    "typedoc": "^0.25.13",
+    "prettier": "^3.2.5",
+    "mutate-fs": "^2.1.1",
+    "end-of-stream": "^1.4.3",
+    "events-to-array": "^2.0.3"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tshy",
+    "prepublish": null,
+    "prepublishOnly": "git push origin --follow-tags"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "author": {
+    "name": "Isaac Z. Schlueter"
+  },
+  "publishedAt": "2024-07-26T04:33:46.030Z",
+  "dist": {
+    "integrity": "sha512-5S7Va8hKfV7W5U6g3aYxXmlPoZVAwUMy9AOKyF2fVuZa2UD3qZjg578OrLRt8PcNN1PleVaL/5/yYATNL0ICUw==",
+    "shasum": "88bbe9286a3fcd900e94592cda7a22b192e80571",
+    "tarball": "https://registry.npmjs.org/tar/-/tar-7.4.3.tgz",
+    "fileCount": 237,
+    "unpackedSize": 1239499
+  },
+  "repository": {
+    "url": "git+https://github.com/isaacs/node-tar.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/isaacs/node-tar#readme",
+  "bugs": {
+    "url": "https://github.com/isaacs/node-tar/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  },
+  "captured_at": "2026-06-02T14:49:00.124Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
