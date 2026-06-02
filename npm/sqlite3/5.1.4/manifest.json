@@ -1,0 +1,101 @@
+{
+  "name": "sqlite3",
+  "version": "5.1.4",
+  "ecosystem": "npm",
+  "description": "Asynchronous, non-blocking SQLite3 bindings",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "tar": "^6.1.11",
+    "node-gyp": "8.x",
+    "node-addon-api": "^4.2.0",
+    "@mapbox/node-pre-gyp": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "7.2.0",
+    "eslint": "6.8.0",
+    "node-pre-gyp-github": "1.4.4"
+  },
+  "peerDependencies": {
+    "node-gyp": "8.x"
+  },
+  "engines": {},
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "springmeyer",
+      "email": "dane.springmeyer@gmail.com"
+    },
+    {
+      "name": "kkaefer",
+      "email": "mail@kkaefer.com"
+    },
+    {
+      "name": "tmcw",
+      "email": "tom@macwright.com"
+    },
+    {
+      "name": "erisds",
+      "email": "github.erisds@gmail.com"
+    },
+    {
+      "name": "yhahn",
+      "email": "young@mapbox.com"
+    },
+    {
+      "name": "mapsam",
+      "email": "sam@mapbox.com"
+    },
+    {
+      "name": "zmully",
+      "email": "mully@mapbox.com"
+    },
+    {
+      "name": "kewde_",
+      "email": "kewde@particl.io"
+    },
+    {
+      "name": "daniellockyer",
+      "email": "hi@daniellockyer.com"
+    }
+  ],
+  "author": {
+    "url": "https://mapbox.com/",
+    "name": "Mapbox"
+  },
+  "publishedAt": "2022-12-12T14:55:20.169Z",
+  "dist": {
+    "integrity": "sha512-i0UlWAzPlzX3B5XP2cYuhWQJsTtlMD6obOa1PgeEQ4DHEXUuyJkgv50I3isqZAP5oFc2T8OFvakmDh2W6I+YpA==",
+    "shasum": "35f83d368963168b324ad2f0fffce09f3b8723a7",
+    "tarball": "https://registry.npmjs.org/sqlite3/-/sqlite3-5.1.4.tgz",
+    "fileCount": 23,
+    "unpackedSize": 3242746
+  },
+  "repository": {
+    "url": "git+https://github.com/TryGhost/node-sqlite3.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/TryGhost/node-sqlite3",
+  "bugs": {
+    "url": "https://github.com/TryGhost/node-sqlite3/issues"
+  },
+  "keywords": [
+    "sql",
+    "sqlite",
+    "sqlite3",
+    "database"
+  ],
+  "_npmUser": {
+    "name": "daniellockyer",
+    "email": "hi@daniellockyer.com"
+  },
+  "captured_at": "2026-06-02T00:54:28.719Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
