@@ -1,0 +1,63 @@
+{
+  "name": "prometheus",
+  "version": "0.2.2",
+  "ecosystem": "cargo",
+  "description": "Prometheus instrumentation library for Rust applications.",
+  "license": "Apache-2.0",
+  "checksum": "9f673fa9967358a117b09160700eaa22ece396b1f2204f94d64adfd7a3b7b641",
+  "features": {
+    "default": [],
+    "dev": [
+      "clippy"
+    ]
+  },
+  "downloads": 3042,
+  "yanked": false,
+  "repository": "https://github.com/tikv/rust-prometheus",
+  "homepage": "https://github.com/tikv/rust-prometheus",
+  "keywords": [
+    "metrics",
+    "prometheus"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "fnv",
+      "req": "^1.0.3",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "hyper",
+      "req": "^0.9",
+      "kind": "dev",
+      "optional": false
+    },
+    {
+      "name": "lazy_static",
+      "req": "^0.2.1",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "protobuf",
+      "req": "^1.0",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "quick-error",
+      "req": "^0.2",
+      "kind": "normal",
+      "optional": false
+    },
+    {
+      "name": "clippy",
+      "req": "^0",
+      "kind": "normal",
+      "optional": true
+    }
+  ],
+  "published_by": null,
+  "publishedAt": "2016-09-01T03:13:44.139326Z"
+}
