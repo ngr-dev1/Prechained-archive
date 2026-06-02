@@ -1,0 +1,344 @@
+{
+  "name": "swr",
+  "version": "1.0.0-beta.5",
+  "ecosystem": "npm",
+  "description": "React Hooks library for remote data fetching",
+  "license": "MIT",
+  "dependencies": {
+    "dequal": "2.0.2"
+  },
+  "devDependencies": {
+    "jest": "25.5.4",
+    "husky": "2.4.1",
+    "react": "17.0.1",
+    "eslint": "6.6.0",
+    "bunchee": "1.5.1",
+    "ts-jest": "25.5.1",
+    "prettier": "1.18.2",
+    "react-dom": "17.0.1",
+    "typescript": "3.7.7",
+    "@types/jest": "25.2.3",
+    "@types/node": "11.12.0",
+    "lint-staged": "8.2.1",
+    "@types/react": "16.9.11",
+    "concurrently": "6.0.0",
+    "react-experimental": "npm:react@experimental",
+    "eslint-plugin-react": "7.20.6",
+    "@testing-library/react": "10.1.0",
+    "eslint-config-prettier": "6.5.0",
+    "eslint-plugin-jest-dom": "3.6.5",
+    "react-dom-experimental": "npm:react-dom@experimental",
+    "@testing-library/jest-dom": "5.11.9",
+    "@typescript-eslint/parser": "2.5.0",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "eslint-plugin-testing-library": "3.10.1",
+    "@typescript-eslint/eslint-plugin": "2.5.0"
+  },
+  "peerDependencies": {
+    "react": "^16.11.0 || ^17.0.0"
+  },
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "rm -rf dist && yarn build"
+  },
+  "maintainers": [
+    {
+      "name": "mrmckeb",
+      "email": "mrmckeb.npm@outlook.com"
+    },
+    {
+      "name": "mitchellwright",
+      "email": "mitchellbwright@gmail.com"
+    },
+    {
+      "name": "jhoch",
+      "email": "jrshoch@gmail.com"
+    },
+    {
+      "name": "ismaelrumzan",
+      "email": "ismaelrumzan@gmail.com"
+    },
+    {
+      "name": "ernestd",
+      "email": "lapapelera@gmail.com"
+    },
+    {
+      "name": "chriswdmr",
+      "email": "github.wolle404@gmail.com"
+    },
+    {
+      "name": "cl3arglass",
+      "email": "haltaffer@gmail.com"
+    },
+    {
+      "name": "divmain",
+      "email": "dale@divmain.com"
+    },
+    {
+      "name": "sokra",
+      "email": "tobias.koppers@googlemail.com"
+    },
+    {
+      "name": "raunofreiberg",
+      "email": "freiberggg@gmail.com"
+    },
+    {
+      "name": "rizbizkits",
+      "email": "rizwana.akmal@hotmail.com"
+    },
+    {
+      "name": "julianbenegas",
+      "email": "julianbenegas99@gmail.com"
+    },
+    {
+      "name": "codetheory",
+      "email": "thecodetheory@gmail.com"
+    },
+    {
+      "name": "matheuss",
+      "email": "matheus.frndes@gmail.com"
+    },
+    {
+      "name": "igorklopov",
+      "email": "igor@klopov.com"
+    },
+    {
+      "name": "leo",
+      "email": "mindrun@icloud.com"
+    },
+    {
+      "name": "nkzawa",
+      "email": "naoyuki.kanezawa@gmail.com"
+    },
+    {
+      "name": "tootallnate",
+      "email": "nathan@tootallnate.net"
+    },
+    {
+      "name": "rauchg",
+      "email": "rauchg@gmail.com"
+    },
+    {
+      "name": "timneutkens",
+      "email": "tim@timneutkens.nl"
+    },
+    {
+      "name": "javivelasco",
+      "email": "javier.velasco86@gmail.com"
+    },
+    {
+      "name": "iamevilrabbit",
+      "email": "hello@evilrabb.it"
+    },
+    {
+      "name": "joecohens",
+      "email": "joecohenr@gmail.com"
+    },
+    {
+      "name": "quietshu",
+      "email": "ds303077135@gmail.com"
+    },
+    {
+      "name": "dav-is",
+      "email": "mail@connordav.is"
+    },
+    {
+      "name": "juancampa",
+      "email": "juancampa@gmail.com"
+    },
+    {
+      "name": "styfle",
+      "email": "steven@ceriously.com"
+    },
+    {
+      "name": "zeit-bot",
+      "email": "team@zeit.co"
+    },
+    {
+      "name": "lucleray",
+      "email": "luc.leray@gmail.com"
+    },
+    {
+      "name": "mglagola",
+      "email": "mark.glagola@gmail.com"
+    },
+    {
+      "name": "andybitz",
+      "email": "artzbitz@gmail.com"
+    },
+    {
+      "name": "paulogdm",
+      "email": "paulogdemitri@gmail.com"
+    },
+    {
+      "name": "anatrajkovska",
+      "email": "ana.trajkovska2015@gmail.com"
+    },
+    {
+      "name": "timer",
+      "email": "timer150@gmail.com"
+    },
+    {
+      "name": "umegaya",
+      "email": "iyatomi@gmail.com"
+    },
+    {
+      "name": "arzafran",
+      "email": "franco@studiofreight.com"
+    },
+    {
+      "name": "ijjk",
+      "email": "jj@jjsweb.site"
+    },
+    {
+      "name": "mfix22",
+      "email": "mrfix84@gmail.com"
+    },
+    {
+      "name": "lfades",
+      "email": "luisito453@gmail.com"
+    },
+    {
+      "name": "rabaut",
+      "email": "rabautse@gmail.com"
+    },
+    {
+      "name": "coetry",
+      "email": "allenhai03@gmail.com"
+    },
+    {
+      "name": "msweeneydev",
+      "email": "mail@msweeneydev.com"
+    },
+    {
+      "name": "williamli",
+      "email": "williamli@bbi.io"
+    },
+    {
+      "name": "ragojose",
+      "email": "ragojosefrancisco@gmail.com"
+    },
+    {
+      "name": "guybedford",
+      "email": "guybedford@gmail.com"
+    },
+    {
+      "name": "paco",
+      "email": "pvco.coursey@gmail.com"
+    },
+    {
+      "name": "skllcrn",
+      "email": "skllcrn@zeit.co"
+    },
+    {
+      "name": "janicklas-ralph",
+      "email": "janicklasralph036@gmail.com"
+    },
+    {
+      "name": "atcastle",
+      "email": "atcastle@gmail.com"
+    },
+    {
+      "name": "keanulee",
+      "email": "npm@keanulee.com"
+    },
+    {
+      "name": "spanicker",
+      "email": "shubhie@gmail.com"
+    },
+    {
+      "name": "developit",
+      "email": "jason@developit.ca"
+    },
+    {
+      "name": "housseindjirdeh",
+      "email": "houssein.djirdeh@gmail.com"
+    },
+    {
+      "name": "gmonaco",
+      "email": "gbmonaco@google.com"
+    },
+    {
+      "name": "kikobeats",
+      "email": "josefrancisco.verdu@gmail.com"
+    },
+    {
+      "name": "prateekbh",
+      "email": "prateek89born@gmail.com"
+    },
+    {
+      "name": "jkrems",
+      "email": "jan.krems@gmail.com"
+    },
+    {
+      "name": "jaredpalmer",
+      "email": "jared@palmer.net"
+    },
+    {
+      "name": "gielcobben",
+      "email": "g.cobben@gmail.com"
+    },
+    {
+      "name": "chibicode",
+      "email": "shu@chibicode.com"
+    },
+    {
+      "name": "nazarenooviedo",
+      "email": "nazareno@basement.studio"
+    },
+    {
+      "name": "cleishm",
+      "email": "chris@leishman.org"
+    },
+    {
+      "name": "samsisle",
+      "email": "samko9522@gmail.com"
+    },
+    {
+      "name": "okbel",
+      "email": "curciobel@gmail.com"
+    },
+    {
+      "name": "hankvercel",
+      "email": "hank@vercel.com"
+    },
+    {
+      "name": "leerobinson",
+      "email": "lrobinson2011@gmail.com"
+    },
+    {
+      "name": "elsigh",
+      "email": "lsimon@commoner.com"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2021-04-06T15:00:35.635Z",
+  "dist": {
+    "integrity": "sha512-Iz4Q9vXDNN8TDTsF8iZol19usiGy2FCrTUva9VaW2cLoLo5YCfhMmgTh3pX32mNDL+p6lU4nNb67UA8/ScQbtQ==",
+    "shasum": "9087a4330934b71f73761ab7004a5a3ffc5c10c1",
+    "tarball": "https://registry.npmjs.org/swr/-/swr-1.0.0-beta.5.tgz",
+    "fileCount": 17,
+    "unpackedSize": 61427
+  },
+  "repository": {
+    "url": "git+https://github.com/vercel/swr.git",
+    "type": "git"
+  },
+  "homepage": "https://swr.vercel.app",
+  "bugs": {
+    "url": "https://github.com/vercel/swr/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "quietshu",
+    "email": "ds303077135@gmail.com"
+  },
+  "captured_at": "2026-06-02T00:07:23.397Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
