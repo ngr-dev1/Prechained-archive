@@ -1,0 +1,53 @@
+{
+  "repo": "dotnet/runtime",
+  "commit_sha": "2165f1459f29f5a8ebcf6a90be60b1ecfe61485c",
+  "tree_sha": "0b978c148bb2d0f1418a08e7921768b9233b4aac",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 17920,
+  "watchers": 17920,
+  "forks": 5450,
+  "open_issues": 8260,
+  "language": "C#",
+  "topics": [
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "Add AssociatedSourceType for conditional unmanaged exports (#128180)\n\nResolves #127634\n\n`UnmanagedCallersOnlyAttribute` exports with `EntryPoint` were always\nrooted and emitted. This adds an associated source type so NativeAOT can\nkeep/export generated native entrypoints only when the source type\nsurvives trimming.\n\n- **Public API**\n- Adds `UnmanagedCallersOnlyAttribute.AssociatedSourceType` to\nimplementation and ref assemblies.\n  - Leaves the lightweight Runtime.Base attribute copy unchanged.\n\n",
+  "commit_author": {
+    "name": "Copilot",
+    "email": "198982749+Copilot@users.noreply.github.com",
+    "date": "2026-06-03T10:40:25Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-03T10:40:25Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "483b9ea93efd47892a1d0066738db106b2f1d80f"
+  ],
+  "github_author_login": "Copilot",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-03T11:15:20Z",
+  "created_at": "2019-09-24T23:36:39Z",
+  "homepage": "https://docs.microsoft.com/dotnet/core/",
+  "size_kb": 1133670,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-03T11:37:22.454Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
