@@ -1,0 +1,82 @@
+{
+  "name": "cache-manager",
+  "version": "7.2.0",
+  "ecosystem": "npm",
+  "description": "Cache Manager for Node.js",
+  "license": "MIT",
+  "dependencies": {
+    "keyv": "^5.5.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "rimraf": "^6.0.1",
+    "vitest": "^3.2.4",
+    "cacheable": "^1.10.4",
+    "typescript": "^5.9.2",
+    "@keyv/redis": "^5.1.0",
+    "@types/node": "^24.2.0",
+    "@vitest/spy": "^3.2.4",
+    "@biomejs/biome": "^2.2.0",
+    "@faker-js/faker": "^9.9.0",
+    "@vitest/coverage-v8": "^3.2.4",
+    "cache-manager-redis-yet": "^5.1.5"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "pnpm run build",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "jaredwray",
+      "email": "me@jaredwray.com"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2025-08-26T22:18:44.837Z",
+  "dist": {
+    "integrity": "sha512-GRv0Ji8Xgqtrg1Mmi4ygYpIt+SOApQNjJb5+rYIl+5y3u+tyBf+Csx79LL4wQjKLio63A6x1OpuBzhMzRv9jJg==",
+    "shasum": "2b29098e6d748e875bbccd148fc28639d9f5cdf8",
+    "tarball": "https://registry.npmjs.org/cache-manager/-/cache-manager-7.2.0.tgz",
+    "fileCount": 7,
+    "unpackedSize": 55056
+  },
+  "repository": {
+    "url": "git+https://github.com/jaredwray/cacheable.git",
+    "type": "git",
+    "directory": "packages/cache-manager"
+  },
+  "homepage": "https://github.com/jaredwray/cacheable#readme",
+  "bugs": {
+    "url": "https://github.com/jaredwray/cacheable/issues"
+  },
+  "keywords": [
+    "cache",
+    "caching",
+    "cache manager",
+    "node",
+    "node.js",
+    "in-memory cache",
+    "redis",
+    "memcached",
+    "multi-store cache",
+    "ttl",
+    "caching layer",
+    "cache abstraction",
+    "cache middleware",
+    "cache strategies",
+    "cache wrapper"
+  ],
+  "_npmUser": {
+    "name": "jaredwray",
+    "email": "me@jaredwray.com"
+  },
+  "captured_at": "2026-06-03T04:07:27.097Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
