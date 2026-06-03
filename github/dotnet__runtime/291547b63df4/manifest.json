@@ -1,0 +1,53 @@
+{
+  "repo": "dotnet/runtime",
+  "commit_sha": "291547b63df42b4c3bb49e0dc1f3956fb2b77714",
+  "tree_sha": "18bc486c0cb777f99cf0347e42650005596ef3c8",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 17922,
+  "watchers": 17922,
+  "forks": 5451,
+  "open_issues": 8252,
+  "language": "C#",
+  "topics": [
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "[cDAC] Implement DacDbi APIs EnumerateClassFields and EnumerateInstantiationFields (#128829)\n\n* Add EditAndContinue cDAC contract with API\n```csharp\nIEnumerable<TargetPointer> EnumerateAddedFieldDescs(TypeHandle typeHandle, bool staticFields);\n```\n\nAdding the following RuntimeTypeSystem APIs:\n```csharp\n    uint GetNumInstanceFieldBytes(TypeHandle typeHandle);\n    bool IsFieldDescRVA(TargetPointer fieldDescPointer);\n    bool IsFieldDescEnCNew(TargetPointer fieldDescPointer);\n```\n\n---------\n\nCo-au",
+  "commit_author": {
+    "name": "Copilot",
+    "email": "198982749+Copilot@users.noreply.github.com",
+    "date": "2026-06-03T16:39:04Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-03T16:39:04Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "129f8a37dadbc1c155777d41fc35f68363590669"
+  ],
+  "github_author_login": "Copilot",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-03T19:23:37Z",
+  "created_at": "2019-09-24T23:36:39Z",
+  "homepage": "https://docs.microsoft.com/dotnet/core/",
+  "size_kb": 1134345,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-03T19:32:16.876Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
