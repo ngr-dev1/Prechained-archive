@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "f429f93e8b2fcc6dc9d02aa43205c560d0d1a7e8",
+  "tree_sha": "fcd7f80b4cf817c39fd42e6af0c16be573e74a70",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35343,
+  "watchers": 35343,
+  "forks": 1471,
+  "open_issues": 2366,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "feat(pnpr): support `--lockfile-only` on the pnpr install path (resolve-only mode) (#12148)\n\n* feat(pnpr): support --lockfile-only on the pnpr install path\n\nAdd a server-side resolve-only mode so `--lockfile-only` (and the\n`lockfileOnly` setting) is honored when a pnprServer / agent is\nconfigured: resolve and write the lockfile, fetch nothing, link nothing.\n\nThe pnpr server skips the tarball fetch and file diff when the request\nsets `lockfileOnly`, returning just the lockfile. The pnpr client an",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-02T19:14:37Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-02T19:14:37Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "622c056bbc34c3cc0e7790f87327fec57bcef896"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-02T23:48:32Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 215243,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-03T05:07:24.809Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
