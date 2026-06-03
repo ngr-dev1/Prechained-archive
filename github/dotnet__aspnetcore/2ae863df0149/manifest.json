@@ -1,0 +1,54 @@
+{
+  "repo": "dotnet/aspnetcore",
+  "commit_sha": "2ae863df01498206d6af7e2b17aa7d34fb04a30d",
+  "tree_sha": "15599ea79d84c3ec1c7539c0825753435e27c151",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 37961,
+  "watchers": 37961,
+  "forks": 10682,
+  "open_issues": 3981,
+  "language": "C#",
+  "topics": [
+    "aspnetcore",
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "Stabilize flaky VirtualizationTest AnchorMode tests (#66893)\n\nThe `AnchorMode_*_PrependAtTop_ViewportStaysStable` family (and the related\nAppend/ExpandItem variants) calls `AssertViewportStaysStable` immediately after\nclicking the prepend/append button and waiting for the status text. The status\ntext is set inside the component as soon as the mutation completes, but the\nVirtualize render pipeline (anchor restore, IntersectionObserver callbacks,\nspacer recomputation) may still be in flight at tha",
+  "commit_author": {
+    "name": "Ilona Tomkowicz",
+    "email": "32700855+ilonatommy@users.noreply.github.com",
+    "date": "2026-06-03T07:50:37Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-03T07:50:37Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "f8ce5242b69a63173b5171604e590a74bcbfad76"
+  ],
+  "github_author_login": "ilonatommy",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-03T18:17:52Z",
+  "created_at": "2014-03-11T06:09:42Z",
+  "homepage": "https://asp.net",
+  "size_kb": 379256,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-03T18:37:26.267Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
