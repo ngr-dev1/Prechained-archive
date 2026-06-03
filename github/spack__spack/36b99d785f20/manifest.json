@@ -1,0 +1,61 @@
+{
+  "repo": "spack/spack",
+  "commit_sha": "36b99d785f20c668297072fb9db8a702c3a569c9",
+  "tree_sha": "25dbd6f701dd39e7f0dcd94d16445fe8894e0f72",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers.",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 5065,
+  "watchers": 5065,
+  "forks": 2439,
+  "open_issues": 1730,
+  "language": "Python",
+  "topics": [
+    "build-tools",
+    "hpc",
+    "hpsf",
+    "linux",
+    "macos",
+    "package-manager",
+    "python",
+    "radiuss",
+    "scientific-computing",
+    "spack",
+    "windows"
+  ],
+  "commit_message": "darwin: use forkserver when using new installer (#52128)\n\nForkserver improves subprocess startup time compared to spawn, and\nshould be fork-safe.\n\nUsing `spack install --fake`, which measures mostly latency, I see the\nfollowing:\n\nFrom 2.961s to 1.136s on my macbook.\n\nI believe this should be safe, given that we don't create threads or SSL\ncontext objects at import time, etc, and do not interact with anything that\nuses the Objective-C or Swift runtimes\n\nSigned-off-by: Harmen Stoppels <me@harmenst",
+  "commit_author": {
+    "name": "Harmen Stoppels",
+    "email": "me@harmenstoppels.nl",
+    "date": "2026-06-02T21:12:01Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-02T21:12:01Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "6b82a5593fad7fdfa9f9a9ef3f20248d5a95a675"
+  ],
+  "github_author_login": "haampie",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-06-02T21:12:05Z",
+  "created_at": "2014-01-08T09:22:12Z",
+  "homepage": "https://spack.io",
+  "size_kb": 239762,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-03T07:37:22.762Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
