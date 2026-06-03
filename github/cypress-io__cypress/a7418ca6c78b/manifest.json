@@ -1,0 +1,63 @@
+{
+  "repo": "cypress-io/cypress",
+  "commit_sha": "a7418ca6c78b47963b7e7c3e96a088f1b1105fb2",
+  "tree_sha": "b23a2b87f94e9b0d5acaf97fb99e637f0cb50556",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 49649,
+  "watchers": 49649,
+  "forks": 3404,
+  "open_issues": 1229,
+  "language": "TypeScript",
+  "topics": [
+    "angular-testing-library",
+    "component-testing",
+    "cypress",
+    "cypress-cloud",
+    "cypress-schematic",
+    "end-to-end-testing",
+    "react-testing-library",
+    "svelte-testing-library",
+    "test-replay",
+    "testing-framework",
+    "testing-library",
+    "testing-tool",
+    "vue-testing-library"
+  ],
+  "commit_message": "fix(server): prevent Electron beforeunload prompt from hanging navigation (#33981)\n\n* fix(server): prevent Electron beforeunload prompt from hanging navigation\n\nPages that register a beforeunload handler requesting a confirmation\nprompt (window.onbeforeunload returning a string or setting\nevent.returnValue) caused the Electron browser to hang and eventually\nfail navigation with a pageLoadTimeout. Electron surfaces these prompts\nvia the webContents 'will-prevent-unload' event, which Cypress never",
+  "commit_author": {
+    "name": "Jennifer Shehane",
+    "email": "jennifer@cypress.io",
+    "date": "2026-06-03T02:26:54Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-03T02:26:54Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "e1c46dd3f111afef78a406f1bc920e7cc1100798"
+  ],
+  "github_author_login": "jennifer-shehane",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-06-03T03:21:42Z",
+  "created_at": "2015-03-04T00:46:28Z",
+  "homepage": "https://cypress.io",
+  "size_kb": 556456,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-03T04:17:21.411Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
