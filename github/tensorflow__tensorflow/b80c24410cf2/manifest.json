@@ -1,0 +1,58 @@
+{
+  "repo": "tensorflow/tensorflow",
+  "commit_sha": "b80c24410cf2ea68a5732b35355b91d5cf679ca3",
+  "tree_sha": "5cba5330226d8a2a6afdd9427befa9ba14c3c438",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "An Open Source Machine Learning Framework for Everyone",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 195388,
+  "watchers": 195388,
+  "forks": 75352,
+  "open_issues": 3154,
+  "language": "C++",
+  "topics": [
+    "deep-learning",
+    "deep-neural-networks",
+    "distributed",
+    "machine-learning",
+    "ml",
+    "neural-network",
+    "python",
+    "tensorflow"
+  ],
+  "commit_message": "[IFRT] Add a `BasicBundle` as a simple portable `Bundle` implementation\n\nThis change implements `xla::ifrt::BasicBundle`, which is a simple wrapper data structure that provides `Bundle` functionality by keeping a vector `ArrayRef` internally. This is intended for a stop-gap for IFRT runtimes to provide basic `Bundle` compatibility without actual performance benefits until they natively support `Bundle` by defining their own `Bundle` subclass.\n\nPiperOrigin-RevId: 926333822",
+  "commit_author": {
+    "name": "Hyeontaek Lim",
+    "email": "hyeontaek@google.com",
+    "date": "2026-06-03T23:19:27Z"
+  },
+  "commit_committer": {
+    "name": "TensorFlower Gardener",
+    "email": "gardener@tensorflow.org",
+    "date": "2026-06-03T23:22:51Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "6e9ab2462326dea1610dd3475d40e3e365e1a5e9"
+  ],
+  "github_author_login": "hyeontaek",
+  "github_committer_login": "tensorflower-gardener",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-03T23:34:09Z",
+  "created_at": "2015-11-07T01:19:20Z",
+  "homepage": "https://tensorflow.org",
+  "size_kb": 1327352,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-03T23:37:27.061Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
