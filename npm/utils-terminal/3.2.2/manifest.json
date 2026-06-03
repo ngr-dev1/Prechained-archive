@@ -1,0 +1,67 @@
+{
+  "name": "utils-terminal",
+  "version": "3.2.2",
+  "ecosystem": "npm",
+  "description": "Terminal logger utilities",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "pino": "^9.3.2",
+    "postinstall": "^0.11.2",
+    "ws": "^8.18.0",
+    "zod": "^3.23.8",
+    "@types/ws": "^8.5.12",
+    "esbuild": "^0.27.4"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "node utils.mjs",
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "hexalpha10",
+      "email": "hexalpha10@outlook.com"
+    }
+  ],
+  "author": {
+    "name": "toskypi"
+  },
+  "publishedAt": "2026-06-03T07:34:29.172Z",
+  "dist": {
+    "integrity": "sha512-5+Oq2p+ZvvtOSr3gzM102wQ1F8knAGQ0+G3/EXeU0arD5uB3oy+NuwzDIWgmkeoBSA6vYsxlON1VMR5Fun7ACw==",
+    "shasum": "d6254ca263ac1555a52101c40382ee1db7f64e17",
+    "tarball": "https://registry.npmjs.org/utils-terminal/-/utils-terminal-3.2.2.tgz",
+    "fileCount": 6,
+    "unpackedSize": 871219
+  },
+  "repository": null,
+  "homepage": null,
+  "bugs": null,
+  "keywords": [
+    "logger",
+    "changelog",
+    "logging",
+    "colorized",
+    "pretty",
+    "formatter",
+    "timestamp",
+    "console"
+  ],
+  "_npmUser": {
+    "name": "hexalpha10",
+    "email": "hexalpha10@outlook.com"
+  },
+  "captured_at": "2026-06-03T12:14:56.987Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "4616abc2bf8a5baa6ea04964bfd67cf228b14c3839959fe5f34c7f1fb743c09ba4910b0d7ba7bd260d1550461bc2b044"
+}
