@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "1c73e8303c6eefca27e9803b94e8c063eb32cfa8",
+  "tree_sha": "a8b9080c529ce21b8237148647203312a1c140f9",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35343,
+  "watchers": 35343,
+  "forks": 1471,
+  "open_issues": 2366,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix(deps-resolver): prefer locked peer contexts during resolution by default (#12083)\n\n## Summary\n\nPreserve compatible peer contexts already recorded in the lockfile during a\nwritable re-resolution.\n\nA fresh install still resolves peers normally. When a lockfile already records\nmultiple valid peer contexts, pnpm keeps those contexts instead of collapsing\nthem into one compatible context and rewriting unrelated lockfile entries.\n\n## Why\n\n[#12075](https://github.com/pnpm/pnpm/pull/12075) fixed opt",
+  "commit_author": {
+    "name": "Sharmila",
+    "email": "sharmila@openai.com",
+    "date": "2026-06-02T20:02:57Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-02T20:02:57Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "f429f93e8b2fcc6dc9d02aa43205c560d0d1a7e8"
+  ],
+  "github_author_login": "sharmila-oai",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-02T23:48:32Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 215243,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-03T05:07:23.686Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
