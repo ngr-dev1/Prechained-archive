@@ -1,0 +1,53 @@
+{
+  "repo": "dotnet/runtime",
+  "commit_sha": "129f8a37dadbc1c155777d41fc35f68363590669",
+  "tree_sha": "f2709bb15ce98c9f7ee3ad392a3ce1871cdb4b77",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 17922,
+  "watchers": 17922,
+  "forks": 5451,
+  "open_issues": 8252,
+  "language": "C#",
+  "topics": [
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "Use Virtual IPs in R2R format (#128423)\n\n## Summary\n\nThis PR converts the WASM ReadyToRun format to use virtual IPs for\naddressing instead of direct function table indices, and updates R2RDump\nto correctly handle the new format.\n\n## Changes\n\n### RUNTIME_FUNCTION format changes\n- **BeginAddress** now encodes a virtual IP (bits 30:0) and an\n**IsFunclet** flag (bit 31)\n- A sentinel entry (0xFFFFFFFF) followed by a 4-byte **min function\ntable index** is appended after the RUNTIME_FUNCTION table entr",
+  "commit_author": {
+    "name": "David Wrighton",
+    "email": "davidwr@microsoft.com",
+    "date": "2026-06-03T16:28:13Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-03T16:28:13Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "518c8cb85a5f52d65be02dbbe8803e2dde7fdfe1"
+  ],
+  "github_author_login": "davidwrighton",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-03T19:23:37Z",
+  "created_at": "2019-09-24T23:36:39Z",
+  "homepage": "https://docs.microsoft.com/dotnet/core/",
+  "size_kb": 1134345,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-03T19:32:18.015Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
