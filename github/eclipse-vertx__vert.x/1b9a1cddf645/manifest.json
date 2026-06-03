@@ -1,0 +1,61 @@
+{
+  "repo": "eclipse-vertx/vert.x",
+  "commit_sha": "1b9a1cddf645a7d6975d51207c152cadcbeda312",
+  "tree_sha": "318a5afbe2040d3b03154cc48da4377637678c23",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Vert.x is a tool-kit for building reactive applications on the JVM",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 14666,
+  "watchers": 14666,
+  "forks": 2101,
+  "open_issues": 214,
+  "language": "Java",
+  "topics": [
+    "concurrency",
+    "event-loop",
+    "high-performance",
+    "http2",
+    "java",
+    "jvm",
+    "netty",
+    "nio",
+    "non-blocking",
+    "reactive",
+    "vertx"
+  ],
+  "commit_message": "Lazy create the singleton vertx cleaner instance.\n\nMotivation:\n\nVert.x relies on a Java cleaner to collect unused cleanable proxies, the cleaner is only needed when a cleanable object is created.\n\nStatically instantiating a cleaner has an impact since it can create a thread.\n\nChanges:\n\nEncapsulate the cleaner in a provider that lazy creates the cleaner when it is actually needed.",
+  "commit_author": {
+    "name": "Julien Viet",
+    "email": "julien@julienviet.com",
+    "date": "2026-06-01T06:52:02Z"
+  },
+  "commit_committer": {
+    "name": "Julien Viet",
+    "email": "julien@julienviet.com",
+    "date": "2026-06-01T07:29:54Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "25e710e0c0ac5cba6ea9735d22eb52b8f37d5c91"
+  ],
+  "github_author_login": "vietj",
+  "github_committer_login": "vietj",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-02T12:48:08Z",
+  "created_at": "2011-06-17T14:54:55Z",
+  "homepage": "http://vertx.io",
+  "size_kb": 126387,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-03T04:47:32.394Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
