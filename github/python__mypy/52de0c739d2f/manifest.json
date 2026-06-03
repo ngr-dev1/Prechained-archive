@@ -1,0 +1,55 @@
+{
+  "repo": "python/mypy",
+  "commit_sha": "52de0c739d2f066ea06fa9a886bc8fcc9fa079c6",
+  "tree_sha": "f3b2efc170e43b8eb526a34d9c110da826e23094",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Optional static typing for Python",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 20458,
+  "watchers": 20458,
+  "forks": 3206,
+  "open_issues": 3126,
+  "language": "Python",
+  "topics": [
+    "linter",
+    "python",
+    "typechecker",
+    "types",
+    "typing"
+  ],
+  "commit_message": "[mypyc] Preserve inherited attribute defaults under separate=True (#21547)\n\nFixes #21542\n\nUnder `separate=True`, when a subclass is recompiled while its parent is\nloaded from mypy's incremental cache, parent default-attribute\nassignments are silently dropped from the subclass's\n`__mypyc_defaults_setup`. The first read of an inherited default-attr\nthen raises:\n\n```\n    AttributeError: attribute '<name>' of '<Parent>' undefined\n```\n\n`find_attr_initializers` walks `cdef.info.mro` and reads\n`info.de",
+  "commit_author": {
+    "name": "Jo",
+    "email": "46752250+georgesittas@users.noreply.github.com",
+    "date": "2026-06-03T16:32:08Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-03T16:32:08Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "bfa3b88ea1c80a4f1f860fad4ab344d8fc28c868"
+  ],
+  "github_author_login": "georgesittas",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-03T16:32:08Z",
+  "created_at": "2012-12-07T13:30:23Z",
+  "homepage": "https://www.mypy-lang.org/",
+  "size_kb": 83630,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-03T17:07:21.592Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
