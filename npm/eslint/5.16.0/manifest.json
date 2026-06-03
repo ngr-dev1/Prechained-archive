@@ -1,0 +1,147 @@
+{
+  "name": "eslint",
+  "version": "5.16.0",
+  "ecosystem": "npm",
+  "description": "An AST-based pattern checker for JavaScript.",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^6.9.1",
+    "glob": "^7.1.2",
+    "levn": "^0.3.0",
+    "chalk": "^2.1.0",
+    "debug": "^4.0.1",
+    "table": "^5.2.3",
+    "espree": "^5.0.1",
+    "ignore": "^4.0.6",
+    "lodash": "^4.17.11",
+    "mkdirp": "^0.5.1",
+    "semver": "^5.5.1",
+    "esquery": "^1.0.1",
+    "esutils": "^2.0.2",
+    "globals": "^11.7.0",
+    "js-yaml": "^3.13.0",
+    "regexpp": "^2.0.1",
+    "doctrine": "^3.0.0",
+    "inquirer": "^6.2.2",
+    "progress": "^2.0.0",
+    "minimatch": "^3.0.4",
+    "optionator": "^0.8.2",
+    "strip-ansi": "^4.0.0",
+    "text-table": "^0.2.0",
+    "cross-spawn": "^6.0.5",
+    "imurmurhash": "^0.1.4",
+    "eslint-scope": "^4.0.3",
+    "eslint-utils": "^1.3.1",
+    "import-fresh": "^3.0.0",
+    "path-is-inside": "^1.0.2",
+    "natural-compare": "^1.4.0",
+    "file-entry-cache": "^5.0.1",
+    "@babel/code-frame": "^7.0.0",
+    "eslint-visitor-keys": "^1.0.0",
+    "strip-json-comments": "^2.0.1",
+    "functional-red-black-tree": "^1.0.1",
+    "json-stable-stringify-without-jsonify": "^1.0.1"
+  },
+  "devDependencies": {
+    "ejs": "^2.6.1",
+    "nyc": "^13.3.0",
+    "brfs": "^2.0.0",
+    "chai": "^4.0.1",
+    "temp": "^0.9.0",
+    "beefy": "^2.1.8",
+    "jsdoc": "^3.5.5",
+    "karma": "^3.1.4",
+    "leche": "^2.2.3",
+    "mocha": "^5.0.5",
+    "sinon": "^3.3.0",
+    "eslump": "^2.0.0",
+    "cheerio": "^0.22.0",
+    "esprima": "^4.0.1",
+    "mock-fs": "^4.8.0",
+    "shelljs": "^0.8.2",
+    "through": "^2.3.8",
+    "webpack": "^4.29.3",
+    "coveralls": "^3.0.1",
+    "load-perf": "^0.2.0",
+    "puppeteer": "^1.12.2",
+    "dateformat": "^3.0.3",
+    "proxyquire": "^2.0.1",
+    "@babel/core": "^7.2.2",
+    "common-tags": "^1.8.0",
+    "karma-mocha": "^1.3.0",
+    "npm-license": "^0.3.3",
+    "webpack-cli": "^3.2.3",
+    "babel-loader": "^8.0.5",
+    "markdownlint": "^0.12.0",
+    "karma-webpack": "^4.0.0-rc.6",
+    "eslint-release": "^1.2.0",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.1",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-config-eslint": "file:packages/eslint-config-eslint",
+    "karma-mocha-reporter": "^2.2.3",
+    "karma-chrome-launcher": "^2.2.0",
+    "eslint-plugin-eslint-plugin": "^2.0.1",
+    "eslint-plugin-internal-rules": "file:tools/internal-rules"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": "^6.14.0 || ^8.10.0 || >=9.10.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "eslint",
+      "email": "nicholas+eslint@nczconsulting.com"
+    },
+    {
+      "name": "ivolodin",
+      "email": "ivolodin@gmail.com"
+    },
+    {
+      "name": "nzakas",
+      "email": "nicholas@nczconsulting.com"
+    }
+  ],
+  "author": {
+    "name": "Nicholas C. Zakas",
+    "email": "nicholas+npm@nczconsulting.com"
+  },
+  "publishedAt": "2019-03-30T03:51:40.305Z",
+  "dist": {
+    "integrity": "sha512-S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==",
+    "shasum": "a1e3ac1aae4a3fbd8296fcf8f7ab7314cbb6abea",
+    "tarball": "https://registry.npmjs.org/eslint/-/eslint-5.16.0.tgz",
+    "fileCount": 374,
+    "unpackedSize": 2633398
+  },
+  "repository": {
+    "url": "git+https://github.com/eslint/eslint.git",
+    "type": "git"
+  },
+  "homepage": "https://eslint.org",
+  "bugs": {
+    "url": "https://github.com/eslint/eslint/issues/"
+  },
+  "keywords": [
+    "ast",
+    "lint",
+    "javascript",
+    "ecmascript",
+    "espree"
+  ],
+  "_npmUser": {
+    "name": "eslint",
+    "email": "nicholas+eslint@nczconsulting.com"
+  },
+  "captured_at": "2026-06-03T03:27:25.593Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
