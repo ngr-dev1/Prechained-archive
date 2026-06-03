@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "ca1d5ef2d8b03225c8d8d8eee94b81c48c33ff68",
+  "tree_sha": "406d1cce0a5a798258c26c5852b66b1873d6e2a3",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100365,
+  "watchers": 100365,
+  "forks": 27930,
+  "open_issues": 18280,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "Use CUDA_STABLE for vLLM test torch-backend channel (#186108)\n\nFollow-up to #186014 (requested in review by @huydhn).\n\nThe vLLM external test compiles its test requirements with `uv pip compile ... --torch-backend cu129`, hardcoding the CUDA 12.9 wheel channel. When the build/test toolchain is a different CUDA version this selects mismatched dependency wheels.\n\nThis derives the channel from `CUDA_STABLE` in `.github/scripts/generate_binary_build_matrix.py` -- the single source of truth for the s",
+  "commit_author": {
+    "name": "atalman",
+    "email": "atalman@fb.com",
+    "date": "2026-06-03T22:52:37Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-06-03T22:52:37Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "16de8e3cd3407ff0487e66efd5a1a958205bac43"
+  ],
+  "github_author_login": "atalman",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-03T23:27:16Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1383130,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-03T23:27:21.833Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
