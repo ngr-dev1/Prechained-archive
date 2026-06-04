@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "9ad0e6910add0e8212c13735b316f2135c5e287f",
+  "tree_sha": "5ebbe8488a9055cbf88c0c1a184e9d146902b81f",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100375,
+  "watchers": 100375,
+  "forks": 27932,
+  "open_issues": 18293,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "[dtensor] add sharding support for scatter op (#186149)\n\n`scatter_strategy` previously offered only the all-replicate strategy (it had a standing TODO for input sharding), forcing an all-gather to Replicate before any scatter/scatter_ on sharded DTensors. This is costly on hot paths like MoE routing — `zeros_like(scores).scatter_(-1, topk_ids, True)` where `scores/topk_ids` are token-sharded but the scatter writes along the replicated expert dim. This PR mirrors` scatter_add_strategy` to additio",
+  "commit_author": {
+    "name": "Shuhua Yu",
+    "email": "shuhuay@meta.com",
+    "date": "2026-06-04T10:51:06Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-06-04T10:51:11Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "9680b3aaf628b22b9162507ec972cabd1c8725bf"
+  ],
+  "github_author_login": "shuhuayu",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-04T12:03:17Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1381557,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T12:09:09.913Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
