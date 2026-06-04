@@ -1,0 +1,56 @@
+{
+  "repo": "npm/cli",
+  "commit_sha": "6be874b88174e87f004b31cbbdda54d0d50cb399",
+  "tree_sha": "7557011db4cf55cf189241e1d044dcdecd301a27",
+  "branch": "latest",
+  "ecosystem": "github",
+  "description": "the package manager for JavaScript",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 9803,
+  "watchers": 9803,
+  "forks": 4392,
+  "open_issues": 624,
+  "language": "JavaScript",
+  "topics": [
+    "javascript",
+    "nodejs",
+    "npm",
+    "npm-cli",
+    "package-manager",
+    "tools"
+  ],
+  "commit_message": "fix: list pending scripts in approve-scripts when ignore-scripts is set (#9479)\n\n`approve-scripts --allow-scripts-pending` returned nothing when\n`ignore-scripts` was set, because the walker bailed out early. It now\nlists pending packages. This only lists; scripts still don't run under\n`ignore-scripts`.\n\n## References\n\n#9450",
+  "commit_author": {
+    "name": "Jamie Magee",
+    "email": "jamie.magee@gmail.com",
+    "date": "2026-06-03T20:23:46Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-03T20:23:46Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "6603b2c5fdbb5d4ec504199b2f10b5b378168016"
+  ],
+  "github_author_login": "JamieMagee",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "latest",
+  "pushed_at": "2026-06-03T21:49:53Z",
+  "created_at": "2018-07-05T23:26:52Z",
+  "homepage": "https://docs.npmjs.com/cli/",
+  "size_kb": 175605,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T08:33:17.589Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "1ee27b978f49ac3db8f2013d75bb242370b5d5df3f6a01260174829dc3648822378020383e8f72918079be6c0d170471"
+}
