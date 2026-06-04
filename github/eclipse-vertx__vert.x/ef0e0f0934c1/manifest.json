@@ -1,0 +1,61 @@
+{
+  "repo": "eclipse-vertx/vert.x",
+  "commit_sha": "ef0e0f0934c1f4915cffe8c3d999fa2984971a2d",
+  "tree_sha": "d9b5c062d34cda804fd87279338740e0f2fb01ea",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Vert.x is a tool-kit for building reactive applications on the JVM",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 14669,
+  "watchers": 14669,
+  "forks": 2101,
+  "open_issues": 214,
+  "language": "Java",
+  "topics": [
+    "concurrency",
+    "event-loop",
+    "high-performance",
+    "http2",
+    "java",
+    "jvm",
+    "netty",
+    "nio",
+    "non-blocking",
+    "reactive",
+    "vertx"
+  ],
+  "commit_message": "Fix WebSocketClient ignoring setSslEngineOptions (#6154)\n\n* Fix WebSocketClient ignoring setSslEngineOptions\n\nSee #6146\n\nWebSocketClient was ignoring the SslEngineOptions and always using the JDK SSLEngine instead of the configured engine.\n\nSome portions of this content were created with the assistance of IBM Bob.\n\nSigned-off-by: Thomas Segismont <tsegismont@gmail.com>\n\n* Simplify SSLEngineTest\n\nSigned-off-by: Thomas Segismont <tsegismont@gmail.com>\n\n---------\n\nSigned-off-by: Thomas Segismont <t",
+  "commit_author": {
+    "name": "Thomas Segismont",
+    "email": "tsegismont@gmail.com",
+    "date": "2026-06-04T08:02:24Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-04T08:02:24Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "3bb902146f6c49efa004020bc0b4502bb52c123f"
+  ],
+  "github_author_login": "tsegismont",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-04T18:07:25Z",
+  "created_at": "2011-06-17T14:54:55Z",
+  "homepage": "http://vertx.io",
+  "size_kb": 125975,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T22:03:12.996Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
