@@ -1,0 +1,59 @@
+{
+  "repo": "dotnet/efcore",
+  "commit_sha": "16ef9a35c1741c80963e20c1c30a9687424e46d5",
+  "tree_sha": "fa9a98507f92aa5ac06e99cd4885ec09027dd385",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "EF Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 14674,
+  "watchers": 14674,
+  "forks": 3382,
+  "open_issues": 2433,
+  "language": "C#",
+  "topics": [
+    "aspnet-product",
+    "c-sharp",
+    "database",
+    "dotnet-core",
+    "dotnet-framework",
+    "dotnet-standard",
+    "entity-framework",
+    "hacktoberfest",
+    "orm"
+  ],
+  "commit_message": "Skip ALTER COLUMN for computed columns when only CLR type changes (#38252)\n\nWhen the CLR type of a property mapped to a computed column changes\n(e.g. int → long for a column with .HasComputedColumnSql(\"DATALENGTH(...)\"))\nbut the computed expression and persistence are unchanged, SQL Server\nrejects the resulting ALTER COLUMN with \"Cannot alter column ... because\nit is 'COMPUTED'\". The column's store type is derived from the expression,\nso there is nothing to change at the database level.\n\nDetect ",
+  "commit_author": {
+    "name": "Maxwell",
+    "email": "61754723+m-x-shokhzod@users.noreply.github.com",
+    "date": "2026-06-04T15:34:54Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-04T15:34:54Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "85dda5f1444ee32487c9075ee7e3fd5b1350a3c6"
+  ],
+  "github_author_login": "m-x-shokhzod",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-04T19:22:21Z",
+  "created_at": "2014-01-23T00:52:01Z",
+  "homepage": "https://learn.microsoft.com/ef/",
+  "size_kb": 227891,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T19:28:37.840Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
