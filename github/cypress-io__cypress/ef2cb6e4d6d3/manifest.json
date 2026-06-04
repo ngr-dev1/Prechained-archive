@@ -1,0 +1,63 @@
+{
+  "repo": "cypress-io/cypress",
+  "commit_sha": "ef2cb6e4d6d361a03b1761ed288b27d5edcfdfd3",
+  "tree_sha": "53b5a7ad7a218c8a63e350cc215d006d5fc1b50a",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 49650,
+  "watchers": 49650,
+  "forks": 3405,
+  "open_issues": 1198,
+  "language": "TypeScript",
+  "topics": [
+    "angular-testing-library",
+    "component-testing",
+    "cypress",
+    "cypress-cloud",
+    "cypress-schematic",
+    "end-to-end-testing",
+    "react-testing-library",
+    "svelte-testing-library",
+    "test-replay",
+    "testing-framework",
+    "testing-library",
+    "testing-tool",
+    "vue-testing-library"
+  ],
+  "commit_message": "misc(types): use template literal type for cy.get alias overload so @-prefixed strings resolve to Chainable<S> (#33952)\n\n* fix(types): use template literal type for cy.get alias overload so @-prefixed strings resolve to Chainable<S>\n\nPreviously, cy.get('@alias') would incorrectly match the `selector: string`\noverload and return `Chainable<JQuery<E>>` instead of `Chainable<S>`. By\nnarrowing the alias parameter to `@${string}` and placing that overload\nbefore the general string overload, TypeScrip",
+  "commit_author": {
+    "name": "Jennifer Shehane",
+    "email": "jennifer@cypress.io",
+    "date": "2026-06-04T19:27:58Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-04T19:27:58Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "f69435b5f3ff886ee7e97061488b0b4ec84ce632"
+  ],
+  "github_author_login": "jennifer-shehane",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-06-04T23:06:07Z",
+  "created_at": "2015-03-04T00:46:28Z",
+  "homepage": "https://cypress.io",
+  "size_kb": 555158,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T23:36:10.029Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
