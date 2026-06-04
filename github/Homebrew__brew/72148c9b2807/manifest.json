@@ -1,0 +1,55 @@
+{
+  "repo": "Homebrew/brew",
+  "commit_sha": "72148c9b2807a49b71821fbcc6a3f4236e70161d",
+  "tree_sha": "cd29dadc9077661900bc4e4cd6dcea02ca04f16e",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "🍺 The missing package manager for macOS (or Linux)",
+  "license": "BSD-2-Clause",
+  "license_name": "BSD 2-Clause \"Simplified\" License",
+  "stars": 48294,
+  "watchers": 48294,
+  "forks": 11150,
+  "open_issues": 13,
+  "language": "Ruby",
+  "topics": [
+    "brew",
+    "homebrew",
+    "macos",
+    "package-manager",
+    "ruby"
+  ],
+  "commit_message": "HeaderMatch: fix type error\n\nlivecheck's `HeaderMatch` strategy works with data from\n`Strategy.page_headers`, which calls `Utils::Curl.curl_headers`, which\ncalls `Curl.parse_curl_output`, which calls `Curl.parse_curl_response`\nand that determines the structure of header hash objects.\n`parse_curl_response` handles headers that appear more than once in a\nresponse by setting the hash value to an array. However, the `headers`\nparameter type in `HeaderMatch.versions_from_content` only expects a\nhash ",
+  "commit_author": {
+    "name": "Sam Ford",
+    "email": "1584702+samford@users.noreply.github.com",
+    "date": "2026-06-03T20:51:49Z"
+  },
+  "commit_committer": {
+    "name": "Sam Ford",
+    "email": "1584702+samford@users.noreply.github.com",
+    "date": "2026-06-04T14:09:56Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "45ab3b98861db5aded1afb5ba1ffd927dacdd32e"
+  ],
+  "github_author_login": "samford",
+  "github_committer_login": "samford",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-04T17:57:30Z",
+  "created_at": "2016-03-06T05:08:38Z",
+  "homepage": "https://brew.sh",
+  "size_kb": 115624,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T19:38:39.688Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
