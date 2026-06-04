@@ -1,0 +1,63 @@
+{
+  "repo": "cypress-io/cypress",
+  "commit_sha": "75b266ff15618c951eebc9f4285a98fc9d1923bc",
+  "tree_sha": "b6e6e84c6aabe6a8bc864f09b0b1234ea54a5f0a",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 49650,
+  "watchers": 49650,
+  "forks": 3405,
+  "open_issues": 1203,
+  "language": "TypeScript",
+  "topics": [
+    "angular-testing-library",
+    "component-testing",
+    "cypress",
+    "cypress-cloud",
+    "cypress-schematic",
+    "end-to-end-testing",
+    "react-testing-library",
+    "svelte-testing-library",
+    "test-replay",
+    "testing-framework",
+    "testing-library",
+    "testing-tool",
+    "vue-testing-library"
+  ],
+  "commit_message": "fix(config): load Cypress config with Node module semantics (no fallback) (#34003)\n\n* fix(config): load Cypress config with Node module semantics (no fallback)\n\nDetermine ESM vs CJS from the config file extension and the nearest\npackage.json \"type\" before forking the config process, then load only via\nimport() or require(). Fail outright on load errors instead of retrying\nthe other format.\n\nFixes #33801. Implements #33892.\n\n- Add shouldLoadConfigAsEsm and pass --shouldLoadAsEsm into the config c",
+  "commit_author": {
+    "name": "Bill Glesias",
+    "email": "bglesias@gmail.com",
+    "date": "2026-06-04T14:52:53Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-04T14:52:53Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "6550e9caf2eca16e2d125a9eb88956127140617b"
+  ],
+  "github_author_login": "AtofStryker",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-06-04T19:07:35Z",
+  "created_at": "2015-03-04T00:46:28Z",
+  "homepage": "https://cypress.io",
+  "size_kb": 554419,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T19:18:42.817Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
