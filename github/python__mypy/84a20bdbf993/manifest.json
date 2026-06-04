@@ -1,0 +1,55 @@
+{
+  "repo": "python/mypy",
+  "commit_sha": "84a20bdbf993d6eb1bdfa9d4e5d26d7096a241db",
+  "tree_sha": "d53939b20adf4fb152f83910c6611119c48e0c6e",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Optional static typing for Python",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 20461,
+  "watchers": 20461,
+  "forks": 3207,
+  "open_issues": 3128,
+  "language": "Python",
+  "topics": [
+    "linter",
+    "python",
+    "typechecker",
+    "types",
+    "typing"
+  ],
+  "commit_message": "[mypyc] Specialize `s[i] == 'x'` to a codepoint int compare (#21579)\n\n7th PR of #21418\n\nLowers `s[i] == 'x'` (and the symmetric `==` / `!=` forms) down to a\nbounds-checked codepoint read + int compare, instead of `CPyStr_GetItem`\n+ `CPyStr_EqualLiteral` which (may) allocate a 1-character `PyUnicode`\nper iteration. No annotations are required for this optimization.\n\nOn microbenchmarks (1-compare-per-iter hot loop, ~2.5M-codepoint\nSQL-like string) the comparison is ~3.6x times faster.\n\n<br />\n\nSom",
+  "commit_author": {
+    "name": "Vaggelis Danias",
+    "email": "daniasevangelos@gmail.com",
+    "date": "2026-06-04T11:50:49Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-04T11:50:49Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "52de0c739d2f066ea06fa9a886bc8fcc9fa079c6"
+  ],
+  "github_author_login": "VaggelisD",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-04T15:11:03Z",
+  "created_at": "2012-12-07T13:30:23Z",
+  "homepage": "https://www.mypy-lang.org/",
+  "size_kb": 83663,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T17:24:48.477Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
