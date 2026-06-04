@@ -1,0 +1,58 @@
+{
+  "repo": "tensorflow/tensorflow",
+  "commit_sha": "104e2aa87aec0e7f1e639de673479e4799cef654",
+  "tree_sha": "776fbf9dfc7618fc1d9fd74daa14cf087579569a",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "An Open Source Machine Learning Framework for Everyone",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 195410,
+  "watchers": 195410,
+  "forks": 75347,
+  "open_issues": 3169,
+  "language": "C++",
+  "topics": [
+    "deep-learning",
+    "deep-neural-networks",
+    "distributed",
+    "machine-learning",
+    "ml",
+    "neural-network",
+    "python",
+    "tensorflow"
+  ],
+  "commit_message": "[XLA:GPU] Respect PrecisionConfig::HIGHEST in DotAlgorithmRewriter and xtile codegen.\n\nPrevent downgrading F32 dots to BF16 when HIGHEST precision is explicitly requested, even if xla_gpu_default_to_alg_dot_bf16_bf16_f32 flag is enabled.\n\nThis fixes precision issues in Cholesky, SVD, QR, Eig, and TriangularSolve tests when the flag is enabled by default.\n\nPiperOrigin-RevId: 926694842",
+  "commit_author": {
+    "name": "Ilya Tikhonovskiy",
+    "email": "loislo@google.com",
+    "date": "2026-06-04T15:09:12Z"
+  },
+  "commit_committer": {
+    "name": "TensorFlower Gardener",
+    "email": "gardener@tensorflow.org",
+    "date": "2026-06-04T15:16:24Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "361288c71ffdd0834b55c33f945e657adc7dc605"
+  ],
+  "github_author_login": "loislo",
+  "github_committer_login": "tensorflower-gardener",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-04T15:16:46Z",
+  "created_at": "2015-11-07T01:19:20Z",
+  "homepage": "https://tensorflow.org",
+  "size_kb": 1327949,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T15:17:21.980Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
