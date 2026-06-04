@@ -1,0 +1,63 @@
+{
+  "repo": "cypress-io/cypress",
+  "commit_sha": "16b07dc232de6d5b83ca2ddd64b8f7e4b8937300",
+  "tree_sha": "b9416bccb99258eddec028e93fcd132b030d186b",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 49652,
+  "watchers": 49652,
+  "forks": 3405,
+  "open_issues": 1206,
+  "language": "TypeScript",
+  "topics": [
+    "angular-testing-library",
+    "component-testing",
+    "cypress",
+    "cypress-cloud",
+    "cypress-schematic",
+    "end-to-end-testing",
+    "react-testing-library",
+    "svelte-testing-library",
+    "test-replay",
+    "testing-framework",
+    "testing-library",
+    "testing-tool",
+    "vue-testing-library"
+  ],
+  "commit_message": "internal: reuse verified cy-prompt/Studio bundle cache to avoid publish failures (#33979)\n\n* fix: reuse verified cy-prompt/Studio bundle cache to avoid publish failures\n\nSince 15.15.0, every `cypress run` re-downloaded the cy-prompt/Studio bundle\nand re-published it over the already-populated cache dir (the in-memory\nhashLoadingMap only dedupes within a single process). The per-file rename onto\na destination held open by a sibling process (the loaded bundle) or scanned by\nAV failed with EPERM/EA",
+  "commit_author": {
+    "name": "Ryan Manuel",
+    "email": "ryanm@cypress.io",
+    "date": "2026-06-04T13:40:35Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-04T13:40:35Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "dd91ce89e0940b1086b0a50fb745840ad8cd7175"
+  ],
+  "github_author_login": "ryanthemanuel",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-06-04T14:32:57Z",
+  "created_at": "2015-03-04T00:46:28Z",
+  "homepage": "https://cypress.io",
+  "size_kb": 554778,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T14:37:26.473Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
