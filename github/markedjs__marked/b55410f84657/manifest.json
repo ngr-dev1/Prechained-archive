@@ -1,0 +1,56 @@
+{
+  "repo": "markedjs/marked",
+  "commit_sha": "b55410f846570a2dbdd1f1afe1d51c6a7dd2a188",
+  "tree_sha": "fa6f82b74269f54f8869099ebd9fa1b53596be8e",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "A markdown parser and compiler. Built for speed.",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 36864,
+  "watchers": 36864,
+  "forks": 3539,
+  "open_issues": 10,
+  "language": "JavaScript",
+  "topics": [
+    "commonmark",
+    "compiler",
+    "gfm",
+    "hacktoberfest",
+    "markdown",
+    "parser"
+  ],
+  "commit_message": "fix: parse empty list item with trailing space (#3984)\n\nA bare list marker followed only by a space (e.g. `- ` or `1. `) was not\nrecognized as a list and fell through to a paragraph, so `- ` rendered as\n`<p>- </p>` instead of an empty list item. A marker with no trailing space\n(`-`, `1.`) and an empty item that continues an existing list were already\nhandled correctly, making the behavior inconsistent.\n\nThe block `list` rule required content after the marker's whitespace\n(`[ \\t][^\\n]+?`), so a m",
+  "commit_author": {
+    "name": "Sarath Francis",
+    "email": "sarathfrancis90@gmail.com",
+    "date": "2026-06-04T14:11:58Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-04T14:11:58Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "c6e667bf2a58c312ea3a26818d92ea728739de99"
+  ],
+  "github_author_login": "sarathfrancis90",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-04T14:17:43Z",
+  "created_at": "2011-07-24T13:15:51Z",
+  "homepage": "https://marked.js.org",
+  "size_kb": 10569,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T22:28:57.748Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
