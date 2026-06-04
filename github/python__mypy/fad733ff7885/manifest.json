@@ -1,0 +1,55 @@
+{
+  "repo": "python/mypy",
+  "commit_sha": "fad733ff78852f1aa435485fead63ca7506849f8",
+  "tree_sha": "68b968b001c190d608317af492b21626f7fb2283",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Optional static typing for Python",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 20461,
+  "watchers": 20461,
+  "forks": 3207,
+  "open_issues": 3128,
+  "language": "Python",
+  "topics": [
+    "linter",
+    "python",
+    "typechecker",
+    "types",
+    "typing"
+  ],
+  "commit_message": "Add Python version checks to native parser (#21539)\n\nThe native parser (rust based) previously accepted newer Python syntax\nwithout checking the configured target Python version, whereas the\nlegacy parser (fastparse) would report when a feature isn't available on\nthe target (although those would be blocking errors). This PR adds those\ncompatibility checks to the native parser so that it produces a non\nblocking error.\n\nThe feature gates added are: \n- improved type parameter syntax for Python 3.12",
+  "commit_author": {
+    "name": "Kevin Kannammalil",
+    "email": "kevinrk2000@gmail.com",
+    "date": "2026-06-04T12:49:38Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-04T12:49:38Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "84a20bdbf993d6eb1bdfa9d4e5d26d7096a241db"
+  ],
+  "github_author_login": "KevinRK29",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-04T15:11:03Z",
+  "created_at": "2012-12-07T13:30:23Z",
+  "homepage": "https://www.mypy-lang.org/",
+  "size_kb": 83663,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T17:24:47.398Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
