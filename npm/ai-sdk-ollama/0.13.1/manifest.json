@@ -1,0 +1,92 @@
+{
+  "name": "ai-sdk-ollama",
+  "version": "0.13.1",
+  "ecosystem": "npm",
+  "description": "Vercel AI SDK Provider for Ollama using official ollama-js library",
+  "license": "MIT",
+  "dependencies": {
+    "ollama": "^0.6.0",
+    "@ai-sdk/provider": "^2.0.0",
+    "@ai-sdk/provider-utils": "^3.0.12"
+  },
+  "devDependencies": {
+    "zod": "^4.1.12",
+    "tsup": "^8.5.0",
+    "rimraf": "^6.0.1",
+    "vitest": "^3.2.4",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "@types/node": "^24.7.2",
+    "@edge-runtime/vm": "^5.0.0",
+    "typescript-eslint": "^8.46.1",
+    "vite-tsconfig-paths": "^5.1.4",
+    "@arethetypeswrong/cli": "^0.18.2",
+    "eslint-plugin-unicorn": "^61.0.2",
+    "eslint-config-prettier": "^10.1.8",
+    "@typescript-eslint/parser": "^8.46.1",
+    "@total-typescript/ts-reset": "^0.6.1",
+    "@total-typescript/tsconfig": "^1.0.4",
+    "@types/eslint-config-prettier": "^6.11.3",
+    "@typescript-eslint/eslint-plugin": "^8.46.1"
+  },
+  "peerDependencies": {
+    "ai": "^5.0.69"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "jagreehal",
+      "email": "jag.reehal@gmail.com"
+    }
+  ],
+  "author": "Jag Reehal<jag@jagreehal.com> (https://jagreehal.com)",
+  "publishedAt": "2026-06-04T00:25:27.228Z",
+  "dist": {
+    "integrity": "sha512-1+wsgs+cTMVJx/oGtoNXfFaTDV4SCqIAJ5UpxqpqtZKWuorkSyeZf3X2hYhnAGFRN9X0QkYllvCLgewINTCzug==",
+    "shasum": "bfcfd2920ceb5338f5fccefad4fcd75dadc96cda",
+    "tarball": "https://registry.npmjs.org/ai-sdk-ollama/-/ai-sdk-ollama-0.13.1.tgz",
+    "fileCount": 20,
+    "unpackedSize": 10500810
+  },
+  "repository": {
+    "url": "git+https://github.com/jagreehal/ai-sdk-ollama.git",
+    "type": "git",
+    "directory": "packages/ai-sdk-ollama"
+  },
+  "homepage": "https://github.com/jagreehal/ai-sdk-ollama",
+  "bugs": {
+    "url": "https://github.com/jagreehal/ai-sdk-ollama/issues"
+  },
+  "keywords": [
+    "ai",
+    "vercel-ai",
+    "ollama",
+    "ai-sdk",
+    "llm",
+    "language-model",
+    "embedding",
+    "chat",
+    "local-ai",
+    "provider",
+    "typescript",
+    "embeddings",
+    "tool-calling"
+  ],
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com"
+  },
+  "captured_at": "2026-06-04T22:13:00.348Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "a193c661067d7834a4c90201a7abb8729f2519b9f424e59aba94dc70c591e16512ff06cbed12aa3b866ad56b6c449a3a"
+}
