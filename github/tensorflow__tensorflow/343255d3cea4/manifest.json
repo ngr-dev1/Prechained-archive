@@ -1,0 +1,58 @@
+{
+  "repo": "tensorflow/tensorflow",
+  "commit_sha": "343255d3cea469000f4cb32bcd17ffd673412fdd",
+  "tree_sha": "3d774ba9da20a331313faf4bc56a7f9244933990",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "An Open Source Machine Learning Framework for Everyone",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 195410,
+  "watchers": 195410,
+  "forks": 75347,
+  "open_issues": 3169,
+  "language": "C++",
+  "topics": [
+    "deep-learning",
+    "deep-neural-networks",
+    "distributed",
+    "machine-learning",
+    "ml",
+    "neural-network",
+    "python",
+    "tensorflow"
+  ],
+  "commit_message": "[XLA:GPU] Make BufferView public and add intersection/packing capabilities.\n\nThis change introduces several new functionalities to the ShapeTracker::BufferView class:\n-   `FromStridesAndExtents`: A factory method to create a BufferView from explicit strides and extents, including validation to ensure no overlaps.\n-   `FromShape`: Creates a BufferView where each dimension of the input xla::Shape is represented as a distinct segment.\n-   `Pack`: A method to compact the BufferView by removing any \"",
+  "commit_author": {
+    "name": "Alexander Lyashuk",
+    "email": "crem@google.com",
+    "date": "2026-06-04T13:09:12Z"
+  },
+  "commit_committer": {
+    "name": "TensorFlower Gardener",
+    "email": "gardener@tensorflow.org",
+    "date": "2026-06-04T13:12:33Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "ab4115ff174327b4ec9ff8bf7ce4e80698fe0fd0"
+  ],
+  "github_author_login": "mooskagh",
+  "github_committer_login": "tensorflower-gardener",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-04T15:16:46Z",
+  "created_at": "2015-11-07T01:19:20Z",
+  "homepage": "https://tensorflow.org",
+  "size_kb": 1327949,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T15:17:25.465Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
