@@ -1,0 +1,59 @@
+{
+  "repo": "django/django",
+  "commit_sha": "4bbc27c8686f10f9556cef02dbfa9f5157fbcf56",
+  "tree_sha": "61b13b5867e057caeb41102938a4d692874a7f87",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Web framework for perfectionists with deadlines.",
+  "license": "BSD-3-Clause",
+  "license_name": "BSD 3-Clause \"New\" or \"Revised\" License",
+  "stars": 87631,
+  "watchers": 87631,
+  "forks": 33998,
+  "open_issues": 445,
+  "language": "Python",
+  "topics": [
+    "apps",
+    "django",
+    "framework",
+    "models",
+    "orm",
+    "python",
+    "templates",
+    "views",
+    "web"
+  ],
+  "commit_message": "Fixed #36492 -- Restored exact boolean lookup against literals on SQLite.\n\nPerformance regression in 37e6c5b on SQLite. Just like MySQL, and presumably\nOracle, which don't have a native boolean type and incidently store booleans in\ninteger columns, indices on such columns cannot be used when explicit boolean\nliteral equalities are omitted.\n\nAdapt the logic introduced by refs #32691 for MySQL to be used for all backends\nthat don't support native boolean fields instead of special casing MySQL,\nSQL",
+  "commit_author": {
+    "name": "Simon Charette",
+    "email": "charette.s@gmail.com",
+    "date": "2025-07-06T01:19:05Z"
+  },
+  "commit_committer": {
+    "name": "Jacob Walls",
+    "email": "jacobtylerwalls@gmail.com",
+    "date": "2026-06-03T20:57:18Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "b5d9dbdf2bba8df4c85cd0db308b3a467d763d02"
+  ],
+  "github_author_login": "charettes",
+  "github_committer_login": "jacobtylerwalls",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-03T20:58:44Z",
+  "created_at": "2012-04-28T02:47:18Z",
+  "homepage": "https://www.djangoproject.com/",
+  "size_kb": 280477,
+  "has_wiki": false,
+  "has_issues": false,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-04T12:27:23.566Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
