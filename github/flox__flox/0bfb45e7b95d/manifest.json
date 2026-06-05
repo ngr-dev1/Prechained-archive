@@ -1,0 +1,57 @@
+{
+  "repo": "flox/flox",
+  "commit_sha": "0bfb45e7b95dc362ab6ab08165cc8624bb4da171",
+  "tree_sha": "6a3ecc7c2776749bd22de6dd4c43996886a367a7",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Deterministic Foundation for your SDLC",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 4004,
+  "watchers": 4004,
+  "forks": 125,
+  "open_issues": 433,
+  "language": "Rust",
+  "topics": [
+    "developer-tools",
+    "development-environment",
+    "nix",
+    "package-manager",
+    "production",
+    "rust",
+    "virtual-environments"
+  ],
+  "commit_message": "feat(deactivate): trace wrap + unset helpers (DEV-86)\n\nWrap deactivate output in trace mode when the tracelevel (threaded from _FLOX_SUBSYSTEM_VERBOSITY) is >= 2, and unset the _activate_d / _flox_activate_tracer helper exports at the end of deactivate. zsh additionally clears _flox_activate_tracelevel and keeps its trace wrap in activate.d/zsh rather than in the generator.\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+  "commit_author": {
+    "name": "Daniel Sauble",
+    "email": "daniel@flox.dev",
+    "date": "2026-06-04T22:04:35Z"
+  },
+  "commit_committer": {
+    "name": "Daniel Sauble",
+    "email": "daniel@flox.dev",
+    "date": "2026-06-04T22:07:03Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "c42c1ad84301f9822335b0e0addcf602989a7056"
+  ],
+  "github_author_login": "djsauble",
+  "github_committer_login": "djsauble",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-05T02:13:32Z",
+  "created_at": "2022-12-22T15:52:43Z",
+  "homepage": "https://flox.dev",
+  "size_kb": 25031,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-05T08:07:22.568Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
