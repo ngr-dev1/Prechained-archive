@@ -1,0 +1,51 @@
+{
+  "repo": "npm/node-semver",
+  "commit_sha": "bea6028694a75e840f48b288ac019e9644cfe6e8",
+  "tree_sha": "9022ddfb1c461fd063b09c037ffe492134f7be8b",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The semver parser for node (the one npm uses)",
+  "license": "ISC",
+  "license_name": "ISC License",
+  "stars": 5430,
+  "watchers": 5430,
+  "forks": 573,
+  "open_issues": 45,
+  "language": "JavaScript",
+  "topics": [
+    "npm-cli"
+  ],
+  "commit_message": "fix: increment dotted prerelease identifiers (#870)\n\nFixes #226.\n\n## Summary\n- treat a dotted prerelease identifier as a prefix when deciding whether\nto continue incrementing the existing prerelease sequence\n- keep replacing the prerelease when the matched prefix is followed by a\nnon-numeric segment\n- add fixtures for dotted identifiers such as `alpha.beta` and\n`alpha.beta.5`\n\n## Testing\n- `npm test`\n\nCo-authored-by: Sheldon <neooosky@gmail.com>",
+  "commit_author": {
+    "name": "Sheldon",
+    "email": "sheldonneo19@gmail.com",
+    "date": "2026-06-04T14:43:32Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-04T14:43:32Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "76416081a8413383cf6e24c82cafa438bd076d41"
+  ],
+  "github_author_login": "liuzemei",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-04T15:20:25Z",
+  "created_at": "2011-02-12T00:06:03Z",
+  "homepage": "https://semver.npmjs.com/",
+  "size_kb": 1336,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-05T11:37:23.967Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
