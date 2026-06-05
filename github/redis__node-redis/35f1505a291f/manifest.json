@@ -1,0 +1,55 @@
+{
+  "repo": "redis/node-redis",
+  "commit_sha": "35f1505a291f8a31cf400696fa3bb043a3a7cca4",
+  "tree_sha": "774752cddc58114d8988b4440949832189abbd8e",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Redis Node.js client",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 17537,
+  "watchers": 17537,
+  "forks": 1957,
+  "open_issues": 242,
+  "language": "TypeScript",
+  "topics": [
+    "node-redis",
+    "nodejs",
+    "redis",
+    "redis-client",
+    "redis-cluster"
+  ],
+  "commit_message": "feat(sentinel): add scanIterator to Sentinel\n\nAdd scanIterator to RedisSentinel: paged SCAN against the Sentinel\nmaster that yields one array of keys per page until cursor returns to 0.\n\nLease handling\n- Acquire and release the master client lease per page (not for the\n  whole iteration) so commands issued from inside the for-await loop\n  body (e.g. mGet) do not deadlock on the default masterPoolSize: 1\n  (reported by @TheIndra55).\n- Route SCAN through _execute so reserveClient: true reuses the\n",
+  "commit_author": {
+    "name": "Harsh Rai",
+    "email": "harshraitth2@gmail.com",
+    "date": "2026-06-05T11:26:37Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-05T11:26:37Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "8ce181c44b927b6833675068e9acaec0b778423f"
+  ],
+  "github_author_login": "harshrai654",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-05T11:29:04Z",
+  "created_at": "2010-09-14T02:05:09Z",
+  "homepage": "https://redis.js.org/",
+  "size_kb": 172472,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-05T19:12:44.740Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
