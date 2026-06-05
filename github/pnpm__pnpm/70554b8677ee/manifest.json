@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "70554b8677ee7ba6e0b18bf5248aa594c13e47d0",
+  "tree_sha": "c91741cb85606fd8986320d881e0b6f245e034fb",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35377,
+  "watchers": 35377,
+  "forks": 1478,
+  "open_issues": 2390,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "feat(pnpr): config-selectable networked-SQLite auth backend (#12199 phase 3) (#12206)\n\n## What\n\nImplements the **auth half** of [#12199](https://github.com/pnpm/pnpm/issues/12199) (phase 3) — making pnpr's remaining per-instance state pluggable so the registry can run as stateless, horizontally-scaled replicas.\n\n### Auth records behind config-selected backends\nUsers + tokens now sit behind narrow async `UserBackend` / `TokenBackend` traits, built once at startup into `Arc<dyn …>` handles (the sa",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-05T07:15:17Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-05T07:15:17Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "4b4d38361c18c81e023c2a531db32c0e4f88f357"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-05T11:46:26Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 216222,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-05T11:47:22.739Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
