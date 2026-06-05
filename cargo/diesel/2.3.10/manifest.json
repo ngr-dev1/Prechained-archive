@@ -1,0 +1,384 @@
+{
+  "name": "diesel",
+  "version": "2.3.10",
+  "ecosystem": "cargo",
+  "description": "A safe, extensible ORM and Query Builder for PostgreSQL, SQLite, and MySQL",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "29fe29a87fb84c631ffb3ba21798c4b1f3a964701ba78f0dce4bf8668562ec88",
+  "features": {
+    "128-column-tables": [
+      "64-column-tables",
+      "diesel_derives/128-column-tables"
+    ],
+    "32-column-tables": [
+      "diesel_derives/32-column-tables"
+    ],
+    "64-column-tables": [
+      "32-column-tables",
+      "diesel_derives/64-column-tables"
+    ],
+    "__with_asan_tests": [
+      "libsqlite3-sys?/bundled",
+      "libsqlite3-sys?/with-asan",
+      "pq-sys?/bundled",
+      "pq-src?/with-asan",
+      "mysqlclient-sys?/bundled",
+      "mysqlclient-src?/with-asan"
+    ],
+    "chrono": [
+      "diesel_derives/chrono",
+      "dep:chrono"
+    ],
+    "default": [
+      "with-deprecated",
+      "32-column-tables"
+    ],
+    "extras": [
+      "chrono",
+      "time",
+      "serde_json",
+      "uuid",
+      "network-address",
+      "numeric",
+      "r2d2"
+    ],
+    "huge-tables": [
+      "64-column-tables"
+    ],
+    "i-implement-a-third-party-backend-and-opt-into-breaking-changes": [],
+    "ipnet-address": [
+      "dep:ipnet",
+      "dep:libc"
+    ],
+    "large-tables": [
+      "32-column-tables"
+    ],
+    "mysql": [
+      "dep:mysqlclient-sys",
+      "dep:url",
+      "dep:percent-encoding",
+      "dep:bitflags",
+      "mysql_backend"
+    ],
+    "mysql_backend": [
+      "diesel_derives/mysql",
+      "dep:byteorder"
+    ],
+    "network-address": [
+      "dep:ipnetwork",
+      "dep:libc"
+    ],
+    "numeric": [
+      "dep:num-bigint",
+      "dep:bigdecimal",
+      "dep:num-traits",
+      "dep:num-integer",
+      "diesel_derives/numeric"
+    ],
+    "postgres": [
+      "dep:pq-sys",
+      "postgres_backend"
+    ],
+    "postgres_backend": [
+      "diesel_derives/postgres",
+      "dep:bitflags",
+      "dep:byteorder",
+      "dep:itoa"
+    ],
+    "r2d2": [
+      "diesel_derives/r2d2",
+      "dep:r2d2"
+    ],
+    "returning_clauses_for_sqlite_3_35": [
+      "sqlite"
+    ],
+    "serde_json": [
+      "dep:serde_json"
+    ],
+    "sqlite": [
+      "dep:libsqlite3-sys",
+      "dep:sqlite-wasm-rs",
+      "diesel_derives/sqlite",
+      "time?/formatting",
+      "time?/parsing"
+    ],
+    "time": [
+      "diesel_derives/time",
+      "dep:time"
+    ],
+    "unstable": [
+      "diesel_derives/nightly"
+    ],
+    "uuid": [
+      "dep:uuid"
+    ],
+    "with-deprecated": [
+      "diesel_derives/with-deprecated"
+    ],
+    "without-deprecated": [
+      "diesel_derives/without-deprecated"
+    ]
+  },
+  "downloads": 3337,
+  "yanked": false,
+  "repository": "https://github.com/diesel-rs/diesel",
+  "homepage": "https://diesel.rs",
+  "keywords": [
+    "database",
+    "sql",
+    "orm"
+  ],
+  "categories": [
+    "Database interfaces"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "diesel_derives",
+      "requirement": "~2.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "dotenvy",
+      "requirement": "^0.15",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "downcast-rs",
+      "requirement": "^2.0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ipnetwork",
+      "requirement": ">=0.12.2, <0.22.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^1.0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3.10.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-test",
+      "requirement": "^0.3.49",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bigdecimal",
+      "requirement": ">=0.0.13, <0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "bitflags",
+      "requirement": "^2.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "byteorder",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "chrono",
+      "requirement": "^0.4.20",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "ipnet",
+      "requirement": "^2.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "ipnetwork",
+      "requirement": ">=0.12.2, <0.22.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "itoa",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "libsqlite3-sys",
+      "requirement": ">=0.17.2, <0.38.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "mysqlclient-src",
+      "requirement": ">=0.1.0, <0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "mysqlclient-sys",
+      "requirement": ">=0.2.5, <0.6.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "num-bigint",
+      "requirement": ">=0.2.0, <0.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "num-integer",
+      "requirement": "^0.1.39",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "num-traits",
+      "requirement": "^0.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "percent-encoding",
+      "requirement": "^2.1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "pq-src",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "pq-sys",
+      "requirement": ">=0.4.0, <0.8.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^1.0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "r2d2",
+      "requirement": ">=0.8.2, <0.9.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": ">=0.8.0, <2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "sqlite-wasm-rs",
+      "requirement": ">=0.4.0, <0.6.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "time",
+      "requirement": "^0.3.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^2.1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "uuid",
+      "requirement": ">=0.7.0, <2.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 4568,
+    "login": "weiznich",
+    "name": "Georg Semmler"
+  },
+  "publishedAt": "2026-06-05T06:23:53.280950Z",
+  "captured_at": "2026-06-05T19:19:14.314Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
