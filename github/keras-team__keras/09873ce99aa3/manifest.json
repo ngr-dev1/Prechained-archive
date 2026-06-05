@@ -1,0 +1,58 @@
+{
+  "repo": "keras-team/keras",
+  "commit_sha": "09873ce99aa396577001ea1e7472dcf47d33a82c",
+  "tree_sha": "1c87b498fe7058c6490faf6a2fa90a36aaa304e3",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Deep Learning for humans",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 64086,
+  "watchers": 64086,
+  "forks": 19747,
+  "open_issues": 172,
+  "language": "Python",
+  "topics": [
+    "data-science",
+    "deep-learning",
+    "jax",
+    "machine-learning",
+    "neural-networks",
+    "python",
+    "pytorch",
+    "tensorflow"
+  ],
+  "commit_message": "Fix TF backend depthwise and separable conv with stride and dilation (#23027)\n\n* Fix TF backend depthwise and separable conv with stride and dilation\n\ntf.nn.depthwise_conv2d and tf.nn.separable_conv2d reject strides > 1\ncombined with dilation_rate > 1, so these ops returned a wrong, smaller\noutput on the TensorFlow backend while the JAX and Torch backends were\ncorrect. When both are greater than 1, run the dilated conv at stride 1\nand subsample the result, with explicit SAME padding. The fallbac",
+  "commit_author": {
+    "name": "Lawson Darrow",
+    "email": "103522304+Lawson-Darrow@users.noreply.github.com",
+    "date": "2026-06-04T17:22:57Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-04T17:22:57Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "8bd6635a3e173ead03b47341cc7590b354d0ab5b"
+  ],
+  "github_author_login": "Lawson-Darrow",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-04T21:40:33Z",
+  "created_at": "2015-03-28T00:35:42Z",
+  "homepage": "http://keras.io/",
+  "size_kb": 53872,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-05T02:30:37.335Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
