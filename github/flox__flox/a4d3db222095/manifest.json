@@ -1,0 +1,57 @@
+{
+  "repo": "flox/flox",
+  "commit_sha": "a4d3db22209561faab8c00d8cdc187b860f44b37",
+  "tree_sha": "e136724936e7d84e0cbb6d1aceca48e24f0d15ef",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Deterministic Foundation for your SDLC",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 4004,
+  "watchers": 4004,
+  "forks": 125,
+  "open_issues": 433,
+  "language": "Rust",
+  "topics": [
+    "developer-tools",
+    "development-environment",
+    "nix",
+    "package-manager",
+    "production",
+    "rust",
+    "virtual-environments"
+  ],
+  "commit_message": "fix(activations): remove invocation_type from Attachment and state.json\n\nThe `invocation_type` field on `Attachment` was added to support a\nconsumer that never shipped (DEV-82); it has no current reader, so\npersisting it on every activation is dead weight in `state.json` and a\nmaintenance liability in the activation API. This removes the field\nentirely — from the `Attachment` struct, the `start_or_attach`/`start`\nsignatures, and every call site across the activate, attach, detach,\nand executive ",
+  "commit_author": {
+    "name": "stephenyeargin",
+    "email": "stephen.yeargin@flox.dev",
+    "date": "2026-06-04T21:54:52Z"
+  },
+  "commit_committer": {
+    "name": "stephenyeargin",
+    "email": "stephen.yeargin@flox.dev",
+    "date": "2026-06-04T21:54:52Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "641ef757c97a056387f696d88e113308cefec12e"
+  ],
+  "github_author_login": "stephenyeargin",
+  "github_committer_login": "stephenyeargin",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-05T02:13:32Z",
+  "created_at": "2022-12-22T15:52:43Z",
+  "homepage": "https://flox.dev",
+  "size_kb": 25031,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-05T08:07:23.748Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
