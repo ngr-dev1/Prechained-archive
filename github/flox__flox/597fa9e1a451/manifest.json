@@ -1,0 +1,58 @@
+{
+  "repo": "flox/flox",
+  "commit_sha": "597fa9e1a451068b05c963cf9f97e146ad4b7e18",
+  "tree_sha": "87231af356f3bd57e0b426d3c0be2340f6323570",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Deterministic Foundation for your SDLC",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 4003,
+  "watchers": 4003,
+  "forks": 125,
+  "open_issues": 433,
+  "language": "Rust",
+  "topics": [
+    "developer-tools",
+    "development-environment",
+    "nix",
+    "package-manager",
+    "production",
+    "rust",
+    "virtual-environments"
+  ],
+  "commit_message": "chore(activations): remove invocation_type from Attachment and state.json (#4338)\n\n## Proposed Changes\n\n`invocation_type` was added to the `Attachment` struct in PR #4248\n(DEV-78)\nso it would be persisted in `state.json`. However, it was never read\nback\nat runtime — activation always receives it as a live parameter from the\nCLI, and `_FLOX_INVOCATION_TYPE` is available via the shell env during\ndeactivate. Persisting the field served no purpose. PR #4329 already\nreverted the underscore serializat",
+  "commit_author": {
+    "name": "Stephen Yeargin",
+    "email": "stephenyeargin@users.noreply.github.com",
+    "date": "2026-06-04T22:13:13Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-04T22:13:13Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "c42c1ad84301f9822335b0e0addcf602989a7056",
+    "a4d3db22209561faab8c00d8cdc187b860f44b37"
+  ],
+  "github_author_login": "stephenyeargin",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-05T02:13:32Z",
+  "created_at": "2022-12-22T15:52:43Z",
+  "homepage": "https://flox.dev",
+  "size_kb": 25031,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-05T06:52:33.866Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
