@@ -1,0 +1,374 @@
+{
+  "name": "async-nats",
+  "version": "0.49.1",
+  "ecosystem": "cargo",
+  "description": "A async Rust NATS client",
+  "license": "Apache-2.0",
+  "checksum": "fad3cd6df81292728e2a8cb1f1dcb4d7e7a1ab59b80c14fbbcba2baf9d5cf86a",
+  "features": {
+    "aws-lc-rs": [
+      "dep:aws-lc-rs",
+      "tokio-rustls/aws-lc-rs",
+      "tokio-websockets?/aws-lc-rs",
+      "rustls-webpki/aws-lc-rs"
+    ],
+    "compatibility_tests": [],
+    "crypto": [],
+    "default": [
+      "server_2_10",
+      "server_2_11",
+      "server_2_12",
+      "server_2_14",
+      "service",
+      "ring",
+      "jetstream",
+      "nkeys",
+      "crypto",
+      "object-store",
+      "kv",
+      "websockets",
+      "nuid"
+    ],
+    "experimental": [],
+    "fips": [
+      "aws-lc-rs",
+      "tokio-rustls/fips"
+    ],
+    "jetstream": [
+      "dep:time",
+      "dep:serde_nanos",
+      "dep:tryhard",
+      "dep:base64"
+    ],
+    "kv": [
+      "jetstream"
+    ],
+    "nkeys": [
+      "dep:nkeys",
+      "dep:base64"
+    ],
+    "nuid": [
+      "dep:nuid"
+    ],
+    "object-store": [
+      "jetstream",
+      "crypto"
+    ],
+    "ring": [
+      "dep:ring",
+      "tokio-rustls/ring",
+      "tokio-websockets?/ring"
+    ],
+    "server_2_10": [],
+    "server_2_11": [],
+    "server_2_12": [],
+    "server_2_14": [],
+    "service": [
+      "dep:time",
+      "dep:serde_nanos"
+    ],
+    "slow_tests": [],
+    "websockets": [
+      "dep:tokio-websockets"
+    ]
+  },
+  "downloads": 740,
+  "yanked": false,
+  "repository": "https://github.com/nats-io/nats.rs",
+  "homepage": "https://github.com/nats-io/nats.rs",
+  "keywords": [
+    "client",
+    "api",
+    "messaging",
+    "nats"
+  ],
+  "categories": [
+    "API bindings",
+    "Network programming"
+  ],
+  "dependencies": [
+    {
+      "name": "bytes",
+      "requirement": "^1.11.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "chrono",
+      "requirement": "^0.4.44",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3.28",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3.28",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "jsonschema",
+      "requirement": "^0.17.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "memchr",
+      "requirement": "^2.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num",
+      "requirement": "^0.4.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-project",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "portable-atomic",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.10.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.10.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.9.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "reqwest",
+      "requirement": "^0.11.18",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ring",
+      "requirement": "^0.17",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustls-native-certs",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustls-pki-types",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustls-webpki",
+      "requirement": "^0.103.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.184",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.104",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_repr",
+      "requirement": "^0.1.16",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "thiserror",
+      "requirement": "^2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.25.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.36",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-rustls",
+      "requirement": "^0.26",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "tokio-stream",
+      "requirement": "^0.1.17",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-util",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing-subscriber",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^2.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "aws-lc-rs",
+      "requirement": "^1.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "base64",
+      "requirement": "^0.22",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "nkeys",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "nuid",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "ring",
+      "requirement": "^0.17",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_nanos",
+      "requirement": "^0.1.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.3.36",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-websockets",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "tryhard",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 146568,
+    "login": "Jarema",
+    "name": "Tomasz Pietrek"
+  },
+  "publishedAt": "2026-06-04T16:42:14.297669Z",
+  "captured_at": "2026-06-05T09:37:19.289Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
