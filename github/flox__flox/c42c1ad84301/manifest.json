@@ -1,0 +1,58 @@
+{
+  "repo": "flox/flox",
+  "commit_sha": "c42c1ad84301f9822335b0e0addcf602989a7056",
+  "tree_sha": "23fdf9b92c72a0eeaf9a574710b6e321b4d8f442",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Deterministic Foundation for your SDLC",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 4004,
+  "watchers": 4004,
+  "forks": 125,
+  "open_issues": 433,
+  "language": "Rust",
+  "topics": [
+    "developer-tools",
+    "development-environment",
+    "nix",
+    "package-manager",
+    "production",
+    "rust",
+    "virtual-environments"
+  ],
+  "commit_message": "test(deactivate): treat tcsh REMOTEHOST as env-diff noise (#4346)\n\n## Problem\n\nThe `interactive deactivate env diff (tcsh)` test\n(`cli/tests/deactivate.bats`)\nspawns an interactive `tcsh` via `expect` and asserts the exact set of\nenvironment variables that leak across an activate/deactivate\nround-trip.\n\nOn the self-hosted `remote (aarch64-linux, !containerize)` CI runners —\nwhich\nare reached over SSH/Tailscale — interactive `tcsh` sets its\n`REMOTEHOST`\nbuilt-in at startup. That surfaces as an un",
+  "commit_author": {
+    "name": "Daniel Sauble",
+    "email": "daniel@flox.dev",
+    "date": "2026-06-04T20:45:18Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-04T20:45:18Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "4d46b587ad8ff47a6e9541921051a48352b9e388",
+    "448e6c4efed3f30c9387ae6d82913086d43b5a3d"
+  ],
+  "github_author_login": "djsauble",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-05T02:13:32Z",
+  "created_at": "2022-12-22T15:52:43Z",
+  "homepage": "https://flox.dev",
+  "size_kb": 25031,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-05T08:07:24.970Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
