@@ -1,0 +1,56 @@
+{
+  "repo": "npm/cli",
+  "commit_sha": "4bcba546420119ebf9ee73e903b00b757f643fdf",
+  "tree_sha": "bbf6e9e6d0b39d201f5a48957e3fd8107f7857df",
+  "branch": "latest",
+  "ecosystem": "github",
+  "description": "the package manager for JavaScript",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 9807,
+  "watchers": 9807,
+  "forks": 4397,
+  "open_issues": 622,
+  "language": "JavaScript",
+  "topics": [
+    "javascript",
+    "nodejs",
+    "npm",
+    "npm-cli",
+    "package-manager",
+    "tools"
+  ],
+  "commit_message": "fix(arborist): apply registry-tarball allow-remote exemption in linked strategy (#9495)\n\nIn continuation of our exploration of using `install-strategy=linked` in\nthe [Gutenberg\nmonorepo](https://github.com/WordPress/gutenberg/pull/75814), which\npowers the WordPress Block Editor.\n\nUnder `install-strategy=linked`, a fresh install fails with\n`EALLOWREMOTE` on ordinary registry dependencies whose lockfile\n`resolved` is a full registry tarball URL, even though\n`allow-remote=none` is meant to permit r",
+  "commit_author": {
+    "name": "Manzoor Wani",
+    "email": "manzoorwani.jk@gmail.com",
+    "date": "2026-06-05T17:29:19Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-05T17:29:19Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "0e55f97deea0f2395196dd572fac5fd7c9fbee38"
+  ],
+  "github_author_login": "manzoorwanijk",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "latest",
+  "pushed_at": "2026-06-05T17:45:46Z",
+  "created_at": "2018-07-05T23:26:52Z",
+  "homepage": "https://docs.npmjs.com/cli/",
+  "size_kb": 175635,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-05T23:37:25.790Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
