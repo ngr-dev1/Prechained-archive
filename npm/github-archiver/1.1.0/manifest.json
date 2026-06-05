@@ -1,0 +1,77 @@
+{
+  "name": "github-archiver",
+  "version": "1.1.0",
+  "ecosystem": "npm",
+  "description": "Archive GitHub repositories via CLI",
+  "license": "MIT",
+  "dependencies": {
+    "octokit": "^5.0.5",
+    "p-queue": "^9.1.0",
+    "winston": "^3.19.0",
+    "commander": "^14.0.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "vitest": "^4.0.16",
+    "esbuild": "^0.27.2",
+    "ultracite": "^7.0.11",
+    "typescript": "^5.9.3",
+    "@types/node": "^25.0.6",
+    "@biomejs/biome": "^2.3.11",
+    "@changesets/cli": "^2.29.8",
+    "@changesets/get-github-info": "^0.7.0",
+    "@changesets/changelog-github": "^0.5.2"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "bun": ">=1.0.0",
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "npm run build && npm run typecheck && npm run lint"
+  },
+  "maintainers": [
+    {
+      "name": "mynameistito",
+      "email": "tito@kzg.gg"
+    }
+  ],
+  "author": {
+    "name": "mynameistito"
+  },
+  "publishedAt": "2026-01-12T05:37:10.953Z",
+  "dist": {
+    "integrity": "sha512-f0ZjRAsedd00xdXF7tdNRxbnwe79devSkHLDS++O4gs2UoETY3/udNbmhJ+OmNbx9EVXjF0bLOv4XxLPWIjNfA==",
+    "shasum": "320e65453d3d413848edde575be1d5e3a57abb82",
+    "tarball": "https://registry.npmjs.org/github-archiver/-/github-archiver-1.1.0.tgz",
+    "fileCount": 8,
+    "unpackedSize": 133299
+  },
+  "repository": {
+    "url": "git+https://github.com/mynameistito/github-archiver.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/mynameistito/github-archiver#readme",
+  "bugs": {
+    "url": "https://github.com/mynameistito/github-archiver/issues"
+  },
+  "keywords": [
+    "github",
+    "archive",
+    "cli",
+    "batch",
+    "typescript"
+  ],
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com"
+  },
+  "captured_at": "2026-06-05T19:13:22.961Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "a193c661067d7834a4c90201a7abb8729f2519b9f424e59aba94dc70c591e16512ff06cbed12aa3b866ad56b6c449a3a"
+}
