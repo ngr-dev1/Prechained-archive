@@ -1,0 +1,63 @@
+{
+  "repo": "cypress-io/cypress",
+  "commit_sha": "7dbb94544fdbe7f812e9b1ae4f889db8c6a9619c",
+  "tree_sha": "ff3c8fafe2df188036dee9724643df922fbfc47e",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 49678,
+  "watchers": 49678,
+  "forks": 3406,
+  "open_issues": 1188,
+  "language": "TypeScript",
+  "topics": [
+    "angular-testing-library",
+    "component-testing",
+    "cypress",
+    "cypress-cloud",
+    "cypress-schematic",
+    "end-to-end-testing",
+    "react-testing-library",
+    "svelte-testing-library",
+    "test-replay",
+    "testing-framework",
+    "testing-library",
+    "testing-tool",
+    "vue-testing-library"
+  ],
+  "commit_message": "chore(cli): remove dead childProcessKilled error (#34024)\n\nThe childProcessKilled error helper was no longer wired into the spawn\npath (cli/lib/exec/spawn.ts now resolves with an exit code instead of\nsurfacing this error), leaving it as exported-but-unused dead code.\n\nRemove the helper and its export, and repoint the getError unit test at\na live error object (versionMismatch) so coverage of getError/\nformErrorText is preserved.\n\nRefs https://github.com/cypress-io/cypress/issues/7045\n\nCo-authored",
+  "commit_author": {
+    "name": "Jennifer Shehane",
+    "email": "jennifer@cypress.io",
+    "date": "2026-06-05T12:00:22Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-05T12:00:22Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "09128a5773afa7540541710d9f1e7933704d8bf0"
+  ],
+  "github_author_login": "jennifer-shehane",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-06-05T21:14:42Z",
+  "created_at": "2015-03-04T00:46:28Z",
+  "homepage": "https://cypress.io",
+  "size_kb": 554701,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-05T21:57:25.051Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
