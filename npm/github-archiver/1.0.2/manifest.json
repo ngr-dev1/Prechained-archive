@@ -1,0 +1,71 @@
+{
+  "name": "github-archiver",
+  "version": "1.0.2",
+  "ecosystem": "npm",
+  "description": "Archive GitHub repositories via CLI",
+  "license": "MIT",
+  "dependencies": {
+    "octokit": "^5.0.5",
+    "p-queue": "^9.1.0",
+    "winston": "^3.19.0",
+    "commander": "^14.0.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "vitest": "^4.0.16",
+    "esbuild": "^0.27.2",
+    "ultracite": "^7.0.11",
+    "typescript": "^5.9.3",
+    "@types/node": "^25.0.6",
+    "@biomejs/biome": "^2.3.11",
+    "semantic-release": "^25.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/changelog": "^6.0.3"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "npm run build && npm run typecheck && npm run lint"
+  },
+  "maintainers": [
+    {
+      "name": "mynameistito",
+      "email": "tito@kzg.gg"
+    }
+  ],
+  "author": {
+    "name": "mynameistito"
+  },
+  "publishedAt": "2026-01-11T17:36:54.176Z",
+  "dist": {
+    "integrity": "sha512-MTHoReg2OKoTtVkd6KbFrU+1FBjypkgYlwqeZjwxijaMo7RQpZWYqVkijVllOrQrjKLNsSqP224zpEvvlIL0VQ==",
+    "shasum": "bb297381c40961ad58307183f01258524e4bb2d4",
+    "tarball": "https://registry.npmjs.org/github-archiver/-/github-archiver-1.0.2.tgz",
+    "fileCount": 44,
+    "unpackedSize": 442781
+  },
+  "repository": null,
+  "homepage": null,
+  "bugs": null,
+  "keywords": [
+    "github",
+    "archive",
+    "cli",
+    "batch",
+    "typescript"
+  ],
+  "_npmUser": {
+    "name": "mynameistito",
+    "email": "tito@kzg.gg"
+  },
+  "captured_at": "2026-06-05T19:13:14.018Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "a193c661067d7834a4c90201a7abb8729f2519b9f424e59aba94dc70c591e16512ff06cbed12aa3b866ad56b6c449a3a"
+}
