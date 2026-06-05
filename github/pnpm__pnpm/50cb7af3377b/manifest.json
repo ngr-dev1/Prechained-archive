@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "50cb7af3377be1f811fe55042f6ba72018652043",
+  "tree_sha": "133eb2c6b73c59ce20d7cbb97077ef92f037d486",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35388,
+  "watchers": 35388,
+  "forks": 1479,
+  "open_issues": 2399,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "feat(lockfile): write pnpm-lock.yaml byte-for-byte identical to pnpm (#12223)\n\n* feat(lockfile): write pnpm-lock.yaml byte-for-byte identical to pnpm\n\npacquet's lockfile writer now produces bytes identical to the pnpm CLI.\nThe format that pnpm emits comes from `@zkochan/js-yaml`, a fork of\njs-yaml with lockfile-specific rendering rules that no general-purpose\nRust YAML serializer reproduces, so this ports the relevant dumper\nbehavior directly.\n\n- Add `yaml_emit.rs`: a port of the `@zkochan/js-ya",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-05T21:52:34Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-05T21:52:34Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "04473e027c04a6da12127c17b915680a1bc2c83b"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-05T22:45:47Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 215831,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-05T22:50:56.891Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
