@@ -1,0 +1,54 @@
+{
+  "repo": "dotnet/aspnetcore",
+  "commit_sha": "c390cce536ffdf07e8a5677347e69ff88d1efb9e",
+  "tree_sha": "a1b2520ceb44c17edd6417530988647e23dd4c89",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 37992,
+  "watchers": 37992,
+  "forks": 10688,
+  "open_issues": 4002,
+  "language": "C#",
+  "topics": [
+    "aspnetcore",
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "Cap helix log extraction in test-quarantine workflow (#67047)\n\n* Extract Helix [FAIL] blocks runner-side to cap token usage\n\nThe test-quarantine agent downloads Helix console logs (10MB+) and was\nsurfacing them into its context, driving the per-run effective-token cost\ninto the 25M AWF hard rail. Instruct the agent to extract only the [FAIL]\nblocks (with their Error Message/Stack Trace sections) inside the python3\nscript and print just those, with per-block and total output caps. This is\nlossles",
+  "commit_author": {
+    "name": "William Godbe",
+    "email": "wigodbe@microsoft.com",
+    "date": "2026-06-05T20:20:17Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-05T20:20:17Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "d1df4c82107c27a9a1f5ba1454f35191f8b46a14"
+  ],
+  "github_author_login": "wtgodbe",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-06T03:33:04Z",
+  "created_at": "2014-03-11T06:09:42Z",
+  "homepage": "https://asp.net",
+  "size_kb": 379231,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T03:57:21.965Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
