@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "d276a781c6c76a81b1fa4bb6655920b05fbd432c",
+  "tree_sha": "9b0422fe1086e30369b0608fae819cc7e04b3d12",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35404,
+  "watchers": 35404,
+  "forks": 1482,
+  "open_issues": 2394,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix(pacquet): reuse in-flight prefetch on the cold-batch download (race fix) (#12243)\n\n* fix(package-manager): coordinate the fresh-resolve cold batch with the prefetcher\n\nOn the fresh-resolve install path the same registry tarball could be\ndownloaded twice: once by the resolve-time `PrefetchingResolver` and\nagain by `CreateVirtualStore`'s cold batch. The shared `tarball_mem_cache`\ninfrastructure already exists (added in #12245 for the pnpr/frozen path),\nbut the fresh-lockfile call site threaded",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-06T19:13:44Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-06T19:13:44Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "7db1e75180d3a651080b1cf5734da3282588d1e8"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-06T19:13:46Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 216112,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T19:37:22.229Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
