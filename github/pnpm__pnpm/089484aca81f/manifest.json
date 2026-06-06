@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "089484aca81f6624b2a7f636476aaa9219ded33f",
+  "tree_sha": "cddb33afa337d28c7614e0d6a5ce8c6b909ef05d",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35392,
+  "watchers": 35392,
+  "forks": 1482,
+  "open_issues": 2395,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "perf(pnpr): resolve server-side and fetch tarballs directly (#12232)\n\n## Summary\n\nReworks pnpr from an install/file accelerator into a resolve-only accelerator:\n\n- `POST /v1/resolve` resolves against the client-supplied registries and returns a gzipped JSON lockfile response\n- pacquet/pnpm clients then fetch tarballs normally from registries with their own credentials and existing parallel fetch/integrity paths\n- pnpr no longer serves package file bytes or store-index rows, so the server-side fi",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-06T00:16:33Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-06T00:16:33Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "50cb7af3377be1f811fe55042f6ba72018652043"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-06T00:19:45Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 215851,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T05:47:21.400Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
