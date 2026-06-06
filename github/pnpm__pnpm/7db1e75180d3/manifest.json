@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "7db1e75180d3a651080b1cf5734da3282588d1e8",
+  "tree_sha": "feea72672f66f84ada642ff54443a80909ed84ec",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35404,
+  "watchers": 35404,
+  "forks": 1482,
+  "open_issues": 2394,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "perf(tarball): run parallel CAS writes on a dedicated rayon pool (#12248)\n\nThe per-file CAS-write parallelism added in #12247 ran on rayon's global\npool. But the install pipeline overlaps tarball extraction with linking each\nresolved package into `node_modules`, and the linker drives its per-package\nwork through `rayon::join` / `par_iter` on that same global pool. When a\nbatch of downloads finished at once (hundreds of tarballs entering extraction\ntogether), the extraction work queued ahead of t",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-06T19:13:04Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-06T19:13:04Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "bea64b24a4fe1d8e708537303290c66adb6d1ebc"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-06T19:13:46Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 216112,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T19:37:23.234Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
