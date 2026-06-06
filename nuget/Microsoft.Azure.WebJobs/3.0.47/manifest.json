@@ -1,0 +1,188 @@
+{
+  "name": "Microsoft.Azure.WebJobs",
+  "version": "3.0.47",
+  "ecosystem": "nuget",
+  "description": "This package contains the runtime host components of the WebJobs SDK. For more information, please visit https://go.microsoft.com/fwlink/?linkid=2279708.",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    "Microsoft",
+    "Azure",
+    "WebJobs",
+    "AzureFunctions"
+  ],
+  "projectUrl": "https://github.com/Azure/azure-webjobs-sdk",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.Azure.WebJobs.Core",
+      "range": "[3.0.47, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration",
+      "range": "[2.1.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[2.1.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Json",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging",
+      "range": "[2.1.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Abstractions",
+      "range": "[2.1.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Logging.Configuration",
+      "range": "[2.1.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Newtonsoft.Json",
+      "range": "[13.0.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Memory.Data",
+      "range": "[1.0.2, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Threading.Tasks.Dataflow",
+      "range": "[4.8.0, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0/microsoft.azure.webjobs.core",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Azure.WebJobs.Core",
+          "range": "[3.0.47, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.azure.webjobs.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration",
+          "range": "[2.1.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[2.1.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.environmentvariables",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.environmentvariables/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.json",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Json",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0/microsoft.extensions.hosting",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging",
+          "range": "[2.1.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Abstractions",
+          "range": "[2.1.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0/microsoft.extensions.logging.configuration",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Logging.Configuration",
+          "range": "[2.1.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.logging.configuration/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0/newtonsoft.json",
+          "@type": "PackageDependency",
+          "id": "Newtonsoft.Json",
+          "range": "[13.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/newtonsoft.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0/system.memory.data",
+          "@type": "PackageDependency",
+          "id": "System.Memory.Data",
+          "range": "[1.0.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory.data/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.04.23.38.45/microsoft.azure.webjobs.3.0.47.json#dependencygroup/.netstandard2.0/system.threading.tasks.dataflow",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Dataflow",
+          "range": "[4.8.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.dataflow/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2026-06-04T23:36:06.69+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.azure.webjobs/3.0.47/icon",
+  "readmeUrl": "https://www.nuget.org/packages/Microsoft.Azure.WebJobs/3.0.47#show-readme-container",
+  "captured_at": "2026-06-06T18:45:06.893Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
