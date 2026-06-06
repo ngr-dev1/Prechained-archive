@@ -1,0 +1,53 @@
+{
+  "repo": "ruby/rubygems",
+  "commit_sha": "b456b2cdf6de56485c55a2391fcc384a25e9d11d",
+  "tree_sha": "433fa52c2874e72fb165ead5565c560b08af357b",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Library packaging and distribution for Ruby.",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 3931,
+  "watchers": 3931,
+  "forks": 1911,
+  "open_issues": 198,
+  "language": "Ruby",
+  "topics": [
+    "package-manager",
+    "ruby",
+    "rubygems"
+  ],
+  "commit_message": "Keep the locked version eligible when it falls inside the cooldown window\n\nbundle update and bundle outdated install a >= locked_version\nprevent-downgrade floor, so resolution never moves a gem backwards. The\ncooldown filter was excluding that same locked version, making\nresolution impossible whenever the lockfile was written before cooldown\nwas enabled and still pins an in-cooldown release. Exempt the version\nsitting exactly at the floor; gems updated explicitly carry an exact =\nrequirement and",
+  "commit_author": {
+    "name": "Hiroshi SHIBATA",
+    "email": "hsbt@ruby-lang.org",
+    "date": "2026-06-04T21:53:21Z"
+  },
+  "commit_committer": {
+    "name": "Hiroshi SHIBATA",
+    "email": "hsbt@ruby-lang.org",
+    "date": "2026-06-04T21:53:21Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "f22056bd50c7c179ccfcf45e2f49a13a44afcf92"
+  ],
+  "github_author_login": "hsbt",
+  "github_committer_login": "hsbt",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-05T04:19:31Z",
+  "created_at": "2010-04-16T19:02:44Z",
+  "homepage": "https://rubygems.org/",
+  "size_kb": 225740,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T23:25:18.722Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
