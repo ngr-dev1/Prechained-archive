@@ -1,0 +1,53 @@
+{
+  "repo": "dotnet/runtime",
+  "commit_sha": "1358624e2877c92f4e7ee793930c7582a03d666b",
+  "tree_sha": "94b1f27b7c0ecb6664cd156e9ddb2f1121bf69d1",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 17928,
+  "watchers": 17928,
+  "forks": 5456,
+  "open_issues": 8253,
+  "language": "C#",
+  "topics": [
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "SuperPMI: re-apply JitWasmNyiToR2RUnsupported when ignoring stored config (#129026)\n\nThe asmdiffs-checked-release leg uses -ignoreStoredConfig, which drops\nthe JitWasmNyiToR2RUnsupported=1 recorded into the MCH stored config at\ncollection time. The wasm JIT then asserts on unimplemented opcodes\n(e.g. GT_ASYNC_CONTINUATION) instead of cleanly skipping them as\nR2R-unsupported.\n\nSo add back the option externally for wasm whenever we pass\n-ignoreStoredConfig.\n\nFixes #129014\n\nCo-authored-by: Copilot ",
+  "commit_author": {
+    "name": "Andy Ayers",
+    "email": "andya@microsoft.com",
+    "date": "2026-06-05T21:22:05Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-05T21:22:05Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "56df10ebbf8d7e3f334f8cf3144cd9840412810f"
+  ],
+  "github_author_login": "AndyAyersMS",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-06T04:52:12Z",
+  "created_at": "2019-09-24T23:36:39Z",
+  "homepage": "https://docs.microsoft.com/dotnet/core/",
+  "size_kb": 1135620,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T04:57:25.438Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
