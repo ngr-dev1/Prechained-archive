@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "29d6170e7c79f2c71943692985a1546fb2bed28c",
+  "tree_sha": "186fe5c173c5d952ec074031a419020d832d017b",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100543,
+  "watchers": 100543,
+  "forks": 27947,
+  "open_issues": 18305,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "[Accelerator] Fix missing no-op guards in reset_*_memory_stats (#186269)\n\n### Summary\n\nFixes two bugs in [`torch/accelerator/memory.py`](https://github.com/pytorch/pytorch/blob/main/torch/accelerator/memory.py) reported in #186265.\n\n---\n\n#### Bug 1 — Missing no-op allocator initialization guard\n\n`empty_host_cache()`, `reset_accumulated_memory_stats()`, and `reset_peak_memory_stats()` all document a **no-op guarantee** when the allocator is uninitialized, but the `torch._C._accelerator_isAllocato",
+  "commit_author": {
+    "name": "CoderSATTY",
+    "email": "sattyashtikar@gmail.com",
+    "date": "2026-06-06T11:10:26Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-06-06T11:10:29Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "018f6ff66752d00ccf7130c4db1f386a1777a12d"
+  ],
+  "github_author_login": "CoderSATTY",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-06T13:17:17Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1396130,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T13:17:22.762Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
