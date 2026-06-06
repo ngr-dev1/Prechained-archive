@@ -1,0 +1,62 @@
+{
+  "repo": "endojs/endo",
+  "commit_sha": "4a04d078bd208b852a7bebadccd703f53ceea8cc",
+  "tree_sha": "7244b7e0601e839d4387e0541932c881dc2e8570",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Endo is a distributed secure JavaScript sandbox, based on SES",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 1024,
+  "watchers": 1024,
+  "forks": 87,
+  "open_issues": 560,
+  "language": "JavaScript",
+  "topics": [
+    "capabilities",
+    "captp",
+    "hardened",
+    "javascript",
+    "multi-tenant",
+    "ocaps",
+    "powerbox",
+    "prototype-pollution",
+    "sandbox",
+    "security",
+    "supply-chain"
+  ],
+  "commit_message": "feat(compartment-mapper): Host module exits (#2422)\n\n## Description\n\nThis change closes the remaining gap between Endo as a Zip archive\nbundler and support for “exits” to host modules from those bundles at\nimport-time.\n\nThis begins with a test to demonstrate the latent support for\nconditional exits to host modules through `importLocation`. The test\nfixture has a library that exports the host implementation of itself if\nthe bundler specifies the exit (`endo:lib`) as a condition. This causes\nthe m",
+  "commit_author": {
+    "name": "Kris Kowal",
+    "email": "kris@agoric.com",
+    "date": "2026-06-06T04:59:50Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-06T04:59:50Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "5865ff10228464a161a942ff3500abb2c44e5a7a",
+    "fe6be074317c8afedc28139683e148a952377062"
+  ],
+  "github_author_login": "kriskowal",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-06T05:15:09Z",
+  "created_at": "2019-11-06T20:09:57Z",
+  "homepage": "https://endojs.org/",
+  "size_kb": 76609,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T05:17:24.723Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
