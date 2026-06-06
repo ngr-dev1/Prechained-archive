@@ -1,0 +1,61 @@
+{
+  "repo": "spack/spack",
+  "commit_sha": "2db324c7d79bc3cd3fe1d38beeb6db39252a3d27",
+  "tree_sha": "fd480a54ae6c9700c2382764c6045022aaa9501d",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers.",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 5068,
+  "watchers": 5068,
+  "forks": 2438,
+  "open_issues": 1728,
+  "language": "Python",
+  "topics": [
+    "build-tools",
+    "hpc",
+    "hpsf",
+    "linux",
+    "macos",
+    "package-manager",
+    "python",
+    "radiuss",
+    "scientific-computing",
+    "spack",
+    "windows"
+  ],
+  "commit_message": "solver: speed-up setup phase (#52487)\n\nModifications:\n* Cache base `AspFunction` instances in `_AspFunctionBuilder` so\nrepeated use of `fn.some_name` reuse the same object. This is safe\nbecause `__call__` always returns a new instance.\n* Add `__iter__` to `DisjointSetOfValues`\n* Cache `__str__` for `ImmutableSpec`\n\nSigned-off-by: Massimiliano Culpo <massimiliano.culpo@gmail.com>",
+  "commit_author": {
+    "name": "Massimiliano Culpo",
+    "email": "massimiliano.culpo@gmail.com",
+    "date": "2026-06-05T13:08:12Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-05T13:08:12Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "93d944211cb79b9c88fe75d4790e32175b990def"
+  ],
+  "github_author_login": "alalazo",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-06-05T20:52:07Z",
+  "created_at": "2014-01-08T09:22:12Z",
+  "homepage": "https://spack.io",
+  "size_kb": 240248,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T01:27:25.142Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
