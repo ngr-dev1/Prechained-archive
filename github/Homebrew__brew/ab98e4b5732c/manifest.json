@@ -1,0 +1,55 @@
+{
+  "repo": "Homebrew/brew",
+  "commit_sha": "ab98e4b5732c5bf194a5acd6667274148dfb232f",
+  "tree_sha": "c8048b258254b4ab4360d02fad5ac0ef71ce7ff2",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "🍺 The missing package manager for macOS (or Linux)",
+  "license": "BSD-2-Clause",
+  "license_name": "BSD 2-Clause \"Simplified\" License",
+  "stars": 48321,
+  "watchers": 48321,
+  "forks": 11153,
+  "open_issues": 14,
+  "language": "Ruby",
+  "topics": [
+    "brew",
+    "homebrew",
+    "macos",
+    "package-manager",
+    "ruby"
+  ],
+  "commit_message": "rubocops/cask/url: add URL argument and string literal checks\n\nAddress review feedback:\n\nFlag `url` stanzas without a URL argument (e.g. only keyword\narguments). The Cask DSL silently treats these as getter calls and\ndiscards the keyword options. This also fixes a corrector crash on\nkeyword-only `url` stanzas, where the URL argument and the keyword hash\nare the same node and the keyword newline check built a reversed range.\n\nFlag non-string-literal URLs in Homebrew/cask. Dynamically generated\nUR",
+  "commit_author": {
+    "name": "Carlo Cabrera",
+    "email": "github@carlo.cab",
+    "date": "2026-06-06T13:20:18Z"
+  },
+  "commit_committer": {
+    "name": "Carlo Cabrera",
+    "email": "30379873+carlocab@users.noreply.github.com",
+    "date": "2026-06-06T13:20:18Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "557f0910b3bcc036f1d8dc29f0d92632d856568f"
+  ],
+  "github_author_login": "carlocab",
+  "github_committer_login": "carlocab",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-06T16:25:02Z",
+  "created_at": "2016-03-06T05:08:38Z",
+  "homepage": "https://brew.sh",
+  "size_kb": 119164,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T16:35:07.505Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
