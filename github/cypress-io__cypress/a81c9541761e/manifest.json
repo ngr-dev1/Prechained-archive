@@ -1,0 +1,63 @@
+{
+  "repo": "cypress-io/cypress",
+  "commit_sha": "a81c9541761eb3717f7a11bfc06a641107a9e4b5",
+  "tree_sha": "07270023d89ad8a16256feb9768a2ac1efdff2f1",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 49680,
+  "watchers": 49680,
+  "forks": 3406,
+  "open_issues": 1182,
+  "language": "TypeScript",
+  "topics": [
+    "angular-testing-library",
+    "component-testing",
+    "cypress",
+    "cypress-cloud",
+    "cypress-schematic",
+    "end-to-end-testing",
+    "react-testing-library",
+    "svelte-testing-library",
+    "test-replay",
+    "testing-framework",
+    "testing-library",
+    "testing-tool",
+    "vue-testing-library"
+  ],
+  "commit_message": "dependency: pin watchpack to ^2.5.1 to silence Windows EINVAL scan warnings (#34028)\n\n* fix: pin watchpack to ^2.5.1 to silence Windows EINVAL scan warnings\n\nOn elevated Windows shells, watchpack's initial directory scan would log\n'Watchpack Error (initial scan): EINVAL ... lstat C:\\pagefile.sys' (and\nsimilar for swapfile.sys, DumpStack.log.tmp, System Volume Information)\nwhen webpack watched the C:\\ root while resolving missing node_modules\ndirectories during spec preprocessing in open mode.\n\nw",
+  "commit_author": {
+    "name": "Jennifer Shehane",
+    "email": "jennifer@cypress.io",
+    "date": "2026-06-06T12:41:29Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-06T12:41:29Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "06f6d07113a492260921faf5ddc853486c3f9040"
+  ],
+  "github_author_login": "jennifer-shehane",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-06-06T12:41:31Z",
+  "created_at": "2015-03-04T00:46:28Z",
+  "homepage": "https://cypress.io",
+  "size_kb": 554801,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T12:55:05.015Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
