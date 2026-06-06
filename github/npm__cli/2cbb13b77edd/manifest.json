@@ -1,0 +1,56 @@
+{
+  "repo": "npm/cli",
+  "commit_sha": "2cbb13b77edd9410704eac6f30ffea30a18c7046",
+  "tree_sha": "27bd48dc073e161b9c55410b67a9461065edd94e",
+  "branch": "latest",
+  "ecosystem": "github",
+  "description": "the package manager for JavaScript",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 9807,
+  "watchers": 9807,
+  "forks": 4397,
+  "open_issues": 622,
+  "language": "JavaScript",
+  "topics": [
+    "javascript",
+    "nodejs",
+    "npm",
+    "npm-cli",
+    "package-manager",
+    "tools"
+  ],
+  "commit_message": "fix: recognize allowScripts for local link targets (#9490)\n\n## Summary\n- Recognize local directory link targets by their incoming link source\nwhen matching `allowScripts` policy entries.\n- Reuse that source identity when `approve-scripts`/`deny-scripts`\nderive file dependency policy keys.\n- Add coverage for reviewed local `file:` dependency link targets.\n\nFixes #9488\n\n## Testing\n- `node node_modules/tap/bin/run.js --no-coverage\nworkspaces/arborist/test/script-allowed.js\nworkspaces/arborist/test/",
+  "commit_author": {
+    "name": "Rayan Salhab",
+    "email": "r.salhab@aiyexpertsolutions.com",
+    "date": "2026-06-05T16:57:31Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-05T16:57:31Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "bf623e0a9ea568a47b777c563e48a097cb12e442"
+  ],
+  "github_author_login": "cyphercodes",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "latest",
+  "pushed_at": "2026-06-05T17:45:46Z",
+  "created_at": "2018-07-05T23:26:52Z",
+  "homepage": "https://docs.npmjs.com/cli/",
+  "size_kb": 175635,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T00:17:22.248Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
