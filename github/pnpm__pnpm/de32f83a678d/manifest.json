@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "de32f83a678d85e67ffb4a2674b1204befa6786e",
+  "tree_sha": "eca00e72a8c7751a08e1c018ed0ea8ca2e46abb0",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35404,
+  "watchers": 35404,
+  "forks": 1482,
+  "open_issues": 2394,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix(pnpr): parse /v1/resolve NDJSON stream in the TypeScript client (#12246)\n\n* fix(pnpr): parse /v1/resolve NDJSON stream in the TypeScript client\n\nThe pnpr server streams the /v1/resolve response as application/x-ndjson\n(one package frame per resolved tarball, then a terminal done/error/\nviolations frame), but the TypeScript client still parsed the whole body\nas a single JSON object, failing with \"Unexpected non-whitespace\ncharacter after JSON\". Parse the NDJSON frames and act on the terminal\n",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-06T17:55:06Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-06T17:55:06Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "5f7f747f60d3c0a460a298cd39263925884fce15"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-06T19:13:46Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 216112,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T19:37:25.537Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
