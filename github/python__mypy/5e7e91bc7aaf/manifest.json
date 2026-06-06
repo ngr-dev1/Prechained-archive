@@ -1,0 +1,55 @@
+{
+  "repo": "python/mypy",
+  "commit_sha": "5e7e91bc7aafccf370b2a3f3111377cbab0057e3",
+  "tree_sha": "71eb760ebd0cd114a136c6c91e644f2e35930d46",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Optional static typing for Python",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 20467,
+  "watchers": 20467,
+  "forks": 3204,
+  "open_issues": 3124,
+  "language": "Python",
+  "topics": [
+    "linter",
+    "python",
+    "typechecker",
+    "types",
+    "typing"
+  ],
+  "commit_message": "Speed up transitive_dep_hash for singleton SCCs (#21390)\n\nI noticed on a large codebase ~99.84% of SCCs are singletons.\n\nSo the two main changes are adding a singleton fast path and extracting\n`graph[id]` to be a local variable so that it does the lookup once per\nmodule rather than once per dependency,\n\nThe time in the `transitive_dep_hash` function drops 22%, and improved\nthe overall warm run by 1%",
+  "commit_author": {
+    "name": "Kevin Kannammalil",
+    "email": "kevinrk2000@gmail.com",
+    "date": "2026-06-05T00:14:44Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-05T00:14:44Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "d69ab34a2cd1ea3440fd2690b482d0bc0035c62d"
+  ],
+  "github_author_login": "KevinRK29",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-05T12:01:38Z",
+  "created_at": "2012-12-07T13:30:23Z",
+  "homepage": "https://www.mypy-lang.org/",
+  "size_kb": 83749,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-06T15:15:04.978Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
