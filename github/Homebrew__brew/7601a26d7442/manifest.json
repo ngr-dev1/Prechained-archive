@@ -1,0 +1,55 @@
+{
+  "repo": "Homebrew/brew",
+  "commit_sha": "7601a26d7442a3356ba23fb57733223427549ddf",
+  "tree_sha": "6dec19a21c30480974b48283a2755dbe79d33338",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "🍺 The missing package manager for macOS (or Linux)",
+  "license": "BSD-2-Clause",
+  "license_name": "BSD 2-Clause \"Simplified\" License",
+  "stars": 48330,
+  "watchers": 48330,
+  "forks": 11153,
+  "open_issues": 17,
+  "language": "Ruby",
+  "topics": [
+    "brew",
+    "homebrew",
+    "macos",
+    "package-manager",
+    "ruby"
+  ],
+  "commit_message": "cask/dsl/caveats: fix built_in_caveats type\n\nWhen the `HOMEBREW_SORBET_RECURSIVE=1` environment variable is set\nand brew parses a cask with a `caveat` block that contains a method\ncall using a string argument (e.g., `depends_on_java \"8+\"`), we can\nencounter a type error. This specifically happens when\n`Cask::CaskLoader.load` is used. The type signature for\n`built_in_caveats` suggests that the hash key is always an array of\nsymbols but in the aforementioned scenario, the key is an array with a\nsy",
+  "commit_author": {
+    "name": "Sam Ford",
+    "email": "1584702+samford@users.noreply.github.com",
+    "date": "2026-06-03T19:43:32Z"
+  },
+  "commit_committer": {
+    "name": "Sam Ford",
+    "email": "1584702+samford@users.noreply.github.com",
+    "date": "2026-06-07T15:40:35Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "af69e652683b9a0299e8334d820bebc6487eb7d0"
+  ],
+  "github_author_login": "samford",
+  "github_committer_login": "samford",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-07T16:28:08Z",
+  "created_at": "2016-03-06T05:08:38Z",
+  "homepage": "https://brew.sh",
+  "size_kb": 118271,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-07T19:57:24.452Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
