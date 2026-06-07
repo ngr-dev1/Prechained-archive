@@ -1,0 +1,49 @@
+{
+  "repo": "sigstore/cosign",
+  "commit_sha": "c7b62530dc4b90bf556d98ad9e476c419dd8441a",
+  "tree_sha": "73484ca232feb9a736b0f8b8203de70fbf62eb11",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Code signing and transparency for containers and binaries",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 6009,
+  "watchers": 6009,
+  "forks": 746,
+  "open_issues": 145,
+  "language": "Go",
+  "topics": [],
+  "commit_message": "test(e2e): cover Rekor v2 hashedrekord behavior (#4916)\n\nAdd TestSignAttestVerifyRekorV2 to round-trip sign + attest + verify\nagainst rekor-tiles (Rekor v2) and assert each bundle's tlog entry is\nhashedrekord/0.0.2 — confirming sigstore-go v1.2.0's behavior of\nencoding DSSE attestations as hashedrekord on Rekor v2 (rather than\ndsse, which v1 emitted).\n\nAdds a rekorV2URL test constant and fixes TestSignRekorV2NoTSA which\nwas building its signing config with the v1 URL but api-version=2.\nIt never ",
+  "commit_author": {
+    "name": "Cody Soyland",
+    "email": "codysoyland@github.com",
+    "date": "2026-06-05T21:05:38Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-05T21:05:38Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "6115844a098a5a0440ef2974f8517a5435c85009"
+  ],
+  "github_author_login": "codysoyland",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-05T22:21:32Z",
+  "created_at": "2021-02-04T12:49:39Z",
+  "homepage": null,
+  "size_kb": 26292,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-07T06:07:21.344Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
