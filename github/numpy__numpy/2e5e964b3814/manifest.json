@@ -1,0 +1,52 @@
+{
+  "repo": "numpy/numpy",
+  "commit_sha": "2e5e964b38147c422a4a0a22b8b4a1b8ee1ed22b",
+  "tree_sha": "e66cc42236ad27f50a715f9baf72bb4161fda1a0",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The fundamental package for scientific computing with Python.",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 32158,
+  "watchers": 32158,
+  "forks": 12426,
+  "open_issues": 2374,
+  "language": "Python",
+  "topics": [
+    "numpy",
+    "python"
+  ],
+  "commit_message": "Limited API fix for INCREF/DECREF in Numpy headers\n\nIn the Limited API, `Py_INCREF` (and similar) don't contain a\ncast and thus the object has to be a `PyObject*`.\n\nI'm not completely sure if npy_2_compat is intended to be\nLimited API compatible but it's easy enough to adjust anyway.",
+  "commit_author": {
+    "name": "da-woods",
+    "email": "dw-git@d-woods.co.uk",
+    "date": "2026-06-06T17:43:40Z"
+  },
+  "commit_committer": {
+    "name": "da-woods",
+    "email": "dw-git@d-woods.co.uk",
+    "date": "2026-06-06T17:47:28Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "b6e8ad83299fc6f87107492df0039dadfb5b9b98"
+  ],
+  "github_author_login": "da-woods",
+  "github_committer_login": "da-woods",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-06T21:00:49Z",
+  "created_at": "2010-09-13T23:02:39Z",
+  "homepage": "https://numpy.org",
+  "size_kb": 179008,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-07T01:27:23.878Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
