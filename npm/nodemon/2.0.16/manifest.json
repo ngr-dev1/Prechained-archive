@@ -1,0 +1,87 @@
+{
+  "name": "nodemon",
+  "version": "2.0.16",
+  "ecosystem": "npm",
+  "description": "Simple monitor script for use during development of a Node.js app.",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^3.2.7",
+    "touch": "^3.1.0",
+    "semver": "^5.7.1",
+    "chokidar": "^3.5.2",
+    "minimatch": "^3.0.4",
+    "undefsafe": "^2.0.5",
+    "pstree.remy": "^1.1.8",
+    "supports-color": "^5.5.0",
+    "update-notifier": "^5.1.0",
+    "ignore-by-default": "^1.0.1"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "async": "1.4.2",
+    "husky": "^7.0.4",
+    "mocha": "^2.5.3",
+    "eslint": "^7.32.0",
+    "should": "~4.0.0",
+    "proxyquire": "^1.8.0",
+    "coffee-script": "~1.7.1",
+    "@commitlint/cli": "^11.0.0",
+    "semantic-release": "^18.0.0",
+    "@commitlint/config-conventional": "^11.0.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": "node bin/postinstall || exit 0",
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "remy",
+      "email": "remy@leftlogic.com"
+    }
+  ],
+  "author": {
+    "url": "https://github.com/remy",
+    "name": "Remy Sharp"
+  },
+  "publishedAt": "2022-04-29T10:09:23.199Z",
+  "dist": {
+    "integrity": "sha512-zsrcaOfTWRuUzBn3P44RDliLlp263Z/76FPoHFr3cFFkOz0lTPAcIw8dCzfdVIx/t3AtDYCZRCDkoCojJqaG3w==",
+    "shasum": "d71b31bfdb226c25de34afea53486c8ef225fdef",
+    "tarball": "https://registry.npmjs.org/nodemon/-/nodemon-2.0.16.tgz",
+    "fileCount": 45,
+    "unpackedSize": 196521
+  },
+  "repository": {
+    "url": "git+https://github.com/remy/nodemon.git",
+    "type": "git"
+  },
+  "homepage": "https://nodemon.io",
+  "bugs": {
+    "url": "https://github.com/remy/nodemon/issues"
+  },
+  "keywords": [
+    "cli",
+    "monitor",
+    "monitor",
+    "development",
+    "restart",
+    "autoload",
+    "reload",
+    "terminal"
+  ],
+  "_npmUser": {
+    "name": "remy",
+    "email": "remy@leftlogic.com"
+  },
+  "captured_at": "2026-06-07T06:07:23.561Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
