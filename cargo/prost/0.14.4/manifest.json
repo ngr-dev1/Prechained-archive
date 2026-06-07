@@ -1,0 +1,77 @@
+{
+  "name": "prost",
+  "version": "0.14.4",
+  "ecosystem": "cargo",
+  "description": "A Protocol Buffers implementation for the Rust Language.",
+  "license": "Apache-2.0",
+  "checksum": "528ac67416ff8646872a3c02cad9cc4ee5dc9f9540c9b10771855c95cb2e5ae1",
+  "features": {
+    "default": [
+      "derive",
+      "std"
+    ],
+    "derive": [
+      "dep:prost-derive"
+    ],
+    "no-recursion-limit": [],
+    "std": []
+  },
+  "downloads": 2127,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/prost",
+  "homepage": null,
+  "keywords": [
+    "protobuf",
+    "serialization"
+  ],
+  "categories": [
+    "Encoding"
+  ],
+  "dependencies": [
+    {
+      "name": "bytes",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "proptest",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "prost-derive",
+      "requirement": "^0.14.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 98531,
+    "login": "caspermeijn",
+    "name": "Casper Meijn"
+  },
+  "publishedAt": "2026-06-07T10:13:40.918481Z",
+  "captured_at": "2026-06-07T16:57:21.211Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
