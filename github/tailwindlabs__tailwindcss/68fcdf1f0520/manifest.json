@@ -1,0 +1,57 @@
+{
+  "repo": "tailwindlabs/tailwindcss",
+  "commit_sha": "68fcdf1f0520b27d130363f352ad69440f85725f",
+  "tree_sha": "2d0353efeefa93789f4647e7a1aafcdd3f95da43",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "A utility-first CSS framework for rapid UI development.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 95435,
+  "watchers": 95435,
+  "forks": 5293,
+  "open_issues": 72,
+  "language": "TypeScript",
+  "topics": [
+    "css",
+    "css-framework",
+    "functional-css",
+    "postcss",
+    "responsive",
+    "tailwindcss",
+    "utility-classes"
+  ],
+  "commit_message": "Do not crash when migrating empty classes (#20205)\n\nThis PR fixes a crash while using `npx @tailwindcss/upgrade` when\nmigrating classes with no body inside of an `@layer utilities`.\n\nWhen running `npx @tailwindcss/upgrade`, one thing we do is migrate the\nCSS from:\n```css\n@layer utilities {\n  .foo {\n    color: red;\n  }\n}\n```\nTo:\n```css\n@utility foo {\n  color: red;\n}\n```\n\nWe already have some logic that leaves non-classe (IDs, attribute\nselectors, ...) alone. But if we are migrating a class that h",
+  "commit_author": {
+    "name": "Robin Malfait",
+    "email": "malfait.robin@gmail.com",
+    "date": "2026-06-07T19:50:35Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-07T19:50:35Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "3f58e52e36c847b705712169de3dbf4cced84b72"
+  ],
+  "github_author_login": "RobinMalfait",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-07T19:50:38Z",
+  "created_at": "2017-10-06T14:59:14Z",
+  "homepage": "https://tailwindcss.com/",
+  "size_kb": 114039,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-08T02:37:26.037Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
