@@ -1,0 +1,55 @@
+{
+  "repo": "NixOS/nix",
+  "commit_sha": "0b29401e52c391f0159470a5910fd8685d79e2ef",
+  "tree_sha": "d461ffbf2644f0de3cdce07c3e4e242d872941cd",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Nix, the purely functional package manager",
+  "license": "LGPL-2.1",
+  "license_name": "GNU Lesser General Public License v2.1",
+  "stars": 17031,
+  "watchers": 17031,
+  "forks": 1939,
+  "open_issues": 3969,
+  "language": "C++",
+  "topics": [
+    "c-plus-plus",
+    "declarative-language",
+    "functional-programming",
+    "nix",
+    "package-manager"
+  ],
+  "commit_message": "gc: add missing addTempRoot calls to prevent GC from deleting live store paths\n\nThe GC could delete store paths that were actively in use because\nseveral code paths accessed store paths without first registering\nthem as temporary roots:\n\n- fetchers: Input::getAccessorUnchecked used ensurePath without\n  addTempRoot for locked inputs with narHash, allowing GC to delete\n  the store path between the validity check and accessor reads.\n  This was the primary cause of \"path does not exist\" errors durin",
+  "commit_author": {
+    "name": "Domen Kožar",
+    "email": "domen@cachix.org",
+    "date": "2026-03-18T16:20:55Z"
+  },
+  "commit_committer": {
+    "name": "Lisanna Dettwyler",
+    "email": "lisanna.dettwyler@gmail.com",
+    "date": "2026-06-07T22:24:05Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "87716847d4e96dc4c6acd62cc8c89c3d1fb9cf47"
+  ],
+  "github_author_login": "domenkozar",
+  "github_committer_login": "lisanna-dettwyler",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-07T23:31:22Z",
+  "created_at": "2012-02-08T10:17:59Z",
+  "homepage": "https://nixos.org/",
+  "size_kb": 135617,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-08T01:27:21.079Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
