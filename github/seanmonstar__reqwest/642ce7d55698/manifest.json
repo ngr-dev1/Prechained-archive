@@ -1,0 +1,53 @@
+{
+  "repo": "seanmonstar/reqwest",
+  "commit_sha": "642ce7d55698a282606a872f8cb8d0bcb9a79b94",
+  "tree_sha": "569490417bfe2cb350628e5ae0444ac1eb958a35",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "An easy and powerful Rust HTTP Client",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 11657,
+  "watchers": 11657,
+  "forks": 1373,
+  "open_issues": 460,
+  "language": "Rust",
+  "topics": [
+    "http",
+    "http-client",
+    "rust"
+  ],
+  "commit_message": "fix(blocking): preserve version and extensions in TryFrom<http::Request> (#3050)\n\nThe blocking Request TryFrom implementation was only extracting method,\nuri, and headers from http::Request parts, discarding version and\nextensions. This made it inconsistent with the async Request conversion.\n\nFix by also capturing version and extensions and setting them on the\ninner async request, matching the behavior of async_impl::Request.\n\nFixes #2989\n\nCo-authored-by: wwhsaber <wwhsaber@foxmail.com>",
+  "commit_author": {
+    "name": "wwhsaber",
+    "email": "120183605@qq.com",
+    "date": "2026-06-08T15:23:01Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-08T15:23:01Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "11489b34eda6d32b15ad4033e62beba2ee401350"
+  ],
+  "github_author_login": "wwhsaber",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-08T15:23:01Z",
+  "created_at": "2016-07-01T00:23:08Z",
+  "homepage": "https://docs.rs/reqwest",
+  "size_kb": 2783,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-08T17:57:24.465Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
