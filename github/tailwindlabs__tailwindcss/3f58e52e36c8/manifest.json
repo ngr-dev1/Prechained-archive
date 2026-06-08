@@ -1,0 +1,57 @@
+{
+  "repo": "tailwindlabs/tailwindcss",
+  "commit_sha": "3f58e52e36c847b705712169de3dbf4cced84b72",
+  "tree_sha": "65e41cd23da3357792a31ede7cc8a7c508c9d1e5",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "A utility-first CSS framework for rapid UI development.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 95440,
+  "watchers": 95440,
+  "forks": 5293,
+  "open_issues": 72,
+  "language": "TypeScript",
+  "topics": [
+    "css",
+    "css-framework",
+    "functional-css",
+    "postcss",
+    "responsive",
+    "tailwindcss",
+    "utility-classes"
+  ],
+  "commit_message": "Ensure `@source` globs with symlinks are preserved (#20203)\n\nThis PR fixes an issue when working with `@source` and `@source not`\nthat involves symlinks.\n\nInternally our sources are mapped to a source entry where we have a\n`base` path and a `pattern`. You can think about this where we insert a\n`.gitignore` file in the `base` path for the given pattern.\n\nHowever, we optimize these entries to move as many \"static\" parts into\nthe base path. For example:\n```css\n@source \"./some/folder/here/*.html\";\n`",
+  "commit_author": {
+    "name": "Robin Malfait",
+    "email": "malfait.robin@gmail.com",
+    "date": "2026-06-07T18:44:22Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-07T18:44:22Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "ad6693906a321912c90fd13c4a92e2cb26660985"
+  ],
+  "github_author_login": "RobinMalfait",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-07T19:50:38Z",
+  "created_at": "2017-10-06T14:59:14Z",
+  "homepage": "https://tailwindcss.com/",
+  "size_kb": 114039,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-08T06:27:20.104Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
