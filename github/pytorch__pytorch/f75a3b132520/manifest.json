@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "f75a3b132520d11656ceb1703c0ab8a423dd55fe",
+  "tree_sha": "959d99e2b2236559a6dd7954daa5d9eff5936724",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100588,
+  "watchers": 100588,
+  "forks": 27960,
+  "open_issues": 18329,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "Preserve aten.hardtanh meta semantics for export (#185298)\n\n`torch.export` runs `aten.hardtanh` through FakeTensor/Meta dispatch. Without a\nMeta kernel, that path fell back to the `_refs.nn.functional.hardtanh`\ndecomposition, which intentionally follows the Python frontend and rejects\n`min_val > max_val`. Native `aten.hardtanh` has legacy behavior that allows\ninverted bounds and delegates the result to clamp, so export failed for a model\nthat eager ATen accepted.\n\nAdd dedicated Meta kernels for ",
+  "commit_author": {
+    "name": "Jason Ansel",
+    "email": "jansel@meta.com",
+    "date": "2026-06-02T20:05:50Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-06-08T00:01:44Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "3d748a878b849c3a73b81e8656eeab834bb08db4"
+  ],
+  "github_author_login": "jansel",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-08T00:04:12Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1397845,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-08T00:07:25.954Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
