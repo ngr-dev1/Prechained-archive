@@ -1,0 +1,57 @@
+{
+  "repo": "microsoft/apm",
+  "commit_sha": "2a5d5baf1351612397b144637362385140a69d34",
+  "tree_sha": "0e206cc080567a26cc3d9cfb19158d98eeea68bf",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Agent Package Manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 2791,
+  "watchers": 2791,
+  "forks": 230,
+  "open_issues": 99,
+  "language": "Python",
+  "topics": [
+    "ai-agents",
+    "claude-code",
+    "codex-cli",
+    "context-engineering",
+    "github-copilot",
+    "package-manager",
+    "prompt-engineering"
+  ],
+  "commit_message": "fix(install): unwrap lspServers envelope in plugin .lsp.json (closes #1683) (#1686)\n\n* fix: unwrap lspServers envelope in plugin .lsp.json parsing\n\nWhen a plugin ships a .lsp.json using the { \"lspServers\": { ... } }\nwrapper format, _read_lsp_json() now detects and unwraps the envelope\ninstead of treating \"lspServers\" as a server name.\n\nThis fixes the silent skip with:\n  Skipping invalid LSP server 'lspServers': requires 'command'\n\nThe flat format (server names as top-level keys) continues to wor",
+  "commit_author": {
+    "name": "Sergio Sisternes",
+    "email": "sergio_sisternes@epam.com",
+    "date": "2026-06-08T21:11:41Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-08T21:11:41Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "2f282d7edcde72afa235cf792864663e3a9f726b"
+  ],
+  "github_author_login": "sergio-sisternes-epam",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-08T21:44:29Z",
+  "created_at": "2025-09-18T13:45:22Z",
+  "homepage": "https://microsoft.github.io/apm/",
+  "size_kb": 26730,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T00:45:24.215Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
