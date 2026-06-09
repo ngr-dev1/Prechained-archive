@@ -1,0 +1,55 @@
+{
+  "repo": "sigstore/sigstore-js",
+  "commit_sha": "04ea25a572f440b4ee14e7b7629f84077dd55d57",
+  "tree_sha": "87473bef095f3315f3195be86fab22dba8bd583d",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Code-signing for npm packages",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 179,
+  "watchers": 179,
+  "forks": 47,
+  "open_issues": 10,
+  "language": "TypeScript",
+  "topics": [
+    "codesigning",
+    "javascript",
+    "node",
+    "security",
+    "supply-chain"
+  ],
+  "commit_message": "Harden the @sigstore/core ASN.1/DER parser (#1678)\n\nAdd a set of strictness and robustness checks to the hand-rolled DER\nparser used to parse X.509 certificates and RFC 3161 timestamps, without\nchanging any public interfaces.\n\n- Add a recursion-depth limit to the parse/collectSubs mutual recursion\n- Use BigInt accumulation for OID arcs to avoid 32-bit truncation\n- Enforce minimal (canonical) DER length encodings\n- Accept only canonical BOOLEAN values (0x00/0xff)\n- Reject top-level trailing data ",
+  "commit_author": {
+    "name": "Brian DeHamer",
+    "email": "bdehamer@github.com",
+    "date": "2026-06-09T19:58:58Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-09T19:58:58Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "7b8b55e274163b4430d3412f2c70bdb225abade4"
+  ],
+  "github_author_login": "bdehamer",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-09T20:21:51Z",
+  "created_at": "2022-05-23T21:10:15Z",
+  "homepage": null,
+  "size_kb": 7307,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T20:48:07.383Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
