@@ -1,0 +1,58 @@
+{
+  "repo": "tensorflow/tensorflow",
+  "commit_sha": "bb81f08af80dcfab8e5eca338dfeaa6229b6acdd",
+  "tree_sha": "c69c7036c3203165da2a1cd9774bed65e631f37a",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "An Open Source Machine Learning Framework for Everyone",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 195618,
+  "watchers": 195618,
+  "forks": 75182,
+  "open_issues": 3267,
+  "language": "C++",
+  "topics": [
+    "deep-learning",
+    "deep-neural-networks",
+    "distributed",
+    "machine-learning",
+    "ml",
+    "neural-network",
+    "python",
+    "tensorflow"
+  ],
+  "commit_message": "PR #43897: [ROCm] Don't use async deallocaton in MIOpen autotuner backend\n\nImported from GitHub PR https://github.com/openxla/xla/pull/43897\n\n📝 Summary of Changes\nIntroduce file local OwningScratchAllocator implementation that does deallocation on destruction.\n\n🎯 Justification\nOwningScratchAllocator implementation moved to async deallocaton model which doesn't work for miopen backend.\n\n🚀 Kind of Contribution\n🐛 Bug Fix\nCopybara import of the project:\n\n--\n945b5c2767fc40f51f9c045ba8766da3d72878",
+  "commit_author": {
+    "name": "Dragan Mladjenovic",
+    "email": "Dragan.Mladjenovic@amd.com",
+    "date": "2026-06-08T20:54:30Z"
+  },
+  "commit_committer": {
+    "name": "TensorFlower Gardener",
+    "email": "gardener@tensorflow.org",
+    "date": "2026-06-08T20:57:46Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "bbc3c0a988541d21d4a077350a2f1091f6ff18a9"
+  ],
+  "github_author_login": "draganmladjenovic",
+  "github_committer_login": "tensorflower-gardener",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-09T09:36:49Z",
+  "created_at": "2015-11-07T01:19:20Z",
+  "homepage": "https://tensorflow.org",
+  "size_kb": 1327827,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T09:47:26.947Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
