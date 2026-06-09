@@ -1,0 +1,187 @@
+{
+  "name": "regex",
+  "version": "1.12.4",
+  "ecosystem": "cargo",
+  "description": "An implementation of regular expressions for Rust. This implementation uses\nfinite automata and guarantees linear time matching on all inputs.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "f1292b7759ae1cb9ec195452d1390a074f0cd8541ab7a5a8c31cd6db45d4a6ba",
+  "features": {
+    "default": [
+      "std",
+      "perf",
+      "unicode",
+      "regex-syntax/default"
+    ],
+    "logging": [
+      "aho-corasick?/logging",
+      "memchr?/logging",
+      "regex-automata/logging"
+    ],
+    "pattern": [],
+    "perf": [
+      "perf-cache",
+      "perf-dfa",
+      "perf-onepass",
+      "perf-backtrack",
+      "perf-inline",
+      "perf-literal"
+    ],
+    "perf-backtrack": [
+      "regex-automata/nfa-backtrack"
+    ],
+    "perf-cache": [],
+    "perf-dfa": [
+      "regex-automata/hybrid"
+    ],
+    "perf-dfa-full": [
+      "regex-automata/dfa-build",
+      "regex-automata/dfa-search"
+    ],
+    "perf-inline": [
+      "regex-automata/perf-inline"
+    ],
+    "perf-literal": [
+      "dep:aho-corasick",
+      "dep:memchr",
+      "regex-automata/perf-literal"
+    ],
+    "perf-onepass": [
+      "regex-automata/dfa-onepass"
+    ],
+    "std": [
+      "aho-corasick?/std",
+      "memchr?/std",
+      "regex-automata/std",
+      "regex-syntax/std"
+    ],
+    "unicode": [
+      "unicode-age",
+      "unicode-bool",
+      "unicode-case",
+      "unicode-gencat",
+      "unicode-perl",
+      "unicode-script",
+      "unicode-segment",
+      "regex-automata/unicode",
+      "regex-syntax/unicode"
+    ],
+    "unicode-age": [
+      "regex-automata/unicode-age",
+      "regex-syntax/unicode-age"
+    ],
+    "unicode-bool": [
+      "regex-automata/unicode-bool",
+      "regex-syntax/unicode-bool"
+    ],
+    "unicode-case": [
+      "regex-automata/unicode-case",
+      "regex-syntax/unicode-case"
+    ],
+    "unicode-gencat": [
+      "regex-automata/unicode-gencat",
+      "regex-syntax/unicode-gencat"
+    ],
+    "unicode-perl": [
+      "regex-automata/unicode-perl",
+      "regex-automata/unicode-word-boundary",
+      "regex-syntax/unicode-perl"
+    ],
+    "unicode-script": [
+      "regex-automata/unicode-script",
+      "regex-syntax/unicode-script"
+    ],
+    "unicode-segment": [
+      "regex-automata/unicode-segment",
+      "regex-syntax/unicode-segment"
+    ],
+    "unstable": [
+      "pattern"
+    ],
+    "use_std": [
+      "std"
+    ]
+  },
+  "downloads": 0,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/regex",
+  "homepage": "https://github.com/rust-lang/regex",
+  "keywords": [],
+  "categories": [
+    "Text processing"
+  ],
+  "dependencies": [
+    {
+      "name": "anyhow",
+      "requirement": "^1.0.69",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "doc-comment",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "env_logger",
+      "requirement": "^0.9.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^1.0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "regex-automata",
+      "requirement": "^0.4.12",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "regex-syntax",
+      "requirement": "^0.8.11",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "regex-test",
+      "requirement": "^0.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "aho-corasick",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "memchr",
+      "requirement": "^2.6.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 189,
+    "login": "BurntSushi",
+    "name": "Andrew Gallant"
+  },
+  "publishedAt": "2026-06-09T15:01:54.322436Z",
+  "captured_at": "2026-06-09T16:13:08.700Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
