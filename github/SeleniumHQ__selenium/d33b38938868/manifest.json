@@ -1,0 +1,58 @@
+{
+  "repo": "SeleniumHQ/selenium",
+  "commit_sha": "d33b3893886802b0e55c39120c0fedb846e493f2",
+  "tree_sha": "6910f20695c5e13b2461e9fedae895f6e45f35b4",
+  "branch": "trunk",
+  "ecosystem": "github",
+  "description": "A browser automation framework and ecosystem.",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 34178,
+  "watchers": 34178,
+  "forks": 8691,
+  "open_issues": 191,
+  "language": "Java",
+  "topics": [
+    "dotnet",
+    "java",
+    "javascript",
+    "python",
+    "ruby",
+    "rust",
+    "selenium",
+    "webdriver"
+  ],
+  "commit_message": "[SM] Automatically prune cache entries older than 30 days (#17585)\n\n* [SM] Automatically prune cache entries older than 30 days\n\nSelenium Manager now removes driver/browser version directories from the\ncache (~/.cache/selenium) that have not been modified in over 30 days.\nThe prune runs on every invocation after clear-cache/clear-metadata, so\nthe cache size is bounded without requiring manual intervention.\n\nFixes #17196\n\n* [SM] Track last_used in metadata and prune on that basis\n\nReplace the fil",
+  "commit_author": {
+    "name": "David Burns",
+    "email": "david.burns@theautomatedtester.co.uk",
+    "date": "2026-06-08T19:41:15Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-08T19:41:15Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "c526eb203708a5e25957e79d3774a2333405c2af"
+  ],
+  "github_author_login": "AutomatedTester",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "trunk",
+  "pushed_at": "2026-06-09T11:18:14Z",
+  "created_at": "2013-01-14T21:40:56Z",
+  "homepage": "https://selenium.dev",
+  "size_kb": 2357355,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T12:07:25.491Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
