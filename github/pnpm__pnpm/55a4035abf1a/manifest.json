@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "55a4035abf1ae3fe7208ba1f5ef43c5eff58ccec",
+  "tree_sha": "95100500f63eb14892b62a7976a5665c8d9e1aa1",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35430,
+  "watchers": 35430,
+  "forks": 1512,
+  "open_issues": 2395,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix(pacquet): record catalog snapshot for npm-aliased catalog deps (#12274)\n\n* fix(package-manager): record catalog snapshot for npm-aliased catalog deps\n\n`build_catalog_snapshots` read the resolved version via\n`ImporterDepVersion::as_regular`, which returns `None` for `npm:`-aliased\ndeps (stored as `ImporterDepVersion::Alias`). So a catalog entry like\n`js-yaml: npm:@zkochan/js-yaml@0.0.11` was silently dropped from the\n`catalogs:` lockfile section — pnpm records `{ specifier:\nnpm:@zkochan/js-ya",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-08T22:29:11Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-08T22:29:11Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "bafcfbaefc4457309faaed45d06a1850ab47cd99"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-09T00:26:31Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 216456,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T01:17:25.291Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
