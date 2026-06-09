@@ -1,0 +1,58 @@
+{
+  "repo": "keras-team/keras",
+  "commit_sha": "18d8cbfddc8d0c96bea856fb97213e4d3a98c049",
+  "tree_sha": "1d49b3021e10543d28a86c8cdf025c3d4d93c9d6",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Deep Learning for humans",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 64078,
+  "watchers": 64078,
+  "forks": 19731,
+  "open_issues": 179,
+  "language": "Python",
+  "topics": [
+    "data-science",
+    "deep-learning",
+    "jax",
+    "machine-learning",
+    "neural-networks",
+    "python",
+    "pytorch",
+    "tensorflow"
+  ],
+  "commit_message": "Optimize vectorized_map using list comprehension (#23012)\n\n* optimize `vectorized_map` using list comprehension\n\n- Replaced the `for` loop and `.append()` call in `vectorized_map` with a list comprehension.\n- This avoids attribute lookup overhead and leverages C-level list construction execution, improving performance.\n\n* relaxing the  threshold\n\n* remove random seed\n\n---------\n\nCo-authored-by: andersendsa <199610634+andersendsa@users.noreply.github.com>",
+  "commit_author": {
+    "name": "Andersen Dsa",
+    "email": "andersendsa631@gmail.com",
+    "date": "2026-06-08T17:39:43Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-08T17:39:43Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "4725b68b38a2453ae2498148e453e623b2658c1d"
+  ],
+  "github_author_login": "andersendsa",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-09T03:32:51Z",
+  "created_at": "2015-03-28T00:35:42Z",
+  "homepage": "http://keras.io/",
+  "size_kb": 53852,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T17:27:25.466Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
