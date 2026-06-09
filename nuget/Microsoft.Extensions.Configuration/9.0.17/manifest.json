@@ -1,0 +1,158 @@
+{
+  "name": "Microsoft.Extensions.Configuration",
+  "version": "9.0.17",
+  "ecosystem": "nuget",
+  "description": "Implementation of key-value pair based configuration for Microsoft.Extensions.Configuration. Includes the memory configuration provider.",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "https://dot.net/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[9.0.17, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Primitives",
+      "range": "[9.0.17, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[9.0.17, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Primitives",
+      "range": "[9.0.17, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[9.0.17, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Primitives",
+      "range": "[9.0.17, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[9.0.17, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Primitives",
+      "range": "[9.0.17, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.38.01/microsoft.extensions.configuration.9.0.17.json#dependencygroup/.netframework4.6.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.38.01/microsoft.extensions.configuration.9.0.17.json#dependencygroup/.netframework4.6.2/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[9.0.17, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.38.01/microsoft.extensions.configuration.9.0.17.json#dependencygroup/.netframework4.6.2/microsoft.extensions.primitives",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Primitives",
+          "range": "[9.0.17, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.primitives/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.38.01/microsoft.extensions.configuration.9.0.17.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.38.01/microsoft.extensions.configuration.9.0.17.json#dependencygroup/net8.0/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[9.0.17, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.38.01/microsoft.extensions.configuration.9.0.17.json#dependencygroup/net8.0/microsoft.extensions.primitives",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Primitives",
+          "range": "[9.0.17, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.primitives/index.json"
+        }
+      ],
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.38.01/microsoft.extensions.configuration.9.0.17.json#dependencygroup/net9.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.38.01/microsoft.extensions.configuration.9.0.17.json#dependencygroup/net9.0/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[9.0.17, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.38.01/microsoft.extensions.configuration.9.0.17.json#dependencygroup/net9.0/microsoft.extensions.primitives",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Primitives",
+          "range": "[9.0.17, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.primitives/index.json"
+        }
+      ],
+      "targetFramework": "net9.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.38.01/microsoft.extensions.configuration.9.0.17.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.38.01/microsoft.extensions.configuration.9.0.17.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[9.0.17, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.38.01/microsoft.extensions.configuration.9.0.17.json#dependencygroup/.netstandard2.0/microsoft.extensions.primitives",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Primitives",
+          "range": "[9.0.17, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.primitives/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2026-06-09T16:53:46.547+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration/9.0.17/icon",
+  "readmeUrl": "https://www.nuget.org/packages/Microsoft.Extensions.Configuration/9.0.17#show-readme-container",
+  "captured_at": "2026-06-09T19:47:53.793Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
