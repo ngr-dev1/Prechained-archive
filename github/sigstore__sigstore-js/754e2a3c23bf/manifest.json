@@ -1,0 +1,55 @@
+{
+  "repo": "sigstore/sigstore-js",
+  "commit_sha": "754e2a3c23bfceb730740e03c3f854c7a5451761",
+  "tree_sha": "b9c8eaf40d05220a479746636b98c34c6378efe3",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Code-signing for npm packages",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 179,
+  "watchers": 179,
+  "forks": 47,
+  "open_issues": 10,
+  "language": "TypeScript",
+  "topics": [
+    "codesigning",
+    "javascript",
+    "node",
+    "security",
+    "supply-chain"
+  ],
+  "commit_message": "Support DSSE bundles with Rekor v2 hashedrekord entries (#1677)\n\nsigstore-conformance v0.0.29 introduces DSSE bundles whose transparency\nlog entry is a hashedrekord/0.0.2 whose digest is computed over the DSSE\npre-authentication encoding (PAE) rather than the envelope payload.\n\nAdd a `compareSignedDigest` method to `SignatureContent` that compares\nagainst the digest of the bytes the signature actually covers (PAE for\nDSSE, message digest for message signatures) and use it when verifying\nhashedre",
+  "commit_author": {
+    "name": "Brian DeHamer",
+    "email": "bdehamer@github.com",
+    "date": "2026-06-09T20:20:09Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-09T20:20:09Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "04ea25a572f440b4ee14e7b7629f84077dd55d57"
+  ],
+  "github_author_login": "bdehamer",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-09T20:21:51Z",
+  "created_at": "2022-05-23T21:10:15Z",
+  "homepage": null,
+  "size_kb": 7307,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T20:48:06.244Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
