@@ -1,0 +1,58 @@
+{
+  "repo": "flox/flox",
+  "commit_sha": "d4aa92f6872464ad82a110d70cf6c517246c6589",
+  "tree_sha": "6807616b0689e1303869798f98c2f0aac565ae46",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Deterministic Foundation for your SDLC",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 4010,
+  "watchers": 4010,
+  "forks": 125,
+  "open_issues": 429,
+  "language": "Rust",
+  "topics": [
+    "developer-tools",
+    "development-environment",
+    "nix",
+    "package-manager",
+    "production",
+    "rust",
+    "virtual-environments"
+  ],
+  "commit_message": "refactor(buildenv): reduce mutation ops from 2 nix builds to 1 (#4320)\n\n## Summary\n\n* Threads `out_link_prefix: Option<&Path>` through\n`transact_with_manifest` and `transact_with_lockfile_contents` so the\nsingle build inside each transaction creates activation symlinks\ndirectly via `nix build --out-link`.\n* Removes the separate outer `self.build(flox)?` call that previously\nran after every install/uninstall/edit/upgrade/include_upgrade in both\n`PathEnvironment` and `ManagedEnvironment`, replacin",
+  "commit_author": {
+    "name": "Michael Brantley",
+    "email": "brantley@flox.dev",
+    "date": "2026-06-09T11:42:36Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-09T11:42:36Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "156bbbeee8eee52b470c6c996d7ad7dd11f1aa05",
+    "306257e475c18a6c16b0cf7940adfe6a9addb39f"
+  ],
+  "github_author_login": "limeytexan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-09T19:40:18Z",
+  "created_at": "2022-12-22T15:52:43Z",
+  "homepage": "https://flox.dev",
+  "size_kb": 25250,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T19:57:22.059Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
