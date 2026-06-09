@@ -1,0 +1,59 @@
+{
+  "repo": "django/django",
+  "commit_sha": "526b1b414d8e215bf627b5722df12a09346dbf6b",
+  "tree_sha": "bd1bbda69168233244ec57d7a49fa049f5e566e1",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Web framework for perfectionists with deadlines.",
+  "license": "BSD-3-Clause",
+  "license_name": "BSD 3-Clause \"New\" or \"Revised\" License",
+  "stars": 87811,
+  "watchers": 87811,
+  "forks": 33854,
+  "open_issues": 449,
+  "language": "Python",
+  "topics": [
+    "apps",
+    "django",
+    "framework",
+    "models",
+    "orm",
+    "python",
+    "templates",
+    "views",
+    "web"
+  ],
+  "commit_message": "Refs CVE-2026-48587 -- Added helper to properly split header values.\n\nExtracted the repeated `split(\",\")` + per-token `.strip()` pattern into\na `split_header_value()` generator in django/utils/http.py. The previous\n`cc_delim_re` regex only stripped whitespace adjacent to the comma\ndelimiter, leaving leading or trailing whitespace on the first and last\ntokens. Now, `split_header_value()` strips every token fully, matching\nRFC 9110's optional-whitespace rules.\n\nThanks to Shai Berger, Jacob Walls, ",
+  "commit_author": {
+    "name": "Natalia",
+    "email": "124304+nessita@users.noreply.github.com",
+    "date": "2026-06-03T00:38:35Z"
+  },
+  "commit_committer": {
+    "name": "nessita",
+    "email": "124304+nessita@users.noreply.github.com",
+    "date": "2026-06-08T23:06:46Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "7f2afdd0f6a872ccb48d7fbdaacce9b11216af52"
+  ],
+  "github_author_login": "nessita",
+  "github_committer_login": "nessita",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-09T11:14:05Z",
+  "created_at": "2012-04-28T02:47:18Z",
+  "homepage": "https://www.djangoproject.com/",
+  "size_kb": 280318,
+  "has_wiki": false,
+  "has_issues": false,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T11:47:24.501Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
