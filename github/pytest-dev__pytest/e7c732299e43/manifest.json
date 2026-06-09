@@ -1,0 +1,55 @@
+{
+  "repo": "pytest-dev/pytest",
+  "commit_sha": "e7c732299e4326c1ca72d5a13a2a3d69aec35ea6",
+  "tree_sha": "63bf245da367741f0d69b6c6f0fad8b79de0b916",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 13905,
+  "watchers": 13905,
+  "forks": 3162,
+  "open_issues": 961,
+  "language": "Python",
+  "topics": [
+    "hacktoberfest",
+    "python",
+    "test",
+    "testing",
+    "unit-testing"
+  ],
+  "commit_message": "fixtures: remove holderobjseen check from parsefactories\n\n`parsefactories` is the function which discovers fixtures on a given\nholder object (module, class, etc). Previously it was made idempotent\nusing a `holderobjseen` map, which made it only process a given\nholderobj once.\n\nHowever, a single obj can be legitimately processed multiple times for\ndifferent nodes. In particular, in pytest core this happens with\n`--doctest-modules` -- a python module is processed once as regular\nPython and once as",
+  "commit_author": {
+    "name": "minbang930",
+    "email": "minbang930@gmail.com",
+    "date": "2026-06-01T03:02:24Z"
+  },
+  "commit_committer": {
+    "name": "Ran Benita",
+    "email": "ran@unusedvar.com",
+    "date": "2026-06-08T09:21:27Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "b33a27d12b93311cf6c41b77ebf2994e555e52f9"
+  ],
+  "github_author_login": "minbang930",
+  "github_committer_login": "bluetech",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-08T21:04:25Z",
+  "created_at": "2015-06-15T20:28:27Z",
+  "homepage": "https://pytest.org",
+  "size_kb": 40464,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T00:35:23.174Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
