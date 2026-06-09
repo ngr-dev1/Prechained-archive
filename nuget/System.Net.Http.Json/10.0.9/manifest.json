@@ -1,0 +1,187 @@
+{
+  "name": "System.Net.Http.Json",
+  "version": "10.0.9",
+  "ecosystem": "nuget",
+  "description": "Provides extension methods for System.Net.Http.HttpClient and System.Net.Http.HttpContent that perform automatic serialization and deserialization using System.Text.Json.\n\nCommonly Used Types:\nSystem.Net.Http.Json.HttpClientJsonExtensions\nSystem.Net.Http.Json.HttpContentJsonExtensions\nSystem.Net.Http.Json.JsonContent",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "https://dot.net/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "System.Text.Json",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Buffers",
+      "range": "[4.6.1, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Memory",
+      "range": "[4.6.3, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.6.3, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Text.Json",
+      "range": "[10.0.9, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "System.Text.Json",
+      "range": "[10.0.9, )",
+      "targetFramework": "net9.0"
+    },
+    {
+      "id": "System.Text.Json",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Buffers",
+      "range": "[4.6.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Memory",
+      "range": "[4.6.3, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.6.3, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/.netframework4.6.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/.netframework4.6.2/system.text.json",
+          "@type": "PackageDependency",
+          "id": "System.Text.Json",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/.netframework4.6.2/system.buffers",
+          "@type": "PackageDependency",
+          "id": "System.Buffers",
+          "range": "[4.6.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.buffers/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/.netframework4.6.2/system.memory",
+          "@type": "PackageDependency",
+          "id": "System.Memory",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/.netframework4.6.2/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/net8.0/system.text.json",
+          "@type": "PackageDependency",
+          "id": "System.Text.Json",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.json/index.json"
+        }
+      ],
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/net9.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/net9.0/system.text.json",
+          "@type": "PackageDependency",
+          "id": "System.Text.Json",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.json/index.json"
+        }
+      ],
+      "targetFramework": "net9.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/net10.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "net10.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/.netstandard2.0/system.text.json",
+          "@type": "PackageDependency",
+          "id": "System.Text.Json",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/.netstandard2.0/system.buffers",
+          "@type": "PackageDependency",
+          "id": "System.Buffers",
+          "range": "[4.6.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.buffers/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/.netstandard2.0/system.memory",
+          "@type": "PackageDependency",
+          "id": "System.Memory",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.09.17.20.07/system.net.http.json.10.0.9.json#dependencygroup/.netstandard2.0/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2026-06-09T16:52:44.017+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/system.net.http.json/10.0.9/icon",
+  "readmeUrl": "https://www.nuget.org/packages/System.Net.Http.Json/10.0.9#show-readme-container",
+  "captured_at": "2026-06-09T17:47:19.744Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
