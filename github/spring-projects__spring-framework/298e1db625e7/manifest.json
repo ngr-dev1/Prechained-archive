@@ -1,0 +1,53 @@
+{
+  "repo": "spring-projects/spring-framework",
+  "commit_sha": "298e1db625e7bd7c12a2576e7895d3a69f9e2d57",
+  "tree_sha": "a60c3b5fae42a60a540e45931eccfed8f58eace3",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Spring Framework",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 60014,
+  "watchers": 60014,
+  "forks": 38827,
+  "open_issues": 418,
+  "language": "Java",
+  "topics": [
+    "framework",
+    "spring",
+    "spring-framework"
+  ],
+  "commit_message": "Skip web fonts in module javadocs\n\nPrior to this commit, module javadoc packages like\n\"spring-core-7.0.8-javadoc.jar\" would contain 4MB of web fonts in the\n`resource-files/fonts/` folder. This increases significantly (often\ndoubles) the size of the javadoc JAR for little value.\n\nWith this commit, Web fonts are packaged with the aggregated Javadocs\nfor the entire Spring Framework project, but are skipped for inidividual\nmodules.\n\nCloses gh-36889",
+  "commit_author": {
+    "name": "Brian Clozel",
+    "email": "brian.clozel@broadcom.com",
+    "date": "2026-06-08T20:15:27Z"
+  },
+  "commit_committer": {
+    "name": "Brian Clozel",
+    "email": "brian.clozel@broadcom.com",
+    "date": "2026-06-08T20:15:27Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "3f7f75abdbd5dfbd00b99c5aba9ab4de65726900"
+  ],
+  "github_author_login": "bclozel",
+  "github_committer_login": "bclozel",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-08T20:20:07Z",
+  "created_at": "2010-12-08T04:04:45Z",
+  "homepage": "https://spring.io/projects/spring-framework",
+  "size_kb": 242769,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T05:57:25.569Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
