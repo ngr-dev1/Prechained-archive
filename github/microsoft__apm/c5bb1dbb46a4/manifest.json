@@ -1,0 +1,57 @@
+{
+  "repo": "microsoft/apm",
+  "commit_sha": "c5bb1dbb46a492d8530f94dbebe1a6184d9689ad",
+  "tree_sha": "67227f8af91ef23be0a5edc3f81168c09f3725d8",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Agent Package Manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 2803,
+  "watchers": 2803,
+  "forks": 232,
+  "open_issues": 87,
+  "language": "Python",
+  "topics": [
+    "ai-agents",
+    "claude-code",
+    "codex-cli",
+    "context-engineering",
+    "github-copilot",
+    "package-manager",
+    "prompt-engineering"
+  ],
+  "commit_message": "fix(tests): skip install.sh safety tests when POSIX bash is unavailable (#1719)\n\nOn windows-latest GitHub runners the ambient bash on PATH is the WSL\nstub (C:\\Windows\\System32\\bash.exe), which exits 1 for every\ninvocation when no distribution is installed. That made all 30\nbash-dependent install-safety tests fail with a uniform exit code of 1\n(assert 1 == 0/11/12/14) even though install.sh is the Unix installer\n(Windows uses install.ps1).\n\nProbe for a usable POSIX bash and skip the bash-dependen",
+  "commit_author": {
+    "name": "Daniel Meppiel",
+    "email": "51440732+danielmeppiel@users.noreply.github.com",
+    "date": "2026-06-09T19:31:02Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-09T19:31:02Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "4c917cfd4415b368c14bcc610250c1341b562156"
+  ],
+  "github_author_login": "danielmeppiel",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-09T20:31:50Z",
+  "created_at": "2025-09-18T13:45:22Z",
+  "homepage": "https://microsoft.github.io/apm/",
+  "size_kb": 27930,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T21:22:49.942Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
