@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "7006bfaf2f7aab32c161e484876823fbbb95a7f6",
+  "tree_sha": "afc77d906667370d7f78267e2dd0ea3e76d0c734",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35430,
+  "watchers": 35430,
+  "forks": 1512,
+  "open_issues": 2395,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix(npm-resolver): render workspace self-dependency as bare `link:` (#12276)\n\nA workspace package depending on itself (`project_dir == the resolved\npackage's root_dir`) produced `link:.` because `pathdiff_string` pushed a\n`.` for an empty relative path. pnpm renders it as bare `link:`\n(`link:${path.relative(projectDir, projectDir)}` → `link:` + `''`).\n\nDrop the `.`-for-empty fallback so the relative path stays empty, matching\n`path.relative`. The empty case only arises for self-deps (the only ti",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-08T23:02:23Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-08T23:02:23Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "55a4035abf1ae3fe7208ba1f5ef43c5eff58ccec"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-09T00:26:31Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 216456,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T01:17:24.140Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
