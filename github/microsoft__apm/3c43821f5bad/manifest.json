@@ -1,0 +1,57 @@
+{
+  "repo": "microsoft/apm",
+  "commit_sha": "3c43821f5bad80b61dfa1edf3e9cef77e4dd5d24",
+  "tree_sha": "c79b57fbe8b7b4276a1243875fa929be89097db1",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Agent Package Manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 2791,
+  "watchers": 2791,
+  "forks": 230,
+  "open_issues": 99,
+  "language": "Python",
+  "topics": [
+    "ai-agents",
+    "claude-code",
+    "codex-cli",
+    "context-engineering",
+    "github-copilot",
+    "package-manager",
+    "prompt-engineering"
+  ],
+  "commit_message": "fix(compile): target-aware instruction dedup for Codex AGENTS.md (closes #1678) (#1685)\n\n* fix: make AGENTS.md instruction dedup target-aware (#1678)\n\nThe instruction deduplication introduced in 0.17.0 unconditionally\nsuppressed instruction content from AGENTS.md whenever\n.github/instructions/ existed.  This was wrong for Codex, OpenCode,\nWindsurf, and other targets that do NOT read .github/instructions/\n-- they rely solely on AGENTS.md for instruction content.\n\nRoot cause (two facets):\n\n1. _com",
+  "commit_author": {
+    "name": "Sergio Sisternes",
+    "email": "sergio_sisternes@epam.com",
+    "date": "2026-06-08T21:12:14Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-08T21:12:14Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "2a5d5baf1351612397b144637362385140a69d34"
+  ],
+  "github_author_login": "sergio-sisternes-epam",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-08T21:44:29Z",
+  "created_at": "2025-09-18T13:45:22Z",
+  "homepage": "https://microsoft.github.io/apm/",
+  "size_kb": 26730,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T00:45:23.028Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
