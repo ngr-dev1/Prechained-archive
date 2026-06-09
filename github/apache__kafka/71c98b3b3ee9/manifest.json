@@ -1,0 +1,54 @@
+{
+  "repo": "apache/kafka",
+  "commit_sha": "71c98b3b3ee9cd5522ccfc1eb8ff190e96f2ea1c",
+  "tree_sha": "a758b3d3a5d7fb12b40129b884bd84c17bd36dfa",
+  "branch": "trunk",
+  "ecosystem": "github",
+  "description": "Apache Kafka - A distributed event streaming platform",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 32738,
+  "watchers": 32738,
+  "forks": 15258,
+  "open_issues": 413,
+  "language": "Java",
+  "topics": [
+    "java",
+    "kafka",
+    "scala",
+    "streaming"
+  ],
+  "commit_message": "KAFKA-14276: Clarify java doc for ProcessorAPI init method and stateStore.approximateNumEntries() (#22440)\n\nClarifies in Javadoc that `KeyValueStore.approximateNumEntries()` may\nreturn a count substantially larger than the number of live keys\niteration would yield, particularly when called from\n`Processor.init()` immediately after restoration.\n\nReviewers: Matthias J. Sax <matthias@confluent.io>",
+  "commit_author": {
+    "name": "Alan Lau",
+    "email": "72107214+alanlau28@users.noreply.github.com",
+    "date": "2026-06-09T00:15:28Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-09T00:15:28Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "5111ad253a7ac12061c73ce4ab62a19ca7dc3d4e"
+  ],
+  "github_author_login": "alanlau28",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "trunk",
+  "pushed_at": "2026-06-09T00:15:28Z",
+  "created_at": "2011-08-15T18:06:16Z",
+  "homepage": "https://kafka.apache.org/",
+  "size_kb": 293558,
+  "has_wiki": false,
+  "has_issues": false,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-09T01:55:24.814Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
