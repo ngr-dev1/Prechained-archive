@@ -1,0 +1,56 @@
+{
+  "repo": "facebook/react",
+  "commit_sha": "7e71552e4924150e3a62837f060f0337b44c57d2",
+  "tree_sha": "b8a6beffdedd9c9674fbb123f6deb0c40d630bcb",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The library for web and native user interfaces.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 245716,
+  "watchers": 245716,
+  "forks": 51042,
+  "open_issues": 1282,
+  "language": "JavaScript",
+  "topics": [
+    "declarative",
+    "frontend",
+    "javascript",
+    "library",
+    "react",
+    "ui"
+  ],
+  "commit_message": "[rust-compiler] Add release profile: fat LTO, one codegen unit, strip (#36726)\n\nThe workspace has no `[profile.release]`, so the shipped napi binary\n(`index.node`) is built on stock cargo defaults with the symbol table\nretained: 11.2MB on arm64 macOS. Fat LTO + `codegen-units = 1` + `strip\n= true` lands at 7.2MB with no runtime cost. Release builds get slower;\ndebug builds (`snap --rust`, the e2e harness) are unaffected.\n\n`profile-rust-port.ts --release` overrides `strip` so profiling runs\nkeep ",
+  "commit_author": {
+    "name": "lauren",
+    "email": "poteto@users.noreply.github.com",
+    "date": "2026-06-09T22:38:10Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-09T22:38:10Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "03e775554a34e1508fcf0e82d13ea8d41ee271d7"
+  ],
+  "github_author_login": "poteto",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-10T05:49:57Z",
+  "created_at": "2013-05-24T16:15:54Z",
+  "homepage": "https://react.dev",
+  "size_kb": 993536,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-10T08:47:23.503Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
