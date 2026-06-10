@@ -1,0 +1,98 @@
+{
+  "name": "protobufjs",
+  "version": "8.6.2",
+  "ecosystem": "npm",
+  "description": "Protocol Buffers for JavaScript & TypeScript.",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "long": "^5.3.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.0",
+    "@types/node": ">=13.7.0",
+    "browserify": "^17.0.0",
+    "browserify-wrap": "^1.0.2",
+    "bundle-collapser": "^1.3.0",
+    "escodegen": "^1.13.0",
+    "eslint": "^10.0.0",
+    "eslint-plugin-jsdoc": "^62.9.0",
+    "espree": "^9.0.0",
+    "estraverse": "^5.1.0",
+    "gh-pages": "^6.0.0",
+    "globals": "^17.0.0",
+    "gulp": "^5.0.0",
+    "gulp-header": "^2.0.9",
+    "gulp-if": "^3.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jsdoc": "^4.0.0",
+    "minimist": "^1.2.8",
+    "nyc": "^18.0.0",
+    "reflect-metadata": "^0.2.0",
+    "tape": "^5.0.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-fs": "^4.0.0",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "cd cli && npm install && cd .. && npm run build",
+    "prepublishOnly": "cd cli && npm install && cd .. && npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "dcode",
+      "email": "dcode+npm@dcode.io"
+    },
+    {
+      "name": "fenster",
+      "email": "npm@fenster.name"
+    },
+    {
+      "name": "google-wombot",
+      "email": "node-team-npm+wombot@google.com"
+    }
+  ],
+  "author": {
+    "name": "Daniel Wirtz",
+    "email": "dcode+protobufjs@dcode.io"
+  },
+  "publishedAt": "2026-06-09T21:09:41.553Z",
+  "dist": {
+    "integrity": "sha512-CCERJxzRvKMeEdJSLwdQf40TXWNPc8M4RkN7j/lxY6FQB+4do8rETWqj60AqxP9n0XIsxnSefZ8uhAaGKg2njw==",
+    "shasum": "d027d43c653d432484adaa03f66d111559d5dcc4",
+    "tarball": "https://registry.npmjs.org/protobufjs/-/protobufjs-8.6.2.tgz",
+    "fileCount": 108,
+    "unpackedSize": 3493718
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/protobufjs/protobuf.js.git"
+  },
+  "homepage": "https://github.com/protobufjs/protobuf.js#readme",
+  "bugs": {
+    "url": "https://github.com/protobufjs/protobuf.js/issues"
+  },
+  "keywords": [
+    "protobuf",
+    "protocol-buffers",
+    "serialization",
+    "typescript"
+  ],
+  "_npmUser": {
+    "name": "dcode",
+    "email": "dcode+npm@dcode.io"
+  },
+  "captured_at": "2026-06-10T07:27:19.297Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
