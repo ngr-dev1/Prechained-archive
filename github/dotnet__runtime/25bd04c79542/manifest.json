@@ -1,0 +1,53 @@
+{
+  "repo": "dotnet/runtime",
+  "commit_sha": "25bd04c79542dfaaab5c5cd42670bcfc20b7d57a",
+  "tree_sha": "146a45ce58742b21dc8a02ca5ce78125809cffc3",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 17949,
+  "watchers": 17949,
+  "forks": 5464,
+  "open_issues": 8277,
+  "language": "C#",
+  "topics": [
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "Clean up in rangecheck (#129144)\n\nMinor cleanup in `rangecheck.cpp`:\n- Range Check was trying to do what assertionprop already did - handle\nconstant indices. Removed with zero diffs.\n- The previous code had a correctness issue - it called a slow SSA-based\n`GetRangeWorker` for Array's length but didn't use `DoesOverflow` that\nmust be called for `GetRangeWorker`. Instead, I just call the VN-based\n`GetRangeFromAssertions` (that plays nicely with overflows) and it seems\nto be enough, a few minor reg",
+  "commit_author": {
+    "name": "Egor Bogatov",
+    "email": "egorbo@gmail.com",
+    "date": "2026-06-10T13:14:05Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-10T13:14:05Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "8ac369d11deabb2a627b003c3ee94e4c8fe8dfe9"
+  ],
+  "github_author_login": "EgorBo",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-10T21:21:19Z",
+  "created_at": "2019-09-24T23:36:39Z",
+  "homepage": "https://docs.microsoft.com/dotnet/core/",
+  "size_kb": 1139790,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-10T21:27:24.629Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
