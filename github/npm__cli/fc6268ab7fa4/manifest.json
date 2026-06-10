@@ -1,0 +1,56 @@
+{
+  "repo": "npm/cli",
+  "commit_sha": "fc6268ab7fa4ce1dcaefd6cd470a1f73eb192565",
+  "tree_sha": "5508e63a1cd39086447e8b728a6ec92a0acfaf6f",
+  "branch": "latest",
+  "ecosystem": "github",
+  "description": "the package manager for JavaScript",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 9821,
+  "watchers": 9821,
+  "forks": 4406,
+  "open_issues": 621,
+  "language": "JavaScript",
+  "topics": [
+    "javascript",
+    "nodejs",
+    "npm",
+    "npm-cli",
+    "package-manager",
+    "tools"
+  ],
+  "commit_message": "fix: keep nested file: deps and re-resolve changed git refs (#9523)\n\nThe lockfile pruning added in 11.15.0 dropped every extraneous node\noutside node_modules to remove stale workspace entries. This also\nremoved legitimate nested entries for a file: dependency that itself has\na file: dependency (e.g. lib/b/lib/a), leaving the lockfile incomplete\nso `npm ci` failed with \"Missing: a@1.0.0 from lock file\".\n \nOnly prune extraneous nodes that are direct fsChildren of the root or\ndetached link targets ",
+  "commit_author": {
+    "name": "Michael Smith",
+    "email": "owlstronaut@github.com",
+    "date": "2026-06-10T14:30:54Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-10T14:30:54Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "34dbdf51ce4877055fe46751c15c4a445694256f"
+  ],
+  "github_author_login": "owlstronaut",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "latest",
+  "pushed_at": "2026-06-10T20:33:49Z",
+  "created_at": "2018-07-05T23:26:52Z",
+  "homepage": "https://docs.npmjs.com/cli/",
+  "size_kb": 175577,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-10T21:21:06.761Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
