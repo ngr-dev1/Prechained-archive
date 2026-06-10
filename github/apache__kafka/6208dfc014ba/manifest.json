@@ -1,0 +1,54 @@
+{
+  "repo": "apache/kafka",
+  "commit_sha": "6208dfc014ba7ae48804c5ae92e3bf4f1306b057",
+  "tree_sha": "690d2141e3d12acea91e5f70fa757a9708149a66",
+  "branch": "trunk",
+  "ecosystem": "github",
+  "description": "Apache Kafka - A distributed event streaming platform",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 32745,
+  "watchers": 32745,
+  "forks": 15262,
+  "open_issues": 412,
+  "language": "Java",
+  "topics": [
+    "java",
+    "kafka",
+    "scala",
+    "streaming"
+  ],
+  "commit_message": "KAFKA-20444: [11/N] Refresh metadata before TxnOffsetCommit (KIP-1319) (#22460)\n\n`TransactionManager` now reads topic ids from the producer's metadata\ncache when building a `TxnOffsetCommit` request (added in the previous\npatch), but the cache may not yet contain entries for topics the\nproducer has not produced to. This patch ensures the cache is fresh\nbefore the delegation, so v6+ (KIP-1319) negotiation actually fires.\n\nReviewers: Lianet Magrans <lmagrans@confluent.io>",
+  "commit_author": {
+    "name": "David Jacot",
+    "email": "david.jacot@gmail.com",
+    "date": "2026-06-09T14:39:10Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-09T14:39:10Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "8cfc1cc97f522a9d8ece5cba47edf1a00757cd8c"
+  ],
+  "github_author_login": "dajac",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "trunk",
+  "pushed_at": "2026-06-09T23:22:58Z",
+  "created_at": "2011-08-15T18:06:16Z",
+  "homepage": "https://kafka.apache.org/",
+  "size_kb": 293782,
+  "has_wiki": false,
+  "has_issues": false,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-10T01:17:22.423Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
