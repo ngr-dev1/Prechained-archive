@@ -1,0 +1,92 @@
+{
+  "name": "bluebird",
+  "version": "2.9.24",
+  "ecosystem": "npm",
+  "description": "Full featured Promises/A+ implementation with exceptionally good performance",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "co": "^4.2.0",
+    "rx": "^2.3.25",
+    "glob": "^4.3.2",
+    "open": "~0.0.5",
+    "acorn": "~0.6.0",
+    "mocha": "~2.1",
+    "sinon": "~1.7.3",
+    "jshint": "^2.6.0",
+    "mkdirp": "~0.5.0",
+    "rimraf": "~2.2.6",
+    "baconjs": "^0.7.43",
+    "bluebird": "^2.9.2",
+    "highland": "^2.3.0",
+    "istanbul": "^0.3.5",
+    "optimist": "~0.6.1",
+    "cli-table": "~0.3.1",
+    "uglify-js": "~2.4.16",
+    "browserify": "^8.1.1",
+    "body-parser": "^1.10.2",
+    "cross-spawn": "^0.2.3",
+    "serve-static": "^1.7.1",
+    "jshint-stylish": "~0.2.0",
+    "grunt-saucelabs": "~8.4.1"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "node tools/build.js --no-debug --main --zalgo --browser --minify",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "esailija",
+      "email": "petka_antonov@hotmail.com"
+    }
+  ],
+  "author": {
+    "url": "http://github.com/petkaantonov/",
+    "name": "Petka Antonov",
+    "email": "petka_antonov@hotmail.com"
+  },
+  "publishedAt": "2015-04-02T10:50:29.568Z",
+  "dist": {
+    "integrity": "sha512-F6vWSDdJRZ5mKeycWf7+l81ibpnjRtQz26eBTUxjpet9tUpN0rz+TV6uO0CCySHdtW4dDZNBSqbbMKoxPChqYw==",
+    "shasum": "14a2e75f0548323dc35aa440d92007ca154e967c",
+    "tarball": "https://registry.npmjs.org/bluebird/-/bluebird-2.9.24.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": {
+    "url": "git://github.com/petkaantonov/bluebird.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/petkaantonov/bluebird",
+  "bugs": {
+    "url": "http://github.com/petkaantonov/bluebird/issues"
+  },
+  "keywords": [
+    "promise",
+    "performance",
+    "promises",
+    "promises-a",
+    "promises-aplus",
+    "async",
+    "await",
+    "deferred",
+    "deferreds",
+    "future",
+    "flow control",
+    "dsl",
+    "fluent interface"
+  ],
+  "_npmUser": {
+    "name": "esailija",
+    "email": "petka_antonov@hotmail.com"
+  },
+  "captured_at": "2026-06-10T22:57:18.058Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
