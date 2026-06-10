@@ -1,0 +1,54 @@
+{
+  "repo": "dotnet/aspnetcore",
+  "commit_sha": "1a638c9050d54510c9e48fea351636d736956196",
+  "tree_sha": "d13182c909e10de3d091437cc2db52ddf52e350d",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 38023,
+  "watchers": 38023,
+  "forks": 10695,
+  "open_issues": 4024,
+  "language": "C#",
+  "topics": [
+    "aspnetcore",
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "Merged PR 60873: Avoid caching responses for authenticated users (#67110)\n\nIf auth middleware was after the output caching middleware and some other auth was used besides the authorization header, then apps could end up caching a page meant for a specific user and then serve the cached page for anonymous or other users.\n\nCo-authored-by: Brennan Conroy <brecon@microsoft.com>",
+  "commit_author": {
+    "name": "William Godbe",
+    "email": "wigodbe@microsoft.com",
+    "date": "2026-06-10T04:07:01Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-10T04:07:01Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "0fdad03a65f65bc785f372408a2a98100459adf9"
+  ],
+  "github_author_login": "wtgodbe",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-10T04:07:04Z",
+  "created_at": "2014-03-11T06:09:42Z",
+  "homepage": "https://asp.net",
+  "size_kb": 379997,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-10T04:07:20.986Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
