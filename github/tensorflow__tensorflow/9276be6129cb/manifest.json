@@ -1,0 +1,58 @@
+{
+  "repo": "tensorflow/tensorflow",
+  "commit_sha": "9276be6129cba9c9fba5f76feddf4e9b8d8ea011",
+  "tree_sha": "4d108ffcccb4047a58cb14856a51ebc657389a96",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "An Open Source Machine Learning Framework for Everyone",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 195626,
+  "watchers": 195626,
+  "forks": 75183,
+  "open_issues": 3292,
+  "language": "C++",
+  "topics": [
+    "deep-learning",
+    "deep-neural-networks",
+    "distributed",
+    "machine-learning",
+    "ml",
+    "neural-network",
+    "python",
+    "tensorflow"
+  ],
+  "commit_message": "Remove pass to lower chlo.scan to stablehlo.reduce_window.\n\nThis pass was only needed to support StableHLO versions where the composite op did not support regions yet (i.e. < v1.14). The 12 week compatibility horizon for this has been reached.\n\nReverts 1724c1cad9c11db617494cba5edfb1711e79b2ea\n\nPiperOrigin-RevId: 929847850",
+  "commit_author": {
+    "name": "Christian Sigg",
+    "email": "csigg@google.com",
+    "date": "2026-06-10T14:41:57Z"
+  },
+  "commit_committer": {
+    "name": "TensorFlower Gardener",
+    "email": "gardener@tensorflow.org",
+    "date": "2026-06-10T14:47:01Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "60bd890f0fa3d72e967f72f8cfbac904e66f8a2b"
+  ],
+  "github_author_login": "chsigg",
+  "github_committer_login": "tensorflower-gardener",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-10T15:07:19Z",
+  "created_at": "2015-11-07T01:19:20Z",
+  "homepage": "https://tensorflow.org",
+  "size_kb": 1330104,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-10T15:07:24.847Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
