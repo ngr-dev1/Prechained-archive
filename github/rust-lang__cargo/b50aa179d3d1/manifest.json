@@ -1,0 +1,54 @@
+{
+  "repo": "rust-lang/cargo",
+  "commit_sha": "b50aa179d3d1099b53548bc8693dd17ddd019ab4",
+  "tree_sha": "fe933f053f6bdd3a80e9cc6f104efb169a30db28",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "The Rust package manager",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 15084,
+  "watchers": 15084,
+  "forks": 2945,
+  "open_issues": 1630,
+  "language": "Rust",
+  "topics": [
+    "cargo",
+    "package-manager",
+    "rust"
+  ],
+  "commit_message": "fix(publish): avoid false deadlock when to_confirm is non-empty (#17071)\n\nFixes #17028\n\nPR #16722 introduced a check that fires an internal error when `ready`\nis empty inside the publish loop. It fired even when packages were still\nlegitimately waiting for registry confirmation in `to_confirm`, causing\nvalid workspace publishes to fail with a false deadlock error. A true\ndeadlock only exists when both `ready` and `to_confirm` are empty.",
+  "commit_author": {
+    "name": "Ed Page",
+    "email": "eopage@gmail.com",
+    "date": "2026-06-10T00:59:00Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-10T00:59:00Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "3ddc827746fd73532741394f9395738c21acfdbe",
+    "ae3b65ddaeefa2cb8a51b2fc544b936e264dcb78"
+  ],
+  "github_author_login": "epage",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-10T01:31:42Z",
+  "created_at": "2014-03-04T23:20:42Z",
+  "homepage": "https://doc.rust-lang.org/cargo",
+  "size_kb": 69334,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-10T07:57:24.073Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
