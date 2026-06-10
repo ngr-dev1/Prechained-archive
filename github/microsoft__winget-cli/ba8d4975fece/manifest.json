@@ -1,0 +1,54 @@
+{
+  "repo": "microsoft/winget-cli",
+  "commit_sha": "ba8d4975fece8e098d58bcad5a63dc73b13d405f",
+  "tree_sha": "ac22748181165582d210689e1a00d02e90961352",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface).",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 25993,
+  "watchers": 25993,
+  "forks": 1749,
+  "open_issues": 1287,
+  "language": "C++",
+  "topics": [
+    "command-line",
+    "package-manager",
+    "windows",
+    "winget"
+  ],
+  "commit_message": "Remove old Store certs, replace test use with generated ones (#6275)\n\n## 📖 Description\nThe old Store certificates have expired. We only kept them to be lazy\nabout updating the tests, but their recent expiration means we must\nactually replace them. Instead, we now have generated certificates and a\nminor change to the chain construction so that our tests are mostly\ndoing the same thing as the product will.",
+  "commit_author": {
+    "name": "JohnMcPMS",
+    "email": "johnmcp@microsoft.com",
+    "date": "2026-06-10T16:06:14Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-10T16:06:14Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "2f4f2cf16806debffc6c9d7e724b5c900f455a4f"
+  ],
+  "github_author_login": "JohnMcPMS",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-10T16:06:15Z",
+  "created_at": "2019-07-16T22:16:49Z",
+  "homepage": "https://learn.microsoft.com/windows/package-manager/",
+  "size_kb": 44702,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-10T16:27:23.856Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
