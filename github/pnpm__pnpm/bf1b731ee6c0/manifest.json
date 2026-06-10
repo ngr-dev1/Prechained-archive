@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "bf1b731ee6c0ea98709e671ff0f46bf654480ab8",
+  "tree_sha": "717380d6f8f6223f7a7abbd7a2212ae060380008",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35448,
+  "watchers": 35448,
+  "forks": 1514,
+  "open_issues": 2403,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix: harden allowBuilds artifact approvals (#12294)\n\n## Summary\n\nPackage-name `allowBuilds` entries no longer approve lifecycle scripts for artifacts whose identity a name cannot pin: git, git-hosted tarball, direct tarball, and local directory dependencies. To approve such an artifact explicitly, use its peer-suffix-free lockfile depPath as the `allowBuilds` key — error hints, `pnpm ignored-builds`, and `pnpm approve-builds` print exactly that key.\n\n- `AllowBuild` policy functions identify pack",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-10T10:05:28Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-10T10:05:28Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "2c0b91d6b976c7be9655d472dedecf38c497860e"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-10T12:45:22Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 217913,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-10T13:07:24.805Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
