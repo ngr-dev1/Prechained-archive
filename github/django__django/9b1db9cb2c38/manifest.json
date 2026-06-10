@@ -1,0 +1,59 @@
+{
+  "repo": "django/django",
+  "commit_sha": "9b1db9cb2c38c75b8fb0fc64ba5f73a6012e5b2d",
+  "tree_sha": "7b8976389754f69cee4c0ecea8542f61fa43672b",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Web framework for perfectionists with deadlines.",
+  "license": "BSD-3-Clause",
+  "license_name": "BSD 3-Clause \"New\" or \"Revised\" License",
+  "stars": 87823,
+  "watchers": 87823,
+  "forks": 33852,
+  "open_issues": 447,
+  "language": "Python",
+  "topics": [
+    "apps",
+    "django",
+    "framework",
+    "models",
+    "orm",
+    "python",
+    "templates",
+    "views",
+    "web"
+  ],
+  "commit_message": "Fixed #37150 -- Made djangodocs Sphinx extension work with any html builder.\n\nChanged djangodocs extension to register DjangoHTMLTranslator for any\nhtml-format builder (in the builder-inited hook), rather than a limited\nlist of builders at startup. That fixes missing content in dirhtml and\nstandard html builds (including ReadTheDocs PR previews):\n- Missing console tabs\n- Empty divs for versionadded and versionchanged directives\n\nRemoved JS code that depended on jQuery, which hasn't worked since\n",
+  "commit_author": {
+    "name": "Mike Edmunds",
+    "email": "medmunds@gmail.com",
+    "date": "2026-06-08T21:43:44Z"
+  },
+  "commit_committer": {
+    "name": "nessita",
+    "email": "124304+nessita@users.noreply.github.com",
+    "date": "2026-06-10T00:56:35Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "867c7c0451f2e67e715da5b55b5bf6696747fdc3"
+  ],
+  "github_author_login": "medmunds",
+  "github_committer_login": "nessita",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-10T14:17:35Z",
+  "created_at": "2012-04-28T02:47:18Z",
+  "homepage": "https://www.djangoproject.com/",
+  "size_kb": 280408,
+  "has_wiki": false,
+  "has_issues": false,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-10T19:27:25.356Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
