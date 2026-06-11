@@ -1,0 +1,53 @@
+{
+  "repo": "ruby/rubygems",
+  "commit_sha": "52d68df2e4f5fcaf03d68e06ff2f9d58d3872d7b",
+  "tree_sha": "f3b6a0fb1edae2935ed49272aea76225757aaddb",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Library packaging and distribution for Ruby.",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 3932,
+  "watchers": 3932,
+  "forks": 1913,
+  "open_issues": 200,
+  "language": "Ruby",
+  "topics": [
+    "package-manager",
+    "ruby",
+    "rubygems"
+  ],
+  "commit_message": "Fix bundle update not updating plugins\n\nThe unlock skip was based on index.installed_plugins, which misses\nplugins not yet installed locally, and install_definition resolved from\ncache whenever the lockfile was satisfiable, so an unlocked plugin never\nsaw new versions and the plugin index kept the old one. Decide the skip\nfrom the plugin declarations in the Gemfile and force remote resolution\nwhen unlocking. The unlocking check must happen before building the\ndefinition because Definition#initia",
+  "commit_author": {
+    "name": "Hiroshi SHIBATA",
+    "email": "hsbt@ruby-lang.org",
+    "date": "2026-06-11T05:50:59Z"
+  },
+  "commit_committer": {
+    "name": "Hiroshi SHIBATA",
+    "email": "hsbt@ruby-lang.org",
+    "date": "2026-06-11T07:34:55Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "d9c222dd2e4043cb397c19c969724b214fbcd411"
+  ],
+  "github_author_login": "hsbt",
+  "github_committer_login": "hsbt",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-11T21:59:38Z",
+  "created_at": "2010-04-16T19:02:44Z",
+  "homepage": "https://rubygems.org/",
+  "size_kb": 225810,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-11T22:37:24.145Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
