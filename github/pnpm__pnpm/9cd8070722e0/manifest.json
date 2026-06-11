@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "9cd8070722e097d687d384058401f8a22c0f0e25",
+  "tree_sha": "4c98aaab76c43112db0662a77b6dec7b8d41d3d7",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35450,
+  "watchers": 35450,
+  "forks": 1517,
+  "open_issues": 2397,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "perf(resolving-npm-resolver): parse packuments off the reactor and release the network permit first (#12318)\n\nA cold resolve parsed every packument body inline on the tokio worker\nthat buffered it — while still holding its network-concurrency permit\n— and then wrote the multi-megabyte metadata mirror to disk\nsynchronously on the same worker. High-release-cadence packages\n(`@fluentui/*`, `@types/node`) ship packuments of several megabytes,\nso a burst of them pinned every reactor worker in serde f",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-10T22:33:31Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-10T22:33:31Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "52be454d5708f5d2b7a000bed8a2a3be167bab08"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-11T05:35:44Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 218608,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-11T06:47:24.607Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
