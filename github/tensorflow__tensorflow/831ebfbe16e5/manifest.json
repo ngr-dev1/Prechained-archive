@@ -1,0 +1,58 @@
+{
+  "repo": "tensorflow/tensorflow",
+  "commit_sha": "831ebfbe16e5a9f6fe8150b6f2a2c5301bb014ee",
+  "tree_sha": "4f65ac27a893c834a4d105f3ee22e5637ed69007",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "An Open Source Machine Learning Framework for Everyone",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 195602,
+  "watchers": 195602,
+  "forks": 75185,
+  "open_issues": 3394,
+  "language": "C++",
+  "topics": [
+    "deep-learning",
+    "deep-neural-networks",
+    "distributed",
+    "machine-learning",
+    "ml",
+    "neural-network",
+    "python",
+    "tensorflow"
+  ],
+  "commit_message": "PR #43478:   [XLA:GPU] DeviceAddressVmmAllocator supports reservation-backed VMM allocations\n\nImported from GitHub PR https://github.com/openxla/xla/pull/43478\n\n  📝 Summary of Changes\n Add a  new Allocate() API to DeviceAddressVmmAllocator, that can map newly allocated physical memory into a caller-owned MemoryReservation when doing the allocation:\n\n```\nabsl::StatusOr<ScopedDeviceAddress<uint8_t>> Allocate(\n      int device_ordinal, uint64_t allocation_size, bool retry_on_failure,\n      int64_t",
+  "commit_author": {
+    "name": "Shaogang Wang",
+    "email": "shawnw@nvidia.com",
+    "date": "2026-06-10T14:00:44Z"
+  },
+  "commit_committer": {
+    "name": "TensorFlower Gardener",
+    "email": "gardener@tensorflow.org",
+    "date": "2026-06-10T14:11:08Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "2183e6ebfe4fe9f73d42bb3f813fc0c96d5f04ef"
+  ],
+  "github_author_login": "shawnwang18",
+  "github_committer_login": "tensorflower-gardener",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-11T11:02:02Z",
+  "created_at": "2015-11-07T01:19:20Z",
+  "homepage": "https://tensorflow.org",
+  "size_kb": 1331676,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-11T11:07:23.575Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
