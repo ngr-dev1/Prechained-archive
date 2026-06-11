@@ -1,0 +1,99 @@
+{
+  "name": "rollup",
+  "version": "0.40.0",
+  "ecosystem": "npm",
+  "description": "Next-generation ES module bundler",
+  "license": "MIT",
+  "dependencies": {
+    "source-map-support": "^0.4.0"
+  },
+  "devDependencies": {
+    "acorn": "^4.0.1",
+    "buble": "^0.15.1",
+    "chalk": "^1.1.3",
+    "mocha": "^3.0.0",
+    "eslint": "^3.12.2",
+    "rollup": "^0.39.0",
+    "sander": "^0.6.0",
+    "istanbul": "^0.4.3",
+    "minimist": "^1.2.0",
+    "uglify-js": "^2.6.2",
+    "codecov.io": "^0.1.6",
+    "source-map": "^0.5.6",
+    "is-reference": "^1.0.0",
+    "magic-string": "^0.15.2",
+    "console-group": "^0.3.1",
+    "remap-istanbul": "^0.6.4",
+    "sourcemap-codec": "^1.3.0",
+    "locate-character": "^2.0.0",
+    "require-relative": "^0.8.7",
+    "rollup-plugin-json": "^2.0.0",
+    "rollup-plugin-buble": "^0.13.0",
+    "eslint-plugin-import": "^2.2.0",
+    "rollup-plugin-string": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.0",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": "npm run lint && npm test && npm run build:browser",
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "eventualbuddha",
+      "email": "me@brian-donovan.com"
+    },
+    {
+      "name": "rich_harris",
+      "email": "richard.a.harris@gmail.com"
+    },
+    {
+      "name": "trysound",
+      "email": "trysound@yandex.ru"
+    },
+    {
+      "name": "victorystick",
+      "email": "victorystick@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Rich Harris"
+  },
+  "publishedAt": "2017-01-03T17:07:06.217Z",
+  "dist": {
+    "integrity": "sha512-94jV8dB8d0VT62JAhZKClek4ytEeuHLqQ0JdgZhHfgaZoLuRj2faogU5NFHn7xbmL7DndLmkrYxSHDyPZKye0w==",
+    "shasum": "20cfa6ff15687c2c4ddc5caaca3020485d5bc3d2",
+    "tarball": "https://registry.npmjs.org/rollup/-/rollup-0.40.0.tgz",
+    "fileCount": null,
+    "unpackedSize": null
+  },
+  "repository": {
+    "url": "git+https://github.com/rollup/rollup.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/rollup/rollup",
+  "bugs": {
+    "url": "https://github.com/rollup/rollup/issues"
+  },
+  "keywords": [
+    "modules",
+    "bundler",
+    "bundling",
+    "es6",
+    "optimizer"
+  ],
+  "_npmUser": {
+    "name": "rich_harris",
+    "email": "richard.a.harris@gmail.com"
+  },
+  "captured_at": "2026-06-11T00:17:22.030Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
