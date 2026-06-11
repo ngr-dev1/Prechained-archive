@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "52be454d5708f5d2b7a000bed8a2a3be167bab08",
+  "tree_sha": "cd3417af0444b5840ddb28b5e9519edb059572ce",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35450,
+  "watchers": 35450,
+  "forks": 1517,
+  "open_issues": 2397,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix: infer missing platform fields of optional dependencies from the package name (#12312)\n\n* fix: infer missing platform fields of optional deps from the package name\n\nSome registries strip the os/cpu/libc fields (or just libc) from the\nversion objects of the packuments they serve. Resolution then saw every\nplatform-specific optional dependency as platform-unrestricted, so pnpm\ndownloaded and installed the binaries of every platform regardless of\nsupportedArchitectures, and wrote lockfile entri",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-10T19:51:40Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-10T19:51:40Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "d976edf4ecf7c41be5d7ec7f5cea87364bebf010"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-11T06:54:43Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 218608,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-11T07:47:23.382Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
