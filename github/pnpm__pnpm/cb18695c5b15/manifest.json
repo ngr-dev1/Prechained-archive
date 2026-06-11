@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "cb18695c5b15876aef36b0282b4fc17829b7355d",
+  "tree_sha": "8701e88feff5b9be7951ac343d82a829728b88ca",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35452,
+  "watchers": 35452,
+  "forks": 1517,
+  "open_issues": 2398,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "perf(pacquet): lazy packument hydration, sharded meta cache, and an indexed metadata mirror (#12322)\n\n## Why\n\nProfiling a warm babylon resolve (metadata mirrors hot, ~520 MB across 1,476 packuments) showed the dominant cost was not I/O but **hydration**: every version of every packument was deserialized into typed manifests — maps, strings, and `serde_json::Value` trees built, hashed, and dropped — even though a pick consults only the version *strings* plus the handful of manifests it actually c",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-11T10:12:46Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-11T10:12:46Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "657d322b155eb3733136c2fd9053a4a3ed0bc694"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-11T10:20:31Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 218630,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-11T11:07:21.637Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
