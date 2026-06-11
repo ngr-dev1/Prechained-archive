@@ -1,0 +1,54 @@
+{
+  "repo": "nodemailer/nodemailer",
+  "commit_sha": "067aebec83b8cbe7682905e89b30ab19d260b503",
+  "tree_sha": "6fadbf57e279594456504c41f435d84443386f0e",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "✉️ Send e-mails with Node.JS – easy as cake!",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 17570,
+  "watchers": 17570,
+  "forks": 1427,
+  "open_issues": 0,
+  "language": "JavaScript",
+  "topics": [
+    "email",
+    "email-sender",
+    "nodemailer",
+    "rfc822"
+  ],
+  "commit_message": "fix: parse Ethereal response props without polynomial regex backtracking\n\ngetTestMessageUrl() extracted the trailing bracket group of the server\nresponse with a regex that CodeQL flagged for polynomial backtracking on\nadversarial responses (js/polynomial-redos). Replace it with linear string\nscanning; a 200k-case fuzz comparison confirmed the old and new parsers\nextract identical values.\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>",
+  "commit_author": {
+    "name": "Andris Reinman",
+    "email": "andris@reinman.eu",
+    "date": "2026-06-10T11:13:23Z"
+  },
+  "commit_committer": {
+    "name": "Andris Reinman",
+    "email": "andris@reinman.eu",
+    "date": "2026-06-10T11:13:23Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "0cee4fe1a52813b98a056ea67f87c195960e693c"
+  ],
+  "github_author_login": "andris9",
+  "github_committer_login": "andris9",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-10T12:08:09Z",
+  "created_at": "2011-01-19T21:17:36Z",
+  "homepage": "http://nodemailer.com/",
+  "size_kb": 10809,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-11T01:17:24.617Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
