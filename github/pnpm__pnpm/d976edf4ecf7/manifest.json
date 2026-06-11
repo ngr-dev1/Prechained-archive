@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "d976edf4ecf7c41be5d7ec7f5cea87364bebf010",
+  "tree_sha": "b090736bd7e5f6a9d8c75006b9a7b78303732d6f",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35450,
+  "watchers": 35450,
+  "forks": 1517,
+  "open_issues": 2397,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "perf: content-check modified manifests and fall back to the current lockfile on the repeat-install fast path (pacquet + pnpm) (#12315)\n\n## Why\n\nOn [benchmarks.vlt.sh](https://benchmarks.vlt.sh/) (2026-06-10 run, pacquet 0.11.2), pacquet ranked **8th–9th of 10** in every `lockfile+node_modules` variation — slower than pnpm, npm, yarn and vlt — e.g. astro: pacquet 936 ms vs pnpm 502 ms; babylon: pacquet 9.08 s vs pnpm 0.85 s. It also trailed vlt/npm in the `node_modules` and `cache+node_modules` v",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-10T19:24:47Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-10T19:24:47Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "5aed1200ea50c476c4a0a1662b39ff9af12fb435"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-11T06:54:43Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 218608,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-11T07:47:24.436Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
