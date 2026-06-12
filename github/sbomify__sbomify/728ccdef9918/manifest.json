@@ -1,0 +1,56 @@
+{
+  "repo": "sbomify/sbomify",
+  "commit_sha": "728ccdef9918aa8b6e9f669383ba8025bea42f9d",
+  "tree_sha": "2b521d25ec7d1b5159c9881296bdd41f2a970d2a",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "sbomify is a product security artifact hub and a trust center.",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 53,
+  "watchers": 53,
+  "forks": 11,
+  "open_issues": 41,
+  "language": "Python",
+  "topics": [
+    "sbom",
+    "security",
+    "security-tools",
+    "software-bill-of-material",
+    "software-bill-of-materials",
+    "trust-center"
+  ],
+  "commit_message": "test(oidc): end-to-end exchange test for clock skew through the HTTP endpoint\n\nAdds TestClockSkewExchange exercising the full /github/exchange path (verify ->\ncoerce -> binding lookup -> mint) with a token whose iat/nbf is ~30s in the\nfuture, as happens when GitHub's issuer clock runs ahead of the verifier:\n\n* with the clock-skew leeway the exchange returns 200 + an access token, and\n* a companion case pins the root cause — with leeway=0 the same token 401s,\n  the exact production failure this f",
+  "commit_author": {
+    "name": "Rana Aurangzaib",
+    "email": "aurangzaib048@gmail.com",
+    "date": "2026-06-10T07:12:25Z"
+  },
+  "commit_committer": {
+    "name": "Rana Aurangzaib",
+    "email": "aurangzaib048@gmail.com",
+    "date": "2026-06-10T07:12:25Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "0befa8cfae697082975fed01d739b4c8309ff128"
+  ],
+  "github_author_login": "aurangzaib048",
+  "github_committer_login": "aurangzaib048",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-11T19:37:17Z",
+  "created_at": "2025-01-24T11:27:14Z",
+  "homepage": "https://sbomify.com",
+  "size_kb": 38558,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-12T02:57:21.871Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
