@@ -1,0 +1,53 @@
+{
+  "repo": "rust-lang/cargo",
+  "commit_sha": "2a06b573f86a380747ca6abf1a432bf547f84797",
+  "tree_sha": "489e6b1ed62dd5ab9ac429518bbd499e5517f165",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "The Rust package manager",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 15091,
+  "watchers": 15091,
+  "forks": 2945,
+  "open_issues": 1633,
+  "language": "Rust",
+  "topics": [
+    "cargo",
+    "package-manager",
+    "rust"
+  ],
+  "commit_message": "fix(diag): Report all errors, in order\n\nThis makes the two existing passes more consistent.\nThe downside is that if there is an error, that might not be the final\nmessage.\nThis is the case with `--keep-going` (see https://rust-lang.zulipchat.com/#narrow/channel/246057-t-cargo/topic/.60--keep-going.60.20and.20compilation.20errors/near/595741468).\n\nWe may want to iterate on this further and make stop after the current\nmanifest/package unless `--keep-going` is provided.",
+  "commit_author": {
+    "name": "Ed Page",
+    "email": "eopage@gmail.com",
+    "date": "2026-06-11T20:15:19Z"
+  },
+  "commit_committer": {
+    "name": "Ed Page",
+    "email": "eopage@gmail.com",
+    "date": "2026-06-12T02:21:08Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "e5d4531d85017eff8fcd368ac27a83eb8d4f769f"
+  ],
+  "github_author_login": "epage",
+  "github_committer_login": "epage",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-12T19:23:11Z",
+  "created_at": "2014-03-04T23:20:42Z",
+  "homepage": "https://doc.rust-lang.org/cargo",
+  "size_kb": 69509,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-12T23:00:23.104Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
