@@ -1,0 +1,88 @@
+{
+  "name": "zod",
+  "version": "4.0.0-beta.1",
+  "ecosystem": "npm",
+  "description": "TypeScript-first schema declaration and validation library with static type inference",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "husky": "^4.3.4",
+    "tslib": "^2.1.0",
+    "eslint": "^7.15.0",
+    "rollup": "^2.42.1",
+    "nodemon": "^2.0.2",
+    "ts-jest": "^26.4.4",
+    "ts-node": "^9.1.0",
+    "prettier": "^2.2.1",
+    "benchmark": "^2.1.4",
+    "typescript": "^4.3.2",
+    "@types/jest": "^26.0.17",
+    "@types/node": "^14.14.10",
+    "lint-staged": "^10.5.3",
+    "@types/benchmark": "^2.1.0",
+    "dependency-cruiser": "^9.19.0",
+    "make-coverage-badge": "^1.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-config-prettier": "^7.1.0",
+    "@rollup/plugin-typescript": "^8.2.0",
+    "@typescript-eslint/parser": "^4.11.1",
+    "eslint-plugin-unused-imports": "^1.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.11.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "npm run test && npm run build && npm run build:deno"
+  },
+  "maintainers": [
+    {
+      "name": "colinmcd94",
+      "email": "colin@vriad.com"
+    },
+    {
+      "name": "vriad",
+      "email": "colin@vriad.com"
+    }
+  ],
+  "author": {
+    "name": "Colin McDonnell",
+    "email": "colin@colinhacks.com"
+  },
+  "publishedAt": "2021-07-03T22:03:17.439Z",
+  "dist": {
+    "integrity": "sha512-kA6jN+sAl0Wd791n1lhhf+JoO+qrYqhehbKQPs8HxLIsXGDd9BVoqIZhC0DdccPtqtHG7v7HDWNhQT4XeuIoew==",
+    "shasum": "82cf762e38ffe582a84b7a476c5a0715a1848c62",
+    "tarball": "https://registry.npmjs.org/zod/-/zod-4.0.0-beta.1.tgz",
+    "fileCount": 55,
+    "unpackedSize": 537524
+  },
+  "repository": {
+    "url": "git+https://github.com/colinhacks/zod.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/colinhacks/zod",
+  "bugs": {
+    "url": "https://github.com/colinhacks/zod/issues"
+  },
+  "keywords": [
+    "typescript",
+    "schema",
+    "validation",
+    "type",
+    "inference"
+  ],
+  "_npmUser": {
+    "name": "vriad",
+    "email": "colin@vriad.com"
+  },
+  "captured_at": "2026-06-12T04:07:23.678Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
