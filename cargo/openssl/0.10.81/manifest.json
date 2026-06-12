@@ -1,0 +1,105 @@
+{
+  "name": "openssl",
+  "version": "0.10.81",
+  "ecosystem": "cargo",
+  "description": "OpenSSL bindings",
+  "license": "Apache-2.0",
+  "checksum": "77823a27f0babb03091cb9ed9ef80af3b39dbc82f97e8fa530374b7dafd87a45",
+  "features": {
+    "aws-lc": [
+      "ffi/aws-lc"
+    ],
+    "aws-lc-fips": [
+      "ffi/aws-lc-fips"
+    ],
+    "bindgen": [
+      "ffi/bindgen"
+    ],
+    "default": [],
+    "unstable_boringssl": [
+      "ffi/unstable_boringssl"
+    ],
+    "v101": [],
+    "v102": [],
+    "v110": [],
+    "v111": [],
+    "vendored": [
+      "ffi/vendored"
+    ]
+  },
+  "downloads": 0,
+  "yanked": false,
+  "repository": "https://github.com/rust-openssl/rust-openssl",
+  "homepage": null,
+  "keywords": [
+    "crypto",
+    "tls",
+    "ssl",
+    "dtls"
+  ],
+  "categories": [
+    "API bindings",
+    "Cryptography"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "^2.2.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "cfg-if",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "foreign-types",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hex",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "openssl-macros",
+      "requirement": "^0.1.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "openssl-sys",
+      "requirement": "^0.9.117",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 163,
+    "login": "alex",
+    "name": "Alex Gaynor"
+  },
+  "publishedAt": "2026-06-12T18:11:18.530903Z",
+  "captured_at": "2026-06-12T18:27:23.381Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
