@@ -1,0 +1,86 @@
+{
+  "name": "joi",
+  "version": "17.7.0",
+  "ecosystem": "npm",
+  "description": "Object schema validation",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@hapi/hoek": "^9.0.0",
+    "@hapi/topo": "^5.0.0",
+    "@sideway/address": "^4.1.3",
+    "@sideway/formula": "^3.0.0",
+    "@sideway/pinpoint": "^2.0.0"
+  },
+  "devDependencies": {
+    "@hapi/lab": "^25.0.1",
+    "@hapi/code": "8.x.x",
+    "typescript": "4.3.x",
+    "@types/node": "^14.18.24",
+    "@hapi/bourne": "2.x.x",
+    "@hapi/joi-legacy-test": "npm:@hapi/joi@15.x.x"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "cd browser && npm install && npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "wyatt",
+      "email": "wpreul@gmail.com"
+    },
+    {
+      "name": "devinivy",
+      "email": "devin@bigroomstudios.com"
+    },
+    {
+      "name": "nargonath",
+      "email": "jonas.pauthier@gmail.com"
+    },
+    {
+      "name": "nlf",
+      "email": "quitlahok@gmail.com"
+    },
+    {
+      "name": "marsup",
+      "email": "nicolas@morel.io"
+    },
+    {
+      "name": "hueniverse",
+      "email": "eran@hammer.io"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2022-11-01T10:04:14.230Z",
+  "dist": {
+    "integrity": "sha512-1/ugc8djfn93rTE3WRKdCzGGt/EtiYKxITMO4Wiv6q5JL1gl9ePt4kBsl1S499nbosspfctIQTpYIhSmHA3WAg==",
+    "shasum": "591a33b1fe1aca2bc27f290bcad9b9c1c570a6b3",
+    "tarball": "https://registry.npmjs.org/joi/-/joi-17.7.0.tgz",
+    "fileCount": 36,
+    "unpackedSize": 526599
+  },
+  "repository": {
+    "url": "git://github.com/hapijs/joi.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/hapijs/joi#readme",
+  "bugs": {
+    "url": "https://github.com/hapijs/joi/issues"
+  },
+  "keywords": [
+    "schema",
+    "validation"
+  ],
+  "_npmUser": {
+    "name": "marsup",
+    "email": "nicolas@morel.io"
+  },
+  "captured_at": "2026-06-12T13:47:22.969Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
