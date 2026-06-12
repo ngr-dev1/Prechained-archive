@@ -1,0 +1,155 @@
+{
+  "name": "mocha",
+  "version": "11.7.1",
+  "ecosystem": "npm",
+  "description": "simple, flexible, fun test framework",
+  "license": "MIT",
+  "dependencies": {
+    "he": "^1.2.0",
+    "ms": "^2.1.3",
+    "diff": "^7.0.0",
+    "glob": "^10.4.5",
+    "debug": "^4.3.5",
+    "yargs": "^17.7.2",
+    "find-up": "^5.0.0",
+    "js-yaml": "^4.1.0",
+    "chokidar": "^4.0.1",
+    "minimatch": "^9.0.5",
+    "picocolors": "^1.1.1",
+    "workerpool": "^9.2.0",
+    "log-symbols": "^4.1.0",
+    "yargs-parser": "^21.1.1",
+    "browser-stdout": "^1.3.1",
+    "supports-color": "^8.1.1",
+    "yargs-unparser": "^2.0.0",
+    "strip-json-comments": "^3.1.1",
+    "escape-string-regexp": "^4.0.0",
+    "serialize-javascript": "^6.0.2"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "chai": "^4.3.4",
+    "knip": "^5.27.0",
+    "jsdoc": "^3.6.7",
+    "karma": "^6.4.2",
+    "sinon": "^9.0.3",
+    "uslug": "^1.0.4",
+    "eslint": "^8.56.0",
+    "needle": "^2.5.0",
+    "remark": "^14.0.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.70.1",
+    "globals": "^13.24.0",
+    "pidtree": "^0.5.0",
+    "webpack": "^5.67.0",
+    "prettier": "^2.4.1",
+    "cross-env": "^7.0.2",
+    "@eslint/js": "^8.56.0",
+    "rewiremock": "^3.14.3",
+    "unexpected": "^11.14.0",
+    "http-server": "^14.1.1",
+    "karma-mocha": "^2.0.1",
+    "markdown-it": "^12.3.2",
+    "webpack-cli": "^4.9.1",
+    "coffeescript": "^2.6.1",
+    "markdown-toc": "^1.2.0",
+    "npm-run-all2": "^6.2.0",
+    "remark-github": "^11.2.2",
+    "@11ty/eleventy": "^1.0.0",
+    "@mocha/docdash": "^4.0.1",
+    "jsdoc-ts-utils": "^2.0.1",
+    "unexpected-map": "^2.0.0",
+    "unexpected-set": "^3.0.0",
+    "eslint-plugin-n": "^17.15.1",
+    "installed-check": "^9.3.0",
+    "markdownlint-cli": "^0.30.0",
+    "unexpected-sinon": "^10.11.2",
+    "markdown-it-attrs": "^4.1.3",
+    "markdown-it-emoji": "^2.0.0",
+    "markdown-it-prism": "^2.2.2",
+    "markdown-it-anchor": "^8.4.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "remark-inline-links": "^6.0.1",
+    "@rollup/plugin-alias": "^5.1.1",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-sauce-launcher": "^4.3.6",
+    "karma-chrome-launcher": "^3.2.0",
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "unexpected-eventemitter": "^2.2.0",
+    "rollup-plugin-visualizer": "^5.6.0",
+    "@rollup/plugin-multi-entry": "^4.0.1",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "rollup-plugin-polyfill-node": "^0.8.0",
+    "fail-on-errors-webpack-plugin": "^3.0.0",
+    "@11ty/eleventy-plugin-inclusive-language": "^1.0.3"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "run-s clean build"
+  },
+  "maintainers": [
+    {
+      "name": "voxpelli",
+      "email": "pelle@kodfabrik.se"
+    },
+    {
+      "name": "joshuakgoldberg",
+      "email": "npm@joshuakgoldberg.com"
+    },
+    {
+      "name": "uzlopak",
+      "email": "aras.abbasi@googlemail.com"
+    }
+  ],
+  "author": {
+    "name": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca"
+  },
+  "publishedAt": "2025-06-24T13:35:20.122Z",
+  "dist": {
+    "integrity": "sha512-5EK+Cty6KheMS/YLPPMJC64g5V61gIR25KsRItHw6x4hEKT6Njp1n9LOlH4gpevuwMVS66SXaBBpg+RWZkza4A==",
+    "shasum": "91948fecd624fb4bd154ed260b7e1ad3910d7c7a",
+    "tarball": "https://registry.npmjs.org/mocha/-/mocha-11.7.1.tgz",
+    "fileCount": 69,
+    "unpackedSize": 2306325
+  },
+  "repository": {
+    "url": "git+https://github.com/mochajs/mocha.git",
+    "type": "git"
+  },
+  "homepage": "https://mochajs.org/",
+  "bugs": {
+    "url": "https://github.com/mochajs/mocha/issues/"
+  },
+  "keywords": [
+    "mocha",
+    "test",
+    "bdd",
+    "tdd",
+    "tap",
+    "testing",
+    "chai",
+    "assertion",
+    "ava",
+    "jest",
+    "tape",
+    "jasmine",
+    "karma"
+  ],
+  "_npmUser": {
+    "name": "voxpelli",
+    "email": "pelle@kodfabrik.se"
+  },
+  "captured_at": "2026-06-12T05:27:23.215Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
