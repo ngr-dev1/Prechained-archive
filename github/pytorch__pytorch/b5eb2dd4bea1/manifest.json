@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "b5eb2dd4bea197e389d1330a3b0817260a8fa47d",
+  "tree_sha": "92667ea282c5764fe2d6e4565a39779cc8d42502",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100698,
+  "watchers": 100698,
+  "forks": 27991,
+  "open_issues": 18415,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "Fix profiler trace names for transient Python code objects (#186359)\n\nThe Python profiler cached `co_filename` and `co_name` as non-owning\nStringViews backed by Python code object strings. For transient frames, such as\nimport-time or compiled-code frames, those code objects can be released before\nprofiler post-processing/export. The cached trace event names can then point at\nfreed memory, producing corrupted Python function names and invalid Chrome trace\nJSON.\n\nCopy Python frame names into ownin",
+  "commit_author": {
+    "name": "Jason Ansel",
+    "email": "jansel@meta.com",
+    "date": "2026-06-09T04:46:47Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-06-12T19:38:49Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "e9be0ff3502996fa840e8caac4e3921f7e75ecc5"
+  ],
+  "github_author_login": "jansel",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-12T20:35:24Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1413415,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-12T20:37:23.221Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
