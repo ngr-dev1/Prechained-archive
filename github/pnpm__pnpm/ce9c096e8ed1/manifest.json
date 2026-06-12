@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "ce9c096e8ed18e9564a4df3806b7a87d16922000",
+  "tree_sha": "d85617cbd76edc4c04d45f554d6642ec160995d1",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35466,
+  "watchers": 35466,
+  "forks": 1521,
+  "open_issues": 2407,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix(pacquet): share a subtree's peer context across importers + record array-form engines (#12349)\n\n* fix(lockfile): record array-form engines as index-keyed entries\n\nA package.json with `\"engines\": [\"node >= 0.2.0\"]` (e.g.\njsonparse@1.3.1) records `engines: {'0': node >= 0.2.0}` in pnpm's\nlockfile — the shape Object.entries() yields for an array. pacquet\nread engines via as_object only and dropped the field.\n\nPart of https://github.com/pnpm/pnpm/issues/12266.\n\n* fix(deps-resolver): keep a share",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-12T11:10:11Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-12T11:10:11Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "a751c7f27d2f5f330ed17d483e36b71327442b7c"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-12T12:19:05Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 219209,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-12T13:17:20.519Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
