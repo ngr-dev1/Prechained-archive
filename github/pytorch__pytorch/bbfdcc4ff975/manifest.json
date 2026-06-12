@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "bbfdcc4ff9752e93e69e10b7f1d2179b09680fd8",
+  "tree_sha": "fc514f919a0c96abd4a5c6240c2c3ba715f235c2",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100681,
+  "watchers": 100681,
+  "forks": 27989,
+  "open_issues": 18421,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "Use `atomic<shared_ptr>` for current RPC agent (#185633)\n\n`std::atomic_load`, `std::atomic_exchange`, and `std::atomic_compare_exchange_*` overloads for `std::shared_ptr<T>` are deprecated since C++20 ([ref](https://en.cppreference.com/cpp/memory/shared_ptr/atomic)). Newer GCC/libstdc++ warns on these deprecated overloads, and warning-as-error builds can turn this into a build failure, as encountered in #182016.\n\nThis PR updates `RpcAgent::currentRpcAgent_` from a plain `std::shared_ptr<RpcAgent",
+  "commit_author": {
+    "name": "Andrei Hutu",
+    "email": "andrei.hutu@arm.com",
+    "date": "2026-06-12T08:07:27Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-06-12T08:07:27Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "79a16845cb3bab008e8eb8177a449f1c430833b0"
+  ],
+  "github_author_login": "Anndrey24",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-12T12:51:27Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1413015,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-12T12:57:24.010Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
