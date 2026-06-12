@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "e9be0ff3502996fa840e8caac4e3921f7e75ecc5",
+  "tree_sha": "23ea43fd60a8907d7e89b4632d9ac784758ab9a9",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100698,
+  "watchers": 100698,
+  "forks": 27991,
+  "open_issues": 18415,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "Fix compiled optimizer scheduler kwargs leak (#186447)\n\nThe compiled optimizer scheduler test helper reused the dict entries from\nLR_SCHEDULER_TO_KWARGS directly. For SequentialLR and ChainedScheduler, the\nhelper fills in the \"schedulers\" entry with constructed child schedulers. That\nmutated the global table and kept scheduler instances reachable after the test\nbody returned. The retained schedulers held the optimizer and model parameters,\nwhich made CUDA memory leak checks report leaked allocat",
+  "commit_author": {
+    "name": "Jason Ansel",
+    "email": "jansel@meta.com",
+    "date": "2026-06-06T05:42:48Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-06-12T19:37:41Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "4b20f14b5aba8aeabee0dcfc08df0bbded02b188"
+  ],
+  "github_author_login": "jansel",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-12T20:35:24Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1413415,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-12T20:37:24.574Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
