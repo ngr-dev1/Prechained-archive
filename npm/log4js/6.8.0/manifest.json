@@ -1,0 +1,87 @@
+{
+  "name": "log4js",
+  "version": "6.8.0",
+  "ecosystem": "npm",
+  "description": "Port of Log4js to work with node.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "rfdc": "^1.3.0",
+    "debug": "^4.3.4",
+    "flatted": "^3.2.7",
+    "date-format": "^4.0.14",
+    "streamroller": "^3.1.5"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0",
+    "tap": "^16.3.4",
+    "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
+    "eslint": "^8.34.0",
+    "fs-extra": "^11.1.0",
+    "prettier": "^2.8.4",
+    "callsites": "^3.1.0",
+    "proxyquire": "^2.1.3",
+    "typescript": "^4.9.5",
+    "deep-freeze": "0.0.1",
+    "@commitlint/cli": "^17.4.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-node": "^0.3.7",
+    "@log4js-node/sandboxed-module": "^2.2.1",
+    "@commitlint/config-conventional": "^17.4.4"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=8.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "is-ci || husky install",
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "lamweili",
+      "email": "lam_wei_li@hotmail.com"
+    },
+    {
+      "name": "csausdev",
+      "email": "gareth.nomiddlename@gmail.com"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2023-02-20T07:59:18.147Z",
+  "dist": {
+    "integrity": "sha512-g+V8gZyurIexrOvWQ+AcZsIvuK/lBnx2argejZxL4gVZ4Hq02kUYH6WZOnqxgBml+zzQZYdaEoTN84B6Hzm8Fg==",
+    "shasum": "f0fe9b2b82725aaf97f20692e23381a5c5722448",
+    "tarball": "https://registry.npmjs.org/log4js/-/log4js-6.8.0.tgz",
+    "fileCount": 31,
+    "unpackedSize": 157644
+  },
+  "repository": {
+    "url": "git+https://github.com/log4js-node/log4js-node.git",
+    "type": "git"
+  },
+  "homepage": "https://log4js-node.github.io/log4js-node/",
+  "bugs": {
+    "url": "http://github.com/log4js-node/log4js-node/issues"
+  },
+  "keywords": [
+    "logging",
+    "log",
+    "log4j",
+    "node"
+  ],
+  "_npmUser": {
+    "name": "csausdev",
+    "email": "gareth.nomiddlename@gmail.com"
+  },
+  "captured_at": "2026-06-12T09:37:24.742Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
