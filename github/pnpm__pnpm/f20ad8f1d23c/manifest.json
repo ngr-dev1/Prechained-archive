@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "f20ad8f1d23c61e585412b3d339569d5ae8fa0da",
+  "tree_sha": "71d16e7d8b2630cde879d5af49ada0502010e9ad",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35470,
+  "watchers": 35470,
+  "forks": 1523,
+  "open_issues": 2413,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix: keep the path of git-hosted tarball resolutions in the lockfile (#12344)\n\n* fix: keep the path of git-hosted tarball resolutions in the lockfile\n\n* test(lockfile): cover git-hosted tarball path preservation in to_lockfile_form\n\nAdds regression tests guarding that to_lockfile_form keeps the\nTarballResolution.path of git-hosted subdirectory tarballs in both the\ndefault and include_tarball_url branches, mirroring the TypeScript\ntoLockfileResolution tests added for pnpm/pnpm#12304.\n\n* refactor(",
+  "commit_author": {
+    "name": "Truffle",
+    "email": "truffleagent@gmail.com",
+    "date": "2026-06-13T10:35:12Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-13T10:35:12Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "3d1a9800365d9269fb093db07db3b0ccf4cceb1a"
+  ],
+  "github_author_login": "truffle-dev",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-13T14:22:59Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 219313,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-13T14:27:23.479Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
