@@ -1,0 +1,86 @@
+{
+  "name": "joi",
+  "version": "17.9.0",
+  "ecosystem": "npm",
+  "description": "Object schema validation",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@hapi/hoek": "^9.0.0",
+    "@hapi/topo": "^5.0.0",
+    "@sideway/address": "^4.1.3",
+    "@sideway/formula": "^3.0.1",
+    "@sideway/pinpoint": "^2.0.0"
+  },
+  "devDependencies": {
+    "@hapi/lab": "^25.0.1",
+    "@hapi/code": "8.x.x",
+    "typescript": "4.3.x",
+    "@types/node": "^14.18.24",
+    "@hapi/bourne": "2.x.x",
+    "@hapi/joi-legacy-test": "npm:@hapi/joi@15.x.x"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "cd browser && npm install && npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "wyatt",
+      "email": "wpreul@gmail.com"
+    },
+    {
+      "name": "devinivy",
+      "email": "devinivy@gmail.com"
+    },
+    {
+      "name": "nargonath",
+      "email": "jonas.pauthier@gmail.com"
+    },
+    {
+      "name": "nlf",
+      "email": "quitlahok@gmail.com"
+    },
+    {
+      "name": "marsup",
+      "email": "nicolas@morel.io"
+    },
+    {
+      "name": "hueniverse",
+      "email": "eran@hammer.io"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2023-03-20T08:05:52.143Z",
+  "dist": {
+    "integrity": "sha512-PWirKfKoZL3kWHfkGKzdCLGv23c00rI31PKVDMg33b/ANe+bMC/ZPdEnHAoHzn5Hy6BTg3J0A2yRVKzT64e6Xw==",
+    "shasum": "52e161b6c91fc229799c3c948f0d219628423393",
+    "tarball": "https://registry.npmjs.org/joi/-/joi-17.9.0.tgz",
+    "fileCount": 36,
+    "unpackedSize": 530168
+  },
+  "repository": {
+    "url": "git://github.com/hapijs/joi.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/hapijs/joi#readme",
+  "bugs": {
+    "url": "https://github.com/hapijs/joi/issues"
+  },
+  "keywords": [
+    "schema",
+    "validation"
+  ],
+  "_npmUser": {
+    "name": "marsup",
+    "email": "nicolas@morel.io"
+  },
+  "captured_at": "2026-06-13T04:47:23.734Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
