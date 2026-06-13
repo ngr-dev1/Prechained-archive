@@ -1,0 +1,55 @@
+{
+  "repo": "NixOS/nix",
+  "commit_sha": "ba16a7738aeb86f02733744a7a246581e38d2810",
+  "tree_sha": "82c51fdbaf43a5177080bddd70ab452461f466f4",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Nix, the purely functional package manager",
+  "license": "LGPL-2.1",
+  "license_name": "GNU Lesser General Public License v2.1",
+  "stars": 17066,
+  "watchers": 17066,
+  "forks": 1941,
+  "open_issues": 3960,
+  "language": "C++",
+  "topics": [
+    "c-plus-plus",
+    "declarative-language",
+    "functional-programming",
+    "nix",
+    "package-manager"
+  ],
+  "commit_message": "Salt the FOD in tests/functional/dependencies.nix too\n\nWe want the outPath to be different between tests as well, not just\nthe drvPath. Existing hashInvalidator is for use in the same test -\nnot between different ones. Also it invalidates only the FOD's drvPath,\nwhich doesn't change the final outPath due to hash modulo.\n\nThis should additionally improve test isolation for tests with a shared store.",
+  "commit_author": {
+    "name": "Sergei Zimmerman",
+    "email": "sergei@zimmerman.foo",
+    "date": "2026-06-11T21:19:04Z"
+  },
+  "commit_committer": {
+    "name": "Sergei Zimmerman",
+    "email": "sergei@zimmerman.foo",
+    "date": "2026-06-11T21:19:04Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "c270fe36cc393e8cc2b2c338bff6d7c247e3ca40"
+  ],
+  "github_author_login": "xokdvium",
+  "github_committer_login": "xokdvium",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-12T15:29:42Z",
+  "created_at": "2012-02-08T10:17:59Z",
+  "homepage": "https://nixos.org/",
+  "size_kb": 135517,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-13T13:54:20.249Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
