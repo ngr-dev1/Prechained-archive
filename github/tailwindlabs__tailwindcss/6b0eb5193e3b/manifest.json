@@ -1,0 +1,57 @@
+{
+  "repo": "tailwindlabs/tailwindcss",
+  "commit_sha": "6b0eb5193e3b05ab21e95dff908cb0bcaa4d916c",
+  "tree_sha": "120e2a1c934fb6f28a417b2c012a2da3e39d070e",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "A utility-first CSS framework for rapid UI development.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 95513,
+  "watchers": 95513,
+  "forks": 5300,
+  "open_issues": 72,
+  "language": "TypeScript",
+  "topics": [
+    "css",
+    "css-framework",
+    "functional-css",
+    "postcss",
+    "responsive",
+    "tailwindcss",
+    "utility-classes"
+  ],
+  "commit_message": "Ensure `@source` globs ending in `**/*` preserve dynamic path segments to avoid scanning too many files (#20217)\n\nThis PR fixes an issue where we were over-scanning because we lost\npattern information when a `@source` ended in `**/*` and contained other\ndynamic parts in the glob pattern.\n\nNoticed this while debugging and working on #20214. Let's say you have\nthe following:\n```css\n@source './blog/*/foo/bar/baz/**/*';\n```\n\nWe make sure that folders or patterns ending in `**/*` are converted to\n\"au",
+  "commit_author": {
+    "name": "Robin Malfait",
+    "email": "malfait.robin@gmail.com",
+    "date": "2026-06-11T09:59:58Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-11T09:59:58Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "1bf4291e8507a2e150bd0da2cf3444236975494c"
+  ],
+  "github_author_login": "RobinMalfait",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-12T17:33:48Z",
+  "created_at": "2017-10-06T14:59:14Z",
+  "homepage": "https://tailwindcss.com/",
+  "size_kb": 114371,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-13T15:27:18.903Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
