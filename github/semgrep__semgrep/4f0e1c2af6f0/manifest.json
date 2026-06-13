@@ -1,0 +1,62 @@
+{
+  "repo": "semgrep/semgrep",
+  "commit_sha": "4f0e1c2af6f0c2d4736f328e41e33d767863ef59",
+  "tree_sha": "ec8d089565662d0982c9aafc39d848f78c119d7b",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+  "license": "LGPL-2.1",
+  "license_name": "GNU Lesser General Public License v2.1",
+  "stars": 15486,
+  "watchers": 15486,
+  "forks": 963,
+  "open_issues": 872,
+  "language": "OCaml",
+  "topics": [
+    "c",
+    "go",
+    "java",
+    "javascript",
+    "python",
+    "r2c",
+    "ruby",
+    "sast",
+    "semgrep",
+    "static-analysis",
+    "static-code-analysis",
+    "typescript"
+  ],
+  "commit_message": "Skip scanning of binary files by checking for file extension and magic bytes (semgrep/semgrep-proprietary#6449)\n\n## Summary\nWe want to skip over scanning binary files like pngs and pdfs as these\ncan often take a long time and are not useful. This change identifies\nbinary files by first identifying the file type using\n`File_type.file_type_of_file` function which checks for various file\nextensions. It then checks the first 16 bytes of non-text files for\nknown [magic\nbytes](https://en.wikipedia.org",
+  "commit_author": {
+    "name": "Xavier Lien",
+    "email": "xavilien@gmail.com",
+    "date": "2026-06-11T16:31:06Z"
+  },
+  "commit_committer": {
+    "name": "Yosef",
+    "email": "72322110+yosefAlsuhaibani@users.noreply.github.com",
+    "date": "2026-06-12T15:11:28Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "04a635184f764b38e200f2b0fdc1f1213c5598b6"
+  ],
+  "github_author_login": "xavilien",
+  "github_committer_login": "yosefAlsuhaibani",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-06-12T15:11:31Z",
+  "created_at": "2019-12-13T09:29:54Z",
+  "homepage": "https://semgrep.dev",
+  "size_kb": 98428,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-13T10:17:24.061Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
