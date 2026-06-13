@@ -1,0 +1,56 @@
+{
+  "repo": "sbomify/sbomify",
+  "commit_sha": "78c4106e0b881bb72b0c37ad997672542cf4aa12",
+  "tree_sha": "ed32348e65c1ae1b97234ca4f280f9bf9bd5aef7",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "sbomify is a product security artifact hub and a trust center.",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 53,
+  "watchers": 53,
+  "forks": 11,
+  "open_issues": 39,
+  "language": "Python",
+  "topics": [
+    "sbom",
+    "security",
+    "security-tools",
+    "software-bill-of-material",
+    "software-bill-of-materials",
+    "trust-center"
+  ],
+  "commit_message": "ci: drop redundant OIDC_AUDIENCE — the action derives it from API_BASE_URL\n\nThe sbomify action's obtain_sbomify_token_via_oidc() falls back to\ndefault_audience_for(api_base_url) when OIDC_AUDIENCE is unset: production\n(app.sbomify.com / no base URL) -> sbomify.com, and any other deployment ->\nthe API_BASE_URL hostname (stage.sbomify.com for the staging jobs). So all four\nOIDC_AUDIENCE lines were redundant. The staging jobs keep API_BASE_URL, which\nnow drives both the upload target and the derive",
+  "commit_author": {
+    "name": "Rana Aurangzaib",
+    "email": "aurangzaib048@gmail.com",
+    "date": "2026-06-12T14:55:35Z"
+  },
+  "commit_committer": {
+    "name": "Rana Aurangzaib",
+    "email": "aurangzaib048@gmail.com",
+    "date": "2026-06-12T14:55:35Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "e7b7e487ed942b397c7daea8c0235e64a75ea71e"
+  ],
+  "github_author_login": "aurangzaib048",
+  "github_committer_login": "aurangzaib048",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-12T19:37:07Z",
+  "created_at": "2025-01-24T11:27:14Z",
+  "homepage": "https://sbomify.com",
+  "size_kb": 38578,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-13T17:37:22.405Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
