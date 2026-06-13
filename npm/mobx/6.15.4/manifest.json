@@ -1,0 +1,95 @@
+{
+  "name": "mobx",
+  "version": "6.15.4",
+  "ecosystem": "npm",
+  "description": "Simple, scalable state management.",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "flow-bin": "^0.123.0",
+    "@babel/core": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "@babel/preset-env": "^7.9.5",
+    "conditional-type-checks": "^1.0.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "node ./scripts/prepublish.js && npm run build -- --target publish"
+  },
+  "maintainers": [
+    {
+      "name": "fredyc",
+      "email": "fredy.c@seznam.cz"
+    },
+    {
+      "name": "mweststrate",
+      "email": "mweststrate@gmail.com"
+    },
+    {
+      "name": "capaj",
+      "email": "capajj@gmail.com"
+    },
+    {
+      "name": "jilles",
+      "email": "jilleswf@gmail.com"
+    },
+    {
+      "name": "andykog",
+      "email": "mail@andykog.com"
+    },
+    {
+      "name": "xaviergonz",
+      "email": "xaviergonz@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Michel Weststrate"
+  },
+  "publishedAt": "2026-05-24T16:42:02.183Z",
+  "dist": {
+    "integrity": "sha512-do+2UsEKRVT70W/QqP2F2sju2x4p2xZo+5/azXqKjXgTk2jfmzsLjzwW0YI8CBEjy4ZUdU8EunXocXXwJdCrtw==",
+    "shasum": "045c64b07ce73e5c5cad474c369f2e0d6be7c2af",
+    "tarball": "https://registry.npmjs.org/mobx/-/mobx-6.15.4.tgz",
+    "fileCount": 134,
+    "unpackedSize": 4366267
+  },
+  "repository": {
+    "url": "git+https://github.com/mobxjs/mobx.git",
+    "type": "git"
+  },
+  "homepage": "https://mobx.js.org/",
+  "bugs": {
+    "url": "https://github.com/mobxjs/mobx/issues"
+  },
+  "keywords": [
+    "mobx",
+    "mobservable",
+    "observable",
+    "react-component",
+    "react",
+    "reactjs",
+    "reactive",
+    "model",
+    "frp",
+    "functional-reactive-programming",
+    "state management",
+    "data flow"
+  ],
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com"
+  },
+  "captured_at": "2026-06-13T21:47:19.381Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
