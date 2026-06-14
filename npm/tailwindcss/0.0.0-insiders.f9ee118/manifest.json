@@ -1,0 +1,109 @@
+{
+  "name": "tailwindcss",
+  "version": "0.0.0-insiders.f9ee118",
+  "ecosystem": "npm",
+  "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "dlv": "^1.1.3",
+    "tmp": "^0.2.1",
+    "chalk": "^4.1.2",
+    "is-glob": "^4.0.1",
+    "resolve": "^1.20.0",
+    "chokidar": "^3.5.2",
+    "detective": "^5.2.0",
+    "fast-glob": "^3.2.7",
+    "quick-lru": "^5.1.1",
+    "color-name": "^1.1.4",
+    "didyoumean": "^1.2.2",
+    "postcss-js": "^3.0.3",
+    "cosmiconfig": "^7.0.1",
+    "glob-parent": "^6.0.1",
+    "object-hash": "^2.2.0",
+    "normalize-path": "^3.0.0",
+    "postcss-nested": "5.0.6",
+    "postcss-load-config": "^3.1.0",
+    "postcss-value-parser": "^4.1.0",
+    "postcss-selector-parser": "^6.0.6"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "eslint": "^7.32.0",
+    "rimraf": "^3.0.0",
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.6",
+    "prettier": "^2.4.1",
+    "cross-env": "^7.0.3",
+    "jest-diff": "^27.1.0",
+    "@babel/cli": "^7.14.8",
+    "babel-jest": "^27.1.0",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.12.13",
+    "@vercel/ncc": "^0.31.1",
+    "postcss-cli": "^8.3.1",
+    "autoprefixer": "^10.3.3",
+    "@babel/preset-env": "^7.15.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "@tailwindcss/aspect-ratio": "^0.2.1"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.9",
+    "autoprefixer": "^10.0.2"
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "npm install --force && npm run babelify"
+  },
+  "maintainers": [
+    {
+      "name": "malfaitrobin",
+      "email": "malfait.robin@gmail.com"
+    },
+    {
+      "name": "bradlc",
+      "email": "bradlc41@gmail.com"
+    },
+    {
+      "name": "adamwathan",
+      "email": "adam@adamwathan.me"
+    },
+    {
+      "name": "reinink",
+      "email": "jonathan@reinink.ca"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2021-09-23T18:34:25.986Z",
+  "dist": {
+    "integrity": "sha512-uZB3V8T5/LW9pN7O4UMpmXVpZ7T4lOVK6eQYH8Sh6yofFuxIyKoKSudjD8ebbc1i4G+Z+WyaiuGOE0Hqzd4X2w==",
+    "shasum": "485116c9085a38442bdbbe9a3c87ca41708a9d88",
+    "tarball": "https://registry.npmjs.org/tailwindcss/-/tailwindcss-0.0.0-insiders.f9ee118.tgz",
+    "fileCount": 138,
+    "unpackedSize": 3855252
+  },
+  "repository": {
+    "url": "git+https://github.com/tailwindlabs/tailwindcss.git",
+    "type": "git"
+  },
+  "homepage": "https://tailwindcss.com",
+  "bugs": {
+    "url": "https://github.com/tailwindlabs/tailwindcss/issues"
+  },
+  "keywords": [],
+  "_npmUser": {
+    "name": "adamwathan",
+    "email": "adam@adamwathan.me"
+  },
+  "captured_at": "2026-06-14T21:17:23.127Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
