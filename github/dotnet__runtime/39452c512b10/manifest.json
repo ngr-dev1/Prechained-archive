@@ -1,0 +1,53 @@
+{
+  "repo": "dotnet/runtime",
+  "commit_sha": "39452c512b1021f7fbc349bb2953db6ac2659623",
+  "tree_sha": "8482c3e957940dab322a32321442e34841a9cda9",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 17960,
+  "watchers": 17960,
+  "forks": 5468,
+  "open_issues": 8283,
+  "language": "C#",
+  "topics": [
+    "dotnet",
+    "hacktoberfest",
+    "help-wanted"
+  ],
+  "commit_message": "Wasm R2R: push this before retbuf in InterpToR2R thunk args (#129356)\n\nThe thunk pushed retbuf before this, but the JIT (lvaInitArgs) and\nWasmR2RToInterpreterThunk both expect (, [this], [retbuf], ...). Swap\nthe two if-blocks so interp -> R2R calls match. Fixes #129347 (NRE /\npMT->Validate assert for Synchronized + struct return).",
+  "commit_author": {
+    "name": "Andy Ayers",
+    "email": "andya@microsoft.com",
+    "date": "2026-06-14T02:15:27Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-14T02:15:27Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "a3359b88167e537ef31281887bb259461391f8f6"
+  ],
+  "github_author_login": "AndyAyersMS",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-14T05:10:32Z",
+  "created_at": "2019-09-24T23:36:39Z",
+  "homepage": "https://docs.microsoft.com/dotnet/core/",
+  "size_kb": 1139544,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-14T05:37:19.263Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
