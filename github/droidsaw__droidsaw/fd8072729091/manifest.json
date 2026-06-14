@@ -1,0 +1,63 @@
+{
+  "repo": "droidsaw/droidsaw",
+  "commit_sha": "fd80727290916c76376c6046baf9e47a840d699d",
+  "tree_sha": "a7bc14815d880e1f02707200ffb5d8151f2d0952",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Pure-Rust Android decompiler and security-audit suite. DEX → Java, Hermes → JavaScript. Cross-layer taint across the React Native bridge. CycloneDX SBOM + OpenVEX. CLI and MCP. Bytecode is not a security layer.",
+  "license": "BSD-3-Clause",
+  "license_name": "BSD 3-Clause \"New\" or \"Revised\" License",
+  "stars": 19,
+  "watchers": 19,
+  "forks": 2,
+  "open_issues": 0,
+  "language": "Rust",
+  "topics": [
+    "android",
+    "apk",
+    "cyclonedx",
+    "decompiler",
+    "malware-analysis",
+    "mcp",
+    "mobile-security",
+    "openvex",
+    "reverse-engineering",
+    "rust",
+    "sbom",
+    "security",
+    "static-analysis"
+  ],
+  "commit_message": "feat(audit): --fail-on exit gate for pure exit-code CI gating\n\naudit --fail-on=<critical|high|medium|low|info> exits the newly reserved\ncode 1 (EXIT_FINDINGS in droidsaw-cli-contract) when any emitted finding\nis at or above the threshold. stdout still carries the normal audit\noutput — the run gated, it did not fail; the FailOnTriggered sentinel is\nintercepted in main() before the error path so no envelope is written.\nWithout the flag the 0/2 contract is unchanged. Unknown --fail-on values\nare CO",
+  "commit_author": {
+    "name": "fox",
+    "email": "mark@hexproof.dev",
+    "date": "2026-06-11T06:09:59Z"
+  },
+  "commit_committer": {
+    "name": "fox",
+    "email": "mark@hexproof.dev",
+    "date": "2026-06-11T06:34:32Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unknown_key",
+  "commit_parents": [
+    "1713a6e5aab06501cc7cdba104e0301f6188c181"
+  ],
+  "github_author_login": "eslerm",
+  "github_committer_login": "eslerm",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-11T08:39:41Z",
+  "created_at": "2026-04-13T23:02:19Z",
+  "homepage": "https://droidsaw.com",
+  "size_kb": 922,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-14T06:47:23.178Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
