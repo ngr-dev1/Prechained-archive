@@ -1,0 +1,90 @@
+{
+  "name": "rector/rector",
+  "version": "0.7.55",
+  "ecosystem": "packagist",
+  "description": "Instant upgrade and refactoring of your PHP code",
+  "license": "MIT",
+  "licenses": [
+    "MIT"
+  ],
+  "type": "library",
+  "require": {
+    "php": "^7.2.4",
+    "ext-json": "*",
+    "composer/xdebug-handler": "^1.4",
+    "doctrine/annotations": "^1.10.2",
+    "doctrine/inflector": "^1.4|^2.0",
+    "jean85/pretty-package-versions": "^1.2",
+    "nette/robot-loader": "^3.2",
+    "nette/utils": "^3.1",
+    "nikic/php-parser": "4.6",
+    "ondram/ci-detector": "^3.4",
+    "phpstan/phpdoc-parser": "^0.4.7",
+    "phpstan/phpstan-phpunit": "^0.12.10",
+    "psr/simple-cache": "^1.0",
+    "sebastian/diff": "^3.0|^4.0",
+    "symfony/cache": "^4.4.8|^5.0.6",
+    "symfony/console": "^4.4.8|^5.0.6",
+    "symfony/dependency-injection": "^4.4.8|^5.0.6",
+    "symfony/finder": "^4.4.8|^5.0.6",
+    "symfony/process": "^4.4.8|^5.0.6",
+    "symplify/auto-bind-parameter": "^8.1.15",
+    "symplify/autowire-array-parameter": "^8.1.15",
+    "symplify/console-color-diff": "^8.1.15",
+    "symplify/package-builder": "^8.1.15",
+    "symplify/parameter-name-guard": "^8.1.15",
+    "symplify/set-config-resolver": "^8.1.15",
+    "symplify/smart-file-system": "^8.1.15",
+    "tracy/tracy": "^2.7",
+    "phpstan/phpstan": "^0.12.33"
+  },
+  "require_dev": {},
+  "dist": {
+    "url": "https://api.github.com/repos/rectorphp/rector/zipball/f4c741f3f90f75a238fc024529e50203edcf524a",
+    "type": "zip",
+    "shasum": "",
+    "reference": "f4c741f3f90f75a238fc024529e50203edcf524a"
+  },
+  "source": {
+    "url": "https://github.com/rectorphp/rector.git",
+    "type": "git",
+    "reference": "f4c741f3f90f75a238fc024529e50203edcf524a"
+  },
+  "authors": [
+    {
+      "name": "Tomas Votruba",
+      "email": "tomas.vot@gmail.com",
+      "homepage": "https://tomasvotruba.com"
+    },
+    {
+      "name": "Jan Mikes",
+      "email": "j.mikes@me.com",
+      "homepage": "https://janmikes.cz"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "samsonasik",
+      "avatar_url": "https://www.gravatar.com/avatar/19076b7688ca1c8ee79ab3ac6fa6acdd7b96012973aba3b1a06cbb3154d7f3e5?d=identicon"
+    },
+    {
+      "name": "TomasVotruba",
+      "avatar_url": "https://www.gravatar.com/avatar/b2f16c585193d7f371466efacebe34de74ce2183b947b384b728306091855cfe?d=identicon"
+    }
+  ],
+  "homepage": "https://getrector.org",
+  "keywords": [
+    "ast",
+    "instant upgrades",
+    "instant refactoring",
+    "automated refactoring"
+  ],
+  "publishedAt": "2020-07-29T17:24:47+00:00",
+  "github_stars": 10336,
+  "github_watchers": 86,
+  "github_forks": 740,
+  "abandoned": false,
+  "captured_at": "2026-06-14T00:27:18.480Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
