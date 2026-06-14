@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "2c47a6e31ecb1ed5aecbb4738fa2d0fcc40089f6",
+  "tree_sha": "48072ea391a3cb128b61d90a4e499e4497ecae0c",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 100735,
+  "watchers": 100735,
+  "forks": 28009,
+  "open_issues": 18393,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "[cpp] use std::clamp (#185490)\n\nAs discussed here https://github.com/pytorch/pytorch/pull/185354#discussion_r3312375929\n\nthese are simple replacements of `std::min(std::max(...), ..)` with `std::clamp` I found using `git grep`. there are other occurrences in the codebase, i'll follow up with another PR for those. Thanks!\n\nPull Request resolved: https://github.com/pytorch/pytorch/pull/185490\nApproved by: https://github.com/Skylion007",
+  "commit_author": {
+    "name": "Khushi Agrawal",
+    "email": "khushiagrawal411@gmail.com",
+    "date": "2026-06-14T08:50:32Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-06-14T08:50:32Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "27f34a3e20e2fd55cfbfab4f126eb4a4e54c7cdd"
+  ],
+  "github_author_login": "khushi-411",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-14T10:06:35Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1416791,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-14T10:27:19.492Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
