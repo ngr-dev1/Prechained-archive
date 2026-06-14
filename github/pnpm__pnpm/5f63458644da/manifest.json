@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "5f63458644da98b50a2b142b24a59e197bfab714",
+  "tree_sha": "7d9abcb33116c28a386e16fc8a34e662c4cdd6b4",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35482,
+  "watchers": 35482,
+  "forks": 1526,
+  "open_issues": 2405,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix: bound descendant-process lookup on error exit to avoid a Windows hang (#12403)\n\n## Problem\n\nOn Windows, **any failed `pnpm` command hangs 20–46 seconds before exiting.** The error handler (`pnpm/src/errorHandler.ts`) enumerates descendant processes via `pidtree` to terminate them on every error exit. On Windows `pidtree` shells out to `wmic` and, where wmic has been removed, a PowerShell `Get-CimInstance Win32_Process` fallback — a process listing that takes tens of seconds on busy CI runne",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-14T16:45:49Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-14T16:45:49Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "9ddc86b6354ca5e4f890ff11aaaaf711ec1adcea"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-14T17:03:56Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 219832,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-14T17:07:21.173Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
