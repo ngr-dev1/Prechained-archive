@@ -1,0 +1,121 @@
+{
+  "name": "swr",
+  "version": "2.3.0",
+  "ecosystem": "npm",
+  "description": "React Hooks library for remote data fetching",
+  "license": "MIT",
+  "dependencies": {
+    "dequal": "^2.0.3",
+    "use-sync-external-store": "^1.4.0"
+  },
+  "devDependencies": {
+    "swr": "workspace:*",
+    "jest": "29.7.0",
+    "next": "15.0.4",
+    "husky": "8.0.3",
+    "react": "^18.2.0",
+    "eslint": "8.42.0",
+    "rimraf": "5.0.1",
+    "semver": "^7.5.1",
+    "bunchee": "^6.0.2",
+    "prettier": "2.8.8",
+    "@swc/core": "^1.3.62",
+    "@swc/jest": "0.2.26",
+    "react-dom": "^18.2.0",
+    "typescript": "5.1.3",
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.2.5",
+    "lint-staged": "13.2.2",
+    "@types/react": "^18.2.8",
+    "@playwright/test": "1.34.3",
+    "eslint-plugin-react": "7.32.2",
+    "react-error-boundary": "^4.0.9",
+    "@arethetypeswrong/cli": "^0.15.3",
+    "@testing-library/react": "^14.2.1",
+    "@type-challenges/utils": "0.1.1",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-jest-dom": "5.1.0",
+    "jest-environment-jsdom": "29.7.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@typescript-eslint/parser": "5.59.8",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-testing-library": "5.11.0",
+    "@edge-runtime/jest-environment": "^3.0.4",
+    "@types/use-sync-external-store": "^0.0.3",
+    "@typescript-eslint/eslint-plugin": "5.59.8"
+  },
+  "peerDependencies": {
+    "react": "^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "husky install",
+    "prepublish": null,
+    "prepublishOnly": "pnpm clean && pnpm build"
+  },
+  "maintainers": [
+    {
+      "name": "matheuss",
+      "email": "matheus.frndes@gmail.com"
+    },
+    {
+      "name": "quietshu",
+      "email": "g@shud.in"
+    },
+    {
+      "name": "huozhi",
+      "email": "inbox@huozhi.im"
+    },
+    {
+      "name": "nick.tracey",
+      "email": "nick.tracey@vercel.com"
+    },
+    {
+      "name": "vercel-release-bot",
+      "email": "infra+release@vercel.com"
+    },
+    {
+      "name": "zeit-bot",
+      "email": "team@zeit.co"
+    },
+    {
+      "name": "matt.straka",
+      "email": "matt.j.straka@gmail.com"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2024-12-23T15:21:33.593Z",
+  "dist": {
+    "integrity": "sha512-NyZ76wA4yElZWBHzSgEJc28a0u6QZvhb6w0azeL2k7+Q1gAzVK+IqQYXhVOC/mzi+HZIozrZvBVeSeOZNR2bqA==",
+    "shasum": "66fa45023efd4199f4e7ce608c255709a135943d",
+    "tarball": "https://registry.npmjs.org/swr/-/swr-2.3.0.tgz",
+    "fileCount": 40,
+    "unpackedSize": 263671
+  },
+  "repository": {
+    "url": "git+https://github.com/vercel/swr.git",
+    "type": "git"
+  },
+  "homepage": "https://swr.vercel.app",
+  "bugs": {
+    "url": "https://github.com/vercel/swr/issues"
+  },
+  "keywords": [
+    "swr",
+    "react",
+    "hooks",
+    "request",
+    "cache",
+    "fetch"
+  ],
+  "_npmUser": {
+    "name": "vercel-release-bot",
+    "email": "infra+release@vercel.com"
+  },
+  "captured_at": "2026-06-14T23:04:01.060Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
