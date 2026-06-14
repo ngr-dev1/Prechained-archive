@@ -1,0 +1,144 @@
+{
+  "name": "natural",
+  "version": "8.1.0",
+  "ecosystem": "npm",
+  "description": "General natural language (tokenizing, stemming (English, Russian, Spanish), part-of-speech tagging, sentiment analysis, classification, inflection, phonetics, tfidf, WordNet, jaro-winkler, Levenshtein distance, Dice's Coefficient) facilities for node.",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.11.3",
+    "uuid": "^9.0.1",
+    "memjs": "^1.3.2",
+    "redis": "^4.6.13",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.2.0",
+    "afinn-165": "^1.0.2",
+    "apparatus": "^0.0.10",
+    "sylvester": "^0.0.12",
+    "underscore": "^1.9.1",
+    "wordnet-db": "^3.1.11",
+    "http-server": "^14.1.1",
+    "stopwords-iso": "^1.1.0",
+    "safe-stable-stringify": "^2.2.0",
+    "afinn-165-financialmarketnews": "^3.0.0"
+  },
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "nyc": "^15.1.0",
+    "gulp": "^4.0.2",
+    "lint": "^0.8.19",
+    "pegjs": "^0.10.0",
+    "sinon": "^1.12.2",
+    "eslint": "^8.57.0",
+    "rimraf": "^2.6.3",
+    "rollup": "^4.18.0",
+    "jasmine": "^3.3.1",
+    "ts-node": "^10.9.2",
+    "uubench": "^0.0.1",
+    "webpack": "^4.29.0",
+    "standard": "^16.0.4",
+    "browserfs": "^1.4.3",
+    "cross-env": "^7.0.3",
+    "proxyquire": "^1.8.0",
+    "typescript": "^5.4.2",
+    "@types/node": "^18.11.18",
+    "ts-standard": "^12.0.2",
+    "gulp-jasmine": "^4.0.0",
+    "jasmine-core": "^3.3.0",
+    "@types/jasmine": "^5.1.4",
+    "webpack-stream": "^5.2.1",
+    "eslint-plugin-n": "^15.7.0",
+    "source-map-support": "^0.5.21",
+    "@rollup/plugin-json": "^6.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "gulp-jasmine-browser": "^4.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "eslint-config-standard-with-typescript": "^43.0.1"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=0.4.10"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "chrisumbel",
+      "email": "chris@chrisumbel.com"
+    },
+    {
+      "name": "kkoch986",
+      "email": "kkoch986@gmail.com"
+    },
+    {
+      "name": "hugo-ter-doest",
+      "email": "hwl.ter.doest@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Chris Umbel",
+    "email": "chris@chrisumbel.com"
+  },
+  "publishedAt": "2025-05-22T13:59:05.388Z",
+  "dist": {
+    "integrity": "sha512-qHKU+BzPXzEDwToFBzlI+3oI2jeN3xRNP421ifoF2Fw7ej+5zEO3Z5wUKPjz00jhz9/ESerIUGfhPqqkOqlWPA==",
+    "shasum": "4e7e719c6bc550e24b916ac14a5967881adcb5da",
+    "tarball": "https://registry.npmjs.org/natural/-/natural-8.1.0.tgz",
+    "fileCount": 247,
+    "unpackedSize": 13793880
+  },
+  "repository": {
+    "url": "git://github.com/NaturalNode/natural.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/NaturalNode/natural",
+  "bugs": {
+    "url": "https://github.com/NaturalNode/natural/issues"
+  },
+  "keywords": [
+    "natural language processing",
+    "artifical intelligence",
+    "statistics",
+    "Porter stemmer",
+    "Lancaster stemmer",
+    "tokenizer",
+    "bigram",
+    "trigram",
+    "quadgram",
+    "ngram",
+    "stemmer",
+    "bayes",
+    "classifier",
+    "phonetic",
+    "metaphone",
+    "inflector",
+    "Wordnet",
+    "tf-idf",
+    "logistic regression",
+    "doublemetaphone",
+    "double",
+    "jaro-winkler distance",
+    "levenshtein distance",
+    "string distance",
+    "part-of-speech tagger",
+    "Eric Brill",
+    "Brill tagger",
+    "sentiment analysis",
+    "maximum entropy modelling"
+  ],
+  "_npmUser": {
+    "name": "hugo-ter-doest",
+    "email": "hwl.ter.doest@gmail.com"
+  },
+  "captured_at": "2026-06-14T12:27:16.904Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
