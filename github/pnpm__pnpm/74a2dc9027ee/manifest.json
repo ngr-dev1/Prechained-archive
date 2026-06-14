@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "74a2dc9027eedf894969eb1a8b8b96aabfe81a83",
+  "tree_sha": "defe795045b98d8a64d75a92d8de63e52e6f6ffb",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35481,
+  "watchers": 35481,
+  "forks": 1526,
+  "open_issues": 2406,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "feat(installing): delegate resolution to pacquet >= 0.11.7 when configured (#12210)\n\n* feat(installing): delegate resolution to pacquet >= 0.11 when configured\n\nWhen pacquet is declared in configDependencies, pnpm previously always\nran it with --frozen-lockfile (pnpm resolved, pacquet materialized). If\nthe installed pacquet is >= 0.11 it ships its own resolver, so a\nnon-frozen plain install on the default isolated linker is now delegated\nend-to-end: pacquet resolves, writes pnpm-lock.yaml, and m",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-06-14T14:51:25Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-14T14:51:25Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "da248c3eefdfe4fc76d948c9a7a887b7525d355f"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-14T16:35:25Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 219840,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-14T16:37:19.319Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
