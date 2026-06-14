@@ -1,0 +1,63 @@
+{
+  "repo": "droidsaw/droidsaw",
+  "commit_sha": "1713a6e5aab06501cc7cdba104e0301f6188c181",
+  "tree_sha": "7f5ee05df4e1e00ada62c5df9060df4eee678773",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Pure-Rust Android decompiler and security-audit suite. DEX → Java, Hermes → JavaScript. Cross-layer taint across the React Native bridge. CycloneDX SBOM + OpenVEX. CLI and MCP. Bytecode is not a security layer.",
+  "license": "BSD-3-Clause",
+  "license_name": "BSD 3-Clause \"New\" or \"Revised\" License",
+  "stars": 19,
+  "watchers": 19,
+  "forks": 2,
+  "open_issues": 0,
+  "language": "Rust",
+  "topics": [
+    "android",
+    "apk",
+    "cyclonedx",
+    "decompiler",
+    "malware-analysis",
+    "mcp",
+    "mobile-security",
+    "openvex",
+    "reverse-engineering",
+    "rust",
+    "sbom",
+    "security",
+    "static-analysis"
+  ],
+  "commit_message": "fix(error): classify unknown --format/--mode values as CONFIGURATION\n\nThese were anyhow string errors falling through classify()'s default\nINTERNAL arm — \"this is a bug in droidsaw; please file an issue\" for\nwhat is a flag-value typo. Wrapped in the typed ConfigError marker;\ne2e tests pin the envelope code through the spawned binary.",
+  "commit_author": {
+    "name": "fox",
+    "email": "mark@hexproof.dev",
+    "date": "2026-06-11T06:01:28Z"
+  },
+  "commit_committer": {
+    "name": "fox",
+    "email": "mark@hexproof.dev",
+    "date": "2026-06-11T06:34:29Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unknown_key",
+  "commit_parents": [
+    "8797143c46378807d5b3a69beef5693499e189ba"
+  ],
+  "github_author_login": "eslerm",
+  "github_committer_login": "eslerm",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-11T08:39:41Z",
+  "created_at": "2026-04-13T23:02:19Z",
+  "homepage": "https://droidsaw.com",
+  "size_kb": 922,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-14T06:47:24.117Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
