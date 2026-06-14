@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "23716ed9b07fdd9f45efdc5fb0acab87980e79c3",
+  "tree_sha": "280ceda04b2f9efbd80d3e05ec961b0e4438d260",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 35481,
+  "watchers": 35481,
+  "forks": 1526,
+  "open_issues": 2406,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "fix: preserve user-defined npm_config_* env vars in lifecycle scripts (#12400)\n\n* fix: preserve user-defined npm_config_* env vars in lifecycle scripts\n\n* fix: use released `@pnpm/npm-lifecycle` and port npm_config_* filter to pacquet\n\nPin the catalog to the released `@pnpm/npm-lifecycle` ^1100.0.0 instead of a\nmutable PR-head ref, regenerating the lockfile to the immutable registry\ntarball.\n\nPort the upstream env filter to pacquet's make_env so user-defined\nnpm_config_* vars (e.g. npm_config_pl",
+  "commit_author": {
+    "name": "Felipe Santos",
+    "email": "felipecassiors@gmail.com",
+    "date": "2026-06-14T12:35:44Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-14T12:35:44Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "0fe6ea9a8ae9f6af2a33534885df872bc0a016e4"
+  ],
+  "github_author_login": "felipecrs",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-14T16:35:25Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 219840,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-14T16:37:22.176Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
