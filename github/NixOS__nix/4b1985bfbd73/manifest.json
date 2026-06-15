@@ -1,0 +1,55 @@
+{
+  "repo": "NixOS/nix",
+  "commit_sha": "4b1985bfbd73fda3ee9454ddec8cd56e138b7af7",
+  "tree_sha": "53ddadb5a1932758a0aa8573f344e7047ea77edc",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Nix, the purely functional package manager",
+  "license": "LGPL-2.1",
+  "license_name": "GNU Lesser General Public License v2.1",
+  "stars": 17078,
+  "watchers": 17078,
+  "forks": 1942,
+  "open_issues": 3962,
+  "language": "C++",
+  "topics": [
+    "c-plus-plus",
+    "declarative-language",
+    "functional-programming",
+    "nix",
+    "package-manager"
+  ],
+  "commit_message": "Use CompressionAlgo enum for narinfo compression field and TarArchive/decompression sink\n\nGets rid of the strignly typed code for good. There are a lot of questions about\nwhat an empty string means, so I left of a lot of FIXMEs around the code which we\nshould revisit later. The intention of this commit is to be a no-op change, just with\nbetter internal types and earlier validation.\n\nDecompressions sinks/sources are no longer used for Content-Encoding handling in\nfiletransfer code now, so some co",
+  "commit_author": {
+    "name": "Sergei Zimmerman",
+    "email": "sergei@zimmerman.foo",
+    "date": "2026-06-13T16:17:49Z"
+  },
+  "commit_committer": {
+    "name": "Sergei Zimmerman",
+    "email": "sergei@zimmerman.foo",
+    "date": "2026-06-14T17:59:09Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "02abc7a8c990cf8bf97b084dfc2852b59dfcdfef"
+  ],
+  "github_author_login": "xokdvium",
+  "github_committer_login": "xokdvium",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-14T20:14:19Z",
+  "created_at": "2012-02-08T10:17:59Z",
+  "homepage": "https://nixos.org/",
+  "size_kb": 135578,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-15T00:17:24.068Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
