@@ -1,0 +1,148 @@
+{
+  "name": "lerna",
+  "version": "7.0.0-alpha.7",
+  "ecosystem": "npm",
+  "description": "Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository",
+  "license": "MIT",
+  "dependencies": {
+    "nx": ">=16.1.3 < 17",
+    "tar": "6.1.11",
+    "pify": "5.0.0",
+    "ssri": "9.0.1",
+    "uuid": "8.3.2",
+    "chalk": "4.1.0",
+    "execa": "5.0.0",
+    "is-ci": "2.0.0",
+    "p-map": "4.0.0",
+    "slash": "3.0.0",
+    "upath": "^2.0.1",
+    "yargs": "16.2.0",
+    "dedent": "0.7.0",
+    "globby": "11.1.0",
+    "npmlog": "^6.0.2",
+    "p-pipe": "3.1.0",
+    "pacote": "15.1.1",
+    "rimraf": "^4.4.1",
+    "semver": "^7.3.8",
+    "envinfo": "^7.7.4",
+    "js-yaml": "^4.1.0",
+    "p-queue": "6.6.2",
+    "cmd-shim": "5.0.0",
+    "fs-extra": "9.1.0",
+    "get-port": "5.1.1",
+    "inquirer": "^8.2.4",
+    "make-dir": "3.1.0",
+    "p-reduce": "2.1.0",
+    "temp-dir": "1.0.0",
+    "byte-size": "7.0.0",
+    "columnify": "1.6.0",
+    "is-stream": "2.0.0",
+    "jest-diff": "29.4.3",
+    "minimatch": "3.0.5",
+    "write-pkg": "4.0.0",
+    "@nx/devkit": ">=16.1.3 < 17",
+    "clone-deep": "4.0.1",
+    "get-stream": "6.0.0",
+    "multimatch": "5.0.0",
+    "node-fetch": "2.6.7",
+    "typescript": ">=3 < 6",
+    "cosmiconfig": "8.1.3",
+    "glob-parent": "5.1.2",
+    "graceful-fs": "4.2.10",
+    "has-unicode": "2.0.1",
+    "p-waterfall": "2.1.1",
+    "signal-exit": "3.0.7",
+    "config-chain": "1.1.12",
+    "import-local": "^3.0.2",
+    "libnpmaccess": "^6.0.3",
+    "npm-packlist": "5.1.1",
+    "p-map-series": "2.1.0",
+    "resolve-from": "5.0.0",
+    "yargs-parser": "20.2.4",
+    "@lerna/create": "7.0.0-alpha.7",
+    "@octokit/rest": "19.0.3",
+    "git-url-parse": "13.1.0",
+    "libnpmpublish": "7.1.4",
+    "read-cmd-shim": "3.0.0",
+    "load-json-file": "6.2.0",
+    "npm-package-arg": "8.1.1",
+    "@npmcli/arborist": "6.2.3",
+    "init-package-json": "3.0.2",
+    "read-package-json": "5.0.1",
+    "write-file-atomic": "4.0.1",
+    "@npmcli/run-script": "4.1.7",
+    "npm-registry-fetch": "^14.0.3",
+    "@lerna/child-process": "7.0.0-alpha.7",
+    "strong-log-transformer": "2.1.0",
+    "validate-npm-package-name": "4.0.0",
+    "conventional-changelog-core": "4.2.4",
+    "validate-npm-package-license": "3.0.4",
+    "conventional-recommended-bump": "6.1.0",
+    "conventional-changelog-angular": "5.0.12",
+    "@octokit/plugin-enterprise-rest": "6.0.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "engines": {
+    "node": "^14.17.0 || >=16.0.0"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "jameshenry",
+      "email": "npm@jameshenry.email"
+    },
+    {
+      "name": "nrwlowner",
+      "email": "hello@nrwl.io"
+    },
+    {
+      "name": "hzoo",
+      "email": "hi@henryzoo.com"
+    },
+    {
+      "name": "evocateur",
+      "email": "daniel.stockman@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com"
+  },
+  "publishedAt": "2023-06-05T09:25:49.850Z",
+  "dist": {
+    "integrity": "sha512-c7kOZ9oDzIGHpcU7a7wxioLTC4uGwnN0a6gWBxq9DjhV8ws8fXRbRDf2l+UJWR0QpH+RbT7QVO2xEEZJ2laMCg==",
+    "shasum": "1f9446e0108d91fa42d76bb38e547cc520ae2951",
+    "tarball": "https://registry.npmjs.org/lerna/-/lerna-7.0.0-alpha.7.tgz",
+    "fileCount": 60,
+    "unpackedSize": 4134713
+  },
+  "repository": {
+    "url": "git+https://github.com/lerna/lerna.git",
+    "type": "git",
+    "directory": "packages/lerna"
+  },
+  "homepage": "https://lerna.js.org",
+  "bugs": {
+    "url": "https://github.com/lerna/lerna/issues"
+  },
+  "keywords": [
+    "lerna",
+    "monorepo",
+    "multi-package"
+  ],
+  "_npmUser": {
+    "name": "jameshenry",
+    "email": "npm@jameshenry.email"
+  },
+  "captured_at": "2026-06-15T07:17:22.529Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
