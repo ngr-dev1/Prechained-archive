@@ -1,0 +1,88 @@
+{
+  "name": "itertools",
+  "version": "0.15.0",
+  "ecosystem": "cargo",
+  "description": "Extra iterator adaptors, iterator methods, free functions, and macros.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "8b4baf93f58d4425749ca49a51c50ebab072c5df6994d08fed93541c331481dc",
+  "features": {
+    "default": [
+      "use_std"
+    ],
+    "use_alloc": [],
+    "use_std": [
+      "use_alloc",
+      "either/use_std"
+    ]
+  },
+  "downloads": 7708,
+  "yanked": false,
+  "repository": "https://github.com/rust-itertools/itertools",
+  "homepage": null,
+  "keywords": [
+    "data-structure",
+    "iterator",
+    "product",
+    "zip"
+  ],
+  "categories": [
+    "No standard library",
+    "No dynamic allocation",
+    "Algorithms",
+    "Rust patterns"
+  ],
+  "dependencies": [
+    {
+      "name": "criterion",
+      "requirement": "^0.4.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "either",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "paste",
+      "requirement": "^1.0.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "permutohedron",
+      "requirement": "^0.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 1442,
+    "login": "jswrenn",
+    "name": "Jack Wrenn"
+  },
+  "publishedAt": "2026-06-16T15:09:28.880416Z",
+  "captured_at": "2026-06-17T14:15:22.539Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
