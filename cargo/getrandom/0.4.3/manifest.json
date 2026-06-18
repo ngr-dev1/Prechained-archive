@@ -1,0 +1,133 @@
+{
+  "name": "getrandom",
+  "version": "0.4.3",
+  "ecosystem": "cargo",
+  "description": "A small cross-platform library for retrieving random data from system source",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "300e883d756b2e4ec94e02791f39b04b522276138852cfc41d9fb7e904106099",
+  "features": {
+    "std": [],
+    "sys_rng": [
+      "dep:rand_core"
+    ],
+    "wasm_js": [
+      "dep:wasm-bindgen",
+      "dep:js-sys"
+    ]
+  },
+  "downloads": 105809,
+  "yanked": false,
+  "repository": "https://github.com/rust-random/getrandom",
+  "homepage": null,
+  "keywords": [],
+  "categories": [
+    "No standard library",
+    "Operating systems"
+  ],
+  "dependencies": [
+    {
+      "name": "cfg-if",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.154",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.154",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.154",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.154",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.154",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.154",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.154",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.154",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "r-efi",
+      "requirement": "^6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "wasm-bindgen-test",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "js-sys",
+      "requirement": "^0.3.77",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "rand_core",
+      "requirement": "^0.10.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen",
+      "requirement": "^0.2.98",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2026-06-17T18:01:59.979552Z",
+  "captured_at": "2026-06-18T05:41:15.929Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
