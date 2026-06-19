@@ -1,0 +1,58 @@
+{
+  "repo": "flox/flox",
+  "commit_sha": "99218447be28a7866a284ee592dfbf3b48599885",
+  "tree_sha": "5c3b920535aa783f1a2e59f25fcb855ee0cf66fc",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Deterministic Foundation for your SDLC",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 4019,
+  "watchers": 4019,
+  "forks": 125,
+  "open_issues": 433,
+  "language": "Rust",
+  "topics": [
+    "developer-tools",
+    "development-environment",
+    "nix",
+    "package-manager",
+    "production",
+    "rust",
+    "virtual-environments"
+  ],
+  "commit_message": "test(hook): serialize hook.bats to fix flaky auto-activate timeout (#4410)\n\n## What\n\nFixes a flaky timeout in `hook.bats`'s interactive auto-activation tests\n— most visibly `bash: a single consent prompt activates a whole nested\nhierarchy`, which intermittently times out at ~61s (seen on the CI for\nan unrelated PR, [#4290](https://github.com/flox/flox/pull/4290)).\n\n## Root cause\n\nNot a logic bug in the consent/batching code — environment discovery\n(`find_all_dot_flox` walking up from the nested ",
+  "commit_author": {
+    "name": "Daniel Sauble",
+    "email": "daniel@flox.dev",
+    "date": "2026-06-19T15:09:36Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-19T15:09:36Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "f14a76ad429c8139fa591f399820c9e6bd97176e",
+    "7e19000047df2dc5ea6192cb7e07fd4f811b7a64"
+  ],
+  "github_author_login": "djsauble",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-19T18:44:02Z",
+  "created_at": "2022-12-22T15:52:43Z",
+  "homepage": "https://flox.dev",
+  "size_kb": 26894,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-19T18:49:56.203Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
