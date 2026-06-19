@@ -1,0 +1,58 @@
+{
+  "repo": "flox/flox",
+  "commit_sha": "8ed2f47cb90f681d5ca9cb696e9674f289f0d205",
+  "tree_sha": "b51b9e6a289d1d95360c8e7557143c2258b59a4d",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Deterministic Foundation for your SDLC",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 4019,
+  "watchers": 4019,
+  "forks": 125,
+  "open_issues": 433,
+  "language": "Rust",
+  "topics": [
+    "developer-tools",
+    "development-environment",
+    "nix",
+    "package-manager",
+    "production",
+    "rust",
+    "virtual-environments"
+  ],
+  "commit_message": "fix(gen-data): Reliable unit mock regeneration (version ordering + deterministic system order) (#4400)\n\nTwo independent defects that each block `just gen-data <floxhub> -f`\n(regenerating the recorded catalog mocks). Found while regenerating\nmocks for the catalog-schema bump (#4396); neither is caused by that\nbump — they are pre-existing rot the regen surfaces. Each was validated\nlive.\n\n## 1. `gen-data` writes prod versions *after* the recording run\n(chicken-and-egg)\n`gen-unit-data-no-publish` ra",
+  "commit_author": {
+    "name": "Bill LeVine",
+    "email": "bill@floxdev.com",
+    "date": "2026-06-19T15:24:17Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-19T15:24:17Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "99218447be28a7866a284ee592dfbf3b48599885",
+    "1557642bfcbc3bc5fc2348ede03f71024b4e7c6a"
+  ],
+  "github_author_login": "billlevine",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-19T18:44:02Z",
+  "created_at": "2022-12-22T15:52:43Z",
+  "homepage": "https://flox.dev",
+  "size_kb": 26894,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-19T18:49:55.140Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
