@@ -1,0 +1,600 @@
+{
+  "name": "redis",
+  "version": "1.2.4",
+  "ecosystem": "cargo",
+  "description": "Redis driver for Rust.",
+  "license": "BSD-3-Clause",
+  "checksum": "bae41a63fd0b8a5372f82b21e810e09a316f5dd7efd96bf08e678fb240fc1918",
+  "features": {
+    "acl": [],
+    "aio": [
+      "bytes",
+      "dep:pin-project-lite",
+      "dep:futures-util",
+      "dep:tokio",
+      "dep:tokio-util",
+      "dep:async-lock",
+      "tokio-util/codec",
+      "combine/tokio",
+      "dep:cfg-if"
+    ],
+    "bb8": [
+      "dep:bb8"
+    ],
+    "cache-aio": [
+      "aio",
+      "dep:lru"
+    ],
+    "cluster": [
+      "dep:crc16",
+      "dep:rand"
+    ],
+    "cluster-async": [
+      "aio",
+      "cluster",
+      "dep:log"
+    ],
+    "connection-manager": [
+      "dep:arc-swap",
+      "dep:futures-channel",
+      "aio",
+      "dep:backon"
+    ],
+    "default": [
+      "acl",
+      "streams",
+      "geospatial",
+      "script",
+      "num-bigint"
+    ],
+    "entra-id": [
+      "dep:azure_identity",
+      "dep:azure_core",
+      "dep:base64",
+      "token-based-authentication",
+      "tokio-comp"
+    ],
+    "geospatial": [],
+    "json": [
+      "dep:serde",
+      "serde/derive",
+      "dep:serde_json"
+    ],
+    "num-bigint": [
+      "dep:num-bigint"
+    ],
+    "r2d2": [
+      "dep:r2d2"
+    ],
+    "script": [
+      "dep:sha1_smol"
+    ],
+    "sentinel": [
+      "dep:log",
+      "dep:rand"
+    ],
+    "smol-comp": [
+      "aio",
+      "dep:smol",
+      "dep:smol-timeout",
+      "dep:async-io"
+    ],
+    "smol-native-tls-comp": [
+      "smol-comp",
+      "dep:async-native-tls",
+      "tls-native-tls"
+    ],
+    "smol-rustls-comp": [
+      "smol-comp",
+      "dep:futures-rustls",
+      "tls-rustls"
+    ],
+    "streams": [],
+    "tls-native-tls": [
+      "dep:native-tls"
+    ],
+    "tls-rustls": [
+      "dep:rustls",
+      "rustls/std",
+      "dep:rustls-native-certs"
+    ],
+    "tls-rustls-insecure": [
+      "tls-rustls"
+    ],
+    "tls-rustls-webpki-roots": [
+      "tls-rustls",
+      "dep:webpki-roots"
+    ],
+    "token-based-authentication": [
+      "dep:futures-util",
+      "dep:log",
+      "dep:backon"
+    ],
+    "tokio-comp": [
+      "aio",
+      "tokio/net",
+      "tokio/rt",
+      "tokio/time"
+    ],
+    "tokio-native-tls-comp": [
+      "tokio-comp",
+      "tls-native-tls",
+      "dep:tokio-native-tls"
+    ],
+    "tokio-rustls-comp": [
+      "tokio-comp",
+      "tls-rustls",
+      "dep:tokio-rustls"
+    ],
+    "vector-sets": [
+      "dep:serde",
+      "serde/derive",
+      "dep:serde_json"
+    ]
+  },
+  "downloads": 1314,
+  "yanked": false,
+  "repository": "https://github.com/redis-rs/redis-rs",
+  "homepage": "https://github.com/redis-rs/redis-rs",
+  "keywords": [
+    "redis",
+    "pubsub",
+    "cluster",
+    "sentinel",
+    "valkey"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "anyhow",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "arcstr",
+      "requirement": "^1.2.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "assert_approx_eq",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "assert_matches",
+      "requirement": "^1.5.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "async-trait",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "combine",
+      "requirement": "^4.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "env_logger",
+      "requirement": "^0.11.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fnv",
+      "requirement": "^1.0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-time",
+      "requirement": "^3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "itoa",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "partial-io",
+      "requirement": "^0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "percent-encoding",
+      "requirement": "^2.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^1.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rstest",
+      "requirement": "^0.26",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustls",
+      "requirement": "^0.23",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ryu",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "socket2",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3.27.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^2.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "xxhash-rust",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ahash",
+      "requirement": "^0.8.11",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "arc-swap",
+      "requirement": "^1.9.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "async-io",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "async-lock",
+      "requirement": "^3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "async-native-tls",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "azure_core",
+      "requirement": "^0.31",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "azure_identity",
+      "requirement": "^0.31",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "backon",
+      "requirement": "^1.6.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "base64",
+      "requirement": "^0.22.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "bb8",
+      "requirement": "^0.9.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "bigdecimal",
+      "requirement": "^0.4.10",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "cfg-if",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "crc16",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "futures-channel",
+      "requirement": "^0.3.31",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "futures-rustls",
+      "requirement": "^0.26",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3.31",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "hashbrown",
+      "requirement": "^0.17",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "lru",
+      "requirement": "^0.18",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "native-tls",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "num-bigint",
+      "requirement": "^0.4.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "pin-project-lite",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "r2d2",
+      "requirement": "^0.8.10",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rust_decimal",
+      "requirement": "^1.42.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rustls",
+      "requirement": "^0.23",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "rustls-native-certs",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.219",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.149",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "sha1_smol",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "smol",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "smol-timeout",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-native-tls",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-rustls",
+      "requirement": "^0.26",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "tokio-util",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "uuid",
+      "requirement": "^1.21.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "webpki-roots",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 147005,
+    "login": "nihohit",
+    "name": "Shachar Langbeheim"
+  },
+  "publishedAt": "2026-06-19T13:27:04.814875Z",
+  "captured_at": "2026-06-19T18:50:00.416Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
