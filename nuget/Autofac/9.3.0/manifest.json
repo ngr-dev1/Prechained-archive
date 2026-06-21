@@ -1,0 +1,111 @@
+{
+  "name": "Autofac",
+  "version": "9.3.0",
+  "ecosystem": "nuget",
+  "description": "Autofac is an IoC container for Microsoft .NET. It manages the dependencies between classes so that applications stay easy to change as they grow in size and complexity.",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Autofac Contributors"
+  ],
+  "owners": [],
+  "tags": [
+    "autofac",
+    "di",
+    "ioc",
+    "dependencyinjection"
+  ],
+  "projectUrl": "https://autofac.org/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "System.Diagnostics.DiagnosticSource",
+      "range": "[10.0.0, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[10.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Diagnostics.DiagnosticSource",
+      "range": "[10.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Diagnostics.DiagnosticSource",
+      "range": "[10.0.0, )",
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.20.06.23.41/autofac.9.3.0.json#dependencygroup/net10.0",
+      "@type": "PackageDependencyGroup",
+      "targetFramework": "net10.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.20.06.23.41/autofac.9.3.0.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.20.06.23.41/autofac.9.3.0.json#dependencygroup/net8.0/system.diagnostics.diagnosticsource",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.DiagnosticSource",
+          "range": "[10.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
+        }
+      ],
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.20.06.23.41/autofac.9.3.0.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.20.06.23.41/autofac.9.3.0.json#dependencygroup/.netstandard2.0/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[10.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.20.06.23.41/autofac.9.3.0.json#dependencygroup/.netstandard2.0/system.diagnostics.diagnosticsource",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.DiagnosticSource",
+          "range": "[10.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.20.06.23.41/autofac.9.3.0.json#dependencygroup/.netstandard2.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.20.06.23.41/autofac.9.3.0.json#dependencygroup/.netstandard2.1/system.diagnostics.diagnosticsource",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.DiagnosticSource",
+          "range": "[10.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "publishedAt": "2026-06-20T06:20:28.8+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/autofac/9.3.0/icon",
+  "readmeUrl": "https://www.nuget.org/packages/Autofac/9.3.0#show-readme-container",
+  "captured_at": "2026-06-21T03:03:53.301Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
