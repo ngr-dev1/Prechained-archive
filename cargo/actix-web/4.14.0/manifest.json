@@ -1,0 +1,527 @@
+{
+  "name": "actix-web",
+  "version": "4.14.0",
+  "ecosystem": "cargo",
+  "description": "Actix Web is a powerful, pragmatic, and extremely fast web framework for Rust",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "df09e2d9239703dd64056359c920c7f3fba6535ec61a0059e0f44e095ffe02b4",
+  "features": {
+    "__compress": [],
+    "__tls": [],
+    "compat": [
+      "compat-routing-macros-force-pub"
+    ],
+    "compat-routing-macros-force-pub": [
+      "actix-web-codegen?/compat-routing-macros-force-pub"
+    ],
+    "compress-brotli": [
+      "actix-http/compress-brotli",
+      "__compress"
+    ],
+    "compress-gzip": [
+      "actix-http/compress-gzip",
+      "__compress"
+    ],
+    "compress-zstd": [
+      "actix-http/compress-zstd",
+      "__compress"
+    ],
+    "cookies": [
+      "dep:cookie"
+    ],
+    "default": [
+      "macros",
+      "compress-brotli",
+      "compress-gzip",
+      "compress-zstd",
+      "cookies",
+      "http2",
+      "unicode",
+      "compat",
+      "ws"
+    ],
+    "experimental-introspection": [
+      "serde/derive"
+    ],
+    "experimental-io-uring": [
+      "actix-server/io-uring"
+    ],
+    "http2": [
+      "actix-http/http2"
+    ],
+    "macros": [
+      "dep:actix-macros",
+      "dep:actix-web-codegen"
+    ],
+    "openssl": [
+      "__tls",
+      "http2",
+      "actix-http/openssl",
+      "actix-tls/accept",
+      "actix-tls/openssl"
+    ],
+    "rustls": [
+      "rustls-0_20"
+    ],
+    "rustls-0_20": [
+      "__tls",
+      "http2",
+      "actix-http/rustls-0_20",
+      "actix-tls/accept",
+      "actix-tls/rustls-0_20"
+    ],
+    "rustls-0_21": [
+      "__tls",
+      "http2",
+      "actix-http/rustls-0_21",
+      "actix-tls/accept",
+      "actix-tls/rustls-0_21"
+    ],
+    "rustls-0_22": [
+      "__tls",
+      "http2",
+      "actix-http/rustls-0_22",
+      "actix-tls/accept",
+      "actix-tls/rustls-0_22"
+    ],
+    "rustls-0_23": [
+      "__tls",
+      "http2",
+      "actix-http/rustls-0_23",
+      "actix-tls/accept",
+      "actix-tls/rustls-0_23"
+    ],
+    "secure-cookies": [
+      "cookies",
+      "cookie/secure"
+    ],
+    "unicode": [
+      "dep:regex",
+      "actix-router/unicode"
+    ],
+    "ws": [
+      "actix-http/ws"
+    ]
+  },
+  "downloads": 2768,
+  "yanked": false,
+  "repository": "https://github.com/actix/actix-web",
+  "homepage": "https://actix.rs",
+  "keywords": [
+    "http",
+    "web",
+    "async",
+    "framework",
+    "actix"
+  ],
+  "categories": [
+    "Network programming",
+    "Asynchronous",
+    "WebSocket",
+    "HTTP server"
+  ],
+  "dependencies": [
+    {
+      "name": "actix-codec",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "actix-files",
+      "requirement": "^0.6",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "actix-http",
+      "requirement": "^3.13.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "actix-router",
+      "requirement": "^0.5.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "actix-rt",
+      "requirement": "^2.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "actix-server",
+      "requirement": "^2.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "actix-service",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "actix-test",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "actix-utils",
+      "requirement": "^3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "awc",
+      "requirement": "^3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "brotli",
+      "requirement": "^8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytestring",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "cfg-if",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "const-str",
+      "requirement": "^1.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "core_affinity",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "derive_more",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "encoding_rs",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "env_logger",
+      "requirement": "^0.11",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "flate2",
+      "requirement": "^1.0.13",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "foldhash",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-core",
+      "requirement": "^0.3.17",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3.17",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3.17",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "impl-more",
+      "requirement": "^0.3.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "itoa",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "language-tags",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "log",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mime",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1.21",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "openssl",
+      "requirement": "^0.10.55",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-project-lite",
+      "requirement": "^0.2.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.10.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rcgen",
+      "requirement": "^0.13",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex-lite",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustls",
+      "requirement": "^0.23",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustls-pki-types",
+      "requirement": "^1.13.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_urlencoded",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "smallvec",
+      "requirement": "^1.6.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "socket2",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "static_assertions",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.38.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-util",
+      "requirement": "^0.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1.30",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^2.5.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "zstd",
+      "requirement": "^0.13",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "actix-macros",
+      "requirement": "^0.2.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "actix-tls",
+      "requirement": "^3.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "actix-web-codegen",
+      "requirement": "^4.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "cookie",
+      "requirement": "^0.16",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.5.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 51017,
+    "login": "JohnTitor",
+    "name": "Yuki Okushi"
+  },
+  "publishedAt": "2026-06-21T06:47:01.331312Z",
+  "captured_at": "2026-06-21T14:20:36.817Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
