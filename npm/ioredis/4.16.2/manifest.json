@@ -1,0 +1,102 @@
+{
+  "name": "ioredis",
+  "version": "4.16.2",
+  "ecosystem": "npm",
+  "description": "A robust, performance-focused and full-featured Redis client for Node.js.",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "denque": "^1.1.0",
+    "redis-errors": "^1.2.0",
+    "redis-parser": "^3.0.0",
+    "lodash.flatten": "^4.4.0",
+    "redis-commands": "1.5.0",
+    "lodash.defaults": "^4.2.0",
+    "cluster-key-slot": "^1.1.0",
+    "standard-as-callback": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "husky": "^4.2.3",
+    "mocha": "^7.1.1",
+    "sinon": "^9.0.1",
+    "eslint": "^6.8.0",
+    "ts-node": "^8.8.1",
+    "bluebird": "^3.7.2",
+    "prettier": "^2.0.2",
+    "typescript": "^3.8.3",
+    "@types/chai": "^4.2.11",
+    "@types/node": "^13.11.0",
+    "@types/debug": "^4.1.5",
+    "@types/mocha": "^7.0.2",
+    "@types/sinon": "^9.0.0",
+    "pretty-quick": "^2.0.1",
+    "server-destroy": "^1.0.1",
+    "@types/bluebird": "^3.5.30",
+    "@types/redis-errors": "1.2.0",
+    "@semantic-release/git": "^9.0.0",
+    "@types/lodash.flatten": "^4.4.6",
+    "@types/lodash.defaults": "^4.2.6",
+    "eslint-config-prettier": "^6.10.1",
+    "@typescript-eslint/parser": "^2.26.0",
+    "cz-conventional-changelog": "^3.1.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.26.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "maintainers": [
+    {
+      "name": "ioredis-robot",
+      "email": "ioredis-robot@zihua.li"
+    },
+    {
+      "name": "luin",
+      "email": "i@zihua.li"
+    }
+  ],
+  "author": {
+    "url": "http://zihua.li",
+    "name": "luin",
+    "email": "i@zihua.li"
+  },
+  "publishedAt": "2020-04-11T06:30:03.434Z",
+  "dist": {
+    "integrity": "sha512-hlRK9q9K8pWpYIxUh079dWUWECiGNdI7+/AR21pgeqIBXQzjVKFnz0wXvmhEQZV3Hvv4saQpvJww9SkjwvPXZA==",
+    "shasum": "29ae301885e493c4642d2fb1998761c576e27462",
+    "tarball": "https://registry.npmjs.org/ioredis/-/ioredis-4.16.2.tgz",
+    "fileCount": 36,
+    "unpackedSize": 246831
+  },
+  "repository": {
+    "url": "git://github.com/luin/ioredis.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/luin/ioredis#readme",
+  "bugs": {
+    "url": "https://github.com/luin/ioredis/issues"
+  },
+  "keywords": [
+    "redis",
+    "cluster",
+    "sentinel",
+    "pipelining"
+  ],
+  "_npmUser": {
+    "name": "luin",
+    "email": "i@zihua.li"
+  },
+  "captured_at": "2026-06-23T05:27:37.133Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
