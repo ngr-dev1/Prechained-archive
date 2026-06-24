@@ -1,0 +1,56 @@
+{
+  "repo": "npm/cli",
+  "commit_sha": "765582219fee6ca599ad65681c7b63168801aa15",
+  "tree_sha": "0c8705bd7d67b4be794fcd5ab6cfc47778e3eeb2",
+  "branch": "latest",
+  "ecosystem": "github",
+  "description": "the package manager for JavaScript",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 9862,
+  "watchers": 9862,
+  "forks": 4433,
+  "open_issues": 641,
+  "language": "JavaScript",
+  "topics": [
+    "javascript",
+    "nodejs",
+    "npm",
+    "npm-cli",
+    "package-manager",
+    "tools"
+  ],
+  "commit_message": "fix(arborist): don't flag inert optional deps in strict-allow-scripts (#9597)\n\nFixes #9562.\n\n`strict-allow-scripts` walked the ideal tree and rejected inert optional\ndeps like `fsevents` on Linux, even though reify removes them before any\ninstall script runs. The shared `collectUnreviewedScripts` walk now\nskips inert nodes, so the strict check matches what actually installs.\n`approve-scripts` (actual tree) was already correct.",
+  "commit_author": {
+    "name": "Jamie Magee",
+    "email": "jamagee@microsoft.com",
+    "date": "2026-06-23T13:36:43Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-23T13:36:43Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "58cd8f591d0fdeafbb8f477fb8b8f5aa2e042c90"
+  ],
+  "github_author_login": "JamieMagee",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "latest",
+  "pushed_at": "2026-06-23T19:09:32Z",
+  "created_at": "2018-07-05T23:26:52Z",
+  "homepage": "https://docs.npmjs.com/cli/",
+  "size_kb": 176910,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-24T06:15:20.790Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
