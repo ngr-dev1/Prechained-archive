@@ -1,0 +1,56 @@
+{
+  "repo": "npm/cli",
+  "commit_sha": "1a9ce8e3f56ec26dd283b8957119f721d8d3fe5f",
+  "tree_sha": "e68d1406a3075d8b8224c74d2f67b53d8e641d46",
+  "branch": "latest",
+  "ecosystem": "github",
+  "description": "the package manager for JavaScript",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 9862,
+  "watchers": 9862,
+  "forks": 4433,
+  "open_issues": 641,
+  "language": "JavaScript",
+  "topics": [
+    "javascript",
+    "nodejs",
+    "npm",
+    "npm-cli",
+    "package-manager",
+    "tools"
+  ],
+  "commit_message": "fix(link): scope `npm link <path> --workspace` to the workspace, not the root (#9592)\n\n`npm link <path> --workspace=<ws>` did not scope the operation to the\ntarget workspace.\nThe linked dependency was attached to the root project instead, and with\n`--save` (or `--save-dev`/`--save-optional`/etc.) the `file:` spec was\nwritten to the root `package.json` rather than `<ws>/package.json`.\n`npm install <path> --workspace=<ws> --save` behaved correctly, so only\n`npm link` was affected.\n\nThe cause is in",
+  "commit_author": {
+    "name": "Manzoor Wani",
+    "email": "manzoorwani.jk@gmail.com",
+    "date": "2026-06-22T16:11:33Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-22T16:11:33Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "00b9f9fdcc673e22487d4ba29347c1305287da6a"
+  ],
+  "github_author_login": "manzoorwanijk",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "latest",
+  "pushed_at": "2026-06-23T19:09:32Z",
+  "created_at": "2018-07-05T23:26:52Z",
+  "homepage": "https://docs.npmjs.com/cli/",
+  "size_kb": 176910,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-24T06:15:24.118Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
