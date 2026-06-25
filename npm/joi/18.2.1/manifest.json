@@ -1,0 +1,92 @@
+{
+  "name": "joi",
+  "version": "18.2.1",
+  "ecosystem": "npm",
+  "description": "Object schema validation",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@hapi/hoek": "^11.0.7",
+    "@hapi/tlds": "^1.1.1",
+    "@hapi/topo": "^6.0.2",
+    "@hapi/address": "^5.1.1",
+    "@hapi/formula": "^3.0.2",
+    "@hapi/pinpoint": "^2.0.1",
+    "@standard-schema/spec": "^1.1.0"
+  },
+  "devDependencies": {
+    "ajv": "^8.18.0",
+    "@hapi/lab": "^26.0.0",
+    "@hapi/code": "^9.0.3",
+    "typescript": "^5.8.3",
+    "@types/node": "^20.17.47",
+    "@hapi/bourne": "^3.0.0",
+    "@hapi/eslint-plugin": "^7.0.0",
+    "@hapi/joi-legacy-test": "npm:@hapi/joi@15.x.x"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">= 20"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "cd browser && npm install && npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "marsup",
+      "email": "nicolas@morel.io"
+    },
+    {
+      "name": "nlf",
+      "email": "quitlahok@gmail.com"
+    },
+    {
+      "name": "nargonath",
+      "email": "xt47tezpk@mozmail.com"
+    },
+    {
+      "name": "devinivy",
+      "email": "devinivy@gmail.com"
+    },
+    {
+      "name": "wyatt",
+      "email": "wpreul@gmail.com"
+    },
+    {
+      "name": "hueniverse",
+      "email": "eran@hammer.io"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2026-05-04T16:10:25.480Z",
+  "dist": {
+    "integrity": "sha512-2/OKlogiESf2Nh3TFCrRjrr9z1DRHeW0I+KReF67+4J0Ns+8hBtHRmoWAZ2OFU6I5+TWLEe6sVlSdXPjHm5UbQ==",
+    "shasum": "a022e39496e25b010a6d4649975c160a4315bd79",
+    "tarball": "https://registry.npmjs.org/joi/-/joi-18.2.1.tgz",
+    "fileCount": 36,
+    "unpackedSize": 584060
+  },
+  "repository": {
+    "url": "git://github.com/hapijs/joi.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/hapijs/joi#readme",
+  "bugs": {
+    "url": "https://github.com/hapijs/joi/issues"
+  },
+  "keywords": [
+    "schema",
+    "validation"
+  ],
+  "_npmUser": {
+    "name": "marsup",
+    "email": "nicolas@morel.io"
+  },
+  "captured_at": "2026-06-25T19:17:26.632Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
