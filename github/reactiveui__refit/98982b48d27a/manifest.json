@@ -1,0 +1,57 @@
+{
+  "repo": "reactiveui/refit",
+  "commit_sha": "98982b48d27a94e0d3caac0d692ccc927db00d2c",
+  "tree_sha": "e5ead4f83ab480b9518204a5d81aada718ddeb50",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The automatic type-safe REST library for .NET Core, Xamarin and .NET. Heavily inspired by Square's Retrofit library, Refit turns your REST API into a live interface.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 9533,
+  "watchers": 9533,
+  "forks": 784,
+  "open_issues": 39,
+  "language": "C#",
+  "topics": [
+    "c-sharp",
+    "dotnet",
+    "dotnet-core",
+    "http",
+    "json",
+    "xamarin",
+    "xml"
+  ],
+  "commit_message": "feat: reflection-free generated form serialization, opt-in null values, and public UniqueName (#2164)\n\n* fix: avoid generated local variable name collisions with parameters\n\nInline and reflective generated method bodies used fixed local names\n(refitSettings, refitRequest, refitArguments, refitRequestBuilder,\nrefitFunc), which produced CS0136 when a method parameter shared one of\nthose names. Allocate the locals through a per-method UniqueNameBuilder\nseeded with the parameter names, so they are r",
+  "commit_author": {
+    "name": "Glenn",
+    "email": "5834289+glennawatson@users.noreply.github.com",
+    "date": "2026-06-24T10:32:17Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-24T10:32:17Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "0aae034524fef8a3b56074e56edc21d15f771bb7"
+  ],
+  "github_author_login": "glennawatson",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-06-25T14:02:09Z",
+  "created_at": "2013-07-22T20:11:57Z",
+  "homepage": "https://reactiveui.github.io/refit/",
+  "size_kb": 17166,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-06-26T15:09:23.774Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
