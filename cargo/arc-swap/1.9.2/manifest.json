@@ -1,0 +1,122 @@
+{
+  "name": "arc-swap",
+  "version": "1.9.2",
+  "ecosystem": "cargo",
+  "description": "Atomically swappable Arc",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "c049c0be4daef0b145cb3555416b3b8ef5b7888a38aea1a3a155801fe7b0810b",
+  "features": {
+    "experimental-strategies": [],
+    "experimental-thread-local": [],
+    "internal-test-strategies": [],
+    "weak": []
+  },
+  "downloads": 607,
+  "yanked": false,
+  "repository": "https://github.com/vorner/arc-swap",
+  "homepage": null,
+  "keywords": [
+    "arc",
+    "atomic"
+  ],
+  "categories": [
+    "Data structures",
+    "Memory management"
+  ],
+  "dependencies": [
+    {
+      "name": "adaptive-barrier",
+      "requirement": "~1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "~0.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "crossbeam-utils",
+      "requirement": "~0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "itertools",
+      "requirement": "^0.14",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "num_cpus",
+      "requirement": "~1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "~1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "parking_lot",
+      "requirement": "~0.12",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "proptest",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustversion",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_derive",
+      "requirement": "^1.0.130",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_test",
+      "requirement": "^1.0.177",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 5906,
+    "login": "vorner",
+    "name": "Michal 'vorner' Vaner"
+  },
+  "publishedAt": "2026-06-28T17:45:51.059560Z",
+  "captured_at": "2026-06-28T23:26:14.541Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
