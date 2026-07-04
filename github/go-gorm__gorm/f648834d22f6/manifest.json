@@ -1,0 +1,55 @@
+{
+  "repo": "go-gorm/gorm",
+  "commit_sha": "f648834d22f67c1b682d3e44ac2eb252c31b3f1a",
+  "tree_sha": "7aa2ebe7191cc535c4efe5068e5af408ed9a160d",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "The fantastic ORM library for Golang, aims to be developer friendly",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 39837,
+  "watchers": 39837,
+  "forks": 4154,
+  "open_issues": 515,
+  "language": "Go",
+  "topics": [
+    "go",
+    "golang",
+    "gorm",
+    "orm",
+    "web"
+  ],
+  "commit_message": "perf: replace fmt.Sprintf with strconv in ExplainSQL numeric formatting (#7796)\n\nReplace fmt.Sprintf(\"%d\") and fmt.Sprintf(\"%.6f\") with strconv.FormatInt,\nstrconv.FormatUint, and strconv.FormatFloat in logger/sql.go ExplainSQL.\n\nThese calls are hit every time a SQL query is logged. Using strconv avoids\nthe format string parsing overhead of fmt.Sprintf.\n\nAlso split the combined int/uint case in the fmt.Stringer branch into\nseparate cases to use the correct strconv function for each kind.\n\nBenchma",
+  "commit_author": {
+    "name": "Alpardfm",
+    "email": "84370387+alpardfm@users.noreply.github.com",
+    "date": "2026-06-22T03:34:19Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-22T03:34:19Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "49cd6b82d0096e8e312c4296aae0da6c60fcbbc2"
+  ],
+  "github_author_login": "alpardfm",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-06-25T07:21:11Z",
+  "created_at": "2013-10-25T08:31:38Z",
+  "homepage": "https://gorm.io",
+  "size_kb": 4827,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-07-04T21:27:46.194Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
