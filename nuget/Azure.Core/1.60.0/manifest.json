@@ -1,0 +1,744 @@
+{
+  "name": "Azure.Core",
+  "version": "1.60.0",
+  "ecosystem": "nuget",
+  "description": "This is the implementation of the Azure Client Pipeline",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Microsoft"
+  ],
+  "owners": [],
+  "tags": [
+    "Microsoft",
+    "Azure",
+    "Client",
+    "Pipeline"
+  ],
+  "projectUrl": "https://github.com/Azure/azure-sdk-for-net/blob/Azure.Core_1.60.0/sdk/core/Azure.Core/README.md",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[10.0.9, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "Microsoft.Identity.Client",
+      "range": "[4.84.2, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "Microsoft.Identity.Client.Extensions.Msal",
+      "range": "[4.84.2, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "System.ClientModel",
+      "range": "[1.14.0, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "System.Memory.Data",
+      "range": "[10.0.9, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Identity.Client",
+      "range": "[4.84.2, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Identity.Client.Extensions.Msal",
+      "range": "[4.84.2, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.ClientModel",
+      "range": "[1.14.0, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Diagnostics.DiagnosticSource",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Memory",
+      "range": "[4.6.3, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Memory.Data",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Numerics.Vectors",
+      "range": "[4.6.1, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Text.Encodings.Web",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Text.Json",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.6.3, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "Microsoft.Identity.Client",
+      "range": "[4.84.2, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "Microsoft.Identity.Client.Extensions.Msal",
+      "range": "[4.84.2, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.ClientModel",
+      "range": "[1.14.0, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.Diagnostics.DiagnosticSource",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.Memory",
+      "range": "[4.6.3, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.Memory.Data",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.Numerics.Vectors",
+      "range": "[4.6.1, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.Text.Encodings.Web",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.Text.Json",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.6.3, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[10.0.9, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Identity.Client",
+      "range": "[4.84.2, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Identity.Client.Extensions.Msal",
+      "range": "[4.84.2, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "System.ClientModel",
+      "range": "[1.14.0, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "System.Diagnostics.DiagnosticSource",
+      "range": "[10.0.9, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "System.Memory.Data",
+      "range": "[10.0.9, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "System.Text.Encodings.Web",
+      "range": "[10.0.9, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "System.Text.Json",
+      "range": "[10.0.9, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Bcl.AsyncInterfaces",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Configuration.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.Hosting.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Identity.Client",
+      "range": "[4.84.2, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Identity.Client.Extensions.Msal",
+      "range": "[4.84.2, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.ClientModel",
+      "range": "[1.14.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Diagnostics.DiagnosticSource",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Memory",
+      "range": "[4.6.3, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Memory.Data",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Numerics.Vectors",
+      "range": "[4.6.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Text.Encodings.Web",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Text.Json",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Threading.Tasks.Extensions",
+      "range": "[4.6.3, )",
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net10.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net10.0/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net10.0/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net10.0/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net10.0/microsoft.identity.client",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client",
+          "range": "[4.84.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net10.0/microsoft.identity.client.extensions.msal",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client.Extensions.Msal",
+          "range": "[4.84.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client.extensions.msal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net10.0/system.clientmodel",
+          "@type": "PackageDependency",
+          "id": "System.ClientModel",
+          "range": "[1.14.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.clientmodel/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net10.0/system.memory.data",
+          "@type": "PackageDependency",
+          "id": "System.Memory.Data",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory.data/index.json"
+        }
+      ],
+      "targetFramework": "net10.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/microsoft.identity.client",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client",
+          "range": "[4.84.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/microsoft.identity.client.extensions.msal",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client.Extensions.Msal",
+          "range": "[4.84.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client.extensions.msal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/system.clientmodel",
+          "@type": "PackageDependency",
+          "id": "System.ClientModel",
+          "range": "[1.14.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.clientmodel/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/system.diagnostics.diagnosticsource",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.DiagnosticSource",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/system.memory",
+          "@type": "PackageDependency",
+          "id": "System.Memory",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/system.memory.data",
+          "@type": "PackageDependency",
+          "id": "System.Memory.Data",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory.data/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/system.numerics.vectors",
+          "@type": "PackageDependency",
+          "id": "System.Numerics.Vectors",
+          "range": "[4.6.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.numerics.vectors/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/system.text.encodings.web",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encodings.Web",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encodings.web/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/system.text.json",
+          "@type": "PackageDependency",
+          "id": "System.Text.Json",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.6.2/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/microsoft.identity.client",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client",
+          "range": "[4.84.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/microsoft.identity.client.extensions.msal",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client.Extensions.Msal",
+          "range": "[4.84.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client.extensions.msal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/system.clientmodel",
+          "@type": "PackageDependency",
+          "id": "System.ClientModel",
+          "range": "[1.14.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.clientmodel/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/system.diagnostics.diagnosticsource",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.DiagnosticSource",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/system.memory",
+          "@type": "PackageDependency",
+          "id": "System.Memory",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/system.memory.data",
+          "@type": "PackageDependency",
+          "id": "System.Memory.Data",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory.data/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/system.numerics.vectors",
+          "@type": "PackageDependency",
+          "id": "System.Numerics.Vectors",
+          "range": "[4.6.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.numerics.vectors/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/system.text.encodings.web",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encodings.Web",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encodings.web/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/system.text.json",
+          "@type": "PackageDependency",
+          "id": "System.Text.Json",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netframework4.7.2/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net8.0/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net8.0/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net8.0/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net8.0/microsoft.identity.client",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client",
+          "range": "[4.84.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net8.0/microsoft.identity.client.extensions.msal",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client.Extensions.Msal",
+          "range": "[4.84.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client.extensions.msal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net8.0/system.clientmodel",
+          "@type": "PackageDependency",
+          "id": "System.ClientModel",
+          "range": "[1.14.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.clientmodel/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net8.0/system.diagnostics.diagnosticsource",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.DiagnosticSource",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net8.0/system.memory.data",
+          "@type": "PackageDependency",
+          "id": "System.Memory.Data",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory.data/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net8.0/system.text.encodings.web",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encodings.Web",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encodings.web/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/net8.0/system.text.json",
+          "@type": "PackageDependency",
+          "id": "System.Text.Json",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.json/index.json"
+        }
+      ],
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/microsoft.bcl.asyncinterfaces",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Bcl.AsyncInterfaces",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.bcl.asyncinterfaces/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/microsoft.extensions.configuration.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Configuration.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.configuration.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/microsoft.extensions.hosting.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.Hosting.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.hosting.abstractions/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/microsoft.identity.client",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client",
+          "range": "[4.84.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/microsoft.identity.client.extensions.msal",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Identity.Client.Extensions.Msal",
+          "range": "[4.84.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.identity.client.extensions.msal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/system.clientmodel",
+          "@type": "PackageDependency",
+          "id": "System.ClientModel",
+          "range": "[1.14.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.clientmodel/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/system.diagnostics.diagnosticsource",
+          "@type": "PackageDependency",
+          "id": "System.Diagnostics.DiagnosticSource",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.diagnostics.diagnosticsource/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/system.memory",
+          "@type": "PackageDependency",
+          "id": "System.Memory",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/system.memory.data",
+          "@type": "PackageDependency",
+          "id": "System.Memory.Data",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory.data/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/system.numerics.vectors",
+          "@type": "PackageDependency",
+          "id": "System.Numerics.Vectors",
+          "range": "[4.6.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.numerics.vectors/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/system.text.encodings.web",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encodings.Web",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encodings.web/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/system.text.json",
+          "@type": "PackageDependency",
+          "id": "System.Text.Json",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.json/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.06.30.22.58.17/azure.core.1.60.0.json#dependencygroup/.netstandard2.0/system.threading.tasks.extensions",
+          "@type": "PackageDependency",
+          "id": "System.Threading.Tasks.Extensions",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.threading.tasks.extensions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    }
+  ],
+  "publishedAt": "2026-06-30T22:54:22.3+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/azure.core/1.60.0/icon",
+  "readmeUrl": "https://www.nuget.org/packages/Azure.Core/1.60.0#show-readme-container",
+  "captured_at": "2026-07-05T07:18:39.778Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
