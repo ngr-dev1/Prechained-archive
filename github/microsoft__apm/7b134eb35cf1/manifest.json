@@ -1,0 +1,57 @@
+{
+  "repo": "microsoft/apm",
+  "commit_sha": "7b134eb35cf1f8ca2fe4de16b2354bfd7854efb2",
+  "tree_sha": "63e208bf5f5fd4b0683db9805a1d690a55891e82",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Agent Package Manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 3113,
+  "watchers": 3113,
+  "forks": 270,
+  "open_issues": 88,
+  "language": "Python",
+  "topics": [
+    "ai-agents",
+    "claude-code",
+    "codex-cli",
+    "context-engineering",
+    "github-copilot",
+    "package-manager",
+    "prompt-engineering"
+  ],
+  "commit_message": "fix(hooks): route combined hook manifests to every named target (closes #2020) (#2021)\n\n* fix(hooks): route combined hook manifests to every named target (closes #2020)\n\nRoot cause: filename-based hook routing matched only single-target\nstems, so a combined manifest like claude-codex-hooks.json matched\nvia endswith(\"-codex-hooks\") and routed to codex alone. The claude\ntarget then fell back to the universal .apm/hooks/hooks.json, which\nplugin normalization generates from the first plugin.json fou",
+  "commit_author": {
+    "name": "Gary Jarrel",
+    "email": "gary@jarrel.com.au",
+    "date": "2026-07-04T22:16:10Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-07-04T22:16:10Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "1169f75a0b78ff9a9a64aadd2671aa7f33587e36"
+  ],
+  "github_author_login": "garyj",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-07-04T22:16:10Z",
+  "created_at": "2025-09-18T13:45:22Z",
+  "homepage": "https://microsoft.github.io/apm/",
+  "size_kb": 34129,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-07-05T00:54:43.621Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
