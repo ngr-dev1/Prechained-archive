@@ -1,0 +1,54 @@
+{
+  "repo": "apache/kafka",
+  "commit_sha": "2310e991c0642ebc150c63c23a352c6d5c756dd8",
+  "tree_sha": "36157a314cf2d581fbaa3a35028b5c0ca250e972",
+  "branch": "trunk",
+  "ecosystem": "github",
+  "description": "Apache Kafka - A distributed event streaming platform",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 33122,
+  "watchers": 33122,
+  "forks": 15345,
+  "open_issues": 443,
+  "language": "Java",
+  "topics": [
+    "java",
+    "kafka",
+    "scala",
+    "streaming"
+  ],
+  "commit_message": "KAFKA-20751: Preserve available versions for cached connector plugin validation failures (#22712)\n\nPreserve the available plugin versions stored in cached connector plugin\nvalidation failures.\n\nThis keeps repeated validation of an unavailable\n`connector.plugin.version` consistent with the initial validation\nresponse and avoids an NPE in the cached failure path.\n\nReviewers: Mickael Maison <mickael.maison@gmail.com>",
+  "commit_author": {
+    "name": "majialong",
+    "email": "majialoong@gmail.com",
+    "date": "2026-07-08T14:31:52Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-07-08T14:31:52Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "1d1820c66a22c558bf24481ca772d4462a3df2d8"
+  ],
+  "github_author_login": "majialoong",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "trunk",
+  "pushed_at": "2026-07-09T10:37:01Z",
+  "created_at": "2011-08-15T18:06:16Z",
+  "homepage": "https://kafka.apache.org/",
+  "size_kb": 299497,
+  "has_wiki": false,
+  "has_issues": false,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-07-09T11:16:19.657Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
