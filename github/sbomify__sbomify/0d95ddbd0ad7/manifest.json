@@ -1,0 +1,56 @@
+{
+  "repo": "sbomify/sbomify",
+  "commit_sha": "0d95ddbd0ad73b2ad6da79f6641ab9c500d75d37",
+  "tree_sha": "747249094075de14ab530ba1c56ffa24be2ed823",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "sbomify is a product security artifact hub and a trust center.",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 55,
+  "watchers": 55,
+  "forks": 11,
+  "open_issues": 34,
+  "language": "Python",
+  "topics": [
+    "sbom",
+    "security",
+    "security-tools",
+    "software-bill-of-material",
+    "software-bill-of-materials",
+    "trust-center"
+  ],
+  "commit_message": "fix(trust-center): stable unique key for the posture findings list\n\nThe x-for key id+component+version is not unique — distinct findings can\nshare it (same id with no package, or a name-only package across SBOMs,\nboth kept on purpose). Give each finding a stable idx and key on it so\nAlpine can't reuse/drop rows.",
+  "commit_author": {
+    "name": "Rana Aurangzaib",
+    "email": "aurangzaib048@gmail.com",
+    "date": "2026-07-10T10:24:23Z"
+  },
+  "commit_committer": {
+    "name": "Rana Aurangzaib",
+    "email": "aurangzaib048@gmail.com",
+    "date": "2026-07-10T10:24:23Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "4986b20b9b056a1183d56e1783e0e62042061f2d"
+  ],
+  "github_author_login": "aurangzaib048",
+  "github_committer_login": "aurangzaib048",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-07-10T19:35:52Z",
+  "created_at": "2025-01-24T11:27:14Z",
+  "homepage": "https://sbomify.com",
+  "size_kb": 42739,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-07-10T23:41:18.515Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
