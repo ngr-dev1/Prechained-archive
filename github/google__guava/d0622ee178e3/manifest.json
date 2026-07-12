@@ -1,0 +1,52 @@
+{
+  "repo": "google/guava",
+  "commit_sha": "d0622ee178e36a802baa6f25b6a6d1570ada0cce",
+  "tree_sha": "337d97cdf2433e51186789f55e716b62c78b90dc",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Google core libraries for Java",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 51518,
+  "watchers": 51518,
+  "forks": 11145,
+  "open_issues": 739,
+  "language": "Java",
+  "topics": [
+    "guava",
+    "java"
+  ],
+  "commit_message": "Fix constructor links in Javadoc.\n\nThe current links probably shouldn't work at all. But somehow they do, albeit with output that contains type-use annotations:\n\n> Prefer ExecutionError(java.lang.@org.jspecify.annotations.Nullable Error) a constructor that accepts a cause:\n\nWhen I fix the links, the type-use annotation goes away. If I were motivated enough, I'd try to get this filed as a JDK bug.\n\nRELNOTES=n/a\nPiperOrigin-RevId: 944035030",
+  "commit_author": {
+    "name": "cpovirk",
+    "email": "cpovirk@google.com",
+    "date": "2026-07-07T19:30:10Z"
+  },
+  "commit_committer": {
+    "name": "Google Java Core Libraries",
+    "email": "jake-team+copybara@google.com",
+    "date": "2026-07-07T19:33:47Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "18daff8ae0705887529ef90af74a2a0347f9c90e"
+  ],
+  "github_author_login": "cpovirk",
+  "github_committer_login": null,
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-07-11T03:04:38Z",
+  "created_at": "2014-05-29T16:23:17Z",
+  "homepage": "https://guava.dev/",
+  "size_kb": 1379191,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-07-12T03:26:28.762Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
