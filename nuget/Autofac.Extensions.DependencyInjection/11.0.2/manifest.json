@@ -1,0 +1,163 @@
+{
+  "name": "Autofac.Extensions.DependencyInjection",
+  "version": "11.0.2",
+  "ecosystem": "nuget",
+  "description": "Autofac implementation of the interfaces in Microsoft.Extensions.DependencyInjection.Abstractions, the .NET Framework dependency injection abstraction.",
+  "license": "MIT",
+  "licenseExpression": "MIT",
+  "authors": [
+    "Autofac Contributors"
+  ],
+  "owners": [],
+  "tags": [
+    "autofac",
+    "di",
+    "ioc",
+    "dependencyinjection",
+    "aspnet",
+    "aspnetcore"
+  ],
+  "projectUrl": "https://autofac.org/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Autofac",
+      "range": "[9.3.1, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "Autofac",
+      "range": "[9.3.1, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Autofac",
+      "range": "[9.3.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Autofac",
+      "range": "[9.3.1, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "range": "[10.0.9, )",
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.07.09.19.15.51/autofac.extensions.dependencyinjection.11.0.2.json#dependencygroup/net10.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.07.09.19.15.51/autofac.extensions.dependencyinjection.11.0.2.json#dependencygroup/net10.0/autofac",
+          "@type": "PackageDependency",
+          "id": "Autofac",
+          "range": "[9.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/autofac/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.07.09.19.15.51/autofac.extensions.dependencyinjection.11.0.2.json#dependencygroup/net10.0/microsoft.extensions.dependencyinjection.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection.abstractions/index.json"
+        }
+      ],
+      "targetFramework": "net10.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.07.09.19.15.51/autofac.extensions.dependencyinjection.11.0.2.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.07.09.19.15.51/autofac.extensions.dependencyinjection.11.0.2.json#dependencygroup/net8.0/autofac",
+          "@type": "PackageDependency",
+          "id": "Autofac",
+          "range": "[9.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/autofac/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.07.09.19.15.51/autofac.extensions.dependencyinjection.11.0.2.json#dependencygroup/net8.0/microsoft.extensions.dependencyinjection.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection.abstractions/index.json"
+        }
+      ],
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.07.09.19.15.51/autofac.extensions.dependencyinjection.11.0.2.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.07.09.19.15.51/autofac.extensions.dependencyinjection.11.0.2.json#dependencygroup/.netstandard2.0/autofac",
+          "@type": "PackageDependency",
+          "id": "Autofac",
+          "range": "[9.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/autofac/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.07.09.19.15.51/autofac.extensions.dependencyinjection.11.0.2.json#dependencygroup/.netstandard2.0/microsoft.extensions.dependencyinjection.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection.abstractions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.07.09.19.15.51/autofac.extensions.dependencyinjection.11.0.2.json#dependencygroup/.netstandard2.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.07.09.19.15.51/autofac.extensions.dependencyinjection.11.0.2.json#dependencygroup/.netstandard2.1/autofac",
+          "@type": "PackageDependency",
+          "id": "Autofac",
+          "range": "[9.3.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/autofac/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.07.09.19.15.51/autofac.extensions.dependencyinjection.11.0.2.json#dependencygroup/.netstandard2.1/microsoft.extensions.dependencyinjection.abstractions",
+          "@type": "PackageDependency",
+          "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "range": "[10.0.9, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.extensions.dependencyinjection.abstractions/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "publishedAt": "2026-07-09T19:12:36.837+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/autofac.extensions.dependencyinjection/11.0.2/icon",
+  "readmeUrl": "https://www.nuget.org/packages/Autofac.Extensions.DependencyInjection/11.0.2#show-readme-container",
+  "captured_at": "2026-07-12T12:58:34.884Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
