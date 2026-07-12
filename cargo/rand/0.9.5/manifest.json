@@ -1,0 +1,112 @@
+{
+  "name": "rand",
+  "version": "0.9.5",
+  "ecosystem": "cargo",
+  "description": "Random number generators and other randomness functionality.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b9ef1d0d795eb7d84685bca4f72f3649f064e6641543d3a8c415898726a57b41",
+  "features": {
+    "alloc": [],
+    "default": [
+      "std",
+      "std_rng",
+      "os_rng",
+      "small_rng",
+      "thread_rng"
+    ],
+    "log": [],
+    "nightly": [],
+    "os_rng": [
+      "rand_core/os_rng"
+    ],
+    "serde": [
+      "dep:serde",
+      "rand_core/serde"
+    ],
+    "simd_support": [],
+    "small_rng": [],
+    "std": [
+      "rand_core/std",
+      "rand_chacha?/std",
+      "alloc"
+    ],
+    "std_rng": [
+      "dep:rand_chacha"
+    ],
+    "thread_rng": [
+      "std",
+      "std_rng",
+      "os_rng"
+    ],
+    "unbiased": []
+  },
+  "downloads": 108505,
+  "yanked": false,
+  "repository": "https://github.com/rust-random/rand",
+  "homepage": "https://rust-random.github.io/book",
+  "keywords": [
+    "random",
+    "rng"
+  ],
+  "categories": [
+    "Algorithms",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "bincode",
+      "requirement": "^1.2.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand_core",
+      "requirement": "^0.9.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rand_pcg",
+      "requirement": "^0.9.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rayon",
+      "requirement": "^1.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.140",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand_chacha",
+      "requirement": "^0.9.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.103",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2026-07-11T11:16:46.750480Z",
+  "captured_at": "2026-07-12T12:02:04.536Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
