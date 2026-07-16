@@ -1,0 +1,58 @@
+{
+  "repo": "pytorch/pytorch",
+  "commit_sha": "2eaa680c0659f0fe0e80dbf3f5bf4c003ae0835f",
+  "tree_sha": "e8a079092a1dc9759f42feb1b8561ebac1087682",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 101848,
+  "watchers": 101848,
+  "forks": 28512,
+  "open_issues": 18353,
+  "language": "Python",
+  "topics": [
+    "autograd",
+    "deep-learning",
+    "gpu",
+    "machine-learning",
+    "neural-network",
+    "numpy",
+    "python",
+    "tensor"
+  ],
+  "commit_message": "[inductor] Use non-NaN-propagating fmax in softmax persistent reduction (#189162)\n\n**Issue**: https://github.com/pytorch/pytorch/issues/189161\n\n**What**: Add an \"fmax\" reduction type (non-NaN-propagating max) and use it in the softmax two-pass fallback path (prepare_softmax_twopass_fallback).\n\n**Why**: The softmax-internal max only stabilizes the computation; its result is never user-visible. NaN still propagates through exp(x - xmax) into the final output regardless. The redundant NaN-propagati",
+  "commit_author": {
+    "name": "Liqiang Lu",
+    "email": "liqiangxl@gmail.com",
+    "date": "2026-07-16T14:42:33Z"
+  },
+  "commit_committer": {
+    "name": "PyTorch MergeBot",
+    "email": "pytorchmergebot@users.noreply.github.com",
+    "date": "2026-07-16T14:42:36Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "a6f227a0642b85478704622e6418cac12d990dd0"
+  ],
+  "github_author_login": "liqiangxl",
+  "github_committer_login": "pytorchmergebot",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-07-16T15:09:42Z",
+  "created_at": "2016-08-13T05:26:41Z",
+  "homepage": "https://pytorch.org",
+  "size_kb": 1450380,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-07-16T15:09:57.922Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
