@@ -1,0 +1,62 @@
+{
+  "repo": "semgrep/semgrep",
+  "commit_sha": "ac91bf58a6e902ac570ddbe4b477889acce27114",
+  "tree_sha": "b9e50a5b18e9d5c1e8ea7d29a1ce5890f65ba914",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+  "license": "LGPL-2.1",
+  "license_name": "GNU Lesser General Public License v2.1",
+  "stars": 15952,
+  "watchers": 15952,
+  "forks": 993,
+  "open_issues": 881,
+  "language": "OCaml",
+  "topics": [
+    "c",
+    "go",
+    "java",
+    "javascript",
+    "python",
+    "r2c",
+    "ruby",
+    "sast",
+    "semgrep",
+    "static-analysis",
+    "static-code-analysis",
+    "typescript"
+  ],
+  "commit_message": "fix(metrics): Report time limit exceeded no matter what (semgrep/semgrep-proprietary#6763)\n\nAfter some of xavier's work I'm suspicious we're not hitting timeouts as much as we should because we might not be doing major heap collections as often as we think. This changes the metric so we see when we've exceeded a timeout but the timeout itself wasnt raised.\n\nTest plan:\n\nCI passes\n\nsynced from Pro c5a3b811bc020c08a6a3f4602807c0da66ac7e92",
+  "commit_author": {
+    "name": "Austin Theriault",
+    "email": "github@cutedogs.org",
+    "date": "2026-07-15T18:19:19Z"
+  },
+  "commit_committer": {
+    "name": "Yosef",
+    "email": "72322110+yosefAlsuhaibani@users.noreply.github.com",
+    "date": "2026-07-16T14:25:58Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "1f3e2b5b8b73230be3755c20b1765e2a9be31afe"
+  ],
+  "github_author_login": "ajbt200128",
+  "github_committer_login": "yosefAlsuhaibani",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-07-17T00:20:52Z",
+  "created_at": "2019-12-13T09:29:54Z",
+  "homepage": "https://semgrep.dev",
+  "size_kb": 99668,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-07-19T16:06:31.538Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
