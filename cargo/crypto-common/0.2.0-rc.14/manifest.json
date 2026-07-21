@@ -1,0 +1,65 @@
+{
+  "name": "crypto-common",
+  "version": "0.2.0-rc.14",
+  "ecosystem": "cargo",
+  "description": "Common traits used by cryptographic algorithms",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "5569e5de27d32e673283717728eb5b0e4f30898b523f151a19c51e6188006599",
+  "features": {
+    "getrandom": [
+      "rand_core",
+      "dep:getrandom"
+    ],
+    "rand_core": [
+      "dep:rand_core"
+    ],
+    "zeroize": [
+      "hybrid-array/zeroize"
+    ]
+  },
+  "downloads": 12127,
+  "yanked": false,
+  "repository": "https://github.com/RustCrypto/traits",
+  "homepage": null,
+  "keywords": [
+    "crypto",
+    "traits"
+  ],
+  "categories": [
+    "Cryptography",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "hybrid-array",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.4.0-rc.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rand_core",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 267,
+    "login": "tarcieri",
+    "name": "Tony Arcieri"
+  },
+  "publishedAt": "2026-02-01T14:54:28.950876Z",
+  "captured_at": "2026-07-21T01:57:22.942Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
