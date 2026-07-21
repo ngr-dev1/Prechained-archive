@@ -1,0 +1,365 @@
+{
+  "name": "tokio",
+  "version": "1.53.1",
+  "ecosystem": "cargo",
+  "description": "An event-driven, non-blocking I/O platform for writing asynchronous I/O\nbacked applications.\n",
+  "license": "MIT",
+  "checksum": "202caea871b69668250d242070849eb495be178ed697a3e98aebce5bc81a0bed",
+  "features": {
+    "default": [],
+    "fs": [],
+    "full": [
+      "fs",
+      "io-util",
+      "io-std",
+      "macros",
+      "net",
+      "parking_lot",
+      "process",
+      "rt",
+      "rt-multi-thread",
+      "signal",
+      "sync",
+      "time"
+    ],
+    "io-std": [],
+    "io-uring": [
+      "dep:io-uring",
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "dep:slab"
+    ],
+    "io-util": [
+      "bytes"
+    ],
+    "macros": [
+      "tokio-macros"
+    ],
+    "net": [
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "socket2",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_Security",
+      "windows-sys/Win32_Storage_FileSystem",
+      "windows-sys/Win32_System_Pipes",
+      "windows-sys/Win32_System_SystemServices"
+    ],
+    "process": [
+      "bytes",
+      "libc",
+      "mio/os-poll",
+      "mio/os-ext",
+      "mio/net",
+      "signal-hook-registry",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_System_Threading",
+      "windows-sys/Win32_System_WindowsProgramming"
+    ],
+    "rt": [],
+    "rt-multi-thread": [
+      "rt"
+    ],
+    "schedule-latency": [],
+    "signal": [
+      "libc",
+      "mio/os-poll",
+      "mio/net",
+      "mio/os-ext",
+      "signal-hook-registry",
+      "windows-sys/Win32_Foundation",
+      "windows-sys/Win32_System_Console"
+    ],
+    "sync": [],
+    "taskdump": [
+      "dep:backtrace"
+    ],
+    "test-util": [
+      "rt",
+      "sync",
+      "time"
+    ],
+    "time": []
+  },
+  "downloads": 135888,
+  "yanked": false,
+  "repository": "https://github.com/tokio-rs/tokio",
+  "homepage": "https://tokio.rs",
+  "keywords": [
+    "async",
+    "futures",
+    "io",
+    "non-blocking"
+  ],
+  "categories": [
+    "Asynchronous",
+    "Network programming"
+  ],
+  "dependencies": [
+    {
+      "name": "async-stream",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "backtrace",
+      "requirement": "^0.3.58",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-concurrency",
+      "requirement": "^7.6.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-test",
+      "requirement": "^0.3.31",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.168",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "loom",
+      "requirement": "^0.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mio-aio",
+      "requirement": "^2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "mockall",
+      "requirement": "^0.13.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "nix",
+      "requirement": "^0.31.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "pin-project-lite",
+      "requirement": "^0.2.11",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "proptest",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.9",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "socket2",
+      "requirement": "^0.6.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-stream",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-test",
+      "requirement": "^0.4.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio-util",
+      "requirement": "^0.7",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing-mock",
+      "requirement": "=0.1.0-beta.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-test",
+      "requirement": "^0.3.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "windows-sys",
+      "requirement": "^0.61",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "backtrace",
+      "requirement": "^0.3.58",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^1.2.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "io-uring",
+      "requirement": "^0.7.11",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.168",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.168",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.168",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "mio",
+      "requirement": "^1.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "mio",
+      "requirement": "^1.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "parking_lot",
+      "requirement": "^0.12.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "signal-hook-registry",
+      "requirement": "^1.1.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "slab",
+      "requirement": "^0.4.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "socket2",
+      "requirement": "^0.6.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tokio-macros",
+      "requirement": "~2.7.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1.29",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "windows-sys",
+      "requirement": "^0.61",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6741,
+    "login": "Darksonn",
+    "name": "Alice Ryhl"
+  },
+  "publishedAt": "2026-07-20T17:06:09.996426Z",
+  "captured_at": "2026-07-21T00:52:46.146Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
