@@ -1,0 +1,81 @@
+{
+  "name": "proc-macro2",
+  "version": "1.0.107",
+  "ecosystem": "cargo",
+  "description": "A substitute implementation of the compiler's `proc_macro` API to decouple token-based libraries from the procedural macro use case.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "985e7ec9bb745e6ce6535b544d84d6cd6f7ad8bd711c398938ae983b91a766d9",
+  "features": {
+    "default": [
+      "proc-macro"
+    ],
+    "nightly": [],
+    "proc-macro": [],
+    "span-locations": []
+  },
+  "downloads": 1815662,
+  "yanked": false,
+  "repository": "https://github.com/dtolnay/proc-macro2",
+  "homepage": null,
+  "keywords": [
+    "macros",
+    "syn"
+  ],
+  "categories": [
+    "Procedural macro helpers"
+  ],
+  "dependencies": [
+    {
+      "name": "flate2",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quote",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rayon",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rustversion",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tar",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "unicode-ident",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 3618,
+    "login": "dtolnay",
+    "name": "David Tolnay"
+  },
+  "publishedAt": "2026-07-19T00:18:25.189787Z",
+  "captured_at": "2026-07-21T00:57:47.963Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
