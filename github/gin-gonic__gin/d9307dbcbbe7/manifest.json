@@ -1,0 +1,57 @@
+{
+  "repo": "gin-gonic/gin",
+  "commit_sha": "d9307dbcbbe796a64d9e0ef23452da888dd7f904",
+  "tree_sha": "164fff679aed958135db256ba914a4245ecb2b4d",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 88940,
+  "watchers": 88940,
+  "forks": 8649,
+  "open_issues": 722,
+  "language": "Go",
+  "topics": [
+    "framework",
+    "gin",
+    "go",
+    "middleware",
+    "performance",
+    "router",
+    "server"
+  ],
+  "commit_message": "fix(context): skip chmod on pre-existing dirs in SaveUploadedFile (#4702)\n\n* fix: skip chmod on pre-existing dirs in SaveUploadedFile\n\nFixes #4622\n\nPrior to this change, SaveUploadedFile unconditionally called\nos.Chmod(dir, mode) after os.MkdirAll, even when the target\ndirectory already existed. This caused 'operation not permitted'\nerrors when saving files into system-owned directories like /tmp\nthat the current process does not own.\n\nThe fix uses os.Stat before MkdirAll to detect whether the\nd",
+  "commit_author": {
+    "name": "Muhammad Ardy Junata",
+    "email": "ardyjunata53@gmail.com",
+    "date": "2026-06-22T15:34:41Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-06-22T15:34:41Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "da1e108614ecbbadfa5736b1b297b16121d23b9b"
+  ],
+  "github_author_login": "ArdyJunata",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-07-16T22:32:47Z",
+  "created_at": "2014-06-16T23:57:25Z",
+  "homepage": "https://gin-gonic.com/",
+  "size_kb": 10588,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-07-21T00:52:42.558Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
