@@ -1,0 +1,63 @@
+{
+  "repo": "labstack/echo",
+  "commit_sha": "79b496800f75fe4a83835719842847a9d5b25c3e",
+  "tree_sha": "0525cbe4a3c986bd9cf47fb4c9f68874962a2020",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "High performance, minimalist Go web framework",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 32563,
+  "watchers": 32563,
+  "forks": 2343,
+  "open_issues": 29,
+  "language": "Go",
+  "topics": [
+    "echo",
+    "go",
+    "http2",
+    "https",
+    "labstack-echo",
+    "letsencrypt",
+    "micro-framework",
+    "microservice",
+    "middleware",
+    "ssl",
+    "web",
+    "web-framework",
+    "websocket"
+  ],
+  "commit_message": "fix(middleware): match gzip Content-Encoding case-insensitively (#3056)\n\n* fix(middleware): match gzip Content-Encoding case-insensitively\n\nProxies and clients may send Content-Encoding: Gzip or GZIP. Exact string\ncompare skipped decompression. Trim and EqualFold against \"gzip\".\n\n* fix(middleware): keep gzip match to EqualFold only\n\nDrop TrimSpace so the change is strictly RFC 9110 case-insensitivity\nfor content codings, per review discussion.",
+  "commit_author": {
+    "name": "sonnemusk",
+    "email": "sonnemusk@gmail.com",
+    "date": "2026-07-23T05:02:09Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-07-23T05:02:09Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "ed8bbe4b6cbf519766c99e492b9cc427404b3719"
+  ],
+  "github_author_login": "sonnemusk",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-07-23T19:19:23Z",
+  "created_at": "2015-03-01T17:43:01Z",
+  "homepage": "https://echo.labstack.com",
+  "size_kb": 6695,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-07-27T03:20:01.830Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
