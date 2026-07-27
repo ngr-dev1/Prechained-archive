@@ -1,0 +1,87 @@
+{
+  "name": "bcrypt",
+  "version": "0.19.3",
+  "ecosystem": "cargo",
+  "description": "Easily hash and verify passwords using bcrypt",
+  "license": "MIT",
+  "checksum": "a0cd0bd35a28836d528d2b58ad499bc3c5641d59379421b1be9eeb0c2f2b912a",
+  "features": {
+    "alloc": [
+      "base64/alloc",
+      "getrandom"
+    ],
+    "default": [
+      "std",
+      "zeroize"
+    ],
+    "std": [
+      "getrandom/std",
+      "base64/std"
+    ]
+  },
+  "downloads": 961,
+  "yanked": false,
+  "repository": "https://github.com/Keats/rust-bcrypt",
+  "homepage": "https://github.com/Keats/rust-bcrypt",
+  "keywords": [
+    "bcrypt",
+    "hash",
+    "password",
+    "web"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "base64",
+      "requirement": "^0.23",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "blowfish",
+      "requirement": "^0.10",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "subtle",
+      "requirement": "^2.4.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "zeroize",
+      "requirement": "^1.5.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 2876,
+    "login": "Keats",
+    "name": "Vincent Prouillet"
+  },
+  "publishedAt": "2026-07-27T08:50:02.752579Z",
+  "captured_at": "2026-07-27T18:51:10.163Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
