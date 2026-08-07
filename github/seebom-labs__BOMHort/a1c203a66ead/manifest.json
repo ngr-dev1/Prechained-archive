@@ -1,0 +1,56 @@
+{
+  "repo": "seebom-labs/BOMHort",
+  "commit_sha": "a1c203a66eadc29f7e7ab168655a59f552986a47",
+  "tree_sha": "c5ebd22949f220956e873075077f3be2c01edc4b",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "About standalone, Kubernetes-native Software Bill of Materials (SBOM) visualization and governance platform",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 28,
+  "watchers": 28,
+  "forks": 7,
+  "open_issues": 26,
+  "language": "Go",
+  "topics": [
+    "sbom",
+    "sbom-quality",
+    "security",
+    "suite",
+    "supply-chain",
+    "supply-chain-security"
+  ],
+  "commit_message": "fix(api): close dec.More() blind spot in upload validation\n\nFollow-up on my own 5efb9cc. The Copilot reviewer flagged dec.More() as\nunreliable for detecting trailing top-level data. Its stated examples were\nwrong — More() is implemented as `peek() != ']' && peek() != '}'`, so both\n`{\"a\":1}{\"b\":2}` and `{...} junk` were already rejected, and the existing\ntests prove it. But the underlying concern holds for the one case that\nimplementation cannot see: when the trailing byte *is* `]` or `}`, peek()",
+  "commit_author": {
+    "name": "Mario Fahlandt",
+    "email": "mfahlandt@pixel-haufen.de",
+    "date": "2026-08-05T15:13:10Z"
+  },
+  "commit_committer": {
+    "name": "Mario",
+    "email": "mfahlandt@pixel-haufen.de",
+    "date": "2026-08-05T15:45:55Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "7c6f319b58b778074c412fa9232d77bb6f27651b"
+  ],
+  "github_author_login": "mfahlandt",
+  "github_committer_login": "mfahlandt",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-08-06T10:02:06Z",
+  "created_at": "2026-03-06T16:29:38Z",
+  "homepage": "http://docs.bomhort.dev/",
+  "size_kb": 4617,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-08-07T16:07:37.156Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
