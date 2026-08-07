@@ -1,0 +1,56 @@
+{
+  "repo": "seebom-labs/BOMHort",
+  "commit_sha": "7543bc656b563e963f727e28daf4496aaffa38fd",
+  "tree_sha": "a1c41fb9b6a1c34a59aa211bd0decc238ecc249e",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "About standalone, Kubernetes-native Software Bill of Materials (SBOM) visualization and governance platform",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 28,
+  "watchers": 28,
+  "forks": 7,
+  "open_issues": 26,
+  "language": "Go",
+  "topics": [
+    "sbom",
+    "sbom-quality",
+    "security",
+    "suite",
+    "supply-chain",
+    "supply-chain-security"
+  ],
+  "commit_message": "docs(roadmap): add Tier-2 SBOM fidelity capture as v1.0 blocker (#257)\n\nRecords the two-tier storage direction that came out of evaluating\nprotobom/storage's SQL schemas (#101) and merged ClickHouse backend (#102):\n\n- Phase 2 / v1.0 blocker #256: persist the original SBOM bytes at ingest so\n  historical documents remain round-trippable under infinite retention. This\n  is forward-only, hence the pre-1.0 deadline. Bytes go to a configurable blob\n  store (source S3 bucket under an ignored prefix, d",
+  "commit_author": {
+    "name": "Mario",
+    "email": "mfahlandt@pixel-haufen.de",
+    "date": "2026-08-06T10:02:06Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-08-06T10:02:06Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "f622aab84eaf089e827d72b1a85f1ab1608f28ac"
+  ],
+  "github_author_login": "mfahlandt",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-08-06T10:02:06Z",
+  "created_at": "2026-03-06T16:29:38Z",
+  "homepage": "http://docs.bomhort.dev/",
+  "size_kb": 4617,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-08-07T16:07:34.819Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
