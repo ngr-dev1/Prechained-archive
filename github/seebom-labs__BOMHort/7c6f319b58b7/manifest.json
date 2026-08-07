@@ -1,0 +1,56 @@
+{
+  "repo": "seebom-labs/BOMHort",
+  "commit_sha": "7c6f319b58b778074c412fa9232d77bb6f27651b",
+  "tree_sha": "32ffdb104f217c4d690ab85a29e87e3e7aa6f64c",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "About standalone, Kubernetes-native Software Bill of Materials (SBOM) visualization and governance platform",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 28,
+  "watchers": 28,
+  "forks": 7,
+  "open_issues": 26,
+  "language": "Go",
+  "topics": [
+    "sbom",
+    "sbom-quality",
+    "security",
+    "suite",
+    "supply-chain",
+    "supply-chain-security"
+  ],
+  "commit_message": "refactor(api): bundle uploadHandler's params into an uploadDeps struct\n\nuploadHandler took 6 positional constructor params, two of them bools\n(useS3Push, localWritable) that read ambiguously and were easy to\ntranspose by accident at a call site. Reviewer follow-up on #135.\n\nBundles cfg, store, s3Store, pushBucket, and the two storage-routing\nbools into a single uploadDeps struct, with each bool field documented\ninline so its meaning is clear from the struct definition alone. No\nexisting \"Deps\"/\"",
+  "commit_author": {
+    "name": "intelligent-ears",
+    "email": "karyasdas2005@gmail.com",
+    "date": "2026-08-05T14:20:22Z"
+  },
+  "commit_committer": {
+    "name": "Mario",
+    "email": "mfahlandt@pixel-haufen.de",
+    "date": "2026-08-05T15:45:55Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "061566f4c6d86affde9e8d1a1ea5b6af40e54c1d"
+  ],
+  "github_author_login": "intelligent-ears",
+  "github_committer_login": "mfahlandt",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-08-06T10:02:06Z",
+  "created_at": "2026-03-06T16:29:38Z",
+  "homepage": "http://docs.bomhort.dev/",
+  "size_kb": 4617,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-08-07T16:07:38.271Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
