@@ -1,0 +1,58 @@
+{
+  "repo": "flox/flox",
+  "commit_sha": "2b494b9302992a47a6b8715af46aa001926c5792",
+  "tree_sha": "ea74dae1a86f34d63cbcd204761bd8e70b5bb068",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Deterministic Foundation for your SDLC",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 4078,
+  "watchers": 4078,
+  "forks": 127,
+  "open_issues": 443,
+  "language": "Rust",
+  "topics": [
+    "developer-tools",
+    "development-environment",
+    "nix",
+    "package-manager",
+    "production",
+    "rust",
+    "virtual-environments"
+  ],
+  "commit_message": "fix(activate): honor FLOX_PROMPT in fish and tcsh when NO_COLOR is set (#4597)\n\nFixes DEV-241.\n\n## Summary\n\nThe `NO_COLOR` branches of the fish and tcsh set-prompt scripts\nhardcoded the `flox` prompt label even though both scripts default\n`FLOX_PROMPT` a few lines earlier, so a custom label — including one set\nvia manifest `[vars]`, as documented in `flox-activate(1)` by #4590 —\nwas silently ignored in those shells whenever `NO_COLOR` was set. bash\n(`set-prompt.bash:26`, `${FLOX_PROMPT-flox}`) a",
+  "commit_author": {
+    "name": "Daniel Sauble",
+    "email": "daniel@flox.dev",
+    "date": "2026-08-07T23:52:43Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-08-07T23:52:43Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "f6ede5836a855b9b758b86bca6366c7087b0e0f1",
+    "c00ed8411ca9ff5621b65b7bc603a13a7f39b26b"
+  ],
+  "github_author_login": "djsauble",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-08-08T00:21:53Z",
+  "created_at": "2022-12-22T15:52:43Z",
+  "homepage": "https://flox.dev",
+  "size_kb": 31295,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-08-08T16:20:10.659Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
