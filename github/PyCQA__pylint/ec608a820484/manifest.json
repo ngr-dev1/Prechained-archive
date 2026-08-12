@@ -1,0 +1,57 @@
+{
+  "repo": "PyCQA/pylint",
+  "commit_sha": "ec608a820484938d828ecfa3a62b44c964161471",
+  "tree_sha": "cbe0e1016a25acb6e84ddf8d39d344ed7990ab90",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "It's not just a linter that annoys you!",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 5712,
+  "watchers": 5712,
+  "forks": 1299,
+  "open_issues": 1086,
+  "language": "Python",
+  "topics": [
+    "closember",
+    "code-quality",
+    "hacktoberfest",
+    "linter",
+    "pep8",
+    "static-analysis",
+    "static-code-analysis"
+  ],
+  "commit_message": "Record the Python 2 checks removed in pylint 2.2 as deleted messages (#11264)\n\nSeven checks were removed in 2018 without being added to\nDELETED_MESSAGES_IDS, so pylint had no memory of them: disabling\n'deprecated-lambda' answered that the name is unknown, and the\ndocumentation had no page to point a reader at.\n\nRecord them, with the message each one used to emit. Disabling one now\nexplains that it was removed and links to the issue that removed it.\n\nRefs #1896",
+  "commit_author": {
+    "name": "Pierre Sassoulas",
+    "email": "pierre.sassoulas@gmail.com",
+    "date": "2026-08-12T12:31:59Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-08-12T12:31:59Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "d4ade4ae762534f203d57c3cbcb94e4d7d3d7f0d"
+  ],
+  "github_author_login": "Pierre-Sassoulas",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-08-12T13:13:33Z",
+  "created_at": "2015-12-09T05:40:02Z",
+  "homepage": "https://pylint.readthedocs.io/en/latest/",
+  "size_kb": 41124,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-08-12T23:20:04.723Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
