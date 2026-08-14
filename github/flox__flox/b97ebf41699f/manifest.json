@@ -1,0 +1,58 @@
+{
+  "repo": "flox/flox",
+  "commit_sha": "b97ebf41699f1f9d21dd6e9499140307d6fec3e2",
+  "tree_sha": "938f1e6f75e4c1f19fd6165eaf9aa911ffad92dd",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Deterministic Foundation for your SDLC",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 4088,
+  "watchers": 4088,
+  "forks": 127,
+  "open_issues": 440,
+  "language": "Rust",
+  "topics": [
+    "developer-tools",
+    "development-environment",
+    "nix",
+    "package-manager",
+    "production",
+    "rust",
+    "virtual-environments"
+  ],
+  "commit_message": "fix(publish): CLI-130 make publish/catalog recording tests DB-state independent (#4536)\n\n## Proposed Changes\n\nPublish/catalog mock recording tests are meant to be regenerated against\na local FloxHub stack that gets reset once at the start of a session.\nSeveral recording tests didn't actually need that assumption to hold\nbeyond session start, but were more fragile than they needed to be: they\nused manually-incremented `\"mypkgN\"` literals for the package name,\nseparate from the (already unique) re",
+  "commit_author": {
+    "name": "Bill LeVine",
+    "email": "bill@floxdev.com",
+    "date": "2026-08-13T20:55:53Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-08-13T20:55:53Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "99e30145e1dbcd61f09b91efc8d93f243ee67b30",
+    "1875e42ea688b4e0d961574b1aef7938d6b00a77"
+  ],
+  "github_author_login": "billlevine",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-08-14T13:53:26Z",
+  "created_at": "2022-12-22T15:52:43Z",
+  "homepage": "https://flox.dev",
+  "size_kb": 31614,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-08-14T15:06:25.059Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
