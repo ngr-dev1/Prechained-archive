@@ -1,0 +1,58 @@
+{
+  "repo": "flox/flox",
+  "commit_sha": "99e30145e1dbcd61f09b91efc8d93f243ee67b30",
+  "tree_sha": "620b7c6faa82495e7f24453131fe50e0e3765cd7",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Deterministic Foundation for your SDLC",
+  "license": "GPL-2.0",
+  "license_name": "GNU General Public License v2.0",
+  "stars": 4088,
+  "watchers": 4088,
+  "forks": 127,
+  "open_issues": 440,
+  "language": "Rust",
+  "topics": [
+    "developer-tools",
+    "development-environment",
+    "nix",
+    "package-manager",
+    "production",
+    "rust",
+    "virtual-environments"
+  ],
+  "commit_message": "fix(activations): downgrade StateFileChanged send failure to debug (CLI-154) (#4561)\n\n## Proposed Changes\n\nThe state.json file-watcher callback in `flox-activations` logs at\n`error!` when its channel send fails. That channel only closes when the\nmain-loop receiver has been dropped, which happens during executive\nshutdown. A late file-change event arriving after shutdown then hits a\nclosed channel — an expected shutdown-ordering race, not a failure.\n\nThis false alarm is Sentry issue CLI-FLOX-3B: ",
+  "commit_author": {
+    "name": "Gil  Mishal",
+    "email": "gil@flox.dev",
+    "date": "2026-08-13T15:04:42Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-08-13T15:04:42Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "25bdac92c10b49f66c1362ebb798503d42c20e2b",
+    "1ce1bb96a21efc9c96751240dafdcbee0b6f9076"
+  ],
+  "github_author_login": "gilmishal",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-08-14T13:53:26Z",
+  "created_at": "2022-12-22T15:52:43Z",
+  "homepage": "https://flox.dev",
+  "size_kb": 31614,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-08-14T15:06:27.928Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
