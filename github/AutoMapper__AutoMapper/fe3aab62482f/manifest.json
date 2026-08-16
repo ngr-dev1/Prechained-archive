@@ -1,0 +1,49 @@
+{
+  "repo": "AutoMapper/AutoMapper",
+  "commit_sha": "fe3aab62482f1f0f64b9dd3005b8597a42e8af04",
+  "tree_sha": "ca68ce69dc4f7d081e903ecdaade773cacc45758",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "A convention-based object-object mapper in .NET. ",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 10194,
+  "watchers": 10194,
+  "forks": 2402,
+  "open_issues": 4,
+  "language": "C#",
+  "topics": [],
+  "commit_message": "Run license validation off the construction path (fixes #4640)\n\nMapperConfiguration validated the license key synchronously in its\nconstructor via Task.Run(() => handler.ValidateTokenAsync(...)).GetResult().\nUnder a lazily-built DI singleton (e.g. Lamar) that runs while the container\nholds its singleton-build lock, and Task.Run needs a free thread-pool thread\nto complete. During a cold start that takes immediate traffic the pool is\nsaturated (every request thread is parked waiting on that same l",
+  "commit_author": {
+    "name": "Jimmy Bogard",
+    "email": "jimmy.bogard@gmail.com",
+    "date": "2026-06-18T14:45:43Z"
+  },
+  "commit_committer": {
+    "name": "Jimmy Bogard",
+    "email": "jimmy.bogard@gmail.com",
+    "date": "2026-06-18T14:45:43Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "fed6e64393a68837896c90128a6a2b9a76eededc"
+  ],
+  "github_author_login": "jbogard",
+  "github_committer_login": "jbogard",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-07-02T13:51:10Z",
+  "created_at": "2010-02-06T15:17:58Z",
+  "homepage": "https://automapper.io",
+  "size_kb": 127430,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-08-16T04:33:55.334Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
