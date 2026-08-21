@@ -1,0 +1,55 @@
+{
+  "name": "either",
+  "version": "1.18.0",
+  "ecosystem": "cargo",
+  "description": "The enum `Either` with variants `Left` and `Right` is a general purpose sum type with two cases.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "252afb9ae5eaa683babdc6a068b3f5726eb19e05070c731f9b2a23a7c3e8ed34",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "std": [],
+    "use_std": [
+      "std"
+    ]
+  },
+  "downloads": 200805,
+  "yanked": false,
+  "repository": "https://github.com/rayon-rs/either",
+  "homepage": null,
+  "keywords": [
+    "data-structure",
+    "no_std"
+  ],
+  "categories": [
+    "Data structures",
+    "No standard library"
+  ],
+  "dependencies": [
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.95",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 539,
+    "login": "cuviper",
+    "name": "Josh Stone"
+  },
+  "publishedAt": "2026-08-20T19:36:48.266137Z",
+  "captured_at": "2026-08-21T09:02:02.846Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
