@@ -1,0 +1,58 @@
+{
+  "repo": "pnpm/pnpm",
+  "commit_sha": "e7f3bccfff3e9468bfe8df23fb6f324470321769",
+  "tree_sha": "453f87abe737f4f1e4aba61bb3a333f762c59ac3",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast, disk space efficient package manager",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 36231,
+  "watchers": 36231,
+  "forks": 1672,
+  "open_issues": 2504,
+  "language": "Rust",
+  "topics": [
+    "dependency-manager",
+    "install",
+    "javascript",
+    "modules",
+    "node",
+    "nodejs",
+    "npm",
+    "package-manager"
+  ],
+  "commit_message": "feat: workspace task orchestration (#14209)\n\nReplace the chunked topological scheduler of recursive run/exec with\nper-task scheduling in both stacks: a task — a (project, script) pair —\nbecomes runnable when every task it depends on has completed\nsuccessfully, and runnable tasks are dispatched under the\nworkspace-concurrency limit with no barrier between\ndependency-independent tasks.\n\nA new \"tasks\" section in pnpm-workspace.yaml declares task dependencies\nwith the caret convention (\"^build\" = th",
+  "commit_author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io",
+    "date": "2026-08-27T00:41:03Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-08-27T00:41:03Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "13d32215d44e411e0f8f39f5b9a34c79e2e47b59"
+  ],
+  "github_author_login": "zkochan",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-08-27T03:50:53Z",
+  "created_at": "2016-01-28T07:40:43Z",
+  "homepage": "https://pnpm.io",
+  "size_kb": 245293,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-08-27T07:00:43.331Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
