@@ -1,0 +1,77 @@
+{
+  "name": "uuid",
+  "version": "14.0.2",
+  "ecosystem": "npm",
+  "description": "RFC9562 UUIDs",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "30.3.0",
+    "runmd": "2.1.1",
+    "globals": "17.4.0",
+    "publint": "0.3.21",
+    "lefthook": "1.11.13",
+    "prettier": "3.8.3",
+    "commander": "14.0.3",
+    "typescript": "5.4.3",
+    "bundlewatch": "0.4.1",
+    "lint-staged": "16.4.0",
+    "neostandard": "0.13.0",
+    "npm-run-all2": "8.0.4",
+    "@biomejs/biome": "2.4.10",
+    "release-please": "17.3.0",
+    "@commitlint/cli": "20.5.0",
+    "standard-version": "9.5.0",
+    "@commitlint/config-conventional": "20.5.0"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "lefthook install",
+    "prepublish": null,
+    "prepublishOnly": "npm run build"
+  },
+  "maintainers": [
+    {
+      "name": "broofa",
+      "email": "robert@broofa.com"
+    },
+    {
+      "name": "ctavan",
+      "email": "dev@tavan.de"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2026-08-18T18:21:56.060Z",
+  "dist": {
+    "integrity": "sha512-xZe/16rV4aa+HGSOCiY2YeLT1OybRLrrkL/Rqaq7p7GMVXjFh+6wN4oMYgjFmnSnhY8t6Xpdl2l9qmnHYuMHwQ==",
+    "shasum": "d5ae03e4db0881c87271f8b0b9bd7312d02c799a",
+    "tarball": "https://registry.npmjs.org/uuid/-/uuid-14.0.2.tgz",
+    "fileCount": 70,
+    "unpackedSize": 65685
+  },
+  "repository": {
+    "url": "git+https://github.com/uuidjs/uuid.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/uuidjs/uuid#readme",
+  "bugs": {
+    "url": "https://github.com/uuidjs/uuid/issues"
+  },
+  "keywords": [
+    "uuid",
+    "guid",
+    "rfc4122",
+    "rfc9562"
+  ],
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com"
+  },
+  "captured_at": "2026-09-02T20:07:34.580Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
