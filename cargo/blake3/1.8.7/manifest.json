@@ -1,0 +1,186 @@
+{
+  "name": "blake3",
+  "version": "1.8.7",
+  "ecosystem": "cargo",
+  "description": "the BLAKE3 hash function",
+  "license": "CC0-1.0 OR Apache-2.0 OR Apache-2.0 WITH LLVM-exception",
+  "checksum": "6d9e454fc11f76977dc803893aff6304ed33d6a26efae8696573bea74baa27ae",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "digest": [
+      "dep:digest"
+    ],
+    "mmap": [
+      "std",
+      "dep:memmap2"
+    ],
+    "neon": [],
+    "no_avx2": [],
+    "no_avx512": [],
+    "no_neon": [],
+    "no_sse2": [],
+    "no_sse41": [],
+    "prefer_intrinsics": [],
+    "pure": [],
+    "rayon": [
+      "dep:rayon-core"
+    ],
+    "std": [
+      "constant_time_eq/std"
+    ],
+    "traits-preview": [
+      "dep:digest"
+    ],
+    "wasm32_simd": [],
+    "zeroize": [
+      "dep:zeroize",
+      "arrayvec/zeroize"
+    ]
+  },
+  "downloads": 1550136,
+  "yanked": false,
+  "repository": "https://github.com/BLAKE3-team/BLAKE3",
+  "homepage": null,
+  "keywords": [],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "arrayvec",
+      "requirement": "^0.7.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "cc",
+      "requirement": "^1.1.12",
+      "kind": "build",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "cfg-if",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "chacha20",
+      "requirement": "^0.10.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ciborium",
+      "requirement": "^0.2.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "constant_time_eq",
+      "requirement": "^0.4.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "cpufeatures",
+      "requirement": "^0.3.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hex",
+      "requirement": "^0.4.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hmac",
+      "requirement": "^0.13.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "page_size",
+      "requirement": "^0.6.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.10.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.107",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3.8.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "digest",
+      "requirement": "^0.11.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "memmap2",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rayon-core",
+      "requirement": "^1.12.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "zeroize",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 3589,
+    "login": "oconnor663",
+    "name": "Jack O'Connor"
+  },
+  "publishedAt": "2026-08-20T09:09:56.903547Z",
+  "captured_at": "2026-09-02T11:53:57.046Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
