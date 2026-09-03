@@ -1,0 +1,136 @@
+{
+  "name": "protobuf-net",
+  "version": "3.4.21",
+  "ecosystem": "nuget",
+  "description": "Provides simple access to fast and efficient \"Protocol Buffers\" serialization from .NET applications",
+  "license": "Apache-2.0",
+  "licenseExpression": "Apache-2.0",
+  "authors": [
+    "Marc Gravell"
+  ],
+  "owners": [],
+  "tags": [
+    "binary",
+    "serialization",
+    "protobuf"
+  ],
+  "projectUrl": "https://protobuf-net.dev/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "protobuf-net.Core",
+      "range": "[3.4.21, )",
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "id": "protobuf-net.Core",
+      "range": "[3.4.21, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "protobuf-net.Core",
+      "range": "[3.4.21, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Reflection.Emit",
+      "range": "[4.7.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Reflection.Emit.Lightweight",
+      "range": "[4.7.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "protobuf-net.Core",
+      "range": "[3.4.21, )",
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.08.31.14.33.02/protobuf-net.3.4.21.json#dependencygroup/.netframework4.6.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.08.31.14.33.02/protobuf-net.3.4.21.json#dependencygroup/.netframework4.6.2/protobuf-net.core",
+          "@type": "PackageDependency",
+          "id": "protobuf-net.Core",
+          "range": "[3.4.21, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/protobuf-net.core/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.6.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.08.31.14.33.02/protobuf-net.3.4.21.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.08.31.14.33.02/protobuf-net.3.4.21.json#dependencygroup/net8.0/protobuf-net.core",
+          "@type": "PackageDependency",
+          "id": "protobuf-net.Core",
+          "range": "[3.4.21, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/protobuf-net.core/index.json"
+        }
+      ],
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.08.31.14.33.02/protobuf-net.3.4.21.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.08.31.14.33.02/protobuf-net.3.4.21.json#dependencygroup/.netstandard2.0/protobuf-net.core",
+          "@type": "PackageDependency",
+          "id": "protobuf-net.Core",
+          "range": "[3.4.21, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/protobuf-net.core/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.08.31.14.33.02/protobuf-net.3.4.21.json#dependencygroup/.netstandard2.0/system.reflection.emit",
+          "@type": "PackageDependency",
+          "id": "System.Reflection.Emit",
+          "range": "[4.7.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.reflection.emit/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.08.31.14.33.02/protobuf-net.3.4.21.json#dependencygroup/.netstandard2.0/system.reflection.emit.lightweight",
+          "@type": "PackageDependency",
+          "id": "System.Reflection.Emit.Lightweight",
+          "range": "[4.7.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.reflection.emit.lightweight/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.08.31.14.33.02/protobuf-net.3.4.21.json#dependencygroup/.netstandard2.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.08.31.14.33.02/protobuf-net.3.4.21.json#dependencygroup/.netstandard2.1/protobuf-net.core",
+          "@type": "PackageDependency",
+          "id": "protobuf-net.Core",
+          "range": "[3.4.21, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/protobuf-net.core/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "publishedAt": "2026-08-31T14:29:44.07+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/protobuf-net/3.4.21/icon",
+  "readmeUrl": "https://www.nuget.org/packages/protobuf-net/3.4.21#show-readme-container",
+  "captured_at": "2026-09-03T14:25:00.296Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
