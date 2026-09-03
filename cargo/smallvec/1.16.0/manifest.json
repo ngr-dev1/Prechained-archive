@@ -1,0 +1,94 @@
+{
+  "name": "smallvec",
+  "version": "1.16.0",
+  "ecosystem": "cargo",
+  "description": "'Small vector' optimization: store up to a small number of items on the stack",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "b9be42f50aa861c555654aa3a37f52f4b1074bacf4e48fe0ef7fa584e80f1f0f",
+  "features": {
+    "const_generics": [],
+    "const_new": [
+      "const_generics"
+    ],
+    "drain_filter": [],
+    "drain_keep_rest": [
+      "drain_filter"
+    ],
+    "impl_bincode": [
+      "bincode",
+      "unty"
+    ],
+    "may_dangle": [],
+    "specialization": [],
+    "union": [],
+    "write": []
+  },
+  "downloads": 1493492,
+  "yanked": false,
+  "repository": "https://github.com/servo/rust-smallvec",
+  "homepage": null,
+  "keywords": [
+    "vector",
+    "vec",
+    "stack",
+    "no_std",
+    "small"
+  ],
+  "categories": [
+    "Data structures"
+  ],
+  "dependencies": [
+    {
+      "name": "bincode",
+      "requirement": "^1.0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "arbitrary",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "bincode",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "malloc_size_of",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "serde",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "unty",
+      "requirement": "^0.0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 2396,
+    "login": "jdm",
+    "name": "Josh Bowman-Matthews"
+  },
+  "publishedAt": "2026-09-01T15:26:29.894397Z",
+  "captured_at": "2026-09-03T19:23:35.186Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
