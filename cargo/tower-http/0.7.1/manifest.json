@@ -1,0 +1,485 @@
+{
+  "name": "tower-http",
+  "version": "0.7.1",
+  "ecosystem": "cargo",
+  "description": "Tower middleware and utilities for HTTP clients and servers",
+  "license": "MIT",
+  "checksum": "08a05a66a4fdd61cbbe0a1d755ffe0ca6aba159dd4820936a0ff8a8278245b9c",
+  "features": {
+    "add-extension": [],
+    "auth": [
+      "base64",
+      "validate-request"
+    ],
+    "catch-panic": [
+      "tracing",
+      "futures-util/std",
+      "dep:http-body",
+      "dep:http-body-util"
+    ],
+    "compression-br": [
+      "dep:async-compression",
+      "async-compression?/brotli",
+      "futures-core",
+      "dep:http-body",
+      "tokio-util",
+      "dep:tokio"
+    ],
+    "compression-deflate": [
+      "dep:async-compression",
+      "async-compression?/zlib",
+      "futures-core",
+      "dep:http-body",
+      "tokio-util",
+      "dep:tokio"
+    ],
+    "compression-full": [
+      "compression-br",
+      "compression-deflate",
+      "compression-gzip",
+      "compression-zstd"
+    ],
+    "compression-gzip": [
+      "dep:async-compression",
+      "async-compression?/gzip",
+      "futures-core",
+      "dep:http-body",
+      "tokio-util",
+      "dep:tokio"
+    ],
+    "compression-zstd": [
+      "dep:async-compression",
+      "async-compression?/zstd",
+      "futures-core",
+      "dep:http-body",
+      "tokio-util",
+      "dep:tokio"
+    ],
+    "cors": [],
+    "csrf": [],
+    "decompression-br": [
+      "dep:async-compression",
+      "async-compression?/brotli",
+      "futures-core",
+      "dep:http-body",
+      "dep:http-body-util",
+      "tokio-util",
+      "dep:tokio"
+    ],
+    "decompression-deflate": [
+      "dep:async-compression",
+      "async-compression?/zlib",
+      "futures-core",
+      "dep:http-body",
+      "dep:http-body-util",
+      "tokio-util",
+      "dep:tokio"
+    ],
+    "decompression-full": [
+      "decompression-br",
+      "decompression-deflate",
+      "decompression-gzip",
+      "decompression-zstd"
+    ],
+    "decompression-gzip": [
+      "dep:async-compression",
+      "async-compression?/gzip",
+      "futures-core",
+      "dep:http-body",
+      "dep:http-body-util",
+      "tokio-util",
+      "dep:tokio"
+    ],
+    "decompression-zstd": [
+      "dep:async-compression",
+      "async-compression?/zstd",
+      "futures-core",
+      "dep:http-body",
+      "dep:http-body-util",
+      "tokio-util",
+      "dep:tokio"
+    ],
+    "default": [],
+    "follow-redirect": [
+      "futures-util",
+      "dep:http-body",
+      "dep:url",
+      "tower/util"
+    ],
+    "fs": [
+      "dep:tokio",
+      "tokio?/fs",
+      "tokio?/io-util",
+      "futures-core",
+      "futures-util",
+      "dep:http-body",
+      "dep:http-body-util",
+      "tokio-util/io",
+      "dep:http-range-header",
+      "mime_guess",
+      "mime",
+      "httpdate",
+      "set-status",
+      "futures-util/alloc"
+    ],
+    "full": [
+      "add-extension",
+      "auth",
+      "catch-panic",
+      "compression-full",
+      "cors",
+      "csrf",
+      "decompression-full",
+      "follow-redirect",
+      "fs",
+      "limit",
+      "map-request-body",
+      "map-response-body",
+      "metrics",
+      "normalize-path",
+      "on-early-drop",
+      "propagate-header",
+      "redirect",
+      "request-id",
+      "sensitive-headers",
+      "set-header",
+      "set-status",
+      "timeout",
+      "trace",
+      "util",
+      "validate-request"
+    ],
+    "limit": [
+      "dep:http-body",
+      "dep:http-body-util"
+    ],
+    "map-request-body": [],
+    "map-response-body": [],
+    "metrics": [
+      "dep:http-body",
+      "dep:tokio",
+      "tokio?/time"
+    ],
+    "normalize-path": [],
+    "on-early-drop": [
+      "dep:http-body"
+    ],
+    "propagate-header": [],
+    "redirect": [],
+    "request-id": [
+      "uuid"
+    ],
+    "sensitive-headers": [],
+    "set-header": [],
+    "set-status": [],
+    "timeout": [
+      "dep:http-body",
+      "dep:tokio",
+      "tokio?/time"
+    ],
+    "trace": [
+      "dep:http-body",
+      "tracing"
+    ],
+    "util": [
+      "tower"
+    ],
+    "validate-request": [
+      "mime"
+    ]
+  },
+  "downloads": 85419,
+  "yanked": false,
+  "repository": "https://github.com/tower-rs/tower-http",
+  "homepage": "https://github.com/tower-rs/tower-http",
+  "keywords": [
+    "io",
+    "http",
+    "async",
+    "service",
+    "futures"
+  ],
+  "categories": [
+    "Network programming",
+    "Asynchronous",
+    "Web programming"
+  ],
+  "dependencies": [
+    {
+      "name": "bitflags",
+      "requirement": "^2.0.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "brotli",
+      "requirement": "^8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bytes",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "flate2",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3.14",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "http",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "http-body",
+      "requirement": "^1.0.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "http-body-util",
+      "requirement": "^0.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "hyper-util",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "once_cell",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "percent-encoding",
+      "requirement": "^2.1.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "pin-project-lite",
+      "requirement": "^0.2.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "sync_wrapper",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tower",
+      "requirement": "^0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tower-layer",
+      "requirement": "^0.3.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tower-service",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tracing-subscriber",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "zstd",
+      "requirement": "^0.13",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "async-compression",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "base64",
+      "requirement": "^0.22",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "futures-core",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "futures-util",
+      "requirement": "^0.3.14",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "http-body",
+      "requirement": "^1.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "http-body-util",
+      "requirement": "^0.1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "http-range-header",
+      "requirement": "^0.4.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "httpdate",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "mime",
+      "requirement": "^0.3.17",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "mime_guess",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "tokio",
+      "requirement": "^1.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "tokio-util",
+      "requirement": "^0.7",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "tower",
+      "requirement": "^0.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "tracing",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "url",
+      "requirement": "^2.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "uuid",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 359,
+    "login": "seanmonstar",
+    "name": "Sean McArthur"
+  },
+  "publishedAt": "2026-08-31T14:49:25.697237Z",
+  "captured_at": "2026-09-03T20:37:32.393Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
