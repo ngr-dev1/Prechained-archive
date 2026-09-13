@@ -1,0 +1,105 @@
+{
+  "name": "fancy-regex",
+  "version": "0.19.2",
+  "ecosystem": "cargo",
+  "description": "An implementation of regexes, supporting a relatively rich set of features, including backreferences and look-around. Aims to be compatible with Oniguruma syntax when the relevant flag is set.",
+  "license": "MIT",
+  "checksum": "d301f5bf187b3c295fce6468d3875037a0bccc5f6b151c63cac2f85babf21912",
+  "features": {
+    "default": [
+      "unicode",
+      "perf",
+      "std",
+      "variable-lookbehinds"
+    ],
+    "leftmost_longest": [],
+    "perf": [
+      "regex-automata/perf"
+    ],
+    "perf-dfa-full": [
+      "regex-automata/dfa-build"
+    ],
+    "std": [
+      "regex-automata/std",
+      "regex-syntax/std",
+      "bit-set/std"
+    ],
+    "track_caller": [],
+    "unicode": [
+      "regex-automata/unicode",
+      "regex-syntax/unicode"
+    ],
+    "variable-lookbehinds": [
+      "regex-automata/dfa-search"
+    ]
+  },
+  "downloads": 0,
+  "yanked": false,
+  "repository": "https://github.com/fancy-regex/fancy-regex",
+  "homepage": null,
+  "keywords": [],
+  "categories": [
+    "Text processing"
+  ],
+  "dependencies": [
+    {
+      "name": "bit-set",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "matches",
+      "requirement": "^0.1.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "quickcheck",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.10",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex-automata",
+      "requirement": "^0.4.16",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "regex-syntax",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 308963,
+    "login": "keith-hall",
+    "name": "Keith Hall"
+  },
+  "publishedAt": "2026-09-13T02:28:32.654499Z",
+  "captured_at": "2026-09-13T05:18:41.582Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
