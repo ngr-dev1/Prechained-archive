@@ -1,0 +1,49 @@
+{
+  "repo": "rollup/rollup",
+  "commit_sha": "942a0a8b95ee3901b463588327fbac97770c6ce4",
+  "tree_sha": "ed66acbc634285d0b1e1d8f8cae240fe2f3cd15b",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Next-generation ES module bundler",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 26307,
+  "watchers": 26307,
+  "forks": 1776,
+  "open_issues": 605,
+  "language": "JavaScript",
+  "topics": [],
+  "commit_message": "ci: collect Rust coverage from JS tests in dedicated job (#6429)\n\n* ci: collect Rust coverage from JS tests in dedicated job\n\nReplace the previous coverage variant in the test matrix with a\ndedicated coverage job that builds an instrumented NAPI module, runs\nthe JS test suite under nyc, and collects LLVM source-based Rust\ncoverage via cargo-llvm-cov.\n\n- Remove the ci:coverage matrix entry from the test job (it now runs\n  a normal test:only without coverage).\n- Remove the codecov upload step from",
+  "commit_author": {
+    "name": "Lukas Taegert-Atkinson",
+    "email": "lukastaegert@users.noreply.github.com",
+    "date": "2026-09-15T08:35:02Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-09-15T08:35:02Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "e8c8dd6cb1ddddf7dc4bc98af8b0b8454e596056"
+  ],
+  "github_author_login": "lukastaegert",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-09-15T08:35:05Z",
+  "created_at": "2015-05-14T22:26:28Z",
+  "homepage": "https://rollupjs.org",
+  "size_kb": 35522,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-09-16T12:20:47.512Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
