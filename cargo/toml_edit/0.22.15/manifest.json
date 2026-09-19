@@ -1,0 +1,130 @@
+{
+  "name": "toml_edit",
+  "version": "0.22.15",
+  "ecosystem": "cargo",
+  "description": "Yet another format-preserving TOML parser.",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "d59a3a72298453f564e2b111fa896f8d07fabb36f51f06d7e875fc5e0b5a3ef1",
+  "features": {
+    "default": [
+      "parse",
+      "display"
+    ],
+    "display": [],
+    "parse": [
+      "dep:winnow"
+    ],
+    "perf": [
+      "dep:kstring"
+    ],
+    "serde": [
+      "dep:serde",
+      "toml_datetime/serde",
+      "dep:serde_spanned"
+    ],
+    "unbounded": []
+  },
+  "downloads": 1847947,
+  "yanked": false,
+  "repository": "https://github.com/toml-rs/toml",
+  "homepage": null,
+  "keywords": [
+    "encoding",
+    "toml"
+  ],
+  "categories": [
+    "Encoding",
+    "Parsing tools",
+    "Configuration",
+    "Parser implementations"
+  ],
+  "dependencies": [
+    {
+      "name": "indexmap",
+      "requirement": "^2.0.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libtest-mimic",
+      "requirement": "^0.7.2",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.116",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "snapbox",
+      "requirement": "^0.6.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "toml-test-data",
+      "requirement": "^1.11.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "toml-test-harness",
+      "requirement": "^0.4.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "toml_datetime",
+      "requirement": "^0.6.6",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "kstring",
+      "requirement": "^2.0.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.145",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_spanned",
+      "requirement": "^0.6.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "winnow",
+      "requirement": "^0.6.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6743,
+    "login": "epage",
+    "name": "Ed Page"
+  },
+  "publishedAt": "2024-07-08T19:30:33.461065Z",
+  "captured_at": "2026-09-19T01:43:41.955Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
