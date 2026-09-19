@@ -1,0 +1,99 @@
+{
+  "name": "swr",
+  "version": "2.5.1",
+  "ecosystem": "npm",
+  "description": "React Hooks library for remote data fetching",
+  "license": "MIT",
+  "dependencies": {
+    "dequal": "^2.0.3",
+    "use-sync-external-store": "^1.6.0"
+  },
+  "devDependencies": {
+    "swr": "workspace:*",
+    "jest": "30.2.0",
+    "husky": "9.1.7",
+    "oxfmt": "^0.57.0",
+    "react": "^18.2.0",
+    "oxlint": "^1.72.0",
+    "rimraf": "6.1.2",
+    "semver": "^7.5.1",
+    "bunchee": "^7.0.0",
+    "@swc/core": "^1.15.3",
+    "@swc/jest": "0.2.39",
+    "react-dom": "^18.2.0",
+    "typescript": "7.0.2",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.12.4",
+    "lint-staged": "16.2.7",
+    "@types/react": "^19.2.7",
+    "@playwright/test": "1.57.0",
+    "@testing-library/dom": "^10.4.1",
+    "react-error-boundary": "^5.0.0",
+    "@arethetypeswrong/cli": "^0.18.2",
+    "@testing-library/react": "^16.3.0",
+    "@type-challenges/utils": "0.1.1",
+    "jest-environment-jsdom": "29.7.0",
+    "@typescript/typescript6": "6.0.2",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@edge-runtime/jest-environment": "^4.0.0",
+    "@types/use-sync-external-store": "^1.5.0"
+  },
+  "peerDependencies": {
+    "react": "^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "husky install",
+    "prepublish": null,
+    "prepublishOnly": "pnpm clean && pnpm build"
+  },
+  "maintainers": [
+    {
+      "name": "quietshu",
+      "email": "g@shud.in"
+    },
+    {
+      "name": "vercel-release-bot",
+      "email": "infra+release@vercel.com"
+    },
+    {
+      "name": "zeit-bot",
+      "email": "team@zeit.co"
+    }
+  ],
+  "author": null,
+  "publishedAt": "2026-08-12T13:53:07.470Z",
+  "dist": {
+    "integrity": "sha512-BRw55e8r0B7SpDN20CAzoQAHl7y1yP7/Zt7oqUjMv0vSt2u2Xnkm88Ws+VypbV9BXHQVuSuyVq7zMjO16wSExw==",
+    "shasum": "3d1801fafe06d13b149bc52c62323dcd43ca570c",
+    "tarball": "https://registry.npmjs.org/swr/-/swr-2.5.1.tgz",
+    "fileCount": 64,
+    "unpackedSize": 320306
+  },
+  "repository": {
+    "url": "git+https://github.com/vercel/swr.git",
+    "type": "git"
+  },
+  "homepage": "https://swr.vercel.app",
+  "bugs": {
+    "url": "https://github.com/vercel/swr/issues"
+  },
+  "keywords": [
+    "swr",
+    "react",
+    "hooks",
+    "request",
+    "cache",
+    "fetch"
+  ],
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com"
+  },
+  "captured_at": "2026-09-19T00:04:39.224Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
