@@ -1,0 +1,49 @@
+{
+  "repo": "lib/pq",
+  "commit_sha": "2835785690d5f375de111f221f2f9bb1d0307e97",
+  "tree_sha": "c2430b5c9824a8e80c6892487e4c73fc55a587d3",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Go PostgreSQL driver for database/sql",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 9956,
+  "watchers": 9956,
+  "forks": 971,
+  "open_issues": 52,
+  "language": "Go",
+  "topics": [],
+  "commit_message": "Allow SCRAM iteration counts <1000, and set maximum\n\nDue to the \"len(fields[2]) < 6\", the iteration count had to be at least\n4 digits and lower ones were rejected.\n\nAdd scram.Client.AcceptIterations() to set a lower and upper boundary\ninstead. We could just fix it to accept any number, but using very low\nor very high values does not strike me as good, so require explicitly\nopting in.\n\nThe default minimum is 1000, because that was the de-facto minimum\nbefore this. Ideally I'd like to use 4096 (Po",
+  "commit_author": {
+    "name": "Martin Tournoij",
+    "email": "martin@arp242.net",
+    "date": "2026-08-16T15:09:01Z"
+  },
+  "commit_committer": {
+    "name": "Martin Tournoij",
+    "email": "martin@arp242.net",
+    "date": "2026-08-16T16:15:08Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "f4654a41a62bc974ea825de270c44f577721205e"
+  ],
+  "github_author_login": "arp242",
+  "github_committer_login": "arp242",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-08-20T22:27:53Z",
+  "created_at": "2012-03-12T18:50:22Z",
+  "homepage": "https://pkg.go.dev/github.com/lib/pq",
+  "size_kb": 1313,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-09-19T04:35:20.822Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
