@@ -1,0 +1,49 @@
+{
+  "repo": "lib/pq",
+  "commit_sha": "f4654a41a62bc974ea825de270c44f577721205e",
+  "tree_sha": "aafa0a877aa5f385dbbed156b8126e0ab6f39c60",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Go PostgreSQL driver for database/sql",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 9956,
+  "watchers": 9956,
+  "forks": 971,
+  "open_issues": 52,
+  "language": "Go",
+  "topics": [],
+  "commit_message": "Split off scram/ package to internal/scram/\n\nThis never should have been exported, but people can and do import this.\n\nMark scram/ as deprecated and frozen, and copy to internal/scram/. This\nway this can be worked on without worrying about compatibility.\n\nAside from a few renamed symbols there are no differences between scram/\nand internal/scram/ (yet). Also add test case from upstream here.",
+  "commit_author": {
+    "name": "Martin Tournoij",
+    "email": "martin@arp242.net",
+    "date": "2026-08-03T17:58:06Z"
+  },
+  "commit_committer": {
+    "name": "Martin Tournoij",
+    "email": "martin@arp242.net",
+    "date": "2026-08-03T19:36:07Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "10237a65609ef6d7410cd3debdcc6e25edf81018"
+  ],
+  "github_author_login": "arp242",
+  "github_committer_login": "arp242",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-08-20T22:27:53Z",
+  "created_at": "2012-03-12T18:50:22Z",
+  "homepage": "https://pkg.go.dev/github.com/lib/pq",
+  "size_kb": 1313,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-09-19T04:35:21.906Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
