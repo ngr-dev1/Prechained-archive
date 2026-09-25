@@ -1,0 +1,53 @@
+{
+  "repo": "spring-projects/spring-framework",
+  "commit_sha": "a2e3c0d81da00aca9c771487f696539c90d9a42a",
+  "tree_sha": "30d8f225f9e97927741bac6c1f07d5e3f01000cc",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Spring Framework",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 60258,
+  "watchers": 60258,
+  "forks": 38763,
+  "open_issues": 475,
+  "language": "Java",
+  "topics": [
+    "spring",
+    "spring-framework",
+    "spring-mvc"
+  ],
+  "commit_message": "Skip invalid links in CssLinkResourceTransformer\n\nPrior to this commit, both `CssLinkResourceTransformer` implementations\ncould fail at runtime in case of invalid CSS links (for example, with\nout of bounds exceptions).\n\nThis commit skips invalid links and writes them out to the resulting CSS\nwithout any transformation.\n\nFixes gh-37336",
+  "commit_author": {
+    "name": "Brian Clozel",
+    "email": "brian.clozel@broadcom.com",
+    "date": "2026-09-25T15:06:28Z"
+  },
+  "commit_committer": {
+    "name": "Brian Clozel",
+    "email": "brian.clozel@broadcom.com",
+    "date": "2026-09-25T15:06:28Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "24645069f978dfb236e4abb7a563eb879189fdab"
+  ],
+  "github_author_login": "bclozel",
+  "github_committer_login": "bclozel",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-09-25T15:40:09Z",
+  "created_at": "2010-12-08T04:04:45Z",
+  "homepage": "https://spring.io/projects/spring-framework",
+  "size_kb": 245214,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-09-25T16:27:10.354Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
