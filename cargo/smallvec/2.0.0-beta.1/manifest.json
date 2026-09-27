@@ -1,0 +1,127 @@
+{
+  "name": "smallvec",
+  "version": "2.0.0-beta.1",
+  "ecosystem": "cargo",
+  "description": "'Small vector' optimization: store up to a small number of items on the stack",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "bd1297afc8b4a5effb27b97efdf6b3595a2a8a9cee776d94820aa76d9f5a3abc",
+  "features": {
+    "default": [
+      "allocator-api2"
+    ],
+    "internals": [],
+    "may_dangle": [],
+    "rayon": [
+      "std",
+      "dep:rayon"
+    ],
+    "serde": [
+      "dep:serde_core"
+    ],
+    "specialization": [],
+    "std": []
+  },
+  "downloads": 7892,
+  "yanked": false,
+  "repository": "https://github.com/servo/rust-smallvec",
+  "homepage": null,
+  "keywords": [
+    "no_std",
+    "small",
+    "stack",
+    "vec",
+    "vector"
+  ],
+  "categories": [
+    "Data structures"
+  ],
+  "dependencies": [
+    {
+      "name": "criterion",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_test",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "allocator-api2",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "arbitrary",
+      "requirement": "^1.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "borsh",
+      "requirement": "^1.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "bytes",
+      "requirement": "^1.12",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "defmt",
+      "requirement": "^1.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "encase",
+      "requirement": "^0.12",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "malloc_size_of",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "rayon",
+      "requirement": "^1.12",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "serde_core",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 2396,
+    "login": "jdm",
+    "name": "Josh Bowman-Matthews"
+  },
+  "publishedAt": "2026-09-20T03:22:11.667320Z",
+  "captured_at": "2026-09-27T13:04:23.813Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
