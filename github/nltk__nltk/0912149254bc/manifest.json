@@ -1,0 +1,55 @@
+{
+  "repo": "nltk/nltk",
+  "commit_sha": "0912149254bcaede4c53114fd8fbc8bc04c96fed",
+  "tree_sha": "afd49079ef22d694b95b71ad58eaebf275041a7e",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "NLTK Source",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 14728,
+  "watchers": 14728,
+  "forks": 3043,
+  "open_issues": 260,
+  "language": "Python",
+  "topics": [
+    "machine-learning",
+    "natural-language-processing",
+    "nlp",
+    "nltk",
+    "python"
+  ],
+  "commit_message": "Cut the macOS quiet stage down to the tests with wall-clock deadlines\n\nThe previous stage moved 47 files chosen by child-process CPU, which\nmade the macOS jobs about twice as long (16 to 21 min). Starvation can\nonly break a test that has a wall-clock deadline, so the quiet stage is\nnow just those: the 24 multiprocessing spawners with proc.join\nbackstops, the three files with hard '< N s' asserts (redos chokepoint,\nquadratic_dos, pathsec sweep tag) and both CoreNLP files, including\ntest_corenlp.p",
+  "commit_author": {
+    "name": "alvations",
+    "email": "alvations@gmail.com",
+    "date": "2026-09-25T18:49:21Z"
+  },
+  "commit_committer": {
+    "name": "alvations",
+    "email": "alvations@gmail.com",
+    "date": "2026-09-25T18:49:21Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "d572dd72c0590e5a72b0fa51cf536e32cd63b8eb"
+  ],
+  "github_author_login": "alvations",
+  "github_committer_login": "alvations",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-09-28T11:07:31Z",
+  "created_at": "2009-09-07T10:53:58Z",
+  "homepage": "https://www.nltk.org",
+  "size_kb": 357652,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-09-28T14:13:07.797Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
