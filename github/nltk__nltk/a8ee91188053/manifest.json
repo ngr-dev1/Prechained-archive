@@ -1,0 +1,55 @@
+{
+  "repo": "nltk/nltk",
+  "commit_sha": "a8ee91188053c713e95d59bae6d0a39d40007a11",
+  "tree_sha": "aaa792ae82b06eb79be0c417919111fe21d85ca9",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "NLTK Source",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 14728,
+  "watchers": 14728,
+  "forks": 3043,
+  "open_issues": 260,
+  "language": "Python",
+  "topics": [
+    "machine-learning",
+    "natural-language-processing",
+    "nlp",
+    "nltk",
+    "python"
+  ],
+  "commit_message": "Run process-spawning tests as a serial stage on macOS\n\nProfiling the whole suite at CI's macOS parallelism showed 47 test files\nwhose tests start child processes (the CoreNLP JVMs and subprocesses\nrunning attack payloads) account for 622 s of the suite's 624 s of\nchild-process CPU. Under --numprocesses auto every core already runs a\nworker, so those children oversubscribed the 3-core macOS runner and\nstarved the deadline-sensitive tests: the CoreNLP server not answering\nwithin start()'s wait whi",
+  "commit_author": {
+    "name": "alvations",
+    "email": "alvations@gmail.com",
+    "date": "2026-09-25T12:37:07Z"
+  },
+  "commit_committer": {
+    "name": "alvations",
+    "email": "alvations@gmail.com",
+    "date": "2026-09-25T12:37:07Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "12b0ce971de1db7771a361cfe9ba0f968cd1a268"
+  ],
+  "github_author_login": "alvations",
+  "github_committer_login": "alvations",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-09-28T11:07:31Z",
+  "created_at": "2009-09-07T10:53:58Z",
+  "homepage": "https://www.nltk.org",
+  "size_kb": 357652,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-09-28T14:13:10.589Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
