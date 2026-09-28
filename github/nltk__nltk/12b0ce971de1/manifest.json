@@ -1,0 +1,55 @@
+{
+  "repo": "nltk/nltk",
+  "commit_sha": "12b0ce971de1db7771a361cfe9ba0f968cd1a268",
+  "tree_sha": "9f9cc01c49d1587d1ff0f337df144f777fd8f573",
+  "branch": "develop",
+  "ecosystem": "github",
+  "description": "NLTK Source",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 14728,
+  "watchers": 14728,
+  "forks": 3043,
+  "open_issues": 260,
+  "language": "Python",
+  "topics": [
+    "machine-learning",
+    "natural-language-processing",
+    "nlp",
+    "nltk",
+    "python"
+  ],
+  "commit_message": "Restore nltk.data.path after the CoreNLP options module\n\n_make_corenlp_server trusts the CoreNLP install by prepending its\ndirectories to nltk.data.path and never took them off, so every later\ntest on the same worker saw the tool directory as the first data root:\ntests that stage a binary under the first root were then (correctly)\nrefused by the trusted-exec guard, and it was the first path searched in\nthe Windows perluniprops LookupError. A module-scoped autouse fixture\nnow restores the path af",
+  "commit_author": {
+    "name": "alvations",
+    "email": "alvations@gmail.com",
+    "date": "2026-09-25T12:37:07Z"
+  },
+  "commit_committer": {
+    "name": "alvations",
+    "email": "alvations@gmail.com",
+    "date": "2026-09-25T12:37:07Z"
+  },
+  "commit_verified": false,
+  "commit_verification_reason": "unsigned",
+  "commit_parents": [
+    "b167922f60f96c689d9ff3a325419488ae716425"
+  ],
+  "github_author_login": "alvations",
+  "github_committer_login": "alvations",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "develop",
+  "pushed_at": "2026-09-28T11:07:31Z",
+  "created_at": "2009-09-07T10:53:58Z",
+  "homepage": "https://www.nltk.org",
+  "size_kb": 357652,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-09-28T14:13:12.040Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
