@@ -1,0 +1,55 @@
+{
+  "repo": "python/mypy",
+  "commit_sha": "c614451af0d0b72d6c404818db788e1f4704425a",
+  "tree_sha": "e8ac06a0965aa17810839f58db9739b94f3ddbca",
+  "branch": "master",
+  "ecosystem": "github",
+  "description": "Optional static typing for Python",
+  "license": "NOASSERTION",
+  "license_name": "Other",
+  "stars": 20653,
+  "watchers": 20653,
+  "forks": 3320,
+  "open_issues": 3239,
+  "language": "Python",
+  "topics": [
+    "linter",
+    "python",
+    "typechecker",
+    "types",
+    "typing"
+  ],
+  "commit_message": "[mypyc] Import setuptools lazily in mypyc.build on Python 3.12+  (#22084)\n\nImporting mypyc.build used to always import setuptools, distutils and\nmypyc.build_setup, but mypyc_build (type checking and C generation)\nneeds none of them. They are only needed for building extensions, e.g. \nin mypycify. Importing them is slow, which adds significant fixed \noverhead to tools that call mypyc_build directly for many small builds, \nsuch as Bazel integrations.\n\nMove these imports into a helper function, cal",
+  "commit_author": {
+    "name": "Jukka Lehtosalo",
+    "email": "jukka.lehtosalo@iki.fi",
+    "date": "2026-10-02T12:17:38Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-10-02T12:17:38Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "48755e024e153839077cef7df46b1882c1f8460b"
+  ],
+  "github_author_login": "JukkaL",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "master",
+  "pushed_at": "2026-10-02T12:17:40Z",
+  "created_at": "2012-12-07T13:30:23Z",
+  "homepage": "https://www.mypy-lang.org/",
+  "size_kb": 87383,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-10-02T14:07:52.404Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
