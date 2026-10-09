@@ -1,0 +1,60 @@
+{
+  "repo": "kubewarden/sbomscanner",
+  "commit_sha": "ffc0bd9a7770bcac5c862b272e5580d52060e976",
+  "tree_sha": "4570c0b897c3a8e709a6b4ab69612c49c31130f3",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "A SBOM-centric security scanner.",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 28,
+  "watchers": 28,
+  "forks": 15,
+  "open_issues": 40,
+  "language": "Go",
+  "topics": [
+    "kubernetes",
+    "kubernetes-security",
+    "sbom",
+    "sbom-generator",
+    "sbom-tool",
+    "security",
+    "vulnerability-assessment",
+    "vulnerability-detection",
+    "vulnerability-scanner",
+    "vulnerability-scanning"
+  ],
+  "commit_message": "fix(docs): render `+optional` kubebuilder markers correctly\n\nBefore, these `+kubebuilder:validation:Optional` were rendered expecting\na value for the marker, but since they carry no value, their Go struct\nserialises to an empty {}.\n\nNow, strip these empty {} suffix in the templates before the renderer\nescapes it until this is solved upstream:\nhttps://github.com/elastic/crd-ref-docs/issues/198\n\nSigned-off-by: Víctor Cuadrado Juan <vcuadradojuan@suse.de>",
+  "commit_author": {
+    "name": "Víctor Cuadrado Juan",
+    "email": "vcuadradojuan@suse.de",
+    "date": "2026-10-08T14:16:12Z"
+  },
+  "commit_committer": {
+    "name": "Víctor Cuadrado Juan",
+    "email": "vcuadradojuan@suse.de",
+    "date": "2026-10-08T14:27:41Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "4aa7365a9f9ff48ed8dec8515b8d2b19d1fe166c"
+  ],
+  "github_author_login": "viccuad",
+  "github_committer_login": "viccuad",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-10-08T19:49:05Z",
+  "created_at": "2024-10-04T12:15:25Z",
+  "homepage": "https://www.kubewarden.io/component/sbom-scanner/",
+  "size_kb": 8218,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-10-09T18:30:40.299Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
