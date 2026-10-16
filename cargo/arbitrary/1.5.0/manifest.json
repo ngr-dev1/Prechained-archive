@@ -1,0 +1,50 @@
+{
+  "name": "arbitrary",
+  "version": "1.5.0",
+  "ecosystem": "cargo",
+  "description": "The trait for generating structured data from unstructured data",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "3bc62ac97cc33321f50863d514c3bc38a453947a8f9e781137e47c7401020aed",
+  "features": {
+    "derive": [
+      "derive_arbitrary"
+    ]
+  },
+  "downloads": 828179,
+  "yanked": false,
+  "repository": "https://github.com/rust-fuzz/arbitrary/",
+  "homepage": null,
+  "keywords": [
+    "arbitrary",
+    "testing"
+  ],
+  "categories": [
+    "Testing"
+  ],
+  "dependencies": [
+    {
+      "name": "exhaustigen",
+      "requirement": "^0.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "derive_arbitrary",
+      "requirement": "~1.5.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 696,
+    "login": "fitzgen",
+    "name": "Nick Fitzgerald"
+  },
+  "publishedAt": "2026-10-06T23:00:58.853193Z",
+  "captured_at": "2026-10-16T11:05:34.049Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
