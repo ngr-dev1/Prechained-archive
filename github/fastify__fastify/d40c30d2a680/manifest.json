@@ -1,0 +1,57 @@
+{
+  "repo": "fastify/fastify",
+  "commit_sha": "d40c30d2a68051a35c2ded4d4b2db114784e2d6c",
+  "tree_sha": "1cf6d338986728346678cd81781d48f7cd387162",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Fast and low overhead web framework, for Node.js",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 37312,
+  "watchers": 37312,
+  "forks": 3027,
+  "open_issues": 167,
+  "language": "JavaScript",
+  "topics": [
+    "fastify",
+    "fastify-core",
+    "hacktoberfest",
+    "nodejs",
+    "performance",
+    "speed",
+    "webframework"
+  ],
+  "commit_message": "docs: clarify that maxParamLength does not prevent ReDoS (#7140)\n\nFixes #7082\n\nThe `maxParamLength` docs claimed the option protects regex routes\nagainst ReDoS. It does not: in find-my-way 9.10.0,\n`currentNode.regex.exec(param)` runs on the whole path segment\n(everything up to the next `/`), and only the captured values are\ncompared against `maxParamLength` afterwards. With `maxParamLength: 10`\nand `allowUnsafeRegex: true` on `/u/:id(^(a+)+$)`, an 11-char segment\ntakes about 10 ms, 27 chars abou",
+  "commit_author": {
+    "name": "Ruben Pari",
+    "email": "73421813+RubenPari@users.noreply.github.com",
+    "date": "2026-10-25T12:39:21Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-10-25T12:39:21Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "2a64ae1627d78fe1f22fb021a7e5763581384473"
+  ],
+  "github_author_login": "RubenPari",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-10-27T11:08:39Z",
+  "created_at": "2016-09-28T19:10:14Z",
+  "homepage": "https://www.fastify.dev",
+  "size_kb": 10847,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-10-28T00:45:42.305Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
