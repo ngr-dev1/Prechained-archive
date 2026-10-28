@@ -1,0 +1,55 @@
+{
+  "repo": "ossf/scorecard-action",
+  "commit_sha": "138adf08756d7d083904fd0f048f7186b55b084b",
+  "tree_sha": "5c0bb8a4f1af09c135c8ae0c6c191ed4a41697f0",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Official GitHub Action for OpenSSF Scorecard.",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 426,
+  "watchers": 426,
+  "forks": 92,
+  "open_issues": 40,
+  "language": "Go",
+  "topics": [
+    "github",
+    "github-actions",
+    "openssf-scorecard",
+    "security",
+    "supply-chain"
+  ],
+  "commit_message": ":seedling: Move CI to golangci-lint v2 (#1725)\n\ngolangci-lint v1.55.2 was built with Go 1.21 and can't reliably\ntype-check code built with current Go: it failed with `undefined: yaml`\non a valid import. golangci-lint-action v7 and later also reject v1,\nwhich blocks Dependabot's action bump.\n\n- Bump golangci-lint-action to v9.3.0 and golangci-lint to v2.14.0.\n- Migrate `.golangci.yml` with `golangci-lint migrate`, keeping its\n  comments. `exportloopref` is dropped (removed in v2; Go 1.22 loop\n  s",
+  "commit_author": {
+    "name": "Stephen Augustus",
+    "email": "justaugustus@users.noreply.github.com",
+    "date": "2026-10-14T05:52:55Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-10-14T05:52:55Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "a9a196cba037622e063cd4084d7024f4ba178a07"
+  ],
+  "github_author_login": "justaugustus",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-10-24T21:17:06Z",
+  "created_at": "2021-10-25T16:29:31Z",
+  "homepage": null,
+  "size_kb": 7537,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-10-28T01:44:09.235Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
