@@ -1,0 +1,49 @@
+{
+  "name": "rustc-hash",
+  "version": "2.1.0",
+  "ecosystem": "cargo",
+  "description": "A speedy, non-cryptographic hashing algorithm used by rustc",
+  "license": "Apache-2.0 OR MIT",
+  "checksum": "c7fb8039b3032c191086b10f11f319a6e99e1e82889c5cc6046f515c9db1d497",
+  "features": {
+    "default": [
+      "std"
+    ],
+    "nightly": [],
+    "rand": [
+      "dep:rand",
+      "std"
+    ],
+    "std": []
+  },
+  "downloads": 19319762,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/rustc-hash",
+  "homepage": null,
+  "keywords": [
+    "fxhash",
+    "hash",
+    "hasher",
+    "rustc"
+  ],
+  "categories": [],
+  "dependencies": [
+    {
+      "name": "rand",
+      "requirement": "^0.8",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 130181,
+    "login": "Noratrieb",
+    "name": "nora"
+  },
+  "publishedAt": "2024-11-30T13:49:39.988525Z",
+  "captured_at": "2026-10-29T06:20:25.902Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
