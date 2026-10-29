@@ -1,0 +1,109 @@
+{
+  "name": "pest",
+  "version": "2.9.5",
+  "ecosystem": "cargo",
+  "description": "The Elegant Parser",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "a8db75153506001cb36ed924f08cadc862eb3f8c4d0d534139f29074769d7660",
+  "features": {
+    "const_prec_climber": [],
+    "default": [
+      "std",
+      "memchr"
+    ],
+    "miette-error": [
+      "std",
+      "pretty-print",
+      "dep:miette"
+    ],
+    "pretty-print": [
+      "dep:serde",
+      "dep:serde_json"
+    ],
+    "stack-guard": [
+      "std",
+      "pest_stack_guard/stack-guard"
+    ],
+    "std": [
+      "ucd-trie/std",
+      "dep:pest_stack_guard"
+    ]
+  },
+  "downloads": 284006,
+  "yanked": false,
+  "repository": "https://github.com/pest-parser/pest",
+  "homepage": "https://pest.rs/",
+  "keywords": [
+    "grammar",
+    "parser",
+    "peg",
+    "pest"
+  ],
+  "categories": [
+    "Parsing tools"
+  ],
+  "dependencies": [
+    {
+      "name": "criterion",
+      "requirement": "^0.5.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "miette",
+      "requirement": "^7.2.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "ucd-trie",
+      "requirement": "^0.1.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "memchr",
+      "requirement": "^2.4.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "miette",
+      "requirement": "^7.2.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "pest_stack_guard",
+      "requirement": "^1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0.145",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0.85",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2026-10-26T12:54:02.866699Z",
+  "captured_at": "2026-10-29T08:50:02.587Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
