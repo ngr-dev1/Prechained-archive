@@ -1,0 +1,385 @@
+{
+  "name": "rusqlite",
+  "version": "0.41.1",
+  "ecosystem": "cargo",
+  "description": "Ergonomic wrapper for SQLite",
+  "license": "MIT",
+  "checksum": "da9bba6f3506135e120a6586df05be18b48d18896600646a4bec8f993d91a594",
+  "features": {
+    "array": [
+      "vtab",
+      "pointer"
+    ],
+    "backup": [],
+    "blob": [],
+    "buildtime_bindgen": [
+      "libsqlite3-sys?/buildtime_bindgen",
+      "sqlite-wasm-rs?/bindgen"
+    ],
+    "bundled": [
+      "libsqlite3-sys?/bundled",
+      "modern_sqlite"
+    ],
+    "bundled-full": [
+      "modern-full",
+      "bundled"
+    ],
+    "bundled-sqlcipher": [
+      "libsqlite3-sys?/bundled-sqlcipher",
+      "bundled"
+    ],
+    "bundled-sqlcipher-vendored-openssl": [
+      "libsqlite3-sys?/bundled-sqlcipher-vendored-openssl",
+      "bundled-sqlcipher"
+    ],
+    "bundled-windows": [
+      "libsqlite3-sys?/bundled-windows"
+    ],
+    "cache": [
+      "hashlink"
+    ],
+    "collation": [],
+    "column_decltype": [],
+    "column_metadata": [
+      "libsqlite3-sys?/column_metadata"
+    ],
+    "csvtab": [
+      "csv",
+      "vtab"
+    ],
+    "default": [
+      "cache",
+      "ffi-sqlite-wasm-rs"
+    ],
+    "extra_check": [],
+    "fallible_uint": [],
+    "ffi-sqlite-wasm-rs": [
+      "dep:sqlite-wasm-rs"
+    ],
+    "functions": [],
+    "hooks": [
+      "wal"
+    ],
+    "i128_blob": [],
+    "in_gecko": [
+      "modern_sqlite",
+      "libsqlite3-sys?/in_gecko"
+    ],
+    "limits": [],
+    "load_extension": [],
+    "loadable_extension": [
+      "libsqlite3-sys?/loadable_extension"
+    ],
+    "modern-full": [
+      "array",
+      "backup",
+      "blob",
+      "modern_sqlite",
+      "chrono",
+      "collation",
+      "column_metadata",
+      "column_decltype",
+      "csvtab",
+      "extra_check",
+      "functions",
+      "hooks",
+      "i128_blob",
+      "jiff",
+      "limits",
+      "load_extension",
+      "serde_json",
+      "serialize",
+      "series",
+      "time",
+      "trace",
+      "unlock_notify",
+      "url",
+      "uuid",
+      "vtab",
+      "wal",
+      "window"
+    ],
+    "modern_sqlite": [
+      "libsqlite3-sys?/bundled_bindings"
+    ],
+    "pointer": [],
+    "preupdate_hook": [
+      "libsqlite3-sys?/preupdate_hook",
+      "hooks"
+    ],
+    "serialize": [],
+    "series": [
+      "vtab"
+    ],
+    "session": [
+      "libsqlite3-sys?/session",
+      "hooks"
+    ],
+    "sqlcipher": [
+      "libsqlite3-sys?/sqlcipher"
+    ],
+    "trace": [],
+    "unlock_notify": [
+      "libsqlite3-sys?/unlock_notify"
+    ],
+    "vtab": [],
+    "wal": [],
+    "wasm32-wasi-vfs": [
+      "libsqlite3-sys?/wasm32-wasi-vfs"
+    ],
+    "window": [
+      "functions"
+    ],
+    "with-asan": [
+      "libsqlite3-sys?/with-asan"
+    ]
+  },
+  "downloads": 6579,
+  "yanked": false,
+  "repository": "https://github.com/rusqlite/rusqlite",
+  "homepage": null,
+  "keywords": [
+    "database",
+    "ffi",
+    "sqlite"
+  ],
+  "categories": [
+    "Database interfaces"
+  ],
+  "dependencies": [
+    {
+      "name": "bencher",
+      "requirement": "^0.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "bitflags",
+      "requirement": "^2.6.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "doc-comment",
+      "requirement": "^0.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fallible-iterator",
+      "requirement": "^0.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "fallible-streaming-iterator",
+      "requirement": "^0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "libsqlite3-sys",
+      "requirement": "^0.39.0",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "regex",
+      "requirement": "^1.5.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "self_cell",
+      "requirement": "^1.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "smallvec",
+      "requirement": "^1.6.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "sqlite-wasm-rs",
+      "requirement": ">=0.5.1, <0.7.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "unicase",
+      "requirement": "^2.6.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "uuid",
+      "requirement": "^1.28",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "uuid",
+      "requirement": "^1.28",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen",
+      "requirement": "^0.2.104",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-test",
+      "requirement": "^0.3.54",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "chrono",
+      "requirement": "^0.4.42",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "chrono",
+      "requirement": "^0.4.42",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "csv",
+      "requirement": "^1.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "hashlink",
+      "requirement": "^0.12",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "jiff",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "jiff",
+      "requirement": "^0.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "libsqlite3-sys",
+      "requirement": "^0.39.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rusqlite-macros",
+      "requirement": "^0.4.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "sqlite-wasm-rs",
+      "requirement": ">=0.5.1, <0.7.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "time",
+      "requirement": "^0.3.47",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.3.47",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "url",
+      "requirement": "^2.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "uuid",
+      "requirement": "^1.28",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "uuid",
+      "requirement": "^1.28",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 5062,
+    "login": "gwenn",
+    "name": "gwenn"
+  },
+  "publishedAt": "2026-10-28T17:58:27.732969Z",
+  "captured_at": "2026-10-29T08:59:17.219Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
