@@ -1,0 +1,74 @@
+{
+  "name": "argon2",
+  "version": "0.45.1",
+  "ecosystem": "npm",
+  "description": "An Argon2 library for Node",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "@phc/format": "^1.0.0",
+    "node-addon-api": "^8.9.0",
+    "node-gyp-build": "^4.8.4"
+  },
+  "devDependencies": {
+    "oxfmt": "0.59.0",
+    "oxlint": "1.74.0",
+    "node-gyp": "12.4.0",
+    "typescript": "7.0.2",
+    "@types/node": "24.13.3",
+    "prebuildify": "6.0.1",
+    "@tsconfig/node22": "22.0.5"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=16.17.0"
+  },
+  "scripts": {
+    "install": "cross-env ZERO_AR_DATE=1 node-gyp-build",
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "tsc",
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "ranisalt",
+      "email": "ranisalt@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Ranieri Althoff",
+    "email": "ranisalt+argon2@gmail.com"
+  },
+  "publishedAt": "2026-07-21T23:55:28.189Z",
+  "dist": {
+    "integrity": "sha512-skm+/WCjkGqCQxF7FG1LuZXM5yvbFjgbfiCGsud2oLgaDhh6b6dbH0b1EkghbM+xx4Bj8Ape+KKgixoIlWZicQ==",
+    "shasum": "1f067fa1825b49e762b62d53b5386d40f96b11be",
+    "tarball": "https://registry.npmjs.org/argon2/-/argon2-0.45.1.tgz",
+    "fileCount": 35,
+    "unpackedSize": 958794
+  },
+  "repository": {
+    "url": "git+https://github.com/ranisalt/node-argon2.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ranisalt/node-argon2#readme",
+  "bugs": {
+    "url": "https://github.com/ranisalt/node-argon2/issues"
+  },
+  "keywords": [
+    "argon2",
+    "crypto",
+    "encryption",
+    "hashing",
+    "password"
+  ],
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com"
+  },
+  "captured_at": "2026-10-29T07:37:04.487Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
