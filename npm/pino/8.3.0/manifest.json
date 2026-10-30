@@ -1,0 +1,120 @@
+{
+  "name": "pino",
+  "version": "8.3.0",
+  "ecosystem": "npm",
+  "description": "super fast, all natural json logger",
+  "license": "MIT",
+  "dependencies": {
+    "sonic-boom": "^3.1.0",
+    "fast-redact": "^3.1.1",
+    "atomic-sleep": "^1.0.0",
+    "real-require": "^0.1.0",
+    "thread-stream": "^2.0.0",
+    "process-warning": "^2.0.0",
+    "on-exit-leak-free": "^2.1.0",
+    "pino-std-serializers": "^6.0.0",
+    "safe-stable-stringify": "^2.3.1",
+    "quick-format-unescaped": "^4.0.3",
+    "pino-abstract-transport": "v1.0.0"
+  },
+  "devDependencies": {
+    "log": "^6.0.0",
+    "tap": "^16.2.0",
+    "tsd": "^0.22.0",
+    "bole": "^4.0.0",
+    "jest": "^28.1.0",
+    "pump": "^3.0.0",
+    "tape": "^5.5.3",
+    "execa": "^5.0.0",
+    "steed": "^1.1.3",
+    "airtap": "4.0.4",
+    "bunyan": "^1.8.14",
+    "eslint": "^8.17.0",
+    "rimraf": "^3.0.2",
+    "semver": "^7.3.7",
+    "split2": "^4.0.0",
+    "ts-node": "^10.8.1",
+    "winston": "^3.7.2",
+    "loglevel": "^1.6.7",
+    "through2": "^4.0.0",
+    "benchmark": "^2.1.4",
+    "fastbench": "^1.0.1",
+    "@types/tap": "^15.0.6",
+    "pre-commit": "^1.2.2",
+    "proxyquire": "^2.1.3",
+    "strip-ansi": "^6.0.0",
+    "typescript": "^4.7.3",
+    "@types/node": "^18.0.0",
+    "docsify-cli": "^4.4.4",
+    "pino-pretty": "^8.0.0",
+    "import-fresh": "^3.2.1",
+    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-node": "^11.1.0",
+    "flush-write-stream": "^2.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "@types/flush-write-stream": "^1.0.0"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": "tap --no-check-coverage test/internals/version.test.js"
+  },
+  "maintainers": [
+    {
+      "name": "davidmarkclements",
+      "email": "david.mark.clements@gmail.com"
+    },
+    {
+      "name": "matteo.collina",
+      "email": "hello@matteocollina.com"
+    },
+    {
+      "name": "jsumners",
+      "email": "james.sumners@gmail.com"
+    },
+    {
+      "name": "watson",
+      "email": "w@tson.dk"
+    }
+  ],
+  "author": {
+    "name": "Matteo Collina",
+    "email": "hello@matteocollina.com"
+  },
+  "publishedAt": "2022-07-21T14:25:28.816Z",
+  "dist": {
+    "integrity": "sha512-CUOOU5sYgyLVijf7qsOWkPLOdzIXaVE9Oyl6zAkjgJn30uGBFUtrRaaCzbtOSJ1I6BqfanBqBttbazEJIwHkJg==",
+    "shasum": "13e400df4ef39ce716b33b8e5486fb8e24a30c45",
+    "tarball": "https://registry.npmjs.org/pino/-/pino-8.3.0.tgz",
+    "fileCount": 145,
+    "unpackedSize": 461396
+  },
+  "repository": {
+    "url": "git+https://github.com/pinojs/pino.git",
+    "type": "git"
+  },
+  "homepage": "https://getpino.io",
+  "bugs": {
+    "url": "https://github.com/pinojs/pino/issues"
+  },
+  "keywords": [
+    "fast",
+    "logger",
+    "stream",
+    "json"
+  ],
+  "_npmUser": {
+    "name": "matteo.collina",
+    "email": "hello@matteocollina.com"
+  },
+  "captured_at": "2026-10-30T20:49:06.238Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
