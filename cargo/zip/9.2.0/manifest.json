@@ -1,0 +1,422 @@
+{
+  "name": "zip",
+  "version": "9.2.0",
+  "ecosystem": "cargo",
+  "description": "Library to support the reading and writing of zip files.",
+  "license": "MIT",
+  "checksum": "3f5b58784007ff6e5f280ec82c8596686a3b9b5dd5836c63288d4479f84728b9",
+  "features": {
+    "_arbitrary": [
+      "dep:arbitrary"
+    ],
+    "_bzip2_any": [],
+    "_deflate-any": [],
+    "_miri_compatible_features": [
+      "bzip2",
+      "chrono",
+      "deflate-flate2",
+      "flate2/rust_backend",
+      "deflate-zopfli",
+      "jiff-02",
+      "legacy-zip",
+      "lzma",
+      "nt-time",
+      "ppmd",
+      "unreserved",
+      "xz",
+      "time"
+    ],
+    "aes-crypto": [
+      "dep:aes",
+      "dep:constant_time_eq",
+      "getrandom/std",
+      "dep:hmac",
+      "dep:pbkdf2",
+      "dep:sha1",
+      "dep:zeroize"
+    ],
+    "bzip2": [
+      "dep:bzip2",
+      "bzip2/default",
+      "_bzip2_any"
+    ],
+    "bzip2-rs": [
+      "dep:bzip2",
+      "bzip2/bzip2-sys",
+      "_bzip2_any"
+    ],
+    "chrono": [
+      "dep:chrono"
+    ],
+    "default": [
+      "aes-crypto",
+      "bzip2",
+      "deflate64",
+      "deflate",
+      "lzma",
+      "ppmd",
+      "time",
+      "zstd",
+      "xz"
+    ],
+    "deflate": [
+      "deflate-zopfli",
+      "deflate-flate2-zlib-rs"
+    ],
+    "deflate-flate2": [
+      "_deflate-any",
+      "dep:flate2"
+    ],
+    "deflate-flate2-zlib": [
+      "deflate-flate2",
+      "flate2/zlib"
+    ],
+    "deflate-flate2-zlib-ng": [
+      "deflate-flate2",
+      "flate2/zlib-ng"
+    ],
+    "deflate-flate2-zlib-ng-compat": [
+      "deflate-flate2",
+      "flate2/zlib-ng-compat"
+    ],
+    "deflate-flate2-zlib-rs": [
+      "deflate-flate2",
+      "flate2/zlib-rs"
+    ],
+    "deflate-zopfli": [
+      "dep:zopfli",
+      "_deflate-any"
+    ],
+    "getrandom": [],
+    "jiff-02": [
+      "dep:jiff"
+    ],
+    "legacy-zip": [
+      "bitstream-io"
+    ],
+    "lzma": [
+      "dep:lzma-rust2"
+    ],
+    "nt-time": [
+      "dep:nt-time"
+    ],
+    "ppmd": [
+      "dep:ppmd-rust"
+    ],
+    "rayon": [
+      "dep:rayon"
+    ],
+    "time": [
+      "dep:time"
+    ],
+    "unreserved": [],
+    "xz": [
+      "dep:lzma-rust2"
+    ],
+    "zstd": [
+      "dep:zstd"
+    ]
+  },
+  "downloads": 0,
+  "yanked": false,
+  "repository": "https://github.com/zip-rs/zip2",
+  "homepage": null,
+  "keywords": [
+    "archive",
+    "compression",
+    "zip"
+  ],
+  "categories": [
+    "Compression",
+    "Filesystem",
+    "Parser implementations"
+  ],
+  "dependencies": [
+    {
+      "name": "clap",
+      "requirement": "^4.4.18",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "count_instructions",
+      "requirement": "^0.2.1",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "crc32fast",
+      "requirement": "^1.5",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "criterion",
+      "requirement": "^0.8",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "getrandom",
+      "requirement": "^0.4",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "indexmap",
+      "requirement": "^2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "memchr",
+      "requirement": "^2.7",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "nix",
+      "requirement": "^0.31.3",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "rand",
+      "requirement": "^0.10.3",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "rayon",
+      "requirement": "^1.11",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3.15",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.3.47",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "typed-path",
+      "requirement": "^0.13",
+      "kind": "normal",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "walkdir",
+      "requirement": "^2.5",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "wasm-bindgen-test",
+      "requirement": "^0.3.56",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "windows-sys",
+      "requirement": "^0.61.2",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "aes",
+      "requirement": "^0.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "arbitrary",
+      "requirement": "^1.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "bitstream-io",
+      "requirement": "^4.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "bzip2",
+      "requirement": "^0.6",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "chrono",
+      "requirement": "^0.4.27",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "constant_time_eq",
+      "requirement": "^0.6.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "deflate64",
+      "requirement": "^0.1.10",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "flate2",
+      "requirement": "^1.1",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "hmac",
+      "requirement": "^0.13",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "jiff",
+      "requirement": "^0.2.4",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "lzma-rust2",
+      "requirement": "^0.23.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "nt-time",
+      "requirement": "^0.13",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "pbkdf2",
+      "requirement": "^0.13",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "ppmd-rust",
+      "requirement": "^1.5",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "rayon",
+      "requirement": "^1.11",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "sha1",
+      "requirement": "^0.11",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "time",
+      "requirement": "^0.3.47",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "time",
+      "requirement": "^0.3.47",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "zeroize",
+      "requirement": "^1.9",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "zopfli",
+      "requirement": "^0.8.3",
+      "kind": "normal",
+      "optional": true,
+      "default_features": true
+    },
+    {
+      "name": "zstd",
+      "requirement": "^0.14.2",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2026-10-31T07:26:44.298441Z",
+  "captured_at": "2026-10-31T10:53:53.604Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
