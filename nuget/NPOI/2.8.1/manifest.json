@@ -1,0 +1,784 @@
+{
+  "name": "NPOI",
+  "version": "2.8.1",
+  "ecosystem": "nuget",
+  "description": ".NET port of Apache POI",
+  "license": "https://www.nuget.org/packages/NPOI/2.8.1/license",
+  "licenseExpression": null,
+  "authors": [
+    "Tony Qu",
+    "NPOI Contributors"
+  ],
+  "owners": [],
+  "tags": [
+    "xlsx",
+    "xls",
+    "Excel",
+    "Word",
+    "docx",
+    "office",
+    "ole"
+  ],
+  "projectUrl": "http://nissl-lab.github.io/npoi/",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "BouncyCastle.Cryptography",
+      "range": "[2.6.2, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "Enums.NET",
+      "range": "[5.0.0, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "ExtendedNumerics.BigDecimal",
+      "range": "[2025.1001.2.129, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "MathNet.Numerics.Signed",
+      "range": "[5.0.0, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "Microsoft.IO.RecyclableMemoryStream",
+      "range": "[3.0.1, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "SharpZipLib",
+      "range": "[1.4.2, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "SkiaSharp",
+      "range": "[3.119.4, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+      "range": "[3.119.4, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "System.Security.Cryptography.Xml",
+      "range": "[10.0.10, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "ZString",
+      "range": "[2.6.0, )",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "BouncyCastle.Cryptography",
+      "range": "[2.6.2, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "Enums.NET",
+      "range": "[5.0.0, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "ExtendedNumerics.BigDecimal",
+      "range": "[2025.1001.2.129, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "MathNet.Numerics.Signed",
+      "range": "[5.0.0, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "Microsoft.IO.RecyclableMemoryStream",
+      "range": "[3.0.1, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "SharpZipLib",
+      "range": "[1.4.2, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "SkiaSharp",
+      "range": "[3.119.4, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+      "range": "[3.119.4, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.Security.Cryptography.Xml",
+      "range": "[10.0.10, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.Text.Encoding.CodePages",
+      "range": "[8.0.0, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "ZString",
+      "range": "[2.6.0, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.Formats.Asn1",
+      "range": "[10.0.10, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "System.Memory",
+      "range": "[4.6.3, )",
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "id": "BouncyCastle.Cryptography",
+      "range": "[2.6.2, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Enums.NET",
+      "range": "[5.0.0, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "ExtendedNumerics.BigDecimal",
+      "range": "[2025.1001.2.129, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "MathNet.Numerics.Signed",
+      "range": "[5.0.0, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "Microsoft.IO.RecyclableMemoryStream",
+      "range": "[3.0.1, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "SharpZipLib",
+      "range": "[1.4.2, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "SkiaSharp",
+      "range": "[3.119.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+      "range": "[3.119.4, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "System.Security.Cryptography.Xml",
+      "range": "[10.0.10, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "ZString",
+      "range": "[2.6.0, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "System.Formats.Asn1",
+      "range": "[10.0.10, )",
+      "targetFramework": "net8.0"
+    },
+    {
+      "id": "BouncyCastle.Cryptography",
+      "range": "[2.6.2, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Enums.NET",
+      "range": "[5.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "ExtendedNumerics.BigDecimal",
+      "range": "[2025.1001.2.129, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "MathNet.Numerics.Signed",
+      "range": "[5.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "Microsoft.IO.RecyclableMemoryStream",
+      "range": "[3.0.1, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "SharpZipLib",
+      "range": "[1.4.2, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "SkiaSharp",
+      "range": "[3.119.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+      "range": "[3.119.4, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Security.Cryptography.Xml",
+      "range": "[10.0.10, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Text.Encoding.CodePages",
+      "range": "[8.0.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "ZString",
+      "range": "[2.6.0, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Formats.Asn1",
+      "range": "[10.0.10, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "System.Memory",
+      "range": "[4.6.3, )",
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "id": "BouncyCastle.Cryptography",
+      "range": "[2.6.2, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Enums.NET",
+      "range": "[5.0.0, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "ExtendedNumerics.BigDecimal",
+      "range": "[2025.1001.2.129, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "MathNet.Numerics.Signed",
+      "range": "[5.0.0, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "Microsoft.IO.RecyclableMemoryStream",
+      "range": "[3.0.1, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "SharpZipLib",
+      "range": "[1.4.2, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "SkiaSharp",
+      "range": "[3.119.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+      "range": "[3.119.4, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "System.Security.Cryptography.Xml",
+      "range": "[10.0.10, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "System.Text.Encoding.CodePages",
+      "range": "[8.0.0, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "ZString",
+      "range": "[2.6.0, )",
+      "targetFramework": ".NETStandard2.1"
+    },
+    {
+      "id": "System.Formats.Asn1",
+      "range": "[10.0.10, )",
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net10.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net10.0/bouncycastle.cryptography",
+          "@type": "PackageDependency",
+          "id": "BouncyCastle.Cryptography",
+          "range": "[2.6.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/bouncycastle.cryptography/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net10.0/enums.net",
+          "@type": "PackageDependency",
+          "id": "Enums.NET",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/enums.net/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net10.0/extendednumerics.bigdecimal",
+          "@type": "PackageDependency",
+          "id": "ExtendedNumerics.BigDecimal",
+          "range": "[2025.1001.2.129, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/extendednumerics.bigdecimal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net10.0/mathnet.numerics.signed",
+          "@type": "PackageDependency",
+          "id": "MathNet.Numerics.Signed",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/mathnet.numerics.signed/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net10.0/microsoft.io.recyclablememorystream",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IO.RecyclableMemoryStream",
+          "range": "[3.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.io.recyclablememorystream/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net10.0/sharpziplib",
+          "@type": "PackageDependency",
+          "id": "SharpZipLib",
+          "range": "[1.4.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sharpziplib/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net10.0/skiasharp",
+          "@type": "PackageDependency",
+          "id": "SkiaSharp",
+          "range": "[3.119.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/skiasharp/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net10.0/skiasharp.nativeassets.linux.nodependencies",
+          "@type": "PackageDependency",
+          "id": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+          "range": "[3.119.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/skiasharp.nativeassets.linux.nodependencies/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net10.0/system.security.cryptography.xml",
+          "@type": "PackageDependency",
+          "id": "System.Security.Cryptography.Xml",
+          "range": "[10.0.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.cryptography.xml/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net10.0/zstring",
+          "@type": "PackageDependency",
+          "id": "ZString",
+          "range": "[2.6.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/zstring/index.json"
+        }
+      ],
+      "targetFramework": "net10.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/bouncycastle.cryptography",
+          "@type": "PackageDependency",
+          "id": "BouncyCastle.Cryptography",
+          "range": "[2.6.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/bouncycastle.cryptography/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/enums.net",
+          "@type": "PackageDependency",
+          "id": "Enums.NET",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/enums.net/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/extendednumerics.bigdecimal",
+          "@type": "PackageDependency",
+          "id": "ExtendedNumerics.BigDecimal",
+          "range": "[2025.1001.2.129, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/extendednumerics.bigdecimal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/mathnet.numerics.signed",
+          "@type": "PackageDependency",
+          "id": "MathNet.Numerics.Signed",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/mathnet.numerics.signed/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/microsoft.io.recyclablememorystream",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IO.RecyclableMemoryStream",
+          "range": "[3.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.io.recyclablememorystream/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/sharpziplib",
+          "@type": "PackageDependency",
+          "id": "SharpZipLib",
+          "range": "[1.4.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sharpziplib/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/skiasharp",
+          "@type": "PackageDependency",
+          "id": "SkiaSharp",
+          "range": "[3.119.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/skiasharp/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/skiasharp.nativeassets.linux.nodependencies",
+          "@type": "PackageDependency",
+          "id": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+          "range": "[3.119.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/skiasharp.nativeassets.linux.nodependencies/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/system.security.cryptography.xml",
+          "@type": "PackageDependency",
+          "id": "System.Security.Cryptography.Xml",
+          "range": "[10.0.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.cryptography.xml/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/system.text.encoding.codepages",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encoding.CodePages",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encoding.codepages/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/zstring",
+          "@type": "PackageDependency",
+          "id": "ZString",
+          "range": "[2.6.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/zstring/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/system.formats.asn1",
+          "@type": "PackageDependency",
+          "id": "System.Formats.Asn1",
+          "range": "[10.0.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.formats.asn1/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netframework4.7.2/system.memory",
+          "@type": "PackageDependency",
+          "id": "System.Memory",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory/index.json"
+        }
+      ],
+      "targetFramework": ".NETFramework4.7.2"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net8.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net8.0/bouncycastle.cryptography",
+          "@type": "PackageDependency",
+          "id": "BouncyCastle.Cryptography",
+          "range": "[2.6.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/bouncycastle.cryptography/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net8.0/enums.net",
+          "@type": "PackageDependency",
+          "id": "Enums.NET",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/enums.net/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net8.0/extendednumerics.bigdecimal",
+          "@type": "PackageDependency",
+          "id": "ExtendedNumerics.BigDecimal",
+          "range": "[2025.1001.2.129, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/extendednumerics.bigdecimal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net8.0/mathnet.numerics.signed",
+          "@type": "PackageDependency",
+          "id": "MathNet.Numerics.Signed",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/mathnet.numerics.signed/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net8.0/microsoft.io.recyclablememorystream",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IO.RecyclableMemoryStream",
+          "range": "[3.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.io.recyclablememorystream/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net8.0/sharpziplib",
+          "@type": "PackageDependency",
+          "id": "SharpZipLib",
+          "range": "[1.4.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sharpziplib/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net8.0/skiasharp",
+          "@type": "PackageDependency",
+          "id": "SkiaSharp",
+          "range": "[3.119.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/skiasharp/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net8.0/skiasharp.nativeassets.linux.nodependencies",
+          "@type": "PackageDependency",
+          "id": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+          "range": "[3.119.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/skiasharp.nativeassets.linux.nodependencies/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net8.0/system.security.cryptography.xml",
+          "@type": "PackageDependency",
+          "id": "System.Security.Cryptography.Xml",
+          "range": "[10.0.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.cryptography.xml/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net8.0/zstring",
+          "@type": "PackageDependency",
+          "id": "ZString",
+          "range": "[2.6.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/zstring/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/net8.0/system.formats.asn1",
+          "@type": "PackageDependency",
+          "id": "System.Formats.Asn1",
+          "range": "[10.0.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.formats.asn1/index.json"
+        }
+      ],
+      "targetFramework": "net8.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/bouncycastle.cryptography",
+          "@type": "PackageDependency",
+          "id": "BouncyCastle.Cryptography",
+          "range": "[2.6.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/bouncycastle.cryptography/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/enums.net",
+          "@type": "PackageDependency",
+          "id": "Enums.NET",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/enums.net/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/extendednumerics.bigdecimal",
+          "@type": "PackageDependency",
+          "id": "ExtendedNumerics.BigDecimal",
+          "range": "[2025.1001.2.129, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/extendednumerics.bigdecimal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/mathnet.numerics.signed",
+          "@type": "PackageDependency",
+          "id": "MathNet.Numerics.Signed",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/mathnet.numerics.signed/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/microsoft.io.recyclablememorystream",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IO.RecyclableMemoryStream",
+          "range": "[3.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.io.recyclablememorystream/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/sharpziplib",
+          "@type": "PackageDependency",
+          "id": "SharpZipLib",
+          "range": "[1.4.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sharpziplib/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/skiasharp",
+          "@type": "PackageDependency",
+          "id": "SkiaSharp",
+          "range": "[3.119.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/skiasharp/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/skiasharp.nativeassets.linux.nodependencies",
+          "@type": "PackageDependency",
+          "id": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+          "range": "[3.119.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/skiasharp.nativeassets.linux.nodependencies/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/system.security.cryptography.xml",
+          "@type": "PackageDependency",
+          "id": "System.Security.Cryptography.Xml",
+          "range": "[10.0.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.cryptography.xml/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/system.text.encoding.codepages",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encoding.CodePages",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encoding.codepages/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/zstring",
+          "@type": "PackageDependency",
+          "id": "ZString",
+          "range": "[2.6.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/zstring/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/system.formats.asn1",
+          "@type": "PackageDependency",
+          "id": "System.Formats.Asn1",
+          "range": "[10.0.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.formats.asn1/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.0/system.memory",
+          "@type": "PackageDependency",
+          "id": "System.Memory",
+          "range": "[4.6.3, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.memory/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.0"
+    },
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1/bouncycastle.cryptography",
+          "@type": "PackageDependency",
+          "id": "BouncyCastle.Cryptography",
+          "range": "[2.6.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/bouncycastle.cryptography/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1/enums.net",
+          "@type": "PackageDependency",
+          "id": "Enums.NET",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/enums.net/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1/extendednumerics.bigdecimal",
+          "@type": "PackageDependency",
+          "id": "ExtendedNumerics.BigDecimal",
+          "range": "[2025.1001.2.129, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/extendednumerics.bigdecimal/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1/mathnet.numerics.signed",
+          "@type": "PackageDependency",
+          "id": "MathNet.Numerics.Signed",
+          "range": "[5.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/mathnet.numerics.signed/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1/microsoft.io.recyclablememorystream",
+          "@type": "PackageDependency",
+          "id": "Microsoft.IO.RecyclableMemoryStream",
+          "range": "[3.0.1, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.io.recyclablememorystream/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1/sharpziplib",
+          "@type": "PackageDependency",
+          "id": "SharpZipLib",
+          "range": "[1.4.2, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/sharpziplib/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1/skiasharp",
+          "@type": "PackageDependency",
+          "id": "SkiaSharp",
+          "range": "[3.119.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/skiasharp/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1/skiasharp.nativeassets.linux.nodependencies",
+          "@type": "PackageDependency",
+          "id": "SkiaSharp.NativeAssets.Linux.NoDependencies",
+          "range": "[3.119.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/skiasharp.nativeassets.linux.nodependencies/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1/system.security.cryptography.xml",
+          "@type": "PackageDependency",
+          "id": "System.Security.Cryptography.Xml",
+          "range": "[10.0.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.security.cryptography.xml/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1/system.text.encoding.codepages",
+          "@type": "PackageDependency",
+          "id": "System.Text.Encoding.CodePages",
+          "range": "[8.0.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.text.encoding.codepages/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1/zstring",
+          "@type": "PackageDependency",
+          "id": "ZString",
+          "range": "[2.6.0, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/zstring/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.09.22.07.10.47/npoi.2.8.1.json#dependencygroup/.netstandard2.1/system.formats.asn1",
+          "@type": "PackageDependency",
+          "id": "System.Formats.Asn1",
+          "range": "[10.0.10, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/system.formats.asn1/index.json"
+        }
+      ],
+      "targetFramework": ".NETStandard2.1"
+    }
+  ],
+  "publishedAt": "2026-09-22T07:06:49.913+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": true,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/npoi/2.8.1/icon",
+  "readmeUrl": "https://www.nuget.org/packages/NPOI/2.8.1#show-readme-container",
+  "captured_at": "2026-11-02T20:46:51.428Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
