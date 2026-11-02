@@ -1,0 +1,157 @@
+{
+  "name": "log",
+  "version": "0.4.35",
+  "ecosystem": "cargo",
+  "description": "A lightweight logging facade for Rust\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "5d15f86d12da44cd8d4ec3c73984537eb7f4cadcb9776a575a0a8a05ca11005c",
+  "features": {
+    "alloc": [],
+    "kv": [],
+    "kv_serde": [
+      "kv_std",
+      "value-bag/serde",
+      "serde"
+    ],
+    "kv_std": [
+      "std",
+      "kv",
+      "value-bag/error"
+    ],
+    "kv_sval": [
+      "kv",
+      "value-bag/sval",
+      "sval",
+      "sval_ref"
+    ],
+    "kv_unstable": [
+      "kv",
+      "value-bag"
+    ],
+    "kv_unstable_serde": [
+      "kv_serde",
+      "kv_unstable_std"
+    ],
+    "kv_unstable_std": [
+      "kv_std",
+      "kv_unstable"
+    ],
+    "kv_unstable_sval": [
+      "kv_sval",
+      "kv_unstable"
+    ],
+    "max_level_debug": [],
+    "max_level_error": [],
+    "max_level_info": [],
+    "max_level_off": [],
+    "max_level_trace": [],
+    "max_level_warn": [],
+    "release_max_level_debug": [],
+    "release_max_level_error": [],
+    "release_max_level_info": [],
+    "release_max_level_off": [],
+    "release_max_level_trace": [],
+    "release_max_level_warn": [],
+    "serde": [
+      "serde_core"
+    ],
+    "std": [
+      "alloc"
+    ]
+  },
+  "downloads": 2011722,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/log",
+  "homepage": null,
+  "keywords": [
+    "logging"
+  ],
+  "categories": [
+    "Debugging"
+  ],
+  "dependencies": [
+    {
+      "name": "proc-macro2",
+      "requirement": "^1.0.63",
+      "kind": "dev",
+      "optional": false,
+      "default_features": false
+    },
+    {
+      "name": "serde",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_json",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_test",
+      "requirement": "^1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "sval",
+      "requirement": "^2.16",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "sval_derive",
+      "requirement": "^2.16",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "value-bag",
+      "requirement": "^1.12",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_core",
+      "requirement": "^1.0",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "sval",
+      "requirement": "^2.16",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "sval_ref",
+      "requirement": "^2.16",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "value-bag",
+      "requirement": "^1.12",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2026-10-30T21:36:19.748360Z",
+  "captured_at": "2026-11-02T22:11:21.892Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
