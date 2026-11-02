@@ -1,0 +1,53 @@
+{
+  "repo": "StackExchange/StackExchange.Redis",
+  "commit_sha": "9d17974fcade6c89b29b233030fe281e75f9ab1c",
+  "tree_sha": "3b8cd77e182d70bf55b5a5704d045ed153c4e22c",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Redis client for .NET",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 6207,
+  "watchers": 6207,
+  "forks": 1560,
+  "open_issues": 212,
+  "language": "C#",
+  "topics": [
+    "c-sharp",
+    "redis",
+    "redis-client"
+  ],
+  "commit_message": "The read loop stops matching replies once teardown owns the response queue; a close with commands in flight no longer completes a call with the previous call's reply (#3330)\n\nRecordConnectionFailed drains _writtenAwaitingResponse one message at a\ntime, completing each outside the lock, while the read loop can still be\nmatching replies that were already in the receive buffer. Each reply the\nloop matched after the drain had taken a message went to the message\n*after* the one it answered: GET key N",
+  "commit_author": {
+    "name": "Marc Gravell",
+    "email": "marc.gravell@gmail.com",
+    "date": "2026-11-02T09:37:54Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-11-02T09:37:54Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "02b9ce4eafbb357bd65c31b57a26c975d9eab45a"
+  ],
+  "github_author_login": "mgravell",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-11-02T16:02:50Z",
+  "created_at": "2014-03-14T14:09:26Z",
+  "homepage": "https://seredis.dev/",
+  "size_kb": 40781,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-11-02T20:46:48.782Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
