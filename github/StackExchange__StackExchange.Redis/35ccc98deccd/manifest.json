@@ -1,0 +1,53 @@
+{
+  "repo": "StackExchange/StackExchange.Redis",
+  "commit_sha": "35ccc98deccd3dedee66edf5d9e276e8a1e902ad",
+  "tree_sha": "b026d8c5449fe4abd82cbf97d956aef671fd02fc",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The Redis client for .NET",
+  "license": "MIT",
+  "license_name": "MIT License",
+  "stars": 6207,
+  "watchers": 6207,
+  "forks": 1560,
+  "open_issues": 212,
+  "language": "C#",
+  "topics": [
+    "c-sharp",
+    "redis",
+    "redis-client"
+  ],
+  "commit_message": "Parse unbracketed IPv6 ip:port from the server (#1422) (#3307)\n\n* Parse unbracketed IPv6 ip:port from the server (#1422)\n\nCLUSTER NODES, MOVED/ASK and CLIENT LIST write IPv6 addresses without\nbrackets, i.e. \"2a06:4e80:3:a::a:7000\". The RFC 3986 parser used for\nconfiguration strings reads that as a (valid!) eight-group address with\nno port, so cluster nodes ended up as \"[2a06:4e80:3:a::a:7000]:0\" and\nredirections and client addresses were equally wrong.\n\nAdd Format.TryParseServerEndPoint for the ",
+  "commit_author": {
+    "name": "Marc Gravell",
+    "email": "marc.gravell@gmail.com",
+    "date": "2026-10-30T12:19:33Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-10-30T12:19:33Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "e2c48d8aeb4eccb1dbfec35ffc0ec91315d4a054"
+  ],
+  "github_author_login": "mgravell",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-11-02T16:02:50Z",
+  "created_at": "2014-03-14T14:09:26Z",
+  "homepage": "https://seredis.dev/",
+  "size_kb": 40781,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-11-02T20:46:54.348Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
