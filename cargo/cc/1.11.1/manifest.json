@@ -1,0 +1,69 @@
+{
+  "name": "cc",
+  "version": "1.11.1",
+  "ecosystem": "cargo",
+  "description": "A build-time dependency for Cargo build scripts to assist in invoking the native\nC compiler to compile native C code into a static archive to be linked into Rust\ncode.\n",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "4ff2a8126fff0f8c839080d619675a585e61720bb12d2baceae45769fd66f155",
+  "features": {
+    "compile-commands": [],
+    "jobserver": [],
+    "parallel": [
+      "dep:jobserver",
+      "dep:libc"
+    ]
+  },
+  "downloads": 865703,
+  "yanked": false,
+  "repository": "https://github.com/rust-lang/cc-rs",
+  "homepage": "https://github.com/rust-lang/cc-rs",
+  "keywords": [
+    "build-dependencies"
+  ],
+  "categories": [
+    "Build Utils"
+  ],
+  "dependencies": [
+    {
+      "name": "find-msvc-tools",
+      "requirement": "^0.1.15",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "shlex",
+      "requirement": "^2.0.1",
+      "kind": "normal",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "tempfile",
+      "requirement": "^3.0.4",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "jobserver",
+      "requirement": "^0.1.32",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    },
+    {
+      "name": "libc",
+      "requirement": "^0.2.168",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": null,
+  "publishedAt": "2026-11-06T08:34:42.838477Z",
+  "captured_at": "2026-11-07T20:47:00.587Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
