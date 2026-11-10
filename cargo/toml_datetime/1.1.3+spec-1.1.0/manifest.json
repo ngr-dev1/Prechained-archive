@@ -1,0 +1,64 @@
+{
+  "name": "toml_datetime",
+  "version": "1.1.3+spec-1.1.0",
+  "ecosystem": "cargo",
+  "description": "A TOML-compatible datetime type",
+  "license": "MIT OR Apache-2.0",
+  "checksum": "173f25c883cd2176a2d8212155638c0a60d484a9d84546d270866f40f56b6e49",
+  "features": {
+    "alloc": [
+      "serde_core?/alloc"
+    ],
+    "default": [
+      "std"
+    ],
+    "serde": [
+      "dep:serde_core"
+    ],
+    "std": [
+      "alloc",
+      "serde_core?/std"
+    ]
+  },
+  "downloads": 1644405,
+  "yanked": false,
+  "repository": "https://github.com/toml-rs/toml",
+  "homepage": null,
+  "keywords": [
+    "encoding",
+    "no_std",
+    "toml"
+  ],
+  "categories": [
+    "Encoding",
+    "Parsing tools",
+    "Configuration",
+    "Parser implementations"
+  ],
+  "dependencies": [
+    {
+      "name": "snapbox",
+      "requirement": "^1.1.0",
+      "kind": "dev",
+      "optional": false,
+      "default_features": true
+    },
+    {
+      "name": "serde_core",
+      "requirement": "^1.0.228",
+      "kind": "normal",
+      "optional": true,
+      "default_features": false
+    }
+  ],
+  "authors": [],
+  "published_by": {
+    "id": 6743,
+    "login": "epage",
+    "name": "Ed Page"
+  },
+  "publishedAt": "2026-11-06T13:52:00.591421Z",
+  "captured_at": "2026-11-10T22:20:41.068Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
