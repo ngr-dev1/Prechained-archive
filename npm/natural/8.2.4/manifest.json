@@ -1,0 +1,133 @@
+{
+  "name": "natural",
+  "version": "8.2.4",
+  "ecosystem": "npm",
+  "description": "General natural language (tokenizing, stemming (English, Russian, Spanish), part-of-speech tagging, sentiment analysis, classification, inflection, phonetics, tfidf, WordNet, jaro-winkler, Levenshtein distance, Dice's Coefficient) facilities for node.",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.18.0",
+    "uuid": "^13.0.0",
+    "memjs": "^1.3.2",
+    "redis": "^5.11.0",
+    "dotenv": "^17.3.1",
+    "mongoose": "^9.2.1",
+    "afinn-165": "^2.0.2",
+    "apparatus": "^0.0.10",
+    "sylvester": "^0.0.21",
+    "underscore": "^1.13.0",
+    "wordnet-db": "^3.1.14",
+    "stopwords-iso": "^1.1.0",
+    "safe-stable-stringify": "^2.5.0",
+    "afinn-165-financialmarketnews": "^3.0.0"
+  },
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "nyc": "^15.1.0",
+    "pegjs": "^0.10.0",
+    "sinon": "^17.0.0",
+    "eslint": "^8.57.0",
+    "rimraf": "^5.0.0",
+    "rollup": "^4.57.1",
+    "jasmine": "^6.0.0",
+    "ts-node": "^10.9.2",
+    "cross-env": "^10.1.0",
+    "proxyquire": "^2.1.3",
+    "typescript": "^5.9.3",
+    "@types/node": "^25.2.3",
+    "jasmine-core": "^6.0.0",
+    "@types/jasmine": "^6.0.0",
+    "eslint-plugin-n": "^16.6.2",
+    "source-map-support": "^0.5.21",
+    "@rollup/plugin-json": "^6.1.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-promise": "^6.6.0",
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "eslint-config-standard-with-typescript": "^43.0.1"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=0.4.10"
+  },
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": null,
+    "prepublish": null,
+    "prepublishOnly": null
+  },
+  "maintainers": [
+    {
+      "name": "chrisumbel",
+      "email": "chris@chrisumbel.com"
+    },
+    {
+      "name": "kkoch986",
+      "email": "kkoch986@gmail.com"
+    },
+    {
+      "name": "hugo-ter-doest",
+      "email": "hwl.ter.doest@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Chris Umbel",
+    "email": "chris@chrisumbel.com"
+  },
+  "publishedAt": "2026-10-26T07:08:24.544Z",
+  "dist": {
+    "integrity": "sha512-+PTIOtYcNNRjtcihKiJCnFlG0iOczrXtuvPWisU7/VrJXudgjUpr00ys2O/oythygj4JSZMNFzBQw2i2bv0aWw==",
+    "shasum": "c35a94cb79de073d6a2c50fecb1c618575d19053",
+    "tarball": "https://registry.npmjs.org/natural/-/natural-8.2.4.tgz",
+    "fileCount": 246,
+    "unpackedSize": 13793682
+  },
+  "repository": {
+    "url": "git://github.com/NaturalNode/natural.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/NaturalNode/natural",
+  "bugs": {
+    "url": "https://github.com/NaturalNode/natural/issues"
+  },
+  "keywords": [
+    "natural language processing",
+    "artifical intelligence",
+    "statistics",
+    "Porter stemmer",
+    "Lancaster stemmer",
+    "tokenizer",
+    "bigram",
+    "trigram",
+    "quadgram",
+    "ngram",
+    "stemmer",
+    "bayes",
+    "classifier",
+    "phonetic",
+    "metaphone",
+    "inflector",
+    "Wordnet",
+    "tf-idf",
+    "logistic regression",
+    "doublemetaphone",
+    "double",
+    "jaro-winkler distance",
+    "levenshtein distance",
+    "string distance",
+    "part-of-speech tagger",
+    "Eric Brill",
+    "Brill tagger",
+    "sentiment analysis",
+    "maximum entropy modelling"
+  ],
+  "_npmUser": {
+    "name": "hugo-ter-doest",
+    "email": "hwl.ter.doest@gmail.com"
+  },
+  "captured_at": "2026-11-15T22:17:31.409Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
