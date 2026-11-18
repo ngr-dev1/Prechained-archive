@@ -1,0 +1,51 @@
+{
+  "repo": "npm/node-semver",
+  "commit_sha": "69b305d8a243c1ae9e0982dbe67217ab2bb9474b",
+  "tree_sha": "49c96604d2ec7f1e29f49f8c933d5efb6328bd95",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "The semver parser for node (the one npm uses)",
+  "license": "ISC",
+  "license_name": "ISC License",
+  "stars": 5475,
+  "watchers": 5475,
+  "forks": 631,
+  "open_issues": 87,
+  "language": "JavaScript",
+  "topics": [
+    "npm-cli"
+  ],
+  "commit_message": "fix: improve range parsing performance (#918)\n\n## Summary\n- Replace comparator whitespace normalization with a regex-free scanner\nthat preserves legacy match boundaries.\n- Cache numeric lookahead to avoid repeatedly scanning overlapping digit\nruns.\n- Share the ECMAScript whitespace definition between production and\ntests, using a byte lookup table rather than a Set.\n- Add legacy compatibility checks and large-prefix/numeric-input\nregression coverage.\n\n## Stack\nOriginally stacked on #917, which w",
+  "commit_author": {
+    "name": "Tea Reggi",
+    "email": "reggi@github.com",
+    "date": "2026-11-02T15:51:00Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-11-02T15:51:00Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "7257c14239476205b4b0bf7e47b07b3e7a517be6"
+  ],
+  "github_author_login": "reggi",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-11-05T19:55:36Z",
+  "created_at": "2011-02-12T00:06:03Z",
+  "homepage": "https://semver.npmjs.com/",
+  "size_kb": 1436,
+  "has_wiki": false,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-11-18T22:26:53.189Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
