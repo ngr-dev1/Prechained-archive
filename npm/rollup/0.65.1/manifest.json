@@ -1,0 +1,129 @@
+{
+  "name": "rollup",
+  "version": "0.65.1",
+  "ecosystem": "npm",
+  "description": "Next-generation ES module bundler",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "*",
+    "@types/estree": "0.0.39"
+  },
+  "devDependencies": {
+    "shx": "^0.3.2",
+    "acorn": "^5.7.1",
+    "buble": "^0.19.3",
+    "execa": "^0.10.0",
+    "husky": "^0.14.3",
+    "mocha": "^5.2.0",
+    "eslint": "^5.3.0",
+    "rollup": "^0.63.5",
+    "sander": "^0.6.0",
+    "tslint": "^5.11.0",
+    "hash.js": "^1.1.5",
+    "chokidar": "^2.0.4",
+    "istanbul": "^0.4.3",
+    "minimist": "^1.2.0",
+    "prettier": "^1.14.0",
+    "date-time": "^2.1.0",
+    "fixturify": "^0.3.4",
+    "immutable": "^3.8.2",
+    "pretty-ms": "^3.2.0",
+    "uglify-js": "^3.4.6",
+    "url-parse": "^1.4.3",
+    "source-map": "^0.6.1",
+    "turbocolor": "^2.4.1",
+    "typescript": "^3.0.1",
+    "lint-staged": "^7.2.0",
+    "signal-exit": "^3.0.2",
+    "@types/acorn": "^4.0.3",
+    "ansi-escapes": "^3.1.0",
+    "is-reference": "^1.1.0",
+    "magic-string": "^0.25.0",
+    "pretty-bytes": "^5.1.0",
+    "console-group": "^0.3.1",
+    "remap-istanbul": "^0.11.1",
+    "@types/chokidar": "^1.7.5",
+    "@types/minimist": "^1.2.0",
+    "sourcemap-codec": "^1.4.1",
+    "@types/pretty-ms": "^3.0.0",
+    "locate-character": "^2.0.5",
+    "require-relative": "^0.8.7",
+    "acorn-import-meta": "^0.2.1",
+    "rollup-plugin-json": "^3.0.0",
+    "rollup-pluginutils": "^2.3.0",
+    "source-map-support": "^0.5.6",
+    "rollup-plugin-buble": "^0.19.2",
+    "acorn-dynamic-import": "^3.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "rollup-plugin-string": "^2.0.2",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-commonjs": "^9.1.4",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  },
+  "peerDependencies": {},
+  "engines": {},
+  "scripts": {
+    "install": null,
+    "preinstall": null,
+    "postinstall": null,
+    "prepare": "npm run build",
+    "prepublish": null,
+    "prepublishOnly": "npm run lint && npm run test"
+  },
+  "maintainers": [
+    {
+      "name": "eventualbuddha",
+      "email": "me@brian-donovan.com"
+    },
+    {
+      "name": "lukastaegert",
+      "email": "lukas.taegert@tngtech.com"
+    },
+    {
+      "name": "rich_harris",
+      "email": "richard.a.harris@gmail.com"
+    },
+    {
+      "name": "trysound",
+      "email": "trysound@yandex.ru"
+    },
+    {
+      "name": "victorystick",
+      "email": "victorystick@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Rich Harris"
+  },
+  "publishedAt": "2018-09-05T06:36:45.034Z",
+  "dist": {
+    "integrity": "sha512-46SzczqVygjcFVWsTBEg5x6hYVab9D/SFXWMkRgkGrBYxaUDvc442wwciO8Ow5DK4VCTwAC2CsX2Tpb89U9sXA==",
+    "shasum": "583ea5dc4c6e4d2d1ed9adc60bfaf2178afe9ea9",
+    "tarball": "https://registry.npmjs.org/rollup/-/rollup-0.65.1.tgz",
+    "fileCount": 9,
+    "unpackedSize": 2830346
+  },
+  "repository": {
+    "url": "git+https://github.com/rollup/rollup.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/rollup/rollup",
+  "bugs": {
+    "url": "https://github.com/rollup/rollup/issues"
+  },
+  "keywords": [
+    "modules",
+    "bundler",
+    "bundling",
+    "es6",
+    "optimizer"
+  ],
+  "_npmUser": {
+    "name": "lukastaegert",
+    "email": "lukas.taegert@tngtech.com"
+  },
+  "captured_at": "2026-11-19T12:23:36.840Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
