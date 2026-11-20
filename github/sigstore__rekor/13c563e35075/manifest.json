@@ -1,0 +1,54 @@
+{
+  "repo": "sigstore/rekor",
+  "commit_sha": "13c563e350750c1fc083511b3f06f9228aa7c0c9",
+  "tree_sha": "611f385abffad93361d934cead1d604c4d2fe61c",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Software Supply Chain Transparency Log",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 1237,
+  "watchers": 1237,
+  "forks": 233,
+  "open_issues": 63,
+  "language": "Go",
+  "topics": [
+    "provenance",
+    "security",
+    "supply-chain",
+    "transparency-log"
+  ],
+  "commit_message": "alpine: limit decompressed size of control.tar.gz (#3031)\n\nThe max_apk_metadata_size cap on decompression was only applied to\nsignature.tar.gz. control.tar.gz was still read into memory until EOF,\nso a small APK whose second gzip member is a compression bomb forces\nthe server to allocate several GiB before the package signature is\nchecked.\n\nApply the same limit to control.tar.gz and extend\nTestAlpineMetadataSizeBoundary to cover it.\n\nSigned-off-by: Alhuda Khan <admin@research.digiscrypt.com>",
+  "commit_author": {
+    "name": "kitkatt7",
+    "email": "admin@research.digiscrypt.com",
+    "date": "2026-11-20T16:25:51Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-11-20T16:25:51Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "0baa39712ffa627b70756ea555193ec84bea4507"
+  ],
+  "github_author_login": "kitkatt7",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-11-20T17:09:44Z",
+  "created_at": "2020-06-17T12:04:01Z",
+  "homepage": "https://sigstore.dev",
+  "size_kb": 18615,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-11-20T22:18:52.654Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
