@@ -1,0 +1,54 @@
+{
+  "repo": "sigstore/rekor",
+  "commit_sha": "b8a16476cfba19a2838f237ab4f7be0637bb6175",
+  "tree_sha": "0c71acccad6891ced0e6ee37ea4682f607f4a745",
+  "branch": "main",
+  "ecosystem": "github",
+  "description": "Software Supply Chain Transparency Log",
+  "license": "Apache-2.0",
+  "license_name": "Apache License 2.0",
+  "stars": 1237,
+  "watchers": 1237,
+  "forks": 233,
+  "open_issues": 63,
+  "language": "Go",
+  "topics": [
+    "provenance",
+    "security",
+    "supply-chain",
+    "transparency-log"
+  ],
+  "commit_message": "reduce trillian RPCs in directTrillianClient.AddLeaf (#3090)\n\n* reduce trillian RPCs in directTrillianClient.AddLeaf\n\nReplacing WaitForRootUpdate also removes its root-to-root consistency\nverification from the AddLeaf polling path. Root polls no longer request\nconsistency proofs via FirstTreeSize. Inclusion proofs are still verified\nagainst the fetched root, but this path now relies on Trillian to maintain\nappend-only consistency instead of verifying consistency between roots.\n\nSigned-off-by: Bo",
+  "commit_author": {
+    "name": "Bob Callaway",
+    "email": "2845093+bobcallaway@users.noreply.github.com",
+    "date": "2026-11-20T17:00:55Z"
+  },
+  "commit_committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-11-20T17:00:55Z"
+  },
+  "commit_verified": true,
+  "commit_verification_reason": "valid",
+  "commit_parents": [
+    "13c563e350750c1fc083511b3f06f9228aa7c0c9"
+  ],
+  "github_author_login": "bobcallaway",
+  "github_committer_login": "web-flow",
+  "archived": false,
+  "disabled": false,
+  "visibility": "public",
+  "default_branch": "main",
+  "pushed_at": "2026-11-20T17:09:44Z",
+  "created_at": "2020-06-17T12:04:01Z",
+  "homepage": "https://sigstore.dev",
+  "size_kb": 18615,
+  "has_wiki": true,
+  "has_issues": true,
+  "is_fork": false,
+  "parent_repo": null,
+  "captured_at": "2026-11-20T22:18:51.354Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
