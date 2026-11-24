@@ -1,0 +1,89 @@
+{
+  "name": "Npgsql.EntityFrameworkCore.PostgreSQL",
+  "version": "10.0.4",
+  "ecosystem": "nuget",
+  "description": "PostgreSQL/Npgsql provider for Entity Framework Core.",
+  "license": "PostgreSQL",
+  "licenseExpression": "PostgreSQL",
+  "authors": [
+    "Shay Rojansky",
+    "Austin Drenski",
+    "Yoh Deadfall"
+  ],
+  "owners": [],
+  "tags": [
+    "npgsql",
+    "postgresql",
+    "postgres",
+    "Entity",
+    "Framework",
+    "Core",
+    "entity-framework-core",
+    "ef",
+    "efcore",
+    "orm",
+    "sql"
+  ],
+  "projectUrl": "https://github.com/npgsql/efcore.pg",
+  "repositoryUrl": null,
+  "repositoryType": null,
+  "repositoryCommit": null,
+  "dependencies": [
+    {
+      "id": "Microsoft.EntityFrameworkCore",
+      "range": "[10.0.15, 11.0.0)",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "Microsoft.EntityFrameworkCore.Relational",
+      "range": "[10.0.15, 11.0.0)",
+      "targetFramework": "net10.0"
+    },
+    {
+      "id": "Npgsql",
+      "range": "[10.0.4, )",
+      "targetFramework": "net10.0"
+    }
+  ],
+  "dependencyGroups": [
+    {
+      "@id": "https://api.nuget.org/v3/catalog0/data/2026.11.20.15.50.01/npgsql.entityframeworkcore.postgresql.10.0.4.json#dependencygroup/net10.0",
+      "@type": "PackageDependencyGroup",
+      "dependencies": [
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.11.20.15.50.01/npgsql.entityframeworkcore.postgresql.10.0.4.json#dependencygroup/net10.0/microsoft.entityframeworkcore",
+          "@type": "PackageDependency",
+          "id": "Microsoft.EntityFrameworkCore",
+          "range": "[10.0.15, 11.0.0)",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.entityframeworkcore/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.11.20.15.50.01/npgsql.entityframeworkcore.postgresql.10.0.4.json#dependencygroup/net10.0/microsoft.entityframeworkcore.relational",
+          "@type": "PackageDependency",
+          "id": "Microsoft.EntityFrameworkCore.Relational",
+          "range": "[10.0.15, 11.0.0)",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/microsoft.entityframeworkcore.relational/index.json"
+        },
+        {
+          "@id": "https://api.nuget.org/v3/catalog0/data/2026.11.20.15.50.01/npgsql.entityframeworkcore.postgresql.10.0.4.json#dependencygroup/net10.0/npgsql",
+          "@type": "PackageDependency",
+          "id": "Npgsql",
+          "range": "[10.0.4, )",
+          "registration": "https://api.nuget.org/v3/registration5-semver1/npgsql/index.json"
+        }
+      ],
+      "targetFramework": "net10.0"
+    }
+  ],
+  "publishedAt": "2026-11-20T15:40:26.433+00:00",
+  "listed": true,
+  "requireLicenseAcceptance": false,
+  "minClientVersion": null,
+  "packageHash": null,
+  "packageHashAlgorithm": null,
+  "iconUrl": "https://api.nuget.org/v3-flatcontainer/npgsql.entityframeworkcore.postgresql/10.0.4/icon",
+  "readmeUrl": "https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL/10.0.4#show-readme-container",
+  "captured_at": "2026-11-24T03:22:43.780Z",
+  "captured_by": "prechained.com",
+  "crawler_sha384": "f3c35ee1fdae6dda01000332525013832c62cb6991a4349ec6899d93d67321ac0b56442965736ae0fcb17f6c210c16da"
+}
